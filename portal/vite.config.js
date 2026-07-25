@@ -7,12 +7,14 @@ export default defineConfig({
     port: 3010,
     host: true,
     strictPort: true,
-    open: false
+    open: false,
+    allowedHosts: true
   },
   preview: {
     port: 3010,
     host: true,
-    strictPort: true
+    strictPort: true,
+    allowedHosts: true
   },
   build: {
     rollupOptions: {
