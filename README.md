@@ -1,88 +1,120 @@
-# 🏎️ F1 Insights & Morning Brief Portal (`f1-insights`)
+# 🏎️ F1 Insights & Morning Brief Platform
 
-A data-driven Formula 1 analytics engine and interactive web portal designed for F1 fans and friends. It automatically pulls telemetry data from **TracingInsights** and **Ergast/Jolpica APIs** to generate automated **Pre-Race Previews** and **Post-Race Debriefs**.
+[![Deploy to VPS](https://github.com/m3/f1-insights/actions/workflows/deploy.yml/badge.svg)](https://github.com/m3/f1-insights/actions/workflows/deploy.yml)
+[![Run Test Suite](https://github.com/m3/f1-insights/actions/workflows/test.yml/badge.svg)](https://github.com/m3/f1-insights/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
----
+A production-ready **Modular Monolith** for Formula 1 race pace analysis, corner telemetry traces, tyre degradation modeling, FIA penalty watch, multi-source X & YouTube media sentiment radar, and AI-generated race briefings.
 
-## 🌟 Key Features
-
-1. **Pre-Race Morning Briefs (Fri/Sat)**:
-   - **Strategy Forecast**: Expected pit stop count, tyre degradation risks, and compound delta.
-   - **Circuit DNA**: Downforce profile, straight vs cornering priorities, Safety Car / VSC probability.
-   - **FIA Penalty Points Watch**: Real-time tracker for drivers near the 12-point ban threshold.
-   - **Championship Stakes**: Point deltas and title race implications.
-
-2. **Post-Race Debriefs (Sun/Mon)**:
-   - **Race Pace Analysis**: Clean air pace deltas (fuel & traffic adjusted).
-   - **Tyre Stint Degradation**: Lap time degradation slopes per compound.
-   - **Fastest Pit Stop Leaderboard**: Stationary pit time rankings.
-   - **Teammate Head-to-Head**: Qualifying & race finish record comparisons.
-
-3. **Interactive Telemetry Portal**:
-   - Modern dark mode web dashboard with carbon fiber aesthetics, F1 neon styling, and interactive Recharts telemetry profiles (Speed, Throttle, Gear vs Lap Distance).
+🌐 **Live Production URL**: [https://f1.sports.superchargedbym3.com](https://f1.sports.superchargedbym3.com)  
+⚡ **API Health Endpoint**: [https://f1.sports.superchargedbym3.com/api/v1/health](https://f1.sports.superchargedbym3.com/api/v1/health)  
+📖 **OpenAPI Documentation**: [https://f1.sports.superchargedbym3.com/api/v1/docs](https://f1.sports.superchargedbym3.com/api/v1/docs)  
 
 ---
 
-## ⚙️ Process Management (PM2)
+## 🏛️ System Architecture Overview
 
-The application uses **PM2** process management for local dev & production servers:
+```
+                      ┌──────────────────────────────────────────────┐
+                      │              PRODUCTION WEB CLIENT           │
+                      │  • React + Vite SPA Dashboard                │
+                      │  • https://f1.sports.superchargedbym3.com    │
+                      └──────────────────────┬───────────────────────┘
+                                             │
+                                             │ HTTPS / REST (/api/v1/*)
+                                             ▼
+                      ┌──────────────────────────────────────────────┐
+                      │          NGINX REVERSE PROXY & SSL           │
+                      │  • Port 3010: React Vite SPA                 │
+                      │  • Port 8000: FastAPI Backend Monolith        │
+                      │  • Rate Limiting: 30r/m burst=20             │
+                      └──────────────────────┬───────────────────────┘
+                                             │
+                                             ▼
+┌───────────────────────────────────────────────────────────────────────────────────────────┐
+│                                FastAPI MODULAR MONOLITH                                   │
+│                                                                                           │
+│  ┌─────────────────────────┐  ┌─────────────────────────┐  ┌───────────────────────────┐  │
+│  │     REST API LAYER      │  │   CALENDAR SCHEDULER    │  │   ASYNC WORKER PIPELINE   │  │
+│  │ • /api/v1/overview      │  │ • Session Checkpoints   │  │ • FastF1 & TracingInsights│  │
+│  │ • /api/v1/telemetry     │  │ • Dynamic Polling       │  │ • Shared Connection Pool  │  │
+│  │ • /api/v1/admin (Key)   │  │ • Briefing Triggers     │  │ • X & YouTube Media Radar │  │
+│  └────────────┬────────────┘  └────────────┬────────────┘  └─────────────┬─────────────┘  │
+└───────────────┼────────────────────────────┼─────────────────────────────┼────────────────┘
+                │                            │                             │
+                ▼                            ▼                             ▼
+┌───────────────────────────────────────────────────────────────────────────────────────────┐
+│                              STORAGE & INTEGRATION LAYER                                  │
+│  • SQLite 3 (WAL Mode): f1_insights.db (Single Source of Truth)                            │
+│  • Multi-Source Schema: config/entities.json (Schema v2026.3)                             │
+│  • Delivery Channels: Discord Webhooks & Telegram Bot                                     │
+└───────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
+---
+
+## 🛠️ Tech Stack & Key Features
+
+- **Backend Monolith**: Python 3.11+, FastAPI, Uvicorn, SQLAlchemy, SQLite WAL Mode.
+- **Frontend Dashboard**: React, Vite, Recharts (interactive corner speed/throttle traces), Lucide React, Vanilla CSS Carbon Dark System.
+- **Data Analytics Engine**: FastF1, TracingInsights GitHub archive, Jolpica / Ergast F1 API.
+- **Social Media Radar**: Schema v2026.3 tracking journalists, drivers, technical keywords, and **YouTube watchalong channels** (`@F1Gamer`, `@peterwindsor`, `@brrrake`, `@donut`, `@autosport`).
+- **Security & Hardening**: Let's Encrypt SSL, Nginx IP Rate Limiting (`30r/m burst=20`), `X-API-Key` protected admin trigger endpoints (`/api/v1/admin/*`).
+- **CI/CD Pipeline**: GitHub Actions implementing **M3-Conventions §3 (CI-builds-the-artifact)** with rsync & PM2 health verification.
+
+---
+
+## 🚀 Local Development & Running Tests
+
+### 1. Install Dependencies
 ```bash
-# Start all services (Portal + Pipeline background worker)
-npm run pm2:start
+# Backend dependencies
+pip install -r backend/requirements.txt
 
-# Check service logs
-npm run pm2:logs
-
-# Restart services with updated env
-npm run pm2:restart
-
-# Stop services
-npm run pm2:stop
+# Frontend dependencies
+cd portal && npm install && cd ..
 ```
 
----
-
-## 🛠️ Project Structure
-
-```
-f1-insights/
-├── docs/                         # Technical & API Documentation
-│   ├── ARCHITECTURE.md           # System architecture & PM2 process layout
-│   ├── DATA_SOURCES.md           # TracingInsights & Jolpica API details
-│   └── NOTIFICATIONS.md          # Discord & Telegram webhook guide
-├── data_pipeline/                # Python Analytics & Data Ingestion
-│   ├── fetchers/                 # TracingInsights & Jolpica API wrappers
-│   ├── analytics/                # Race pace, tyre deg, penalty points engine
-│   ├── generators/               # Brief generators (Markdown, HTML & JSON)
-│   ├── main.py                   # Master entrypoint script
-│   └── requirements.txt          # Python dependencies
-├── portal/                       # React + Vite Interactive Web Dashboard
-│   ├── src/                      # React components & CSS styling
-│   └── public/data/              # Static JSON feeds generated by pipeline
-├── logs/                         # PM2 process output & error logs
-├── scripts/                      # Operational scripts
-├── ecosystem.config.js           # PM2 configuration
-├── .env.example                  # Environment configuration template
-└── package.json                  # Root script runner
-```
-
----
-
-## 🚦 Quick Start Guide
-
-### 1. Environment Setup
+### 2. Run Test Suite
 ```bash
-cp .env.example .env
+npm test
+# OR
+python3 -m pytest -v
 ```
 
-### 2. Manual Data Pipeline Run
+### 3. Run Pipeline & Dev Server
 ```bash
+# Run pipeline to seed database
 npm run pipeline
+
+# Start local PM2 stack
+npm run pm2:start
 ```
 
-### 3. Web Portal Local Development
-```bash
-npm run dev
+---
+
+## 🔄 CI/CD & Production Deployment (M3-Conventions §3)
+
+Deployments to **`m3-vps`** are fully automated via GitHub Actions ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)):
+
 ```
-Open `http://localhost:3000` in your browser.
+┌────────────────────────────────┐
+│ GitHub Actions CI Build        │ ──► Runs pytest, builds React UI in CI
+└────────────────────────────────┘
+                │
+                ▼ (Rsync Artifact)
+┌────────────────────────────────┐
+│ m3-vps Server                  │ ──► /var/www/f1-insights/
+└────────────────────────────────┘
+                │
+                ▼
+┌────────────────────────────────┐
+│ PM2 Process Supervisor         │ ──► Restarts PM2 & verifies health status
+└────────────────────────────────┘
+```
+
+### Required GitHub Secrets:
+- `VPS_HOST`: IP address of VPS (`91.99.167.113`).
+- `VPS_USERNAME`: SSH user (`mathias`).
+- `VPS_SSH_KEY`: SSH Private Key.
+- `VPS_PROJECT_PATH`: Target directory (`/var/www/f1-insights`).
