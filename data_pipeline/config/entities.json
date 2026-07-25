@@ -1,43 +1,66 @@
 {
+  "version": "2026.3",
   "official_accounts": [
-    {"name": "Tracing Insights", "handle": "TracingInsights", "priority": "high"},
-    {"name": "Formula 1", "handle": "F1", "priority": "high"},
-    {"name": "FIA", "handle": "fia", "priority": "medium"}
+    {"name": "Tracing Insights", "handle": "TracingInsights", "priority": "high", "weight": 0.95, "type": "data_telemetry"},
+    {"name": "Formula 1", "handle": "F1", "priority": "high", "weight": 1.0, "type": "official_broadcaster"},
+    {"name": "FIA", "handle": "fia", "priority": "medium", "weight": 0.8, "type": "governing_body"},
+    {"name": "Autosport", "handle": "autosport", "priority": "high", "weight": 0.85, "type": "media_outlet", "youtube": "@autosport"}
   ],
-  "journalists": [
-    {"name": "Albert Fabrega", "handle": "AlbertFabrega", "niche": "technical_upgrades"},
-    {"name": "Chris Medland", "handle": "ChrisMedlandF1", "niche": "trackside_news"},
-    {"name": "Tobi Grüner", "handle": "tobi_gruener", "niche": "auto_motor_sport"},
-    {"name": "Will Buxton", "handle": "wbuxton", "niche": "commentary"},
-    {"name": "Craig Scarborough", "handle": "ScarbsTech", "niche": "aero_technical"}
-  ],
-  "teams": [
-    {"name": "McLaren", "handle": "McLarenF1"},
-    {"name": "Ferrari", "handle": "ScuderiaFerrari"},
-    {"name": "Red Bull Racing", "handle": "redbullracing"},
-    {"name": "Mercedes-AMG F1", "handle": "MercedesAMGF1"},
-    {"name": "Aston Martin F1", "handle": "AstonMartinF1"},
-    {"name": "Williams Racing", "handle": "WilliamsRacing"}
+  "journalists_and_analysts": [
+    {"name": "Albert Fabrega", "handle": "AlbertFabrega", "niche": "technical_upgrades", "weight": 0.9},
+    {"name": "Chris Medland", "handle": "ChrisMedlandF1", "niche": "trackside_news", "weight": 0.85},
+    {"name": "Tobi Grüner", "handle": "tobi_gruener", "niche": "auto_motor_sport", "weight": 0.85},
+    {"name": "Will Buxton", "handle": "wbuxtonofficial", "niche": "commentary", "weight": 0.75},
+    {"name": "Peter Windsor", "handle": "peterdwindsor", "niche": "race_debriefs_driving_style", "weight": 0.9, "youtube": "@peterwindsor"},
+    {"name": "Craig Scarborough", "handle": "ScarbsTech", "niche": "aero_technical_analysis", "weight": 0.95},
+    {"name": "Blake Hinsey", "handle": "brrrake", "niche": "engineering_telemetry", "weight": 0.9, "youtube": "@brrrake"}
   ],
   "drivers": [
-    {"code": "NOR", "name": "Lando Norris", "handle": "LandoNorris", "team": "McLaren"},
-    {"code": "VER", "name": "Max Verstappen", "handle": "Max33Verstappen", "team": "Red Bull"},
-    {"code": "PIA", "name": "Oscar Piastri", "handle": "OscarPiastri", "team": "McLaren"},
-    {"code": "LEC", "name": "Charles Leclerc", "handle": "Charles_Leclerc", "team": "Ferrari"},
-    {"code": "HAM", "name": "Lewis Hamilton", "handle": "LewisHamilton", "team": "Ferrari"},
-    {"code": "RUS", "name": "George Russell", "handle": "GeorgeRussell63", "team": "Mercedes"},
-    {"code": "ANT", "name": "Andrea Kimi Antonelli", "handle": "KimiAntonelli", "team": "Mercedes"},
-    {"code": "LAW", "name": "Liam Lawson", "handle": "LiamLawson30", "team": "Red Bull"}
+    {"code": "NOR", "name": "Lando Norris", "handle": "LandoNorris", "team": "McLaren", "status": "active"},
+    {"code": "VER", "name": "Max Verstappen", "handle": "Max33Verstappen", "team": "Red Bull", "status": "active"},
+    {"code": "PIA", "name": "Oscar Piastri", "handle": "OscarPiastri", "team": "McLaren", "status": "active"},
+    {"code": "LEC", "name": "Charles Leclerc", "handle": "Charles_Leclerc", "team": "Ferrari", "status": "active"},
+    {"code": "HAM", "name": "Lewis Hamilton", "handle": "LewisHamilton", "team": "Ferrari", "status": "active"},
+    {"code": "ANT", "name": "Andrea Kimi Antonelli", "handle": "KimiAntonelli", "team": "Mercedes", "status": "active"}
   ],
-  "keywords": [
-    "telemetry",
-    "floor upgrade",
-    "stewards decision",
-    "track limits",
-    "penalty points",
-    "pit stop delta",
-    "tyre degradation",
-    "undercut"
+  "keywords": {
+    "technical": [
+      "telemetry",
+      "floor upgrade",
+      "sidepod undercut",
+      "tyre degradation",
+      "MGU-K",
+      "active aerodynamics",
+      "driving technique",
+      "corner entry speed"
+    ],
+    "regulatory": [
+      "stewards decision",
+      "track limits",
+      "penalty points",
+      "cost cap",
+      "FIA summons"
+    ],
+    "live_coverage": [
+      "watchalong",
+      "live timing",
+      "FP1 commentary",
+      "quali reaction",
+      "race commentary"
+    ]
+  },
+  "hashtags": [
+    "#F1",
+    "#F12026",
+    "#Formula1",
+    "#TechF1",
+    "#F1Live"
   ],
-  "hashtags": ["#F1", "#F12026", "#Formula1"]
+  "youtube_sources": [
+    {"channel_name": "F1 Gamer", "handle": "@F1Gamer", "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"},
+    {"channel_name": "Peter Windsor", "handle": "@peterwindsor", "focus": "Grand Prix Debriefs & Driver Technique Analysis"},
+    {"channel_name": "Donut - Up to Speed", "handle": "@donut", "focus": "Automotive & Motorsport History/Deep Dives"},
+    {"channel_name": "Brrrake F1", "handle": "@brrrake", "focus": "Telemetry & Engineer Reaction"},
+    {"channel_name": "Autosport", "handle": "@autosport", "focus": "Technical Upgrades & Paddock Debriefs"}
+  ]
 }
