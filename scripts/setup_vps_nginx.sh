@@ -15,6 +15,8 @@ if [ ! -d "$PROJECT_PATH" ]; then
     mkdir -p "$PROJECT_PATH"
 fi
 
+mkdir -p /var/www/html
+
 # 2. Deploy Base Nginx Configuration
 echo "🌐 Installing Nginx virtual host for $DOMAIN..."
 cp "$PROJECT_PATH/docs/nginx-f1-insights.conf" "/etc/nginx/sites-available/$DOMAIN.conf"
@@ -27,7 +29,10 @@ systemctl reload nginx
 # 3. Provision Certbot SSL Certificate & Upgrade to HTTPS
 echo "🔒 Provisioning SSL certificate via Certbot for $DOMAIN..."
 if command -v certbot &> /dev/null; then
-    certbot --nginx -d "$DOMAIN" --non-interactive --agree-tos -m "$EMAIL" --redirect || echo "Certbot notice: If DNS record for $DOMAIN is not yet pointing to this VPS IP, run 'sudo certbot --nginx -d $DOMAIN' after updating DNS."
+    # Try webroot mode first (Cloudflare proxy friendly), then fallback to nginx plugin
+    certbot certonly --webroot -w /var/www/html -d "$DOMAIN" --non-interactive --agree-tos -m "$EMAIL" || \
+    certbot --nginx -d "$DOMAIN" --non-interactive --agree-tos -m "$EMAIL" || \
+    echo "Certbot Notice: If $DOMAIN is proxied behind Cloudflare (Orange Cloud ON), switch DNS to Gray Cloud (DNS Only) temporarily or use Cloudflare SSL."
 else
     echo "Certbot not found. Install via 'sudo apt-get install -y certbot python3-certbot-nginx'."
 fi
