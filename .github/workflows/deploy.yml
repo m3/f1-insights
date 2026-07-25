@@ -1,0 +1,33 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy to Production VPS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Execute Remote SSH Deployment
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USERNAME }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT || 22 }}
+          script: |
+            set -e
+            echo "🏎️ Deploying F1 Insights to VPS..."
+            cd ${{ secrets.VPS_PROJECT_PATH || '~/Development/Projects/f1-insights' }}
+            git pull origin main
+            python3 -m pip install -r backend/requirements.txt -q
+            cd portal && npm install --silent && npm run build && cd ..
+            python3 data_pipeline/main.py
+            pm2 restart ecosystem.config.js --update-env || pm2 start ecosystem.config.js
+            pm2 save
+            echo "✅ Deployment completed successfully!"
