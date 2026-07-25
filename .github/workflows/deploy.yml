@@ -45,23 +45,43 @@ jobs:
           npm ci
           npm run build
 
-      - name: Rsync Artifact to VPS
-        uses: easingthemes/ssh-deploy@v5.1.0
+      - name: Install SSH Private Key
+        uses: shimataro/ssh-key-action@v2
         with:
-          SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_KEY }}
-          REMOTE_HOST: ${{ secrets.VPS_HOST }}
-          REMOTE_USER: mathias
-          REMOTE_PORT: ${{ secrets.VPS_PORT || 22 }}
-          SOURCE: "./"
-          TARGET: ${{ secrets.VPS_PROJECT_PATH || '/var/www/f1-insights/' }}
-          ARGS: "-rlgoDzvO --delete --exclude=.venv --exclude=backend/data --exclude=*.db --exclude=*.db-shm --exclude=*.db-wal --exclude=logs --exclude=*.log --exclude=portal/node_modules --exclude=.env --exclude=.env.*"
+          key: ${{ secrets.VPS_SSH_KEY || secrets.SSH_PRIVATE_KEY || secrets.M3_VPS_SSH_KEY }}
+          known_hosts: 'placeholder'
+          if_key_exists: replace
+
+      - name: Add VPS Host Fingerprint to Known Hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H ${{ secrets.VPS_HOST || '91.99.167.113' }} >> ~/.ssh/known_hosts
+
+      - name: Rsync Artifact to VPS
+        run: |
+          TARGET_HOST="${{ secrets.VPS_HOST || '91.99.167.113' }}"
+          TARGET_USER="${{ secrets.VPS_USER || 'mathias' }}"
+          TARGET_PATH="${{ secrets.VPS_PROJECT_PATH || '/var/www/f1-insights/' }}"
+          
+          rsync -rlgoDzvO --delete \
+            --exclude=.venv \
+            --exclude=backend/data \
+            --exclude=*.db \
+            --exclude=*.db-shm \
+            --exclude=*.db-wal \
+            --exclude=logs \
+            --exclude=*.log \
+            --exclude=portal/node_modules \
+            --exclude=.env \
+            --exclude=.env.* \
+            ./ "${TARGET_USER}@${TARGET_HOST}:${TARGET_PATH}"
 
       - name: Restart PM2 & Verify Health on VPS
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.VPS_HOST }}
-          username: mathias
-          key: ${{ secrets.VPS_SSH_KEY }}
+          host: ${{ secrets.VPS_HOST || '91.99.167.113' }}
+          username: ${{ secrets.VPS_USER || 'mathias' }}
+          key: ${{ secrets.VPS_SSH_KEY || secrets.SSH_PRIVATE_KEY || secrets.M3_VPS_SSH_KEY }}
           port: ${{ secrets.VPS_PORT || 22 }}
           script: |
             cd ${{ secrets.VPS_PROJECT_PATH || '/var/www/f1-insights' }}
