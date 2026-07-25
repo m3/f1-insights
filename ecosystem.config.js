@@ -11,14 +11,14 @@ module.exports = {
       name: 'f1-insights-portal',
       cwd: path.join(__dirname, 'portal'),
       script: 'npm',
-      args: 'run dev -- --port 3000 --host',
+      args: 'run preview -- --port 3000 --host',
       interpreter: 'none',
       autorestart: true,
       watch: false,
       out_file: path.join(__dirname, 'logs', 'portal_out.log'),
       error_file: path.join(__dirname, 'logs', 'portal_err.log'),
       env: {
-        NODE_ENV: 'development',
+        NODE_ENV: 'production',
         PORT: 3000
       }
     },
