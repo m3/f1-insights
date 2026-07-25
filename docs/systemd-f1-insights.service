@@ -1,0 +1,16 @@
+[Unit]
+Description=F1 Insights Platform (FastAPI + React + PM2)
+After=network.target pm2-mathias.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=mathias
+WorkingDirectory=/var/www/f1-insights
+ExecStart=/usr/local/bin/pm2 start /var/www/f1-insights/ecosystem.config.js
+ExecReload=/usr/local/bin/pm2 reload /var/www/f1-insights/ecosystem.config.js --update-env
+ExecStop=/usr/local/bin/pm2 stop /var/www/f1-insights/ecosystem.config.js
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
