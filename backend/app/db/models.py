@@ -1,8 +1,9 @@
-from sqlalchemy import Column, Integer, String, Float, Boolean, DateTime, Text, ForeignKey, func
+from sqlalchemy import Column, Integer, String, Float, Boolean, DateTime, Text, func
 from app.core.database import Base
 
 class Race(Base):
     __tablename__ = "races"
+    __table_args__ = {'extend_existing': True}
 
     id = Column(String, primary_key=True) # e.g. '2026-11'
     season = Column(Integer, nullable=False)
@@ -18,6 +19,7 @@ class Race(Base):
 
 class Driver(Base):
     __tablename__ = "drivers"
+    __table_args__ = {'extend_existing': True}
 
     driver_id = Column(String, primary_key=True) # e.g. 'norris'
     code = Column(String, unique=True, nullable=False) # e.g. 'NOR'
@@ -29,6 +31,7 @@ class Driver(Base):
 
 class DriverStandingModel(Base):
     __tablename__ = "driver_standings"
+    __table_args__ = {'extend_existing': True}
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     season = Column(Integer, nullable=False)
@@ -42,6 +45,7 @@ class DriverStandingModel(Base):
 
 class ConstructorStandingModel(Base):
     __tablename__ = "constructor_standings"
+    __table_args__ = {'extend_existing': True}
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     season = Column(Integer, nullable=False)
@@ -53,6 +57,7 @@ class ConstructorStandingModel(Base):
 
 class PenaltyPointModel(Base):
     __tablename__ = "penalty_points"
+    __table_args__ = {'extend_existing': True}
 
     driver_code = Column(String, primary_key=True)
     driver_name = Column(String, nullable=False)
@@ -64,6 +69,7 @@ class PenaltyPointModel(Base):
 
 class BriefModel(Base):
     __tablename__ = "briefs"
+    __table_args__ = {'extend_existing': True}
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     race_id = Column(String, nullable=False)
@@ -75,6 +81,7 @@ class BriefModel(Base):
 
 class MasterOverviewCache(Base):
     __tablename__ = "overview_cache"
+    __table_args__ = {'extend_existing': True}
 
     id = Column(String, primary_key=True, default="latest")
     payload_json = Column(Text, nullable=False)

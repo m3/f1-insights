@@ -7,15 +7,10 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-# Ensure backend root and data_pipeline are in sys.path
-app_dir = os.path.dirname(os.path.abspath(__file__))
-backend_dir = os.path.dirname(app_dir)
-root_dir = os.path.dirname(backend_dir)
-
-if backend_dir not in sys.path:
-    sys.path.insert(0, backend_dir)
-if os.path.join(root_dir, "data_pipeline") not in sys.path:
-    sys.path.insert(0, os.path.join(root_dir, "data_pipeline"))
+# Ensure data_pipeline is in path for fetchers and analytics
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(os.path.join(base_dir, "data_pipeline"))
+sys.path.append(os.path.join(base_dir, "backend"))
 
 from app.core.config import settings
 from app.core.database import engine, Base, SessionLocal
@@ -31,7 +26,7 @@ def populate_initial_db_cache():
     try:
         existing = db.query(MasterOverviewCache).filter(MasterOverviewCache.id == "latest").first()
         if not existing:
-            json_path = os.path.join(root_dir, "portal", "public", "data", "overview.json")
+            json_path = os.path.join(base_dir, "portal", "public", "data", "overview.json")
             if os.path.exists(json_path):
                 with open(json_path, "r") as f:
                     content = f.read()
@@ -74,4 +69,4 @@ app.include_router(api_router, prefix=settings.API_V1_STR)
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=settings.PORT, reload=True)
+    uvicorn.run("app.main:app", host="0.0.0.0", port=settings.PORT)

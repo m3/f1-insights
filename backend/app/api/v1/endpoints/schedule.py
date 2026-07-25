@@ -1,8 +1,7 @@
 import json
-import os
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from app.core.database import get_db, settings
+from app.core.database import get_db
 from app.db.models import MasterOverviewCache
 
 router = APIRouter()
