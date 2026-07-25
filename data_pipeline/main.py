@@ -8,6 +8,7 @@ import sys
 import json
 from datetime import datetime
 from fetchers.tracing_insights import F1DataFetcher
+from fetchers.session_watcher import SessionWatcher
 from analytics.telemetry import F1AnalyticsEngine
 from analytics.sentiment import F1SentimentEngine
 from generators.brief_generator import BriefGenerator
@@ -26,11 +27,12 @@ def find_target_race(schedule: list) -> dict:
 def run_pipeline():
     print("🚀 Starting F1 Insights Data Pipeline...")
     
-    # 1. Initialize fetcher, analytics & notifier
+    # 1. Initialize fetchers, analytics & notifier
     fetcher = F1DataFetcher()
+    watcher = SessionWatcher()
     analytics = F1AnalyticsEngine()
     notifier = F1Notifier()
-    
+
     # Paths to export JSON
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     portal_data_dir = os.path.join(base_dir, "portal", "public", "data")
@@ -52,6 +54,10 @@ def run_pipeline():
     # Dynamic target race selection
     next_race = find_target_race(schedule)
     print(f"🏎️ Target Grand Prix Weekend: {next_race.get('raceName')} ({next_race.get('date')})")
+
+    # Session checkpoints & GitHub updates check
+    session_checkpoints = watcher.get_upcoming_checkpoint(next_race)
+    tracing_commit_status = watcher.check_tracing_insights_updated()
 
     # 3. Analytics & Telemetry Traces
     pre_race_facts = analytics.generate_pre_race_facts(next_race, driver_standings)
@@ -84,6 +90,8 @@ def run_pipeline():
         "penaltyPoints": penalty_points,
         "teammateBattles": teammate_battles,
         "socialSentiment": social_sentiment,
+        "sessionCheckpoints": session_checkpoints,
+        "tracingCommitStatus": tracing_commit_status,
         "telemetryTraces": telemetry_traces,
         "latestPreBrief": pre_brief,
         "latestPostBrief": post_brief

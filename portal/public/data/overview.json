@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T19:56:40.272320",
+  "updatedAt": "2026-07-25T20:10:14.136536",
   "currentRace": {
     "season": "2026",
     "round": "11",
@@ -1584,50 +1584,60 @@
     }
   ],
   "socialSentiment": {
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 78,
+    "overallSentiment": "HIGHLY HYPED",
+    "sentimentScore": 81,
+    "monitoredAccountsCount": 8,
     "trendingHashtags": [
-      "#DutchGP",
+      "#HungarianGrandPrix",
+      "#F1",
       "#F12026",
-      "#Norris",
-      "#Verstappen",
-      "#StrategyFail"
+      "#Formula1"
     ],
     "driverSentimentRanking": [
       {
         "driver": "Lando Norris",
         "code": "NOR",
+        "handle": "LandoNorris",
+        "team": "McLaren",
         "score": 85,
-        "sentiment": "Heroic",
-        "buzz": "High Q3 lap hype"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "score": 82,
-        "sentiment": "Solid",
-        "buzz": "Clean race pace praise"
+        "sentiment": "Positive",
+        "buzz": "High engagement around @LandoNorris"
       },
       {
         "driver": "Max Verstappen",
         "code": "VER",
-        "score": 74,
-        "sentiment": "Respected",
-        "buzz": "Home crowd support"
+        "handle": "Max33Verstappen",
+        "team": "Red Bull",
+        "score": 81,
+        "sentiment": "Positive",
+        "buzz": "High engagement around @Max33Verstappen"
+      },
+      {
+        "driver": "Oscar Piastri",
+        "code": "PIA",
+        "handle": "OscarPiastri",
+        "team": "McLaren",
+        "score": 77,
+        "sentiment": "Positive",
+        "buzz": "High engagement around @OscarPiastri"
       },
       {
         "driver": "Charles Leclerc",
         "code": "LEC",
-        "score": 68,
-        "sentiment": "Frustrated",
-        "buzz": "Pit strategy complaints"
+        "handle": "Charles_Leclerc",
+        "team": "Ferrari",
+        "score": 73,
+        "sentiment": "Mixed",
+        "buzz": "High engagement around @Charles_Leclerc"
       },
       {
         "driver": "Lewis Hamilton",
         "code": "HAM",
-        "score": 79,
-        "sentiment": "Optimistic",
-        "buzz": "Strong stint execution"
+        "handle": "LewisHamilton",
+        "team": "Ferrari",
+        "score": 69,
+        "sentiment": "Mixed",
+        "buzz": "High engagement around @LewisHamilton"
       }
     ],
     "breakingNewsTweets": [
@@ -1649,13 +1659,55 @@
       },
       {
         "author": "@AlbertFabrega",
-        "handle": "Albert Fabrega",
+        "handle": "AlbertFabrega",
         "text": "New floor edge winglet spotted on the Ferrari SF-26. Aiming to improve low-speed downforce stability.",
         "likes": "4.1k",
         "retweets": "512",
         "time": "6h ago"
       }
     ]
+  },
+  "sessionCheckpoints": {
+    "raceName": "Hungarian Grand Prix",
+    "checkpoints": [
+      {
+        "sessionName": "FP1",
+        "startTime": "2026-07-24T11:30:00Z",
+        "expectedDataReady": "2026-07-24T13:00:00Z",
+        "isPast": true
+      },
+      {
+        "sessionName": "FP2",
+        "startTime": "2026-07-24T15:00:00Z",
+        "expectedDataReady": "2026-07-24T16:30:00Z",
+        "isPast": true
+      },
+      {
+        "sessionName": "FP3",
+        "startTime": "2026-07-25T10:30:00Z",
+        "expectedDataReady": "2026-07-25T12:00:00Z",
+        "isPast": true
+      },
+      {
+        "sessionName": "Qualifying",
+        "startTime": "2026-07-25T14:00:00Z",
+        "expectedDataReady": "2026-07-25T15:30:00Z",
+        "isPast": true
+      },
+      {
+        "sessionName": "Race",
+        "startTime": "2026-07-26T13:00:00Z",
+        "expectedDataReady": "2026-07-26T14:30:00Z",
+        "isPast": false
+      }
+    ]
+  },
+  "tracingCommitStatus": {
+    "has_new_data": false,
+    "latest_sha": "cb17b42b79c8e94cbd61a4a2e22ae6bf24b57b6e",
+    "commit_message": "hunq",
+    "commit_date": "2026-07-25T15:26:25Z",
+    "status": "CHECK_OK"
   },
   "telemetryTraces": {
     "drivers": {
@@ -2047,7 +2099,7 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-25T19:56:40.269246",
+    "generatedAt": "2026-07-25T20:10:14.133575",
     "facts": [
       {
         "topic": "Tyre Degradation Forecast",
@@ -2226,7 +2278,7 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-25T19:56:40.271231",
+    "generatedAt": "2026-07-25T20:10:14.135400",
     "facts": [
       {
         "topic": "Race Pace Champion",
