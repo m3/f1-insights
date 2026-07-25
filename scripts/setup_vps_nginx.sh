@@ -15,28 +15,33 @@ if [ ! -d "$PROJECT_PATH" ]; then
     mkdir -p "$PROJECT_PATH"
 fi
 
-# 2. Deploy Nginx Configuration
+# 2. Deploy Base Nginx Configuration
 echo "🌐 Installing Nginx virtual host for $DOMAIN..."
 cp "$PROJECT_PATH/docs/nginx-f1-insights.conf" "/etc/nginx/sites-available/$DOMAIN.conf"
 ln -sf "/etc/nginx/sites-available/$DOMAIN.conf" "/etc/nginx/sites-enabled/$DOMAIN.conf"
 
 # Test Nginx syntax
 nginx -t
+systemctl reload nginx
 
-# 3. Provision Certbot SSL Certificate
+# 3. Provision Certbot SSL Certificate & Upgrade to HTTPS
 echo "🔒 Provisioning SSL certificate via Certbot for $DOMAIN..."
-if ! certbot --nginx -d "$DOMAIN" --non-interactive --agree-tos -m "$EMAIL" --redirect; then
-    echo "Warning: Certbot SSL setup failed or domain DNS not yet pointing to this VPS IP. Retrying reload..."
+if command -v certbot &> /dev/null; then
+    certbot --nginx -d "$DOMAIN" --non-interactive --agree-tos -m "$EMAIL" --redirect || echo "Certbot notice: If DNS record for $DOMAIN is not yet pointing to this VPS IP, run 'sudo certbot --nginx -d $DOMAIN' after updating DNS."
+else
+    echo "Certbot not found. Install via 'sudo apt-get install -y certbot python3-certbot-nginx'."
 fi
 
 # Reload Nginx
 systemctl reload nginx
 
 # 4. Install Systemd Service Unit
-echo "⚙️ Registering systemd service m3-f1-insights.service..."
-cp "$PROJECT_PATH/docs/systemd-f1-insights.service" "/etc/systemd/system/m3-f1-insights.service"
-systemctl daemon-reload
-systemctl enable m3-f1-insights.service
+if [ -f "$PROJECT_PATH/docs/systemd-f1-insights.service" ]; then
+    echo "⚙️ Registering systemd service m3-f1-insights.service..."
+    cp "$PROJECT_PATH/docs/systemd-f1-insights.service" "/etc/systemd/system/m3-f1-insights.service"
+    systemctl daemon-reload
+    systemctl enable m3-f1-insights.service
+fi
 
 echo "✅ Production infrastructure setup completed!"
-echo "Run 'sudo systemctl start m3-f1-insights.service' to launch."
+echo "Run 'sudo systemctl start m3-f1-insights.service' or 'pm2 start ecosystem.config.js' to launch."

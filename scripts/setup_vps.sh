@@ -2,7 +2,7 @@
 # One-Command VPS Server Setup Script for F1 Insights
 set -e
 
-echo "🛠️ Setting up F1 Insights on VPS Server..."
+echo "🏎️ Setting up F1 Insights on VPS Server..."
 
 # 1. Check runtime environments
 echo "🔍 Checking runtime environments..."
@@ -27,10 +27,9 @@ fi
 # 4. Create log and data directories
 mkdir -p logs backend/data
 
-# 5. Install backend requirements in virtualenv
-echo "📥 Installing backend Python dependencies in .venv..."
-.venv/bin/pip install -r backend/requirements.txt -q
-.venv/bin/pip install data_pipeline/requirements.txt -q 2>/dev/null || true
+# 5. Install backend & pipeline requirements in virtualenv
+echo "📥 Installing backend & data pipeline Python dependencies in .venv..."
+.venv/bin/pip install -r backend/requirements.txt -r data_pipeline/requirements.txt -q
 
 # 6. Build frontend
 echo "📦 Building React portal frontend..."
