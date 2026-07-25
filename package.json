@@ -8,6 +8,7 @@
     "dev": "cd portal && npm run dev",
     "build": "cd portal && npm run build",
     "pipeline": "python3 data_pipeline/main.py",
+    "test": "python3 -m pytest -v",
     "pm2:start": "pm2 start ecosystem.config.js",
     "pm2:stop": "pm2 stop ecosystem.config.js",
     "pm2:restart": "pm2 restart ecosystem.config.js --update-env",
