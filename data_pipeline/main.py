@@ -2,6 +2,10 @@
 Main Entry point for F1 Insights Pipeline.
 Pulls latest F1 & TracingInsights data, runs analytics, generates briefings,
 dispatches webhooks, and updates the web portal data store.
+
+Modes:
+  python main.py                # Full pipeline (telemetry, standings, briefs, social)
+  python main.py --mode=social  # Fast lightweight social feed update (X & YouTube)
 """
 import os
 import sys
@@ -24,15 +28,9 @@ def find_target_race(schedule: list) -> dict:
     
     return schedule[-1] if schedule else {}
 
-def run_pipeline():
-    print("🚀 Starting F1 Insights Data Pipeline...")
+def run_pipeline(mode: str = "full"):
+    print(f"🚀 Starting F1 Insights Data Pipeline (Mode: {mode.upper()})...")
     
-    # 1. Initialize fetchers, analytics & notifier
-    fetcher = F1DataFetcher()
-    watcher = SessionWatcher()
-    analytics = F1AnalyticsEngine()
-    notifier = F1Notifier()
-
     # Paths to export JSON
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     portal_data_dir = os.path.join(base_dir, "portal", "public", "data")
@@ -40,6 +38,33 @@ def run_pipeline():
     
     os.makedirs(portal_data_dir, exist_ok=True)
     os.makedirs(root_data_dir, exist_ok=True)
+
+    if mode == "social":
+        print("⚡ Running fast X (Twitter) & YouTube social feed update...")
+        social_sentiment = F1SentimentEngine.get_race_sentiment_summary("Hungarian Grand Prix")
+        
+        # Partial update of overview.json
+        overview_path = os.path.join(portal_data_dir, "overview.json")
+        if os.path.exists(overview_path):
+            with open(overview_path, "r") as f:
+                data = json.load(f)
+            data["socialSentiment"] = social_sentiment
+            data["updatedAt"] = datetime.now().isoformat()
+            
+            for target_dir in [portal_data_dir, root_data_dir]:
+                with open(os.path.join(target_dir, "overview.json"), "w") as f:
+                    json.dump(data, f, indent=2)
+                with open(os.path.join(target_dir, "social_feed.json"), "w") as f:
+                    json.dump(social_sentiment, f, indent=2)
+
+        print("✅ Fast Social Feed update completed successfully!")
+        return
+
+    # 1. Initialize fetchers, analytics & notifier
+    fetcher = F1DataFetcher()
+    watcher = SessionWatcher()
+    analytics = F1AnalyticsEngine()
+    notifier = F1Notifier()
 
     generator_portal = BriefGenerator(output_dir=portal_data_dir)
     generator_root = BriefGenerator(output_dir=root_data_dir)
@@ -101,7 +126,11 @@ def run_pipeline():
         with open(os.path.join(target_dir, "overview.json"), "w") as f:
             json.dump(portal_master, f, indent=2)
 
-    print("✅ F1 Insights Pipeline execution completed successfully!")
+    print("✅ F1 Insights Full Pipeline execution completed successfully!")
 
 if __name__ == "__main__":
-    run_pipeline()
+    mode_arg = "full"
+    for arg in sys.argv[1:]:
+        if arg.startswith("--mode="):
+            mode_arg = arg.split("=")[1]
+    run_pipeline(mode=mode_arg)

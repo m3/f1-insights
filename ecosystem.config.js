@@ -26,7 +26,7 @@ module.exports = {
       cwd: path.join(__dirname, 'data_pipeline'),
       script: 'main.py',
       interpreter: PYTHON_INTERPRETER,
-      // Run automatically every 6 hours via PM2 cron restart
+      // Run full telemetry pipeline every 6 hours
       cron_restart: '0 */6 * * *',
       autorestart: false,
       watch: false,
@@ -36,6 +36,22 @@ module.exports = {
         PYTHONUNBUFFERED: '1',
         DISCORD_WEBHOOK_URL: process.env.DISCORD_WEBHOOK_URL || '',
         TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || ''
+      }
+    },
+    {
+      name: 'f1-insights-social-worker',
+      cwd: path.join(__dirname, 'data_pipeline'),
+      script: 'main.py',
+      args: '--mode=social',
+      interpreter: PYTHON_INTERPRETER,
+      // High-frequency polling: Run every 15 minutes for X & YouTube news updates
+      cron_restart: '*/15 * * * *',
+      autorestart: false,
+      watch: false,
+      out_file: path.join(__dirname, 'logs', 'social_out.log'),
+      error_file: path.join(__dirname, 'logs', 'social_err.log'),
+      env: {
+        PYTHONUNBUFFERED: '1'
       }
     }
   ]
