@@ -1,33 +1,80 @@
-name: Deploy to VPS
+name: Deploy F1 Insights to Production VPS
+
+# CI-builds-the-artifact pattern per M3-Conventions §3.
+# The VPS never runs build steps — GitHub Actions builds the React production
+# assets and tests in CI, rsyncs the clean tree to the VPS, and restarts PM2.
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
+concurrency:
+  group: deploy-f1-insights
+  cancel-in-progress: false
+
 jobs:
-  deploy:
-    name: Deploy to Production VPS
+  build-and-deploy:
+    name: Build Artifact in CI + Rsync to VPS
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Execute Remote SSH Deployment
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: portal/package-lock.json
+
+      - name: Install Python Dependencies & Run Tests
+        run: |
+          pip install -r backend/requirements.txt
+          pip install pytest pytest-asyncio
+          python -m pytest -v
+
+      - name: Install Frontend Dependencies & Build React Bundle
+        working-directory: ./portal
+        run: |
+          npm ci
+          npm run build
+
+      - name: Rsync Artifact to VPS
+        uses: easingthemes/ssh-deploy@v5.1.0
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_KEY }}
+          REMOTE_HOST: ${{ secrets.VPS_HOST }}
+          REMOTE_USER: mathias
+          REMOTE_PORT: ${{ secrets.VPS_PORT || 22 }}
+          SOURCE: "./"
+          TARGET: ${{ secrets.VPS_PROJECT_PATH || '/var/www/f1-insights/' }}
+          ARGS: "-rlgoDzvO --delete --exclude=backend/data --exclude=*.db --exclude=*.db-shm --exclude=*.db-wal --exclude=logs --exclude=*.log --exclude=portal/node_modules --exclude=.env --exclude=.env.*"
+
+      - name: Restart PM2 & Verify Health on VPS
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USERNAME }}
+          username: mathias
           key: ${{ secrets.VPS_SSH_KEY }}
           port: ${{ secrets.VPS_PORT || 22 }}
           script: |
-            set -e
-            echo "🏎️ Deploying F1 Insights to VPS..."
-            cd ${{ secrets.VPS_PROJECT_PATH || '~/Development/Projects/f1-insights' }}
-            git pull origin main
-            python3 -m pip install -r backend/requirements.txt -q
-            cd portal && npm install --silent && npm run build && cd ..
+            cd ${{ secrets.VPS_PROJECT_PATH || '/var/www/f1-insights' }}
+            git reset --hard
             python3 data_pipeline/main.py
             pm2 restart ecosystem.config.js --update-env || pm2 start ecosystem.config.js
             pm2 save
-            echo "✅ Deployment completed successfully!"
+            sleep 4
+            online=$(pm2 jlist | python3 -c "import sys,json,time; d=json.load(sys.stdin); now=time.time()*1000; print(sum(1 for p in d if p['name'] in ('f1-insights-portal','f1-insights-backend','f1-insights-pipeline','f1-insights-social-worker') and p['pm2_env']['status']=='online' and now-p['pm2_env'].get('pm_uptime',now)>3000))")
+            if [ "$online" -ge "2" ]; then
+              echo "✅ f1-insights services stably online"
+            else
+              echo "❌ f1-insights unhealthy (online=$online)" >&2
+              pm2 list | grep f1-insights || true
+              exit 1
+            fi
