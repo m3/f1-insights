@@ -24,8 +24,8 @@ module.exports = {
     },
     {
       name: 'f1-insights-backend',
-      cwd: path.join(__dirname, 'backend', 'app'),
-      script: 'main.py',
+      cwd: path.join(__dirname, 'backend'),
+      script: 'app/main.py',
       interpreter: PYTHON_INTERPRETER,
       autorestart: true,
       watch: false,
@@ -33,6 +33,7 @@ module.exports = {
       error_file: path.join(__dirname, 'logs', 'backend_err.log'),
       env: {
         PORT: 8000,
+        PYTHONPATH: path.join(__dirname, 'backend'),
         PYTHONUNBUFFERED: '1',
         SQLITE_DB_PATH: path.join(__dirname, 'backend', 'data', 'f1_insights.db')
       }
@@ -48,6 +49,7 @@ module.exports = {
       out_file: path.join(__dirname, 'logs', 'pipeline_out.log'),
       error_file: path.join(__dirname, 'logs', 'pipeline_err.log'),
       env: {
+        PYTHONPATH: path.join(__dirname, 'backend'),
         PYTHONUNBUFFERED: '1',
         DISCORD_WEBHOOK_URL: process.env.DISCORD_WEBHOOK_URL || '',
         TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || ''
@@ -65,6 +67,7 @@ module.exports = {
       out_file: path.join(__dirname, 'logs', 'social_out.log'),
       error_file: path.join(__dirname, 'logs', 'social_err.log'),
       env: {
+        PYTHONPATH: path.join(__dirname, 'backend'),
         PYTHONUNBUFFERED: '1'
       }
     }
