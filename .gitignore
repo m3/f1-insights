@@ -1,0 +1,18 @@
+# Dependencies
+node_modules
+__pycache__
+*.pyc
+.venv
+
+# Environment & Logs
+.env
+logs/
+*.log
+
+# Build Outputs
+portal/dist
+public/data/*.json
+!public/data/.gitkeep
+
+# System
+.DS_Store

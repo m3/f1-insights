@@ -1,0 +1,187 @@
+{
+  "type": "POST_RACE",
+  "title": "Post-Race Debrief: Hungarian Grand Prix",
+  "raceName": "Hungarian Grand Prix",
+  "circuitName": "Hungaroring",
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-25T19:56:40.271231",
+  "facts": [
+    {
+      "topic": "Race Pace Champion",
+      "badge": "Telemetry Pace",
+      "detail": "McLaren logged the fastest average clean-air pace (+0.182s/lap over Ferrari), building a crucial 4.2s gap in stint 2 on Medium tyres.",
+      "stat": "-0.182s / lap"
+    },
+    {
+      "topic": "Tyre Degradation Rate",
+      "badge": "Tyre Wear",
+      "detail": "Hard compound (C2) showed remarkably low degradation of 0.035s/lap over a 28-lap stint, enabling a successful 1-stop strategy.",
+      "stat": "0.035s / lap deg"
+    },
+    {
+      "topic": "Fastest Pitstop Performance",
+      "badge": "Pit Wall",
+      "detail": "Red Bull Racing executed the fastest stationary pit stop of the weekend in 1.98s on Lap 22.",
+      "stat": "1.98s Stop"
+    },
+    {
+      "topic": "Max Speed Trap Delta",
+      "badge": "Straight Line",
+      "detail": "Top speed at speed trap registered by Williams at 342.4 km/h with DRS open, compared to field average of 334.1 km/h.",
+      "stat": "342.4 km/h"
+    }
+  ],
+  "teammateBattles": [
+    {
+      "team": "McLaren",
+      "drivers": "NOR vs PIA",
+      "quali": "7 - 5",
+      "race": "8 - 4",
+      "leader": "NOR (+15 pts)"
+    },
+    {
+      "team": "Ferrari",
+      "drivers": "LEC vs HAM",
+      "quali": "8 - 4",
+      "race": "7 - 5",
+      "leader": "LEC (+13 pts)"
+    },
+    {
+      "team": "Red Bull",
+      "drivers": "VER vs LAW",
+      "quali": "11 - 1",
+      "race": "10 - 2",
+      "leader": "VER (+98 pts)"
+    },
+    {
+      "team": "Mercedes",
+      "drivers": "RUS vs ANT",
+      "quali": "9 - 3",
+      "race": "8 - 4",
+      "leader": "RUS (+42 pts)"
+    }
+  ],
+  "topStandings": [
+    {
+      "position": "1",
+      "positionText": "1",
+      "points": "204",
+      "wins": "6",
+      "Driver": {
+        "driverId": "antonelli",
+        "permanentNumber": "12",
+        "code": "ANT",
+        "url": "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli",
+        "givenName": "Andrea Kimi",
+        "familyName": "Antonelli",
+        "dateOfBirth": "2006-08-25",
+        "nationality": "Italian"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
+        }
+      ]
+    },
+    {
+      "position": "2",
+      "positionText": "2",
+      "points": "159",
+      "wins": "1",
+      "Driver": {
+        "driverId": "hamilton",
+        "permanentNumber": "44",
+        "code": "HAM",
+        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "dateOfBirth": "1985-01-07",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "ferrari",
+          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "name": "Ferrari",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
+      "position": "3",
+      "positionText": "3",
+      "points": "154",
+      "wins": "2",
+      "Driver": {
+        "driverId": "russell",
+        "permanentNumber": "63",
+        "code": "RUS",
+        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+        "givenName": "George",
+        "familyName": "Russell",
+        "dateOfBirth": "1998-02-15",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
+        }
+      ]
+    },
+    {
+      "position": "4",
+      "positionText": "4",
+      "points": "126",
+      "wins": "1",
+      "Driver": {
+        "driverId": "leclerc",
+        "permanentNumber": "16",
+        "code": "LEC",
+        "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
+        "givenName": "Charles",
+        "familyName": "Leclerc",
+        "dateOfBirth": "1997-10-16",
+        "nationality": "Monegasque"
+      },
+      "Constructors": [
+        {
+          "constructorId": "ferrari",
+          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "name": "Ferrari",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "103",
+      "wins": "0",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
+        }
+      ]
+    }
+  ],
+  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n- **[Telemetry Pace] Race Pace Champion** (*-0.182s / lap*)\n  McLaren logged the fastest average clean-air pace (+0.182s/lap over Ferrari), building a crucial 4.2s gap in stint 2 on Medium tyres.\n\n- **[Tyre Wear] Tyre Degradation Rate** (*0.035s / lap deg*)\n  Hard compound (C2) showed remarkably low degradation of 0.035s/lap over a 28-lap stint, enabling a successful 1-stop strategy.\n\n- **[Pit Wall] Fastest Pitstop Performance** (*1.98s Stop*)\n  Red Bull Racing executed the fastest stationary pit stop of the weekend in 1.98s on Lap 22.\n\n- **[Straight Line] Max Speed Trap Delta** (*342.4 km/h*)\n  Top speed at speed trap registered by Williams at 342.4 km/h with DRS open, compared to field average of 334.1 km/h.\n\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **McLaren** (NOR vs PIA): Quali `7 - 5` | Race `8 - 4` -> Leader: **NOR (+15 pts)**\n- **Ferrari** (LEC vs HAM): Quali `8 - 4` | Race `7 - 5` -> Leader: **LEC (+13 pts)**\n- **Red Bull** (VER vs LAW): Quali `11 - 1` | Race `10 - 2` -> Leader: **VER (+98 pts)**\n- **Mercedes** (RUS vs ANT): Quali `9 - 3` | Race `8 - 4` -> Leader: **RUS (+42 pts)**\n"
+}

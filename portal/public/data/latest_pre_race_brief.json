@@ -1,0 +1,179 @@
+{
+  "type": "PRE_RACE",
+  "title": "Pre-Race Preview: Hungarian Grand Prix",
+  "raceName": "Hungarian Grand Prix",
+  "circuitName": "Hungaroring",
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-25T19:56:40.269246",
+  "facts": [
+    {
+      "topic": "Tyre Degradation Forecast",
+      "badge": "Strategy",
+      "detail": "High thermal degradation expected on rear tyres. C3/C4 compounds will demand early management in Sector 2 long sweeping turns.",
+      "stat": "2 Pit Stops Expected"
+    },
+    {
+      "topic": "Overtaking & Safety Car Probability",
+      "badge": "Circuit DNA",
+      "detail": "Historical Safety Car intervention rate is 68%. Main overtaking zone is DRS Zone 1 into Turn 1 with a 380m braking zone.",
+      "stat": "68% SC Risk"
+    },
+    {
+      "topic": "Championship Stakes",
+      "badge": "Title Race",
+      "detail": "Leader holds a margin at the top of WDC standings. A win here extends the lead heading into the summer break.",
+      "stat": "45 Pts Gap Top 2"
+    },
+    {
+      "topic": "Pit Loss Delta",
+      "badge": "Pitstop",
+      "detail": "Average pit lane traversal time is 21.8 seconds under green flag, dropping to 13.5 seconds under Virtual Safety Car.",
+      "stat": "21.8s Pit Loss"
+    }
+  ],
+  "penaltyWatch": {
+    "high_risk_drivers": [
+      {
+        "driver": "Kevin Magnussen",
+        "code": "MAG",
+        "points": 10,
+        "max": 12,
+        "at_risk": true,
+        "expiry_next": "2026-09-01"
+      },
+      {
+        "driver": "Lance Stroll",
+        "code": "STR",
+        "points": 8,
+        "max": 12,
+        "at_risk": true,
+        "expiry_next": "2026-10-15"
+      }
+    ],
+    "total_drivers_flagged": 2,
+    "summary": "2 driver(s) currently on penalty watch (>8 points)."
+  },
+  "topStandings": [
+    {
+      "position": "1",
+      "positionText": "1",
+      "points": "204",
+      "wins": "6",
+      "Driver": {
+        "driverId": "antonelli",
+        "permanentNumber": "12",
+        "code": "ANT",
+        "url": "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli",
+        "givenName": "Andrea Kimi",
+        "familyName": "Antonelli",
+        "dateOfBirth": "2006-08-25",
+        "nationality": "Italian"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
+        }
+      ]
+    },
+    {
+      "position": "2",
+      "positionText": "2",
+      "points": "159",
+      "wins": "1",
+      "Driver": {
+        "driverId": "hamilton",
+        "permanentNumber": "44",
+        "code": "HAM",
+        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "dateOfBirth": "1985-01-07",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "ferrari",
+          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "name": "Ferrari",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
+      "position": "3",
+      "positionText": "3",
+      "points": "154",
+      "wins": "2",
+      "Driver": {
+        "driverId": "russell",
+        "permanentNumber": "63",
+        "code": "RUS",
+        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+        "givenName": "George",
+        "familyName": "Russell",
+        "dateOfBirth": "1998-02-15",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
+        }
+      ]
+    },
+    {
+      "position": "4",
+      "positionText": "4",
+      "points": "126",
+      "wins": "1",
+      "Driver": {
+        "driverId": "leclerc",
+        "permanentNumber": "16",
+        "code": "LEC",
+        "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
+        "givenName": "Charles",
+        "familyName": "Leclerc",
+        "dateOfBirth": "1997-10-16",
+        "nationality": "Monegasque"
+      },
+      "Constructors": [
+        {
+          "constructorId": "ferrari",
+          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "name": "Ferrari",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "103",
+      "wins": "0",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
+        }
+      ]
+    }
+  ],
+  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected on rear tyres. C3/C4 compounds will demand early management in Sector 2 long sweeping turns.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate is 68%. Main overtaking zone is DRS Zone 1 into Turn 1 with a 380m braking zone.\n\n- **[Title Race] Championship Stakes** (*45 Pts Gap Top 2*)\n  Leader holds a margin at the top of WDC standings. A win here extends the lead heading into the summer break.\n\n- **[Pitstop] Pit Loss Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time is 21.8 seconds under green flag, dropping to 13.5 seconds under Virtual Safety Car.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Kevin Magnussen (MAG)**: 10/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 204 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 159 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 154 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 126 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 103 Pts (0 Wins)\n"
+}
