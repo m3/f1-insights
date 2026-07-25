@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
+import SessionCountdownHeader from './components/SessionCountdownHeader';
 import BriefCard from './components/BriefCard';
 import TelemetryChart from './components/TelemetryChart';
 import PenaltyWatch from './components/PenaltyWatch';
@@ -57,6 +58,9 @@ export default function App() {
   return (
     <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 16px 40px' }}>
       <Header activeTab={activeTab} setActiveTab={setActiveTab} currentRace={currentRace} />
+      
+      {/* Session Countdown Header Bar */}
+      <SessionCountdownHeader currentRace={currentRace} />
 
       <main>
         {activeTab === 'brief' && (
