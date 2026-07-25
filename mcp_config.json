@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "f1-insights": {
+      "command": "python3",
+      "args": [
+        "mcp_server/main.py"
+      ],
+      "env": {
+        "PYTHONPATH": "backend:mcp_server"
+      }
+    }
+  }
+}

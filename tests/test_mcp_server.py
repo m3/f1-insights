@@ -1,0 +1,65 @@
+import pytest
+import json
+import sys
+import os
+
+# Ensure backend and mcp_server are in path
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, os.path.join(base_dir, "backend"))
+sys.path.insert(0, os.path.join(base_dir, "mcp_server"))
+
+from mcp_server.main import (
+    get_f1_overview,
+    compare_corner_telemetry,
+    get_fia_penalty_watch,
+    get_trackside_media_sentiment,
+    calculate_pit_strategy_loss,
+    generate_morning_briefing
+)
+
+def test_mcp_get_f1_overview():
+    """Verify get_f1_overview tool returns valid overview JSON string."""
+    res = get_f1_overview()
+    data = json.loads(res)
+    assert "currentRace" in data or "status" in data
+
+def test_mcp_compare_corner_telemetry():
+    """Verify compare_corner_telemetry tool returns telemetry comparison."""
+    res = compare_corner_telemetry("NOR", "VER")
+    data = json.loads(res)
+    assert data["driver1"] == "NOR"
+    assert data["driver2"] == "VER"
+    assert "traceData" in data
+
+def test_mcp_get_fia_penalty_watch():
+    """Verify get_fia_penalty_watch tool returns flagged drivers."""
+    res = get_fia_penalty_watch()
+    data = json.loads(res)
+    assert "high_risk_drivers" in data
+    assert "total_drivers_flagged" in data
+
+def test_mcp_get_trackside_media_sentiment():
+    """Verify get_trackside_media_sentiment tool returns media feed."""
+    res = get_trackside_media_sentiment()
+    data = json.loads(res)
+    assert isinstance(data, dict)
+
+def test_mcp_calculate_pit_strategy_loss():
+    """Verify calculate_pit_strategy_loss tool under Green and VSC conditions."""
+    # Green flag test
+    res_green = calculate_pit_strategy_loss(18.5, "green")
+    data_green = json.loads(res_green)
+    assert data_green["emerges_ahead"] is False
+    assert data_green["net_delta_seconds"] == -3.3
+
+    # VSC test
+    res_vsc = calculate_pit_strategy_loss(18.5, "vsc")
+    data_vsc = json.loads(res_vsc)
+    assert data_vsc["emerges_ahead"] is True
+    assert data_vsc["net_delta_seconds"] == 5.0
+
+def test_mcp_generate_morning_briefing():
+    """Verify generate_morning_briefing tool returns structured briefing."""
+    res = generate_morning_briefing("PRE_RACE")
+    data = json.loads(res)
+    assert "title" in data or "markdown_content" in data
