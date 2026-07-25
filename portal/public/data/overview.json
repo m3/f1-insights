@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T20:17:22.725082",
+  "updatedAt": "2026-07-25T20:40:04.959991",
   "currentRace": {
     "season": "2026",
     "round": "11",
@@ -2181,7 +2181,7 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-25T20:15:53.999550",
+    "generatedAt": "2026-07-25T20:40:04.957827",
     "facts": [
       {
         "topic": "Tyre Degradation Forecast",
@@ -2360,7 +2360,7 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-25T20:15:54.001108",
+    "generatedAt": "2026-07-25T20:40:04.958954",
     "facts": [
       {
         "topic": "Race Pace Champion",

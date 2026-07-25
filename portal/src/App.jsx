@@ -6,6 +6,7 @@ import PenaltyWatch from './components/PenaltyWatch';
 import TeammateBattles from './components/TeammateBattles';
 import StandingsView from './components/StandingsView';
 import SocialSentiment from './components/SocialSentiment';
+import { fetchOverviewData } from './services/api';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('brief');
@@ -13,14 +14,13 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/data/overview.json')
-      .then((res) => res.json())
+    fetchOverviewData()
       .then((json) => {
         setData(json);
         setLoading(false);
       })
       .catch((err) => {
-        console.error('Failed to load overview.json:', err);
+        console.error('Failed to load overview data:', err);
         setLoading(false);
       });
   }, []);

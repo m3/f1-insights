@@ -105,7 +105,7 @@ def run_pipeline(mode: str = "full"):
     notifier.send_discord_brief(pre_brief)
     notifier.send_telegram_brief(pre_brief)
 
-    # 6. Export master dataset for portal
+    # 6. Export master dataset for portal & SQLite database
     portal_master = {
         "updatedAt": datetime.now().isoformat(),
         "currentRace": next_race,
@@ -122,9 +122,31 @@ def run_pipeline(mode: str = "full"):
         "latestPostBrief": post_brief
     }
 
+    serialized_json = json.dumps(portal_master, indent=2)
+
     for target_dir in [portal_data_dir, root_data_dir]:
         with open(os.path.join(target_dir, "overview.json"), "w") as f:
-            json.dump(portal_master, f, indent=2)
+            f.write(serialized_json)
+
+    # Sync to SQLite Database
+    try:
+        sys.path.append(os.path.join(base_dir, "backend"))
+        from app.core.database import SessionLocal, engine, Base
+        from app.db.models import MasterOverviewCache
+
+        Base.metadata.create_all(bind=engine)
+
+        db = SessionLocal()
+        existing = db.query(MasterOverviewCache).filter(MasterOverviewCache.id == "latest").first()
+        if existing:
+            existing.payload_json = serialized_json
+        else:
+            db.add(MasterOverviewCache(id="latest", payload_json=serialized_json))
+        db.commit()
+        db.close()
+        print("💾 Synced master overview to SQLite database (f1_insights.db)")
+    except Exception as e:
+        print(f"Notice: SQLite DB sync skipped ({e})")
 
     print("✅ F1 Insights Full Pipeline execution completed successfully!")
 

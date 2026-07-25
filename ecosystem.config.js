@@ -1,4 +1,4 @@
-// PM2 Process Configuration for F1 Insights & Morning Brief Portal
+// PM2 Process Configuration for F1 Insights Platform (VPS Deployment)
 const path = require('path');
 
 const NODE_INTERPRETER = process.env.PM2_NODE_INTERPRETER || 'node';
@@ -22,11 +22,25 @@ module.exports = {
       }
     },
     {
+      name: 'f1-insights-backend',
+      cwd: path.join(__dirname, 'backend', 'app'),
+      script: 'main.py',
+      interpreter: PYTHON_INTERPRETER,
+      autorestart: true,
+      watch: false,
+      out_file: path.join(__dirname, 'logs', 'backend_out.log'),
+      error_file: path.join(__dirname, 'logs', 'backend_err.log'),
+      env: {
+        PORT: 8000,
+        PYTHONUNBUFFERED: '1',
+        SQLITE_DB_PATH: path.join(__dirname, 'backend', 'data', 'f1_insights.db')
+      }
+    },
+    {
       name: 'f1-insights-pipeline',
       cwd: path.join(__dirname, 'data_pipeline'),
       script: 'main.py',
       interpreter: PYTHON_INTERPRETER,
-      // Run full telemetry pipeline every 6 hours
       cron_restart: '0 */6 * * *',
       autorestart: false,
       watch: false,
@@ -44,7 +58,6 @@ module.exports = {
       script: 'main.py',
       args: '--mode=social',
       interpreter: PYTHON_INTERPRETER,
-      // High-frequency polling: Run every 15 minutes for X & YouTube news updates
       cron_restart: '*/15 * * * *',
       autorestart: false,
       watch: false,
