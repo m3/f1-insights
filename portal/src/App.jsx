@@ -3,6 +3,8 @@ import Header from './components/Header';
 import SessionCountdownHeader from './components/SessionCountdownHeader';
 import BriefCard from './components/BriefCard';
 import TelemetryChart from './components/TelemetryChart';
+import SectorMatrix from './components/SectorMatrix';
+import PitStrategyCalculator from './components/PitStrategyCalculator';
 import PenaltyWatch from './components/PenaltyWatch';
 import TeammateBattles from './components/TeammateBattles';
 import StandingsView from './components/StandingsView';
@@ -70,6 +72,8 @@ export default function App() {
           </>
         )}
         {activeTab === 'telemetry' && <TelemetryChart telemetryData={data?.telemetryTraces} />}
+        {activeTab === 'sectors' && <SectorMatrix />}
+        {activeTab === 'pitstop' && <PitStrategyCalculator />}
         {activeTab === 'penalties' && <PenaltyWatch penaltyPoints={penaltyPoints} />}
         {activeTab === 'teammates' && <TeammateBattles battles={teammateBattles} />}
         {activeTab === 'standings' && (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flag, Zap, ShieldAlert, Award, Calendar, BarChart2 } from 'lucide-react';
+import { Flag, Zap, ShieldAlert, Award, Calendar, BarChart2, Gauge, Timer } from 'lucide-react';
 
 export default function Header({ activeTab, setActiveTab, currentRace }) {
   return (
@@ -79,6 +79,18 @@ export default function Header({ activeTab, setActiveTab, currentRace }) {
           onClick={() => setActiveTab('telemetry')}
         >
           <BarChart2 size={16} /> Corner Telemetry
+        </button>
+        <button
+          className={`nav-tab ${activeTab === 'sectors' ? 'active' : ''}`}
+          onClick={() => setActiveTab('sectors')}
+        >
+          <Gauge size={16} /> Sector Matrix
+        </button>
+        <button
+          className={`nav-tab ${activeTab === 'pitstop' ? 'active' : ''}`}
+          onClick={() => setActiveTab('pitstop')}
+        >
+          <Timer size={16} /> Pit Strategy
         </button>
         <button
           className={`nav-tab ${activeTab === 'penalties' ? 'active' : ''}`}
