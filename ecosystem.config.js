@@ -1,8 +1,9 @@
 // PM2 Process Configuration for F1 Insights Platform (VPS Deployment)
 const path = require('path');
+const fs = require('fs');
 
-const NODE_INTERPRETER = process.env.PM2_NODE_INTERPRETER || 'node';
-const PYTHON_INTERPRETER = process.env.PM2_PYTHON_INTERPRETER || 'python3';
+const venvPython = path.join(__dirname, '.venv', 'bin', 'python');
+const PYTHON_INTERPRETER = fs.existsSync(venvPython) ? venvPython : (process.env.PM2_PYTHON_INTERPRETER || 'python3');
 
 module.exports = {
   apps: [

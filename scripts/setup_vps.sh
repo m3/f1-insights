@@ -4,33 +4,47 @@ set -e
 
 echo "🛠️ Setting up F1 Insights on VPS Server..."
 
-# 1. Check Node.js and Python 3
+# 1. Check runtime environments
 echo "🔍 Checking runtime environments..."
 node -v
 python3 --version
 
-# 2. Global PM2 Check
-if ! command -v pm2 &> /dev/null; then
-    echo "📦 PM2 not found. Installing globally via npm..."
-    npm install -g pm2
+# 2. Setup Python Virtual Environment (.venv) for PEP 668 compliance
+if [ ! -d ".venv" ]; then
+    echo "🐍 Creating virtual environment (.venv)..."
+    python3 -m venv .venv || sudo apt-get update && sudo apt-get install -y python3-venv python3-full && python3 -m venv .venv
 fi
 
-# 3. Create log and data directories
+# Ensure pip & setuptools are up to date inside .venv
+.venv/bin/python -m pip install --upgrade pip -q
+
+# 3. Global PM2 Check
+if ! command -v pm2 &> /dev/null; then
+    echo "📦 PM2 not found. Installing globally via npm..."
+    sudo npm install -g pm2
+fi
+
+# 4. Create log and data directories
 mkdir -p logs backend/data
 
-# 4. Install backend requirements
-python3 -m pip install -r backend/requirements.txt
+# 5. Install backend requirements in virtualenv
+echo "📥 Installing backend Python dependencies in .venv..."
+.venv/bin/pip install -r backend/requirements.txt -q
+.venv/bin/pip install data_pipeline/requirements.txt -q 2>/dev/null || true
 
-# 5. Build frontend
+# 6. Build frontend
+echo "📦 Building React portal frontend..."
 cd portal
 npm install
 npm run build
 cd ..
 
-# 6. Run initial data pipeline fill
-python3 data_pipeline/main.py
+# 7. Run initial data pipeline fill
+echo "💾 Initializing database & fetching telemetry..."
+.venv/bin/python data_pipeline/main.py
 
-# 7. Start PM2 ecosystem
+# 8. Start PM2 ecosystem
+echo "🚀 Starting PM2 processes..."
 pm2 start ecosystem.config.js
 pm2 save
 

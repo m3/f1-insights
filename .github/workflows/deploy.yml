@@ -54,7 +54,7 @@ jobs:
           REMOTE_PORT: ${{ secrets.VPS_PORT || 22 }}
           SOURCE: "./"
           TARGET: ${{ secrets.VPS_PROJECT_PATH || '/var/www/f1-insights/' }}
-          ARGS: "-rlgoDzvO --delete --exclude=backend/data --exclude=*.db --exclude=*.db-shm --exclude=*.db-wal --exclude=logs --exclude=*.log --exclude=portal/node_modules --exclude=.env --exclude=.env.*"
+          ARGS: "-rlgoDzvO --delete --exclude=.venv --exclude=backend/data --exclude=*.db --exclude=*.db-shm --exclude=*.db-wal --exclude=logs --exclude=*.log --exclude=portal/node_modules --exclude=.env --exclude=.env.*"
 
       - name: Restart PM2 & Verify Health on VPS
         uses: appleboy/ssh-action@v1.0.3
@@ -66,7 +66,11 @@ jobs:
           script: |
             cd ${{ secrets.VPS_PROJECT_PATH || '/var/www/f1-insights' }}
             git reset --hard
-            python3 data_pipeline/main.py
+            if [ ! -d ".venv" ]; then
+              python3 -m venv .venv
+            fi
+            .venv/bin/pip install -r backend/requirements.txt -q
+            .venv/bin/python data_pipeline/main.py
             pm2 restart ecosystem.config.js --update-env || pm2 start ecosystem.config.js
             pm2 save
             sleep 4
