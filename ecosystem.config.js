@@ -11,7 +11,7 @@ module.exports = {
       name: 'f1-insights-portal',
       cwd: path.join(__dirname, 'portal'),
       script: 'npm',
-      args: 'run preview -- --port 3000 --host',
+      args: 'run preview -- --port 3000 --host --strictPort',
       interpreter: 'none',
       autorestart: true,
       watch: false,
