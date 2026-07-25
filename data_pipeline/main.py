@@ -130,9 +130,16 @@ def run_pipeline(mode: str = "full"):
 
     # Sync to SQLite Database
     try:
-        sys.path.append(os.path.join(base_dir, "backend"))
-        from app.core.database import SessionLocal, engine, Base
-        from app.db.models import MasterOverviewCache
+        app_path = os.path.join(base_dir, "backend", "app")
+        if app_path not in sys.path:
+            sys.path.insert(0, app_path)
+
+        try:
+            from core.database import SessionLocal, engine, Base
+            from db.models import MasterOverviewCache
+        except ImportError:
+            from app.core.database import SessionLocal, engine, Base
+            from app.db.models import MasterOverviewCache
 
         Base.metadata.create_all(bind=engine)
 

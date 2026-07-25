@@ -1,10 +1,16 @@
 import json
 import os
+import sys
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from sqlalchemy import text
-from app.core.database import get_db, settings
-from app.db.models import MasterOverviewCache
+
+app_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+if app_dir not in sys.path:
+    sys.path.insert(0, app_dir)
+
+from core.database import get_db, settings
+from db.models import MasterOverviewCache
 
 router = APIRouter()
 

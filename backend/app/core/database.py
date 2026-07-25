@@ -1,7 +1,13 @@
 import os
+import sys
 from sqlalchemy import create_engine, event
 from sqlalchemy.orm import sessionmaker, declarative_base
-from app.core.config import settings
+
+app_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if app_dir not in sys.path:
+    sys.path.insert(0, app_dir)
+
+from core.config import settings
 
 # Create directory if needed
 os.makedirs(os.path.dirname(settings.SQLITE_DB_PATH), exist_ok=True)

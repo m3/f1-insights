@@ -1,5 +1,12 @@
+import os
+import sys
 from sqlalchemy import Column, Integer, String, Float, Boolean, DateTime, Text, func
-from app.core.database import Base
+
+app_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if app_dir not in sys.path:
+    sys.path.insert(0, app_dir)
+
+from core.database import Base
 
 class Race(Base):
     __tablename__ = "races"
