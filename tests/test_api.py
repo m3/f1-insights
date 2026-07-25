@@ -61,3 +61,17 @@ def test_social_feed_endpoint():
     data = response.json()
     assert "overallSentiment" in data
     assert "youtubeSources" in data
+
+def test_admin_endpoint_requires_api_key():
+    """Verify admin trigger endpoints require X-API-Key header and return 401 on unauthorized access."""
+    # Unauthenticated request (no X-API-Key header)
+    res_unauth = client.post("/api/v1/admin/trigger-social")
+    assert res_unauth.status_code == 401
+
+    # Authenticated request with valid X-API-Key header
+    res_auth = client.post(
+        "/api/v1/admin/trigger-social",
+        headers={"X-API-Key": "f1-insights-admin-secret-key-2026"}
+    )
+    assert res_auth.status_code == 200
+    assert res_auth.json()["status"] == "success"
