@@ -1,6 +1,6 @@
 {
   "schema_version": "4.0",
-  "updatedAt": "2026-07-26T16:13:20.931713Z",
+  "updatedAt": "2026-07-26T16:37:28.363005Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
@@ -49,10 +49,10 @@
   },
   "circuitWeather": {
     "circuit": "Hungaroring",
-    "ambientTemp": "28\u00b0C",
-    "trackTemp": "42\u00b0C",
+    "ambientTemp": "29\u00b0C",
+    "trackTemp": "43\u00b0C",
     "rainRisk": "0%",
-    "wind": "18 km/h NE",
+    "wind": "17 km/h NE",
     "humidity": "52%"
   },
   "schedule": [
@@ -831,7 +831,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "204",
+      "points": "219",
       "wins": "6",
       "Driver": {
         "driverId": "antonelli",
@@ -855,7 +855,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "159",
+      "points": "169",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -879,7 +879,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "154",
+      "points": "160",
       "wins": "2",
       "Driver": {
         "driverId": "russell",
@@ -903,7 +903,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "126",
+      "points": "138",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -927,8 +927,8 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "103",
-      "wins": "0",
+      "points": "128",
+      "wins": "1",
       "Driver": {
         "driverId": "norris",
         "permanentNumber": "1",
@@ -951,6 +951,30 @@
     {
       "position": "6",
       "positionText": "6",
+      "points": "109",
+      "wins": "0",
+      "Driver": {
+        "driverId": "max_verstappen",
+        "permanentNumber": "3",
+        "code": "VER",
+        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+        "givenName": "Max",
+        "familyName": "Verstappen",
+        "dateOfBirth": "1997-09-30",
+        "nationality": "Dutch"
+      },
+      "Constructors": [
+        {
+          "constructorId": "red_bull",
+          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+          "name": "Red Bull",
+          "nationality": "Austrian"
+        }
+      ]
+    },
+    {
+      "position": "7",
+      "positionText": "7",
       "points": "92",
       "wins": "0",
       "Driver": {
@@ -973,33 +997,9 @@
       ]
     },
     {
-      "position": "7",
-      "positionText": "7",
-      "points": "91",
-      "wins": "0",
-      "Driver": {
-        "driverId": "max_verstappen",
-        "permanentNumber": "3",
-        "code": "VER",
-        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
-        "givenName": "Max",
-        "familyName": "Verstappen",
-        "dateOfBirth": "1997-09-30",
-        "nationality": "Dutch"
-      },
-      "Constructors": [
-        {
-          "constructorId": "red_bull",
-          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
-          "name": "Red Bull",
-          "nationality": "Austrian"
-        }
-      ]
-    },
-    {
       "position": "8",
       "positionText": "8",
-      "points": "60",
+      "points": "68",
       "wins": "0",
       "Driver": {
         "driverId": "hadjar",
@@ -1023,6 +1023,30 @@
     {
       "position": "9",
       "positionText": "9",
+      "points": "43",
+      "wins": "0",
+      "Driver": {
+        "driverId": "lawson",
+        "permanentNumber": "30",
+        "code": "LAW",
+        "url": "http://en.wikipedia.org/wiki/Liam_Lawson",
+        "givenName": "Liam",
+        "familyName": "Lawson",
+        "dateOfBirth": "2002-02-11",
+        "nationality": "New Zealander"
+      },
+      "Constructors": [
+        {
+          "constructorId": "rb",
+          "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
+          "name": "RB F1 Team",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
+      "position": "10",
+      "positionText": "10",
       "points": "42",
       "wins": "0",
       "Driver": {
@@ -1045,33 +1069,9 @@
       ]
     },
     {
-      "position": "10",
-      "positionText": "10",
-      "points": "39",
-      "wins": "0",
-      "Driver": {
-        "driverId": "lawson",
-        "permanentNumber": "30",
-        "code": "LAW",
-        "url": "http://en.wikipedia.org/wiki/Liam_Lawson",
-        "givenName": "Liam",
-        "familyName": "Lawson",
-        "dateOfBirth": "2002-02-11",
-        "nationality": "New Zealander"
-      },
-      "Constructors": [
-        {
-          "constructorId": "rb",
-          "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
-          "name": "RB F1 Team",
-          "nationality": "Italian"
-        }
-      ]
-    },
-    {
       "position": "11",
       "positionText": "11",
-      "points": "22",
+      "points": "23",
       "wins": "0",
       "Driver": {
         "driverId": "arvid_lindblad",
@@ -1239,6 +1239,30 @@
     {
       "position": "18",
       "positionText": "18",
+      "points": "2",
+      "wins": "0",
+      "Driver": {
+        "driverId": "hulkenberg",
+        "permanentNumber": "27",
+        "code": "HUL",
+        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
+        "givenName": "Nico",
+        "familyName": "H\u00fclkenberg",
+        "dateOfBirth": "1987-08-19",
+        "nationality": "German"
+      },
+      "Constructors": [
+        {
+          "constructorId": "audi",
+          "url": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
+          "name": "Audi",
+          "nationality": "German"
+        }
+      ]
+    },
+    {
+      "position": "19",
+      "positionText": "19",
       "points": "1",
       "wins": "0",
       "Driver": {
@@ -1261,32 +1285,32 @@
       ]
     },
     {
-      "position": "19",
-      "positionText": "19",
+      "position": "20",
+      "positionText": "20",
       "points": "0",
       "wins": "0",
       "Driver": {
-        "driverId": "hulkenberg",
-        "permanentNumber": "27",
-        "code": "HUL",
-        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
-        "givenName": "Nico",
-        "familyName": "H\u00fclkenberg",
-        "dateOfBirth": "1987-08-19",
-        "nationality": "German"
+        "driverId": "stroll",
+        "permanentNumber": "18",
+        "code": "STR",
+        "url": "http://en.wikipedia.org/wiki/Lance_Stroll",
+        "givenName": "Lance",
+        "familyName": "Stroll",
+        "dateOfBirth": "1998-10-29",
+        "nationality": "Canadian"
       },
       "Constructors": [
         {
-          "constructorId": "audi",
-          "url": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
-          "name": "Audi",
-          "nationality": "German"
+          "constructorId": "aston_martin",
+          "url": "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
+          "name": "Aston Martin",
+          "nationality": "British"
         }
       ]
     },
     {
-      "position": "20",
-      "positionText": "20",
+      "position": "21",
+      "positionText": "21",
       "points": "0",
       "wins": "0",
       "Driver": {
@@ -1309,8 +1333,8 @@
       ]
     },
     {
-      "position": "21",
-      "positionText": "21",
+      "position": "22",
+      "positionText": "22",
       "points": "0",
       "wins": "0",
       "Driver": {
@@ -1331,37 +1355,13 @@
           "nationality": "American"
         }
       ]
-    },
-    {
-      "position": "22",
-      "positionText": "22",
-      "points": "0",
-      "wins": "0",
-      "Driver": {
-        "driverId": "stroll",
-        "permanentNumber": "18",
-        "code": "STR",
-        "url": "http://en.wikipedia.org/wiki/Lance_Stroll",
-        "givenName": "Lance",
-        "familyName": "Stroll",
-        "dateOfBirth": "1998-10-29",
-        "nationality": "Canadian"
-      },
-      "Constructors": [
-        {
-          "constructorId": "aston_martin",
-          "url": "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
-          "name": "Aston Martin",
-          "nationality": "British"
-        }
-      ]
     }
   ],
   "constructorStandings": [
     {
       "position": "1",
       "positionText": "1",
-      "points": "358",
+      "points": "379",
       "wins": "8",
       "Constructor": {
         "constructorId": "mercedes",
@@ -1373,7 +1373,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "285",
+      "points": "307",
       "wins": "2",
       "Constructor": {
         "constructorId": "ferrari",
@@ -1385,8 +1385,8 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "195",
-      "wins": "0",
+      "points": "220",
+      "wins": "1",
       "Constructor": {
         "constructorId": "mclaren",
         "url": "https://en.wikipedia.org/wiki/McLaren",
@@ -1397,7 +1397,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "151",
+      "points": "177",
       "wins": "0",
       "Constructor": {
         "constructorId": "red_bull",
@@ -1409,13 +1409,13 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "61",
+      "points": "66",
       "wins": "0",
       "Constructor": {
-        "constructorId": "alpine",
-        "url": "https://en.wikipedia.org/wiki/Alpine_F1_Team",
-        "name": "Alpine F1 Team",
-        "nationality": "French"
+        "constructorId": "rb",
+        "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
+        "name": "RB F1 Team",
+        "nationality": "Italian"
       }
     },
     {
@@ -1424,10 +1424,10 @@
       "points": "61",
       "wins": "0",
       "Constructor": {
-        "constructorId": "rb",
-        "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
-        "name": "RB F1 Team",
-        "nationality": "Italian"
+        "constructorId": "alpine",
+        "url": "https://en.wikipedia.org/wiki/Alpine_F1_Team",
+        "name": "Alpine F1 Team",
+        "nationality": "French"
       }
     },
     {
@@ -1445,6 +1445,18 @@
     {
       "position": "8",
       "positionText": "8",
+      "points": "12",
+      "wins": "0",
+      "Constructor": {
+        "constructorId": "audi",
+        "url": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
+        "name": "Audi",
+        "nationality": "German"
+      }
+    },
+    {
+      "position": "9",
+      "positionText": "9",
       "points": "11",
       "wins": "0",
       "Constructor": {
@@ -1452,18 +1464,6 @@
         "url": "https://en.wikipedia.org/wiki/Williams_Racing",
         "name": "Williams",
         "nationality": "British"
-      }
-    },
-    {
-      "position": "9",
-      "positionText": "9",
-      "points": "10",
-      "wins": "0",
-      "Constructor": {
-        "constructorId": "audi",
-        "url": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
-        "name": "Audi",
-        "nationality": "German"
       }
     },
     {
@@ -1645,6 +1645,246 @@
       "leader": "ALO Ahead"
     }
   ],
+  "sectorMatrix": [
+    {
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "s1": "28.142",
+      "s2": "36.410",
+      "s3": "22.890",
+      "st": 338.4,
+      "lapTime": "1:27.442",
+      "s1Best": true,
+      "s2Best": false,
+      "s3Best": true,
+      "stBest": false
+    },
+    {
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull",
+      "s1": "28.210",
+      "s2": "36.388",
+      "s3": "22.920",
+      "st": 341.8,
+      "lapTime": "1:27.518",
+      "s1Best": false,
+      "s2Best": true,
+      "s3Best": false,
+      "stBest": true
+    },
+    {
+      "code": "PIA",
+      "name": "Oscar Piastri",
+      "team": "McLaren",
+      "s1": "28.188",
+      "s2": "36.450",
+      "s3": "22.915",
+      "st": 337.9,
+      "lapTime": "1:27.553",
+      "s1Best": false,
+      "s2Best": false,
+      "s3Best": false,
+      "stBest": false
+    },
+    {
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "s1": "28.245",
+      "s2": "36.490",
+      "s3": "22.940",
+      "st": 339.2,
+      "lapTime": "1:27.675",
+      "s1Best": false,
+      "s2Best": false,
+      "s3Best": false,
+      "stBest": false
+    },
+    {
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Ferrari",
+      "s1": "28.290",
+      "s2": "36.520",
+      "s3": "22.980",
+      "st": 338.8,
+      "lapTime": "1:27.790",
+      "s1Best": false,
+      "s2Best": false,
+      "s3Best": false,
+      "stBest": false
+    },
+    {
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "s1": "28.310",
+      "s2": "36.540",
+      "s3": "23.010",
+      "st": 339.5,
+      "lapTime": "1:27.860",
+      "s1Best": false,
+      "s2Best": false,
+      "s3Best": false,
+      "stBest": false
+    },
+    {
+      "code": "SAI",
+      "name": "Carlos Sainz",
+      "team": "Williams",
+      "s1": "28.340",
+      "s2": "36.580",
+      "s3": "23.050",
+      "st": 342.1,
+      "lapTime": "1:27.970",
+      "s1Best": false,
+      "s2Best": false,
+      "s3Best": false,
+      "stBest": false
+    },
+    {
+      "code": "ALB",
+      "name": "Alex Albon",
+      "team": "Williams",
+      "s1": "28.380",
+      "s2": "36.620",
+      "s3": "23.090",
+      "st": 340.6,
+      "lapTime": "1:28.090",
+      "s1Best": false,
+      "s2Best": false,
+      "s3Best": false,
+      "stBest": false
+    },
+    {
+      "code": "LAW",
+      "name": "Liam Lawson",
+      "team": "Red Bull",
+      "s1": "28.410",
+      "s2": "36.690",
+      "s3": "23.140",
+      "st": 338.1,
+      "lapTime": "1:28.240",
+      "s1Best": false,
+      "s2Best": false,
+      "s3Best": false,
+      "stBest": false
+    },
+    {
+      "code": "ANT",
+      "name": "Kimi Antonelli",
+      "team": "Mercedes",
+      "s1": "28.450",
+      "s2": "36.720",
+      "s3": "23.180",
+      "st": 337.5,
+      "lapTime": "1:28.350",
+      "s1Best": false,
+      "s2Best": false,
+      "s3Best": false,
+      "stBest": false
+    }
+  ],
+  "gridPenalties": {
+    "startingGridImpacts": [
+      {
+        "driver": "Max Verstappen",
+        "code": "VER",
+        "team": "Red Bull",
+        "qualiPos": 2,
+        "gridPos": 7,
+        "drop": 5,
+        "reason": "5th Internal Combustion Engine (ICE) change",
+        "status": "GRID PENALTY APPLIED"
+      },
+      {
+        "driver": "Lance Stroll",
+        "code": "STR",
+        "team": "Aston Martin",
+        "qualiPos": 12,
+        "gridPos": 15,
+        "drop": 3,
+        "reason": "Impeding NOR during Q2 Turn 4 braking zone",
+        "status": "GRID PENALTY APPLIED"
+      }
+    ],
+    "inRaceTimePenalties": [
+      {
+        "driver": "Lando Norris",
+        "code": "NOR",
+        "team": "McLaren",
+        "penaltyTime": "+5.0s",
+        "infraction": "Track Limits Exceeded (4th Strike at Turn 4 & Turn 11)",
+        "raceImpact": "Dropped P2 -> P3 post-race calculation",
+        "lap": "Lap 48",
+        "stewardsDoc": "Doc 42 - FIA Decision"
+      },
+      {
+        "driver": "Oliver Bearman",
+        "code": "BEA",
+        "team": "Haas",
+        "penaltyTime": "+10.0s",
+        "infraction": "Forcing another driver off track into Turn 1 entry",
+        "raceImpact": "Dropped P11 -> P14",
+        "lap": "Lap 14",
+        "stewardsDoc": "Doc 28 - FIA Decision"
+      }
+    ]
+  },
+  "circuitSpecs": {
+    "length": "4.381 km",
+    "laps": "70 Laps",
+    "raceDistance": "306.63 km",
+    "lapRecord": "1:16.627 (Lewis Hamilton, 2020)",
+    "drsZones": [
+      {
+        "id": "drs1",
+        "name": "DRS Zone 1 (Main Straight)",
+        "detection": "Turn 14 Exit (70m before turn apex)",
+        "activation": "Main Pit Straight (Turn 14 to Turn 1)",
+        "length": "810 meters",
+        "topSpeed": "342.4 km/h",
+        "overtakeProb": "High (Primary Passing Zone)"
+      },
+      {
+        "id": "drs2",
+        "name": "DRS Zone 2 (Turn 1 - Turn 2 Short Straight)",
+        "detection": "Turn 1 Exit (50m post apex)",
+        "activation": "Downhill descent towards Turn 2",
+        "length": "440 meters",
+        "topSpeed": "318.6 km/h",
+        "overtakeProb": "Medium (Switchback Counter-Attack Zone)"
+      }
+    ],
+    "brakingZones": [
+      {
+        "turn": "Turn 1",
+        "entrySpeed": "340 km/h",
+        "apexSpeed": "102 km/h",
+        "gForce": "4.8G",
+        "brakingDist": "118 meters",
+        "gearShift": "8th \u2794 2nd"
+      },
+      {
+        "turn": "Turn 4",
+        "entrySpeed": "298 km/h",
+        "apexSpeed": "215 km/h",
+        "gForce": "3.9G",
+        "brakingDist": "65 meters",
+        "gearShift": "7th \u2794 5th"
+      },
+      {
+        "turn": "Turn 12",
+        "entrySpeed": "312 km/h",
+        "apexSpeed": "128 km/h",
+        "gForce": "4.2G",
+        "brakingDist": "98 meters",
+        "gearShift": "7th \u2794 3rd"
+      }
+    ]
+  },
   "socialSentiment": {
     "schema_version": "4.0",
     "race": "Hungarian Grand Prix",
@@ -1779,44 +2019,25 @@
   },
   "sessionCheckpoints": {
     "raceName": "Hungarian Grand Prix",
-    "checkpoints": [
-      {
-        "sessionName": "FP1",
-        "startTime": "2026-07-24T11:30:00Z",
-        "expectedDataReady": "2026-07-24T13:00:00Z",
-        "isPast": true
-      },
-      {
-        "sessionName": "FP2",
-        "startTime": "2026-07-24T15:00:00Z",
-        "expectedDataReady": "2026-07-24T16:30:00Z",
-        "isPast": true
-      },
-      {
-        "sessionName": "FP3",
-        "startTime": "2026-07-25T10:30:00Z",
-        "expectedDataReady": "2026-07-25T12:00:00Z",
-        "isPast": true
-      },
-      {
-        "sessionName": "Qualifying",
-        "startTime": "2026-07-25T14:00:00Z",
-        "expectedDataReady": "2026-07-25T15:30:00Z",
-        "isPast": true
-      },
-      {
-        "sessionName": "Race",
-        "startTime": "2026-07-26T13:00:00Z",
-        "expectedDataReady": "2026-07-26T14:30:00Z",
-        "isPast": false
-      }
-    ]
+    "postRaceDebriefRule": {
+      "should_trigger": true,
+      "race_start_time": "2026-07-26T13:00:00Z",
+      "debrief_trigger_time": "2026-07-26T15:45:00Z",
+      "current_time": "2026-07-26T16:37:27.997246Z",
+      "rule": "Post-Race Debrief triggers at Race End + 45 minutes"
+    },
+    "preRaceUpdateRule": {
+      "should_trigger": false,
+      "active_triggers": [],
+      "current_time": "2026-07-26T16:37:27.997246Z",
+      "rule": "Updates before FP1 and 45min after FP1/FP2/FP3/Sprint/Qualifying"
+    }
   },
   "tracingCommitStatus": {
     "has_new_data": false,
-    "latest_sha": "cb17b42b79c8e94cbd61a4a2e22ae6bf24b57b6e",
-    "commit_message": "hunq",
-    "commit_date": "2026-07-25T15:26:25Z",
+    "latest_sha": "e0a343a072333a6f7346d4153e0c95f550c802f2",
+    "commit_message": "hunr",
+    "commit_date": "2026-07-26T15:13:24Z",
     "status": "CHECK_OK"
   },
   "telemetryTraces": {
@@ -2429,13 +2650,13 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-26T11:53:34.269387",
+    "generatedAt": "2026-07-26T18:37:28.359881",
     "facts": [
       {
         "topic": "Championship Stakes",
         "badge": "Title Race",
-        "detail": "Antonelli leads Hamilton by 45 Pts Gap Top 2 in the World Drivers' Championship heading into Hungarian Grand Prix.",
-        "stat": "45 Pts Gap Top 2",
+        "detail": "Antonelli leads Hamilton by 50 Pts Gap Top 2 in the World Drivers' Championship heading into Hungarian Grand Prix.",
+        "stat": "50 Pts Gap Top 2",
         "source": "JolpicaErgast"
       },
       {
@@ -2486,7 +2707,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "204",
+        "points": "219",
         "wins": "6",
         "Driver": {
           "driverId": "antonelli",
@@ -2510,7 +2731,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "159",
+        "points": "169",
         "wins": "1",
         "Driver": {
           "driverId": "hamilton",
@@ -2534,7 +2755,7 @@
       {
         "position": "3",
         "positionText": "3",
-        "points": "154",
+        "points": "160",
         "wins": "2",
         "Driver": {
           "driverId": "russell",
@@ -2558,7 +2779,7 @@
       {
         "position": "4",
         "positionText": "4",
-        "points": "126",
+        "points": "138",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -2582,8 +2803,8 @@
       {
         "position": "5",
         "positionText": "5",
-        "points": "103",
-        "wins": "0",
+        "points": "128",
+        "wins": "1",
         "Driver": {
           "driverId": "norris",
           "permanentNumber": "1",
@@ -2604,7 +2825,7 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*45 Pts Gap Top 2*)\n  Antonelli leads Hamilton by 45 Pts Gap Top 2 in the World Drivers' Championship heading into Hungarian Grand Prix.\n\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.\n\n- **[Pitstop] Pit Loss Traversal Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 204 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 159 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 154 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 126 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 103 Pts (0 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap Top 2*)\n  Antonelli leads Hamilton by 50 Pts Gap Top 2 in the World Drivers' Championship heading into Hungarian Grand Prix.\n\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.\n\n- **[Pitstop] Pit Loss Traversal Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
@@ -2612,7 +2833,7 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-26T11:53:34.272007",
+    "generatedAt": "2026-07-26T18:37:28.361807",
     "facts": [
       {
         "topic": "Grand Prix Race Winner",
@@ -2719,7 +2940,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "204",
+        "points": "219",
         "wins": "6",
         "Driver": {
           "driverId": "antonelli",
@@ -2743,7 +2964,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "159",
+        "points": "169",
         "wins": "1",
         "Driver": {
           "driverId": "hamilton",
@@ -2767,7 +2988,7 @@
       {
         "position": "3",
         "positionText": "3",
-        "points": "154",
+        "points": "160",
         "wins": "2",
         "Driver": {
           "driverId": "russell",
@@ -2791,7 +3012,7 @@
       {
         "position": "4",
         "positionText": "4",
-        "points": "126",
+        "points": "138",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -2815,8 +3036,8 @@
       {
         "position": "5",
         "positionText": "5",
-        "points": "103",
-        "wins": "0",
+        "points": "128",
+        "wins": "1",
         "Driver": {
           "driverId": "norris",
           "permanentNumber": "1",

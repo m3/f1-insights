@@ -4,7 +4,7 @@
   "raceName": "Hungarian Grand Prix",
   "circuitName": "Hungaroring",
   "date": "2026-07-26",
-  "generatedAt": "2026-07-26T11:53:34.272007",
+  "generatedAt": "2026-07-26T18:37:28.361807",
   "facts": [
     {
       "topic": "Grand Prix Race Winner",
@@ -111,7 +111,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "204",
+      "points": "219",
       "wins": "6",
       "Driver": {
         "driverId": "antonelli",
@@ -135,7 +135,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "159",
+      "points": "169",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -159,7 +159,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "154",
+      "points": "160",
       "wins": "2",
       "Driver": {
         "driverId": "russell",
@@ -183,7 +183,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "126",
+      "points": "138",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -207,8 +207,8 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "103",
-      "wins": "0",
+      "points": "128",
+      "wins": "1",
       "Driver": {
         "driverId": "norris",
         "permanentNumber": "1",
