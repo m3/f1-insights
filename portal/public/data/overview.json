@@ -1,6 +1,6 @@
 {
   "schema_version": "4.0",
-  "updatedAt": "2026-07-26T16:37:28.363005Z",
+  "updatedAt": "2026-07-26T16:56:35.285297Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
@@ -52,7 +52,7 @@
     "ambientTemp": "29\u00b0C",
     "trackTemp": "43\u00b0C",
     "rainRisk": "0%",
-    "wind": "17 km/h NE",
+    "wind": "15 km/h NE",
     "humidity": "52%"
   },
   "schedule": [
@@ -2023,13 +2023,13 @@
       "should_trigger": true,
       "race_start_time": "2026-07-26T13:00:00Z",
       "debrief_trigger_time": "2026-07-26T15:45:00Z",
-      "current_time": "2026-07-26T16:37:27.997246Z",
+      "current_time": "2026-07-26T16:56:34.851274Z",
       "rule": "Post-Race Debrief triggers at Race End + 45 minutes"
     },
     "preRaceUpdateRule": {
       "should_trigger": false,
       "active_triggers": [],
-      "current_time": "2026-07-26T16:37:27.997246Z",
+      "current_time": "2026-07-26T16:56:34.851274Z",
       "rule": "Updates before FP1 and 45min after FP1/FP2/FP3/Sprint/Qualifying"
     }
   },
@@ -2650,7 +2650,7 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-26T18:37:28.359881",
+    "generatedAt": "2026-07-26T18:56:35.282871",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -2833,7 +2833,7 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-26T18:37:28.361807",
+    "generatedAt": "2026-07-26T18:56:35.284073",
     "facts": [
       {
         "topic": "Grand Prix Race Winner",
