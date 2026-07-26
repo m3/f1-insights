@@ -5,7 +5,7 @@ Ingests live weather forecasts and track ambient temperature based on canonical 
 import requests
 import logging
 from typing import Dict, Any
-from data_pipeline.providers.base_provider import BaseProvider, ProviderResponse
+from .base_provider import BaseProvider, ProviderResponse
 
 logger = logging.getLogger("OpenMeteoProvider")
 OPEN_METEO_BASE = "https://api.open-meteo.com/v1/forecast"

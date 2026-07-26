@@ -6,7 +6,7 @@ import os
 import json
 import logging
 from typing import Dict, Any
-from data_pipeline.providers.base_provider import BaseProvider, ProviderResponse
+from .base_provider import BaseProvider, ProviderResponse
 
 logger = logging.getLogger("SocialProvider")
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config", "entities.json")

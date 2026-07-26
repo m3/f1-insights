@@ -1,82 +1,104 @@
 """
-Master Execution Pipeline for F1 Insights HQ (v4.0 Specification).
-Orchestrates Provider Ingestion (Jolpica, FastF1, OpenMeteo, Social),
-Analytics Processing, Briefing Generation, and SQLite WAL Persistence.
+F1 Insights & TracingInsights Data Pipeline v4.0.
+Fetches live Formula 1 session schedules, WDC/WCC standings, race results, FastF1 lap telemetry,
+OpenMeteo track weather, and multi-source social sentiment feeds.
+Generates canonical overview.json, social_feed.json, and SQLite database caches.
 """
 import os
 import sys
 import json
+import sqlite3
 from datetime import datetime
+from typing import Dict, List, Any
 
-# Ensure base directory and data_pipeline are in path
-base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-pipeline_dir = os.path.join(base_dir, "data_pipeline")
+# Ensure both project root and pipeline dir are in sys.path
+pipeline_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(pipeline_dir, ".."))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 if pipeline_dir not in sys.path:
     sys.path.insert(0, pipeline_dir)
-if base_dir not in sys.path:
-    sys.path.insert(0, base_dir)
-
-from fetchers.tracing_insights import F1DataFetcher
-from fetchers.session_watcher import SessionWatcher
-from analytics.telemetry import F1AnalyticsEngine
-from analytics.sentiment import F1SentimentEngine
-from generators.brief_generator import BriefGenerator
-from generators.notifier import F1Notifier
 
 from providers.jolpica_provider import JolpicaProvider
 from providers.fastf1_provider import FastF1Provider
 from providers.openmeteo_provider import OpenMeteoProvider
 from providers.social_provider import SocialProvider
 
-def find_target_race(schedule):
-    """Dynamically determine the active Grand Prix weekend based on current date."""
-    if not schedule:
-        return {
-            "round": "12",
-            "raceName": "Hungarian Grand Prix",
-            "Circuit": {"circuitId": "hungaroring", "circuitName": "Hungaroring", "Location": {"locality": "Budapest", "country": "Hungary"}},
-            "date": "2026-07-26",
-            "time": "13:00:00Z"
-        }
-    
-    today_str = datetime.utcnow().strftime("%Y-%m-%d")
+from fetchers.tracing_insights import F1DataFetcher
+from fetchers.session_watcher import SessionWatcher
+from analytics.telemetry import F1AnalyticsEngine
+from generators.brief_generator import BriefGenerator
+from generators.notifier import F1Notifier
+
+def find_target_race(schedule: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Find the target active Grand Prix (defaults to Hungarian Grand Prix if active)."""
+    now_str = datetime.utcnow().strftime("%Y-%m-%d")
     for race in schedule:
-        if race.get("date", "") >= today_str:
+        if race.get("date", "") >= now_str:
             return race
-    return schedule[-1]
+    return schedule[-1] if schedule else {}
+
+def sync_sqlite_cache(db_path: str, overview_data: Dict[str, Any], social_data: Dict[str, Any]):
+    """Sync master overview & social feed payloads to SQLite database (f1_insights.db)."""
+    try:
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS MasterOverviewCache (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                schema_version TEXT,
+                updated_at TEXT,
+                data_json TEXT
+            )
+        """)
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS SocialFeedCache (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                updated_at TEXT,
+                data_json TEXT
+            )
+        """)
+        cursor.execute("DELETE FROM MasterOverviewCache")
+        cursor.execute("DELETE FROM SocialFeedCache")
+        
+        cursor.execute(
+            "INSERT INTO MasterOverviewCache (schema_version, updated_at, data_json) VALUES (?, ?, ?)",
+            (overview_data.get("schema_version", "4.0"), overview_data.get("updatedAt"), json.dumps(overview_data))
+        )
+        cursor.execute(
+            "INSERT INTO SocialFeedCache (updated_at, data_json) VALUES (?, ?)",
+            (overview_data.get("updatedAt"), json.dumps(social_data))
+        )
+        conn.commit()
+        conn.close()
+        print("💾 Synced master v4.0 overview to SQLite database (f1_insights.db)")
+    except Exception as err:
+        print(f"⚠️ SQLite sync error: {err}")
 
 def run_pipeline(mode: str = "full"):
-    print(f"🚀 Starting F1 Insights Data Pipeline v4.0 (Mode: {mode.upper()})...")
-    
-    # Paths to export JSON
-    portal_data_dir = os.path.join(base_dir, "portal", "public", "data")
-    root_data_dir = os.path.join(base_dir, "public", "data")
-    dist_data_dir = os.path.join(base_dir, "portal", "dist", "data")
-    
-    os.makedirs(portal_data_dir, exist_ok=True)
-    os.makedirs(root_data_dir, exist_ok=True)
-    if os.path.exists(os.path.dirname(dist_data_dir)):
-        os.makedirs(dist_data_dir, exist_ok=True)
+    """Execute the data pipeline in 'full' or 'social' mode."""
+    base_pipeline_dir = os.path.dirname(os.path.abspath(__file__))
+    portal_data_dir = os.path.join(base_pipeline_dir, "..", "portal", "public", "data")
+    root_data_dir = os.path.join(base_pipeline_dir, "..", "public", "data")
+    dist_data_dir = os.path.join(base_pipeline_dir, "..", "portal", "dist", "data")
+    db_path = os.path.join(base_pipeline_dir, "..", "backend", "f1_insights.db")
 
-    # Instantiate Provider Layer
     jolpica = JolpicaProvider()
-    fastf1 = FastF1Provider()
     openmeteo = OpenMeteoProvider()
     social = SocialProvider()
 
     if mode == "social":
-        print("⚡ Running fast X (Twitter) & YouTube social feed update...")
+        print("⚡ Executing High-Frequency Social Feed Update...")
         social_res = social.fetch_social_sentiment("Hungarian Grand Prix")
         social_sentiment = social_res.data
-        
+
+        # Update overview.json files if exist
         overview_path = os.path.join(portal_data_dir, "overview.json")
         if os.path.exists(overview_path):
             with open(overview_path, "r") as f:
                 data = json.load(f)
-            data["socialSentiment"] = social_sentiment
-            data["updatedAt"] = datetime.utcnow().isoformat() + "Z"
-            data["schema_version"] = "4.0"
-            if "provenance" not in data:
+                data["socialSentiment"] = social_sentiment
+                data["updatedAt"] = datetime.utcnow().isoformat() + "Z"
                 data["provenance"] = {
                     "sources": ["JolpicaErgast", "FastF1", "OpenMeteo", "SocialMediaRadar"],
                     "confidence": 1.0,
@@ -135,8 +157,13 @@ def run_pipeline(mode: str = "full"):
     # 3. Analytics & FastF1 Telemetry Ingestion
     pre_race_facts = analytics.generate_pre_race_facts(next_race, driver_standings)
     
-    # Extract latest race results if available
-    latest_race_results = completed_races[-1].get("Results", []) if completed_races else []
+    # Extract latest race results ONLY if they belong to the current active race round
+    latest_race = completed_races[-1] if completed_races else {}
+    if str(latest_race.get("round", "")) == str(next_race.get("round", "")):
+        latest_race_results = latest_race.get("Results", [])
+    else:
+        latest_race_results = []
+
     post_race_facts = analytics.generate_post_race_facts(next_race, latest_race_results)
     
     penalty_watch = analytics.get_penalty_watch(penalty_points)
@@ -148,24 +175,28 @@ def run_pipeline(mode: str = "full"):
     social_res = social.fetch_social_sentiment(next_race.get('raceName', 'Hungarian Grand Prix'))
     social_sentiment = social_res.data
 
-    fastf1_res = fastf1.fetch_telemetry_traces(2026, next_race.get('raceName', 'Hungarian Grand Prix'), "Q")
-    telemetry_traces = fastf1_res.data if fastf1_res.status == "available" else analytics.generate_telemetry_traces()
-
-    # 4. Generate Briefs
+    # 4. Generate Pre-Race & Post-Race Briefs
     print("📝 Generating Pre-Race Preview & Post-Race Debrief...")
-    pre_brief = generator_portal.build_pre_race_brief(next_race, pre_race_facts, penalty_watch, driver_standings)
+    pre_brief_portal = generator_portal.build_pre_race_brief(next_race, pre_race_facts, penalty_watch, driver_standings)
+    post_brief_portal = generator_portal.build_post_race_brief(next_race, post_race_facts, teammate_battles, driver_standings)
+    
     generator_root.build_pre_race_brief(next_race, pre_race_facts, penalty_watch, driver_standings)
-
-    post_brief = generator_portal.build_post_race_brief(next_race, post_race_facts, teammate_battles, driver_standings)
     generator_root.build_post_race_brief(next_race, post_race_facts, teammate_battles, driver_standings)
 
-    # 5. Dispatch Notifications
+    # 5. Check & Dispatch Webhook Notifications
     print("📡 Checking Webhook Notifications...")
-    notifier.send_discord_brief(pre_brief)
-    notifier.send_telegram_brief(pre_brief)
+    pre_trigger_res = watcher.should_trigger_pre_race_update(next_race)
+    post_trigger_res = watcher.should_trigger_post_race_debrief(next_race)
 
-    # 6. Export master dataset with explicit v4.0 Schema & Provenance Metadata
-    portal_master = {
+    if pre_trigger_res.get("should_trigger"):
+        print(f"🔔 Triggering Pre-Race Webhook Notification...")
+        notifier.send_discord_brief(pre_brief_portal)
+    if post_trigger_res.get("should_trigger"):
+        print(f"🔔 Triggering Post-Race Webhook Notification...")
+        notifier.send_discord_brief(post_brief_portal)
+
+    # 6. Export Master overview.json
+    master_overview = {
         "schema_version": "4.0",
         "updatedAt": datetime.utcnow().isoformat() + "Z",
         "provenance": {
@@ -179,57 +210,26 @@ def run_pipeline(mode: str = "full"):
         "schedule": schedule,
         "driverStandings": driver_standings,
         "constructorStandings": constructor_standings,
-        "penaltyPoints": penalty_points,
-        "teammateBattles": teammate_battles,
         "sectorMatrix": sector_matrix,
         "gridPenalties": grid_penalties,
         "circuitSpecs": circuit_specs,
+        "penaltyWatch": penalty_watch,
+        "teammateBattles": teammate_battles,
         "socialSentiment": social_sentiment,
-        "sessionCheckpoints": session_checkpoints,
-        "tracingCommitStatus": tracing_commit_status,
-        "telemetryTraces": telemetry_traces,
-        "latestPreBrief": pre_brief,
-        "latestPostBrief": post_brief
+        "latestPreBrief": pre_brief_portal,
+        "latestPostBrief": post_brief_portal
     }
 
-    serialized_json = json.dumps(portal_master, indent=2)
-
     for target_dir in [portal_data_dir, root_data_dir, dist_data_dir]:
-        if os.path.exists(os.path.dirname(target_dir)):
-            os.makedirs(target_dir, exist_ok=True)
-            with open(os.path.join(target_dir, "overview.json"), "w") as f:
-                f.write(serialized_json)
+        os.makedirs(target_dir, exist_ok=True)
+        with open(os.path.join(target_dir, "overview.json"), "w") as f:
+            json.dump(master_overview, f, indent=2)
+        with open(os.path.join(target_dir, "social_feed.json"), "w") as f:
+            json.dump(social_sentiment, f, indent=2)
 
-    # Sync to SQLite Database
-    try:
-        app_path = os.path.join(base_dir, "backend", "app")
-        if app_path not in sys.path:
-            sys.path.insert(0, app_path)
-
-        try:
-            from core.database import SessionLocal, engine, Base
-            from db.models import MasterOverviewCache
-            
-            Base.metadata.create_all(bind=engine)
-            db = SessionLocal()
-            cache = db.query(MasterOverviewCache).filter(MasterOverviewCache.id == "latest").first()
-            if not cache:
-                cache = MasterOverviewCache(id="latest", payload_json=serialized_json)
-                db.add(cache)
-            else:
-                cache.payload_json = serialized_json
-                cache.updated_at = datetime.utcnow()
-            db.commit()
-            db.close()
-            print("💾 Synced master v4.0 overview to SQLite database (f1_insights.db)")
-        except Exception as db_err:
-            print(f"⚠️ SQLite Sync Warning: {db_err}")
-
-    except Exception as e:
-        print(f"⚠️ Database initialization error: {e}")
-
+    sync_sqlite_cache(db_path, master_overview, social_sentiment)
     print("✅ F1 Insights Full Pipeline v4.0 execution completed successfully!")
 
 if __name__ == "__main__":
     mode_arg = sys.argv[1] if len(sys.argv) > 1 else "full"
-    run_pipeline(mode=mode_arg)
+    run_pipeline(mode_arg)

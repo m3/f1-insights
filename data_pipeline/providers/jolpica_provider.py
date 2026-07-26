@@ -5,7 +5,7 @@ Maintained Ergast-compatible API ingestion for 2026 schedule, standings, and rac
 import requests
 import logging
 from typing import Dict, List, Any, Optional
-from data_pipeline.providers.base_provider import BaseProvider, ProviderResponse
+from .base_provider import BaseProvider, ProviderResponse
 
 logger = logging.getLogger("JolpicaProvider")
 JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"

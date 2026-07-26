@@ -156,7 +156,7 @@ class F1AnalyticsEngine:
         race_name = race_info.get("raceName", "Grand Prix")
         
         # Calculate dynamic top 2 point gap from real WDC standings
-        gap_pts = 45
+        gap_pts = 50
         p1_name = "Antonelli"
         p2_name = "Hamilton"
         if len(standings) >= 2:
@@ -209,17 +209,22 @@ class F1AnalyticsEngine:
         winner_name = "Andrea Kimi Antonelli"
         fastest_lap_str = "1:18.420"
         fastest_driver = "Antonelli"
+        target_round = str(race_info.get("round", ""))
 
+        # Only extract fastest lap from race_results if race_results belongs to the active race round
         if race_results and len(race_results) > 0:
-            first_driver = race_results[0].get("Driver", {})
-            winner_name = f"{first_driver.get('givenName', '')} {first_driver.get('familyName', '')}"
-            for r in race_results:
-                fl = r.get("FastestLap", {})
-                if fl.get("rank") == "1":
-                    drv = r.get("Driver", {})
-                    fastest_driver = drv.get("familyName", "Antonelli")
-                    fastest_lap_str = fl.get("Time", {}).get("time", "1:18.420")
-                    break
+            result_round = str(race_results[0].get("round", target_round))
+            # Verify round match to avoid cross-pollinating results from prior races (e.g. Canadian GP)
+            if not target_round or result_round == target_round:
+                first_driver = race_results[0].get("Driver", {})
+                winner_name = f"{first_driver.get('givenName', '')} {first_driver.get('familyName', '')}"
+                for r in race_results:
+                    fl = r.get("FastestLap", {})
+                    if fl.get("rank") == "1":
+                        drv = r.get("Driver", {})
+                        fastest_driver = drv.get("familyName", "Antonelli")
+                        fastest_lap_str = fl.get("Time", {}).get("time", "1:18.420")
+                        break
 
         return [
             {
@@ -304,16 +309,16 @@ class F1AnalyticsEngine:
         """Teammate Head-to-Head metrics calculated dynamically from Jolpica Ergast race results."""
         if not race_results_races:
             return [
-                {"team": "Mercedes", "drivers": "ANT vs RUS", "quali": "6 - 4", "race": "7 - 3", "leader": "ANT (+50 pts)"},
-                {"team": "Ferrari", "drivers": "HAM vs LEC", "quali": "5 - 5", "race": "6 - 4", "leader": "HAM (+33 pts)"},
-                {"team": "McLaren", "drivers": "NOR vs PIA", "quali": "5 - 5", "race": "5 - 5", "leader": "NOR (+11 pts)"},
-                {"team": "Red Bull Racing", "drivers": "VER vs HAD", "quali": "8 - 2", "race": "8 - 2", "leader": "VER (+31 pts)"},
-                {"team": "RB (Racing Bulls)", "drivers": "LAW vs LIN", "quali": "6 - 4", "race": "6 - 4", "leader": "LAW (+17 pts)"},
-                {"team": "Alpine", "drivers": "GAS vs COL", "quali": "7 - 3", "race": "7 - 3", "leader": "GAS (+23 pts)"},
-                {"team": "Haas", "drivers": "BEA vs OCO", "quali": "6 - 4", "race": "6 - 4", "leader": "BEA (+15 pts)"},
-                {"team": "Sauber / Audi", "drivers": "BOR vs HUL", "quali": "5 - 5", "race": "5 - 5", "leader": "BOR (+10 pts)"},
-                {"team": "Williams", "drivers": "SAI vs ALB", "quali": "6 - 4", "race": "6 - 4", "leader": "SAI (+1 pt)"},
-                {"team": "Aston Martin", "drivers": "ALO vs STR", "quali": "9 - 1", "race": "8 - 2", "leader": "ALO (+1 pt)"}
+                {"team": "Mercedes", "drivers": "ANT vs RUS", "quali": "6 - 4", "race": "7 - 3", "leader": "ANT Ahead"},
+                {"team": "Ferrari", "drivers": "HAM vs LEC", "quali": "5 - 5", "race": "6 - 4", "leader": "HAM Ahead"},
+                {"team": "McLaren", "drivers": "NOR vs PIA", "quali": "5 - 5", "race": "5 - 5", "leader": "NOR Ahead"},
+                {"team": "Red Bull Racing", "drivers": "VER vs HAD", "quali": "8 - 2", "race": "8 - 2", "leader": "VER Ahead"},
+                {"team": "RB (Racing Bulls)", "drivers": "LAW vs LIN", "quali": "6 - 4", "race": "6 - 4", "leader": "LAW Ahead"},
+                {"team": "Alpine", "drivers": "GAS vs COL", "quali": "7 - 3", "race": "7 - 3", "leader": "GAS Ahead"},
+                {"team": "Haas", "drivers": "BEA vs OCO", "quali": "6 - 4", "race": "6 - 4", "leader": "BEA Ahead"},
+                {"team": "Sauber / Audi", "drivers": "BOR vs HUL", "quali": "5 - 5", "race": "5 - 5", "leader": "BOR Ahead"},
+                {"team": "Williams", "drivers": "SAI vs ALB", "quali": "6 - 4", "race": "6 - 4", "leader": "SAI Ahead"},
+                {"team": "Aston Martin", "drivers": "ALO vs STR", "quali": "9 - 1", "race": "8 - 2", "leader": "ALO Ahead"}
             ]
 
         # Calculate real dynamic H2H ratios from race results

@@ -4,7 +4,7 @@ Extracts session telemetry & speed traces. Returns explicit 'pending' status if 
 """
 import logging
 from typing import Dict, List, Any, Optional
-from data_pipeline.providers.base_provider import BaseProvider, ProviderResponse
+from .base_provider import BaseProvider, ProviderResponse
 
 logger = logging.getLogger("FastF1Provider")
 
