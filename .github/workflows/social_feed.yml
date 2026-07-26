@@ -9,6 +9,8 @@ on:
 jobs:
   refresh-social-feed:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -21,11 +23,11 @@ jobs:
 
       - name: Install Python Dependencies
         run: |
-          pip install -r data_pipeline/requirements.txt
+          pip install -r backend/requirements.txt || pip install requests
 
       - name: Run Fast Social Feed Update
         run: |
-          python data_pipeline/main.py --mode=social
+          python data_pipeline/main.py social
 
       - name: Commit and Push Updated Social Feeds
         run: |
