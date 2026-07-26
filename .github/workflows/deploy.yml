@@ -78,12 +78,12 @@ jobs:
             find /home/mathias/f1-insights -name "*.pyc" -delete 2>/dev/null || true
 
             cd /home/mathias/f1-insights/backend
-            source venv/bin/activate || python3 -m venv venv && source venv/bin/activate
+            source venv/bin/activate || (python3 -m venv venv && source venv/bin/activate)
             pip install -r requirements.txt
             
-            # Execute pipeline refresh on VPS with explicit PYTHONPATH
+            # Execute pipeline refresh on VPS using venv python with explicit PYTHONPATH
             cd /home/mathias/f1-insights
-            PYTHONPATH=. python3 data_pipeline/main.py full
+            PYTHONPATH=. /home/mathias/f1-insights/backend/venv/bin/python data_pipeline/main.py full
             mkdir -p /home/mathias/f1-insights/portal/dist/data /home/mathias/f1-insights/public/data
             cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/portal/dist/data/
             cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/public/data/
@@ -95,7 +95,7 @@ jobs:
 
             # Restart persistent PM2 web and backend apps
             pm2 restart f1-insights-portal || pm2 start "npx serve -s /home/mathias/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
-            pm2 restart f1-insights-backend || pm2 start "python3 -m uvicorn app.main:app --port 8000" --name "f1-insights-backend" --cwd "/home/mathias/f1-insights/backend"
+            pm2 restart f1-insights-backend || pm2 start "/home/mathias/f1-insights/backend/venv/bin/python -m uvicorn app.main:app --port 8000" --name "f1-insights-backend" --cwd "/home/mathias/f1-insights/backend"
             
             # Verify HTTP health
             sleep 3
