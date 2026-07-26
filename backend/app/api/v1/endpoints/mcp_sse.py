@@ -3,6 +3,12 @@ import os
 import sys
 from fastapi import APIRouter, Depends, Header, HTTPException
 from fastapi.responses import StreamingResponse
+
+# Ensure root directory is in sys.path for mcp_server import
+root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+if root_dir not in sys.path:
+    sys.path.insert(0, root_dir)
+
 from app.core.security import verify_admin_api_key
 from mcp_server.main import (
     get_f1_overview,
