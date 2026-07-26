@@ -1,10 +1,19 @@
 import React, { useState } from 'react';
-import { Zap, AlertTriangle, ShieldCheck, Flame, Gauge, Timer, Award, Share2 } from 'lucide-react';
+import { Zap, AlertTriangle, ShieldCheck, Flame, Gauge, Timer, Award, Copy, Check } from 'lucide-react';
 
 export default function BriefCard({ preBrief, postBrief }) {
   const [briefMode, setBriefMode] = useState('PRE_RACE'); // 'PRE_RACE' or 'POST_RACE'
+  const [copied, setCopied] = useState(false);
   
   const currentBrief = briefMode === 'PRE_RACE' ? preBrief : postBrief;
+
+  const handleCopyMarkdown = () => {
+    if (currentBrief && currentBrief.markdown) {
+      navigator.clipboard.writeText(currentBrief.markdown);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    }
+  };
 
   if (!currentBrief) {
     return (
@@ -33,141 +42,143 @@ export default function BriefCard({ preBrief, postBrief }) {
           </h2>
         </div>
 
-        {/* Toggle Mode */}
-        <div style={{ display: 'flex', gap: '8px', background: 'rgba(0,0,0,0.4)', padding: '6px', borderRadius: '10px' }}>
+        {/* Action Controls: Toggle Mode + Copy Button */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', gap: '8px', background: 'rgba(0,0,0,0.4)', padding: '6px', borderRadius: '10px' }}>
+            <button
+              onClick={() => setBriefMode('PRE_RACE')}
+              style={{
+                padding: '8px 16px',
+                borderRadius: '8px',
+                border: 'none',
+                fontFamily: 'var(--font-heading)',
+                fontSize: '0.75rem',
+                cursor: 'pointer',
+                background: briefMode === 'PRE_RACE' ? 'var(--f1-red)' : 'transparent',
+                color: briefMode === 'PRE_RACE' ? '#FFF' : 'var(--text-muted)',
+                transition: 'all 0.2s ease'
+              }}
+            >
+              PRE-RACE PREVIEW
+            </button>
+            <button
+              onClick={() => setBriefMode('POST_RACE')}
+              style={{
+                padding: '8px 16px',
+                borderRadius: '8px',
+                border: 'none',
+                fontFamily: 'var(--font-heading)',
+                fontSize: '0.75rem',
+                cursor: 'pointer',
+                background: briefMode === 'POST_RACE' ? 'var(--cyan-neon)' : 'transparent',
+                color: briefMode === 'POST_RACE' ? '#000' : 'var(--text-muted)',
+                fontWeight: briefMode === 'POST_RACE' ? 800 : 400,
+                transition: 'all 0.2s ease'
+              }}
+            >
+              POST-RACE DEBRIEF
+            </button>
+          </div>
+
+          {/* 1-Click Copy Briefing Button for Discord/Telegram */}
           <button
-            onClick={() => setBriefMode('PRE_RACE')}
+            onClick={handleCopyMarkdown}
+            className="btn btn-secondary"
             style={{
-              padding: '8px 16px',
-              borderRadius: '8px',
-              border: 'none',
-              fontFamily: 'var(--font-heading)',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
               fontSize: '0.75rem',
-              cursor: 'pointer',
-              background: briefMode === 'PRE_RACE' ? 'var(--f1-red)' : 'transparent',
-              color: briefMode === 'PRE_RACE' ? '#FFF' : 'var(--text-muted)',
+              padding: '8px 14px',
+              background: copied ? 'rgba(34, 197, 94, 0.2)' : 'rgba(255, 255, 255, 0.06)',
+              border: copied ? '1px solid #22C55E' : '1px solid var(--border-subtle)',
+              color: copied ? '#22C55E' : '#FFF',
               transition: 'all 0.2s ease'
             }}
+            title="Copy formatted Markdown brief to clipboard for Discord or Telegram"
           >
-            Pre-Race Preview
-          </button>
-          <button
-            onClick={() => setBriefMode('POST_RACE')}
-            style={{
-              padding: '8px 16px',
-              borderRadius: '8px',
-              border: 'none',
-              fontFamily: 'var(--font-heading)',
-              fontSize: '0.75rem',
-              cursor: 'pointer',
-              background: briefMode === 'POST_RACE' ? 'var(--cyan-neon)' : 'transparent',
-              color: briefMode === 'POST_RACE' ? '#000' : 'var(--text-muted)',
-              fontWeight: briefMode === 'POST_RACE' ? 800 : 400,
-              transition: 'all 0.2s ease'
-            }}
-          >
-            Post-Race Debrief
+            {copied ? <Check size={14} color="#22C55E" /> : <Copy size={14} />}
+            <span>{copied ? 'Copied to Clipboard!' : 'Copy Brief (Markdown)'}</span>
           </button>
         </div>
       </div>
 
-      {/* Grid of Key Strategy & Telemetry Facts */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '16px' }}>
-        {currentBrief.facts && currentBrief.facts.map((fact, idx) => (
-          <div key={idx} className="glass-panel" style={{ padding: '20px', position: 'relative', overflow: 'hidden' }}>
-            <div style={{
-              position: 'absolute',
-              top: '0',
-              right: '0',
-              width: '4px',
-              height: '100%',
-              background: idx % 2 === 0 ? 'var(--f1-red)' : 'var(--cyan-neon)'
-            }} />
-            
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px' }}>
-              <span className="badge badge-gold">{fact.badge}</span>
-              <span className="font-mono font-orbitron" style={{ fontSize: '1rem', color: '#FFF', fontWeight: 800 }}>
-                {fact.stat}
-              </span>
+      {/* Facts Grid */}
+      {currentBrief.facts && (
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px' }}>
+          {currentBrief.facts.map((fact, idx) => (
+            <div key={idx} className="glass-panel" style={{ padding: '18px', position: 'relative' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
+                <span className="badge badge-cyan" style={{ fontSize: '0.65rem' }}>{fact.badge}</span>
+                <span className="font-mono font-orbitron" style={{ fontSize: '1rem', color: 'var(--cyan-neon)', fontWeight: 800 }}>
+                  {fact.stat}
+                </span>
+              </div>
+              <h3 style={{ fontSize: '0.95rem', color: '#FFF', fontWeight: 700, marginBottom: '6px' }}>
+                {fact.topic}
+              </h3>
+              <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', lineHeight: '1.4' }}>
+                {fact.detail}
+              </p>
             </div>
+          ))}
+        </div>
+      )}
 
-            <h3 style={{ fontSize: '1rem', color: '#FFF', marginBottom: '8px', fontWeight: 700 }}>
-              {fact.topic}
-            </h3>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: '1.5' }}>
-              {fact.detail}
-            </p>
-          </div>
-        ))}
-      </div>
-
-      {/* Special Pre-Race Penalty Warning or Post-Race Battle Summary */}
-      {briefMode === 'PRE_RACE' && currentBrief.penaltyWatch && (
-        <div className="glass-panel" style={{ padding: '24px', borderLeft: '4px solid var(--gold-warning)' }}>
+      {/* Driver Penalty Point Watch Banner */}
+      {briefMode === 'PRE_RACE' && currentBrief.penaltyWatch && currentBrief.penaltyWatch.high_risk_drivers && (
+        <div className="glass-panel" style={{ padding: '20px', borderLeft: '4px solid var(--gold-warning)', background: 'rgba(234, 179, 8, 0.05)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
-            <AlertTriangle color="var(--gold-warning)" size={22} />
-            <h3 className="font-orbitron" style={{ fontSize: '1.1rem', color: '#FFF' }}>
-              Penalty Points & License Risk Watch
+            <AlertTriangle color="var(--gold-warning)" size={20} />
+            <h3 className="font-orbitron" style={{ fontSize: '1rem', color: '#FFF' }}>
+              FIA Super Licence Penalty Watch ({currentBrief.penaltyWatch.total_drivers_flagged} Flagged)
             </h3>
           </div>
-          <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginBottom: '16px' }}>
-            {currentBrief.penaltyWatch.summary}
-          </p>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '12px' }}>
-            {currentBrief.penaltyWatch.high_risk_drivers && currentBrief.penaltyWatch.high_risk_drivers.map((drv, idx) => (
+          <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+            {currentBrief.penaltyWatch.high_risk_drivers.map((driver, idx) => (
               <div key={idx} style={{
-                background: 'rgba(255, 184, 0, 0.08)',
-                border: '1px solid rgba(255, 184, 0, 0.3)',
-                padding: '12px 16px',
-                borderRadius: '10px'
+                background: 'rgba(0,0,0,0.3)',
+                border: '1px solid rgba(234, 179, 8, 0.3)',
+                borderRadius: '8px',
+                padding: '10px 14px',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '12px'
               }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', color: '#FFF', fontWeight: 700 }}>
-                  <span>{drv.driver} ({drv.code})</span>
-                  <span style={{ color: 'var(--gold-warning)' }}>{drv.points}/12 Pts</span>
-                </div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--text-dim)', marginTop: '4px' }}>
-                  Next points expiry: {drv.expiry_next}
-                </div>
+                <span className="font-orbitron" style={{ fontWeight: 800, color: '#FFF' }}>{driver.driver} ({driver.code})</span>
+                <span className="font-mono" style={{ color: 'var(--gold-warning)', fontWeight: 700 }}>{driver.points}/12 Pts</span>
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>Expiry: {driver.expiry_next}</span>
               </div>
             ))}
           </div>
         </div>
       )}
 
-      {briefMode === 'POST_RACE' && currentBrief.teammateBattles && (
-        <div className="glass-panel" style={{ padding: '24px', borderLeft: '4px solid var(--cyan-neon)' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
-            <Award color="var(--cyan-neon)" size={22} />
-            <h3 className="font-orbitron" style={{ fontSize: '1.1rem', color: '#FFF' }}>
-              Teammate Head-to-Head Battle Recap
-            </h3>
-          </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '12px' }}>
-            {currentBrief.teammateBattles.map((team, idx) => (
-              <div key={idx} style={{
-                background: 'rgba(0, 240, 255, 0.05)',
-                border: '1px solid rgba(0, 240, 255, 0.2)',
-                padding: '14px 18px',
-                borderRadius: '12px'
-              }}>
-                <div style={{ fontSize: '0.9rem', color: '#FFF', fontWeight: 800, marginBottom: '6px' }}>
-                  {team.team} ({team.drivers})
-                </div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', display: 'flex', justifyContent: 'space-between', marginBottom: '4px' }}>
-                  <span>Qualifying Record:</span>
-                  <span className="font-mono" style={{ color: '#FFF' }}>{team.quali}</span>
-                </div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', display: 'flex', justifyContent: 'space-between' }}>
-                  <span>Race Finish Record:</span>
-                  <span className="font-mono" style={{ color: '#FFF' }}>{team.race}</span>
-                </div>
-              </div>
-            ))}
+      {/* Main Markdown Body */}
+      {currentBrief.markdown && (
+        <div className="glass-panel" style={{ padding: '28px', lineHeight: '1.6', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
+          <div style={{ color: '#FFF' }}>
+            {currentBrief.markdown.split('\n\n').map((paragraph, pIdx) => {
+              if (paragraph.startsWith('# ')) {
+                return <h1 key={pIdx} className="font-orbitron text-gradient-red" style={{ fontSize: '1.5rem', marginBottom: '16px' }}>{paragraph.replace('# ', '')}</h1>;
+              }
+              if (paragraph.startsWith('### ')) {
+                return <h3 key={pIdx} className="font-orbitron" style={{ fontSize: '1.1rem', color: '#FFF', marginTop: '20px', marginBottom: '10px' }}>{paragraph.replace('### ', '')}</h3>;
+              }
+              if (paragraph.startsWith('- ')) {
+                return (
+                  <ul key={pIdx} style={{ paddingLeft: '20px', marginBottom: '12px' }}>
+                    {paragraph.split('\n').map((li, lIdx) => (
+                      <li key={lIdx} style={{ marginBottom: '6px' }}>{li.replace('- ', '')}</li>
+                    ))}
+                  </ul>
+                );
+              }
+              return <p key={pIdx} style={{ marginBottom: '14px' }}>{paragraph}</p>;
+            })}
           </div>
         </div>
       )}
-
     </div>
   );
 }
