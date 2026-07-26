@@ -50,7 +50,7 @@ class F1AnalyticsEngine:
             {
                 "topic": "Championship Stakes",
                 "badge": "Title Race",
-                "detail": f"Leader holds a margin at the top of WDC standings. A win here extends the lead heading into the summer break.",
+                "detail": "Leader holds a margin at the top of WDC standings. A win here extends the lead heading into the summer break.",
                 "stat": gap_str
             },
             {
@@ -96,12 +96,16 @@ class F1AnalyticsEngine:
     def generate_telemetry_traces() -> Dict[str, List[Dict[str, Any]]]:
         """Generate lap telemetry speed and throttle traces for key driver pairs across lap distance."""
         drivers = {
-            "NOR": {"name": "Lando Norris", "team": "McLaren", "color": "#00F0FF", "baseSpeed": 315, "apexMod": 5},
-            "VER": {"name": "Max Verstappen", "team": "Red Bull", "color": "#FF1801", "baseSpeed": 318, "apexMod": 0},
-            "PIA": {"name": "Oscar Piastri", "team": "McLaren", "color": "#FFB800", "baseSpeed": 314, "apexMod": 4},
-            "LEC": {"name": "Charles Leclerc", "team": "Ferrari", "color": "#E50000", "baseSpeed": 316, "apexMod": 2},
-            "HAM": {"name": "Lewis Hamilton", "team": "Ferrari", "color": "#00E676", "baseSpeed": 315, "apexMod": 3},
-            "RUS": {"name": "George Russell", "team": "Mercedes", "color": "#00D2BE", "baseSpeed": 317, "apexMod": 1}
+            "NOR": {"name": "Lando Norris", "team": "McLaren", "color": "#FF8000", "baseSpeed": 315, "apexMod": 5},
+            "VER": {"name": "Max Verstappen", "team": "Red Bull", "color": "#3671C6", "baseSpeed": 318, "apexMod": 0},
+            "PIA": {"name": "Oscar Piastri", "team": "McLaren", "color": "#FF8000", "baseSpeed": 314, "apexMod": 4},
+            "LEC": {"name": "Charles Leclerc", "team": "Ferrari", "color": "#E8002D", "baseSpeed": 316, "apexMod": 2},
+            "HAM": {"name": "Lewis Hamilton", "team": "Ferrari", "color": "#E8002D", "baseSpeed": 315, "apexMod": 3},
+            "RUS": {"name": "George Russell", "team": "Mercedes", "color": "#27F4D2", "baseSpeed": 317, "apexMod": 1},
+            "ANT": {"name": "Andrea Kimi Antonelli", "team": "Mercedes", "color": "#27F4D2", "baseSpeed": 316, "apexMod": 2},
+            "ALO": {"name": "Fernando Alonso", "team": "Aston Martin", "color": "#229971", "baseSpeed": 312, "apexMod": 3},
+            "SAI": {"name": "Carlos Sainz", "team": "Williams", "color": "#64C4FF", "baseSpeed": 318, "apexMod": 1},
+            "OCO": {"name": "Esteban Ocon", "handle": "OCO", "team": "Haas", "color": "#B6BABD", "baseSpeed": 310, "apexMod": 2}
         }
 
         # Lap distance markers (in meters)
@@ -111,16 +115,15 @@ class F1AnalyticsEngine:
         for d in distances:
             point = {"distance": d}
             for code, drv in drivers.items():
-                # Simulate corner apex dips and straight-line speeds
-                if d in [400, 1400, 2400]: # Low-speed corners
+                if d in [400, 1400, 2400]:
                     speed = 125 + drv["apexMod"] * 2
                     throttle = 15
                     gear = 3
-                elif d in [1000, 2000]: # Medium-high speed sweepers
+                elif d in [1000, 2000]:
                     speed = 210 + drv["apexMod"] * 3
                     throttle = 75
                     gear = 5
-                else: # Straights
+                else:
                     speed = drv["baseSpeed"] + (d % 300) // 10
                     throttle = 100
                     gear = 8
@@ -138,10 +141,16 @@ class F1AnalyticsEngine:
 
     @staticmethod
     def get_teammate_battle_summary() -> List[Dict[str, Any]]:
-        """Teammate Head-to-Head metrics."""
+        """Teammate Head-to-Head metrics for ALL 10 F1 Teams."""
         return [
             {"team": "McLaren", "drivers": "NOR vs PIA", "quali": "7 - 5", "race": "8 - 4", "leader": "NOR (+15 pts)"},
             {"team": "Ferrari", "drivers": "LEC vs HAM", "quali": "8 - 4", "race": "7 - 5", "leader": "LEC (+13 pts)"},
-            {"team": "Red Bull", "drivers": "VER vs LAW", "quali": "11 - 1", "race": "10 - 2", "leader": "VER (+98 pts)"},
-            {"team": "Mercedes", "drivers": "RUS vs ANT", "quali": "9 - 3", "race": "8 - 4", "leader": "RUS (+42 pts)"}
+            {"team": "Red Bull Racing", "drivers": "VER vs LAW", "quali": "11 - 1", "race": "10 - 2", "leader": "VER (+98 pts)"},
+            {"team": "Mercedes", "drivers": "RUS vs ANT", "quali": "9 - 3", "race": "8 - 4", "leader": "RUS (+42 pts)"},
+            {"team": "Aston Martin", "drivers": "ALO vs STR", "quali": "8 - 4", "race": "9 - 3", "leader": "ALO (+28 pts)"},
+            {"team": "Williams", "drivers": "SAI vs ALB", "quali": "7 - 5", "race": "6 - 6", "leader": "SAI (+14 pts)"},
+            {"team": "Haas", "drivers": "OCO vs BEA", "quali": "6 - 6", "race": "7 - 5", "leader": "OCO (+6 pts)"},
+            {"team": "Alpine", "drivers": "GAS vs DOO", "quali": "9 - 3", "race": "8 - 4", "leader": "GAS (+18 pts)"},
+            {"team": "RB (Racing Bulls)", "drivers": "TSU vs HAD", "quali": "8 - 4", "race": "7 - 5", "leader": "TSU (+11 pts)"},
+            {"team": "Sauber / Audi", "drivers": "HUL vs BOR", "quali": "7 - 5", "race": "8 - 4", "leader": "HUL (+9 pts)"}
         ]
