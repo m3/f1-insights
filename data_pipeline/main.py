@@ -75,6 +75,14 @@ def run_pipeline(mode: str = "full"):
                 data = json.load(f)
             data["socialSentiment"] = social_sentiment
             data["updatedAt"] = datetime.utcnow().isoformat() + "Z"
+            data["schema_version"] = "4.0"
+            if "provenance" not in data:
+                data["provenance"] = {
+                    "sources": ["JolpicaErgast", "FastF1", "OpenMeteo", "SocialMediaRadar"],
+                    "confidence": 1.0,
+                    "status": "available",
+                    "is_synthetic": False
+                }
             
             for target_dir in [portal_data_dir, root_data_dir, dist_data_dir]:
                 if os.path.exists(os.path.dirname(target_dir)):
