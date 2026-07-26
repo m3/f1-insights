@@ -104,6 +104,6 @@ jobs:
             # Flush Nginx cache
             sudo systemctl reload nginx 2>/dev/null || sudo service nginx reload 2>/dev/null || true
 
-            # Verify HTTP health
-            sleep 3
-            curl -f http://127.0.0.1:8000/api/v1/health || exit 1
+            # Verify HTTP health with retry
+            sleep 6
+            curl -f http://127.0.0.1:8000/api/v1/health || (sleep 4 && curl -f http://127.0.0.1:8000/api/v1/health) || exit 1
