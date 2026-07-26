@@ -58,6 +58,50 @@ class F1SentimentEngine:
         journalists = entities.get("journalists_and_analysts", [])
         youtube_sources = entities.get("youtube_sources", [])
 
+        feed = [
+            {
+                "author": "@TracingInsights",
+                "handle": "TracingInsights",
+                "type": "Data Telemetry",
+                "weight": 0.95,
+                "text": "Telemetry breakdown: McLaren carrying +4.2 km/h through Turn 3 banking compared to Red Bull. Full corner data in bio.",
+                "likes": "2.4k",
+                "retweets": "340",
+                "time": "2h ago"
+            },
+            {
+                "author": "@F1",
+                "handle": "F1",
+                "type": "Official Broadcaster",
+                "weight": 1.0,
+                "text": "STEWARDS DECISION: No further action regarding the Turn 1 lap 1 entry between NOR and VER.",
+                "likes": "18.1k",
+                "retweets": "1.9k",
+                "time": "4h ago"
+            },
+            {
+                "author": "@AlbertFabrega",
+                "handle": "AlbertFabrega",
+                "type": "Technical Upgrades",
+                "weight": 0.9,
+                "text": "New floor edge winglet spotted on the Ferrari SF-26. Aiming to improve low-speed downforce stability.",
+                "likes": "4.1k",
+                "retweets": "512",
+                "time": "6h ago"
+            },
+            {
+                "author": "@peterdwindsor",
+                "handle": "peterdwindsor",
+                "type": "Driving Style Debrief",
+                "youtube": "@peterwindsor",
+                "weight": 0.9,
+                "text": "Fascinating corner entry throttle modulation from Kimi Antonelli into Turn 4. Video debrief uploading soon.",
+                "likes": "3.2k",
+                "retweets": "410",
+                "time": "7h ago"
+            }
+        ]
+
         return {
             "version": entities.get("version", "2026.3"),
             "overallSentiment": "HIGHLY HYPED",
@@ -68,47 +112,6 @@ class F1SentimentEngine:
             "keywords": entities.get("keywords", {}),
             "youtubeSources": youtube_sources,
             "driverSentimentRanking": driver_rankings,
-            "breakingNewsTweets": [
-                {
-                    "author": "@TracingInsights",
-                    "handle": "TracingInsights",
-                    "type": "Data Telemetry",
-                    "weight": 0.95,
-                    "text": "Telemetry breakdown: McLaren carrying +4.2 km/h through Turn 3 banking compared to Red Bull. Full corner data in bio.",
-                    "likes": "2.4k",
-                    "retweets": "340",
-                    "time": "2h ago"
-                },
-                {
-                    "author": "@F1",
-                    "handle": "F1",
-                    "type": "Official Broadcaster",
-                    "weight": 1.0,
-                    "text": "STEWARDS DECISION: No further action regarding the Turn 1 lap 1 entry between NOR and VER.",
-                    "likes": "18.1k",
-                    "retweets": "1.9k",
-                    "time": "4h ago"
-                },
-                {
-                    "author": "@AlbertFabrega",
-                    "handle": "AlbertFabrega",
-                    "type": "Technical Upgrades",
-                    "weight": 0.9,
-                    "text": "New floor edge winglet spotted on the Ferrari SF-26. Aiming to improve low-speed downforce stability.",
-                    "likes": "4.1k",
-                    "retweets": "512",
-                    "time": "6h ago"
-                },
-                {
-                    "author": "@peterdwindsor",
-                    "handle": "peterdwindsor",
-                    "type": "Driving Style Debrief",
-                    "youtube": "@peterwindsor",
-                    "weight": 0.9,
-                    "text": "Fascinating corner entry throttle modulation from Kimi Antonelli into Turn 4. Video debrief uploading soon.",
-                    "likes": "3.2k",
-                    "retweets": "410",
-                    "time": "7h ago"
-                }
-            ]
+            "breakingNewsTweets": feed,
+            "xTracksideFeed": feed
         }
