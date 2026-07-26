@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import SessionCountdownHeader from './components/SessionCountdownHeader';
 import BriefCard from './components/BriefCard';
+import CircuitBlueprintCard from './components/CircuitBlueprintCard';
+import TelemetryOverlayTool from './components/TelemetryOverlayTool';
 import GridPenaltiesTracker from './components/GridPenaltiesTracker';
 import TelemetryChart from './components/TelemetryChart';
 import SectorMatrix from './components/SectorMatrix';
@@ -69,12 +71,16 @@ export default function App() {
         {activeTab === 'brief' && (
           <>
             <BriefCard preBrief={preBrief} postBrief={postBrief} />
+            <CircuitBlueprintCard currentRace={currentRace} />
+            <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />
             <div style={{ marginTop: '24px' }}>
               <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
             </div>
             <SocialSentiment sentiment={data?.socialSentiment} />
           </>
         )}
+        {activeTab === 'circuit_blueprint' && <CircuitBlueprintCard currentRace={currentRace} />}
+        {activeTab === 'telemetry_overlay' && <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />}
         {activeTab === 'grid_penalties' && <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />}
         {activeTab === 'telemetry' && <TelemetryChart telemetryData={data?.telemetryTraces} />}
         {activeTab === 'sectors' && <SectorMatrix />}

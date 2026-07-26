@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flag, Zap, ShieldAlert, Award, Calendar, BarChart2, Gauge, Timer, AlertOctagon } from 'lucide-react';
+import { Flag, Zap, ShieldAlert, Award, Calendar, BarChart2, Gauge, Timer, AlertOctagon, Navigation, Sliders } from 'lucide-react';
 
 export default function Header({ activeTab, setActiveTab, currentRace }) {
   return (
@@ -75,16 +75,22 @@ export default function Header({ activeTab, setActiveTab, currentRace }) {
           <Zap size={16} /> Morning Brief
         </button>
         <button
+          className={`nav-tab ${activeTab === 'circuit_blueprint' ? 'active' : ''}`}
+          onClick={() => setActiveTab('circuit_blueprint')}
+        >
+          <Navigation size={16} /> Circuit Blueprint
+        </button>
+        <button
+          className={`nav-tab ${activeTab === 'telemetry_overlay' ? 'active' : ''}`}
+          onClick={() => setActiveTab('telemetry_overlay')}
+        >
+          <Sliders size={16} /> Telemetry Overlay
+        </button>
+        <button
           className={`nav-tab ${activeTab === 'grid_penalties' ? 'active' : ''}`}
           onClick={() => setActiveTab('grid_penalties')}
         >
           <AlertOctagon size={16} /> Grid & Time Penalties
-        </button>
-        <button
-          className={`nav-tab ${activeTab === 'telemetry' ? 'active' : ''}`}
-          onClick={() => setActiveTab('telemetry')}
-        >
-          <BarChart2 size={16} /> Corner Telemetry
         </button>
         <button
           className={`nav-tab ${activeTab === 'sectors' ? 'active' : ''}`}
