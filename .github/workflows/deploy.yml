@@ -73,7 +73,7 @@ jobs:
           script: |
             export PATH=$PATH:/usr/bin:/usr/local/bin:~/.nvm/versions/node/$(ls ~/.nvm/versions/node 2>/dev/null | tail -n 1)/bin
             
-            # Remove stale pyc bytecode cache
+            # Purge pyc bytecode cache
             find /home/mathias/f1-insights -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
             find /home/mathias/f1-insights -name "*.pyc" -delete 2>/dev/null || true
 
@@ -95,10 +95,15 @@ jobs:
             sudo cp -r /home/mathias/f1-insights/portal/dist/* /var/www/f1.sports.superchargedbym3.com/ 2>/dev/null || true
             sudo chown -R mathias:www-data /var/www/f1-insights /var/www/html /var/www/f1.sports.superchargedbym3.com 2>/dev/null || true
 
-            # Restart persistent PM2 web and backend apps
-            pm2 restart f1-insights-portal || pm2 start "npx serve -s /home/mathias/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
-            pm2 restart f1-insights-backend || pm2 start "/home/mathias/f1-insights/backend/venv/bin/python -m uvicorn app.main:app --port 8000" --name "f1-insights-backend" --cwd "/home/mathias/f1-insights/backend"
+            # Force kill PM2 static server process to force reload of fresh React JS assets
+            pm2 delete f1-insights-portal || true
+            pm2 delete f1-insights-backend || true
+            pm2 start "npx serve -s /home/mathias/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
+            pm2 start "/home/mathias/f1-insights/backend/venv/bin/python -m uvicorn app.main:app --port 8000" --name "f1-insights-backend" --cwd "/home/mathias/f1-insights/backend"
             
+            # Flush Nginx cache
+            sudo systemctl reload nginx 2>/dev/null || sudo service nginx reload 2>/dev/null || true
+
             # Verify HTTP health
             sleep 3
             curl -f http://127.0.0.1:8000/api/v1/health || exit 1
