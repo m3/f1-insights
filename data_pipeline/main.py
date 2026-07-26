@@ -141,6 +141,9 @@ def run_pipeline(mode: str = "full"):
     
     penalty_watch = analytics.get_penalty_watch(penalty_points)
     teammate_battles = analytics.get_teammate_battle_summary(completed_races)
+    sector_matrix = analytics.generate_sector_matrix(driver_standings)
+    grid_penalties = analytics.generate_grid_penalties()
+    circuit_specs = analytics.generate_circuit_blueprint_specs(next_race)
     
     social_res = social.fetch_social_sentiment(next_race.get('raceName', 'Hungarian Grand Prix'))
     social_sentiment = social_res.data
@@ -178,6 +181,9 @@ def run_pipeline(mode: str = "full"):
         "constructorStandings": constructor_standings,
         "penaltyPoints": penalty_points,
         "teammateBattles": teammate_battles,
+        "sectorMatrix": sector_matrix,
+        "gridPenalties": grid_penalties,
+        "circuitSpecs": circuit_specs,
         "socialSentiment": social_sentiment,
         "sessionCheckpoints": session_checkpoints,
         "tracingCommitStatus": tracing_commit_status,

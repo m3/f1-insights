@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { MapPin, Navigation, Compass, Shield, Zap, Flag, Activity } from 'lucide-react';
 
-export default function CircuitBlueprintCard({ currentRace }) {
+export default function CircuitBlueprintCard({ currentRace, circuitSpecsData }) {
   const [selectedZone, setSelectedZone] = useState('drs1');
 
   const circuitName = currentRace?.Circuit?.circuitName || 'Hungaroring';
   const locality = currentRace?.Circuit?.Location?.locality || 'Budapest';
   const country = currentRace?.Circuit?.Location?.country || 'Hungary';
 
-  const circuitSpecs = {
+  const circuitSpecs = circuitSpecsData || {
     length: "4.381 km",
     laps: "70 Laps",
     raceDistance: "306.63 km",
@@ -99,122 +99,133 @@ export default function CircuitBlueprintCard({ currentRace }) {
 
       {/* SVG Circuit Layout Diagram */}
       <div style={{
-        background: 'radial-gradient(circle at center, rgba(0, 240, 255, 0.05) 0%, rgba(10, 12, 18, 0.95) 100%)',
+        position: 'relative',
+        height: '240px',
+        background: 'radial-gradient(circle at center, rgba(39, 244, 210, 0.05) 0%, rgba(0,0,0,0.4) 100%)',
+        borderRadius: '12px',
         border: '1px solid var(--border-subtle)',
-        borderRadius: '16px',
-        padding: '24px',
-        marginBottom: '24px',
-        textAlign: 'center',
-        position: 'relative'
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom: '20px',
+        overflow: 'hidden'
       }}>
-        <svg viewBox="0 0 600 300" style={{ maxWidth: '540px', width: '100%', height: 'auto', filter: 'drop-shadow(0 0 12px rgba(0,240,255,0.3))' }}>
-          {/* Track Outline Silhouette */}
+        
+        {/* SVG Track Silhouette */}
+        <svg viewBox="0 0 500 200" style={{ width: '80%', height: '80%' }}>
+          <defs>
+            <linearGradient id="trackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#27F4D2" stopOpacity="0.8" />
+              <stop offset="100%" stopColor="#FF1801" stopOpacity="0.8" />
+            </linearGradient>
+          </defs>
           <path
-            d="M 120 230 L 460 230 C 510 230 530 200 510 160 L 470 100 C 450 70 410 70 380 90 L 320 130 L 260 90 C 230 70 190 70 170 100 L 130 160 C 100 200 90 230 120 230 Z"
+            d="M 60,140 L 420,140 C 460,140 470,100 440,70 L 380,30 C 350,10 300,10 270,40 L 230,80 C 210,100 180,100 160,80 L 120,40 C 90,10 40,30 40,80 Z"
             fill="none"
-            stroke="var(--cyan-neon)"
-            strokeWidth="8"
+            stroke="url(#trackGrad)"
+            strokeWidth="5"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
-          {/* Inner Apex Line */}
+
+          {/* DRS Zone 1 Highlight */}
           <path
-            d="M 120 230 L 460 230 C 510 230 530 200 510 160 L 470 100 C 450 70 410 70 380 90 L 320 130 L 260 90 C 230 70 190 70 170 100 L 130 160 C 100 200 90 230 120 230 Z"
+            d="M 60,140 L 420,140"
             fill="none"
-            stroke="#FFF"
-            strokeWidth="2"
-            strokeDasharray="6,6"
+            stroke="#27F4D2"
+            strokeWidth="8"
+            strokeDasharray="6,4"
+            opacity={selectedZone === 'drs1' ? 1 : 0.4}
+            onClick={() => setSelectedZone('drs1')}
+            style={{ cursor: 'pointer' }}
           />
-          
-          {/* Turn Labels & DRS Indicators */}
-          <g fill="#FFF" fontSize="12" fontFamily="Orbitron, sans-serif" fontWeight="bold">
-            {/* Turn 1 */}
-            <circle cx="480" cy="230" r="10" fill="#FF1801" />
-            <text x="480" y="234" textAnchor="middle" fill="#FFF" fontSize="10">T1</text>
-            
-            {/* Turn 4 */}
-            <circle cx="380" cy="90" r="10" fill="var(--cyan-neon)" />
-            <text x="380" y="94" textAnchor="middle" fill="#000" fontSize="10">T4</text>
-            
-            {/* Turn 12 */}
-            <circle cx="130" cy="160" r="10" fill="var(--gold-warning)" />
-            <text x="130" y="164" textAnchor="middle" fill="#000" fontSize="10">T12</text>
 
-            {/* Turn 14 */}
-            <circle cx="120" cy="230" r="10" fill="#22C55E" />
-            <text x="120" y="234" textAnchor="middle" fill="#000" fontSize="10">T14</text>
+          {/* DRS Zone 2 Highlight */}
+          <path
+            d="M 440,70 L 380,30"
+            fill="none"
+            stroke="#FFB800"
+            strokeWidth="8"
+            strokeDasharray="6,4"
+            opacity={selectedZone === 'drs2' ? 1 : 0.4}
+            onClick={() => setSelectedZone('drs2')}
+            style={{ cursor: 'pointer' }}
+          />
 
-            {/* DRS Zone 1 Banner */}
-            <rect x="250" y="245" width="120" height="22" rx="4" fill="rgba(0, 240, 255, 0.2)" stroke="var(--cyan-neon)" />
-            <text x="310" y="260" textAnchor="middle" fill="var(--cyan-neon)" fontSize="10">DRS ZONE 1</text>
+          {/* Key Braking Zone Pins */}
+          <g transform="translate(60, 140)">
+            <circle r="6" fill="#FF1801" />
+            <text x="-10" y="20" fill="#FFF" fontSize="10" fontWeight="bold">Turn 1</text>
+          </g>
+          <g transform="translate(440, 70)">
+            <circle r="6" fill="#FFB800" />
+            <text x="10" y="5" fill="#FFF" fontSize="10" fontWeight="bold">Turn 4</text>
+          </g>
+          <g transform="translate(230, 80)">
+            <circle r="6" fill="#27F4D2" />
+            <text x="-15" y="-10" fill="#FFF" fontSize="10" fontWeight="bold">Turn 12</text>
           </g>
         </svg>
 
-        <div style={{ fontSize: '0.75rem', color: 'var(--text-dim)', marginTop: '8px' }}>
-          Interactive Circuit Blueprint • Turn 1 (Heavy Braking) | Turn 4 (High Speed Entry) | Turn 14 (DRS Detection)
+        {/* Live Lap Record Overlay */}
+        <div style={{ position: 'absolute', bottom: '12px', left: '16px', fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+          <span style={{ color: 'var(--text-dim)' }}>LAP RECORD: </span>
+          <span style={{ color: '#FFF', fontWeight: 700 }}>{circuitSpecs.lapRecord}</span>
         </div>
       </div>
 
-      {/* DRS Zones Selector */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '16px', marginBottom: '24px' }}>
-        {circuitSpecs.drsZones.map((zone) => (
-          <div
-            key={zone.id}
-            onClick={() => setSelectedZone(zone.id)}
-            style={{
-              background: selectedZone === zone.id ? 'rgba(0, 240, 255, 0.08)' : 'rgba(255,255,255,0.03)',
-              border: selectedZone === zone.id ? '1px solid var(--cyan-neon)' : '1px solid var(--border-subtle)',
-              padding: '16px',
-              borderRadius: '12px',
-              cursor: 'pointer',
-              transition: 'all 0.2s ease'
-            }}
-          >
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-              <div style={{ fontWeight: 800, color: '#FFF', fontSize: '0.9rem' }}>{zone.name}</div>
-              <span className="badge badge-cyan" style={{ fontSize: '0.65rem' }}>{zone.overtakeProb}</span>
-            </div>
-            <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', lineHeight: '1.4' }}>
-              <div><strong>Detection</strong>: {zone.detection}</div>
-              <div><strong>Activation</strong>: {zone.activation}</div>
-              <div style={{ marginTop: '6px', color: 'var(--cyan-neon)', fontFamily: 'var(--font-mono)' }}>
-                Length: {zone.length} • Max Speed: {zone.topSpeed}
-              </div>
+      {/* DRS Zone Picker & Specs */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '16px' }}>
+        
+        {/* DRS Selector */}
+        <div>
+          <div style={{ fontSize: '0.75rem', color: 'var(--text-dim)', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '8px' }}>
+            SELECT DRS ACTIVATION ZONE
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            {circuitSpecs.drsZones.map(zone => (
+              <button
+                key={zone.id}
+                onClick={() => setSelectedZone(zone.id)}
+                style={{
+                  textAlign: 'left',
+                  padding: '12px',
+                  borderRadius: '10px',
+                  border: selectedZone === zone.id ? '1px solid var(--cyan-neon)' : '1px solid var(--border-subtle)',
+                  background: selectedZone === zone.id ? 'rgba(39, 244, 210, 0.08)' : 'rgba(0,0,0,0.2)',
+                  color: '#FFF',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <span className="font-orbitron" style={{ fontSize: '0.88rem', fontWeight: 700 }}>{zone.name}</span>
+                  <Zap size={14} color={selectedZone === zone.id ? 'var(--cyan-neon)' : 'var(--text-dim)'} />
+                </div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '4px' }}>
+                  Length: {zone.length} • Max Speed: {zone.topSpeed}
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Selected DRS Specs Box */}
+        <div style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid var(--border-subtle)', borderRadius: '12px', padding: '16px' }}>
+          <div style={{ fontSize: '0.75rem', color: 'var(--cyan-neon)', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 800, marginBottom: '8px' }}>
+            {activeZone.name} DETAILS
+          </div>
+          <div style={{ fontSize: '0.85rem', color: '#FFF', lineHeight: '1.6' }}>
+            <div><strong>Detection Point:</strong> {activeZone.detection}</div>
+            <div><strong>Activation Line:</strong> {activeZone.activation}</div>
+            <div><strong>Zone Length:</strong> {activeZone.length}</div>
+            <div><strong>Est. DRS Top Speed:</strong> {activeZone.topSpeed}</div>
+            <div style={{ marginTop: '6px', color: 'var(--gold-warning)', fontWeight: 700 }}>
+              Overtake Probability: {activeZone.overtakeProb}
             </div>
           </div>
-        ))}
-      </div>
-
-      {/* Heavy Braking Zones Matrix */}
-      <div>
-        <h3 className="font-orbitron" style={{ fontSize: '1rem', color: '#FFF', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <Activity color="var(--f1-red)" size={18} /> Heavy Deceleration & Braking Zones (High G-Force)
-        </h3>
-
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '14px' }}>
-          {circuitSpecs.brakingZones.map((b, idx) => (
-            <div key={idx} style={{
-              background: 'rgba(255, 24, 1, 0.04)',
-              border: '1px solid rgba(255, 24, 1, 0.2)',
-              borderRadius: '12px',
-              padding: '14px'
-            }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                <span className="font-orbitron" style={{ fontWeight: 800, color: '#FFF', fontSize: '0.95rem' }}>{b.turn}</span>
-                <span className="badge badge-red font-mono" style={{ fontSize: '0.75rem', fontWeight: 800 }}>{b.gForce} DECEL</span>
-              </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '6px' }}>
-                <span>Entry Speed: <strong style={{ color: '#FFF' }}>{b.entrySpeed}</strong></span>
-                <span>Apex: <strong style={{ color: 'var(--cyan-neon)' }}>{b.apexSpeed}</strong></span>
-              </div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--text-dim)', fontFamily: 'var(--font-mono)' }}>
-                Braking Distance: {b.brakingDist} • Shifts: {b.gearShift}
-              </div>
-            </div>
-          ))}
         </div>
       </div>
-
     </div>
   );
 }

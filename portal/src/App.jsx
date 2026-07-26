@@ -79,7 +79,7 @@ export default function App() {
         {activeTab === 'brief' && (
           <>
             <BriefCard preBrief={preBrief} postBrief={postBrief} />
-            <CircuitBlueprintCard currentRace={currentRace} />
+            <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />
             <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />
             <TyreDegSimulator />
             <div style={{ marginTop: '24px' }}>
@@ -88,12 +88,12 @@ export default function App() {
             <SocialSentiment sentiment={data?.socialSentiment} />
           </>
         )}
-        {activeTab === 'circuit_blueprint' && <CircuitBlueprintCard currentRace={currentRace} />}
+        {activeTab === 'circuit_blueprint' && <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />}
         {activeTab === 'telemetry_overlay' && <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />}
         {activeTab === 'tyre_deg' && <TyreDegSimulator />}
         {activeTab === 'grid_penalties' && <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />}
         {activeTab === 'telemetry' && <TelemetryChart telemetryData={data?.telemetryTraces} />}
-        {activeTab === 'sectors' && <SectorMatrix />}
+        {activeTab === 'sectors' && <SectorMatrix sectorData={data?.sectorMatrix} />}
         {activeTab === 'pitstop' && <PitStrategyCalculator />}
         {activeTab === 'penalties' && <PenaltyWatch penaltyPoints={penaltyPoints} />}
         {activeTab === 'teammates' && <TeammateBattles battles={teammateBattles} />}
@@ -101,28 +101,17 @@ export default function App() {
           <StandingsView
             driverStandings={driverStandings}
             constructorStandings={constructorStandings}
-            schedule={data?.schedule || []}
           />
         )}
+        {activeTab === 'social' && <SocialSentiment sentiment={data?.socialSentiment} />}
       </main>
 
       <WebhookDispatchModal
         isOpen={isWebhookModalOpen}
         onClose={() => setIsWebhookModalOpen(false)}
+        preBrief={preBrief}
+        postBrief={postBrief}
       />
-
-      <footer style={{
-        marginTop: '40px',
-        textAlign: 'center',
-        padding: '20px',
-        color: 'var(--text-dim)',
-        fontSize: '0.8rem',
-        borderTop: '1px solid var(--border-subtle)'
-      }}>
-        <p>
-          F1 Telemetry & Morning Brief Project • Data sourced from TracingInsights & Ergast API
-        </p>
-      </footer>
     </div>
   );
 }

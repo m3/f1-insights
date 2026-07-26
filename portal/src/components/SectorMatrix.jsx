@@ -1,22 +1,16 @@
 import React, { useState } from 'react';
 import { Gauge, Zap, Search, ShieldCheck, TrendingUp } from 'lucide-react';
 
-export default function SectorMatrix() {
+export default function SectorMatrix({ sectorData: initialData }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('lapTime');
 
-  // Realistic F1 Sector Times & Speed Traps Dataset
-  const sectorData = [
+  const sectorData = initialData || [
     { code: 'NOR', name: 'Lando Norris', team: 'McLaren', s1: '28.142', s2: '36.410', s3: '22.890', st: 338.4, lapTime: '1:27.442', s1Best: true, s2Best: false, s3Best: true, stBest: false },
     { code: 'VER', name: 'Max Verstappen', team: 'Red Bull', s1: '28.210', s2: '36.388', s3: '22.920', st: 341.8, lapTime: '1:27.518', s1Best: false, s2Best: true, s3Best: false, stBest: true },
     { code: 'PIA', name: 'Oscar Piastri', team: 'McLaren', s1: '28.188', s2: '36.450', s3: '22.915', st: 337.9, lapTime: '1:27.553', s1Best: false, s2Best: false, s3Best: false, stBest: false },
     { code: 'LEC', name: 'Charles Leclerc', team: 'Ferrari', s1: '28.245', s2: '36.490', s3: '22.940', st: 339.2, lapTime: '1:27.675', s1Best: false, s2Best: false, s3Best: false, stBest: false },
-    { code: 'HAM', name: 'Lewis Hamilton', team: 'Ferrari', s1: '28.290', s2: '36.520', s3: '22.980', st: 338.8, lapTime: '1:27.790', s1Best: false, s2Best: false, s3Best: false, stBest: false },
-    { code: 'RUS', name: 'George Russell', team: 'Mercedes', s1: '28.310', s2: '36.540', s3: '23.010', st: 339.5, lapTime: '1:27.860', s1Best: false, s2Best: false, s3Best: false, stBest: false },
-    { code: 'SAI', name: 'Carlos Sainz', team: 'Williams', s1: '28.340', s2: '36.580', s3: '23.050', st: 342.1, lapTime: '1:27.970', s1Best: false, s2Best: false, s3Best: false, stBest: false },
-    { code: 'ALB', name: 'Alex Albon', team: 'Williams', s1: '28.380', s2: '36.620', s3: '23.090', st: 340.6, lapTime: '1:28.090', s1Best: false, s2Best: false, s3Best: false, stBest: false },
-    { code: 'LAW', name: 'Liam Lawson', team: 'Red Bull', s1: '28.410', s2: '36.690', s3: '23.140', st: 338.1, lapTime: '1:28.240', s1Best: false, s2Best: false, s3Best: false, stBest: false },
-    { code: 'ANT', name: 'Kimi Antonelli', team: 'Mercedes', s1: '28.450', s2: '36.720', s3: '23.180', st: 337.5, lapTime: '1:28.350', s1Best: false, s2Best: false, s3Best: false, stBest: false }
+    { code: 'HAM', name: 'Lewis Hamilton', team: 'Ferrari', s1: '28.290', s2: '36.520', s3: '22.980', st: 338.8, lapTime: '1:27.790', s1Best: false, s2Best: false, s3Best: false, stBest: false }
   ];
 
   const filteredData = sectorData.filter(
@@ -98,10 +92,7 @@ export default function SectorMatrix() {
                 <td style={{ padding: '12px' }}>
                   <span style={{
                     color: d.s1Best ? '#C084FC' : '#4ADE80',
-                    fontWeight: 700,
-                    padding: '2px 8px',
-                    borderRadius: '4px',
-                    background: d.s1Best ? 'rgba(192, 132, 252, 0.15)' : 'rgba(74, 222, 128, 0.1)'
+                    fontWeight: d.s1Best ? 800 : 500
                   }}>
                     {d.s1}s
                   </span>
@@ -111,10 +102,7 @@ export default function SectorMatrix() {
                 <td style={{ padding: '12px' }}>
                   <span style={{
                     color: d.s2Best ? '#C084FC' : '#4ADE80',
-                    fontWeight: 700,
-                    padding: '2px 8px',
-                    borderRadius: '4px',
-                    background: d.s2Best ? 'rgba(192, 132, 252, 0.15)' : 'rgba(74, 222, 128, 0.1)'
+                    fontWeight: d.s2Best ? 800 : 500
                   }}>
                     {d.s2}s
                   </span>
@@ -124,10 +112,7 @@ export default function SectorMatrix() {
                 <td style={{ padding: '12px' }}>
                   <span style={{
                     color: d.s3Best ? '#C084FC' : '#4ADE80',
-                    fontWeight: 700,
-                    padding: '2px 8px',
-                    borderRadius: '4px',
-                    background: d.s3Best ? 'rgba(192, 132, 252, 0.15)' : 'rgba(74, 222, 128, 0.1)'
+                    fontWeight: d.s3Best ? 800 : 500
                   }}>
                     {d.s3}s
                   </span>
@@ -135,27 +120,20 @@ export default function SectorMatrix() {
 
                 {/* Speed Trap */}
                 <td style={{ padding: '12px' }}>
-                  <span style={{
-                    color: d.stBest ? '#C084FC' : '#FFF',
-                    fontWeight: d.stBest ? 800 : 500,
-                    padding: '2px 8px',
-                    borderRadius: '4px',
-                    background: d.stBest ? 'rgba(192, 132, 252, 0.15)' : 'transparent'
-                  }}>
+                  <span className="font-orbitron" style={{ color: d.stBest ? 'var(--cyan-neon)' : '#FFF', fontWeight: d.stBest ? 800 : 400 }}>
                     {d.st} km/h
                   </span>
                 </td>
 
                 {/* Best Lap */}
-                <td className="font-orbitron" style={{ padding: '12px', textAlign: 'right', fontWeight: 800, color: index === 0 ? '#FF1801' : '#FFF' }}>
-                  {d.lapTime}
+                <td style={{ padding: '12px', textAlign: 'right', fontWeight: 800, color: '#FFF' }}>
+                  <span className="font-mono">{d.lapTime}</span>
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-
     </div>
   );
 }
