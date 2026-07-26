@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
-import { MapPin, Navigation, Compass, Shield, Zap, Flag, Activity } from 'lucide-react';
+import { Navigation, Zap, MapPin } from 'lucide-react';
+import { getCircuitSvgMap } from '../data/circuitPaths';
 
 export default function CircuitBlueprintCard({ currentRace, circuitSpecsData }) {
   const [selectedZone, setSelectedZone] = useState('drs1');
 
+  const circuitId = currentRace?.Circuit?.circuitId || 'hungaroring';
   const circuitName = currentRace?.Circuit?.circuitName || 'Hungaroring';
   const locality = currentRace?.Circuit?.Location?.locality || 'Budapest';
   const country = currentRace?.Circuit?.Location?.country || 'Hungary';
+
+  const circuitVectorMap = getCircuitSvgMap(circuitId);
 
   const circuitSpecs = circuitSpecsData || {
     length: "4.381 km",
@@ -19,7 +23,7 @@ export default function CircuitBlueprintCard({ currentRace, circuitSpecsData }) 
         name: "DRS Zone 1 (Main Straight)",
         detection: "Turn 14 Exit (70m before turn apex)",
         activation: "Main Pit Straight (Turn 14 to Turn 1)",
-        length: "810 meters",
+        length: "680 meters",
         topSpeed: "342.4 km/h",
         overtakeProb: "High (Primary Passing Zone)"
       },
@@ -45,10 +49,10 @@ export default function CircuitBlueprintCard({ currentRace, circuitSpecsData }) 
       {
         turn: "Turn 4",
         entrySpeed: "298 km/h",
-        apexSpeed: "215 km/h",
+        apexSpeed: "205 km/h",
         gForce: "3.9G",
         brakingDist: "65 meters",
-        gearShift: "7th ➔ 5th"
+        gearShift: "7th ➔ 4th"
       },
       {
         turn: "Turn 12",
@@ -72,7 +76,7 @@ export default function CircuitBlueprintCard({ currentRace, circuitSpecsData }) 
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
             <Navigation color="var(--cyan-neon)" size={22} />
             <h2 className="font-orbitron" style={{ fontSize: '1.2rem', color: '#FFF' }}>
-              Circuit Blueprint & DRS Activation Radar
+              Canonical FIA Circuit Blueprint & DRS Activation Radar
             </h2>
           </div>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
@@ -97,10 +101,10 @@ export default function CircuitBlueprintCard({ currentRace, circuitSpecsData }) 
         </div>
       </div>
 
-      {/* SVG Circuit Layout Diagram */}
+      {/* SVG Canonical Circuit Layout Diagram */}
       <div style={{
         position: 'relative',
-        height: '240px',
+        height: '260px',
         background: 'radial-gradient(circle at center, rgba(39, 244, 210, 0.05) 0%, rgba(0,0,0,0.4) 100%)',
         borderRadius: '12px',
         border: '1px solid var(--border-subtle)',
@@ -111,65 +115,80 @@ export default function CircuitBlueprintCard({ currentRace, circuitSpecsData }) 
         overflow: 'hidden'
       }}>
         
-        {/* SVG Track Silhouette */}
-        <svg viewBox="0 0 500 200" style={{ width: '80%', height: '80%' }}>
+        {/* SVG Track Vector */}
+        <svg viewBox={circuitVectorMap.viewBox} style={{ width: '90%', height: '85%' }}>
           <defs>
             <linearGradient id="trackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#27F4D2" stopOpacity="0.8" />
-              <stop offset="100%" stopColor="#FF1801" stopOpacity="0.8" />
+              <stop offset="0%" stopColor="#27F4D2" stopOpacity="0.9" />
+              <stop offset="100%" stopColor="#FF1801" stopOpacity="0.9" />
             </linearGradient>
           </defs>
+          
+          {/* Main Track Vector Line */}
           <path
-            d="M 60,140 L 420,140 C 460,140 470,100 440,70 L 380,30 C 350,10 300,10 270,40 L 230,80 C 210,100 180,100 160,80 L 120,40 C 90,10 40,30 40,80 Z"
+            d={circuitVectorMap.path}
             fill="none"
             stroke="url(#trackGrad)"
-            strokeWidth="5"
+            strokeWidth="6"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
 
           {/* DRS Zone 1 Highlight */}
-          <path
-            d="M 60,140 L 420,140"
-            fill="none"
-            stroke="#27F4D2"
-            strokeWidth="8"
-            strokeDasharray="6,4"
-            opacity={selectedZone === 'drs1' ? 1 : 0.4}
-            onClick={() => setSelectedZone('drs1')}
-            style={{ cursor: 'pointer' }}
-          />
+          {circuitVectorMap.drs1Path && (
+            <path
+              d={circuitVectorMap.drs1Path}
+              fill="none"
+              stroke="#27F4D2"
+              strokeWidth="9"
+              strokeDasharray="8,5"
+              opacity={selectedZone === 'drs1' ? 1 : 0.4}
+              onClick={() => setSelectedZone('drs1')}
+              style={{ cursor: 'pointer' }}
+            />
+          )}
 
           {/* DRS Zone 2 Highlight */}
-          <path
-            d="M 440,70 L 380,30"
-            fill="none"
-            stroke="#FFB800"
-            strokeWidth="8"
-            strokeDasharray="6,4"
-            opacity={selectedZone === 'drs2' ? 1 : 0.4}
-            onClick={() => setSelectedZone('drs2')}
-            style={{ cursor: 'pointer' }}
-          />
+          {circuitVectorMap.drs2Path && (
+            <path
+              d={circuitVectorMap.drs2Path}
+              fill="none"
+              stroke="#FFB800"
+              strokeWidth="9"
+              strokeDasharray="8,5"
+              opacity={selectedZone === 'drs2' ? 1 : 0.4}
+              onClick={() => setSelectedZone('drs2')}
+              style={{ cursor: 'pointer' }}
+            />
+          )}
 
-          {/* Key Braking Zone Pins */}
-          <g transform="translate(60, 140)">
-            <circle r="6" fill="#FF1801" />
-            <text x="-10" y="20" fill="#FFF" fontSize="10" fontWeight="bold">Turn 1</text>
-          </g>
-          <g transform="translate(440, 70)">
-            <circle r="6" fill="#FFB800" />
-            <text x="10" y="5" fill="#FFF" fontSize="10" fontWeight="bold">Turn 4</text>
-          </g>
-          <g transform="translate(230, 80)">
-            <circle r="6" fill="#27F4D2" />
-            <text x="-15" y="-10" fill="#FFF" fontSize="10" fontWeight="bold">Turn 12</text>
-          </g>
+          {/* Key Corner Pins & Turn Labels */}
+          {circuitVectorMap.turns.map((turn) => (
+            <g key={turn.id} transform={`translate(${turn.x}, ${turn.y})`}>
+              <circle
+                r="6"
+                fill={turn.type === 'heavy_braking' ? '#FF1801' : turn.type === 'high_speed' ? '#27F4D2' : '#FFB800'}
+                stroke="#FFF"
+                strokeWidth="1.5"
+              />
+              <text
+                x="8"
+                y="4"
+                fill="#FFF"
+                fontSize="10"
+                fontWeight="800"
+                fontFamily="monospace"
+                style={{ textShadow: '0px 1px 3px rgba(0,0,0,0.9)' }}
+              >
+                {turn.label}
+              </text>
+            </g>
+          ))}
         </svg>
 
         {/* Live Lap Record Overlay */}
         <div style={{ position: 'absolute', bottom: '12px', left: '16px', fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-          <span style={{ color: 'var(--text-dim)' }}>LAP RECORD: </span>
+          <span style={{ color: 'var(--text-dim)' }}>CANONICAL LAP RECORD: </span>
           <span style={{ color: '#FFF', fontWeight: 700 }}>{circuitSpecs.lapRecord}</span>
         </div>
       </div>
