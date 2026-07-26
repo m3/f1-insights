@@ -9,8 +9,8 @@ class Settings(BaseSettings):
     # Security
     ADMIN_API_KEY: str = os.getenv("ADMIN_API_KEY", "f1-insights-admin-secret-key-2026")
     
-    # Storage
-    BASE_DIR: str = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    # Storage - Ensure BASE_DIR points to repository root
+    BASE_DIR: str = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
     SQLITE_DB_PATH: str = os.getenv("SQLITE_DB_PATH", os.path.join(BASE_DIR, "backend", "data", "f1_insights.db"))
     
     # Server & Port
