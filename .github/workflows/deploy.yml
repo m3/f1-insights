@@ -72,6 +72,11 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY || secrets.SSH_PRIVATE_KEY || secrets.M3_VPS_SSH_KEY }}
           script: |
             export PATH=$PATH:/usr/bin:/usr/local/bin:~/.nvm/versions/node/$(ls ~/.nvm/versions/node 2>/dev/null | tail -n 1)/bin
+            
+            # Remove stale pyc bytecode cache
+            find /home/mathias/f1-insights -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
+            find /home/mathias/f1-insights -name "*.pyc" -delete 2>/dev/null || true
+
             cd /home/mathias/f1-insights/backend
             source venv/bin/activate || python3 -m venv venv && source venv/bin/activate
             pip install -r requirements.txt
