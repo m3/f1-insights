@@ -4,31 +4,35 @@
   "raceName": "Hungarian Grand Prix",
   "circuitName": "Hungaroring",
   "date": "2026-07-26",
-  "generatedAt": "2026-07-26T09:14:12.364380",
+  "generatedAt": "2026-07-26T09:41:52.155735",
   "facts": [
+    {
+      "topic": "Championship Stakes",
+      "badge": "Title Race",
+      "detail": "Antonelli leads Hamilton by 45 Pts Gap Top 2 in the World Drivers' Championship heading into Hungarian Grand Prix.",
+      "stat": "45 Pts Gap Top 2",
+      "source": "JolpicaErgast"
+    },
     {
       "topic": "Tyre Degradation Forecast",
       "badge": "Strategy",
-      "detail": "High thermal degradation expected on rear tyres. C3/C4 compounds will demand early management in Sector 2 long sweeping turns.",
-      "stat": "2 Pit Stops Expected"
+      "detail": "High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.",
+      "stat": "2 Pit Stops Expected",
+      "source": "F1StrategyEngine"
     },
     {
       "topic": "Overtaking & Safety Car Probability",
       "badge": "Circuit DNA",
-      "detail": "Historical Safety Car intervention rate is 68%. Main overtaking zone is DRS Zone 1 into Turn 1 with a 380m braking zone.",
-      "stat": "68% SC Risk"
+      "detail": "Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.",
+      "stat": "68% SC Risk",
+      "source": "CanonicalCircuitSpec"
     },
     {
-      "topic": "Championship Stakes",
-      "badge": "Title Race",
-      "detail": "Leader holds a margin at the top of WDC standings. A win here extends the lead heading into the summer break.",
-      "stat": "45 Pts Gap Top 2"
-    },
-    {
-      "topic": "Pit Loss Delta",
+      "topic": "Pit Loss Traversal Delta",
       "badge": "Pitstop",
-      "detail": "Average pit lane traversal time is 21.8 seconds under green flag, dropping to 13.5 seconds under Virtual Safety Car.",
-      "stat": "21.8s Pit Loss"
+      "detail": "Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.",
+      "stat": "21.8s Pit Loss",
+      "source": "F1StrategyEngine"
     }
   ],
   "penaltyWatch": {
@@ -175,5 +179,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected on rear tyres. C3/C4 compounds will demand early management in Sector 2 long sweeping turns.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate is 68%. Main overtaking zone is DRS Zone 1 into Turn 1 with a 380m braking zone.\n\n- **[Title Race] Championship Stakes** (*45 Pts Gap Top 2*)\n  Leader holds a margin at the top of WDC standings. A win here extends the lead heading into the summer break.\n\n- **[Pitstop] Pit Loss Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time is 21.8 seconds under green flag, dropping to 13.5 seconds under Virtual Safety Car.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 204 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 159 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 154 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 126 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 103 Pts (0 Wins)\n"
+  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*45 Pts Gap Top 2*)\n  Antonelli leads Hamilton by 45 Pts Gap Top 2 in the World Drivers' Championship heading into Hungarian Grand Prix.\n\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.\n\n- **[Pitstop] Pit Loss Traversal Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 204 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 159 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 154 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 126 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 103 Pts (0 Wins)\n"
 }

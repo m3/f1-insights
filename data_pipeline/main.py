@@ -91,16 +91,19 @@ def run_pipeline(mode: str = "full"):
     generator_portal = BriefGenerator(output_dir=portal_data_dir)
     generator_root = BriefGenerator(output_dir=root_data_dir)
 
-    # 2. Fetch schedule & standings via Jolpica Provider
-    print("📥 Fetching current season calendar & standings via JolpicaProvider...")
+    # 2. Fetch schedule, standings & completed race results via Jolpica Provider
+    print("📥 Fetching current season calendar, standings & completed race results via JolpicaProvider...")
     sched_res = jolpica.fetch_schedule()
     schedule = sched_res.data if sched_res.data else fetcher.get_current_schedule()
 
     wdc_res = jolpica.fetch_driver_standings()
-    driver_standings = wdc_res.data if wdc_res.data else fetcher.get_driver_standings()
+    driver_standings = wdc_res.data if wdc_res.data else fetcher.get_fallback_driver_standings()
 
     wcc_res = jolpica.fetch_constructor_standings()
-    constructor_standings = wcc_res.data if wcc_res.data else fetcher.get_constructor_standings()
+    constructor_standings = wcc_res.data if wcc_res.data else fetcher.get_fallback_constructor_standings()
+
+    results_res = jolpica.fetch_race_results()
+    completed_races = results_res.data if results_res.data else []
 
     penalty_points = fetcher.get_penalty_points()
 
@@ -118,9 +121,13 @@ def run_pipeline(mode: str = "full"):
 
     # 3. Analytics & FastF1 Telemetry Ingestion
     pre_race_facts = analytics.generate_pre_race_facts(next_race, driver_standings)
-    post_race_facts = analytics.generate_post_race_facts(next_race)
+    
+    # Extract latest race results if available
+    latest_race_results = completed_races[-1].get("Results", []) if completed_races else []
+    post_race_facts = analytics.generate_post_race_facts(next_race, latest_race_results)
+    
     penalty_watch = analytics.get_penalty_watch(penalty_points)
-    teammate_battles = analytics.get_teammate_battle_summary()
+    teammate_battles = analytics.get_teammate_battle_summary(completed_races)
     
     social_res = social.fetch_social_sentiment(next_race.get('raceName', 'Hungarian Grand Prix'))
     social_sentiment = social_res.data

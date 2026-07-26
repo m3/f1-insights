@@ -1,6 +1,6 @@
 {
   "schema_version": "4.0",
-  "updatedAt": "2026-07-26T07:14:12.366666Z",
+  "updatedAt": "2026-07-26T07:41:52.159904Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
@@ -49,10 +49,10 @@
   },
   "circuitWeather": {
     "circuit": "Hungaroring",
-    "ambientTemp": "23\u00b0C",
-    "trackTemp": "37\u00b0C",
+    "ambientTemp": "24\u00b0C",
+    "trackTemp": "38\u00b0C",
     "rainRisk": "0%",
-    "wind": "16 km/h NE",
+    "wind": "18 km/h NE",
     "humidity": "52%"
   },
   "schedule": [
@@ -1575,74 +1575,74 @@
   ],
   "teammateBattles": [
     {
-      "team": "McLaren",
-      "drivers": "NOR vs PIA",
-      "quali": "7 - 5",
-      "race": "8 - 4",
-      "leader": "NOR (+15 pts)"
+      "team": "Mercedes",
+      "drivers": "ANT vs RUS",
+      "quali": "3 - 1",
+      "race": "3 - 1",
+      "leader": "ANT Ahead"
     },
     {
       "team": "Ferrari",
-      "drivers": "LEC vs HAM",
-      "quali": "8 - 4",
-      "race": "7 - 5",
-      "leader": "LEC (+13 pts)"
+      "drivers": "HAM vs LEC",
+      "quali": "2 - 3",
+      "race": "3 - 2",
+      "leader": "HAM Ahead"
+    },
+    {
+      "team": "McLaren",
+      "drivers": "NOR vs PIA",
+      "quali": "1 - 3",
+      "race": "2 - 2",
+      "leader": "NOR Ahead"
     },
     {
       "team": "Red Bull Racing",
-      "drivers": "VER vs LAW",
-      "quali": "11 - 1",
-      "race": "10 - 2",
-      "leader": "VER (+98 pts)"
+      "drivers": "VER vs HAD",
+      "quali": "3 - 2",
+      "race": "4 - 1",
+      "leader": "VER Ahead"
     },
     {
-      "team": "Mercedes",
-      "drivers": "RUS vs ANT",
-      "quali": "9 - 3",
-      "race": "8 - 4",
-      "leader": "RUS (+42 pts)"
+      "team": "RB (Racing Bulls)",
+      "drivers": "LAW vs LIN",
+      "quali": "3 - 1",
+      "race": "2 - 2",
+      "leader": "LAW Ahead"
     },
     {
-      "team": "Aston Martin",
-      "drivers": "ALO vs STR",
-      "quali": "8 - 4",
-      "race": "9 - 3",
-      "leader": "ALO (+28 pts)"
+      "team": "Alpine",
+      "drivers": "GAS vs COL",
+      "quali": "3 - 2",
+      "race": "3 - 2",
+      "leader": "GAS Ahead"
+    },
+    {
+      "team": "Haas",
+      "drivers": "BEA vs OCO",
+      "quali": "3 - 1",
+      "race": "3 - 1",
+      "leader": "BEA Ahead"
+    },
+    {
+      "team": "Sauber / Audi",
+      "drivers": "BOR vs HUL",
+      "quali": "2 - 2",
+      "race": "2 - 2",
+      "leader": "BOR Ahead"
     },
     {
       "team": "Williams",
       "drivers": "SAI vs ALB",
-      "quali": "7 - 5",
-      "race": "6 - 6",
-      "leader": "SAI (+14 pts)"
+      "quali": "3 - 1",
+      "race": "3 - 1",
+      "leader": "SAI Ahead"
     },
     {
-      "team": "Haas",
-      "drivers": "OCO vs BEA",
-      "quali": "6 - 6",
-      "race": "7 - 5",
-      "leader": "OCO (+6 pts)"
-    },
-    {
-      "team": "Alpine",
-      "drivers": "GAS vs DOO",
-      "quali": "9 - 3",
-      "race": "8 - 4",
-      "leader": "GAS (+18 pts)"
-    },
-    {
-      "team": "RB (Racing Bulls)",
-      "drivers": "TSU vs HAD",
-      "quali": "8 - 4",
-      "race": "7 - 5",
-      "leader": "TSU (+11 pts)"
-    },
-    {
-      "team": "Sauber / Audi",
-      "drivers": "HUL vs BOR",
-      "quali": "7 - 5",
-      "race": "8 - 4",
-      "leader": "HUL (+9 pts)"
+      "team": "Aston Martin",
+      "drivers": "ALO vs STR",
+      "quali": "4 - 0",
+      "race": "3 - 1",
+      "leader": "ALO Ahead"
     }
   ],
   "socialSentiment": {
@@ -1886,7 +1886,6 @@
       },
       "OCO": {
         "name": "Esteban Ocon",
-        "handle": "OCO",
         "team": "Haas",
         "color": "#B6BABD",
         "baseSpeed": 310,
@@ -2430,31 +2429,35 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-26T09:14:12.364380",
+    "generatedAt": "2026-07-26T09:41:52.155735",
     "facts": [
+      {
+        "topic": "Championship Stakes",
+        "badge": "Title Race",
+        "detail": "Antonelli leads Hamilton by 45 Pts Gap Top 2 in the World Drivers' Championship heading into Hungarian Grand Prix.",
+        "stat": "45 Pts Gap Top 2",
+        "source": "JolpicaErgast"
+      },
       {
         "topic": "Tyre Degradation Forecast",
         "badge": "Strategy",
-        "detail": "High thermal degradation expected on rear tyres. C3/C4 compounds will demand early management in Sector 2 long sweeping turns.",
-        "stat": "2 Pit Stops Expected"
+        "detail": "High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.",
+        "stat": "2 Pit Stops Expected",
+        "source": "F1StrategyEngine"
       },
       {
         "topic": "Overtaking & Safety Car Probability",
         "badge": "Circuit DNA",
-        "detail": "Historical Safety Car intervention rate is 68%. Main overtaking zone is DRS Zone 1 into Turn 1 with a 380m braking zone.",
-        "stat": "68% SC Risk"
+        "detail": "Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.",
+        "stat": "68% SC Risk",
+        "source": "CanonicalCircuitSpec"
       },
       {
-        "topic": "Championship Stakes",
-        "badge": "Title Race",
-        "detail": "Leader holds a margin at the top of WDC standings. A win here extends the lead heading into the summer break.",
-        "stat": "45 Pts Gap Top 2"
-      },
-      {
-        "topic": "Pit Loss Delta",
+        "topic": "Pit Loss Traversal Delta",
         "badge": "Pitstop",
-        "detail": "Average pit lane traversal time is 21.8 seconds under green flag, dropping to 13.5 seconds under Virtual Safety Car.",
-        "stat": "21.8s Pit Loss"
+        "detail": "Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.",
+        "stat": "21.8s Pit Loss",
+        "source": "F1StrategyEngine"
       }
     ],
     "penaltyWatch": {
@@ -2601,7 +2604,7 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected on rear tyres. C3/C4 compounds will demand early management in Sector 2 long sweeping turns.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate is 68%. Main overtaking zone is DRS Zone 1 into Turn 1 with a 380m braking zone.\n\n- **[Title Race] Championship Stakes** (*45 Pts Gap Top 2*)\n  Leader holds a margin at the top of WDC standings. A win here extends the lead heading into the summer break.\n\n- **[Pitstop] Pit Loss Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time is 21.8 seconds under green flag, dropping to 13.5 seconds under Virtual Safety Car.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 204 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 159 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 154 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 126 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 103 Pts (0 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*45 Pts Gap Top 2*)\n  Antonelli leads Hamilton by 45 Pts Gap Top 2 in the World Drivers' Championship heading into Hungarian Grand Prix.\n\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.\n\n- **[Pitstop] Pit Loss Traversal Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 204 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 159 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 154 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 126 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 103 Pts (0 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
@@ -2609,103 +2612,107 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-26T09:14:12.365529",
+    "generatedAt": "2026-07-26T09:41:52.157815",
     "facts": [
       {
-        "topic": "Race Pace Champion",
-        "badge": "Telemetry Pace",
-        "detail": "McLaren logged the fastest average clean-air pace (+0.182s/lap over Ferrari), building a crucial 4.2s gap in stint 2 on Medium tyres.",
-        "stat": "-0.182s / lap"
+        "topic": "Grand Prix Race Winner",
+        "badge": "Race Result",
+        "detail": "Andrea Kimi Antonelli secured victory at Hungarian Grand Prix, managing tyre degradation to cross the line P1.",
+        "stat": "P1 Victory",
+        "source": "JolpicaErgast"
+      },
+      {
+        "topic": "Official Fastest Lap",
+        "badge": "Speed Trap",
+        "detail": "Antonelli recorded the fastest lap of the session with a time of 1:14.210.",
+        "stat": "1:14.210",
+        "source": "JolpicaErgast"
       },
       {
         "topic": "Tyre Degradation Rate",
         "badge": "Tyre Wear",
-        "detail": "Hard compound (C2) showed remarkably low degradation of 0.035s/lap over a 28-lap stint, enabling a successful 1-stop strategy.",
-        "stat": "0.035s / lap deg"
+        "detail": "Hard compound (C2) exhibited low degradation of 0.035s/lap, enabling optimum stint extension.",
+        "stat": "0.035s / lap deg",
+        "source": "F1AnalyticsEngine"
       },
       {
         "topic": "Fastest Pitstop Performance",
         "badge": "Pit Wall",
-        "detail": "Red Bull Racing executed the fastest stationary pit stop of the weekend in 1.98s on Lap 22.",
-        "stat": "1.98s Stop"
-      },
-      {
-        "topic": "Max Speed Trap Delta",
-        "badge": "Straight Line",
-        "detail": "Top speed at speed trap registered by Williams at 342.4 km/h with DRS open, compared to field average of 334.1 km/h.",
-        "stat": "342.4 km/h"
+        "detail": "Fastest stationary pit stop executed in 1.98s during the primary pit window.",
+        "stat": "1.98s Stop",
+        "source": "TracingInsightsArchive"
       }
     ],
     "teammateBattles": [
       {
-        "team": "McLaren",
-        "drivers": "NOR vs PIA",
-        "quali": "7 - 5",
-        "race": "8 - 4",
-        "leader": "NOR (+15 pts)"
+        "team": "Mercedes",
+        "drivers": "ANT vs RUS",
+        "quali": "3 - 1",
+        "race": "3 - 1",
+        "leader": "ANT Ahead"
       },
       {
         "team": "Ferrari",
-        "drivers": "LEC vs HAM",
-        "quali": "8 - 4",
-        "race": "7 - 5",
-        "leader": "LEC (+13 pts)"
+        "drivers": "HAM vs LEC",
+        "quali": "2 - 3",
+        "race": "3 - 2",
+        "leader": "HAM Ahead"
+      },
+      {
+        "team": "McLaren",
+        "drivers": "NOR vs PIA",
+        "quali": "1 - 3",
+        "race": "2 - 2",
+        "leader": "NOR Ahead"
       },
       {
         "team": "Red Bull Racing",
-        "drivers": "VER vs LAW",
-        "quali": "11 - 1",
-        "race": "10 - 2",
-        "leader": "VER (+98 pts)"
+        "drivers": "VER vs HAD",
+        "quali": "3 - 2",
+        "race": "4 - 1",
+        "leader": "VER Ahead"
       },
       {
-        "team": "Mercedes",
-        "drivers": "RUS vs ANT",
-        "quali": "9 - 3",
-        "race": "8 - 4",
-        "leader": "RUS (+42 pts)"
+        "team": "RB (Racing Bulls)",
+        "drivers": "LAW vs LIN",
+        "quali": "3 - 1",
+        "race": "2 - 2",
+        "leader": "LAW Ahead"
       },
       {
-        "team": "Aston Martin",
-        "drivers": "ALO vs STR",
-        "quali": "8 - 4",
-        "race": "9 - 3",
-        "leader": "ALO (+28 pts)"
+        "team": "Alpine",
+        "drivers": "GAS vs COL",
+        "quali": "3 - 2",
+        "race": "3 - 2",
+        "leader": "GAS Ahead"
+      },
+      {
+        "team": "Haas",
+        "drivers": "BEA vs OCO",
+        "quali": "3 - 1",
+        "race": "3 - 1",
+        "leader": "BEA Ahead"
+      },
+      {
+        "team": "Sauber / Audi",
+        "drivers": "BOR vs HUL",
+        "quali": "2 - 2",
+        "race": "2 - 2",
+        "leader": "BOR Ahead"
       },
       {
         "team": "Williams",
         "drivers": "SAI vs ALB",
-        "quali": "7 - 5",
-        "race": "6 - 6",
-        "leader": "SAI (+14 pts)"
+        "quali": "3 - 1",
+        "race": "3 - 1",
+        "leader": "SAI Ahead"
       },
       {
-        "team": "Haas",
-        "drivers": "OCO vs BEA",
-        "quali": "6 - 6",
-        "race": "7 - 5",
-        "leader": "OCO (+6 pts)"
-      },
-      {
-        "team": "Alpine",
-        "drivers": "GAS vs DOO",
-        "quali": "9 - 3",
-        "race": "8 - 4",
-        "leader": "GAS (+18 pts)"
-      },
-      {
-        "team": "RB (Racing Bulls)",
-        "drivers": "TSU vs HAD",
-        "quali": "8 - 4",
-        "race": "7 - 5",
-        "leader": "TSU (+11 pts)"
-      },
-      {
-        "team": "Sauber / Audi",
-        "drivers": "HUL vs BOR",
-        "quali": "7 - 5",
-        "race": "8 - 4",
-        "leader": "HUL (+9 pts)"
+        "team": "Aston Martin",
+        "drivers": "ALO vs STR",
+        "quali": "4 - 0",
+        "race": "3 - 1",
+        "leader": "ALO Ahead"
       }
     ],
     "topStandings": [
@@ -2830,6 +2837,6 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n- **[Telemetry Pace] Race Pace Champion** (*-0.182s / lap*)\n  McLaren logged the fastest average clean-air pace (+0.182s/lap over Ferrari), building a crucial 4.2s gap in stint 2 on Medium tyres.\n\n- **[Tyre Wear] Tyre Degradation Rate** (*0.035s / lap deg*)\n  Hard compound (C2) showed remarkably low degradation of 0.035s/lap over a 28-lap stint, enabling a successful 1-stop strategy.\n\n- **[Pit Wall] Fastest Pitstop Performance** (*1.98s Stop*)\n  Red Bull Racing executed the fastest stationary pit stop of the weekend in 1.98s on Lap 22.\n\n- **[Straight Line] Max Speed Trap Delta** (*342.4 km/h*)\n  Top speed at speed trap registered by Williams at 342.4 km/h with DRS open, compared to field average of 334.1 km/h.\n\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **McLaren** (NOR vs PIA): Quali `7 - 5` | Race `8 - 4` -> Leader: **NOR (+15 pts)**\n- **Ferrari** (LEC vs HAM): Quali `8 - 4` | Race `7 - 5` -> Leader: **LEC (+13 pts)**\n- **Red Bull Racing** (VER vs LAW): Quali `11 - 1` | Race `10 - 2` -> Leader: **VER (+98 pts)**\n- **Mercedes** (RUS vs ANT): Quali `9 - 3` | Race `8 - 4` -> Leader: **RUS (+42 pts)**\n- **Aston Martin** (ALO vs STR): Quali `8 - 4` | Race `9 - 3` -> Leader: **ALO (+28 pts)**\n- **Williams** (SAI vs ALB): Quali `7 - 5` | Race `6 - 6` -> Leader: **SAI (+14 pts)**\n- **Haas** (OCO vs BEA): Quali `6 - 6` | Race `7 - 5` -> Leader: **OCO (+6 pts)**\n- **Alpine** (GAS vs DOO): Quali `9 - 3` | Race `8 - 4` -> Leader: **GAS (+18 pts)**\n- **RB (Racing Bulls)** (TSU vs HAD): Quali `8 - 4` | Race `7 - 5` -> Leader: **TSU (+11 pts)**\n- **Sauber / Audi** (HUL vs BOR): Quali `7 - 5` | Race `8 - 4` -> Leader: **HUL (+9 pts)**\n"
+    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n- **[Race Result] Grand Prix Race Winner** (*P1 Victory*)\n  Andrea Kimi Antonelli secured victory at Hungarian Grand Prix, managing tyre degradation to cross the line P1.\n\n- **[Speed Trap] Official Fastest Lap** (*1:14.210*)\n  Antonelli recorded the fastest lap of the session with a time of 1:14.210.\n\n- **[Tyre Wear] Tyre Degradation Rate** (*0.035s / lap deg*)\n  Hard compound (C2) exhibited low degradation of 0.035s/lap, enabling optimum stint extension.\n\n- **[Pit Wall] Fastest Pitstop Performance** (*1.98s Stop*)\n  Fastest stationary pit stop executed in 1.98s during the primary pit window.\n\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
   }
 }
