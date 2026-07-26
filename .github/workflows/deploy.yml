@@ -88,10 +88,12 @@ jobs:
             cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/portal/dist/data/
             cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/public/data/
 
-            # Copy to system Nginx web directories if present
-            sudo mkdir -p /var/www/f1-insights/data /var/www/html/data 2>/dev/null || true
+            # Copy directly to all possible Nginx document roots with sudo
+            sudo mkdir -p /var/www/f1-insights/data /var/www/html/data /var/www/f1.sports.superchargedbym3.com/data 2>/dev/null || true
             sudo cp -r /home/mathias/f1-insights/portal/public/data/* /var/www/f1-insights/data/ 2>/dev/null || true
             sudo cp -r /home/mathias/f1-insights/portal/public/data/* /var/www/html/data/ 2>/dev/null || true
+            sudo cp -r /home/mathias/f1-insights/portal/public/data/* /var/www/f1.sports.superchargedbym3.com/data/ 2>/dev/null || true
+            sudo chown -R mathias:www-data /var/www/f1-insights /var/www/html /var/www/f1.sports.superchargedbym3.com 2>/dev/null || true
 
             # Restart persistent PM2 web and backend apps
             pm2 restart f1-insights-portal || pm2 start "npx serve -s /home/mathias/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
