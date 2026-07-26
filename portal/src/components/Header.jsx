@@ -1,7 +1,7 @@
 import React from 'react';
-import { Flag, Zap, ShieldAlert, Award, Calendar, BarChart2, Gauge, Timer, AlertOctagon, Navigation, Sliders } from 'lucide-react';
+import { Flag, Zap, ShieldAlert, Award, Calendar, BarChart2, Gauge, Timer, AlertOctagon, Navigation, Sliders, Bell, Activity } from 'lucide-react';
 
-export default function Header({ activeTab, setActiveTab, currentRace }) {
+export default function Header({ activeTab, setActiveTab, currentRace, onOpenWebhooks }) {
   return (
     <header className="glass-panel" style={{ borderRadius: '0 0 20px 20px', borderTop: 'none', padding: '16px 28px', marginBottom: '28px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
@@ -30,32 +30,54 @@ export default function Header({ activeTab, setActiveTab, currentRace }) {
           </div>
         </div>
 
-        {/* Next Weekend Pill */}
-        {currentRace && (
-          <div style={{
-            background: 'rgba(255, 24, 1, 0.08)',
-            border: '1px solid rgba(255, 24, 1, 0.3)',
-            borderRadius: '12px',
-            padding: '8px 16px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '12px'
-          }}>
+        {/* Right Header Actions: Webhooks & Next GP */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <button
+            onClick={onOpenWebhooks}
+            style={{
+              background: 'rgba(0, 240, 255, 0.08)',
+              border: '1px solid var(--cyan-neon)',
+              borderRadius: '10px',
+              color: 'var(--cyan-neon)',
+              padding: '8px 14px',
+              fontSize: '0.8rem',
+              fontWeight: 800,
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            <Bell size={15} /> Webhook Dispatch
+          </button>
+
+          {currentRace && (
             <div style={{
-              width: '10px',
-              height: '10px',
-              borderRadius: '50%',
-              background: '#FF1801',
-              boxShadow: '0 0 10px #FF1801'
-            }} className="animate-pulse-glow" />
-            <div>
-              <div style={{ fontSize: '0.7rem', color: 'var(--text-dim)', textTransform: 'uppercase', letterSpacing: '1px' }}>UPCOMING GRAND PRIX</div>
-              <div className="font-orbitron" style={{ fontSize: '0.9rem', color: '#FFF', fontWeight: 700 }}>
-                {currentRace.raceName} • {currentRace.date}
+              background: 'rgba(255, 24, 1, 0.08)',
+              border: '1px solid rgba(255, 24, 1, 0.3)',
+              borderRadius: '12px',
+              padding: '8px 16px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '12px'
+            }}>
+              <div style={{
+                width: '10px',
+                height: '10px',
+                borderRadius: '50%',
+                background: '#FF1801',
+                boxShadow: '0 0 10px #FF1801'
+              }} className="animate-pulse-glow" />
+              <div>
+                <div style={{ fontSize: '0.7rem', color: 'var(--text-dim)', textTransform: 'uppercase', letterSpacing: '1px' }}>UPCOMING GRAND PRIX</div>
+                <div className="font-orbitron" style={{ fontSize: '0.9rem', color: '#FFF', fontWeight: 700 }}>
+                  {currentRace.raceName} • {currentRace.date}
+                </div>
               </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
 
       </div>
 
@@ -85,6 +107,12 @@ export default function Header({ activeTab, setActiveTab, currentRace }) {
           onClick={() => setActiveTab('telemetry_overlay')}
         >
           <Sliders size={16} /> Telemetry Overlay
+        </button>
+        <button
+          className={`nav-tab ${activeTab === 'tyre_deg' ? 'active' : ''}`}
+          onClick={() => setActiveTab('tyre_deg')}
+        >
+          <Activity size={16} /> Tyre Deg Simulator
         </button>
         <button
           className={`nav-tab ${activeTab === 'grid_penalties' ? 'active' : ''}`}

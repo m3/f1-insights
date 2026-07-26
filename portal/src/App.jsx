@@ -4,6 +4,7 @@ import SessionCountdownHeader from './components/SessionCountdownHeader';
 import BriefCard from './components/BriefCard';
 import CircuitBlueprintCard from './components/CircuitBlueprintCard';
 import TelemetryOverlayTool from './components/TelemetryOverlayTool';
+import TyreDegSimulator from './components/TyreDegSimulator';
 import GridPenaltiesTracker from './components/GridPenaltiesTracker';
 import TelemetryChart from './components/TelemetryChart';
 import SectorMatrix from './components/SectorMatrix';
@@ -12,12 +13,14 @@ import PenaltyWatch from './components/PenaltyWatch';
 import TeammateBattles from './components/TeammateBattles';
 import StandingsView from './components/StandingsView';
 import SocialSentiment from './components/SocialSentiment';
+import WebhookDispatchModal from './components/WebhookDispatchModal';
 import { fetchOverviewData } from './services/api';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('brief');
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [isWebhookModalOpen, setIsWebhookModalOpen] = useState(false);
 
   useEffect(() => {
     fetchOverviewData()
@@ -62,7 +65,12 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 16px 40px' }}>
-      <Header activeTab={activeTab} setActiveTab={setActiveTab} currentRace={currentRace} />
+      <Header
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        currentRace={currentRace}
+        onOpenWebhooks={() => setIsWebhookModalOpen(true)}
+      />
       
       {/* Session Countdown Header Bar */}
       <SessionCountdownHeader currentRace={currentRace} />
@@ -73,6 +81,7 @@ export default function App() {
             <BriefCard preBrief={preBrief} postBrief={postBrief} />
             <CircuitBlueprintCard currentRace={currentRace} />
             <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />
+            <TyreDegSimulator />
             <div style={{ marginTop: '24px' }}>
               <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
             </div>
@@ -81,6 +90,7 @@ export default function App() {
         )}
         {activeTab === 'circuit_blueprint' && <CircuitBlueprintCard currentRace={currentRace} />}
         {activeTab === 'telemetry_overlay' && <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />}
+        {activeTab === 'tyre_deg' && <TyreDegSimulator />}
         {activeTab === 'grid_penalties' && <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />}
         {activeTab === 'telemetry' && <TelemetryChart telemetryData={data?.telemetryTraces} />}
         {activeTab === 'sectors' && <SectorMatrix />}
@@ -95,6 +105,11 @@ export default function App() {
           />
         )}
       </main>
+
+      <WebhookDispatchModal
+        isOpen={isWebhookModalOpen}
+        onClose={() => setIsWebhookModalOpen(false)}
+      />
 
       <footer style={{
         marginTop: '40px',
