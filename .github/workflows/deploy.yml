@@ -83,6 +83,11 @@ jobs:
             cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/portal/dist/data/
             cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/public/data/
 
+            # Copy to system Nginx web directories if present
+            sudo mkdir -p /var/www/f1-insights/data /var/www/html/data 2>/dev/null || true
+            sudo cp -r /home/mathias/f1-insights/portal/public/data/* /var/www/f1-insights/data/ 2>/dev/null || true
+            sudo cp -r /home/mathias/f1-insights/portal/public/data/* /var/www/html/data/ 2>/dev/null || true
+
             # Restart persistent PM2 web and backend apps
             pm2 restart f1-insights-portal || pm2 start "npx serve -s /home/mathias/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
             pm2 restart f1-insights-backend || pm2 start "python3 -m uvicorn app.main:app --port 8000" --name "f1-insights-backend" --cwd "/home/mathias/f1-insights/backend"
