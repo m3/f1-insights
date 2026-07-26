@@ -74,7 +74,7 @@ class F1DataFetcher:
             logger.warning(f"TracingInsights Penalty Points fetch error: {e}")
         
         return [
-            {"driver": "Kevin Magnussen", "code": "MAG", "points": 10, "max": 12, "at_risk": True, "expiry_next": "2026-09-01"},
+            {"driver": "Esteban Ocon", "code": "OCO", "points": 9, "max": 12, "at_risk": True, "expiry_next": "2026-09-01"},
             {"driver": "Lance Stroll", "code": "STR", "points": 8, "max": 12, "at_risk": True, "expiry_next": "2026-10-15"},
             {"driver": "Fernando Alonso", "code": "ALO", "points": 6, "max": 12, "at_risk": False, "expiry_next": "2026-11-02"},
             {"driver": "Max Verstappen", "code": "VER", "points": 4, "max": 12, "at_risk": False, "expiry_next": "2026-12-01"},
