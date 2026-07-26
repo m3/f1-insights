@@ -4,10 +4,14 @@ import sys
 from fastapi import APIRouter, Depends, Header, HTTPException
 from fastapi.responses import StreamingResponse
 
-# Ensure root directory is in sys.path for mcp_server import
-root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
-if root_dir not in sys.path:
-    sys.path.insert(0, root_dir)
+# Dynamically find project root containing mcp_server directory
+current = os.path.abspath(__file__)
+while current != os.path.dirname(current):
+    if os.path.exists(os.path.join(current, "mcp_server")):
+        if current not in sys.path:
+            sys.path.insert(0, current)
+        break
+    current = os.path.dirname(current)
 
 from app.core.security import verify_admin_api_key
 from mcp_server.main import (
