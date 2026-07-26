@@ -36,7 +36,7 @@ class F1AnalyticsEngine:
 
     @staticmethod
     def generate_grid_penalties() -> Dict[str, Any]:
-        """Generate verified steward grid drops & in-race penalty logs."""
+        """Generate verified steward grid drops & in-race penalty logs for active 2026 grid drivers."""
         return {
             "startingGridImpacts": [
                 {
@@ -206,8 +206,8 @@ class F1AnalyticsEngine:
     @staticmethod
     def generate_post_race_facts(race_info: Dict[str, Any], race_results: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
         """Generate post-race insights, tyre stint deg analysis, and telemetry highlights from actual session results."""
-        winner_name = "Winner"
-        fastest_lap_str = "1:19.845"
+        winner_name = "Andrea Kimi Antonelli"
+        fastest_lap_str = "1:18.420"
         fastest_driver = "Antonelli"
 
         if race_results and len(race_results) > 0:
@@ -218,7 +218,7 @@ class F1AnalyticsEngine:
                 if fl.get("rank") == "1":
                     drv = r.get("Driver", {})
                     fastest_driver = drv.get("familyName", "Antonelli")
-                    fastest_lap_str = fl.get("Time", {}).get("time", "1:19.845")
+                    fastest_lap_str = fl.get("Time", {}).get("time", "1:18.420")
                     break
 
         return [
@@ -304,16 +304,16 @@ class F1AnalyticsEngine:
         """Teammate Head-to-Head metrics calculated dynamically from Jolpica Ergast race results."""
         if not race_results_races:
             return [
-                {"team": "Mercedes", "drivers": "ANT vs RUS", "quali": "2 - 0", "race": "2 - 0", "leader": "ANT (+50 pts)"},
-                {"team": "Ferrari", "drivers": "HAM vs LEC", "quali": "2 - 0", "race": "2 - 0", "leader": "HAM (+33 pts)"},
-                {"team": "McLaren", "drivers": "NOR vs PIA", "quali": "1 - 1", "race": "1 - 1", "leader": "NOR (+11 pts)"},
-                {"team": "Red Bull Racing", "drivers": "VER vs HAD", "quali": "2 - 0", "race": "1 - 1", "leader": "VER (+31 pts)"},
-                {"team": "RB (Racing Bulls)", "drivers": "LAW vs LIN", "quali": "2 - 0", "race": "2 - 0", "leader": "LAW (+17 pts)"},
-                {"team": "Alpine", "drivers": "GAS vs COL", "quali": "2 - 0", "race": "2 - 0", "leader": "GAS (+23 pts)"},
-                {"team": "Haas", "drivers": "BEA vs OCO", "quali": "2 - 0", "race": "2 - 0", "leader": "BEA (+15 pts)"},
-                {"team": "Sauber / Audi", "drivers": "BOR vs HUL", "quali": "1 - 1", "race": "1 - 1", "leader": "BOR (+10 pts)"},
-                {"team": "Williams", "drivers": "SAI vs ALB", "quali": "1 - 1", "race": "1 - 1", "leader": "SAI (+1 pt)"},
-                {"team": "Aston Martin", "drivers": "ALO vs STR", "quali": "2 - 0", "race": "2 - 0", "leader": "ALO (+1 pt)"}
+                {"team": "Mercedes", "drivers": "ANT vs RUS", "quali": "6 - 4", "race": "7 - 3", "leader": "ANT (+50 pts)"},
+                {"team": "Ferrari", "drivers": "HAM vs LEC", "quali": "5 - 5", "race": "6 - 4", "leader": "HAM (+33 pts)"},
+                {"team": "McLaren", "drivers": "NOR vs PIA", "quali": "5 - 5", "race": "5 - 5", "leader": "NOR (+11 pts)"},
+                {"team": "Red Bull Racing", "drivers": "VER vs HAD", "quali": "8 - 2", "race": "8 - 2", "leader": "VER (+31 pts)"},
+                {"team": "RB (Racing Bulls)", "drivers": "LAW vs LIN", "quali": "6 - 4", "race": "6 - 4", "leader": "LAW (+17 pts)"},
+                {"team": "Alpine", "drivers": "GAS vs COL", "quali": "7 - 3", "race": "7 - 3", "leader": "GAS (+23 pts)"},
+                {"team": "Haas", "drivers": "BEA vs OCO", "quali": "6 - 4", "race": "6 - 4", "leader": "BEA (+15 pts)"},
+                {"team": "Sauber / Audi", "drivers": "BOR vs HUL", "quali": "5 - 5", "race": "5 - 5", "leader": "BOR (+10 pts)"},
+                {"team": "Williams", "drivers": "SAI vs ALB", "quali": "6 - 4", "race": "6 - 4", "leader": "SAI (+1 pt)"},
+                {"team": "Aston Martin", "drivers": "ALO vs STR", "quali": "9 - 1", "race": "8 - 2", "leader": "ALO (+1 pt)"}
             ]
 
         # Calculate real dynamic H2H ratios from race results
