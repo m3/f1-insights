@@ -58,6 +58,16 @@ class F1AnalyticsEngine:
                     "drop": 3,
                     "reason": "Impeding NOR during Q2 Turn 4 braking zone",
                     "status": "GRID PENALTY APPLIED"
+                },
+                {
+                    "driver": "Pierre Gasly",
+                    "code": "GAS",
+                    "team": "Alpine",
+                    "qualiPos": 18,
+                    "gridPos": 20,
+                    "drop": 2,
+                    "reason": "New Energy Store (ES) & Control Electronics (CE)",
+                    "status": "GRID PENALTY APPLIED"
                 }
             ],
             "inRaceTimePenalties": [
@@ -99,7 +109,7 @@ class F1AnalyticsEngine:
                     "name": "DRS Zone 1 (Main Straight)",
                     "detection": "Turn 14 Exit (70m before turn apex)",
                     "activation": "Main Pit Straight (Turn 14 to Turn 1)",
-                    "length": "810 meters",
+                    "length": "680 meters",
                     "topSpeed": "342.4 km/h",
                     "overtakeProb": "High (Primary Passing Zone)"
                 },
@@ -125,10 +135,10 @@ class F1AnalyticsEngine:
                 {
                     "turn": "Turn 4",
                     "entrySpeed": "298 km/h",
-                    "apexSpeed": "215 km/h",
+                    "apexSpeed": "205 km/h",
                     "gForce": "3.9G",
                     "brakingDist": "65 meters",
-                    "gearShift": "7th ➔ 5th"
+                    "gearShift": "7th ➔ 4th"
                 },
                 {
                     "turn": "Turn 12",
@@ -148,25 +158,26 @@ class F1AnalyticsEngine:
         race_name = race_info.get("raceName", "Grand Prix")
         
         # Calculate dynamic top 2 point gap from real WDC standings
-        gap_stat = "45 Pts Gap Top 2"
-        p1_name = "Leader"
-        p2_name = "Challenger"
+        gap_pts = 45
+        p1_name = "Antonelli"
+        p2_name = "Hamilton"
         if len(standings) >= 2:
             try:
                 p1_pts = float(standings[0].get("points", 0))
                 p2_pts = float(standings[1].get("points", 0))
-                gap = int(p1_pts - p2_pts)
-                p1_name = standings[0].get("Driver", {}).get("familyName", "Leader")
-                p2_name = standings[1].get("Driver", {}).get("familyName", "Challenger")
-                gap_stat = f"{gap} Pts Gap Top 2"
+                gap_pts = int(p1_pts - p2_pts)
+                p1_name = standings[0].get("Driver", {}).get("familyName", "Antonelli")
+                p2_name = standings[1].get("Driver", {}).get("familyName", "Hamilton")
             except Exception:
                 pass
+
+        gap_stat = f"{gap_pts} Pts Gap"
 
         facts = [
             {
                 "topic": "Championship Stakes",
                 "badge": "Title Race",
-                "detail": f"{p1_name} leads {p2_name} by {gap_stat} in the World Drivers' Championship heading into {race_name}.",
+                "detail": f"{p1_name} leads {p2_name} by {gap_pts} points in the World Drivers' Championship heading into {race_name}.",
                 "stat": gap_stat,
                 "source": "JolpicaErgast"
             },
