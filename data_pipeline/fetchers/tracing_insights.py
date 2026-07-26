@@ -48,6 +48,17 @@ class F1DataFetcher:
         
         return self._get_fallback_driver_standings()
 
+    def get_active_driver_codes(self, season: str = "current") -> set:
+        """Fetch list of verified active driver codes for the active season to guard against stale data leakage."""
+        standings = self.get_driver_standings(season)
+        active_codes = set()
+        for item in standings:
+            driver = item.get("Driver", {})
+            code = driver.get("code")
+            if code:
+                active_codes.add(code.upper())
+        return active_codes
+
     def get_constructor_standings(self, season: str = "current") -> List[Dict[str, Any]]:
         """Fetch current Constructor Championship Standings."""
         url = f"{JOLPICA_BASE}/{season}/constructorStandings.json"
@@ -64,27 +75,36 @@ class F1DataFetcher:
         return self._get_fallback_constructor_standings()
 
     def get_penalty_points(self) -> List[Dict[str, Any]]:
-        """Fetch current driver penalty points from TracingInsights archive."""
+        """Fetch current driver penalty points from TracingInsights archive, strictly filtered by active drivers."""
+        active_codes = self.get_active_driver_codes()
+        raw_list = []
         url = f"{TRACING_ARCHIVE_RAW}/PenaltyPoints/main/penalty_points.json"
         try:
             res = self.session.get(url, timeout=10)
             if res.status_code == 200:
-                return res.json()
+                raw_list = res.json()
         except Exception as e:
             logger.warning(f"TracingInsights Penalty Points fetch error: {e}")
         
-        return [
-            {"driver": "Esteban Ocon", "code": "OCO", "points": 9, "max": 12, "at_risk": True, "expiry_next": "2026-09-01"},
-            {"driver": "Lance Stroll", "code": "STR", "points": 8, "max": 12, "at_risk": True, "expiry_next": "2026-10-15"},
-            {"driver": "Fernando Alonso", "code": "ALO", "points": 6, "max": 12, "at_risk": False, "expiry_next": "2026-11-02"},
-            {"driver": "Max Verstappen", "code": "VER", "points": 4, "max": 12, "at_risk": False, "expiry_next": "2026-12-01"},
-            {"driver": "Lewis Hamilton", "code": "HAM", "points": 2, "max": 12, "at_risk": False, "expiry_next": "2027-01-10"},
-            {"driver": "Charles Leclerc", "code": "LEC", "points": 0, "max": 12, "at_risk": False, "expiry_next": "N/A"},
-            {"driver": "Lando Norris", "code": "NOR", "points": 1, "max": 12, "at_risk": False, "expiry_next": "2027-02-14"},
-            {"driver": "Oscar Piastri", "code": "PIA", "points": 0, "max": 12, "at_risk": False, "expiry_next": "N/A"},
-            {"driver": "George Russell", "code": "RUS", "points": 3, "max": 12, "at_risk": False, "expiry_next": "2026-08-20"},
-            {"driver": "Carlos Sainz", "code": "SAI", "points": 5, "max": 12, "at_risk": False, "expiry_next": "2026-09-12"}
-        ]
+        if not raw_list:
+            raw_list = [
+                {"driver": "Esteban Ocon", "code": "OCO", "points": 9, "max": 12, "at_risk": True, "expiry_next": "2026-09-01"},
+                {"driver": "Lance Stroll", "code": "STR", "points": 8, "max": 12, "at_risk": True, "expiry_next": "2026-10-15"},
+                {"driver": "Fernando Alonso", "code": "ALO", "points": 6, "max": 12, "at_risk": False, "expiry_next": "2026-11-02"},
+                {"driver": "Max Verstappen", "code": "VER", "points": 4, "max": 12, "at_risk": False, "expiry_next": "2026-12-01"},
+                {"driver": "Lewis Hamilton", "code": "HAM", "points": 2, "max": 12, "at_risk": False, "expiry_next": "2027-01-10"},
+                {"driver": "Charles Leclerc", "code": "LEC", "points": 0, "max": 12, "at_risk": False, "expiry_next": "N/A"},
+                {"driver": "Lando Norris", "code": "NOR", "points": 1, "max": 12, "at_risk": False, "expiry_next": "2027-02-14"},
+                {"driver": "Oscar Piastri", "code": "PIA", "points": 0, "max": 12, "at_risk": False, "expiry_next": "N/A"},
+                {"driver": "George Russell", "code": "RUS", "points": 3, "max": 12, "at_risk": False, "expiry_next": "2026-08-20"},
+                {"driver": "Carlos Sainz", "code": "SAI", "points": 5, "max": 12, "at_risk": False, "expiry_next": "2026-09-12"}
+            ]
+
+        # GUARDRAIL: Filter out any driver not in the active 2026 standings
+        if active_codes:
+            filtered = [item for item in raw_list if item.get("code", "").upper() in active_codes]
+            return filtered if filtered else raw_list
+        return raw_list
 
     def _get_fallback_schedule(self) -> List[Dict[str, Any]]:
         return [
@@ -197,22 +217,16 @@ class F1DataFetcher:
 
     def _get_fallback_driver_standings(self) -> List[Dict[str, Any]]:
         return [
-            {"position": "1", "points": "245", "wins": "6", "Driver": {"driverId": "norris", "givenName": "Lando", "familyName": "Norris", "code": "NOR", "nationality": "British"}, "Constructors": [{"name": "McLaren"}]},
-            {"position": "2", "points": "230", "wins": "4", "Driver": {"driverId": "piastri", "givenName": "Oscar", "familyName": "Piastri", "code": "PIA", "nationality": "Australian"}, "Constructors": [{"name": "McLaren"}]},
-            {"position": "3", "points": "210", "wins": "3", "Driver": {"driverId": "verstappen", "givenName": "Max", "familyName": "Verstappen", "code": "VER", "nationality": "Dutch"}, "Constructors": [{"name": "Red Bull"}]},
-            {"position": "4", "points": "185", "wins": "2", "Driver": {"driverId": "leclerc", "givenName": "Charles", "familyName": "Leclerc", "code": "LEC", "nationality": "Monegasque"}, "Constructors": [{"name": "Ferrari"}]},
-            {"position": "5", "points": "172", "wins": "1", "Driver": {"driverId": "hamilton", "givenName": "Lewis", "familyName": "Hamilton", "code": "HAM", "nationality": "British"}, "Constructors": [{"name": "Ferrari"}]},
-            {"position": "6", "points": "148", "wins": "1", "Driver": {"driverId": "russell", "givenName": "George", "familyName": "Russell", "code": "RUS", "nationality": "British"}, "Constructors": [{"name": "Mercedes"}]},
-            {"position": "7", "points": "112", "wins": "0", "Driver": {"driverId": "sainz", "givenName": "Carlos", "familyName": "Sainz", "code": "SAI", "nationality": "Spanish"}, "Constructors": [{"name": "Williams"}]},
-            {"position": "8", "points": "84", "wins": "0", "Driver": {"driverId": "alonso", "givenName": "Fernando", "familyName": "Alonso", "code": "ALO", "nationality": "Spanish"}, "Constructors": [{"name": "Aston Martin"}]}
+            {"position": "1", "points": "204", "wins": "6", "Driver": {"driverId": "antonelli", "givenName": "Andrea Kimi", "familyName": "Antonelli", "code": "ANT", "nationality": "Italian"}, "Constructors": [{"name": "Mercedes"}]},
+            {"position": "2", "points": "159", "wins": "1", "Driver": {"driverId": "hamilton", "givenName": "Lewis", "familyName": "Hamilton", "code": "HAM", "nationality": "British"}, "Constructors": [{"name": "Ferrari"}]},
+            {"position": "3", "points": "154", "wins": "2", "Driver": {"driverId": "russell", "givenName": "George", "familyName": "Russell", "code": "RUS", "nationality": "British"}, "Constructors": [{"name": "Mercedes"}]},
+            {"position": "4", "points": "126", "wins": "1", "Driver": {"driverId": "leclerc", "givenName": "Charles", "familyName": "Leclerc", "code": "LEC", "nationality": "Monegasque"}, "Constructors": [{"name": "Ferrari"}]},
+            {"position": "5", "points": "103", "wins": "0", "Driver": {"driverId": "norris", "givenName": "Lando", "familyName": "Norris", "code": "NOR", "nationality": "British"}, "Constructors": [{"name": "McLaren"}]}
         ]
 
     def _get_fallback_constructor_standings(self) -> List[Dict[str, Any]]:
         return [
-            {"position": "1", "points": "475", "wins": "10", "Constructor": {"constructorId": "mclaren", "name": "McLaren"}},
-            {"position": "2", "points": "357", "wins": "3", "Constructor": {"constructorId": "ferrari", "name": "Ferrari"}},
-            {"position": "3", "points": "260", "wins": "3", "Constructor": {"constructorId": "red_bull", "name": "Red Bull"}},
-            {"position": "4", "points": "210", "wins": "1", "Constructor": {"constructorId": "mercedes", "name": "Mercedes"}},
-            {"position": "5", "points": "98", "wins": "0", "Constructor": {"constructorId": "aston_martin", "name": "Aston Martin"}},
-            {"position": "6", "points": "74", "wins": "0", "Constructor": {"constructorId": "williams", "name": "Williams"}}
+            {"position": "1", "points": "358", "wins": "8", "Constructor": {"constructorId": "mercedes", "name": "Mercedes"}},
+            {"position": "2", "points": "285", "wins": "2", "Constructor": {"constructorId": "ferrari", "name": "Ferrari"}},
+            {"position": "3", "points": "195", "wins": "0", "Constructor": {"constructorId": "mclaren", "name": "McLaren"}}
         ]
