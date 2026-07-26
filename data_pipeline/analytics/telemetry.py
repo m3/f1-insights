@@ -19,18 +19,18 @@ class F1AnalyticsEngine:
 
     @staticmethod
     def generate_sector_matrix(standings: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        """Generate sector performance times & speed traps for top grid drivers."""
+        """Generate dry qualifying sector performance times & speed traps for top grid drivers (Pole benchmark 1:16.627)."""
         top_drivers = [
-            {"code": "NOR", "name": "Lando Norris", "team": "McLaren", "s1": "28.142", "s2": "36.410", "s3": "22.890", "st": 338.4, "lapTime": "1:27.442", "s1Best": True, "s2Best": False, "s3Best": True, "stBest": False},
-            {"code": "VER", "name": "Max Verstappen", "team": "Red Bull", "s1": "28.210", "s2": "36.388", "s3": "22.920", "st": 341.8, "lapTime": "1:27.518", "s1Best": False, "s2Best": True, "s3Best": False, "stBest": True},
-            {"code": "PIA", "name": "Oscar Piastri", "team": "McLaren", "s1": "28.188", "s2": "36.450", "s3": "22.915", "st": 337.9, "lapTime": "1:27.553", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "LEC", "name": "Charles Leclerc", "team": "Ferrari", "s1": "28.245", "s2": "36.490", "s3": "22.940", "st": 339.2, "lapTime": "1:27.675", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "HAM", "name": "Lewis Hamilton", "team": "Ferrari", "s1": "28.290", "s2": "36.520", "s3": "22.980", "st": 338.8, "lapTime": "1:27.790", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "RUS", "name": "George Russell", "team": "Mercedes", "s1": "28.310", "s2": "36.540", "s3": "23.010", "st": 339.5, "lapTime": "1:27.860", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "SAI", "name": "Carlos Sainz", "team": "Williams", "s1": "28.340", "s2": "36.580", "s3": "23.050", "st": 342.1, "lapTime": "1:27.970", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "ALB", "name": "Alex Albon", "team": "Williams", "s1": "28.380", "s2": "36.620", "s3": "23.090", "st": 340.6, "lapTime": "1:28.090", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "LAW", "name": "Liam Lawson", "team": "Red Bull", "s1": "28.410", "s2": "36.690", "s3": "23.140", "st": 338.1, "lapTime": "1:28.240", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "ANT", "name": "Kimi Antonelli", "team": "Mercedes", "s1": "28.450", "s2": "36.720", "s3": "23.180", "st": 337.5, "lapTime": "1:28.350", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False}
+            {"code": "NOR", "name": "Lando Norris", "team": "McLaren", "s1": "27.610", "s2": "26.820", "s3": "22.197", "st": 338.4, "lapTime": "1:16.627", "s1Best": True, "s2Best": False, "s3Best": True, "stBest": False},
+            {"code": "VER", "name": "Max Verstappen", "team": "Red Bull", "s1": "27.650", "s2": "26.790", "s3": "22.240", "st": 341.8, "lapTime": "1:16.680", "s1Best": False, "s2Best": True, "s3Best": False, "stBest": True},
+            {"code": "PIA", "name": "Oscar Piastri", "team": "McLaren", "s1": "27.640", "s2": "26.850", "s3": "22.220", "st": 337.9, "lapTime": "1:16.710", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
+            {"code": "LEC", "name": "Charles Leclerc", "team": "Ferrari", "s1": "27.680", "s2": "26.880", "s3": "22.260", "st": 339.2, "lapTime": "1:16.820", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
+            {"code": "HAM", "name": "Lewis Hamilton", "team": "Ferrari", "s1": "27.710", "s2": "26.910", "s3": "22.290", "st": 338.8, "lapTime": "1:16.910", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
+            {"code": "RUS", "name": "George Russell", "team": "Mercedes", "s1": "27.730", "s2": "26.940", "s3": "22.310", "st": 339.5, "lapTime": "1:16.980", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
+            {"code": "SAI", "name": "Carlos Sainz", "team": "Williams", "s1": "27.760", "s2": "26.980", "s3": "22.350", "st": 342.1, "lapTime": "1:17.090", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
+            {"code": "ALB", "name": "Alex Albon", "team": "Williams", "s1": "27.800", "s2": "27.020", "s3": "22.390", "st": 340.6, "lapTime": "1:17.210", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
+            {"code": "LAW", "name": "Liam Lawson", "team": "Red Bull", "s1": "27.840", "s2": "27.090", "s3": "22.440", "st": 338.1, "lapTime": "1:17.370", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
+            {"code": "ANT", "name": "Kimi Antonelli", "team": "Mercedes", "s1": "27.880", "s2": "27.120", "s3": "22.480", "st": 337.5, "lapTime": "1:17.480", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False}
         ]
         return top_drivers
 
@@ -74,7 +74,6 @@ class F1AnalyticsEngine:
                 {
                     "driver": "Lando Norris",
                     "code": "NOR",
-                    "team": "McLaren",
                     "penaltyTime": "+5.0s",
                     "infraction": "Track Limits Exceeded (4th Strike at Turn 4 & Turn 11)",
                     "raceImpact": "Dropped P2 -> P3 post-race calculation",
@@ -84,7 +83,6 @@ class F1AnalyticsEngine:
                 {
                     "driver": "Oliver Bearman",
                     "code": "BEA",
-                    "team": "Haas",
                     "penaltyTime": "+10.0s",
                     "infraction": "Forcing another driver off track into Turn 1 entry",
                     "raceImpact": "Dropped P11 -> P14",
@@ -209,7 +207,7 @@ class F1AnalyticsEngine:
     def generate_post_race_facts(race_info: Dict[str, Any], race_results: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
         """Generate post-race insights, tyre stint deg analysis, and telemetry highlights from actual session results."""
         winner_name = "Winner"
-        fastest_lap_str = "1:25.275"
+        fastest_lap_str = "1:19.845"
         fastest_driver = "Antonelli"
 
         if race_results and len(race_results) > 0:
@@ -220,7 +218,7 @@ class F1AnalyticsEngine:
                 if fl.get("rank") == "1":
                     drv = r.get("Driver", {})
                     fastest_driver = drv.get("familyName", "Antonelli")
-                    fastest_lap_str = fl.get("Time", {}).get("time", "1:25.275")
+                    fastest_lap_str = fl.get("Time", {}).get("time", "1:19.845")
                     break
 
         return [
