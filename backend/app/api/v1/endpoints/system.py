@@ -36,19 +36,23 @@ def health_check(db: Session = Depends(get_db)):
 @router.get("/overview")
 def get_master_overview(db: Session = Depends(get_db)):
     """Master overview endpoint returning full aggregated dashboard JSON payload with v4.0 schema versioning."""
-    cache = db.query(MasterOverviewCache).filter(MasterOverviewCache.id == "latest").first()
+    fallback_path = os.path.join(settings.BASE_DIR, "portal", "public", "data", "overview.json")
     data = None
-    if cache and cache.payload_json:
+
+    if os.path.exists(fallback_path):
         try:
-            data = json.loads(cache.payload_json)
+            with open(fallback_path, "r") as f:
+                data = json.load(f)
         except Exception:
             pass
 
     if not data:
-        fallback_path = os.path.join(settings.BASE_DIR, "portal", "public", "data", "overview.json")
-        if os.path.exists(fallback_path):
-            with open(fallback_path, "r") as f:
-                data = json.load(f)
+        cache = db.query(MasterOverviewCache).filter(MasterOverviewCache.id == "latest").first()
+        if cache and cache.payload_json:
+            try:
+                data = json.loads(cache.payload_json)
+            except Exception:
+                pass
 
     if data and isinstance(data, dict):
         result = {
