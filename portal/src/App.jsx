@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import SessionCountdownHeader from './components/SessionCountdownHeader';
 import BriefCard from './components/BriefCard';
+import GridPenaltiesTracker from './components/GridPenaltiesTracker';
 import TelemetryChart from './components/TelemetryChart';
 import SectorMatrix from './components/SectorMatrix';
 import PitStrategyCalculator from './components/PitStrategyCalculator';
@@ -68,9 +69,13 @@ export default function App() {
         {activeTab === 'brief' && (
           <>
             <BriefCard preBrief={preBrief} postBrief={postBrief} />
+            <div style={{ marginTop: '24px' }}>
+              <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
+            </div>
             <SocialSentiment sentiment={data?.socialSentiment} />
           </>
         )}
+        {activeTab === 'grid_penalties' && <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />}
         {activeTab === 'telemetry' && <TelemetryChart telemetryData={data?.telemetryTraces} />}
         {activeTab === 'sectors' && <SectorMatrix />}
         {activeTab === 'pitstop' && <PitStrategyCalculator />}

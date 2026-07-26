@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flag, Zap, ShieldAlert, Award, Calendar, BarChart2, Gauge, Timer } from 'lucide-react';
+import { Flag, Zap, ShieldAlert, Award, Calendar, BarChart2, Gauge, Timer, AlertOctagon } from 'lucide-react';
 
 export default function Header({ activeTab, setActiveTab, currentRace }) {
   return (
@@ -75,6 +75,12 @@ export default function Header({ activeTab, setActiveTab, currentRace }) {
           <Zap size={16} /> Morning Brief
         </button>
         <button
+          className={`nav-tab ${activeTab === 'grid_penalties' ? 'active' : ''}`}
+          onClick={() => setActiveTab('grid_penalties')}
+        >
+          <AlertOctagon size={16} /> Grid & Time Penalties
+        </button>
+        <button
           className={`nav-tab ${activeTab === 'telemetry' ? 'active' : ''}`}
           onClick={() => setActiveTab('telemetry')}
         >
@@ -96,7 +102,7 @@ export default function Header({ activeTab, setActiveTab, currentRace }) {
           className={`nav-tab ${activeTab === 'penalties' ? 'active' : ''}`}
           onClick={() => setActiveTab('penalties')}
         >
-          <ShieldAlert size={16} /> Penalty Watch
+          <ShieldAlert size={16} /> Licence Points
         </button>
         <button
           className={`nav-tab ${activeTab === 'teammates' ? 'active' : ''}`}
