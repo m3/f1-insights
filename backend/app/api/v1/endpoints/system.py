@@ -35,7 +35,7 @@ def health_check(db: Session = Depends(get_db)):
 
 @router.get("/overview")
 def get_master_overview(db: Session = Depends(get_db)):
-    """Master overview endpoint returning full aggregated dashboard JSON payload."""
+    """Master overview endpoint returning full aggregated dashboard JSON payload with v4.0 schema versioning."""
     cache = db.query(MasterOverviewCache).filter(MasterOverviewCache.id == "latest").first()
     data = None
     if cache and cache.payload_json:
@@ -50,17 +50,20 @@ def get_master_overview(db: Session = Depends(get_db)):
             with open(fallback_path, "r") as f:
                 data = json.load(f)
 
-    if data:
-        if "schema_version" not in data:
-            data["schema_version"] = "4.0"
-        if "provenance" not in data:
-            data["provenance"] = {
+    if data and isinstance(data, dict):
+        result = {
+            "schema_version": "4.0",
+            "provenance": data.get("provenance", {
                 "sources": ["JolpicaErgast", "FastF1", "OpenMeteo", "SocialMediaRadar"],
                 "confidence": 1.0,
                 "status": "available",
                 "is_synthetic": False
-            }
-        return data
+            })
+        }
+        for k, v in data.items():
+            if k not in ["schema_version", "provenance"]:
+                result[k] = v
+        return result
 
     return {
         "schema_version": "4.0",
