@@ -31,7 +31,7 @@ jobs:
         run: |
           pip install -r backend/requirements.txt
           pip install pytest pytest-asyncio requests
-          python data_pipeline/main.py
+          PYTHONPATH=. python data_pipeline/main.py
           python -m pytest -v
 
       - name: Install Frontend Dependencies & Build React Bundle
@@ -73,9 +73,9 @@ jobs:
             source venv/bin/activate || python3 -m venv venv && source venv/bin/activate
             pip install -r requirements.txt
             
-            # Execute pipeline refresh on VPS
+            # Execute pipeline refresh on VPS with explicit PYTHONPATH
             cd /home/mathias/f1-insights
-            python3 data_pipeline/main.py full || true
+            PYTHONPATH=. python3 data_pipeline/main.py full
 
             # Restart persistent PM2 web and backend apps
             pm2 restart f1-insights-portal || pm2 start "npx serve -s /home/mathias/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
