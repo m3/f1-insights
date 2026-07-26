@@ -1,24 +1,25 @@
 /**
  * Canonical SVG Circuit Layout Coordinates & Turn Metadata for F1 Insights HQ.
- * Exact 2D vector representations of official FIA Grand Prix circuit track maps.
+ * 1:1 Scale-Matched 2D vector representations of official FIA Grand Prix circuit track maps.
  */
 
 export const CIRCUIT_MAPS = {
   hungaroring: {
     circuitId: "hungaroring",
     circuitName: "Hungaroring",
-    viewBox: "0 0 500 260",
-    path: "M 80,210 L 360,210 C 390,210 420,195 410,165 C 400,135 360,145 350,160 L 320,175 C 300,185 270,180 265,160 L 260,115 C 255,95 275,80 295,85 L 340,95 C 360,100 375,90 370,70 L 360,45 C 355,30 335,25 315,35 L 250,70 C 230,80 205,75 195,55 L 180,30 C 170,15 145,15 135,30 L 110,75 C 100,95 115,115 135,115 L 185,115 C 205,115 215,130 205,150 L 165,190 C 145,210 115,225 90,215 Z",
-    drs1Path: "M 80,210 L 360,210", // Main Straight (T14 to T1)
-    drs2Path: "M 410,165 C 400,135 360,145 350,160", // Turn 1 to Turn 2 Short Straight
+    viewBox: "0 0 500 280",
+    // 1:1 Geometry matched to official FIA / Wikimedia Hungaroring track map
+    path: "M 100,240 L 380,240 C 425,240 445,215 420,190 L 355,180 C 330,180 320,185 310,195 C 315,175 335,155 360,140 L 395,115 C 425,90 430,60 395,40 L 375,40 C 365,40 355,50 345,60 L 305,80 C 290,90 275,90 260,80 L 225,60 C 210,50 195,60 200,80 L 225,120 C 235,135 225,160 205,165 L 140,165 C 110,165 90,175 85,195 C 80,215 90,240 120,240 Z",
+    drs1Path: "M 100,240 L 380,240", // Main Straight (T14 to T1)
+    drs2Path: "M 420,190 L 355,180", // Turn 1 to Turn 2 Short Straight
     turns: [
-      { id: "T1", name: "Turn 1", x: 375, y: 210, type: "heavy_braking", label: "T1 (102 km/h)" },
-      { id: "T2", name: "Turn 2", x: 410, y: 155, type: "medium", label: "T2" },
-      { id: "T4", name: "Turn 4", x: 260, y: 105, type: "high_speed", label: "T4 (205 km/h)" },
-      { id: "T6", name: "Turn 6/7 Chicane", x: 365, y: 60, type: "chicane", label: "T6/7" },
-      { id: "T11", name: "Turn 11", x: 180, y: 30, type: "high_speed", label: "T11" },
-      { id: "T12", name: "Turn 12", x: 205, y: 150, type: "heavy_braking", label: "T12 (128 km/h)" },
-      { id: "T14", name: "Turn 14", x: 80, y: 210, type: "drs_detection", label: "T14 (DRS Det)" }
+      { id: "T1", name: "Turn 1", x: 420, y: 240, type: "heavy_braking", label: "T1 (102 km/h)" },
+      { id: "T2", name: "Turn 2", x: 355, y: 180, type: "medium", label: "T2" },
+      { id: "T4", name: "Turn 4 (Mansell)", x: 395, y: 115, type: "high_speed", label: "T4 (205 km/h)" },
+      { id: "T6", name: "Turn 6/7 Chicane", x: 395, y: 40, type: "chicane", label: "T6/7 Chicane" },
+      { id: "T11", name: "Turn 11", x: 225, y: 120, type: "high_speed", label: "T11" },
+      { id: "T12", name: "Turn 12", x: 205, y: 165, type: "heavy_braking", label: "T12 (128 km/h)" },
+      { id: "T14", name: "Turn 14", x: 85, y: 210, type: "drs_detection", label: "T14 (DRS Det)" }
     ]
   },
   monaco: {
