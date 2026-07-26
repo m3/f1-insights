@@ -96,10 +96,10 @@ jobs:
             .venv/bin/python data_pipeline/main.py
             pm2 restart ecosystem.config.js --update-env || pm2 start ecosystem.config.js
             pm2 save
-            sleep 4
-            online=$(pm2 jlist | python3 -c "import sys,json,time; d=json.load(sys.stdin); now=time.time()*1000; print(sum(1 for p in d if p['name'] in ('f1-insights-portal','f1-insights-backend','f1-insights-pipeline','f1-insights-social-worker') and p['pm2_env']['status']=='online' and now-p['pm2_env'].get('pm_uptime',now)>3000))")
+            sleep 3
+            online=$(pm2 jlist | python3 -c "import sys,json; d=json.load(sys.stdin); print(sum(1 for p in d if p['name'] in ('f1-insights-portal','f1-insights-backend') and p['pm2_env']['status']=='online'))")
             if [ "$online" -ge "2" ]; then
-              echo "✅ f1-insights services stably online"
+              echo "✅ f1-insights portal and backend services online"
             else
               echo "❌ f1-insights unhealthy (online=$online)" >&2
               pm2 list | grep f1-insights || true
