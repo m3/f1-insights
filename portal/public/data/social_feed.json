@@ -1,5 +1,6 @@
 {
-  "version": "2026.3",
+  "schema_version": "4.0",
+  "race": "Hungarian Grand Prix",
   "overallSentiment": "HIGHLY HYPED",
   "sentimentScore": 84,
   "monitoredAccountsCount": 11,
@@ -64,69 +65,13 @@
       "focus": "Technical Upgrades & Paddock Debriefs"
     }
   ],
-  "driverSentimentRanking": [
-    {
-      "driver": "Lando Norris",
-      "code": "NOR",
-      "handle": "LandoNorris",
-      "team": "McLaren",
-      "score": 88,
-      "sentiment": "Positive",
-      "buzz": "High engagement around @LandoNorris"
-    },
-    {
-      "driver": "Max Verstappen",
-      "code": "VER",
-      "handle": "Max33Verstappen",
-      "team": "Red Bull",
-      "score": 85,
-      "sentiment": "Positive",
-      "buzz": "High engagement around @Max33Verstappen"
-    },
-    {
-      "driver": "Oscar Piastri",
-      "code": "PIA",
-      "handle": "OscarPiastri",
-      "team": "McLaren",
-      "score": 82,
-      "sentiment": "Positive",
-      "buzz": "High engagement around @OscarPiastri"
-    },
-    {
-      "driver": "Charles Leclerc",
-      "code": "LEC",
-      "handle": "Charles_Leclerc",
-      "team": "Ferrari",
-      "score": 79,
-      "sentiment": "Positive",
-      "buzz": "High engagement around @Charles_Leclerc"
-    },
-    {
-      "driver": "Lewis Hamilton",
-      "code": "HAM",
-      "handle": "LewisHamilton",
-      "team": "Ferrari",
-      "score": 76,
-      "sentiment": "Mixed",
-      "buzz": "High engagement around @LewisHamilton"
-    },
-    {
-      "driver": "Andrea Kimi Antonelli",
-      "code": "ANT",
-      "handle": "KimiAntonelli",
-      "team": "Mercedes",
-      "score": 73,
-      "sentiment": "Mixed",
-      "buzz": "High engagement around @KimiAntonelli"
-    }
-  ],
   "breakingNewsTweets": [
     {
       "author": "@TracingInsights",
       "handle": "TracingInsights",
       "type": "Data Telemetry",
       "weight": 0.95,
-      "text": "Telemetry breakdown: McLaren carrying +4.2 km/h through Turn 3 banking compared to Red Bull. Full corner data in bio.",
+      "text": "Telemetry breakdown for Hungarian Grand Prix: Track sector analysis and speed trap deltas updated.",
       "likes": "2.4k",
       "retweets": "340",
       "time": "2h ago"
@@ -136,7 +81,7 @@
       "handle": "F1",
       "type": "Official Broadcaster",
       "weight": 1.0,
-      "text": "STEWARDS DECISION: No further action regarding the Turn 1 lap 1 entry between NOR and VER.",
+      "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Hungarian Grand Prix.",
       "likes": "18.1k",
       "retweets": "1.9k",
       "time": "4h ago"
@@ -146,21 +91,42 @@
       "handle": "AlbertFabrega",
       "type": "Technical Upgrades",
       "weight": 0.9,
-      "text": "New floor edge winglet spotted on the Ferrari SF-26. Aiming to improve low-speed downforce stability.",
+      "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Hungarian Grand Prix.",
       "likes": "4.1k",
       "retweets": "512",
       "time": "6h ago"
+    }
+  ],
+  "xTracksideFeed": [
+    {
+      "author": "@TracingInsights",
+      "handle": "TracingInsights",
+      "type": "Data Telemetry",
+      "weight": 0.95,
+      "text": "Telemetry breakdown for Hungarian Grand Prix: Track sector analysis and speed trap deltas updated.",
+      "likes": "2.4k",
+      "retweets": "340",
+      "time": "2h ago"
     },
     {
-      "author": "@peterdwindsor",
-      "handle": "peterdwindsor",
-      "type": "Driving Style Debrief",
-      "youtube": "@peterwindsor",
+      "author": "@F1",
+      "handle": "F1",
+      "type": "Official Broadcaster",
+      "weight": 1.0,
+      "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Hungarian Grand Prix.",
+      "likes": "18.1k",
+      "retweets": "1.9k",
+      "time": "4h ago"
+    },
+    {
+      "author": "@AlbertFabrega",
+      "handle": "AlbertFabrega",
+      "type": "Technical Upgrades",
       "weight": 0.9,
-      "text": "Fascinating corner entry throttle modulation from Kimi Antonelli into Turn 4. Video debrief uploading soon.",
-      "likes": "3.2k",
-      "retweets": "410",
-      "time": "7h ago"
+      "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Hungarian Grand Prix.",
+      "likes": "4.1k",
+      "retweets": "512",
+      "time": "6h ago"
     }
   ]
 }
