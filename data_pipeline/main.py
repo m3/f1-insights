@@ -51,9 +51,12 @@ def run_pipeline(mode: str = "full"):
     # Paths to export JSON
     portal_data_dir = os.path.join(base_dir, "portal", "public", "data")
     root_data_dir = os.path.join(base_dir, "public", "data")
+    dist_data_dir = os.path.join(base_dir, "portal", "dist", "data")
     
     os.makedirs(portal_data_dir, exist_ok=True)
     os.makedirs(root_data_dir, exist_ok=True)
+    if os.path.exists(os.path.dirname(dist_data_dir)):
+        os.makedirs(dist_data_dir, exist_ok=True)
 
     # Instantiate Provider Layer
     jolpica = JolpicaProvider()
@@ -73,11 +76,13 @@ def run_pipeline(mode: str = "full"):
             data["socialSentiment"] = social_sentiment
             data["updatedAt"] = datetime.utcnow().isoformat() + "Z"
             
-            for target_dir in [portal_data_dir, root_data_dir]:
-                with open(os.path.join(target_dir, "overview.json"), "w") as f:
-                    json.dump(data, f, indent=2)
-                with open(os.path.join(target_dir, "social_feed.json"), "w") as f:
-                    json.dump(social_sentiment, f, indent=2)
+            for target_dir in [portal_data_dir, root_data_dir, dist_data_dir]:
+                if os.path.exists(os.path.dirname(target_dir)):
+                    os.makedirs(target_dir, exist_ok=True)
+                    with open(os.path.join(target_dir, "overview.json"), "w") as f:
+                        json.dump(data, f, indent=2)
+                    with open(os.path.join(target_dir, "social_feed.json"), "w") as f:
+                        json.dump(social_sentiment, f, indent=2)
 
         print("✅ Fast Social Feed update completed successfully!")
         return
@@ -175,9 +180,11 @@ def run_pipeline(mode: str = "full"):
 
     serialized_json = json.dumps(portal_master, indent=2)
 
-    for target_dir in [portal_data_dir, root_data_dir]:
-        with open(os.path.join(target_dir, "overview.json"), "w") as f:
-            f.write(serialized_json)
+    for target_dir in [portal_data_dir, root_data_dir, dist_data_dir]:
+        if os.path.exists(os.path.dirname(target_dir)):
+            os.makedirs(target_dir, exist_ok=True)
+            with open(os.path.join(target_dir, "overview.json"), "w") as f:
+                f.write(serialized_json)
 
     # Sync to SQLite Database
     try:

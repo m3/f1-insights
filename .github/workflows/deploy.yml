@@ -39,6 +39,8 @@ jobs:
         run: |
           npm ci
           npm run build
+          mkdir -p dist/data
+          cp -r public/data/* dist/data/
 
       - name: Install SSH Private Key
         uses: shimataro/ssh-key-action@v2
@@ -76,6 +78,8 @@ jobs:
             # Execute pipeline refresh on VPS with explicit PYTHONPATH
             cd /home/mathias/f1-insights
             PYTHONPATH=. python3 data_pipeline/main.py full
+            mkdir -p /home/mathias/f1-insights/portal/dist/data
+            cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/portal/dist/data/
 
             # Restart persistent PM2 web and backend apps
             pm2 restart f1-insights-portal || pm2 start "npx serve -s /home/mathias/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
