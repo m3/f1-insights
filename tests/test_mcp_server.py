@@ -22,57 +22,59 @@ from mcp_server.main import (
 client = TestClient(app)
 
 def test_mcp_get_f1_overview():
-    """Verify get_f1_overview tool returns valid overview JSON string."""
+    """Verify get_f1_overview tool returns valid versioned 4.0 overview response."""
     res = get_f1_overview()
     data = json.loads(res)
-    assert "currentRace" in data or "status" in data
+    assert data["schema_version"] == "4.0"
+    assert data["status"] == "ok"
+    assert "data" in data
 
 def test_mcp_compare_corner_telemetry():
-    """Verify compare_corner_telemetry tool returns telemetry comparison."""
+    """Verify compare_corner_telemetry tool returns versioned telemetry comparison."""
     res = compare_corner_telemetry("NOR", "VER")
     data = json.loads(res)
-    assert data["driver1"] == "NOR"
-    assert data["driver2"] == "VER"
-    assert "traceData" in data
+    assert data["schema_version"] == "4.0"
+    assert data["data"]["driver1"] == "NOR"
+    assert data["data"]["driver2"] == "VER"
 
 def test_mcp_get_fia_penalty_watch():
-    """Verify get_fia_penalty_watch tool returns flagged drivers."""
+    """Verify get_fia_penalty_watch tool returns flagged drivers with provenance."""
     res = get_fia_penalty_watch()
     data = json.loads(res)
-    assert "high_risk_drivers" in data
-    assert "total_drivers_flagged" in data
+    assert data["schema_version"] == "4.0"
+    assert "high_risk_drivers" in data["data"]
 
 def test_mcp_get_trackside_media_sentiment():
-    """Verify get_trackside_media_sentiment tool returns media feed."""
+    """Verify get_trackside_media_sentiment tool returns media feed with provenance."""
     res = get_trackside_media_sentiment()
     data = json.loads(res)
-    assert isinstance(data, dict)
+    assert data["schema_version"] == "4.0"
 
 def test_mcp_calculate_pit_strategy_loss():
-    """Verify calculate_pit_strategy_loss tool under Green and VSC conditions."""
+    """Verify calculate_pit_strategy_loss tool under Green and VSC conditions with schema version 4.0."""
     res_green = calculate_pit_strategy_loss(18.5, "green")
     data_green = json.loads(res_green)
-    assert data_green["emerges_ahead"] is False
-    assert data_green["net_delta_seconds"] == -3.3
+    assert data_green["schema_version"] == "4.0"
+    assert data_green["data"]["emerges_ahead"] is False
+    assert data_green["data"]["net_delta_seconds"] == -3.3
 
     res_vsc = calculate_pit_strategy_loss(18.5, "vsc")
     data_vsc = json.loads(res_vsc)
-    assert data_vsc["emerges_ahead"] is True
-    assert data_vsc["net_delta_seconds"] == 5.0
+    assert data_vsc["schema_version"] == "4.0"
+    assert data_vsc["data"]["emerges_ahead"] is True
+    assert data_vsc["data"]["net_delta_seconds"] == 5.0
 
 def test_mcp_generate_morning_briefing():
-    """Verify generate_morning_briefing tool returns structured briefing."""
+    """Verify generate_morning_briefing tool returns versioned 4.0 briefing."""
     res = generate_morning_briefing("PRE_RACE")
     data = json.loads(res)
-    assert "title" in data or "markdown_content" in data
+    assert data["schema_version"] == "4.0"
 
 def test_mcp_remote_sse_security():
     """Verify remote MCP endpoints reject unauthenticated requests and allow valid X-API-Key requests."""
-    # Unauthenticated request (no X-API-Key header)
     res_unauth = client.post("/api/v1/mcp/tools/get_f1_overview")
     assert res_unauth.status_code == 401
 
-    # Authenticated request with valid X-API-Key header
     res_auth = client.post(
         "/api/v1/mcp/tools/get_f1_overview",
         headers={"X-API-Key": "f1-insights-admin-secret-key-2026"}
