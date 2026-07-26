@@ -1,6 +1,6 @@
 {
   "schema_version": "4.0",
-  "updatedAt": "2026-07-26T18:35:19.459973Z",
+  "updatedAt": "2026-07-26T19:44:16.271749Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
@@ -52,7 +52,7 @@
     "ambientTemp": "27\u00b0C",
     "trackTemp": "41\u00b0C",
     "rainRisk": "0%",
-    "wind": "12 km/h NE",
+    "wind": "16 km/h NE",
     "humidity": "52%"
   },
   "schedule": [
@@ -1971,7 +1971,7 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-26T20:35:19.457731",
+    "generatedAt": "2026-07-26T19:44:16.270288",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -2154,7 +2154,7 @@
     "raceName": "Hungarian Grand Prix",
     "circuitName": "Hungaroring",
     "date": "2026-07-26",
-    "generatedAt": "2026-07-26T20:35:19.458315",
+    "generatedAt": "2026-07-26T19:44:16.270660",
     "facts": [
       {
         "topic": "Grand Prix Race Winner",
