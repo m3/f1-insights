@@ -55,9 +55,10 @@ jobs:
 
       - name: Rsync Artifact to VPS
         run: |
-          ssh -p 2222 mathias@91.99.167.113 "mkdir -p /home/mathias/f1-insights/portal /home/mathias/f1-insights/backend /home/mathias/f1-insights/data_pipeline /home/mathias/f1-insights/mcp_server"
+          ssh -p 2222 mathias@91.99.167.113 "mkdir -p /home/mathias/f1-insights/portal /home/mathias/f1-insights/backend /home/mathias/f1-insights/data_pipeline /home/mathias/f1-insights/mcp_server /home/mathias/f1-insights/public"
           rsync -avz -e "ssh -p 2222" --delete portal/dist/ mathias@91.99.167.113:/home/mathias/f1-insights/portal/dist/
           rsync -avz -e "ssh -p 2222" portal/public/ mathias@91.99.167.113:/home/mathias/f1-insights/portal/public/
+          rsync -avz -e "ssh -p 2222" public/ mathias@91.99.167.113:/home/mathias/f1-insights/public/
           rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' backend/ mathias@91.99.167.113:/home/mathias/f1-insights/backend/
           rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' data_pipeline/ mathias@91.99.167.113:/home/mathias/f1-insights/data_pipeline/
           rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' mcp_server/ mathias@91.99.167.113:/home/mathias/f1-insights/mcp_server/
@@ -78,8 +79,9 @@ jobs:
             # Execute pipeline refresh on VPS with explicit PYTHONPATH
             cd /home/mathias/f1-insights
             PYTHONPATH=. python3 data_pipeline/main.py full
-            mkdir -p /home/mathias/f1-insights/portal/dist/data
+            mkdir -p /home/mathias/f1-insights/portal/dist/data /home/mathias/f1-insights/public/data
             cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/portal/dist/data/
+            cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/public/data/
 
             # Restart persistent PM2 web and backend apps
             pm2 restart f1-insights-portal || pm2 start "npx serve -s /home/mathias/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
