@@ -1,29 +1,29 @@
 {
   "type": "PRE_RACE",
-  "title": "Pre-Race Preview: Hungarian Grand Prix",
-  "raceName": "Hungarian Grand Prix",
-  "circuitName": "Hungaroring",
-  "date": "2026-07-26",
-  "generatedAt": "2026-07-26T23:29:23.669042",
+  "title": "Pre-Race Preview: Dutch Grand Prix",
+  "raceName": "Dutch Grand Prix",
+  "circuitName": "Circuit Park Zandvoort",
+  "date": "2026-08-23",
+  "generatedAt": "2026-07-27T01:12:13.267284",
   "facts": [
     {
       "topic": "Championship Stakes",
       "badge": "Title Race",
-      "detail": "Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Hungarian Grand Prix.",
+      "detail": "Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Dutch Grand Prix.",
       "stat": "50 Pts Gap",
       "source": "JolpicaErgast"
     },
     {
       "topic": "Tyre Degradation Forecast",
       "badge": "Strategy",
-      "detail": "High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.",
+      "detail": "High thermal degradation expected at Circuit Park Zandvoort. C3/C4 compounds demand early thermal management.",
       "stat": "2 Pit Stops Expected",
       "source": "F1StrategyEngine"
     },
     {
       "topic": "Overtaking & Safety Car Probability",
       "badge": "Circuit DNA",
-      "detail": "Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.",
+      "detail": "Historical Safety Car intervention rate at Circuit Park Zandvoort is 68%. Primary passing zone is DRS Zone 1 into Turn 1.",
       "stat": "68% SC Risk",
       "source": "CanonicalCircuitSpec"
     },
@@ -179,5 +179,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Hungarian Grand Prix.\n\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.\n\n- **[Pitstop] Pit Loss Traversal Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
+  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected at Circuit Park Zandvoort. C3/C4 compounds demand early thermal management.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate at Circuit Park Zandvoort is 68%. Primary passing zone is DRS Zone 1 into Turn 1.\n\n- **[Pitstop] Pit Loss Traversal Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
 }

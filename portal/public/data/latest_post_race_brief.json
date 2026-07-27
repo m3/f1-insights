@@ -1,15 +1,15 @@
 {
   "type": "POST_RACE",
-  "title": "Post-Race Debrief: Hungarian Grand Prix",
-  "raceName": "Hungarian Grand Prix",
-  "circuitName": "Hungaroring",
-  "date": "2026-07-26",
-  "generatedAt": "2026-07-26T23:29:23.669428",
+  "title": "Post-Race Debrief: Dutch Grand Prix",
+  "raceName": "Dutch Grand Prix",
+  "circuitName": "Circuit Park Zandvoort",
+  "date": "2026-08-23",
+  "generatedAt": "2026-07-27T01:12:13.267641",
   "facts": [
     {
       "topic": "Grand Prix Race Winner",
       "badge": "Race Result",
-      "detail": "Andrea Kimi Antonelli secured victory at Hungarian Grand Prix, managing tyre degradation to cross the line P1.",
+      "detail": "Andrea Kimi Antonelli secured victory at Dutch Grand Prix, managing tyre degradation to cross the line P1.",
       "stat": "P1 Victory",
       "source": "JolpicaErgast"
     },
@@ -229,5 +229,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n- **[Race Result] Grand Prix Race Winner** (*P1 Victory*)\n  Andrea Kimi Antonelli secured victory at Hungarian Grand Prix, managing tyre degradation to cross the line P1.\n\n- **[Speed Trap] Official Fastest Lap** (*1:18.420*)\n  Antonelli recorded the fastest lap of the session with a time of 1:18.420.\n\n- **[Tyre Wear] Tyre Degradation Rate** (*0.035s / lap deg*)\n  Hard compound (C2) exhibited low degradation of 0.035s/lap, enabling optimum stint extension.\n\n- **[Pit Wall] Fastest Pitstop Performance** (*1.98s Stop*)\n  Fastest stationary pit stop executed in 1.98s during the primary pit window.\n\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
+  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n- **[Race Result] Grand Prix Race Winner** (*P1 Victory*)\n  Andrea Kimi Antonelli secured victory at Dutch Grand Prix, managing tyre degradation to cross the line P1.\n\n- **[Speed Trap] Official Fastest Lap** (*1:18.420*)\n  Antonelli recorded the fastest lap of the session with a time of 1:18.420.\n\n- **[Tyre Wear] Tyre Degradation Rate** (*0.035s / lap deg*)\n  Hard compound (C2) exhibited low degradation of 0.035s/lap, enabling optimum stint extension.\n\n- **[Pit Wall] Fastest Pitstop Performance** (*1.98s Stop*)\n  Fastest stationary pit stop executed in 1.98s during the primary pit window.\n\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
 }

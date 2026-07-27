@@ -1,12 +1,12 @@
 {
   "schema_version": "4.0",
-  "race": "Hungarian Grand Prix",
+  "race": "Dutch Grand Prix",
   "overallSentiment": "HIGHLY HYPED",
   "sentimentScore": 84,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -71,7 +71,7 @@
       "handle": "TracingInsights",
       "type": "Data Telemetry",
       "weight": 0.95,
-      "text": "Telemetry breakdown for Hungarian Grand Prix: Track sector analysis and speed trap deltas updated.",
+      "text": "Telemetry breakdown for Dutch Grand Prix: Track sector analysis and speed trap deltas updated.",
       "likes": "2.4k",
       "retweets": "340",
       "time": "2h ago"
@@ -81,7 +81,7 @@
       "handle": "F1",
       "type": "Official Broadcaster",
       "weight": 1.0,
-      "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Hungarian Grand Prix.",
+      "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Dutch Grand Prix.",
       "likes": "18.1k",
       "retweets": "1.9k",
       "time": "4h ago"
@@ -91,7 +91,7 @@
       "handle": "AlbertFabrega",
       "type": "Technical Upgrades",
       "weight": 0.9,
-      "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Hungarian Grand Prix.",
+      "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Dutch Grand Prix.",
       "likes": "4.1k",
       "retweets": "512",
       "time": "6h ago"
@@ -103,7 +103,7 @@
       "handle": "TracingInsights",
       "type": "Data Telemetry",
       "weight": 0.95,
-      "text": "Telemetry breakdown for Hungarian Grand Prix: Track sector analysis and speed trap deltas updated.",
+      "text": "Telemetry breakdown for Dutch Grand Prix: Track sector analysis and speed trap deltas updated.",
       "likes": "2.4k",
       "retweets": "340",
       "time": "2h ago"
@@ -113,7 +113,7 @@
       "handle": "F1",
       "type": "Official Broadcaster",
       "weight": 1.0,
-      "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Hungarian Grand Prix.",
+      "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Dutch Grand Prix.",
       "likes": "18.1k",
       "retweets": "1.9k",
       "time": "4h ago"
@@ -123,7 +123,7 @@
       "handle": "AlbertFabrega",
       "type": "Technical Upgrades",
       "weight": 0.9,
-      "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Hungarian Grand Prix.",
+      "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Dutch Grand Prix.",
       "likes": "4.1k",
       "retweets": "512",
       "time": "6h ago"

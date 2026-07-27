@@ -1,6 +1,6 @@
 {
   "schema_version": "4.0",
-  "updatedAt": "2026-07-26T23:29:23.670592Z",
+  "updatedAt": "2026-07-27T01:12:13.268649Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
@@ -14,45 +14,45 @@
   },
   "currentRace": {
     "season": "2026",
-    "round": "11",
-    "url": "https://en.wikipedia.org/wiki/2026_Hungarian_Grand_Prix",
-    "raceName": "Hungarian Grand Prix",
+    "round": "12",
+    "url": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix",
+    "raceName": "Dutch Grand Prix",
     "Circuit": {
-      "circuitId": "hungaroring",
-      "url": "https://en.wikipedia.org/wiki/Hungaroring",
-      "circuitName": "Hungaroring",
+      "circuitId": "zandvoort",
+      "url": "https://en.wikipedia.org/wiki/Circuit_Zandvoort",
+      "circuitName": "Circuit Park Zandvoort",
       "Location": {
-        "lat": "47.5789",
-        "long": "19.2486",
-        "locality": "Budapest",
-        "country": "Hungary"
+        "lat": "52.3888",
+        "long": "4.54092",
+        "locality": "Zandvoort",
+        "country": "Netherlands"
       }
     },
-    "date": "2026-07-26",
+    "date": "2026-08-23",
     "time": "13:00:00Z",
     "FirstPractice": {
-      "date": "2026-07-24",
-      "time": "11:30:00Z"
-    },
-    "SecondPractice": {
-      "date": "2026-07-24",
-      "time": "15:00:00Z"
-    },
-    "ThirdPractice": {
-      "date": "2026-07-25",
+      "date": "2026-08-21",
       "time": "10:30:00Z"
     },
     "Qualifying": {
-      "date": "2026-07-25",
+      "date": "2026-08-22",
       "time": "14:00:00Z"
+    },
+    "Sprint": {
+      "date": "2026-08-22",
+      "time": "10:00:00Z"
+    },
+    "SprintQualifying": {
+      "date": "2026-08-21",
+      "time": "14:30:00Z"
     }
   },
   "circuitWeather": {
-    "circuit": "Hungaroring",
-    "ambientTemp": "24\u00b0C",
-    "trackTemp": "38\u00b0C",
-    "rainRisk": "0%",
-    "wind": "10 km/h NE",
+    "circuit": "Circuit Park Zandvoort",
+    "ambientTemp": "21\u00b0C",
+    "trackTemp": "35\u00b0C",
+    "rainRisk": "39%",
+    "wind": "5 km/h NE",
     "humidity": "52%"
   },
   "schedule": [
@@ -1835,13 +1835,13 @@
   ],
   "socialSentiment": {
     "schema_version": "4.0",
-    "race": "Hungarian Grand Prix",
+    "race": "Dutch Grand Prix",
     "overallSentiment": "HIGHLY HYPED",
     "sentimentScore": 84,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
-      "#HungarianGrandPrix",
+      "#DutchGrandPrix",
       "#F1",
       "#F12026",
       "#Formula1",
@@ -1906,7 +1906,7 @@
         "handle": "TracingInsights",
         "type": "Data Telemetry",
         "weight": 0.95,
-        "text": "Telemetry breakdown for Hungarian Grand Prix: Track sector analysis and speed trap deltas updated.",
+        "text": "Telemetry breakdown for Dutch Grand Prix: Track sector analysis and speed trap deltas updated.",
         "likes": "2.4k",
         "retweets": "340",
         "time": "2h ago"
@@ -1916,7 +1916,7 @@
         "handle": "F1",
         "type": "Official Broadcaster",
         "weight": 1.0,
-        "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Hungarian Grand Prix.",
+        "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Dutch Grand Prix.",
         "likes": "18.1k",
         "retweets": "1.9k",
         "time": "4h ago"
@@ -1926,7 +1926,7 @@
         "handle": "AlbertFabrega",
         "type": "Technical Upgrades",
         "weight": 0.9,
-        "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Hungarian Grand Prix.",
+        "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Dutch Grand Prix.",
         "likes": "4.1k",
         "retweets": "512",
         "time": "6h ago"
@@ -1938,7 +1938,7 @@
         "handle": "TracingInsights",
         "type": "Data Telemetry",
         "weight": 0.95,
-        "text": "Telemetry breakdown for Hungarian Grand Prix: Track sector analysis and speed trap deltas updated.",
+        "text": "Telemetry breakdown for Dutch Grand Prix: Track sector analysis and speed trap deltas updated.",
         "likes": "2.4k",
         "retweets": "340",
         "time": "2h ago"
@@ -1948,7 +1948,7 @@
         "handle": "F1",
         "type": "Official Broadcaster",
         "weight": 1.0,
-        "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Hungarian Grand Prix.",
+        "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Dutch Grand Prix.",
         "likes": "18.1k",
         "retweets": "1.9k",
         "time": "4h ago"
@@ -1958,7 +1958,7 @@
         "handle": "AlbertFabrega",
         "type": "Technical Upgrades",
         "weight": 0.9,
-        "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Hungarian Grand Prix.",
+        "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Dutch Grand Prix.",
         "likes": "4.1k",
         "retweets": "512",
         "time": "6h ago"
@@ -1967,30 +1967,30 @@
   },
   "latestPreBrief": {
     "type": "PRE_RACE",
-    "title": "Pre-Race Preview: Hungarian Grand Prix",
-    "raceName": "Hungarian Grand Prix",
-    "circuitName": "Hungaroring",
-    "date": "2026-07-26",
-    "generatedAt": "2026-07-26T23:29:23.669042",
+    "title": "Pre-Race Preview: Dutch Grand Prix",
+    "raceName": "Dutch Grand Prix",
+    "circuitName": "Circuit Park Zandvoort",
+    "date": "2026-08-23",
+    "generatedAt": "2026-07-27T01:12:13.267284",
     "facts": [
       {
         "topic": "Championship Stakes",
         "badge": "Title Race",
-        "detail": "Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Hungarian Grand Prix.",
+        "detail": "Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Dutch Grand Prix.",
         "stat": "50 Pts Gap",
         "source": "JolpicaErgast"
       },
       {
         "topic": "Tyre Degradation Forecast",
         "badge": "Strategy",
-        "detail": "High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.",
+        "detail": "High thermal degradation expected at Circuit Park Zandvoort. C3/C4 compounds demand early thermal management.",
         "stat": "2 Pit Stops Expected",
         "source": "F1StrategyEngine"
       },
       {
         "topic": "Overtaking & Safety Car Probability",
         "badge": "Circuit DNA",
-        "detail": "Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.",
+        "detail": "Historical Safety Car intervention rate at Circuit Park Zandvoort is 68%. Primary passing zone is DRS Zone 1 into Turn 1.",
         "stat": "68% SC Risk",
         "source": "CanonicalCircuitSpec"
       },
@@ -2146,20 +2146,20 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Hungarian Grand Prix.\n\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected at Hungaroring. C3/C4 compounds demand early thermal management.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate at Hungaroring is 68%. Primary passing zone is DRS Zone 1 into Turn 1.\n\n- **[Pitstop] Pit Loss Traversal Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected at Circuit Park Zandvoort. C3/C4 compounds demand early thermal management.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate at Circuit Park Zandvoort is 68%. Primary passing zone is DRS Zone 1 into Turn 1.\n\n- **[Pitstop] Pit Loss Traversal Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
-    "title": "Post-Race Debrief: Hungarian Grand Prix",
-    "raceName": "Hungarian Grand Prix",
-    "circuitName": "Hungaroring",
-    "date": "2026-07-26",
-    "generatedAt": "2026-07-26T23:29:23.669428",
+    "title": "Post-Race Debrief: Dutch Grand Prix",
+    "raceName": "Dutch Grand Prix",
+    "circuitName": "Circuit Park Zandvoort",
+    "date": "2026-08-23",
+    "generatedAt": "2026-07-27T01:12:13.267641",
     "facts": [
       {
         "topic": "Grand Prix Race Winner",
         "badge": "Race Result",
-        "detail": "Andrea Kimi Antonelli secured victory at Hungarian Grand Prix, managing tyre degradation to cross the line P1.",
+        "detail": "Andrea Kimi Antonelli secured victory at Dutch Grand Prix, managing tyre degradation to cross the line P1.",
         "stat": "P1 Victory",
         "source": "JolpicaErgast"
       },
@@ -2379,6 +2379,6 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: HUNGARIAN GRAND PRIX\n**Location**: Hungaroring | **Date**: 2026-07-26\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n- **[Race Result] Grand Prix Race Winner** (*P1 Victory*)\n  Andrea Kimi Antonelli secured victory at Hungarian Grand Prix, managing tyre degradation to cross the line P1.\n\n- **[Speed Trap] Official Fastest Lap** (*1:18.420*)\n  Antonelli recorded the fastest lap of the session with a time of 1:18.420.\n\n- **[Tyre Wear] Tyre Degradation Rate** (*0.035s / lap deg*)\n  Hard compound (C2) exhibited low degradation of 0.035s/lap, enabling optimum stint extension.\n\n- **[Pit Wall] Fastest Pitstop Performance** (*1.98s Stop*)\n  Fastest stationary pit stop executed in 1.98s during the primary pit window.\n\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
+    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n- **[Race Result] Grand Prix Race Winner** (*P1 Victory*)\n  Andrea Kimi Antonelli secured victory at Dutch Grand Prix, managing tyre degradation to cross the line P1.\n\n- **[Speed Trap] Official Fastest Lap** (*1:18.420*)\n  Antonelli recorded the fastest lap of the session with a time of 1:18.420.\n\n- **[Tyre Wear] Tyre Degradation Rate** (*0.035s / lap deg*)\n  Hard compound (C2) exhibited low degradation of 0.035s/lap, enabling optimum stint extension.\n\n- **[Pit Wall] Fastest Pitstop Performance** (*1.98s Stop*)\n  Fastest stationary pit stop executed in 1.98s during the primary pit window.\n\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
   }
 }
