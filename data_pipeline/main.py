@@ -11,17 +11,21 @@ import sqlite3
 from datetime import datetime
 from typing import Dict, List, Any
 
-# Ensure both project root and pipeline dir are in sys.path
+# Ensure project root, backend dir, and pipeline dir are in sys.path
 pipeline_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(pipeline_dir, ".."))
-if project_root not in sys.path:
-    sys.path.insert(0, project_root)
-if pipeline_dir not in sys.path:
-    sys.path.insert(0, pipeline_dir)
+backend_dir = os.path.join(project_root, "backend")
 
-from app.core.config import settings
+for path in [project_root, backend_dir, pipeline_dir]:
+    if path not in sys.path:
+        sys.path.insert(0, path)
 
-def find_target_race(schedule: List[Dict[str, Any]]) -> Dict[str, Any]:
+try:
+    from app.core.config import settings
+except ImportError:
+    from core.config import settings
+
+from providers.jolpica_provider import JolpicaProvider
 from providers.fastf1_provider import FastF1Provider
 from providers.openmeteo_provider import OpenMeteoProvider
 from providers.social_provider import SocialProvider
