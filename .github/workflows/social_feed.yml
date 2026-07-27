@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add portal/public/data/ public/data/
+          git add portal/public/data/
           git diff --quiet && git diff --staged --quiet || git commit -m "auto: refresh high-frequency social & media feed [skip ci]"
           git push
