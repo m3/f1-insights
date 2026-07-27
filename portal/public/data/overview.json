@@ -1,13 +1,14 @@
 {
-  "schema_version": "4.0",
-  "updatedAt": "2026-07-27T12:23:40.256287Z",
+  "schema_version": "5.0",
+  "updatedAt": "2026-07-27T15:24:47.110202Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -49,11 +50,11 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "29\u00b0C",
-    "trackTemp": "43\u00b0C",
-    "rainRisk": "20%",
-    "wind": "20 km/h NE",
-    "humidity": "52%"
+    "ambientTemp": "20\u00b0C",
+    "trackTemp": "25\u00b0C",
+    "rainRisk": "47%",
+    "wind": "18 km/h NE",
+    "humidity": "80%"
   },
   "schedule": [
     {
@@ -1491,253 +1492,16 @@
       }
     }
   ],
-  "sectorMatrix": [
-    {
-      "code": "NOR",
-      "name": "Lando Norris",
-      "team": "McLaren",
-      "s1": "27.610",
-      "s2": "26.820",
-      "s3": "22.197",
-      "st": 338.4,
-      "lapTime": "1:16.627",
-      "s1Best": true,
-      "s2Best": false,
-      "s3Best": true,
-      "stBest": false
-    },
-    {
-      "code": "VER",
-      "name": "Max Verstappen",
-      "team": "Red Bull",
-      "s1": "27.650",
-      "s2": "26.790",
-      "s3": "22.240",
-      "st": 341.8,
-      "lapTime": "1:16.680",
-      "s1Best": false,
-      "s2Best": true,
-      "s3Best": false,
-      "stBest": true
-    },
-    {
-      "code": "PIA",
-      "name": "Oscar Piastri",
-      "team": "McLaren",
-      "s1": "27.640",
-      "s2": "26.850",
-      "s3": "22.220",
-      "st": 337.9,
-      "lapTime": "1:16.710",
-      "s1Best": false,
-      "s2Best": false,
-      "s3Best": false,
-      "stBest": false
-    },
-    {
-      "code": "LEC",
-      "name": "Charles Leclerc",
-      "team": "Ferrari",
-      "s1": "27.680",
-      "s2": "26.880",
-      "s3": "22.260",
-      "st": 339.2,
-      "lapTime": "1:16.820",
-      "s1Best": false,
-      "s2Best": false,
-      "s3Best": false,
-      "stBest": false
-    },
-    {
-      "code": "HAM",
-      "name": "Lewis Hamilton",
-      "team": "Ferrari",
-      "s1": "27.710",
-      "s2": "26.910",
-      "s3": "22.290",
-      "st": 338.8,
-      "lapTime": "1:16.910",
-      "s1Best": false,
-      "s2Best": false,
-      "s3Best": false,
-      "stBest": false
-    },
-    {
-      "code": "RUS",
-      "name": "George Russell",
-      "team": "Mercedes",
-      "s1": "27.730",
-      "s2": "26.940",
-      "s3": "22.310",
-      "st": 339.5,
-      "lapTime": "1:16.980",
-      "s1Best": false,
-      "s2Best": false,
-      "s3Best": false,
-      "stBest": false
-    },
-    {
-      "code": "SAI",
-      "name": "Carlos Sainz",
-      "team": "Williams",
-      "s1": "27.760",
-      "s2": "26.980",
-      "s3": "22.350",
-      "st": 342.1,
-      "lapTime": "1:17.090",
-      "s1Best": false,
-      "s2Best": false,
-      "s3Best": false,
-      "stBest": false
-    },
-    {
-      "code": "ALB",
-      "name": "Alex Albon",
-      "team": "Williams",
-      "s1": "27.800",
-      "s2": "27.020",
-      "s3": "22.390",
-      "st": 340.6,
-      "lapTime": "1:17.210",
-      "s1Best": false,
-      "s2Best": false,
-      "s3Best": false,
-      "stBest": false
-    },
-    {
-      "code": "LAW",
-      "name": "Liam Lawson",
-      "team": "Red Bull",
-      "s1": "27.840",
-      "s2": "27.090",
-      "s3": "22.440",
-      "st": 338.1,
-      "lapTime": "1:17.370",
-      "s1Best": false,
-      "s2Best": false,
-      "s3Best": false,
-      "stBest": false
-    },
-    {
-      "code": "ANT",
-      "name": "Kimi Antonelli",
-      "team": "Mercedes",
-      "s1": "27.880",
-      "s2": "27.120",
-      "s3": "22.480",
-      "st": 337.5,
-      "lapTime": "1:17.480",
-      "s1Best": false,
-      "s2Best": false,
-      "s3Best": false,
-      "stBest": false
-    }
-  ],
+  "sectorMatrix": [],
   "gridPenalties": {
-    "startingGridImpacts": [
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "team": "Red Bull",
-        "qualiPos": 2,
-        "gridPos": 7,
-        "drop": 5,
-        "reason": "5th Internal Combustion Engine (ICE) change",
-        "status": "GRID PENALTY APPLIED"
-      },
-      {
-        "driver": "Lance Stroll",
-        "code": "STR",
-        "team": "Aston Martin",
-        "qualiPos": 12,
-        "gridPos": 15,
-        "drop": 3,
-        "reason": "Impeding NOR during Q2 Turn 4 braking zone",
-        "status": "GRID PENALTY APPLIED"
-      },
-      {
-        "driver": "Pierre Gasly",
-        "code": "GAS",
-        "team": "Alpine",
-        "qualiPos": 18,
-        "gridPos": 20,
-        "drop": 2,
-        "reason": "New Energy Store (ES) & Control Electronics (CE)",
-        "status": "GRID PENALTY APPLIED"
-      }
-    ],
-    "inRaceTimePenalties": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "penaltyTime": "+5.0s",
-        "infraction": "Track Limits Exceeded (4th Strike at Turn 4 & Turn 11)",
-        "raceImpact": "Dropped P2 -> P3 post-race calculation",
-        "lap": "Lap 48",
-        "stewardsDoc": "Doc 42 - FIA Decision"
-      },
-      {
-        "driver": "Oliver Bearman",
-        "code": "BEA",
-        "penaltyTime": "+10.0s",
-        "infraction": "Forcing another driver off track into Turn 1 entry",
-        "raceImpact": "Dropped P11 -> P14",
-        "lap": "Lap 14",
-        "stewardsDoc": "Doc 28 - FIA Decision"
-      }
-    ]
+    "startingGridImpacts": [],
+    "inRaceTimePenalties": []
   },
   "circuitSpecs": {
-    "length": "4.381 km",
-    "laps": "70 Laps",
-    "raceDistance": "306.63 km",
-    "lapRecord": "1:16.627 (Lewis Hamilton, 2020)",
-    "drsZones": [
-      {
-        "id": "drs1",
-        "name": "DRS Zone 1 (Main Straight)",
-        "detection": "Turn 14 Exit (70m before turn apex)",
-        "activation": "Main Pit Straight (Turn 14 to Turn 1)",
-        "length": "680 meters",
-        "topSpeed": "342.4 km/h",
-        "overtakeProb": "High (Primary Passing Zone)"
-      },
-      {
-        "id": "drs2",
-        "name": "DRS Zone 2 (Turn 1 - Turn 2 Short Straight)",
-        "detection": "Turn 1 Exit (50m post apex)",
-        "activation": "Downhill descent towards Turn 2",
-        "length": "440 meters",
-        "topSpeed": "318.6 km/h",
-        "overtakeProb": "Medium (Switchback Counter-Attack Zone)"
-      }
-    ],
-    "brakingZones": [
-      {
-        "turn": "Turn 1",
-        "entrySpeed": "340 km/h",
-        "apexSpeed": "102 km/h",
-        "gForce": "4.8G",
-        "brakingDist": "118 meters",
-        "gearShift": "8th \u2794 2nd"
-      },
-      {
-        "turn": "Turn 4",
-        "entrySpeed": "298 km/h",
-        "apexSpeed": "205 km/h",
-        "gForce": "3.9G",
-        "brakingDist": "65 meters",
-        "gearShift": "7th \u2794 4th"
-      },
-      {
-        "turn": "Turn 12",
-        "entrySpeed": "312 km/h",
-        "apexSpeed": "128 km/h",
-        "gForce": "4.2G",
-        "brakingDist": "98 meters",
-        "gearShift": "7th \u2794 3rd"
-      }
-    ]
+    "circuitName": "Circuit Park Zandvoort",
+    "circuitId": "zandvoort",
+    "lat": "52.3888",
+    "lng": "4.54092"
   },
   "penaltyWatch": {
     "high_risk_drivers": [
@@ -1833,11 +1597,13 @@
       "leader": "ALO Ahead"
     }
   ],
+  "tyreStrategy": [],
+  "pitStops": [],
   "socialSentiment": {
     "schema_version": "4.0",
     "race": "Dutch Grand Prix",
-    "overallSentiment": "HIGHLY HYPED",
-    "sentimentScore": 84,
+    "overallSentiment": "MONITORED",
+    "sentimentScore": 75,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1900,70 +1666,8 @@
         "focus": "Technical Upgrades & Paddock Debriefs"
       }
     ],
-    "breakingNewsTweets": [
-      {
-        "author": "@TracingInsights",
-        "handle": "TracingInsights",
-        "type": "Data Telemetry",
-        "weight": 0.95,
-        "text": "Telemetry breakdown for Dutch Grand Prix: Track sector analysis and speed trap deltas updated.",
-        "likes": "2.4k",
-        "retweets": "340",
-        "time": "2h ago"
-      },
-      {
-        "author": "@F1",
-        "handle": "F1",
-        "type": "Official Broadcaster",
-        "weight": 1.0,
-        "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Dutch Grand Prix.",
-        "likes": "18.1k",
-        "retweets": "1.9k",
-        "time": "4h ago"
-      },
-      {
-        "author": "@AlbertFabrega",
-        "handle": "AlbertFabrega",
-        "type": "Technical Upgrades",
-        "weight": 0.9,
-        "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Dutch Grand Prix.",
-        "likes": "4.1k",
-        "retweets": "512",
-        "time": "6h ago"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "@TracingInsights",
-        "handle": "TracingInsights",
-        "type": "Data Telemetry",
-        "weight": 0.95,
-        "text": "Telemetry breakdown for Dutch Grand Prix: Track sector analysis and speed trap deltas updated.",
-        "likes": "2.4k",
-        "retweets": "340",
-        "time": "2h ago"
-      },
-      {
-        "author": "@F1",
-        "handle": "F1",
-        "type": "Official Broadcaster",
-        "weight": 1.0,
-        "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Dutch Grand Prix.",
-        "likes": "18.1k",
-        "retweets": "1.9k",
-        "time": "4h ago"
-      },
-      {
-        "author": "@AlbertFabrega",
-        "handle": "AlbertFabrega",
-        "type": "Technical Upgrades",
-        "weight": 0.9,
-        "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Dutch Grand Prix.",
-        "likes": "4.1k",
-        "retweets": "512",
-        "time": "6h ago"
-      }
-    ]
+    "breakingNewsTweets": [],
+    "xTracksideFeed": []
   },
   "latestPreBrief": {
     "type": "PRE_RACE",
@@ -1971,7 +1675,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-07-27T12:23:40.255099",
+    "generatedAt": "2026-07-27T15:24:47.108961",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1979,27 +1683,6 @@
         "detail": "Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Dutch Grand Prix.",
         "stat": "50 Pts Gap",
         "source": "JolpicaErgast"
-      },
-      {
-        "topic": "Tyre Degradation Forecast",
-        "badge": "Strategy",
-        "detail": "High thermal degradation expected at Circuit Park Zandvoort. C3/C4 compounds demand early thermal management.",
-        "stat": "2 Pit Stops Expected",
-        "source": "F1StrategyEngine"
-      },
-      {
-        "topic": "Overtaking & Safety Car Probability",
-        "badge": "Circuit DNA",
-        "detail": "Historical Safety Car intervention rate at Circuit Park Zandvoort is 68%. Primary passing zone is DRS Zone 1 into Turn 1.",
-        "stat": "68% SC Risk",
-        "source": "CanonicalCircuitSpec"
-      },
-      {
-        "topic": "Pit Loss Traversal Delta",
-        "badge": "Pitstop",
-        "detail": "Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.",
-        "stat": "21.8s Pit Loss",
-        "source": "F1StrategyEngine"
       }
     ],
     "penaltyWatch": {
@@ -2146,7 +1829,7 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n- **[Strategy] Tyre Degradation Forecast** (*2 Pit Stops Expected*)\n  High thermal degradation expected at Circuit Park Zandvoort. C3/C4 compounds demand early thermal management.\n\n- **[Circuit DNA] Overtaking & Safety Car Probability** (*68% SC Risk*)\n  Historical Safety Car intervention rate at Circuit Park Zandvoort is 68%. Primary passing zone is DRS Zone 1 into Turn 1.\n\n- **[Pitstop] Pit Loss Traversal Delta** (*21.8s Pit Loss*)\n  Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
@@ -2154,37 +1837,8 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-07-27T12:23:40.255461",
-    "facts": [
-      {
-        "topic": "Grand Prix Race Winner",
-        "badge": "Race Result",
-        "detail": "Andrea Kimi Antonelli secured victory at Dutch Grand Prix, managing tyre degradation to cross the line P1.",
-        "stat": "P1 Victory",
-        "source": "JolpicaErgast"
-      },
-      {
-        "topic": "Official Fastest Lap",
-        "badge": "Speed Trap",
-        "detail": "Antonelli recorded the fastest lap of the session with a time of 1:18.420.",
-        "stat": "1:18.420",
-        "source": "JolpicaErgast"
-      },
-      {
-        "topic": "Tyre Degradation Rate",
-        "badge": "Tyre Wear",
-        "detail": "Hard compound (C2) exhibited low degradation of 0.035s/lap, enabling optimum stint extension.",
-        "stat": "0.035s / lap deg",
-        "source": "F1AnalyticsEngine"
-      },
-      {
-        "topic": "Fastest Pitstop Performance",
-        "badge": "Pit Wall",
-        "detail": "Fastest stationary pit stop executed in 1.98s during the primary pit window.",
-        "stat": "1.98s Stop",
-        "source": "TracingInsightsArchive"
-      }
-    ],
+    "generatedAt": "2026-07-27T15:24:47.109297",
+    "facts": [],
     "teammateBattles": [
       {
         "team": "Mercedes",
@@ -2379,6 +2033,6 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n- **[Race Result] Grand Prix Race Winner** (*P1 Victory*)\n  Andrea Kimi Antonelli secured victory at Dutch Grand Prix, managing tyre degradation to cross the line P1.\n\n- **[Speed Trap] Official Fastest Lap** (*1:18.420*)\n  Antonelli recorded the fastest lap of the session with a time of 1:18.420.\n\n- **[Tyre Wear] Tyre Degradation Rate** (*0.035s / lap deg*)\n  Hard compound (C2) exhibited low degradation of 0.035s/lap, enabling optimum stint extension.\n\n- **[Pit Wall] Fastest Pitstop Performance** (*1.98s Stop*)\n  Fastest stationary pit stop executed in 1.98s during the primary pit window.\n\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
+    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
   }
 }

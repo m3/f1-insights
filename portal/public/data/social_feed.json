@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0",
   "race": "Dutch Grand Prix",
-  "overallSentiment": "HIGHLY HYPED",
-  "sentimentScore": 84,
+  "overallSentiment": "MONITORED",
+  "sentimentScore": 75,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -65,68 +65,6 @@
       "focus": "Technical Upgrades & Paddock Debriefs"
     }
   ],
-  "breakingNewsTweets": [
-    {
-      "author": "@TracingInsights",
-      "handle": "TracingInsights",
-      "type": "Data Telemetry",
-      "weight": 0.95,
-      "text": "Telemetry breakdown for Dutch Grand Prix: Track sector analysis and speed trap deltas updated.",
-      "likes": "2.4k",
-      "retweets": "340",
-      "time": "2h ago"
-    },
-    {
-      "author": "@F1",
-      "handle": "F1",
-      "type": "Official Broadcaster",
-      "weight": 1.0,
-      "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Dutch Grand Prix.",
-      "likes": "18.1k",
-      "retweets": "1.9k",
-      "time": "4h ago"
-    },
-    {
-      "author": "@AlbertFabrega",
-      "handle": "AlbertFabrega",
-      "type": "Technical Upgrades",
-      "weight": 0.9,
-      "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Dutch Grand Prix.",
-      "likes": "4.1k",
-      "retweets": "512",
-      "time": "6h ago"
-    }
-  ],
-  "xTracksideFeed": [
-    {
-      "author": "@TracingInsights",
-      "handle": "TracingInsights",
-      "type": "Data Telemetry",
-      "weight": 0.95,
-      "text": "Telemetry breakdown for Dutch Grand Prix: Track sector analysis and speed trap deltas updated.",
-      "likes": "2.4k",
-      "retweets": "340",
-      "time": "2h ago"
-    },
-    {
-      "author": "@F1",
-      "handle": "F1",
-      "type": "Official Broadcaster",
-      "weight": 1.0,
-      "text": "Grand Prix Weekend Live: Driver briefings and steward decisions active for Dutch Grand Prix.",
-      "likes": "18.1k",
-      "retweets": "1.9k",
-      "time": "4h ago"
-    },
-    {
-      "author": "@AlbertFabrega",
-      "handle": "AlbertFabrega",
-      "type": "Technical Upgrades",
-      "weight": 0.9,
-      "text": "Paddock technical inspection: Aerodynamic winglet updates spotted ahead of Dutch Grand Prix.",
-      "likes": "4.1k",
-      "retweets": "512",
-      "time": "6h ago"
-    }
-  ]
+  "breakingNewsTweets": [],
+  "xTracksideFeed": []
 }
