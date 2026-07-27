@@ -3,8 +3,8 @@ name: TracingInsights Data Sync
 on:
   schedule:
     # Every 15 minutes during race weekends (Fri-Sun), every 2 hours otherwise
-    - cron: '*/15 * * * 5-0'  # Every 15 min Fri-Sun
-    - cron: '0 */2 * * 1-4'   # Every 2 hours Mon-Thu
+    - cron: '*/15 * * * 5,6,0'  # Every 15 min Fri-Sun (5=Fri, 6=Sat, 0=Sun)
+    - cron: '0 */2 * * 1-4'     # Every 2 hours Mon-Thu
   workflow_dispatch:
 
 jobs:
