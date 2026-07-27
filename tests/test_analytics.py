@@ -8,14 +8,13 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..",
 from analytics.telemetry import F1AnalyticsEngine
 
 def test_penalty_watch_filtering():
-    """Verify drivers with penalty points >= 8 are flagged at risk."""
+    """Verify drivers with penalty points >= 8 are flagged at risk when live penalty data exists."""
     engine = F1AnalyticsEngine()
     mock_penalty_data = [
         {"driver": "Esteban Ocon", "code": "OCO", "points": 10, "expiry_next": "2026-09-01"},
         {"driver": "Lance Stroll", "code": "STR", "points": 8, "expiry_next": "2026-10-15"},
         {"driver": "Lando Norris", "code": "NOR", "points": 2, "expiry_next": "2026-11-01"}
     ]
-
     watch = engine.get_penalty_watch(mock_penalty_data)
     assert watch["total_drivers_flagged"] == 2
     flagged_codes = [d["code"] for d in watch["high_risk_drivers"]]
@@ -23,47 +22,58 @@ def test_penalty_watch_filtering():
     assert "STR" in flagged_codes
     assert "NOR" not in flagged_codes
 
-def test_physical_sanity_lap_times():
-    """Verify lap times conform to physical F1 human & mechanical boundaries."""
-    engine = F1AnalyticsEngine()
+def test_non_fabrication_rule_for_empty_data():
+    """Verify empty/pending structures when no TracingInsights reader is configured."""
+    engine = F1AnalyticsEngine()  # No tracing_reader
+
+    # Sector matrix returns empty without TracingInsights
     sectors = engine.generate_sector_matrix()
-    pole_driver = sectors[0]
-    
-    # Pole position lap must be realistic dry qualifying time (>= 1:15.000)
-    lap_parts = pole_driver["lapTime"].split(":")
-    lap_seconds = int(lap_parts[0]) * 60 + float(lap_parts[1])
-    assert 75.0 <= lap_seconds <= 85.0, f"Pole lap time {pole_driver['lapTime']} violates dry qualifying physics boundary"
+    assert sectors == []
 
-    post_facts = engine.generate_post_race_facts({"raceName": "Hungarian Grand Prix"})
-    fastest_lap_fact = next(f for f in post_facts if f["topic"] == "Official Fastest Lap")
-    fl_parts = fastest_lap_fact["stat"].split(":")
-    fl_seconds = int(fl_parts[0]) * 60 + float(fl_parts[1])
-    assert fl_seconds >= 76.627, "Race lap cannot violate all-time outright race lap record (1:16.627)"
-
-def test_active_2026_driver_lineup_validation():
-    """Verify grid penalties reference active 2026 drivers, excluding retired/replaced 2024 drivers."""
-    engine = F1AnalyticsEngine()
+    # Grid penalties returns empty without TracingInsights
     penalties = engine.generate_grid_penalties()
-    grid_drops = penalties["startingGridImpacts"]
-    
-    active_2026_codes = {"VER", "STR", "GAS", "NOR", "BEA", "OCO", "HAM", "LEC", "RUS", "ANT", "SAI", "ALB"}
-    for item in grid_drops:
-        assert item["code"] in active_2026_codes, f"Driver {item['code']} is not an active 2026 driver"
+    assert penalties["startingGridImpacts"] == []
+    assert penalties["inRaceTimePenalties"] == []
 
-def test_teammate_battles_summary():
-    """Verify teammate head-to-head battle calculations."""
-    engine = F1AnalyticsEngine()
-    battles = engine.get_teammate_battle_summary()
-    assert isinstance(battles, list)
-    assert len(battles) >= 4
-    mclaren = next((b for b in battles if b["team"] == "McLaren"), None)
-    assert mclaren is not None
-    assert "NOR" in mclaren["drivers"]
-
-def test_telemetry_trace_generation():
-    """Verify telemetry trace coordinates are non-empty."""
-    engine = F1AnalyticsEngine()
+    # Telemetry traces returns pending without TracingInsights
     traces = engine.generate_telemetry_traces()
-    assert "traceData" in traces
-    assert len(traces["traceData"]) > 0
-    assert "NOR_speed" in traces["traceData"][0]
+    assert traces["status"] == "pending"
+    assert traces["traceData"] == []
+
+    # Post-race facts returns empty when no results exist
+    post_facts = engine.generate_post_race_facts({"raceName": "Hungarian Grand Prix"})
+    assert post_facts == []
+
+def test_post_race_facts_with_live_results():
+    """Verify post-race facts extracted strictly from live race results."""
+    engine = F1AnalyticsEngine()
+    mock_results = [
+        {"Driver": {"givenName": "Andrea Kimi", "familyName": "Antonelli"}, "FastestLap": {"rank": "1", "Time": {"time": "1:18.420"}}}
+    ]
+    facts = engine.generate_post_race_facts({"raceName": "Hungarian Grand Prix"}, mock_results)
+    assert len(facts) == 2
+    assert facts[0]["stat"] == "P1: Andrea Kimi Antonelli"
+    assert facts[1]["stat"] == "1:18.420"
+
+def test_tracing_reader_sector_matrix():
+    """Verify TracingInsights reader builds sector matrix from local data if available."""
+    data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "tracing-insights"))
+    if not os.path.isdir(data_dir):
+        pytest.skip("TracingInsights data not cloned locally")
+
+    from fetchers.tracing_reader import TracingInsightsReader
+    reader = TracingInsightsReader(data_dir)
+    races = reader.get_available_races()
+    assert len(races) > 0, "No races found in TracingInsights data"
+
+    # Test with first available race that has Qualifying data
+    for race in races:
+        sessions = reader.get_available_sessions(race)
+        if "Qualifying" in sessions:
+            matrix = reader.build_sector_matrix(race)
+            if matrix:
+                assert "code" in matrix[0]
+                assert "s1" in matrix[0]
+                assert "lapTime" in matrix[0]
+                print(f"Sector matrix for {race}: {len(matrix)} drivers, pole: {matrix[0]['code']} {matrix[0]['lapTime']}")
+                break

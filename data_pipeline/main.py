@@ -19,12 +19,15 @@ if project_root not in sys.path:
 if pipeline_dir not in sys.path:
     sys.path.insert(0, pipeline_dir)
 
-from providers.jolpica_provider import JolpicaProvider
+from app.core.config import settings
+
+def find_target_race(schedule: List[Dict[str, Any]]) -> Dict[str, Any]:
 from providers.fastf1_provider import FastF1Provider
 from providers.openmeteo_provider import OpenMeteoProvider
 from providers.social_provider import SocialProvider
 
 from fetchers.tracing_insights import F1DataFetcher
+from fetchers.tracing_reader import TracingInsightsReader
 from fetchers.session_watcher import SessionWatcher
 from analytics.telemetry import F1AnalyticsEngine
 from generators.brief_generator import BriefGenerator
@@ -81,7 +84,7 @@ def run_pipeline(mode: str = "full"):
     portal_data_dir = os.path.join(base_pipeline_dir, "..", "portal", "public", "data")
     root_data_dir = os.path.join(base_pipeline_dir, "..", "public", "data")
     dist_data_dir = os.path.join(base_pipeline_dir, "..", "portal", "dist", "data")
-    db_path = os.path.join(base_pipeline_dir, "..", "backend", "f1_insights.db")
+    db_path = settings.SQLITE_DB_PATH
 
     jolpica = JolpicaProvider()
     openmeteo = OpenMeteoProvider()
@@ -117,11 +120,18 @@ def run_pipeline(mode: str = "full"):
         print("✅ Fast Social Feed update completed successfully!")
         return
 
-    # 1. Initialize fetchers, analytics & notifier
+    # 1. Initialize fetchers, TracingInsights reader, analytics & notifier
     fetcher = F1DataFetcher()
+    tracing = TracingInsightsReader()
     watcher = SessionWatcher()
-    analytics = F1AnalyticsEngine()
     notifier = F1Notifier()
+
+    # Pull latest TracingInsights data
+    print("📡 Pulling latest TracingInsights/2026 data...")
+    tracing.pull_latest()
+    print(f"   Available races: {tracing.get_available_races()}")
+
+    analytics = F1AnalyticsEngine(tracing_reader=tracing)
 
     generator_portal = BriefGenerator(output_dir=portal_data_dir)
     generator_root = BriefGenerator(output_dir=root_data_dir)
@@ -144,17 +154,30 @@ def run_pipeline(mode: str = "full"):
 
     # Dynamic target race selection
     next_race = find_target_race(schedule)
-    print(f"🏎️ Target Grand Prix Weekend: {next_race.get('raceName')} ({next_race.get('date')})")
+    race_name = next_race.get('raceName', '')
+    print(f"🏎️ Target Grand Prix Weekend: {race_name} ({next_race.get('date')})")
 
-    # Fetch live weather forecast via OpenMeteo Provider
-    weather_res = openmeteo.fetch_weather(lat=47.583, lon=19.248, circuit_name=next_race.get('Circuit', {}).get('circuitName', 'Hungaroring'))
-    circuit_weather = weather_res.data
+    # Check what sessions TracingInsights has for this race
+    ti_sessions = tracing.get_available_sessions(race_name)
+    print(f"   TracingInsights sessions available: {ti_sessions}")
+
+    # Fetch weather: prefer TracingInsights actual session data, fallback to OpenMeteo forecast
+    ti_weather = tracing.build_session_weather_summary(race_name, "Race")
+    if ti_weather:
+        circuit_weather = ti_weather
+        print(f"   🌡️ Using TracingInsights actual session weather (Track: {ti_weather.get('trackTemp')})")
+    else:
+        circuit = next_race.get('Circuit', {})
+        lat = float(circuit.get('Location', {}).get('lat', 47.583))
+        lng = float(circuit.get('Location', {}).get('long', 19.248))
+        weather_res = openmeteo.fetch_weather(lat=lat, lon=lng, circuit_name=circuit.get('circuitName', 'Circuit'))
+        circuit_weather = weather_res.data
+        print(f"   🌤️ Using OpenMeteo forecast weather")
 
     # Session checkpoints & GitHub updates check
     session_checkpoints = watcher.get_upcoming_checkpoint(next_race)
-    tracing_commit_status = watcher.check_tracing_insights_updated()
 
-    # 3. Analytics & FastF1 Telemetry Ingestion
+    # 3. Analytics from TracingInsights + Jolpica
     pre_race_facts = analytics.generate_pre_race_facts(next_race, driver_standings)
     
     # Extract latest race results ONLY if they belong to the current active race round
@@ -168,9 +191,16 @@ def run_pipeline(mode: str = "full"):
     
     penalty_watch = analytics.get_penalty_watch(penalty_points)
     teammate_battles = analytics.get_teammate_battle_summary(completed_races)
-    sector_matrix = analytics.generate_sector_matrix(driver_standings)
-    grid_penalties = analytics.generate_grid_penalties()
+    sector_matrix = analytics.generate_sector_matrix(race_name=race_name)
+    grid_penalties = analytics.generate_grid_penalties(race_name=race_name)
     circuit_specs = analytics.generate_circuit_blueprint_specs(next_race)
+    tyre_strategy = analytics.build_tyre_strategy_summary(race_name=race_name)
+    pit_stops = analytics.build_pit_strategy(race_name=race_name)
+
+    print(f"   📊 Sector Matrix: {len(sector_matrix)} drivers")
+    print(f"   ⚖️ Penalties: {len(grid_penalties.get('startingGridImpacts', []))} grid, {len(grid_penalties.get('inRaceTimePenalties', []))} in-race")
+    print(f"   🏎️ Tyre Strategy: {len(tyre_strategy)} lap entries")
+    print(f"   🔧 Pit Stops: {len(pit_stops)} stops")
     
     social_res = social.fetch_social_sentiment(next_race.get('raceName', 'Hungarian Grand Prix'))
     social_sentiment = social_res.data
@@ -197,10 +227,12 @@ def run_pipeline(mode: str = "full"):
 
     # 6. Export Master overview.json
     master_overview = {
-        "schema_version": "4.0",
+        "schema_version": "5.0",
         "updatedAt": datetime.utcnow().isoformat() + "Z",
         "provenance": {
-            "sources": ["JolpicaErgast", "FastF1", "OpenMeteo", "SocialMediaRadar"],
+            "sources": ["JolpicaErgast", "TracingInsights", "OpenMeteo"],
+            "tracingInsightsCommit": tracing.get_latest_commit_sha(),
+            "tracingInsightsSessions": ti_sessions,
             "confidence": 1.0,
             "status": "available",
             "is_synthetic": False
@@ -215,6 +247,8 @@ def run_pipeline(mode: str = "full"):
         "circuitSpecs": circuit_specs,
         "penaltyWatch": penalty_watch,
         "teammateBattles": teammate_battles,
+        "tyreStrategy": tyre_strategy,
+        "pitStops": pit_stops,
         "socialSentiment": social_sentiment,
         "latestPreBrief": pre_brief_portal,
         "latestPostBrief": post_brief_portal

@@ -1,14 +1,27 @@
 """
 Analytics module for F1 Insights.
-Calculates race pace deltas, tyre degradation forecasts, penalty point warnings,
-sector performance matrix, circuit blueprint specs, and teammate head-to-head metrics from real Jolpica Ergast race results.
+Strict non-fabrication rule: All data comes from TracingInsights local repo or Jolpica Ergast API.
+No static fallbacks, no synthetic generators, no hardcoded values.
 """
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
+import logging
+
+logger = logging.getLogger("F1AnalyticsEngine")
+
 
 class F1AnalyticsEngine:
+    def __init__(self, tracing_reader=None):
+        self.tracing = tracing_reader
+
     @staticmethod
     def get_penalty_watch(penalty_data: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Find drivers with 8+ penalty points near ban threshold (12 pts)."""
+        """Find drivers with 8+ penalty points near ban threshold (12 pts) from live feed."""
+        if not penalty_data:
+            return {
+                "high_risk_drivers": [],
+                "total_drivers_flagged": 0,
+                "summary": "Penalty points data unavailable."
+            }
         at_risk = [d for d in penalty_data if d.get("points", 0) >= 8 or d.get("at_risk", False)]
         at_risk.sort(key=lambda x: x.get("points", 0), reverse=True)
         return {
@@ -17,311 +30,156 @@ class F1AnalyticsEngine:
             "summary": f"{len(at_risk)} driver(s) currently on penalty watch (>8 points)." if at_risk else "All drivers currently clear of penalty ban threshold."
         }
 
-    @staticmethod
-    def generate_sector_matrix(standings: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        """Generate dry qualifying sector performance times & speed traps for top grid drivers (Pole benchmark 1:16.627)."""
-        top_drivers = [
-            {"code": "NOR", "name": "Lando Norris", "team": "McLaren", "s1": "27.610", "s2": "26.820", "s3": "22.197", "st": 338.4, "lapTime": "1:16.627", "s1Best": True, "s2Best": False, "s3Best": True, "stBest": False},
-            {"code": "VER", "name": "Max Verstappen", "team": "Red Bull", "s1": "27.650", "s2": "26.790", "s3": "22.240", "st": 341.8, "lapTime": "1:16.680", "s1Best": False, "s2Best": True, "s3Best": False, "stBest": True},
-            {"code": "PIA", "name": "Oscar Piastri", "team": "McLaren", "s1": "27.640", "s2": "26.850", "s3": "22.220", "st": 337.9, "lapTime": "1:16.710", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "LEC", "name": "Charles Leclerc", "team": "Ferrari", "s1": "27.680", "s2": "26.880", "s3": "22.260", "st": 339.2, "lapTime": "1:16.820", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "HAM", "name": "Lewis Hamilton", "team": "Ferrari", "s1": "27.710", "s2": "26.910", "s3": "22.290", "st": 338.8, "lapTime": "1:16.910", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "RUS", "name": "George Russell", "team": "Mercedes", "s1": "27.730", "s2": "26.940", "s3": "22.310", "st": 339.5, "lapTime": "1:16.980", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "SAI", "name": "Carlos Sainz", "team": "Williams", "s1": "27.760", "s2": "26.980", "s3": "22.350", "st": 342.1, "lapTime": "1:17.090", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "ALB", "name": "Alex Albon", "team": "Williams", "s1": "27.800", "s2": "27.020", "s3": "22.390", "st": 340.6, "lapTime": "1:17.210", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "LAW", "name": "Liam Lawson", "team": "Red Bull", "s1": "27.840", "s2": "27.090", "s3": "22.440", "st": 338.1, "lapTime": "1:17.370", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False},
-            {"code": "ANT", "name": "Kimi Antonelli", "team": "Mercedes", "s1": "27.880", "s2": "27.120", "s3": "22.480", "st": 337.5, "lapTime": "1:17.480", "s1Best": False, "s2Best": False, "s3Best": False, "stBest": False}
-        ]
-        return top_drivers
+    def generate_sector_matrix(self, race_name: str = None, standings: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
+        """Build sector matrix from TracingInsights qualifying data."""
+        if self.tracing and race_name:
+            return self.tracing.build_sector_matrix(race_name)
+        return []
 
-    @staticmethod
-    def generate_grid_penalties() -> Dict[str, Any]:
-        """Generate verified steward grid drops & in-race penalty logs for active 2026 grid drivers."""
-        return {
-            "startingGridImpacts": [
-                {
-                    "driver": "Max Verstappen",
-                    "code": "VER",
-                    "team": "Red Bull",
-                    "qualiPos": 2,
-                    "gridPos": 7,
-                    "drop": 5,
-                    "reason": "5th Internal Combustion Engine (ICE) change",
-                    "status": "GRID PENALTY APPLIED"
-                },
-                {
-                    "driver": "Lance Stroll",
-                    "code": "STR",
-                    "team": "Aston Martin",
-                    "qualiPos": 12,
-                    "gridPos": 15,
-                    "drop": 3,
-                    "reason": "Impeding NOR during Q2 Turn 4 braking zone",
-                    "status": "GRID PENALTY APPLIED"
-                },
-                {
-                    "driver": "Pierre Gasly",
-                    "code": "GAS",
-                    "team": "Alpine",
-                    "qualiPos": 18,
-                    "gridPos": 20,
-                    "drop": 2,
-                    "reason": "New Energy Store (ES) & Control Electronics (CE)",
-                    "status": "GRID PENALTY APPLIED"
-                }
-            ],
-            "inRaceTimePenalties": [
-                {
-                    "driver": "Lando Norris",
-                    "code": "NOR",
-                    "penaltyTime": "+5.0s",
-                    "infraction": "Track Limits Exceeded (4th Strike at Turn 4 & Turn 11)",
-                    "raceImpact": "Dropped P2 -> P3 post-race calculation",
-                    "lap": "Lap 48",
-                    "stewardsDoc": "Doc 42 - FIA Decision"
-                },
-                {
-                    "driver": "Oliver Bearman",
-                    "code": "BEA",
-                    "penaltyTime": "+10.0s",
-                    "infraction": "Forcing another driver off track into Turn 1 entry",
-                    "raceImpact": "Dropped P11 -> P14",
-                    "lap": "Lap 14",
-                    "stewardsDoc": "Doc 28 - FIA Decision"
-                }
-            ]
+    def generate_grid_penalties(self, race_name: str = None, steward_decisions: List[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """Extract grid/time penalties from TracingInsights race control messages."""
+        if self.tracing and race_name:
+            return self.tracing.build_grid_penalties(race_name)
+        if steward_decisions:
+            return {
+                "startingGridImpacts": [d for d in steward_decisions if d.get("type") == "grid_drop"],
+                "inRaceTimePenalties": [d for d in steward_decisions if d.get("type") == "time_penalty"]
+            }
+        return {"startingGridImpacts": [], "inRaceTimePenalties": []}
+
+    def generate_circuit_blueprint_specs(self, race_info: Dict[str, Any]) -> Dict[str, Any]:
+        """Generate circuit specs from race metadata + TracingInsights corner data."""
+        circuit = race_info.get("Circuit", {})
+        race_name = race_info.get("raceName", "")
+        specs = {
+            "circuitName": circuit.get("circuitName", "Grand Prix Circuit"),
+            "circuitId": circuit.get("circuitId", ""),
+            "lat": circuit.get("Location", {}).get("lat"),
+            "lng": circuit.get("Location", {}).get("long"),
         }
 
-    @staticmethod
-    def generate_circuit_blueprint_specs(race_info: Dict[str, Any]) -> Dict[str, Any]:
-        """Generate canonical circuit geometry and braking zone specifications."""
-        circuit_name = race_info.get("Circuit", {}).get("circuitName", "Hungaroring")
-        return {
-            "length": "4.381 km",
-            "laps": "70 Laps",
-            "raceDistance": "306.63 km",
-            "lapRecord": "1:16.627 (Lewis Hamilton, 2020)",
-            "drsZones": [
-                {
-                    "id": "drs1",
-                    "name": "DRS Zone 1 (Main Straight)",
-                    "detection": "Turn 14 Exit (70m before turn apex)",
-                    "activation": "Main Pit Straight (Turn 14 to Turn 1)",
-                    "length": "680 meters",
-                    "topSpeed": "342.4 km/h",
-                    "overtakeProb": "High (Primary Passing Zone)"
-                },
-                {
-                    "id": "drs2",
-                    "name": "DRS Zone 2 (Turn 1 - Turn 2 Short Straight)",
-                    "detection": "Turn 1 Exit (50m post apex)",
-                    "activation": "Downhill descent towards Turn 2",
-                    "length": "440 meters",
-                    "topSpeed": "318.6 km/h",
-                    "overtakeProb": "Medium (Switchback Counter-Attack Zone)"
-                }
-            ],
-            "brakingZones": [
-                {
-                    "turn": "Turn 1",
-                    "entrySpeed": "340 km/h",
-                    "apexSpeed": "102 km/h",
-                    "gForce": "4.8G",
-                    "brakingDist": "118 meters",
-                    "gearShift": "8th ➔ 2nd"
-                },
-                {
-                    "turn": "Turn 4",
-                    "entrySpeed": "298 km/h",
-                    "apexSpeed": "205 km/h",
-                    "gForce": "3.9G",
-                    "brakingDist": "65 meters",
-                    "gearShift": "7th ➔ 4th"
-                },
-                {
-                    "turn": "Turn 12",
-                    "entrySpeed": "312 km/h",
-                    "apexSpeed": "128 km/h",
-                    "gForce": "4.2G",
-                    "brakingDist": "98 meters",
-                    "gearShift": "7th ➔ 3rd"
-                }
-            ]
-        }
+        if self.tracing and race_name:
+            corners = self.tracing.get_corners(race_name)
+            if corners:
+                specs["corners"] = corners
+        return specs
 
-    @staticmethod
-    def generate_pre_race_facts(race_info: Dict[str, Any], standings: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Generate dynamic pre-race facts and circuit stats from real WDC standings and circuit data."""
-        circuit_name = race_info.get("Circuit", {}).get("circuitName", "Hungaroring")
+    def generate_pre_race_facts(self, race_info: Dict[str, Any], standings: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Generate pre-race facts from live WDC standings."""
         race_name = race_info.get("raceName", "Grand Prix")
-        
-        # Calculate dynamic top 2 point gap from real WDC standings
-        gap_pts = 50
-        p1_name = "Antonelli"
-        p2_name = "Hamilton"
-        if len(standings) >= 2:
+        facts = []
+
+        if standings and len(standings) >= 2:
             try:
                 p1_pts = float(standings[0].get("points", 0))
                 p2_pts = float(standings[1].get("points", 0))
                 gap_pts = int(p1_pts - p2_pts)
-                p1_name = standings[0].get("Driver", {}).get("familyName", "Antonelli")
-                p2_name = standings[1].get("Driver", {}).get("familyName", "Hamilton")
+                p1_name = standings[0].get("Driver", {}).get("familyName", "P1")
+                p2_name = standings[1].get("Driver", {}).get("familyName", "P2")
+                facts.append({
+                    "topic": "Championship Stakes",
+                    "badge": "Title Race",
+                    "detail": f"{p1_name} leads {p2_name} by {gap_pts} points in the World Drivers' Championship heading into {race_name}.",
+                    "stat": f"{gap_pts} Pts Gap",
+                    "source": "JolpicaErgast"
+                })
             except Exception:
                 pass
 
-        gap_stat = f"{gap_pts} Pts Gap"
+        return facts
+
+    def generate_post_race_facts(self, race_info: Dict[str, Any], race_results: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
+        """Generate post-race facts strictly from live Ergast race results."""
+        if not race_results or len(race_results) == 0:
+            return []
+
+        race_name = race_info.get("raceName", "Grand Prix")
+        first_driver = race_results[0].get("Driver", {})
+        winner_name = f"{first_driver.get('givenName', '')} {first_driver.get('familyName', '')}".strip()
 
         facts = [
             {
-                "topic": "Championship Stakes",
-                "badge": "Title Race",
-                "detail": f"{p1_name} leads {p2_name} by {gap_pts} points in the World Drivers' Championship heading into {race_name}.",
-                "stat": gap_stat,
-                "source": "JolpicaErgast"
-            },
-            {
-                "topic": "Tyre Degradation Forecast",
-                "badge": "Strategy",
-                "detail": f"High thermal degradation expected at {circuit_name}. C3/C4 compounds demand early thermal management.",
-                "stat": "2 Pit Stops Expected",
-                "source": "F1StrategyEngine"
-            },
-            {
-                "topic": "Overtaking & Safety Car Probability",
-                "badge": "Circuit DNA",
-                "detail": f"Historical Safety Car intervention rate at {circuit_name} is 68%. Primary passing zone is DRS Zone 1 into Turn 1.",
-                "stat": "68% SC Risk",
-                "source": "CanonicalCircuitSpec"
-            },
-            {
-                "topic": "Pit Loss Traversal Delta",
-                "badge": "Pitstop",
-                "detail": "Average pit lane traversal time loss is 21.8 seconds under green flag, dropping to 13.5 seconds under VSC.",
-                "stat": "21.8s Pit Loss",
-                "source": "F1StrategyEngine"
-            }
-        ]
-        return facts
-
-    @staticmethod
-    def generate_post_race_facts(race_info: Dict[str, Any], race_results: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        """Generate post-race insights, tyre stint deg analysis, and telemetry highlights from actual session results."""
-        winner_name = "Andrea Kimi Antonelli"
-        fastest_lap_str = "1:18.420"
-        fastest_driver = "Antonelli"
-        target_round = str(race_info.get("round", ""))
-
-        # Only extract fastest lap from race_results if race_results belongs to the active race round
-        if race_results and len(race_results) > 0:
-            result_round = str(race_results[0].get("round", target_round))
-            # Verify round match to avoid cross-pollinating results from prior races (e.g. Canadian GP)
-            if not target_round or result_round == target_round:
-                first_driver = race_results[0].get("Driver", {})
-                winner_name = f"{first_driver.get('givenName', '')} {first_driver.get('familyName', '')}"
-                for r in race_results:
-                    fl = r.get("FastestLap", {})
-                    if fl.get("rank") == "1":
-                        drv = r.get("Driver", {})
-                        fastest_driver = drv.get("familyName", "Antonelli")
-                        fastest_lap_str = fl.get("Time", {}).get("time", "1:18.420")
-                        break
-
-        return [
-            {
                 "topic": "Grand Prix Race Winner",
                 "badge": "Race Result",
-                "detail": f"{winner_name} secured victory at {race_info.get('raceName', 'Grand Prix')}, managing tyre degradation to cross the line P1.",
-                "stat": "P1 Victory",
+                "detail": f"{winner_name} secured victory at {race_name}, crossing the line P1.",
+                "stat": f"P1: {winner_name}",
                 "source": "JolpicaErgast"
-            },
-            {
-                "topic": "Official Fastest Lap",
-                "badge": "Speed Trap",
-                "detail": f"{fastest_driver} recorded the fastest lap of the session with a time of {fastest_lap_str}.",
-                "stat": fastest_lap_str,
-                "source": "JolpicaErgast"
-            },
-            {
-                "topic": "Tyre Degradation Rate",
-                "badge": "Tyre Wear",
-                "detail": "Hard compound (C2) exhibited low degradation of 0.035s/lap, enabling optimum stint extension.",
-                "stat": "0.035s / lap deg",
-                "source": "F1AnalyticsEngine"
-            },
-            {
-                "topic": "Fastest Pitstop Performance",
-                "badge": "Pit Wall",
-                "detail": "Fastest stationary pit stop executed in 1.98s during the primary pit window.",
-                "stat": "1.98s Stop",
-                "source": "TracingInsightsArchive"
             }
         ]
 
-    @staticmethod
-    def generate_telemetry_traces() -> Dict[str, List[Dict[str, Any]]]:
-        """Generate lap telemetry speed and throttle traces for key driver pairs across lap distance."""
-        drivers = {
-            "NOR": {"name": "Lando Norris", "team": "McLaren", "color": "#FF8000", "baseSpeed": 315, "apexMod": 5},
-            "VER": {"name": "Max Verstappen", "team": "Red Bull", "color": "#3671C6", "baseSpeed": 318, "apexMod": 0},
-            "PIA": {"name": "Oscar Piastri", "team": "McLaren", "color": "#FF8000", "baseSpeed": 314, "apexMod": 4},
-            "LEC": {"name": "Charles Leclerc", "team": "Ferrari", "color": "#E8002D", "baseSpeed": 316, "apexMod": 2},
-            "HAM": {"name": "Lewis Hamilton", "team": "Ferrari", "color": "#E8002D", "baseSpeed": 315, "apexMod": 3},
-            "RUS": {"name": "George Russell", "team": "Mercedes", "color": "#27F4D2", "baseSpeed": 317, "apexMod": 1},
-            "ANT": {"name": "Andrea Kimi Antonelli", "team": "Mercedes", "color": "#27F4D2", "baseSpeed": 316, "apexMod": 2},
-            "ALO": {"name": "Fernando Alonso", "team": "Aston Martin", "color": "#229971", "baseSpeed": 312, "apexMod": 3},
-            "SAI": {"name": "Carlos Sainz", "team": "Williams", "color": "#64C4FF", "baseSpeed": 318, "apexMod": 1},
-            "OCO": {"name": "Esteban Ocon", "team": "Haas", "color": "#B6BABD", "baseSpeed": 310, "apexMod": 2}
-        }
+        for r in race_results:
+            fl = r.get("FastestLap", {})
+            if fl.get("rank") == "1":
+                drv = r.get("Driver", {})
+                fastest_driver = drv.get("familyName", "Driver")
+                fastest_lap_str = fl.get("Time", {}).get("time", "")
+                if fastest_lap_str:
+                    facts.append({
+                        "topic": "Official Fastest Lap",
+                        "badge": "Speed Trap",
+                        "detail": f"{fastest_driver} recorded the fastest lap of the session with a time of {fastest_lap_str}.",
+                        "stat": fastest_lap_str,
+                        "source": "JolpicaErgast"
+                    })
+                break
 
-        # Lap distance markers (in meters)
-        distances = [0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800, 3000]
-        
-        telemetry_dataset = []
-        for d in distances:
-            point = {"distance": d}
-            for code, drv in drivers.items():
-                if d in [400, 1400, 2400]:
-                    speed = 125 + drv["apexMod"] * 2
-                    throttle = 15
-                    gear = 3
-                elif d in [1000, 2000]:
-                    speed = 210 + drv["apexMod"] * 3
-                    throttle = 75
-                    gear = 5
-                else:
-                    speed = drv["baseSpeed"] + (d % 300) // 10
-                    throttle = 100
-                    gear = 8
+        return facts
 
-                point[f"{code}_speed"] = speed
-                point[f"{code}_throttle"] = throttle
-                point[f"{code}_gear"] = gear
+    def generate_telemetry_traces(self, race_name: str = None, driver_codes: List[str] = None) -> Dict[str, Any]:
+        """Build telemetry trace data from TracingInsights per-driver lap telemetry."""
+        if not self.tracing or not race_name:
+            return {"status": "pending", "drivers": {}, "traceData": []}
 
-            telemetry_dataset.append(point)
+        drivers_meta = self.tracing.get_drivers(race_name, "Race")
+        meta_map = {}
+        for d in drivers_meta:
+            meta_map[d.get("driver", "")] = {
+                "name": f"{d.get('fn', '')} {d.get('ln', '')}",
+                "team": d.get("team", ""),
+                "color": f"#{d.get('tc', '888888')}"
+            }
+
+        if not driver_codes:
+            driver_codes = self.tracing.get_driver_codes(race_name, "Race")[:6]
+
+        drivers_info = {}
+        for code in driver_codes:
+            meta = meta_map.get(code, {"name": code, "team": "", "color": "#888888"})
+            drivers_info[code] = meta
 
         return {
-            "drivers": drivers,
-            "traceData": telemetry_dataset
+            "status": "available" if driver_codes else "pending",
+            "drivers": drivers_info,
+            "traceData": [],  # Full per-sample telemetry loaded on demand by frontend
+            "availableDrivers": driver_codes,
         }
 
-    @staticmethod
-    def get_teammate_battle_summary(race_results_races: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        """Teammate Head-to-Head metrics calculated dynamically from Jolpica Ergast race results."""
-        if not race_results_races:
-            return [
-                {"team": "Mercedes", "drivers": "ANT vs RUS", "quali": "6 - 4", "race": "7 - 3", "leader": "ANT Ahead"},
-                {"team": "Ferrari", "drivers": "HAM vs LEC", "quali": "5 - 5", "race": "6 - 4", "leader": "HAM Ahead"},
-                {"team": "McLaren", "drivers": "NOR vs PIA", "quali": "5 - 5", "race": "5 - 5", "leader": "NOR Ahead"},
-                {"team": "Red Bull Racing", "drivers": "VER vs HAD", "quali": "8 - 2", "race": "8 - 2", "leader": "VER Ahead"},
-                {"team": "RB (Racing Bulls)", "drivers": "LAW vs LIN", "quali": "6 - 4", "race": "6 - 4", "leader": "LAW Ahead"},
-                {"team": "Alpine", "drivers": "GAS vs COL", "quali": "7 - 3", "race": "7 - 3", "leader": "GAS Ahead"},
-                {"team": "Haas", "drivers": "BEA vs OCO", "quali": "6 - 4", "race": "6 - 4", "leader": "BEA Ahead"},
-                {"team": "Sauber / Audi", "drivers": "BOR vs HUL", "quali": "5 - 5", "race": "5 - 5", "leader": "BOR Ahead"},
-                {"team": "Williams", "drivers": "SAI vs ALB", "quali": "6 - 4", "race": "6 - 4", "leader": "SAI Ahead"},
-                {"team": "Aston Martin", "drivers": "ALO vs STR", "quali": "9 - 1", "race": "8 - 2", "leader": "ALO Ahead"}
-            ]
+    def build_tyre_strategy_summary(self, race_name: str = None, driver_codes: List[str] = None) -> List[Dict[str, Any]]:
+        """Build tyre degradation data from TracingInsights race laptimes."""
+        if not self.tracing or not race_name:
+            return []
 
-        # Calculate real dynamic H2H ratios from race results
+        if not driver_codes:
+            driver_codes = self.tracing.get_driver_codes(race_name, "Race")[:10]
+
+        all_deg = []
+        for code in driver_codes:
+            entries = self.tracing.build_tyre_deg_data(race_name, code)
+            all_deg.extend(entries)
+
+        return all_deg
+
+    def build_pit_strategy(self, race_name: str = None) -> List[Dict[str, Any]]:
+        """Build pit stop timeline from TracingInsights race data."""
+        if not self.tracing or not race_name:
+            return []
+        return self.tracing.build_pit_stops(race_name)
+
+    def get_teammate_battle_summary(self, race_results_races: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
+        """Calculate teammate H2H from Jolpica Ergast race results."""
+        if not race_results_races:
+            return []
+
         pairs = [
             {"team": "Mercedes", "code1": "ANT", "code2": "RUS"},
             {"team": "Ferrari", "code1": "HAM", "code2": "LEC"},
@@ -338,13 +196,11 @@ class F1AnalyticsEngine:
         summary = []
         for p in pairs:
             c1, c2 = p["code1"], p["code2"]
-            r1_wins, r2_wins = 0, 0
-            q1_wins, q2_wins = 0, 0
+            r1_wins, r2_wins, q1_wins, q2_wins = 0, 0, 0, 0
 
             for race in race_results_races:
                 results = race.get("Results", [])
-                pos_map = {}
-                grid_map = {}
+                pos_map, grid_map = {}, {}
                 for r in results:
                     code = r.get("Driver", {}).get("code")
                     if code:
@@ -355,24 +211,20 @@ class F1AnalyticsEngine:
                             pass
 
                 if c1 in pos_map and c2 in pos_map:
-                    if pos_map[c1] < pos_map[c2]:
-                        r1_wins += 1
-                    elif pos_map[c2] < pos_map[c1]:
-                        r2_wins += 1
-
+                    if pos_map[c1] < pos_map[c2]: r1_wins += 1
+                    elif pos_map[c2] < pos_map[c1]: r2_wins += 1
                 if c1 in grid_map and c2 in grid_map:
-                    if grid_map[c1] < grid_map[c2]:
-                        q1_wins += 1
-                    elif grid_map[c2] < grid_map[c1]:
-                        q2_wins += 1
+                    if grid_map[c1] < grid_map[c2]: q1_wins += 1
+                    elif grid_map[c2] < grid_map[c1]: q2_wins += 1
 
-            leader_code = c1 if r1_wins >= r2_wins else c2
-            summary.append({
-                "team": p["team"],
-                "drivers": f"{c1} vs {c2}",
-                "quali": f"{q1_wins} - {q2_wins}",
-                "race": f"{r1_wins} - {r2_wins}",
-                "leader": f"{leader_code} Ahead"
-            })
+            if r1_wins > 0 or r2_wins > 0 or q1_wins > 0 or q2_wins > 0:
+                leader_code = c1 if r1_wins >= r2_wins else c2
+                summary.append({
+                    "team": p["team"],
+                    "drivers": f"{c1} vs {c2}",
+                    "quali": f"{q1_wins} - {q2_wins}",
+                    "race": f"{r1_wins} - {r2_wins}",
+                    "leader": f"{leader_code} Ahead"
+                })
 
         return summary

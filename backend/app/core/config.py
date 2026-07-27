@@ -1,5 +1,5 @@
 import os
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "F1 Insights Monolith"
@@ -25,9 +25,10 @@ class Settings(BaseSettings):
     # AI & External APIs
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
     
-    class Config:
-        case_sensitive = True
-        extra = "ignore"
-        env_file = ".env"
+    model_config = SettingsConfigDict(
+        case_sensitive=True,
+        extra="ignore",
+        env_file=".env"
+    )
 
 settings = Settings()

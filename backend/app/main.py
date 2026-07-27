@@ -44,8 +44,12 @@ def populate_initial_db_cache():
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: Initialize DB Tables
+    # Startup: Initialize DB Tables & Security Checks
     logger.info("🚀 Starting F1 Insights FastAPI Monolith...")
+    if settings.ENVIRONMENT.lower() == "production" and settings.ADMIN_API_KEY == "f1-insights-admin-secret-key-2026":
+        logger.critical("FATAL: Production deployment MUST configure a non-default ADMIN_API_KEY!")
+        raise ValueError("CRITICAL: Insecure default ADMIN_API_KEY detected in production environment!")
+        
     Base.metadata.create_all(bind=engine)
     populate_initial_db_cache()
     yield
@@ -59,10 +63,16 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# CORS Middleware
+# CORS Middleware (Restricted origins with environment override)
+cors_origins_env = os.getenv(
+    "CORS_ALLOWED_ORIGINS",
+    "https://f1.sports.superchargedbym3.com,http://localhost:3010,http://localhost:5173,http://127.0.0.1:3010,http://testserver"
+)
+allowed_origins = [origin.strip() for origin in cors_origins_env.split(",") if origin.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

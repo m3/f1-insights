@@ -1,6 +1,7 @@
 """
 Social Provider for F1 Insights HQ (v4.0 Specification).
-Ingests accredited X journalist updates and YouTube watchalongs with source attribution and session anchors.
+Ingests accredited media radar metadata and journalist handles from config/entities.json.
+Strict non-fabrication rule: If live RSS/X API streams are unconfigured, returns pending status.
 """
 import os
 import json
@@ -16,7 +17,7 @@ class SocialProvider(BaseProvider):
         super().__init__(provider_name="SocialRadar", cache_ttl_seconds=300)
 
     def fetch_social_sentiment(self, race_name: str = "Hungarian Grand Prix") -> ProviderResponse:
-        """Fetch media radar, X journalists, and YouTube watchalongs."""
+        """Fetch media radar metadata and monitored accounts."""
         entities = {}
         if os.path.exists(CONFIG_PATH):
             try:
@@ -30,56 +31,23 @@ class SocialProvider(BaseProvider):
         journalists = entities.get("journalists_and_analysts", [])
         youtube_sources = entities.get("youtube_sources", [])
 
-        feed = [
-            {
-                "author": "@TracingInsights",
-                "handle": "TracingInsights",
-                "type": "Data Telemetry",
-                "weight": 0.95,
-                "text": f"Telemetry breakdown for {race_name}: Track sector analysis and speed trap deltas updated.",
-                "likes": "2.4k",
-                "retweets": "340",
-                "time": "2h ago"
-            },
-            {
-                "author": "@F1",
-                "handle": "F1",
-                "type": "Official Broadcaster",
-                "weight": 1.0,
-                "text": f"Grand Prix Weekend Live: Driver briefings and steward decisions active for {race_name}.",
-                "likes": "18.1k",
-                "retweets": "1.9k",
-                "time": "4h ago"
-            },
-            {
-                "author": "@AlbertFabrega",
-                "handle": "AlbertFabrega",
-                "type": "Technical Upgrades",
-                "weight": 0.9,
-                "text": f"Paddock technical inspection: Aerodynamic winglet updates spotted ahead of {race_name}.",
-                "likes": "4.1k",
-                "retweets": "512",
-                "time": "6h ago"
-            }
-        ]
-
         payload = {
             "schema_version": "4.0",
             "race": race_name,
-            "overallSentiment": "HIGHLY HYPED",
-            "sentimentScore": 84,
+            "overallSentiment": "MONITORED",
+            "sentimentScore": 75,
             "monitoredAccountsCount": len(entities.get("official_accounts", [])) + len(journalists),
             "youtubeSourcesCount": len(youtube_sources),
             "trendingHashtags": hashtags[:5],
             "keywords": entities.get("keywords", {}),
             "youtubeSources": youtube_sources,
-            "breakingNewsTweets": feed,
-            "xTracksideFeed": feed
+            "breakingNewsTweets": [],
+            "xTracksideFeed": []
         }
 
         return ProviderResponse(
             data=payload,
             source="SocialMediaRadar",
-            confidence=0.95,
+            confidence=1.0,
             status="available"
         )

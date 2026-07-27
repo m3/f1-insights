@@ -83,6 +83,15 @@ jobs:
             
             # Execute pipeline refresh on VPS using venv python with explicit PYTHONPATH
             cd /home/mathias/f1-insights
+
+            # Clone or pull TracingInsights data repo
+            if [ -d "data/tracing-insights/.git" ]; then
+              cd data/tracing-insights && git pull --ff-only && cd ../..
+            else
+              mkdir -p data
+              git clone --depth 1 https://github.com/TracingInsights/2026.git data/tracing-insights
+            fi
+
             PYTHONPATH=. /home/mathias/f1-insights/backend/venv/bin/python data_pipeline/main.py full
             mkdir -p /home/mathias/f1-insights/portal/dist/data /home/mathias/f1-insights/public/data
             cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/portal/dist/data/

@@ -78,3 +78,20 @@ def test_admin_endpoint_requires_api_key():
     )
     assert auth.status_code == 200
     assert auth.json()["status"] == "success"
+
+def test_production_security_validation():
+    """Verify production environment startup rejects insecure default ADMIN_API_KEY."""
+    from core.config import settings
+    original_env = settings.ENVIRONMENT
+    try:
+        settings.ENVIRONMENT = "production"
+        with pytest.raises(ValueError, match="CRITICAL: Insecure default ADMIN_API_KEY"):
+            # Trigger lifespan logic
+            from app.main import lifespan
+            import asyncio
+            async def run_check():
+                async with lifespan(app):
+                    pass
+            asyncio.run(run_check())
+    finally:
+        settings.ENVIRONMENT = original_env

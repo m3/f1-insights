@@ -187,3 +187,21 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 24, 1, 0.5);
 }
+
+/* Mobile & Touch Accessibility Support (WCAG 2.1 AAA minimum 44px touch targets) */
+button, select, input, .nav-tab, .btn-primary {
+  min-height: 44px;
+}
+
+@media (max-width: 768px) {
+  .nav-tab {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    min-height: 48px;
+  }
+  .btn-primary {
+    min-height: 48px;
+    width: 100%;
+    justify-content: center;
+  }
+}
