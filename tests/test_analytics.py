@@ -77,3 +77,9 @@ def test_tracing_reader_sector_matrix():
                 assert "lapTime" in matrix[0]
                 print(f"Sector matrix for {race}: {len(matrix)} drivers, pole: {matrix[0]['code']} {matrix[0]['lapTime']}")
                 break
+
+def test_data_pipeline_main_import_and_execution():
+    """Verify data_pipeline/main.py can be imported and executed without syntax or import errors."""
+    from main import run_pipeline
+    # Run social mode update to verify pipeline execution end-to-end
+    run_pipeline("social")
