@@ -23,16 +23,31 @@ class TracingInsightsReader:
             logger.warning(f"TracingInsights data directory not found: {self.data_dir}")
 
     def _load_json(self, *path_parts) -> Optional[Any]:
-        """Load a JSON file from the data directory. Returns None if file doesn't exist."""
+        """Load a JSON file from local disk or fetch directly from CDN if not cloned locally."""
         path = os.path.join(self.data_dir, *path_parts)
-        if not os.path.isfile(path):
-            return None
-        try:
-            with open(path, "r") as f:
-                return json.load(f)
-        except Exception as e:
-            logger.warning(f"Error reading {path}: {e}")
-            return None
+        if os.path.isfile(path):
+            try:
+                with open(path, "r") as f:
+                    return json.load(f)
+            except Exception as e:
+                logger.warning(f"Error reading {path}: {e}")
+                return None
+        
+        # Fallback to direct targeted CDN fetch (Zero-Waste)
+        subpath = "/".join(path_parts)
+        cdn_urls = [
+            f"https://cdn.staticdelivr.com/gh/TracingInsights/2026/{subpath}",
+            f"https://raw.githubusercontent.com/TracingInsights/2026/main/{subpath}"
+        ]
+        import requests
+        for url in cdn_urls:
+            try:
+                res = requests.get(url, timeout=5)
+                if res.status_code == 200:
+                    return res.json()
+            except Exception:
+                pass
+        return None
 
     def get_available_races(self) -> List[str]:
         """List all race directories that exist in the data repo."""

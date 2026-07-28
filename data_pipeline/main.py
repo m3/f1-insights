@@ -130,10 +130,12 @@ def run_pipeline(mode: str = "full"):
     watcher = SessionWatcher()
     notifier = F1Notifier()
 
-    # Pull latest TracingInsights data
-    print("📡 Pulling latest TracingInsights/2026 data...")
-    tracing.pull_latest()
-    print(f"   Available races: {tracing.get_available_races()}")
+    # Pull latest TracingInsights data if cloned locally (non-blocking fallback to direct CDN)
+    print("📡 Initializing zero-waste TracingInsights data reader...")
+    try:
+        tracing.pull_latest()
+    except Exception:
+        pass
 
     analytics = F1AnalyticsEngine(tracing_reader=tracing)
 

@@ -36,11 +36,6 @@ jobs:
             echo "✅ TracingInsights unchanged at $LATEST_SHA"
           fi
 
-      - name: Clone TracingInsights Data
-        if: steps.check.outputs.changed == 'true'
-        run: |
-          git clone --depth 1 https://github.com/TracingInsights/2026.git data/tracing-insights
-
       - name: Set up Python 3.11
         if: steps.check.outputs.changed == 'true'
         uses: actions/setup-python@v5
@@ -79,13 +74,7 @@ jobs:
             export PATH=$PATH:/usr/bin:/usr/local/bin:~/.nvm/versions/node/$(ls ~/.nvm/versions/node 2>/dev/null | tail -n 1)/bin
             cd /home/mathias/f1-insights
 
-            # Clone or pull TracingInsights data
-            if [ -d "data/tracing-insights/.git" ]; then
-              cd data/tracing-insights && git pull --ff-only && cd ../..
-            else
-              mkdir -p data
-              git clone --depth 1 https://github.com/TracingInsights/2026.git data/tracing-insights
-            fi
+            # Run zero-waste pipeline with direct CDN fetching
 
             # Run pipeline with fresh data
             source backend/venv/bin/activate || (python3 -m venv backend/venv && source backend/venv/bin/activate)
