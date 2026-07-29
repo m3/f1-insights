@@ -26,3 +26,18 @@ jobs:
       - name: Run Pytest Suite
         run: |
           python -m pytest -v
+
+      - name: Security Scan (Gitleaks Secret Detection)
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - name: Security Scan (Trivy Vulnerability Scanner)
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          ignore-unfixed: true
+          format: 'table'
+          severity: 'CRITICAL,HIGH'
+        continue-on-error: true

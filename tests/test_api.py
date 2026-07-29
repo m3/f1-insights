@@ -95,3 +95,29 @@ def test_production_security_validation():
             asyncio.run(run_check())
     finally:
         settings.ENVIRONMENT = original_env
+
+def test_admin_pipeline_trigger_endpoints():
+    """Verify protected admin pipeline trigger endpoints enforce auth security."""
+    unauth_full = client.post("/api/v1/admin/trigger-pipeline")
+    assert unauth_full.status_code == 401
+
+    unauth_social = client.post("/api/v1/admin/trigger-social")
+    assert unauth_social.status_code == 401
+
+    auth_social = client.post(
+        "/api/v1/admin/trigger-social",
+        headers={"X-API-Key": "f1-insights-admin-secret-key-2026"}
+    )
+    assert auth_social.status_code == 200
+    assert auth_social.json()["status"] == "success"
+
+def test_briefs_endpoints():
+    """Verify morning briefing API endpoints."""
+    res_latest = client.get("/api/v1/briefs/latest")
+    assert res_latest.status_code in [200, 404]
+
+def test_drivers_endpoints():
+    """Verify driver penalty watch status API endpoint."""
+    res_drivers = client.get("/api/v1/drivers/penalty-watch")
+    assert res_drivers.status_code == 200
+    assert isinstance(res_drivers.json(), list)

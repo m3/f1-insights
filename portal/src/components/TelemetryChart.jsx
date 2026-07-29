@@ -100,8 +100,9 @@ export default function TelemetryChart({ telemetryData }) {
           <div style={{ display: 'flex', gap: '4px', background: 'rgba(0,0,0,0.4)', padding: '4px', borderRadius: '8px' }}>
             <button
               onClick={() => setMetric('speed')}
+              className="touch-target-btn"
               style={{
-                padding: '6px 14px',
+                padding: '8px 14px',
                 borderRadius: '6px',
                 border: 'none',
                 fontSize: '0.75rem',
@@ -116,8 +117,9 @@ export default function TelemetryChart({ telemetryData }) {
             </button>
             <button
               onClick={() => setMetric('throttle')}
+              className="touch-target-btn"
               style={{
-                padding: '6px 14px',
+                padding: '8px 14px',
                 borderRadius: '6px',
                 border: 'none',
                 fontSize: '0.75rem',

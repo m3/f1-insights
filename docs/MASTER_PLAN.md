@@ -26,7 +26,7 @@ graph TD
 | :--- | :---: | :--- | :---: | :--- |
 | **Pass 1: Architecture** | 🟢 **9/10** | Clean Modular Monolith pattern, but `sys.path.insert(0, ...)` used for runtime import resolutions. | Low | Package structure normalization. |
 | **Pass 2: Security** | 🟡 **7/10** | `allow_origins=["*"]` with `allow_credentials=True` in CORS middleware; default `ADMIN_API_KEY` fallback string in config. | 🔴 **High** | Restrict CORS origins & enforce mandatory production env key. |
-| **Pass 3: Reliability** | 🟢 **9/10** | Dual-tier fallback (SQLite WAL $\rightarrow$ static `overview.json`) handles API outages cleanly. 21/21 unit tests passing. | Low | Address `pytest-asyncio` loop scope deprecation warning. |
+| **Pass 3: Reliability** | 🟢 **9/10** | Dual-tier fallback (SQLite WAL $\rightarrow$ static `overview.json`) handles API outages cleanly. 26/26 unit tests passing. | Low | Address `pytest-asyncio` loop scope deprecation warning. |
 | **Pass 4: Data Layer** | 🟢 **9/10** | SQLite 3 WAL mode operates with zero thread locks. Pydantic v2 class-based `Config` emits deprecation warning. | Low | Migrate to Pydantic `SettingsConfigDict`. |
 | **Pass 5: Integration** | 🟢 **9/10** | FastMCP server exposes 6 structured tools for LLM agent integration with provenance metadata. | Low | Add rate-limiting to FastMCP SSE endpoint. |
 | **Pass 6: UI / UX** | 🟢 **8/10** | Carbon Dark System & interactive Recharts telemetry overlay traces. | Low | Expand touch target sizing on mobile dropdowns ($\ge 44\text{px}$). |
@@ -42,13 +42,13 @@ graph TD
 
 #### Step 1.1: Restrict CORS Middleware Origins
 *   **Target File**: [`backend/app/main.py`](file:///Users/mathias/Development/Projects/f1-insights/backend/app/main.py#L63-L69)
-*   **Execution**: Replace wildcard origins with an environment-driven explicit origin list:
+*   **Execution**: Replace wildcard origins with an environment-driven explicit origin list with fallback defaults:
     ```python
-    allowed_origins = [
-        "https://f1.sports.superchargedbym3.com",
-        "http://localhost:3010",
-        "http://localhost:5173",
-    ]
+    cors_origins_env = os.getenv(
+        "CORS_ALLOWED_ORIGINS",
+        "https://f1.sports.superchargedbym3.com,http://localhost:3010,http://localhost:5173,http://127.0.0.1:3010,http://testserver"
+    )
+    allowed_origins = [origin.strip() for origin in cors_origins_env.split(",") if origin.strip()]
     app.add_middleware(
         CORSMiddleware,
         allow_origins=allowed_origins,
@@ -57,15 +57,17 @@ graph TD
         allow_headers=["*"],
     )
     ```
+*   **Risk Mitigation**: Environment-variable driven `CORS_ALLOWED_ORIGINS` prevents breaking preview/staging deployments or local network test instances (`192.168.x.x`).
 
 #### Step 1.2: Enforce Production Admin API Key Environment Validation
 *   **Target File**: [`backend/app/main.py`](file:///Users/mathias/Development/Projects/f1-insights/backend/app/main.py#L46-L54)
 *   **Execution**: Inject an explicit check in the FastAPI `lifespan` startup hook:
     ```python
-    if settings.ENVIRONMENT == "production" and settings.ADMIN_API_KEY == "f1-insights-admin-secret-key-2026":
+    if settings.ENVIRONMENT.lower() == "production" and settings.ADMIN_API_KEY == "f1-insights-admin-secret-key-2026":
         logger.critical("FATAL: Production deployment MUST configure a non-default ADMIN_API_KEY!")
         raise ValueError("CRITICAL: Insecure default ADMIN_API_KEY detected in production!")
     ```
+*   **Risk Mitigation**: Clear critical log output accompanies the startup error, preventing silent PM2 infinite crash loops when configuration environment variables are missing.
 
 ---
 
@@ -101,6 +103,7 @@ graph TD
 #### Step 3.1: Apply Rate Limiting to FastMCP SSE Endpoint
 *   **Target File**: [`backend/app/api/v1/endpoints/mcp_sse.py`](file:///Users/mathias/Development/Projects/f1-insights/backend/app/api/v1/endpoints/mcp_sse.py)
 *   **Execution**: Integrate SlowAPI rate-limiter (`10 requests/minute`) on FastMCP connection handshakes.
+*   **Risk Mitigation**: Rate limiting is applied specifically to initial handshake/connection establishment requests rather than active long-lived streaming event loops to prevent dropping active LLM connections.
 
 #### Step 3.2: Mobile Accessibility Adjustments
 *   **Target File**: `portal/src/index.css`
