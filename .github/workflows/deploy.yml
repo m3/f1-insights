@@ -55,13 +55,13 @@ jobs:
 
       - name: Rsync Artifact to VPS
         run: |
-          ssh -p 2222 mathias@91.99.167.113 "mkdir -p /home/mathias/f1-insights/portal /home/mathias/f1-insights/backend /home/mathias/f1-insights/data_pipeline /home/mathias/f1-insights/mcp_server /home/mathias/f1-insights/public"
-          rsync -avz -e "ssh -p 2222" --delete portal/dist/ mathias@91.99.167.113:/home/mathias/f1-insights/portal/dist/
-          rsync -avz -e "ssh -p 2222" portal/public/ mathias@91.99.167.113:/home/mathias/f1-insights/portal/public/
-          rsync -avz -e "ssh -p 2222" public/ mathias@91.99.167.113:/home/mathias/f1-insights/public/
-          rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' backend/ mathias@91.99.167.113:/home/mathias/f1-insights/backend/
-          rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' data_pipeline/ mathias@91.99.167.113:/home/mathias/f1-insights/data_pipeline/
-          rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' mcp_server/ mathias@91.99.167.113:/home/mathias/f1-insights/mcp_server/
+          ssh -p 2222 mathias@91.99.167.113 "mkdir -p /var/www/f1-insights/portal /var/www/f1-insights/backend /var/www/f1-insights/data_pipeline /var/www/f1-insights/mcp_server /var/www/f1-insights/public"
+          rsync -avz -e "ssh -p 2222" --delete portal/dist/ mathias@91.99.167.113:/var/www/f1-insights/portal/dist/
+          rsync -avz -e "ssh -p 2222" portal/public/ mathias@91.99.167.113:/var/www/f1-insights/portal/public/
+          rsync -avz -e "ssh -p 2222" public/ mathias@91.99.167.113:/var/www/f1-insights/public/
+          rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' backend/ mathias@91.99.167.113:/var/www/f1-insights/backend/
+          rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' data_pipeline/ mathias@91.99.167.113:/var/www/f1-insights/data_pipeline/
+          rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' mcp_server/ mathias@91.99.167.113:/var/www/f1-insights/mcp_server/
 
       - name: Restart PM2 & Verify Health on VPS
         uses: appleboy/ssh-action@v1.0.3
@@ -74,15 +74,15 @@ jobs:
             export PATH=$PATH:/usr/bin:/usr/local/bin:~/.nvm/versions/node/$(ls ~/.nvm/versions/node 2>/dev/null | tail -n 1)/bin
             
             # Purge pyc bytecode cache
-            find /home/mathias/f1-insights -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
-            find /home/mathias/f1-insights -name "*.pyc" -delete 2>/dev/null || true
+            find /var/www/f1-insights -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
+            find /var/www/f1-insights -name "*.pyc" -delete 2>/dev/null || true
 
-            cd /home/mathias/f1-insights/backend
+            cd /var/www/f1-insights/backend
             source venv/bin/activate || (python3 -m venv venv && source venv/bin/activate)
             pip install -r requirements.txt
             
             # Execute pipeline refresh on VPS using venv python with explicit PYTHONPATH
-            cd /home/mathias/f1-insights
+            cd /var/www/f1-insights
 
             # Clone or pull TracingInsights data repo
             if [ -d "data/tracing-insights/.git" ]; then
@@ -92,23 +92,21 @@ jobs:
               git clone --depth 1 https://github.com/TracingInsights/2026.git data/tracing-insights
             fi
 
-            PYTHONPATH=. /home/mathias/f1-insights/backend/venv/bin/python data_pipeline/main.py full
-            mkdir -p /home/mathias/f1-insights/portal/dist/data /home/mathias/f1-insights/public/data
-            cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/portal/dist/data/
-            cp -r /home/mathias/f1-insights/portal/public/data/* /home/mathias/f1-insights/public/data/
+            PYTHONPATH=. /var/www/f1-insights/backend/venv/bin/python data_pipeline/main.py full
+            mkdir -p /var/www/f1-insights/portal/dist/data /var/www/f1-insights/public/data
+            cp -r /var/www/f1-insights/portal/public/data/* /var/www/f1-insights/portal/dist/data/
+            cp -r /var/www/f1-insights/portal/public/data/* /var/www/f1-insights/public/data/
 
-            # Copy dist bundle directly to all possible Nginx document roots with sudo
-            sudo mkdir -p /var/www/f1-insights /var/www/html /var/www/f1.sports.superchargedbym3.com 2>/dev/null || true
-            sudo cp -r /home/mathias/f1-insights/portal/dist/* /var/www/f1-insights/ 2>/dev/null || true
-            sudo cp -r /home/mathias/f1-insights/portal/dist/* /var/www/html/ 2>/dev/null || true
-            sudo cp -r /home/mathias/f1-insights/portal/dist/* /var/www/f1.sports.superchargedbym3.com/ 2>/dev/null || true
-            sudo chown -R mathias:www-data /var/www/f1-insights /var/www/html /var/www/f1.sports.superchargedbym3.com 2>/dev/null || true
+            # Copy dist bundle directly to Nginx document roots with sudo
+            sudo mkdir -p /var/www/f1.sports.superchargedbym3.com 2>/dev/null || true
+            sudo cp -r /var/www/f1-insights/portal/dist/* /var/www/f1.sports.superchargedbym3.com/ 2>/dev/null || true
+            sudo chown -R mathias:www-data /var/www/f1-insights /var/www/f1.sports.superchargedbym3.com 2>/dev/null || true
 
             # Force kill PM2 static server process to force reload of fresh React JS assets
             pm2 delete f1-insights-portal || true
             pm2 delete f1-insights-backend || true
-            pm2 start "npx serve -s /home/mathias/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
-            pm2 start "/home/mathias/f1-insights/backend/venv/bin/python -m uvicorn app.main:app --port 8000" --name "f1-insights-backend" --cwd "/home/mathias/f1-insights/backend"
+            pm2 start "npx serve -s /var/www/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
+            pm2 start "/var/www/f1-insights/backend/venv/bin/python -m uvicorn app.main:app --port 8000" --name "f1-insights-backend" --cwd "/var/www/f1-insights/backend"
             
             # Flush Nginx cache
             sudo systemctl reload nginx 2>/dev/null || sudo service nginx reload 2>/dev/null || true
