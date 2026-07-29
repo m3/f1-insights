@@ -17,13 +17,6 @@ export default defineConfig({
     allowedHosts: true
   },
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          charts: ['recharts', 'lucide-react']
-        }
-      }
-    }
+    target: 'es2020'
   }
 });
