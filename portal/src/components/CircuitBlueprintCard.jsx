@@ -65,7 +65,8 @@ export default function CircuitBlueprintCard({ currentRace, circuitSpecsData }) 
     ]
   };
 
-  const activeZone = circuitSpecs.drsZones.find(z => z.id === selectedZone) || circuitSpecs.drsZones[0];
+  const drsZonesList = circuitSpecs?.drsZones || [];
+  const activeZone = drsZonesList.find(z => z.id === selectedZone) || drsZonesList[0] || {};
 
   return (
     <div className="glass-panel" style={{ padding: '24px', marginTop: '24px' }}>

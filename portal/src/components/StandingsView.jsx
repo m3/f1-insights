@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Trophy, Calendar, MapPin } from 'lucide-react';
 
-export default function StandingsView({ driverStandings, constructorStandings, schedule }) {
+export default function StandingsView({ driverStandings = [], constructorStandings = [], schedule = [] }) {
   const [mode, setMode] = useState('wdc'); // 'wdc', 'wcc', 'schedule'
 
   return (
