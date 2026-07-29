@@ -56,10 +56,10 @@ export default function App() {
   }
 
   const currentRace = data?.currentRace;
-  const driverStandings = data?.driverStandings || [];
-  const constructorStandings = data?.constructorStandings || [];
-  const penaltyPoints = data?.penaltyPoints || [];
-  const teammateBattles = data?.teammateBattles || [];
+  const driverStandings = Array.isArray(data?.driverStandings) ? data.driverStandings : [];
+  const constructorStandings = Array.isArray(data?.constructorStandings) ? data.constructorStandings : [];
+  const penaltyPoints = Array.isArray(data?.penaltyPoints) ? data.penaltyPoints : [];
+  const teammateBattles = Array.isArray(data?.teammateBattles) ? data.teammateBattles : (Array.isArray(data?.latestPostBrief?.teammateBattles) ? data.latestPostBrief.teammateBattles : []);
   const preBrief = data?.latestPreBrief;
   const postBrief = data?.latestPostBrief;
 

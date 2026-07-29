@@ -3,7 +3,7 @@ import { ShieldAlert, AlertTriangle, ArrowDownRight, Clock, Award, CheckCircle }
 
 export default function GridPenaltiesTracker({ penaltiesData }) {
   // Sample/Fallback grid & time penalties data if pending pipeline fetch
-  const startingGridImpacts = penaltiesData?.startingGridImpacts || [
+  const startingGridImpacts = Array.isArray(penaltiesData?.startingGridImpacts) ? penaltiesData.startingGridImpacts : [
     {
       driver: "Max Verstappen",
       code: "VER",
@@ -36,7 +36,7 @@ export default function GridPenaltiesTracker({ penaltiesData }) {
     }
   ];
 
-  const inRaceTimePenalties = penaltiesData?.inRaceTimePenalties || [
+  const inRaceTimePenalties = Array.isArray(penaltiesData?.inRaceTimePenalties) ? penaltiesData.inRaceTimePenalties : [
     {
       driver: "Lando Norris",
       code: "NOR",
