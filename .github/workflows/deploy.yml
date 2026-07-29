@@ -86,10 +86,10 @@ jobs:
 
             # Clone or pull TracingInsights data repo
             if [ -d "data/tracing-insights/.git" ]; then
-              cd data/tracing-insights && git pull --ff-only && cd ../..
+              (cd data/tracing-insights && git pull --ff-only 2>/dev/null) || true
             else
               mkdir -p data
-              git clone --depth 1 https://github.com/TracingInsights/2026.git data/tracing-insights
+              git clone --depth 1 https://github.com/TracingInsights/2026.git data/tracing-insights 2>/dev/null || true
             fi
 
             PYTHONPATH=/var/www/f1-insights/backend/app /var/www/f1-insights/backend/venv/bin/python data_pipeline/main.py full
