@@ -70,6 +70,17 @@ module.exports = {
         PYTHONPATH: path.join(__dirname, 'backend', 'app'),
         PYTHONUNBUFFERED: '1'
       }
+    },
+    {
+      name: 'f1-insights-cleanup',
+      cwd: path.join(__dirname),
+      script: 'scripts/cleanup_disk.sh',
+      interpreter: 'bash',
+      cron_restart: '0 3 * * *',
+      autorestart: false,
+      watch: false,
+      out_file: path.join(__dirname, 'logs', 'cleanup_out.log'),
+      error_file: path.join(__dirname, 'logs', 'cleanup_err.log')
     }
   ]
 };

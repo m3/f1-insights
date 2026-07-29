@@ -24,13 +24,23 @@ def health_check(db: Session = Depends(get_db)):
     except Exception:
         pass
 
+    import shutil
+    total, used, free = shutil.disk_usage("/")
+    disk_free_gb = round(free / (1024 ** 3), 2)
+    disk_percent_used = round((used / total) * 100, 1)
+
     return {
         "status": "healthy" if db_connected else "degraded",
         "service": settings.PROJECT_NAME,
         "version": settings.VERSION,
         "database": "connected" if db_connected else "error",
         "wal_mode": True,
-        "environment": settings.ENVIRONMENT
+        "environment": settings.ENVIRONMENT,
+        "storage": {
+            "free_gb": disk_free_gb,
+            "used_percent": disk_percent_used,
+            "status": "critical" if disk_free_gb < 2.0 else "healthy"
+        }
     }
 
 @router.get("/overview")
