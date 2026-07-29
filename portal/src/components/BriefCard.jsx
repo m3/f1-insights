@@ -135,7 +135,7 @@ export default function BriefCard({ preBrief, postBrief }) {
             </h3>
           </div>
           <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-            {currentBrief.penaltyWatch.high_risk_drivers.map((driver, idx) => (
+            {(currentBrief.penaltyWatch.high_risk_drivers || []).map((driver, idx) => (
               <div key={idx} style={{
                 background: 'rgba(0,0,0,0.3)',
                 border: '1px solid rgba(234, 179, 8, 0.3)',
