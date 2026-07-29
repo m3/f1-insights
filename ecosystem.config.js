@@ -2,16 +2,17 @@
 const path = require('path');
 const fs = require('fs');
 
-const venvPython = path.join(__dirname, '.venv', 'bin', 'python');
-const PYTHON_INTERPRETER = fs.existsSync(venvPython) ? venvPython : (process.env.PM2_PYTHON_INTERPRETER || 'python3');
+const backendVenv = path.join(__dirname, 'backend', 'venv', 'bin', 'python');
+const rootVenv = path.join(__dirname, '.venv', 'bin', 'python');
+const PYTHON_INTERPRETER = fs.existsSync(backendVenv) ? backendVenv : (fs.existsSync(rootVenv) ? rootVenv : 'python3');
 
 module.exports = {
   apps: [
     {
       name: 'f1-insights-portal',
       cwd: path.join(__dirname, 'portal'),
-      script: 'npm',
-      args: 'run preview -- --port 3010 --host --strictPort',
+      script: 'npx',
+      args: 'serve -s dist -l 3010',
       interpreter: 'none',
       autorestart: true,
       watch: false,
