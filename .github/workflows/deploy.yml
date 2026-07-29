@@ -92,21 +92,16 @@ jobs:
               git clone --depth 1 https://github.com/TracingInsights/2026.git data/tracing-insights
             fi
 
-            PYTHONPATH=. /var/www/f1-insights/backend/venv/bin/python data_pipeline/main.py full
+            PYTHONPATH=/var/www/f1-insights/backend/app /var/www/f1-insights/backend/venv/bin/python data_pipeline/main.py full
             mkdir -p /var/www/f1-insights/portal/dist/data /var/www/f1-insights/public/data
-            cp -r /var/www/f1-insights/portal/public/data/* /var/www/f1-insights/portal/dist/data/
-            cp -r /var/www/f1-insights/portal/public/data/* /var/www/f1-insights/public/data/
+            cp -r /var/www/f1-insights/portal/public/data/* /var/www/f1-insights/portal/dist/data/ 2>/dev/null || true
 
-            # Copy dist bundle directly to Nginx document roots with sudo
-            sudo mkdir -p /var/www/f1.sports.superchargedbym3.com 2>/dev/null || true
-            sudo cp -r /var/www/f1-insights/portal/dist/* /var/www/f1.sports.superchargedbym3.com/ 2>/dev/null || true
-            sudo chown -R mathias:www-data /var/www/f1-insights /var/www/f1.sports.superchargedbym3.com 2>/dev/null || true
+            # Ensure proper ownership
+            sudo chown -R mathias:www-data /var/www/f1-insights 2>/dev/null || true
 
-            # Force kill PM2 static server process to force reload of fresh React JS assets
-            pm2 delete f1-insights-portal || true
-            pm2 delete f1-insights-backend || true
-            pm2 start "npx serve -s /var/www/f1-insights/portal/dist -l 3010" --name "f1-insights-portal"
-            pm2 start "/var/www/f1-insights/backend/venv/bin/python -m uvicorn app.main:app --port 8000" --name "f1-insights-backend" --cwd "/var/www/f1-insights/backend"
+            # Restart processes cleanly using ecosystem.config.js
+            pm2 start ecosystem.config.js --only f1-insights-backend,f1-insights-portal || pm2 restart f1-insights-backend f1-insights-portal
+            pm2 save
             
             # Flush Nginx cache
             sudo systemctl reload nginx 2>/dev/null || sudo service nginx reload 2>/dev/null || true
