@@ -1,5 +1,5 @@
 # Product Requirements Document (PRD)
-## 🏎️ F1 Insights & Explanation Platform (v2026.15)
+## 🏎️ F1 Insights & Explanation Platform (v2026.16)
 
 ---
 
@@ -36,37 +36,40 @@ Every feature, card, metric, and pipeline task added to F1 Insights MUST satisfy
 
 ## 4. Key Product Capabilities & Requirements
 
-### 4.1. Explainable AI Evidence Chains
+### 4.1. PCM 1.1 UI Visualization Components
+* **FR-0.6 Strategic Advantage & Hidden Pace UI Cards**: The system MUST render `StrategicAdvantageCard` (0--100 composite SPI gauge with component breakdown) and `HiddenPaceCard` (DRS traffic position capability rank delta) in the React portal overview dashboard.
+
+### 4.2. Explainable AI Evidence Chains
 * **FR-0.5 Evidence Chain Generator**: The system MUST implement `EvidenceChainGenerator` to format 4-Field Evidence Explanations (`Observation` $\rightarrow$ `Calculations` $\rightarrow$ `Interpretation` $\rightarrow$ `Confidence & Blind Spots`) with composite confidence scoring ($0.40\text{ Tel} + 0.30\text{ Tim} + 0.20\text{ Hist} + 0.10\text{ Wea}$).
 
-### 4.2. OpenF1 Real-Time Data Provider
+### 4.3. OpenF1 Real-Time Data Provider
 * **FR-0.4 OpenF1 Live Telemetry Provider**: The system MUST implement `OpenF1Provider` inheriting from `BaseProvider` to ingest real-time car telemetry, live track positions, and lap split records from `api.openf1.org` with provenance metadata and confidence scoring.
 
-### 4.3. Hidden Pace Detector Engine
+### 4.4. Hidden Pace Detector Engine
 * **FR-0.3 Hidden Pace Filtering**: The system MUST filter lap records to isolate clear-air laps (gap to car ahead $\ge 1.0\text{s}$, non-Safety Car, non-pit laps, Lap $> 1$), ranking drivers by clear-air mean pace and identifying drivers trapped in DRS traffic with a position delta $\ge 2$.
 
-### 4.4. Strategic Position Index (SPI) Engine
+### 4.5. Strategic Position Index (SPI) Engine
 * **FR-0.2 Composite SPI Score**: The system MUST calculate an estimated strategic position score ($0\text{--}100$) for any active driver combining Tyre Life Delta ($35\%$), Clean-Air Traffic Gap ($25\%$), Pit Window Cushion ($25\%$), and Stint Degradation Slope ($15\%$).
 
-### 4.5. Domain Graph Traversals & Strongly-Typed Models
+### 4.6. Domain Graph Traversals & Strongly-Typed Models
 * **FR-0.1 Domain Models Layer**: The system MUST implement strongly-typed Pydantic V2 schemas (`DomainDriver`, `DomainStint`, `DomainLap`, `DomainSector`) supporting graph traversals (`Driver` $\rightarrow$ `Stint` $\rightarrow$ `Lap` $\rightarrow$ `Sector`) and clear-air filtering.
 
-### 4.6. 20-Driver Grid & Session Classification Table
+### 4.7. 20-Driver Grid & Session Classification Table
 * **FR-1.0 Complete 20-Driver Classification**: The system MUST render an un-truncated, 20-driver Race & Session Classification Table (`P1` through `P20` + Reserves), displaying Grid Start Position, Finish Position, Net Delta (`▲`/`▼`), Interval/Gap, Pit Stop Count, Stint Compounds, and Status (`Finished`, `+1 Lap`, `DNF`, `DNS`).
 
-### 4.7. Telemetry & Pace Analysis
+### 4.8. Telemetry & Pace Analysis
 * **FR-1.1 Corner Pace Comparison**: The system MUST render overlay traces for any two driver codes (e.g. `NOR` vs `VER`) showing speed ($km/h$), gear selection, and throttle percentage across distance ($m$).
 * **FR-1.2 Traffic-Filtered Pace Estimate**: The system MUST filter out Safety Car laps and laps where gap to car ahead is $< 1.0\text{s}$ to estimate clear-air pace capability.
 
-### 4.8. FIA Penalty Watch & Race Control
+### 4.9. FIA Penalty Watch & Race Control
 * **FR-3.1 Points Accumulation Ledger**: The system MUST track accumulated FIA penalty points for all 20 drivers.
 * **FR-3.2 Ban Threshold Early Warning**: Drivers accumulating $\ge 8$ points MUST be flagged as `at_risk` for an automatic 1-race suspension (12-point threshold).
 
-### 4.9. AI Explanations & Delivery
+### 4.10. AI Explanations & Delivery
 * **FR-4.1 Epistemic Non-Fabrication Guarantee**: All AI-generated briefings MUST generate evidence-backed explanations consistent with available observations from SQLite/FastF1; if data is missing, the system MUST return fallback status without hallucinations.
 * **FR-4.2 Multi-Channel Push**: Briefings MUST be dispatched asynchronously via Discord Webhooks and Telegram Bot APIs.
 
-### 4.10. Model Context Protocol (MCP) Integration
+### 4.11. Model Context Protocol (MCP) Integration
 * **FR-5.1 FastMCP Server**: The platform MUST expose a FastMCP server providing standard tools (`get_f1_overview`, `compare_corner_telemetry`, `get_fia_penalty_watch`, `get_trackside_media_sentiment`, `calculate_pit_strategy_loss`, `generate_morning_briefing`).
 
 ---
@@ -84,6 +87,7 @@ Every feature, card, metric, and pipeline task added to F1 Insights MUST satisfy
 * ✅ **Test Coverage**: $> 90\%$ test coverage across API routes, data pipelines, domain models, and FastMCP tools (current: **36/36 passing tests**).
 * ✅ **Zero Hallucination Rate**: $100\%$ compliance with non-fabrication rules during data gaps.
 * ✅ **CI/CD Deployment Proven**: Automated GitHub Actions CI workflow executing local tests and rsync deployment to VPS with health checks.
+
 
 
 

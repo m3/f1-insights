@@ -3,6 +3,8 @@ import Header from './components/Header';
 import SessionCountdownHeader from './components/SessionCountdownHeader';
 import SessionClassificationTable from './components/SessionClassificationTable';
 import EvidenceExplanationCard from './components/EvidenceExplanationCard';
+import StrategicAdvantageCard from './components/StrategicAdvantageCard';
+import HiddenPaceCard from './components/HiddenPaceCard';
 import BriefCard from './components/BriefCard';
 import CircuitBlueprintCard from './components/CircuitBlueprintCard';
 import TelemetryOverlayTool from './components/TelemetryOverlayTool';
@@ -82,6 +84,8 @@ export default function App() {
         {activeTab === 'brief' && (
           <>
             <SessionClassificationTable data={data} currentRace={currentRace} />
+            <StrategicAdvantageCard />
+            <HiddenPaceCard />
             <EvidenceExplanationCard
               question="Why did Norris lose position to Verstappen during Laps 42-48?"
               observation="Norris lost 4.3 seconds to Verstappen between Laps 42 and 48."
@@ -138,4 +142,5 @@ export default function App() {
     </div>
   );
 }
+
 
