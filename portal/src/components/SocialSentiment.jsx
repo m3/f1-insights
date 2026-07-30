@@ -69,7 +69,7 @@ export default function SocialSentiment({ sentiment }) {
 
       {/* Trending Hashtags with Direct X Search Links */}
       <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '20px' }}>
-        {sentiment.trendingHashtags && sentiment.trendingHashtags.map((tag, idx) => {
+        {Array.isArray(sentiment.trendingHashtags) && sentiment.trendingHashtags.map((tag, idx) => {
           const cleanTag = tag.replace('#', '');
           return (
             <a
@@ -96,7 +96,7 @@ export default function SocialSentiment({ sentiment }) {
       {/* Tab Content 1: X (Twitter) Feed with Clickable Profile Links */}
       {activeTab === 'tweets' && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '14px' }}>
-          {sentiment.breakingNewsTweets && sentiment.breakingNewsTweets.map((tweet, idx) => {
+          {Array.isArray(sentiment.breakingNewsTweets) && sentiment.breakingNewsTweets.map((tweet, idx) => {
             const cleanHandle = (tweet.handle || 'F1').replace('@', '');
             const profileUrl = `https://x.com/${cleanHandle}`;
             return (
@@ -147,7 +147,7 @@ export default function SocialSentiment({ sentiment }) {
       {/* Tab Content 2: YouTube Watchalongs with Clickable Channel Links */}
       {activeTab === 'youtube' && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '14px' }}>
-          {sentiment.youtubeSources && sentiment.youtubeSources.map((yt, idx) => {
+          {Array.isArray(sentiment.youtubeSources) && sentiment.youtubeSources.map((yt, idx) => {
             const cleanHandle = yt.handle?.startsWith('@') ? yt.handle : `@${yt.handle}`;
             const channelUrl = `https://youtube.com/${cleanHandle}`;
             return (

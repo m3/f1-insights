@@ -5,7 +5,7 @@ export default function SectorMatrix({ sectorData: initialData }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('lapTime');
 
-  const sectorData = initialData || [
+  const sectorData = Array.isArray(initialData) ? initialData : [
     { code: 'NOR', name: 'Lando Norris', team: 'McLaren', s1: '28.142', s2: '36.410', s3: '22.890', st: 338.4, lapTime: '1:27.442', s1Best: true, s2Best: false, s3Best: true, stBest: false },
     { code: 'VER', name: 'Max Verstappen', team: 'Red Bull', s1: '28.210', s2: '36.388', s3: '22.920', st: 341.8, lapTime: '1:27.518', s1Best: false, s2Best: true, s3Best: false, stBest: true },
     { code: 'PIA', name: 'Oscar Piastri', team: 'McLaren', s1: '28.188', s2: '36.450', s3: '22.915', st: 337.9, lapTime: '1:27.553', s1Best: false, s2Best: false, s3Best: false, stBest: false },
