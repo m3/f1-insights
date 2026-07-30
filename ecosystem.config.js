@@ -10,9 +10,9 @@ module.exports = {
   apps: [
     {
       name: 'f1-insights-portal',
-      cwd: path.join(__dirname, 'portal'),
+      cwd: path.join(__dirname, 'portal', 'dist'),
       script: 'npx',
-      args: 'serve -s dist -l 3010',
+      args: 'serve -s -l 3010',
       interpreter: 'none',
       autorestart: true,
       watch: false,
