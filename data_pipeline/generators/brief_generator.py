@@ -112,3 +112,59 @@ class BriefGenerator:
             json.dump(brief_payload, f, indent=2)
 
         return brief_payload
+
+
+class EvidenceChainGenerator:
+    """
+    3-Tier Explainable AI Evidence Chain Generator.
+    Produces structured evidence chains: Observation -> Calculations -> Interpretation with Confidence Rating.
+    """
+    @staticmethod
+    def calculate_composite_confidence(
+        telemetry_present: bool = True,
+        timing_present: bool = True,
+        history_present: bool = True,
+        weather_present: bool = True
+    ) -> float:
+        """
+        Calculate composite confidence score (0.0 to 1.0).
+        Formula: 0.40 * Telemetry + 0.30 * Timing + 0.20 * History + 0.10 * Weather
+        """
+        score = (
+            (0.40 if telemetry_present else 0.0) +
+            (0.30 if timing_present else 0.0) +
+            (0.20 if history_present else 0.0) +
+            (0.10 if weather_present else 0.0)
+        )
+        return round(score, 2)
+
+    def generate_evidence_chain(
+        self,
+        question: str,
+        observation: str,
+        evidence_items: List[str],
+        interpretation: str,
+        blind_spots: List[str],
+        telemetry_present: bool = True,
+        timing_present: bool = True,
+        history_present: bool = True,
+        weather_present: bool = True
+    ) -> Dict[str, Any]:
+        """Construct a standardized 4-Field Evidence Explanation payload."""
+        conf_score = self.calculate_composite_confidence(
+            telemetry_present, timing_present, history_present, weather_present
+        )
+        conf_band = "HIGH" if conf_score >= 0.80 else ("MODERATE" if conf_score >= 0.50 else "LIMITED")
+
+        return {
+            "question": question,
+            "observation": observation,
+            "evidence": evidence_items,
+            "interpretation": interpretation,
+            "confidenceScore": conf_score,
+            "confidenceBand": conf_band,
+            "validationStatus": "Validated" if conf_score >= 0.70 else "Inferred",
+            "blindSpots": blind_spots,
+            "generatedAt": datetime.utcnow().isoformat() + "Z"
+        }
+
