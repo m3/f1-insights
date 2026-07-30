@@ -103,8 +103,7 @@ export default function BriefCard({ preBrief, postBrief }) {
         </div>
       </div>
 
-      {/* Facts Grid */}
-      {currentBrief.facts && (
+      {Array.isArray(currentBrief?.facts) && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px' }}>
           {currentBrief.facts.map((fact, idx) => (
             <div key={idx} className="glass-panel" style={{ padding: '18px', position: 'relative' }}>
