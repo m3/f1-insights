@@ -37,6 +37,23 @@ export const CIRCUIT_MAPS = {
       { id: "T15", name: "Swimming Pool", x: 70, y: 120, type: "high_speed", label: "T15 Pool" }
     ]
   },
+  zandvoort: {
+    circuitId: "zandvoort",
+    circuitName: "Circuit Park Zandvoort",
+    viewBox: "0 0 500 280",
+    // Scale-matched vector layout for Circuit Zandvoort (North Sea coast circuit with Tarzanbocht & Arie Luyendyk bankings)
+    path: "M 120,230 L 360,230 C 410,230 435,200 400,165 L 340,120 C 320,105 320,85 340,70 L 380,40 C 400,25 390,10 365,10 L 290,10 C 265,10 245,25 240,45 L 230,95 C 225,115 205,125 185,115 L 140,95 C 115,80 90,95 85,120 L 75,170 C 70,200 90,230 120,230 Z",
+    drs1Path: "M 120,230 L 360,230", // Main Straight (T14 Arie Luyendyk Banking to T1 Tarzanbocht)
+    drs2Path: "M 340,120 L 380,40",  // Between Turn 10 and Turn 11
+    turns: [
+      { id: "T1", name: "Tarzanbocht", x: 400, y: 230, type: "heavy_braking", label: "T1 Tarzan (110 km/h)" },
+      { id: "T3", name: "Hugenholtzbocht", x: 340, y: 120, type: "heavy_braking", label: "T3 Hugenholtz (18° Banking)" },
+      { id: "T7", name: "Scheivlak", x: 365, y: 10, type: "high_speed", label: "T7 Scheivlak (245 km/h)" },
+      { id: "T10", name: "Zandvoort Corner", x: 230, y: 95, type: "medium", label: "T10" },
+      { id: "T11", name: "Hans Ernst Bocht", x: 140, y: 95, type: "chicane", label: "T11/12 Chicane" },
+      { id: "T14", name: "Arie Luyendykbocht", x: 120, y: 210, type: "drs_detection", label: "T14 Luyendyk (18° Banking)" }
+    ]
+  },
   silverstone: {
     circuitId: "silverstone",
     circuitName: "Silverstone Circuit",
