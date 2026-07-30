@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Timer, Zap, AlertTriangle, ShieldCheck, ArrowRight } from 'lucide-react';
 
-export default function PitStrategyCalculator() {
+export default function PitStrategyCalculator({ pitStopsData }) {
   const [currentGap, setCurrentGap] = useState(18.5);
   const [pitCondition, setPitCondition] = useState('green'); // 'green', 'vsc', 'sc'
+
+  const pitStopsList = Array.isArray(pitStopsData) ? pitStopsData : [];
 
   // Pit Loss Times (Seconds lost traversing pit lane under different conditions)
   const pitLossTimes = {

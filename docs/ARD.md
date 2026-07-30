@@ -46,10 +46,10 @@ graph TD
 *   **Decision**: Deploy a dedicated FastMCP server (`mcp_server/main.py`) exposing standardized tool interfaces.
 *   **Rationale**: Implements Schema v4.0 with provenance metadata (`confidence`, `source`, `generated_at`).
 
-### ADR-005: Full 20-Driver Grid Data Normalization
-*   **Context**: Legacy frontend components sliced standings/results to top 5, truncating P6–P20 data.
-*   **Decision**: Mandate that all session classifications, standings, and telemetry API payloads preserve all 20 active drivers without truncation.
-*   **Rationale**: Ensures complete grid visibility and position movement tracking across all drivers.
+### ADR-005: Full 20-Driver Grid Data Normalization & Telemetry Selection
+*   **Context**: Legacy frontend components sliced standings/results or telemetry pickers to partial grids (e.g. top 5 or 7 hardcoded drivers).
+*   **Decision**: Mandate that all session classifications, standings, and interactive tools (including `TelemetryOverlayTool`) support all 20 active drivers dynamically from season standings.
+*   **Rationale**: Ensures complete grid visibility, driver comparison flexibility, and position movement tracking across all 20 drivers.
 
 ### ADR-006: CI/CD Pipeline as Exclusive VPS Deployment Mechanism
 *   **Context**: Direct manual SSH deployments to VPS risk environment drift and unverified code pushes.

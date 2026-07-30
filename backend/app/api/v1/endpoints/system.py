@@ -43,9 +43,17 @@ def health_check(db: Session = Depends(get_db)):
         }
     }
 
+import time
+
+_OVERVIEW_CACHE = {"timestamp": 0, "payload": None}
+
 @router.get("/overview")
 def get_master_overview(db: Session = Depends(get_db)):
-    """Master overview endpoint returning full aggregated dashboard JSON payload with v4.0 schema versioning."""
+    """Master overview endpoint returning full aggregated dashboard JSON payload with 15s in-memory TTL cache."""
+    now = time.time()
+    if _OVERVIEW_CACHE["payload"] and (now - _OVERVIEW_CACHE["timestamp"]) < 15:
+        return _OVERVIEW_CACHE["payload"]
+
     fallback_path = os.path.join(settings.BASE_DIR, "portal", "public", "data", "overview.json")
     data = None
 
@@ -77,9 +85,11 @@ def get_master_overview(db: Session = Depends(get_db)):
         for k, v in data.items():
             if k not in ["schema_version", "provenance"]:
                 result[k] = v
+        _OVERVIEW_CACHE["timestamp"] = now
+        _OVERVIEW_CACHE["payload"] = result
         return result
 
-    return {
+    empty_res = {
         "schema_version": "4.0",
         "status": "pending_data_ingestion",
         "provenance": {
@@ -89,3 +99,4 @@ def get_master_overview(db: Session = Depends(get_db)):
             "is_synthetic": False
         }
     }
+    return empty_res

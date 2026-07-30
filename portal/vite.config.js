@@ -18,5 +18,10 @@ export default defineConfig({
   },
   build: {
     target: 'es2020'
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/test/setup.js'
   }
 });

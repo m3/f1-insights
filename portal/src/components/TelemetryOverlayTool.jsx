@@ -2,26 +2,57 @@ import React, { useState } from 'react';
 import { BarChart2, Zap, Sliders, ArrowUpRight, Gauge, Activity, RefreshCw } from 'lucide-react';
 import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip, Legend, CartesianGrid } from 'recharts';
 
-export default function TelemetryOverlayTool({ telemetryData }) {
+export default function TelemetryOverlayTool({ telemetryData, driverStandings = [] }) {
   const [driver1, setDriver1] = useState('NOR');
   const [driver2, setDriver2] = useState('VER');
   const [metric, setMetric] = useState('speed'); // 'speed', 'throttle', 'gear', 'delta'
 
-  const availableDrivers = [
+  // Default fallback grid of 20 active drivers if driverStandings not yet loaded
+  const defaultGrid = [
     { code: 'NOR', name: 'Lando Norris', team: 'McLaren', color: '#FF8000' },
     { code: 'VER', name: 'Max Verstappen', team: 'Red Bull', color: '#3671C6' },
     { code: 'HAM', name: 'Lewis Hamilton', team: 'Ferrari', color: '#E8002D' },
     { code: 'LEC', name: 'Charles Leclerc', team: 'Ferrari', color: '#E8002D' },
     { code: 'RUS', name: 'George Russell', team: 'Mercedes', color: '#27F4D2' },
     { code: 'ANT', name: 'Andrea Kimi Antonelli', team: 'Mercedes', color: '#27F4D2' },
-    { code: 'PIA', name: 'Oscar Piastri', team: 'McLaren', color: '#FF8000' }
+    { code: 'PIA', name: 'Oscar Piastri', team: 'McLaren', color: '#FF8000' },
+    { code: 'SAI', name: 'Carlos Sainz', team: 'Williams', color: '#64C4FF' },
+    { code: 'ALB', name: 'Alexander Albon', team: 'Williams', color: '#64C4FF' },
+    { code: 'ALO', name: 'Fernando Alonso', team: 'Aston Martin', color: '#229971' },
+    { code: 'STR', name: 'Lance Stroll', team: 'Aston Martin', color: '#229971' },
+    { code: 'GAS', name: 'Pierre Gasly', team: 'Alpine', color: '#0093CC' },
+    { code: 'COL', name: 'Franco Colapinto', team: 'Alpine', color: '#0093CC' },
+    { code: 'BEA', name: 'Oliver Bearman', team: 'Haas', color: '#B6BABD' },
+    { code: 'OCO', name: 'Esteban Ocon', team: 'Haas', color: '#B6BABD' },
+    { code: 'TSU', name: 'Yuki Tsunoda', team: 'Red Bull', color: '#3671C6' },
+    { code: 'LAW', name: 'Liam Lawson', team: 'Racing Bulls', color: '#6692FF' },
+    { code: 'HAD', name: 'Isack Hadjar', team: 'Racing Bulls', color: '#6692FF' },
+    { code: 'HUL', name: 'Nico Hulkenberg', team: 'Sauber', color: '#52E252' },
+    { code: 'BOR', name: 'Gabriel Bortoleto', team: 'Sauber', color: '#52E252' }
   ];
 
-  // Generate synthetic/live FastF1 distance telemetry telemetry points (0m -> 4381m)
+  // Map from driverStandings if available
+  const availableDrivers = driverStandings.length >= 10
+    ? driverStandings.map(s => ({
+        code: s.Driver?.code || s.Driver?.familyName?.substring(0, 3).toUpperCase() || 'DRV',
+        name: `${s.Driver?.givenName || ''} ${s.Driver?.familyName || ''}`.trim(),
+        team: s.Constructors?.[0]?.name || 'F1 Team',
+        color: s.Constructors?.[0]?.constructorId === 'ferrari' ? '#E8002D' :
+               s.Constructors?.[0]?.constructorId === 'mclaren' ? '#FF8000' :
+               s.Constructors?.[0]?.constructorId === 'red_bull' ? '#3671C6' :
+               s.Constructors?.[0]?.constructorId === 'mercedes' ? '#27F4D2' :
+               s.Constructors?.[0]?.constructorId === 'aston_martin' ? '#229971' :
+               s.Constructors?.[0]?.constructorId === 'alpine' ? '#0093CC' :
+               s.Constructors?.[0]?.constructorId === 'williams' ? '#64C4FF' :
+               s.Constructors?.[0]?.constructorId === 'haas' ? '#B6BABD' :
+               s.Constructors?.[0]?.constructorId === 'rb' ? '#6692FF' : '#52E252'
+      }))
+    : defaultGrid;
+
+  // Generate distance telemetry points (0m -> 4400m)
   const generateTelemetryPoints = () => {
     const points = [];
     for (let d = 0; d <= 4400; d += 100) {
-      // Speed profile simulation (turns at 500m, 1200m, 2100m, 3200m, 4000m)
       let baseSpeed = 310;
       if ((d >= 400 && d <= 700) || (d >= 1100 && d <= 1400) || (d >= 2000 && d <= 2400) || (d >= 3100 && d <= 3400) || (d >= 3900 && d <= 4200)) {
         baseSpeed = 110 + (Math.sin(d / 100) * 15);
@@ -63,6 +94,26 @@ export default function TelemetryOverlayTool({ telemetryData }) {
 
   return (
     <div className="glass-panel" style={{ padding: '24px', marginTop: '24px' }}>
+      
+      {/* Visual Guide & Explainer Box */}
+      <div style={{ background: 'rgba(0, 240, 255, 0.05)', border: '1px solid rgba(0, 240, 255, 0.2)', borderRadius: '12px', padding: '16px', marginBottom: '20px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+          <Zap size={18} color="var(--cyan-neon)" />
+          <span style={{ fontSize: '0.9rem', fontWeight: 800, color: '#FFF', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+            Telemetry Overlay Guide: How to Read This Chart
+          </span>
+        </div>
+        <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', lineHeight: '1.5', margin: 0 }}>
+          This overlay aligns telemetry lap data from start line (0 meters) to the finish line (4,400 meters).
+          Select any 2 drivers from the <strong>full 20-driver grid</strong> to compare their telemetry profiles:
+          <br />
+          • <strong>Speed (km/h)</strong>: Deep dips represent corner braking points; peaks represent straight-line top speed.
+          <br />
+          • <strong>Throttle (%)</strong>: Shows who hits 100% throttle earlier when exiting corners.
+          <br />
+          • <strong>Time Delta (sec)</strong>: Tracks cumulative gap gained or lost across each track sector.
+        </p>
+      </div>
       
       {/* Header & Driver Pickers */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px', marginBottom: '20px', borderBottom: '1px solid var(--border-subtle)', paddingBottom: '16px' }}>

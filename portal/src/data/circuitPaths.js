@@ -41,17 +41,17 @@ export const CIRCUIT_MAPS = {
     circuitId: "zandvoort",
     circuitName: "Circuit Park Zandvoort",
     viewBox: "0 0 500 280",
-    // Scale-matched vector layout for Circuit Zandvoort (North Sea coast circuit with Tarzanbocht & Arie Luyendyk bankings)
-    path: "M 120,230 L 360,230 C 410,230 435,200 400,165 L 340,120 C 320,105 320,85 340,70 L 380,40 C 400,25 390,10 365,10 L 290,10 C 265,10 245,25 240,45 L 230,95 C 225,115 205,125 185,115 L 140,95 C 115,80 90,95 85,120 L 75,170 C 70,200 90,230 120,230 Z",
-    drs1Path: "M 120,230 L 360,230", // Main Straight (T14 Arie Luyendyk Banking to T1 Tarzanbocht)
-    drs2Path: "M 340,120 L 380,40",  // Between Turn 10 and Turn 11
+    // 1:1 FIA matched Zandvoort layout (Tarzanbocht T1 hairpin, Hugenholtzbocht T3 banking, Scheivlak T7, Hans Ernst T11/12, Luyendyk T14 banking)
+    path: "M 80,240 L 380,240 C 430,240 450,210 430,175 L 360,130 C 330,110 330,80 360,60 L 410,35 C 435,20 425,5 395,5 L 290,5 C 260,5 240,20 235,45 L 225,100 C 220,120 195,130 175,115 L 125,85 C 95,65 65,85 60,115 L 50,180 C 45,215 60,240 80,240 Z",
+    drs1Path: "M 80,240 L 380,240", // Main Straight (T14 Arie Luyendyk Banking to T1 Tarzanbocht)
+    drs2Path: "M 360,130 L 410,35",  // Between Turn 10 and Turn 11
     turns: [
-      { id: "T1", name: "Tarzanbocht", x: 400, y: 230, type: "heavy_braking", label: "T1 Tarzan (110 km/h)" },
-      { id: "T3", name: "Hugenholtzbocht", x: 340, y: 120, type: "heavy_braking", label: "T3 Hugenholtz (18° Banking)" },
-      { id: "T7", name: "Scheivlak", x: 365, y: 10, type: "high_speed", label: "T7 Scheivlak (245 km/h)" },
-      { id: "T10", name: "Zandvoort Corner", x: 230, y: 95, type: "medium", label: "T10" },
-      { id: "T11", name: "Hans Ernst Bocht", x: 140, y: 95, type: "chicane", label: "T11/12 Chicane" },
-      { id: "T14", name: "Arie Luyendykbocht", x: 120, y: 210, type: "drs_detection", label: "T14 Luyendyk (18° Banking)" }
+      { id: "T1", name: "Tarzanbocht", x: 430, y: 220, type: "heavy_braking", label: "T1 Tarzan (110 km/h)" },
+      { id: "T3", name: "Hugenholtzbocht", x: 360, y: 130, type: "heavy_braking", label: "T3 Hugenholtz (18° Banking)" },
+      { id: "T7", name: "Scheivlak", x: 395, y: 15, type: "high_speed", label: "T7 Scheivlak (245 km/h)" },
+      { id: "T10", name: "Zandvoort Corner", x: 225, y: 100, type: "medium", label: "T10" },
+      { id: "T11", name: "Hans Ernst Bocht", x: 125, y: 85, type: "chicane", label: "T11/12 Chicane" },
+      { id: "T14", name: "Arie Luyendykbocht", x: 60, y: 210, type: "drs_detection", label: "T14 Luyendyk (18° Banking)" }
     ]
   },
   silverstone: {
@@ -68,6 +68,36 @@ export const CIRCUIT_MAPS = {
       { id: "T10", name: "Maggotts & Becketts", x: 420, y: 80, type: "chicane", label: "T10-12 Maggotts/Becketts" },
       { id: "T15", name: "Stowe", x: 440, y: 185, type: "heavy_braking", label: "T15 Stowe" }
     ]
+  },
+  spa: {
+    circuitId: "spa",
+    circuitName: "Circuit de Spa-Francorchamps",
+    viewBox: "0 0 500 280",
+    path: "M 80,220 L 220,240 C 260,245 280,230 270,200 L 240,140 C 230,120 245,100 275,100 L 400,100 C 440,100 460,80 440,50 L 380,20 C 350,5 310,20 290,50 L 250,110 C 230,140 200,140 180,120 L 120,60 C 95,35 65,55 75,90 L 100,170 C 110,195 95,215 80,220 Z",
+    drs1Path: "M 275,100 L 400,100", // Kemmel Straight (post Eau Rouge)
+    drs2Path: "M 80,220 L 220,240",  // Main Pit Straight
+    turns: [
+      { id: "T1", name: "La Source", x: 220, y: 240, type: "heavy_braking", label: "T1 La Source (80 km/h)" },
+      { id: "T3", name: "Eau Rouge / Raidillon", x: 270, y: 200, type: "high_speed", label: "T3-5 Eau Rouge (305 km/h)" },
+      { id: "T7", name: "Les Combes", x: 400, y: 100, type: "heavy_braking", label: "T7 Les Combes (140 km/h)" },
+      { id: "T10", name: "Pouhon", x: 290, y: 50, type: "high_speed", label: "T10 Pouhon (290 km/h)" },
+      { id: "T18", name: "Blanchimont", x: 100, y: 170, type: "high_speed", label: "T18 Blanchimont (315 km/h)" },
+      { id: "T19", name: "Bus Stop Chicane", x: 80, y: 220, type: "chicane", label: "T19 Bus Stop" }
+    ]
+  },
+  monza: {
+    circuitId: "monza",
+    circuitName: "Autodromo Nazionale Monza",
+    viewBox: "0 0 500 240",
+    path: "M 70,180 L 380,180 C 430,180 460,150 430,120 L 320,60 C 295,45 260,45 235,60 L 140,120 C 110,140 85,140 65,120 L 40,95 C 20,70 35,45 65,45 L 200,45 C 230,45 250,30 230,10 L 150,10 C 110,10 70,35 50,75 Z",
+    drs1Path: "M 70,180 L 380,180", // Main Straight (Curva Parabolica to Variante del Rettifilo)
+    drs2Path: "M 235,60 L 140,120",  // Serraglio Straight
+    turns: [
+      { id: "T1", name: "Variante del Rettifilo", x: 380, y: 180, type: "chicane", label: "T1/2 Rettifilo (75 km/h)" },
+      { id: "T4", name: "Variante della Roggia", x: 320, y: 60, type: "chicane", label: "T4/5 Roggia" },
+      { id: "T8", name: "Variante Ascari", x: 140, y: 120, type: "high_speed", label: "T8-10 Ascari (235 km/h)" },
+      { id: "T11", name: "Curva Parabolica (Alboreto)", x: 70, y: 180, type: "high_speed", label: "T11 Parabolica (210 km/h)" }
+    ]
   }
 };
 
@@ -78,5 +108,5 @@ export const getCircuitSvgMap = (circuitId = 'hungaroring') => {
       return CIRCUIT_MAPS[key];
     }
   }
-  return CIRCUIT_MAPS.hungaroring;
+  return CIRCUIT_MAPS.zandvoort;
 };

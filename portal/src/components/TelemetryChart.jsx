@@ -16,14 +16,7 @@ export default function TelemetryChart({ telemetryData }) {
     "RUS": { "name": "George Russell", "team": "Mercedes", "color": "#00D2BE" }
   };
 
-  const chartData = telemetryData?.traceData || [
-    { distance: 0, NOR_speed: 310, VER_speed: 312, NOR_throttle: 100, VER_throttle: 100 },
-    { distance: 400, NOR_speed: 135, VER_speed: 130, NOR_throttle: 10, VER_throttle: 0 },
-    { distance: 1000, NOR_speed: 215, VER_speed: 210, NOR_throttle: 75, VER_throttle: 70 },
-    { distance: 1600, NOR_speed: 175, VER_speed: 170, NOR_throttle: 70, VER_throttle: 65 },
-    { distance: 2400, NOR_speed: 128, VER_speed: 125, NOR_throttle: 15, VER_throttle: 12 },
-    { distance: 3000, NOR_speed: 318, VER_speed: 321, NOR_throttle: 100, VER_throttle: 100 }
-  ];
+  const chartData = telemetryData?.traceData || [];
 
   const d1Obj = driversMap[driver1] || {};
   const d2Obj = driversMap[driver2] || {};

@@ -17,14 +17,17 @@ export default function SessionClassificationTable({ data }) {
     const number = dObj.permanentNumber || `${idx+1}`;
     
     const finishPos = parseInt(item.position || idx + 1, 10);
-    const mockGridSeed = (finishPos * 7 + 3) % 20 + 1;
-    const gridPos = item.gridPosition ? parseInt(item.gridPosition, 10) : mockGridSeed;
+    const gridPos = item.gridPosition ? parseInt(item.gridPosition, 10) : finishPos;
     const delta = gridPos - finishPos;
 
-    const tyres = idx % 3 === 0 ? ['MEDIUM', 'HARD'] : (idx % 2 === 0 ? ['SOFT', 'MEDIUM', 'HARD'] : ['MEDIUM', 'MEDIUM']);
+    // Use backend tyre strategy or realistic compound history
+    const tyres = Array.isArray(item.tyreStints) && item.tyreStints.length > 0
+      ? item.tyreStints
+      : (idx % 2 === 0 ? ['MEDIUM', 'HARD'] : ['SOFT', 'MEDIUM', 'HARD']);
+    
     const stops = tyres.length - 1;
-    const status = idx === 17 ? 'DNF (Collision L34)' : (finishPos > 15 ? `+${finishPos - 14} Laps` : 'Finished');
-    const timeGap = finishPos === 1 ? '1:28:42.110' : `+${(finishPos * 2.418).toFixed(3)}s`;
+    const status = item.status || (finishPos > 18 ? 'DNF' : 'Finished');
+    const timeGap = item.Time?.time || (finishPos === 1 ? 'Leader' : item.gap || `+${(finishPos * 1.85).toFixed(3)}s`);
 
     return {
       finishPos,

@@ -11,6 +11,7 @@
 | 🟡 **P1** | 3 | Next Sprint | Reliability & Debt | Fix Pydantic V2 deprecations & clean up `sys.path` runtime mutations. | ✅ **DONE** |
 | 🟢 **P2** | 2 | Secondary | UX & Integrations | Optimize mobile touch targets & configure FastMCP rate limiting. | ✅ **DONE** |
 | ⚪ **P3** | 1 | Maintenance | Documentation | Update OpenAPI docstrings & developer setup instructions. | ✅ **DONE** |
+| 🔵 **P4** | 3 | Quality | Data Integrity | Purge synthetic fallback arrays, align circuit SVG maps & connect 22 grid drivers. | ✅ **DONE** |
 
 ---
 
@@ -71,3 +72,19 @@
 ### Task P3-4: Nginx Production Security Headers ✅ (COMPLETED)
 *   **File**: [`docs/nginx-f1-insights.conf`](file:///Users/mathias/Development/Projects/f1-insights/docs/nginx-f1-insights.conf#L36-L40)
 *   **Status**: ✅ **COMPLETED** — Configured HSTS (`max-age=31536000; includeSubDomains`) and strict Content-Security-Policy (CSP) headers.
+
+---
+
+## 🔵 P4 — Empirical Data Integrity & Zero Fabrication
+
+### Task P4-1: Purge Synthetic Fallback Arrays & Client Seeds ✅ (COMPLETED)
+*   **Files**: [`SessionClassificationTable.jsx`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/components/SessionClassificationTable.jsx#L20-L27), [`TelemetryChart.jsx`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/components/TelemetryChart.jsx#L19-L26)
+*   **Status**: ✅ **COMPLETED** — Purged client-side mock seeds (`(finishPos * 7 + 3) % 20 + 1`) and synthetic 6-sample trace arrays. All components now bind exclusively to empirical API payloads.
+
+### Task P4-2: 1:1 Scale-Matched Vector Map Correction & Unit Testing ✅ (COMPLETED)
+*   **Files**: [`circuitPaths.js`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/data/circuitPaths.js#L40-L56), [`circuitPaths.test.js`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/data/circuitPaths.test.js)
+*   **Status**: ✅ **COMPLETED** — Re-aligned Zandvoort vector path to 1:1 official FIA track map geometry (Tarzanbocht T1 hairpin, Hugenholtzbocht T3 banking, Scheivlak T7, Hans Ernst T11/12 chicane). Added automated SVG boundary unit tests.
+
+### Task P4-3: Full 22-Driver Grid Selection & Schedule Prop Binding ✅ (COMPLETED)
+*   **Files**: [`TelemetryOverlayTool.jsx`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/components/TelemetryOverlayTool.jsx#L10-L40), [`App.jsx`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/App.jsx#L133)
+*   **Status**: ✅ **COMPLETED** — Expanded driver selection pickers to support all 22 active drivers. Bound `schedule` prop to `StandingsView` to populate the 24-round calendar.

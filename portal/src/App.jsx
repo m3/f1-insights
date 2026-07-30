@@ -108,7 +108,7 @@ export default function App() {
             />
             <BriefCard preBrief={preBrief} postBrief={postBrief} />
             <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />
-            <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />
+            <TelemetryOverlayTool telemetryData={data?.telemetryTraces} driverStandings={driverStandings} />
             <TyreDegSimulator />
             <div style={{ marginTop: '24px' }}>
               <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
@@ -123,13 +123,14 @@ export default function App() {
         {activeTab === 'grid_penalties' && <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />}
         {activeTab === 'telemetry' && <TelemetryChart telemetryData={data?.telemetryTraces} />}
         {activeTab === 'sectors' && <SectorMatrix sectorData={data?.sectorMatrix} />}
-        {activeTab === 'pitstop' && <PitStrategyCalculator />}
+        {activeTab === 'pitstop' && <PitStrategyCalculator pitStopsData={data?.pitStops} />}
         {activeTab === 'penalties' && <PenaltyWatch penaltyPoints={penaltyPoints} />}
         {activeTab === 'teammates' && <TeammateBattles battles={teammateBattles} />}
         {activeTab === 'standings' && (
           <StandingsView
             driverStandings={driverStandings}
             constructorStandings={constructorStandings}
+            schedule={data?.schedule || []}
           />
         )}
         {activeTab === 'social' && <SocialSentiment sentiment={data?.socialSentiment} />}

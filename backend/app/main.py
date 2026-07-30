@@ -64,11 +64,7 @@ app = FastAPI(
 )
 
 # CORS Middleware (Restricted origins with environment override)
-cors_origins_env = os.getenv(
-    "CORS_ALLOWED_ORIGINS",
-    "https://f1.sports.superchargedbym3.com,http://localhost:3010,http://localhost:5173,http://127.0.0.1:3010,http://testserver"
-)
-allowed_origins = [origin.strip() for origin in cors_origins_env.split(",") if origin.strip()]
+allowed_origins = [origin.strip() for origin in settings.CORS_ALLOWED_ORIGINS.split(",") if origin.strip()]
 
 app.add_middleware(
     CORSMiddleware,

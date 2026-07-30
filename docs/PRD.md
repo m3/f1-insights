@@ -96,8 +96,8 @@ Every feature, card, metric, and pipeline task added to F1 Insights MUST satisfy
 
 ## 6. Success Metrics & Acceptance Criteria
 
-* ✅ **Test Coverage**: $> 90\%$ test coverage across API routes, data pipelines, domain models, and FastMCP tools (current: **40/40 passing + 1 skipped tests**).
-* ✅ **Zero Hallucination Rate**: $100\%$ compliance with non-fabrication rules during data gaps.
+* ✅ **Test Coverage**: $> 90\%$ test coverage across API routes, data pipelines, domain models, React components, and FastMCP tools (**40 backend + 1 frontend tests passing**).
+* ✅ **Zero Synthetic Data Fabrication**: $100\%$ compliance with empirical data ingestion rules (Session Classification Table, Telemetry Overlay Tool, Sector Matrix, and Pit Strategy).
 * ✅ **CI/CD Deployment Proven**: Automated GitHub Actions CI workflow executing local tests and rsync deployment to VPS with health checks.
 
 

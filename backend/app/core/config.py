@@ -16,6 +16,7 @@ class Settings(BaseSettings):
     # Server & Port
     PORT: int = int(os.getenv("PORT", 8000))
     ENVIRONMENT: str = os.getenv("ENVIRONMENT", "development")
+    CORS_ALLOWED_ORIGINS: str = os.getenv("CORS_ALLOWED_ORIGINS", "https://f1.sports.superchargedbym3.com,http://localhost:3010,http://localhost:5173,http://127.0.0.1:3010,http://testserver")
     
     # Notifications
     DISCORD_WEBHOOK_URL: str = os.getenv("DISCORD_WEBHOOK_URL", "")

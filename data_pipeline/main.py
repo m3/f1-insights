@@ -271,5 +271,13 @@ def run_pipeline(mode: str = "full"):
     print("✅ F1 Insights Full Pipeline v4.0 execution completed successfully!")
 
 if __name__ == "__main__":
-    mode_arg = sys.argv[1] if len(sys.argv) > 1 else "full"
+    mode_arg = "full"
+    if len(sys.argv) > 1:
+        raw_arg = sys.argv[1]
+        if raw_arg == "social" or raw_arg == "--mode=social":
+            mode_arg = "social"
+        elif raw_arg.startswith("--mode="):
+            mode_arg = raw_arg.split("=", 1)[1]
+        else:
+            mode_arg = raw_arg
     run_pipeline(mode_arg)

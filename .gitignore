@@ -8,6 +8,7 @@ __pycache__
 .env
 logs/
 *.log
+*.db
 *.db-shm
 *.db-wal
 
