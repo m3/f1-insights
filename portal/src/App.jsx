@@ -58,7 +58,7 @@ export default function App() {
   const currentRace = data?.currentRace;
   const driverStandings = Array.isArray(data?.driverStandings) ? data.driverStandings : [];
   const constructorStandings = Array.isArray(data?.constructorStandings) ? data.constructorStandings : [];
-  const penaltyPoints = Array.isArray(data?.penaltyPoints) ? data.penaltyPoints : [];
+  const penaltyPoints = Array.isArray(data?.penaltyPoints) ? data.penaltyPoints : (Array.isArray(data?.penaltyWatch?.high_risk_drivers) ? data.penaltyWatch.high_risk_drivers : []);
   const teammateBattles = Array.isArray(data?.teammateBattles) ? data.teammateBattles : (Array.isArray(data?.latestPostBrief?.teammateBattles) ? data.latestPostBrief.teammateBattles : []);
   const preBrief = data?.latestPreBrief;
   const postBrief = data?.latestPostBrief;
