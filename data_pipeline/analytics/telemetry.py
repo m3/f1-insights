@@ -277,3 +277,53 @@ class F1AnalyticsEngine:
             "formula": "0.35*TyreLife + 0.25*CleanAir + 0.25*PitWindow + 0.15*DegSlope"
         }
 
+    def detect_hidden_pace(self, driver_lap_records: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """
+        Detect drivers trapped in DRS traffic whose clear-air pace capability is higher than track position.
+        Filters out Lap 1, in/out pit laps, SC laps, and traffic laps (gap < 1.0s).
+        """
+        if not driver_lap_records:
+            return {"hiddenPaceDrivers": [], "summary": "No lap records provided for hidden pace analysis."}
+
+        analyzed_drivers = []
+        for record in driver_lap_records:
+            code = record.get("driver", "UNK")
+            track_pos = record.get("trackPosition", 99)
+            laps = record.get("laps", [])
+
+            # Filter clear-air laps (> 1.0s gap, non-SC, non-pit)
+            clear_air_times = [
+                l.get("lapTimeSeconds") for l in laps
+                if l.get("gapToAheadSeconds", 0) >= 1.0
+                and not l.get("isSafetyCar", False)
+                and not l.get("isPitLap", False)
+                and l.get("lapNumber", 1) > 1
+                and l.get("lapTimeSeconds") is not None
+            ]
+
+            if clear_air_times:
+                mean_clear_pace = sum(clear_air_times) / len(clear_air_times)
+                analyzed_drivers.append({
+                    "driver": code,
+                    "trackPosition": track_pos,
+                    "clearAirMeanPace": round(mean_clear_pace, 3),
+                    "clearAirLapsCount": len(clear_air_times)
+                })
+
+        # Sort by clear air mean pace (ascending = faster)
+        analyzed_drivers.sort(key=lambda x: x["clearAirMeanPace"])
+        
+        # Rank drivers by clear air pace
+        for rank, item in enumerate(analyzed_drivers, start=1):
+            item["clearAirRank"] = rank
+            item["hiddenDelta"] = item["trackPosition"] - rank # Positive delta = trapped behind slower cars
+
+        hidden_heroes = [d for d in analyzed_drivers if d["hiddenDelta"] >= 2]
+
+        return {
+            "hiddenPaceDrivers": hidden_heroes,
+            "allRankings": analyzed_drivers,
+            "summary": f"Detected {len(hidden_heroes)} driver(s) trapped in traffic with top-rank clear air pace." if hidden_heroes else "Track positions reflect clear air pace rankings."
+        }
+
+

@@ -101,3 +101,30 @@ def test_strategic_position_index_calculation():
     assert spi["breakdown"]["cleanAirScore"] == 70.0
     assert "formula" in spi
 
+def test_hidden_pace_detection():
+    """Verify hidden pace detector filters traffic and identifies drivers out of position."""
+    engine = F1AnalyticsEngine()
+    mock_records = [
+        {
+            "driver": "VER",
+            "trackPosition": 1,
+            "laps": [
+                {"lapNumber": 2, "lapTimeSeconds": 80.0, "gapToAheadSeconds": 5.0, "isSafetyCar": False, "isPitLap": False},
+                {"lapNumber": 3, "lapTimeSeconds": 80.2, "gapToAheadSeconds": 5.0, "isSafetyCar": False, "isPitLap": False}
+            ]
+        },
+        {
+            "driver": "NOR",
+            "trackPosition": 5, # Trapped P5, but clear air pace equals P2
+            "laps": [
+                {"lapNumber": 2, "lapTimeSeconds": 80.1, "gapToAheadSeconds": 2.5, "isSafetyCar": False, "isPitLap": False},
+                {"lapNumber": 3, "lapTimeSeconds": 80.3, "gapToAheadSeconds": 2.5, "isSafetyCar": False, "isPitLap": False}
+            ]
+        }
+    ]
+    res = engine.detect_hidden_pace(mock_records)
+    assert len(res["hiddenPaceDrivers"]) == 1
+    assert res["hiddenPaceDrivers"][0]["driver"] == "NOR"
+    assert res["hiddenPaceDrivers"][0]["hiddenDelta"] == 3
+
+
