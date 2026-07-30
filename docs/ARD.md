@@ -1,5 +1,5 @@
 # Architecture Requirements & Decisions (ARD)
-## 🏛️ F1 Insights & Morning Brief Platform (v2026.3)
+## 🏛️ F1 Insights & Explanation Platform (v2026.10)
 
 ---
 
@@ -32,7 +32,7 @@ graph TD
 ### ADR-002: SQLite in WAL Mode as Single Source of Truth
 *   **Context**: Needs concurrent read access from FastAPI web requests, FastMCP tools, and background pipeline writes.
 *   **Decision**: Use SQLite 3 with Write-Ahead Logging (`PRAGMA journal_mode=WAL; PRAGMA synchronous=NORMAL;`).
-*   **Rationale**: Supports thousands of concurrent readers with zero lock contention. Eliminates the operational complexity of managing external PostgreSQL/MySQL instances for single-operator deployments.
+*   **Rationale**: Supports thousands of concurrent readers with zero lock contention. Eliminates operational complexity of external DB clusters.
 
 ### ADR-003: Dual-Layer Fallback Architecture
 *   **Context**: External APIs (FastF1, Ergast, Jolpica) can experience outages during high-concurrency race weekends.
@@ -43,8 +43,18 @@ graph TD
 
 ### ADR-004: Native FastMCP Server for Agentic LLM Access
 *   **Context**: AI agents (Claude, Gemini, Hermes) need clean, structured access to F1 telemetry and FIA data.
-*   **Decision**: Deploy a dedicated FastMCP server (`mcp_server/main.py`) exposing standardized, versioned tool interfaces.
-*   **Rationale**: Implements Schema v4.0 with provenance metadata (`confidence`, `source`, `generated_at`), enabling zero-prompting integration with LLM harnesses.
+*   **Decision**: Deploy a dedicated FastMCP server (`mcp_server/main.py`) exposing standardized tool interfaces.
+*   **Rationale**: Implements Schema v4.0 with provenance metadata (`confidence`, `source`, `generated_at`).
+
+### ADR-005: Full 20-Driver Grid Data Normalization
+*   **Context**: Legacy frontend components sliced standings/results to top 5, truncating P6–P20 data.
+*   **Decision**: Mandate that all session classifications, standings, and telemetry API payloads preserve all 20 active drivers without truncation.
+*   **Rationale**: Ensures complete grid visibility and position movement tracking across all drivers.
+
+### ADR-006: CI/CD Pipeline as Exclusive VPS Deployment Mechanism
+*   **Context**: Direct manual SSH deployments to VPS risk environment drift and unverified code pushes.
+*   **Decision**: Enforce GitHub Actions CI/CD workflow (`.github/workflows/deploy.yml`) as the **ONLY** path to VPS deployment. Local verification MUST pass first (`pytest`, `npm run build`).
+*   **Rationale**: Guarantees that only tested, verified artifacts reach production environments.
 
 ---
 
@@ -74,3 +84,4 @@ sequenceDiagram
     *   `f1-pipeline-scheduler`: Python daemon executing session checkpoints and briefing generation.
     *   `f1-portal`: Vite preview server (`port 3010`).
 *   **Deployment Pipeline**: GitHub Actions implementing **M3-Conventions §3 (CI-builds-the-artifact)** via SSH/rsync to `m3-vps` with automated health checks (`/api/v1/health`).
+

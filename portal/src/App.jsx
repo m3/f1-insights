@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import SessionCountdownHeader from './components/SessionCountdownHeader';
+import SessionClassificationTable from './components/SessionClassificationTable';
+import EvidenceExplanationCard from './components/EvidenceExplanationCard';
 import BriefCard from './components/BriefCard';
 import CircuitBlueprintCard from './components/CircuitBlueprintCard';
 import TelemetryOverlayTool from './components/TelemetryOverlayTool';
@@ -76,8 +78,28 @@ export default function App() {
       <SessionCountdownHeader currentRace={currentRace} />
 
       <main>
+        {/* Full 20-Driver Classification Table on Overview / Brief Tab */}
         {activeTab === 'brief' && (
           <>
+            <SessionClassificationTable data={data} currentRace={currentRace} />
+            <EvidenceExplanationCard
+              question="Why did Norris lose position to Verstappen during Laps 42-48?"
+              observation="Norris lost 4.3 seconds to Verstappen between Laps 42 and 48."
+              evidence={[
+                "Tyre Compound & Age: Norris (Hard, 28 Laps) vs Verstappen (Medium, 12 Laps)",
+                "Stint Lap Pace Slope: Norris +0.14s/lap degradation vs Verstappen -0.02s/lap",
+                "Traffic Gap: Norris behind Stroll (Gap = 0.82s, DRS active L44-46)",
+                "Pit Exit Delta: Verstappen gained +1.8s during out-lap window"
+              ]}
+              interpretation="The available evidence suggests tyre degradation and traffic obstruction contributed more to the pace delta than raw chassis performance."
+              confidence="HIGH"
+              validationStatus="Validated"
+              lastUpdated="Lap 37 (14:22:05 UTC)"
+              blindSpots={[
+                "ERS Battery SOC is unobserved (estimated from straight-line speed traces)",
+                "Fuel mass delta is unobserved (estimated from stint lap progression)"
+              ]}
+            />
             <BriefCard preBrief={preBrief} postBrief={postBrief} />
             <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />
             <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />
@@ -88,6 +110,7 @@ export default function App() {
             <SocialSentiment sentiment={data?.socialSentiment} />
           </>
         )}
+        {activeTab === 'classification' && <SessionClassificationTable data={data} currentRace={currentRace} />}
         {activeTab === 'circuit_blueprint' && <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />}
         {activeTab === 'telemetry_overlay' && <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />}
         {activeTab === 'tyre_deg' && <TyreDegSimulator />}
@@ -115,3 +138,4 @@ export default function App() {
     </div>
   );
 }
+
