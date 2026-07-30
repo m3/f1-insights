@@ -203,7 +203,7 @@ export default function CircuitBlueprintCard({ currentRace, circuitSpecsData }) 
             SELECT DRS ACTIVATION ZONE
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            {circuitSpecs.drsZones.map(zone => (
+            {Array.isArray(circuitSpecs?.drsZones) && circuitSpecs.drsZones.map(zone => (
               <button
                 key={zone.id}
                 onClick={() => setSelectedZone(zone.id)}

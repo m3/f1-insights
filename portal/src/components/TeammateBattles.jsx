@@ -2,7 +2,7 @@ import React from 'react';
 import { Award, Swords, TrendingUp } from 'lucide-react';
 
 export default function TeammateBattles({ battles }) {
-  if (!battles || battles.length === 0) return null;
+  if (!Array.isArray(battles) || battles.length === 0) return null;
 
   return (
     <div className="glass-panel" style={{ padding: '24px' }}>
