@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-07-30T09:14:05.134511Z",
+  "updatedAt": "2026-07-30T11:29:32.760898Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
@@ -53,7 +53,7 @@
     "ambientTemp": "23\u00b0C",
     "trackTemp": "28\u00b0C",
     "rainRisk": "0%",
-    "wind": "12 km/h NE",
+    "wind": "14 km/h NE",
     "humidity": "59%"
   },
   "schedule": [
@@ -1675,7 +1675,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-07-30T09:14:05.132953",
+    "generatedAt": "2026-07-30T11:29:32.759435",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1837,7 +1837,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-07-30T09:14:05.133395",
+    "generatedAt": "2026-07-30T11:29:32.759868",
     "facts": [],
     "teammateBattles": [
       {
