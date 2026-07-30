@@ -5,6 +5,7 @@ import SessionClassificationTable from './components/SessionClassificationTable'
 import EvidenceExplanationCard from './components/EvidenceExplanationCard';
 import StrategicAdvantageCard from './components/StrategicAdvantageCard';
 import HiddenPaceCard from './components/HiddenPaceCard';
+import InteractiveQuestionCard from './components/InteractiveQuestionCard';
 import BriefCard from './components/BriefCard';
 import CircuitBlueprintCard from './components/CircuitBlueprintCard';
 import TelemetryOverlayTool from './components/TelemetryOverlayTool';
@@ -84,6 +85,7 @@ export default function App() {
         {activeTab === 'brief' && (
           <>
             <SessionClassificationTable data={data} currentRace={currentRace} />
+            <InteractiveQuestionCard />
             <StrategicAdvantageCard />
             <HiddenPaceCard />
             <EvidenceExplanationCard
@@ -142,5 +144,6 @@ export default function App() {
     </div>
   );
 }
+
 
 
