@@ -100,7 +100,9 @@ jobs:
             sudo chown -R mathias:www-data /var/www/f1-insights 2>/dev/null || true
 
             # Restart processes cleanly using ecosystem.config.js
-            pm2 start ecosystem.config.js --only f1-insights-backend,f1-insights-portal || pm2 restart f1-insights-backend f1-insights-portal
+            cd /var/www/f1-insights
+            pm2 delete f1-insights-portal 2>/dev/null || true
+            pm2 start ecosystem.config.js --only f1-insights-backend,f1-insights-portal
             pm2 save
             
             # Flush Nginx cache
