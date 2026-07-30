@@ -1,13 +1,14 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-07-30T08:47:06.922473Z",
+  "updatedAt": "2026-07-30T09:14:05.134511Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -49,10 +50,10 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "22\u00b0C",
-    "trackTemp": "26\u00b0C",
+    "ambientTemp": "23\u00b0C",
+    "trackTemp": "28\u00b0C",
     "rainRisk": "0%",
-    "wind": "19 km/h NE",
+    "wind": "12 km/h NE",
     "humidity": "59%"
   },
   "schedule": [
@@ -1600,13 +1601,13 @@
   "pitStops": [],
   "socialSentiment": {
     "schema_version": "4.0",
-    "race": "Hungarian Grand Prix",
+    "race": "Dutch Grand Prix",
     "overallSentiment": "MONITORED",
     "sentimentScore": 75,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
-      "#HungarianGrandPrix",
+      "#DutchGrandPrix",
       "#F1",
       "#F12026",
       "#Formula1",
@@ -1674,7 +1675,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-07-30T06:06:30.592140",
+    "generatedAt": "2026-07-30T09:14:05.132953",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1836,7 +1837,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-07-30T06:06:30.592495",
+    "generatedAt": "2026-07-30T09:14:05.133395",
     "facts": [],
     "teammateBattles": [
       {
