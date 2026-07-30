@@ -4,6 +4,7 @@ from .fastf1_provider import FastF1Provider
 from .tif1_provider import TIF1Provider
 from .openmeteo_provider import OpenMeteoProvider
 from .social_provider import SocialProvider
+from .openf1_provider import OpenF1Provider
 
 __all__ = [
     "BaseProvider",
@@ -12,5 +13,7 @@ __all__ = [
     "FastF1Provider",
     "TIF1Provider",
     "OpenMeteoProvider",
-    "SocialProvider"
+    "SocialProvider",
+    "OpenF1Provider"
 ]
+
