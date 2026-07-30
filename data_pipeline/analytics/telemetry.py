@@ -228,3 +228,52 @@ class F1AnalyticsEngine:
                 })
 
         return summary
+
+    def calculate_strategic_position_index(
+        self,
+        driver_code: str,
+        tyre_age_delta: float,
+        clean_air_gap_seconds: float,
+        pit_window_safety_seconds: float,
+        stint_deg_slope: float
+    ) -> Dict[str, Any]:
+        """
+        Calculate composite Strategic Position Index (SPI: 0 - 100).
+        Algorithm:
+          SPI = 0.35 * TyreLifeScore + 0.25 * CleanAirScore + 0.25 * PitWindowScore + 0.15 * DegSlopeScore
+        """
+        # Component 1: Tyre Life Delta Score (max 10 laps delta -> 100)
+        tyre_score = min(100.0, max(0.0, 50.0 + (tyre_age_delta * 5.0)))
+        
+        # Component 2: Clean Air Traffic Gap (max 5.0s -> 100)
+        clean_air_score = min(100.0, max(0.0, (clean_air_gap_seconds / 5.0) * 100.0))
+        
+        # Component 3: Pit Window Safety Cushion (max 20.0s free pit window -> 100)
+        pit_score = min(100.0, max(0.0, (pit_window_safety_seconds / 20.0) * 100.0))
+        
+        # Component 4: Stint Degradation Slope (lower degradation = higher score)
+        deg_score = min(100.0, max(0.0, 100.0 - (stint_deg_slope * 250.0)))
+
+        composite_spi = round(
+            (0.35 * tyre_score) +
+            (0.25 * clean_air_score) +
+            (0.25 * pit_score) +
+            (0.15 * deg_score),
+            1
+        )
+
+        confidence_rating = "HIGH" if clean_air_gap_seconds > 0 and pit_window_safety_seconds > 0 else "MODERATE"
+
+        return {
+            "driver": driver_code,
+            "strategicPositionIndex": composite_spi,
+            "confidence": confidence_rating,
+            "breakdown": {
+                "tyreLifeScore": round(tyre_score, 1),
+                "cleanAirScore": round(clean_air_score, 1),
+                "pitWindowScore": round(pit_score, 1),
+                "degSlopeScore": round(deg_score, 1)
+            },
+            "formula": "0.35*TyreLife + 0.25*CleanAir + 0.25*PitWindow + 0.15*DegSlope"
+        }
+

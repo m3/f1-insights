@@ -1,5 +1,5 @@
 # Product Requirements Document (PRD)
-## 🏎️ F1 Insights & Explanation Platform (v2026.11)
+## 🏎️ F1 Insights & Explanation Platform (v2026.12)
 
 ---
 
@@ -36,19 +36,18 @@ Every feature, card, metric, and pipeline task added to F1 Insights MUST satisfy
 
 ## 4. Key Product Capabilities & Requirements
 
-### 4.1. Domain Graph Traversals & Strongly-Typed Models
+### 4.1. Strategic Position Index (SPI) Engine
+* **FR-0.2 Composite SPI Score**: The system MUST calculate an estimated strategic position score ($0\text{--}100$) for any active driver combining Tyre Life Delta ($35\%$), Clean-Air Traffic Gap ($25\%$), Pit Window Cushion ($25\%$), and Stint Degradation Slope ($15\%$).
+
+### 4.2. Domain Graph Traversals & Strongly-Typed Models
 * **FR-0.1 Domain Models Layer**: The system MUST implement strongly-typed Pydantic V2 schemas (`DomainDriver`, `DomainStint`, `DomainLap`, `DomainSector`) supporting graph traversals (`Driver` $\rightarrow$ `Stint` $\rightarrow$ `Lap` $\rightarrow$ `Sector`) and clear-air filtering.
 
-### 4.2. 20-Driver Grid & Session Classification Table
+### 4.3. 20-Driver Grid & Session Classification Table
 * **FR-1.0 Complete 20-Driver Classification**: The system MUST render an un-truncated, 20-driver Race & Session Classification Table (`P1` through `P20` + Reserves), displaying Grid Start Position, Finish Position, Net Delta (`▲`/`▼`), Interval/Gap, Pit Stop Count, Stint Compounds, and Status (`Finished`, `+1 Lap`, `DNF`, `DNS`).
 
-### 4.3. Telemetry & Pace Analysis
+### 4.4. Telemetry & Pace Analysis
 * **FR-1.1 Corner Pace Comparison**: The system MUST render overlay traces for any two driver codes (e.g. `NOR` vs `VER`) showing speed ($km/h$), gear selection, and throttle percentage across distance ($m$).
 * **FR-1.2 Traffic-Filtered Pace Estimate**: The system MUST filter out Safety Car laps and laps where gap to car ahead is $< 1.0\text{s}$ to estimate clear-air pace capability.
-
-### 4.4. Strategic Position Index & Pit Loss
-* **FR-2.1 Strategic Position Index (SPI)**: The system MUST calculate an estimated strategic position score ($0\text{–}100$) combining Tyre Degradation Delta, Clean-Air Traffic Gap, Pit Stop Window Safety, and Stint Pace Slope.
-* **FR-2.2 Pit Strategy Loss Calculation**: The system MUST calculate expected pit stop delta loss across dry/wet conditions with automated safety car delta adjustments.
 
 ### 4.5. FIA Penalty Watch & Race Control
 * **FR-3.1 Points Accumulation Ledger**: The system MUST track accumulated FIA penalty points for all 20 drivers.
@@ -73,8 +72,9 @@ Every feature, card, metric, and pipeline task added to F1 Insights MUST satisfy
 
 ## 6. Success Metrics & Acceptance Criteria
 
-* ✅ **Test Coverage**: $> 90\%$ test coverage across API routes, data pipelines, domain models, and FastMCP tools (current: **29/29 passing tests**).
+* ✅ **Test Coverage**: $> 90\%$ test coverage across API routes, data pipelines, domain models, and FastMCP tools (current: **30/30 passing tests**).
 * ✅ **Zero Hallucination Rate**: $100\%$ compliance with non-fabrication rules during data gaps.
 * ✅ **CI/CD Deployment Proven**: Automated GitHub Actions CI workflow executing local tests and rsync deployment to VPS with health checks.
+
 
 

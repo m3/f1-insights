@@ -83,3 +83,21 @@ def test_data_pipeline_main_import_and_execution():
     from main import run_pipeline
     # Run social mode update to verify pipeline execution end-to-end
     run_pipeline("social")
+
+def test_strategic_position_index_calculation():
+    """Verify Strategic Position Index composite calculation and score bounds."""
+    engine = F1AnalyticsEngine()
+    spi = engine.calculate_strategic_position_index(
+        driver_code="NOR",
+        tyre_age_delta=4.0,
+        clean_air_gap_seconds=3.5,
+        pit_window_safety_seconds=12.0,
+        stint_deg_slope=0.08
+    )
+
+    assert spi["driver"] == "NOR"
+    assert 0.0 <= spi["strategicPositionIndex"] <= 100.0
+    assert spi["confidence"] == "HIGH"
+    assert spi["breakdown"]["cleanAirScore"] == 70.0
+    assert "formula" in spi
+
