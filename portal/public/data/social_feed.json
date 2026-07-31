@@ -1,12 +1,12 @@
 {
   "schema_version": "4.0",
-  "race": "Dutch Grand Prix",
+  "race": "Hungarian Grand Prix",
   "overallSentiment": "MONITORED",
   "sentimentScore": 75,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
