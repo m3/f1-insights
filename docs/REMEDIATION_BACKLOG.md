@@ -12,6 +12,7 @@
 | 🟢 **P2** | 2 | Secondary | UX & Integrations | Optimize mobile touch targets & configure FastMCP rate limiting. | ✅ **DONE** |
 | ⚪ **P3** | 1 | Maintenance | Documentation | Update OpenAPI docstrings & developer setup instructions. | ✅ **DONE** |
 | 🔵 **P4** | 3 | Quality | Data Integrity | Purge synthetic fallback arrays, align circuit SVG maps & connect 22 grid drivers. | ✅ **DONE** |
+| 🟣 **P5** | 2 | Architecture | UI Workspace | Refactor React state to Zustand store & implement responsive 3-column workspace grid. | ✅ **DONE** |
 
 ---
 
@@ -88,3 +89,15 @@
 ### Task P4-3: Full 22-Driver Grid Selection & Schedule Prop Binding ✅ (COMPLETED)
 *   **Files**: [`TelemetryOverlayTool.jsx`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/components/TelemetryOverlayTool.jsx#L10-L40), [`App.jsx`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/App.jsx#L133)
 *   **Status**: ✅ **COMPLETED** — Expanded driver selection pickers to support all 22 active drivers. Bound `schedule` prop to `StandingsView` to populate the 24-round calendar.
+
+---
+
+## 🟣 P5 — Broadcast Command Workspace & Zustand Refactor
+
+### Task P5-1: Global Zustand Store Integration ✅ (COMPLETED)
+*   **File**: [`useF1Store.js`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/store/useF1Store.js)
+*   **Status**: ✅ **COMPLETED** — Implemented reactive Zustand store for global tab navigation, telemetry driver selection, and async API refreshes with retry logic.
+
+### Task P5-2: High-Density 3-Column Command Workspace Grid ✅ (COMPLETED)
+*   **Files**: [`App.jsx`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/App.jsx#L81-L127), [`index.css`](file:///Users/mathias/Development/Projects/f1-insights/portal/src/index.css#L196-L200)
+*   **Status**: ✅ **COMPLETED** — Refactored main dashboard into a responsive 3-column workspace (`Standings (4 col)` $\rightarrow$ `AI Reasoning (5 col)` $\rightarrow$ `Strategic Intelligence (3 col)`) with mobile single-column stacking.

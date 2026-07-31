@@ -48,8 +48,8 @@ Every feature, card, metric, and pipeline task added to F1 Insights MUST satisfy
 ### 4.4. DuckDB In-Memory Columnar Telemetry Engine
 * **FR-0.7 DuckDB Telemetry Queries**: The system MUST implement `DuckDBAnalyticsEngine` to bulk-load telemetry samples into in-memory columnar tables for sub-10ms corner speed and distance window aggregation queries with graceful fallback.
 
-### 4.5. PCM 1.1 UI Visualization Components
-* **FR-0.6 Strategic Advantage & Hidden Pace UI Cards**: The system MUST render `StrategicAdvantageCard` (0--100 composite SPI gauge with component breakdown) and `HiddenPaceCard` (DRS traffic position capability rank delta) in the React portal overview dashboard.
+### 4.5. High-Density Broadcast Command Workspace Grid
+* **FR-0.6 3-Column Broadcast Command Grid**: The system MUST render a responsive 3-column command workspace grid (`Standings & Deltas` $\rightarrow$ `AI Reasoning & Circuit Blueprint` $\rightarrow$ `Strategic Intelligence`) powered by a reactive Zustand state store (`useF1Store.js`).
 
 ### 4.6. Explainable AI Evidence Chains
 * **FR-0.5 Evidence Chain Generator**: The system MUST implement `EvidenceChainGenerator` to format 4-Field Evidence Explanations (`Observation` $\rightarrow$ `Calculations` $\rightarrow$ `Interpretation` $\rightarrow$ `Confidence & Blind Spots`) with composite confidence scoring ($0.40\text{ Tel} + 0.30\text{ Tim} + 0.20\text{ Hist} + 0.10\text{ Wea}$).
