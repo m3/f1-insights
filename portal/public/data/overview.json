@@ -1,13 +1,14 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-07-31T10:14:30.732129Z",
+  "updatedAt": "2026-07-31T11:06:21.781784Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -49,10 +50,10 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "20\u00b0C",
-    "trackTemp": "25\u00b0C",
+    "ambientTemp": "17\u00b0C",
+    "trackTemp": "22\u00b0C",
     "rainRisk": "0%",
-    "wind": "9 km/h NE",
+    "wind": "14 km/h NE",
     "humidity": "90%"
   },
   "schedule": [
@@ -584,6 +585,41 @@
     {
       "season": "2026",
       "round": "16",
+      "url": "https://en.wikipedia.org/wiki/2026_Bahrain_Grand_Prix",
+      "raceName": "Bahrain Grand Prix in Malaysia",
+      "Circuit": {
+        "circuitId": "sepang",
+        "url": "https://en.wikipedia.org/wiki/Sepang_International_Circuit",
+        "circuitName": "Sepang International Circuit",
+        "Location": {
+          "lat": "2.76083",
+          "long": "101.738",
+          "locality": "Kuala Lumpur",
+          "country": "Malaysia"
+        }
+      },
+      "date": "2026-10-04",
+      "time": "07:00:00Z",
+      "FirstPractice": {
+        "date": "2026-10-02",
+        "time": "02:00:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-10-02",
+        "time": "06:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-10-03",
+        "time": "06:00:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-10-03",
+        "time": "09:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "17",
       "url": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix",
       "raceName": "Singapore Grand Prix",
       "Circuit": {
@@ -618,7 +654,7 @@
     },
     {
       "season": "2026",
-      "round": "17",
+      "round": "18",
       "url": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix",
       "raceName": "United States Grand Prix",
       "Circuit": {
@@ -653,7 +689,7 @@
     },
     {
       "season": "2026",
-      "round": "18",
+      "round": "19",
       "url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
       "raceName": "Mexico City Grand Prix",
       "Circuit": {
@@ -688,7 +724,7 @@
     },
     {
       "season": "2026",
-      "round": "19",
+      "round": "20",
       "url": "https://en.wikipedia.org/wiki/2026_Brazilian_Grand_Prix",
       "raceName": "Brazilian Grand Prix",
       "Circuit": {
@@ -723,7 +759,7 @@
     },
     {
       "season": "2026",
-      "round": "20",
+      "round": "21",
       "url": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix",
       "raceName": "Las Vegas Grand Prix",
       "Circuit": {
@@ -758,7 +794,7 @@
     },
     {
       "season": "2026",
-      "round": "21",
+      "round": "22",
       "url": "https://en.wikipedia.org/wiki/2026_Qatar_Grand_Prix",
       "raceName": "Qatar Grand Prix",
       "Circuit": {
@@ -793,7 +829,7 @@
     },
     {
       "season": "2026",
-      "round": "22",
+      "round": "23",
       "url": "https://en.wikipedia.org/wiki/2026_Abu_Dhabi_Grand_Prix",
       "raceName": "Abu Dhabi Grand Prix",
       "Circuit": {
@@ -1600,13 +1636,13 @@
   "pitStops": [],
   "socialSentiment": {
     "schema_version": "4.0",
-    "race": "Hungarian Grand Prix",
+    "race": "Dutch Grand Prix",
     "overallSentiment": "MONITORED",
     "sentimentScore": 75,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
-      "#HungarianGrandPrix",
+      "#DutchGrandPrix",
       "#F1",
       "#F12026",
       "#Formula1",
@@ -1674,7 +1710,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-07-31T08:04:33.204314",
+    "generatedAt": "2026-07-31T11:06:21.780795",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1836,7 +1872,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-07-31T08:04:33.204716",
+    "generatedAt": "2026-07-31T11:06:21.781090",
     "facts": [],
     "teammateBattles": [
       {
