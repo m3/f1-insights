@@ -1,7 +1,11 @@
 import React from 'react';
-import { Flag, Zap, ShieldAlert, Award, Calendar, BarChart2, Gauge, Timer, AlertOctagon, Navigation, Sliders, Bell, Activity } from 'lucide-react';
+import { Flag, Zap, ShieldAlert, Award, Calendar, Gauge, Timer, AlertOctagon, Navigation, Sliders, Bell, Activity, RefreshCw } from 'lucide-react';
+import { useF1Store } from '../store/useF1Store';
 
-export default function Header({ activeTab, setActiveTab, currentRace, onOpenWebhooks }) {
+export default function Header() {
+  const { data, activeTab, setActiveTab, setIsWebhookModalOpen, fetchData, loading } = useF1Store();
+  const currentRace = data?.currentRace;
+
   return (
     <header className="glass-panel" style={{ borderRadius: '0 0 20px 20px', borderTop: 'none', padding: '16px 28px', marginBottom: '28px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
@@ -30,10 +34,29 @@ export default function Header({ activeTab, setActiveTab, currentRace, onOpenWeb
           </div>
         </div>
 
-        {/* Right Header Actions: Webhooks & Next GP */}
+        {/* Right Header Actions */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <button
-            onClick={onOpenWebhooks}
+            onClick={fetchData}
+            title="Refresh Telemetry Payload"
+            style={{
+              background: 'rgba(255, 255, 255, 0.05)',
+              border: '1px solid var(--border-subtle)',
+              borderRadius: '10px',
+              color: '#FFF',
+              padding: '8px 12px',
+              fontSize: '0.8rem',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}
+          >
+            <RefreshCw size={14} className={loading ? 'animate-spin' : ''} /> Refresh Data
+          </button>
+
+          <button
+            onClick={() => setIsWebhookModalOpen(true)}
             style={{
               background: 'rgba(0, 240, 255, 0.08)',
               border: '1px solid var(--cyan-neon)',
@@ -90,64 +113,34 @@ export default function Header({ activeTab, setActiveTab, currentRace, onOpenWeb
         paddingTop: '16px',
         overflowX: 'auto'
       }}>
-        <button
-          className={`nav-tab ${activeTab === 'brief' ? 'active' : ''}`}
-          onClick={() => setActiveTab('brief')}
-        >
+        <button className={`nav-tab ${activeTab === 'brief' ? 'active' : ''}`} onClick={() => setActiveTab('brief')}>
           <Zap size={16} /> Morning Brief
         </button>
-        <button
-          className={`nav-tab ${activeTab === 'circuit_blueprint' ? 'active' : ''}`}
-          onClick={() => setActiveTab('circuit_blueprint')}
-        >
+        <button className={`nav-tab ${activeTab === 'circuit_blueprint' ? 'active' : ''}`} onClick={() => setActiveTab('circuit_blueprint')}>
           <Navigation size={16} /> Circuit Blueprint
         </button>
-        <button
-          className={`nav-tab ${activeTab === 'telemetry_overlay' ? 'active' : ''}`}
-          onClick={() => setActiveTab('telemetry_overlay')}
-        >
+        <button className={`nav-tab ${activeTab === 'telemetry_overlay' ? 'active' : ''}`} onClick={() => setActiveTab('telemetry_overlay')}>
           <Sliders size={16} /> Telemetry Overlay
         </button>
-        <button
-          className={`nav-tab ${activeTab === 'tyre_deg' ? 'active' : ''}`}
-          onClick={() => setActiveTab('tyre_deg')}
-        >
+        <button className={`nav-tab ${activeTab === 'tyre_deg' ? 'active' : ''}`} onClick={() => setActiveTab('tyre_deg')}>
           <Activity size={16} /> Tyre Deg Simulator
         </button>
-        <button
-          className={`nav-tab ${activeTab === 'grid_penalties' ? 'active' : ''}`}
-          onClick={() => setActiveTab('grid_penalties')}
-        >
+        <button className={`nav-tab ${activeTab === 'grid_penalties' ? 'active' : ''}`} onClick={() => setActiveTab('grid_penalties')}>
           <AlertOctagon size={16} /> Grid & Time Penalties
         </button>
-        <button
-          className={`nav-tab ${activeTab === 'sectors' ? 'active' : ''}`}
-          onClick={() => setActiveTab('sectors')}
-        >
+        <button className={`nav-tab ${activeTab === 'sectors' ? 'active' : ''}`} onClick={() => setActiveTab('sectors')}>
           <Gauge size={16} /> Sector Matrix
         </button>
-        <button
-          className={`nav-tab ${activeTab === 'pitstop' ? 'active' : ''}`}
-          onClick={() => setActiveTab('pitstop')}
-        >
+        <button className={`nav-tab ${activeTab === 'pitstop' ? 'active' : ''}`} onClick={() => setActiveTab('pitstop')}>
           <Timer size={16} /> Pit Strategy
         </button>
-        <button
-          className={`nav-tab ${activeTab === 'penalties' ? 'active' : ''}`}
-          onClick={() => setActiveTab('penalties')}
-        >
+        <button className={`nav-tab ${activeTab === 'penalties' ? 'active' : ''}`} onClick={() => setActiveTab('penalties')}>
           <ShieldAlert size={16} /> Licence Points
         </button>
-        <button
-          className={`nav-tab ${activeTab === 'teammates' ? 'active' : ''}`}
-          onClick={() => setActiveTab('teammates')}
-        >
+        <button className={`nav-tab ${activeTab === 'teammates' ? 'active' : ''}`} onClick={() => setActiveTab('teammates')}>
           <Award size={16} /> Teammate Battles
         </button>
-        <button
-          className={`nav-tab ${activeTab === 'standings' ? 'active' : ''}`}
-          onClick={() => setActiveTab('standings')}
-        >
+        <button className={`nav-tab ${activeTab === 'standings' ? 'active' : ''}`} onClick={() => setActiveTab('standings')}>
           <Calendar size={16} /> Standings & Calendar
         </button>
       </div>

@@ -19,24 +19,13 @@ import TeammateBattles from './components/TeammateBattles';
 import StandingsView from './components/StandingsView';
 import SocialSentiment from './components/SocialSentiment';
 import WebhookDispatchModal from './components/WebhookDispatchModal';
-import { fetchOverviewData } from './services/api';
+import { useF1Store } from './store/useF1Store';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('brief');
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [isWebhookModalOpen, setIsWebhookModalOpen] = useState(false);
+  const { data, loading, error, activeTab, isWebhookModalOpen, setIsWebhookModalOpen, fetchData } = useF1Store();
 
   useEffect(() => {
-    fetchOverviewData()
-      .then((json) => {
-        setData(json);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error('Failed to load overview data:', err);
-        setLoading(false);
-      });
+    fetchData();
   }, []);
 
   if (loading) {
@@ -60,6 +49,18 @@ export default function App() {
     );
   }
 
+  if (error) {
+    return (
+      <div style={{ display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
+        <div className="glass-panel" style={{ padding: '32px', textAlign: 'center', maxWidth: '400px' }}>
+          <h2 className="font-orbitron text-gradient-red" style={{ marginBottom: '12px' }}>TELEMETRY LOAD ERROR</h2>
+          <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginBottom: '20px' }}>{error}</p>
+          <button className="btn-primary" onClick={fetchData}>Retry Connection</button>
+        </div>
+      </div>
+    );
+  }
+
   const currentRace = data?.currentRace;
   const driverStandings = Array.isArray(data?.driverStandings) ? data.driverStandings : [];
   const constructorStandings = Array.isArray(data?.constructorStandings) ? data.constructorStandings : [];
@@ -70,12 +71,7 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 16px 40px' }}>
-      <Header
-        activeTab={activeTab}
-        setActiveTab={setActiveTab}
-        currentRace={currentRace}
-        onOpenWebhooks={() => setIsWebhookModalOpen(true)}
-      />
+      <Header />
       
       {/* Session Countdown Header Bar */}
       <SessionCountdownHeader currentRace={currentRace} />
@@ -118,7 +114,7 @@ export default function App() {
         )}
         {activeTab === 'classification' && <SessionClassificationTable data={data} currentRace={currentRace} />}
         {activeTab === 'circuit_blueprint' && <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />}
-        {activeTab === 'telemetry_overlay' && <TelemetryOverlayTool telemetryData={data?.telemetryTraces} />}
+        {activeTab === 'telemetry_overlay' && <TelemetryOverlayTool telemetryData={data?.telemetryTraces} driverStandings={driverStandings} />}
         {activeTab === 'tyre_deg' && <TyreDegSimulator />}
         {activeTab === 'grid_penalties' && <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />}
         {activeTab === 'telemetry' && <TelemetryChart telemetryData={data?.telemetryTraces} />}
