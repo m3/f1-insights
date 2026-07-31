@@ -193,6 +193,12 @@ button, select, input, .nav-tab, .btn-primary {
   min-height: 44px;
 }
 
+@media (max-width: 1024px) {
+  div[style*="grid-template-columns: repeat(12"] > div {
+    grid-column: span 12 !important;
+  }
+}
+
 @media (max-width: 768px) {
   .nav-tab {
     padding: 12px 16px;

@@ -78,39 +78,52 @@ export default function App() {
 
       <main>
         {/* Full 20-Driver Classification Table on Overview / Brief Tab */}
+        {/* High-Density 3-Column Broadcast Command Workspace Grid */}
         {activeTab === 'brief' && (
-          <>
-            <SessionClassificationTable data={data} currentRace={currentRace} />
-            <InteractiveQuestionCard />
-            <StrategicAdvantageCard />
-            <HiddenPaceCard />
-            <EvidenceExplanationCard
-              question="Why did Norris lose position to Verstappen during Laps 42-48?"
-              observation="Norris lost 4.3 seconds to Verstappen between Laps 42 and 48."
-              evidence={[
-                "Tyre Compound & Age: Norris (Hard, 28 Laps) vs Verstappen (Medium, 12 Laps)",
-                "Stint Lap Pace Slope: Norris +0.14s/lap degradation vs Verstappen -0.02s/lap",
-                "Traffic Gap: Norris behind Stroll (Gap = 0.82s, DRS active L44-46)",
-                "Pit Exit Delta: Verstappen gained +1.8s during out-lap window"
-              ]}
-              interpretation="The available evidence suggests tyre degradation and traffic obstruction contributed more to the pace delta than raw chassis performance."
-              confidence="HIGH"
-              validationStatus="Validated"
-              lastUpdated="Lap 37 (14:22:05 UTC)"
-              blindSpots={[
-                "ERS Battery SOC is unobserved (estimated from straight-line speed traces)",
-                "Fuel mass delta is unobserved (estimated from stint lap progression)"
-              ]}
-            />
-            <BriefCard preBrief={preBrief} postBrief={postBrief} />
-            <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />
-            <TelemetryOverlayTool telemetryData={data?.telemetryTraces} driverStandings={driverStandings} />
-            <TyreDegSimulator />
-            <div style={{ marginTop: '24px' }}>
-              <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '20px', width: '100%' }}>
+            
+            {/* Left Column (4 cols): Standings & Position Deltas */}
+            <div style={{ gridColumn: 'span 4', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+              <SessionClassificationTable data={data} currentRace={currentRace} />
+              <StrategicAdvantageCard />
+              <PenaltyWatch penaltyPoints={penaltyPoints} />
             </div>
-            <SocialSentiment sentiment={data?.socialSentiment} />
-          </>
+
+            {/* Middle Column (5 cols): AI Reasoning, Telemetry & Circuit Blueprint */}
+            <div style={{ gridColumn: 'span 5', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+              <InteractiveQuestionCard />
+              <EvidenceExplanationCard
+                question="Why did Norris lose position to Verstappen during Laps 42-48?"
+                observation="Norris lost 4.3 seconds to Verstappen between Laps 42 and 48."
+                evidence={[
+                  "Tyre Compound & Age: Norris (Hard, 28 Laps) vs Verstappen (Medium, 12 Laps)",
+                  "Stint Lap Pace Slope: Norris +0.14s/lap degradation vs Verstappen -0.02s/lap",
+                  "Traffic Gap: Norris behind Stroll (Gap = 0.82s, DRS active L44-46)",
+                  "Pit Exit Delta: Verstappen gained +1.8s during out-lap window"
+                ]}
+                interpretation="The available evidence suggests tyre degradation and traffic obstruction contributed more to the pace delta than raw chassis performance."
+                confidence="HIGH"
+                validationStatus="Validated"
+                lastUpdated="Lap 37 (14:22:05 UTC)"
+                blindSpots={[
+                  "ERS Battery SOC is unobserved (estimated from straight-line speed traces)",
+                  "Fuel mass delta is unobserved (estimated from stint lap progression)"
+                ]}
+              />
+              <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />
+              <TelemetryOverlayTool telemetryData={data?.telemetryTraces} driverStandings={driverStandings} />
+            </div>
+
+            {/* Right Column (3 cols): Strategic Intelligence & Briefs */}
+            <div style={{ gridColumn: 'span 3', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+              <HiddenPaceCard />
+              <BriefCard preBrief={preBrief} postBrief={postBrief} />
+              <TyreDegSimulator />
+              <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
+              <SocialSentiment sentiment={data?.socialSentiment} />
+            </div>
+
+          </div>
         )}
         {activeTab === 'classification' && <SessionClassificationTable data={data} currentRace={currentRace} />}
         {activeTab === 'circuit_blueprint' && <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />}
