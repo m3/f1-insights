@@ -15,7 +15,7 @@ class JolpicaProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="JolpicaErgast", cache_ttl_seconds=86400)
         # Use AsyncCacheClient with SQLite backend
-        storage = hishel.AsyncSQLiteStorage()
+        storage = hishel.AsyncSqliteStorage()
         controller = hishel.Controller(cacheable_methods=["GET"], allow_stale=True)
         self.session = hishel.AsyncCacheClient(
             storage=storage,
