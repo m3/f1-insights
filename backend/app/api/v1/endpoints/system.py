@@ -10,7 +10,7 @@ if app_dir not in sys.path:
     sys.path.insert(0, app_dir)
 
 from core.database import get_db, settings
-from db.models import MasterOverviewCache
+from db.models import MasterOverviewCache, TelemetryCache, StrategyCache, SocialCache
 
 router = APIRouter()
 
@@ -47,56 +47,48 @@ import time
 
 _OVERVIEW_CACHE = {"timestamp": 0, "payload": None}
 
+def _get_cache(db: Session, model):
+    cache = db.query(model).filter(model.id == "latest").first()
+    if cache and cache.payload_json:
+        try:
+            return json.loads(cache.payload_json)
+        except Exception:
+            pass
+    return {}
+
 @router.get("/overview")
 def get_master_overview(db: Session = Depends(get_db)):
-    """Master overview endpoint returning full aggregated dashboard JSON payload with 15s in-memory TTL cache."""
+    """Master overview endpoint."""
     now = time.time()
     if _OVERVIEW_CACHE["payload"] and (now - _OVERVIEW_CACHE["timestamp"]) < 15:
         return _OVERVIEW_CACHE["payload"]
 
-    fallback_path = os.path.join(settings.BASE_DIR, "portal", "public", "data", "overview.json")
-    data = None
-
-    if os.path.exists(fallback_path):
-        try:
-            with open(fallback_path, "r") as f:
-                data = json.load(f)
-        except Exception:
-            pass
-
+    data = _get_cache(db, MasterOverviewCache)
+    
     if not data:
-        cache = db.query(MasterOverviewCache).filter(MasterOverviewCache.id == "latest").first()
-        if cache and cache.payload_json:
+        # Fallback for empty DB
+        fallback_path = os.path.join(settings.BASE_DIR, "portal", "public", "data", "overview.json")
+        if os.path.exists(fallback_path):
             try:
-                data = json.loads(cache.payload_json)
-            except Exception:
-                pass
+                with open(fallback_path, "r") as f:
+                    data = json.load(f)
+            except: pass
 
-    if data and isinstance(data, dict):
-        result = {
-            "schema_version": "4.0",
-            "provenance": data.get("provenance", {
-                "sources": ["JolpicaErgast", "FastF1", "OpenMeteo", "SocialMediaRadar"],
-                "confidence": 1.0,
-                "status": "available",
-                "is_synthetic": False
-            })
-        }
-        for k, v in data.items():
-            if k not in ["schema_version", "provenance"]:
-                result[k] = v
+    if data:
         _OVERVIEW_CACHE["timestamp"] = now
-        _OVERVIEW_CACHE["payload"] = result
-        return result
+        _OVERVIEW_CACHE["payload"] = data
+        return data
 
-    empty_res = {
-        "schema_version": "4.0",
-        "status": "pending_data_ingestion",
-        "provenance": {
-            "sources": ["JolpicaErgast"],
-            "confidence": 0.0,
-            "status": "pending",
-            "is_synthetic": False
-        }
-    }
-    return empty_res
+    return {"status": "pending_data_ingestion"}
+
+@router.get("/telemetry")
+def get_telemetry(db: Session = Depends(get_db)):
+    return _get_cache(db, TelemetryCache)
+
+@router.get("/strategy")
+def get_strategy(db: Session = Depends(get_db)):
+    return _get_cache(db, StrategyCache)
+
+@router.get("/social")
+def get_social(db: Session = Depends(get_db)):
+    return _get_cache(db, SocialCache)

@@ -16,38 +16,34 @@ class SocialProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="SocialRadar", cache_ttl_seconds=300)
 
-    def fetch_social_sentiment(self, race_name: str = "Hungarian Grand Prix") -> ProviderResponse:
-        """Fetch media radar metadata and monitored accounts."""
-        entities = {}
-        if os.path.exists(CONFIG_PATH):
-            try:
-                with open(CONFIG_PATH, "r") as f:
-                    entities = json.load(f)
-            except Exception as e:
-                logger.warning(f"Error loading entities.json: {e}")
-
-        race_tag = f"#{race_name.replace(' ', '')}" if race_name else "#F1"
-        hashtags = [race_tag] + entities.get("hashtags", ["#F12026", "#TechF1"])
-        journalists = entities.get("journalists_and_analysts", [])
-        youtube_sources = entities.get("youtube_sources", [])
-
-        payload = {
-            "schema_version": "4.0",
-            "race": race_name,
-            "overallSentiment": "MONITORED",
-            "sentimentScore": 75,
-            "monitoredAccountsCount": len(entities.get("official_accounts", [])) + len(journalists),
-            "youtubeSourcesCount": len(youtube_sources),
-            "trendingHashtags": hashtags[:5],
-            "keywords": entities.get("keywords", {}),
-            "youtubeSources": youtube_sources,
-            "breakingNewsTweets": [],
-            "xTracksideFeed": []
-        }
-
-        return ProviderResponse(
-            data=payload,
-            source="SocialMediaRadar",
-            confidence=1.0,
-            status="available"
-        )
+    async def fetch_social_sentiment(self, race_name: str = "Hungarian Grand Prix") -> ProviderResponse:
+        """Fetch media radar metadata and monitored accounts via F1SentimentEngine."""
+        try:
+            import asyncio
+            from data_pipeline.analytics.sentiment import F1SentimentEngine
+            
+            # Use the newly updated dynamic RSS + NLP engine in a thread pool to avoid blocking
+            payload = await asyncio.to_thread(F1SentimentEngine.get_race_sentiment_summary, race_name)
+            
+            return ProviderResponse(
+                data=payload,
+                source="SocialMediaRadar",
+                confidence=1.0,
+                status="available"
+            )
+        except Exception as e:
+            logger.error(f"Failed to run F1SentimentEngine: {e}")
+            # Fallback structure if engine fails
+            return ProviderResponse(
+                data={
+                    "schema_version": "4.0",
+                    "race": race_name,
+                    "overallSentiment": "OFFLINE",
+                    "sentimentScore": 0,
+                    "breakingNewsTweets": [],
+                    "xTracksideFeed": []
+                },
+                source="SocialMediaRadar",
+                confidence=0.0,
+                status="error"
+            )

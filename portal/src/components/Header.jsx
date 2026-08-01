@@ -29,7 +29,7 @@ export default function Header() {
               F1 INSIGHTS HQ
             </h1>
             <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-              Telemetry Analysis & Weekend Briefings • Powered by TracingInsights
+              Strategic Companion & Paddock Radar
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function Header() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <button
             onClick={fetchData}
-            title="Refresh Telemetry Payload"
+            title="Refresh Intelligence Payload"
             style={{
               background: 'rgba(255, 255, 255, 0.05)',
               border: '1px solid var(--border-subtle)',
@@ -114,31 +114,19 @@ export default function Header() {
         overflowX: 'auto'
       }}>
         <button className={`nav-tab ${activeTab === 'brief' ? 'active' : ''}`} onClick={() => setActiveTab('brief')}>
-          <Zap size={16} /> Morning Brief
-        </button>
-        <button className={`nav-tab ${activeTab === 'circuit_blueprint' ? 'active' : ''}`} onClick={() => setActiveTab('circuit_blueprint')}>
-          <Navigation size={16} /> Circuit Blueprint
-        </button>
-        <button className={`nav-tab ${activeTab === 'telemetry_overlay' ? 'active' : ''}`} onClick={() => setActiveTab('telemetry_overlay')}>
-          <Sliders size={16} /> Telemetry Overlay
+          <Zap size={16} /> Intelligence Hub
         </button>
         <button className={`nav-tab ${activeTab === 'tyre_deg' ? 'active' : ''}`} onClick={() => setActiveTab('tyre_deg')}>
           <Activity size={16} /> Tyre Deg Simulator
         </button>
-        <button className={`nav-tab ${activeTab === 'grid_penalties' ? 'active' : ''}`} onClick={() => setActiveTab('grid_penalties')}>
-          <AlertOctagon size={16} /> Grid & Time Penalties
-        </button>
-        <button className={`nav-tab ${activeTab === 'sectors' ? 'active' : ''}`} onClick={() => setActiveTab('sectors')}>
-          <Gauge size={16} /> Sector Matrix
-        </button>
         <button className={`nav-tab ${activeTab === 'pitstop' ? 'active' : ''}`} onClick={() => setActiveTab('pitstop')}>
           <Timer size={16} /> Pit Strategy
         </button>
+        <button className={`nav-tab ${activeTab === 'grid_penalties' ? 'active' : ''}`} onClick={() => setActiveTab('grid_penalties')}>
+          <AlertOctagon size={16} /> Grid Penalties
+        </button>
         <button className={`nav-tab ${activeTab === 'penalties' ? 'active' : ''}`} onClick={() => setActiveTab('penalties')}>
           <ShieldAlert size={16} /> Licence Points
-        </button>
-        <button className={`nav-tab ${activeTab === 'teammates' ? 'active' : ''}`} onClick={() => setActiveTab('teammates')}>
-          <Award size={16} /> Teammate Battles
         </button>
         <button className={`nav-tab ${activeTab === 'standings' ? 'active' : ''}`} onClick={() => setActiveTab('standings')}>
           <Calendar size={16} /> Standings & Calendar

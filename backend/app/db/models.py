@@ -93,3 +93,27 @@ class MasterOverviewCache(Base):
     id = Column(String, primary_key=True, default="latest")
     payload_json = Column(Text, nullable=False)
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+class TelemetryCache(Base):
+    __tablename__ = "telemetry_cache"
+    __table_args__ = {'extend_existing': True}
+
+    id = Column(String, primary_key=True, default="latest")
+    payload_json = Column(Text, nullable=False)
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+class StrategyCache(Base):
+    __tablename__ = "strategy_cache"
+    __table_args__ = {'extend_existing': True}
+
+    id = Column(String, primary_key=True, default="latest")
+    payload_json = Column(Text, nullable=False)
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+class SocialCache(Base):
+    __tablename__ = "social_cache"
+    __table_args__ = {'extend_existing': True}
+
+    id = Column(String, primary_key=True, default="latest")
+    payload_json = Column(Text, nullable=False)
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())

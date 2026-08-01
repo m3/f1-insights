@@ -1,0 +1,30 @@
+{
+  "gridPenalties": {
+    "startingGridImpacts": [],
+    "inRaceTimePenalties": []
+  },
+  "penaltyWatch": {
+    "high_risk_drivers": [
+      {
+        "driver": "Esteban Ocon",
+        "code": "OCO",
+        "points": 9,
+        "max": 12,
+        "at_risk": true,
+        "expiry_next": "2026-09-01"
+      },
+      {
+        "driver": "Lance Stroll",
+        "code": "STR",
+        "points": 8,
+        "max": 12,
+        "at_risk": true,
+        "expiry_next": "2026-10-15"
+      }
+    ],
+    "total_drivers_flagged": 2,
+    "summary": "2 driver(s) currently on penalty watch (>8 points)."
+  },
+  "tyreStrategy": [],
+  "pitStops": []
+}

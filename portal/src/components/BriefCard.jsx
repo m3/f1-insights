@@ -155,25 +155,25 @@ export default function BriefCard({ preBrief, postBrief }) {
 
       {/* Main Markdown Body */}
       {currentBrief.markdown && (
-        <div className="glass-panel" style={{ padding: '28px', lineHeight: '1.6', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-          <div style={{ color: '#FFF' }}>
+        <div className="glass-panel" style={{ padding: '32px', lineHeight: '1.8', fontSize: '1.05rem', color: 'var(--text-main)', letterSpacing: '0.2px' }}>
+          <div>
             {currentBrief.markdown.split('\n\n').map((paragraph, pIdx) => {
               if (paragraph.startsWith('# ')) {
-                return <h1 key={pIdx} className="font-orbitron text-gradient-red" style={{ fontSize: '1.5rem', marginBottom: '16px' }}>{paragraph.replace('# ', '')}</h1>;
+                return <h1 key={pIdx} className="font-orbitron text-gradient-red" style={{ fontSize: '1.8rem', marginBottom: '20px', lineHeight: '1.3' }}>{paragraph.replace('# ', '')}</h1>;
               }
               if (paragraph.startsWith('### ')) {
-                return <h3 key={pIdx} className="font-orbitron" style={{ fontSize: '1.1rem', color: '#FFF', marginTop: '20px', marginBottom: '10px' }}>{paragraph.replace('### ', '')}</h3>;
+                return <h3 key={pIdx} className="font-orbitron" style={{ fontSize: '1.25rem', color: '#FFF', marginTop: '28px', marginBottom: '14px' }}>{paragraph.replace('### ', '')}</h3>;
               }
               if (paragraph.startsWith('- ')) {
                 return (
-                  <ul key={pIdx} style={{ paddingLeft: '20px', marginBottom: '12px' }}>
+                  <ul key={pIdx} style={{ paddingLeft: '24px', marginBottom: '16px' }}>
                     {paragraph.split('\n').map((li, lIdx) => (
-                      <li key={lIdx} style={{ marginBottom: '6px' }}>{li.replace('- ', '')}</li>
+                      <li key={lIdx} style={{ marginBottom: '8px', color: 'var(--text-muted)' }}>{li.replace('- ', '')}</li>
                     ))}
                   </ul>
                 );
               }
-              return <p key={pIdx} style={{ marginBottom: '14px' }}>{paragraph}</p>;
+              return <p key={pIdx} style={{ marginBottom: '20px', color: 'var(--text-muted)' }}>{paragraph}</p>;
             })}
           </div>
         </div>

@@ -42,6 +42,8 @@ def populate_initial_db_cache():
     finally:
         db.close()
 
+from worker.tasks import pipeline_worker_loop
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup: Initialize DB Tables & Security Checks
@@ -52,9 +54,18 @@ async def lifespan(app: FastAPI):
         
     Base.metadata.create_all(bind=engine)
     populate_initial_db_cache()
+    
+    # Start the persistent background worker
+    worker_task = asyncio.create_task(pipeline_worker_loop())
+    
     yield
     # Shutdown
     logger.info("🛑 Shutting down F1 Insights FastAPI Monolith...")
+    worker_task.cancel()
+    try:
+        await worker_task
+    except asyncio.CancelledError:
+        pass
 
 app = FastAPI(
     title=settings.PROJECT_NAME,

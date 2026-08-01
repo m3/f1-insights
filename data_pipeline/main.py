@@ -231,8 +231,8 @@ def run_pipeline(mode: str = "full"):
         print(f"🔔 Triggering Post-Race Webhook Notification...")
         notifier.send_discord_brief(post_brief_portal)
 
-    # 6. Export Master overview.json
-    master_overview = {
+    # 6. Export Chunked Payloads for Scalability
+    core_overview = {
         "schema_version": "5.0",
         "updatedAt": datetime.utcnow().isoformat() + "Z",
         "provenance": {
@@ -248,27 +248,36 @@ def run_pipeline(mode: str = "full"):
         "schedule": schedule,
         "driverStandings": driver_standings,
         "constructorStandings": constructor_standings,
-        "sectorMatrix": sector_matrix,
-        "gridPenalties": grid_penalties,
-        "circuitSpecs": circuit_specs,
-        "penaltyWatch": penalty_watch,
-        "teammateBattles": teammate_battles,
-        "tyreStrategy": tyre_strategy,
-        "pitStops": pit_stops,
-        "socialSentiment": social_sentiment,
         "latestPreBrief": pre_brief_portal,
-        "latestPostBrief": post_brief_portal
+        "latestPostBrief": post_brief_portal,
+        "teammateBattles": teammate_battles
+    }
+
+    telemetry_data = {
+        "sectorMatrix": sector_matrix,
+        "circuitSpecs": circuit_specs
+    }
+
+    strategy_data = {
+        "gridPenalties": grid_penalties,
+        "penaltyWatch": penalty_watch,
+        "tyreStrategy": tyre_strategy,
+        "pitStops": pit_stops
     }
 
     for target_dir in [portal_data_dir, root_data_dir, dist_data_dir]:
         os.makedirs(target_dir, exist_ok=True)
         with open(os.path.join(target_dir, "overview.json"), "w") as f:
-            json.dump(master_overview, f, indent=2)
+            json.dump(core_overview, f, indent=2)
+        with open(os.path.join(target_dir, "telemetry.json"), "w") as f:
+            json.dump(telemetry_data, f, indent=2)
+        with open(os.path.join(target_dir, "strategy.json"), "w") as f:
+            json.dump(strategy_data, f, indent=2)
         with open(os.path.join(target_dir, "social_feed.json"), "w") as f:
             json.dump(social_sentiment, f, indent=2)
 
-    sync_sqlite_cache(db_path, master_overview, social_sentiment)
-    print("✅ F1 Insights Full Pipeline v4.0 execution completed successfully!")
+    sync_sqlite_cache(db_path, core_overview, social_sentiment)
+    print("✅ F1 Insights Full Pipeline v4.0 execution completed successfully (Chunked Payloads)!")
 
 if __name__ == "__main__":
     mode_arg = "full"

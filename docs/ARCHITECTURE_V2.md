@@ -55,11 +55,11 @@ The **`f1-insights`** platform is evolving from an automated static-export scrip
  ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
  │                                           PERSISTENCE & STORAGE LAYER                                           │
  │                                                                                                                 │
- │  ┌─────────────────────────────────────────────────────────────┐  ┌──────────────────────────────────────────┐  │
- │  │                  SQLite (WAL Mode)                          │  │              DuckDB (Analytical)         │  │
- │  │  • Single Source of Truth for Schedule, Drivers, Standings  │  │  • High-performance lap telemetry        │  │
- │  │  • Penalty Points, Briefings, Social Feed, Facts Engine     │  │    aggregations & corner speed deltas     │  │
- │  └─────────────────────────────────────────────────────────────┘  └──────────────────────────────────────────┘  │
+ │  ┌──────────────────────────────────────────────────────────────────────────────────────────────────────┐  │
+ │  │                                   SQLite (WAL Mode)                                                  │  │
+ │  │  • Master CQRS Cache Tables (JSON Blobs) for zero-latency dashboard rendering                        │  │
+ │  │  • Relational schema for historical Standings, Briefs, and Schedule                                  │  │
+ │  └──────────────────────────────────────────────────────────────────────────────────────────────────────┘  │
  └─────────────────────────────────────────────────────────┬───────────────────────────────────────────────────────┘
                                                            │
                                                            ▼
@@ -101,9 +101,9 @@ The **`f1-insights`** platform is evolving from an automated static-export scrip
 - **Responsibilities**:
   - Fetches external API updates (Jolpica, TracingInsights, X/YouTube feeds).
   - Executes telemetry calculations (clean-air pace, tyre degradation slopes, corner speed deltas).
-  - Maintains persistent `httpx.AsyncClient` connection pools.
+  - Maintains persistent `hishel.AsyncCacheClient` connection pools.
   - Implements exponential backoff and circuit breaker logic for external API failures.
-- **Dependencies**: Shared HTTP Client, SQLite/DuckDB.
+- **Dependencies**: Shared HTTP Client, SQLite (Cache Tables).
 
 ### **4. Calendar-Aware Scheduler**
 - **Purpose**: Controls data fetching frequency based on Formula 1 calendar state.
@@ -217,7 +217,8 @@ f1-insights/
 
 ## 5. Database Design & Storage Strategy
 
-The database uses **SQLite 3** configured in **Write-Ahead Logging (WAL)** mode for concurrent read/write throughput. Heavy telemetry aggregation queries utilize **DuckDB** reading parquet files.
+The database uses **SQLite 3** configured in **Write-Ahead Logging (WAL)** mode for concurrent read/write throughput. 
+Instead of executing heavy SQL JOINs on every page load, the pipeline employs a **CQRS (Command Query Responsibility Segregation)** pattern. The async worker calculates complex telemetry and writes pre-computed JSON blobs into single-row `Cache` tables. The FastAPI endpoints simply read and serve these JSON strings, resulting in sub-millisecond API response times for the React frontend.
 
 ### **PRAGMA Optimization Settings (SQLite)**
 ```sql
@@ -231,6 +232,12 @@ PRAGMA foreign_keys = ON;
 ### **Core Schema DDL**
 
 ```sql
+-- CQRS Cache Tables (Pre-computed JSON for Instant API Responses)
+CREATE TABLE IF NOT EXISTS master_overview_cache (id TEXT PRIMARY KEY, payload_json TEXT);
+CREATE TABLE IF NOT EXISTS telemetry_cache (id TEXT PRIMARY KEY, payload_json TEXT);
+CREATE TABLE IF NOT EXISTS strategy_cache (id TEXT PRIMARY KEY, payload_json TEXT);
+CREATE TABLE IF NOT EXISTS social_cache (id TEXT PRIMARY KEY, payload_json TEXT);
+
 -- Season Calendar & Sessions
 CREATE TABLE IF NOT EXISTS races (
     id TEXT PRIMARY KEY, -- e.g., '2026-11'
@@ -429,52 +436,32 @@ The AI Briefing engine follows a strict, decoupled multi-stage pipeline guarante
 
 ---
 
-## 10. Containerized Deployment (Docker Compose)
+## 10. VPS Deployment (PM2 & Ecosystem)
 
-### **`docker-compose.yml`**
+The monolith is deployed natively on a single VPS (Ubuntu) using **PM2** for process management instead of Docker, reducing memory overhead and complexity.
 
-```yaml
-version: '3.8'
+### **`ecosystem.config.js`**
 
-services:
-  gateway:
-    image: nginx:alpine
-    container_name: f1-gateway
-    restart: always
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./docker/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./frontend/dist:/usr/share/nginx/html:ro
-      - ./docker/certs:/etc/nginx/certs:ro
-    depends_on:
-      - backend
-
-  backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    container_name: f1-backend
-    restart: always
-    environment:
-      - PORT=8000
-      - ENVIRONMENT=production
-      - SQLITE_DB_PATH=/app/data/f1_insights.db
-      - DISCORD_WEBHOOK_URL=${DISCORD_WEBHOOK_URL}
-      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
-      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-    volumes:
-      - f1_data:/app/data
-      - ./config:/app/config:ro
-    expose:
-      - "8000"
-
-volumes:
-  f1_data:
-    driver: local
+```javascript
+module.exports = {
+  apps: [
+    {
+      name: "f1-insights-api",
+      script: "uvicorn",
+      args: "main:app --host 127.0.0.1 --port 8000 --workers 2",
+      cwd: "/var/www/f1-insights/backend",
+      interpreter: "python3",
+      env: {
+        ENVIRONMENT: "production",
+        SQLITE_DB_PATH: "/var/www/f1-insights/backend/f1_insights.db"
+      }
+    }
+  ]
+};
 ```
+
+### **Nginx Reverse Proxy**
+Nginx serves the statically built React assets from `/var/www/f1-insights/frontend/dist` and proxies `/api` to `127.0.0.1:8000`. TLS is handled by Certbot.
 
 ---
 

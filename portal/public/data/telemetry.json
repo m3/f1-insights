@@ -1,0 +1,9 @@
+{
+  "sectorMatrix": [],
+  "circuitSpecs": {
+    "circuitName": "Circuit Park Zandvoort",
+    "circuitId": "zandvoort",
+    "lat": "52.3888",
+    "lng": "4.54092"
+  }
+}

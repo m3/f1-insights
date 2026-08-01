@@ -34,17 +34,68 @@ class F1SentimentEngine:
 
     @classmethod
     def get_race_sentiment_summary(cls, race_name: str) -> Dict[str, Any]:
-        """Returns sentiment distribution, X (Twitter) breaking news, and YouTube watchalong feeds."""
+        """Returns sentiment distribution, breaking news, and YouTube watchalong feeds via dynamic RSS/NLP."""
+        import feedparser
+        try:
+            from textblob import TextBlob
+        except ImportError:
+            TextBlob = None
+
         entities = cls.load_monitored_entities()
         
         race_tag = f"#{race_name.replace(' ', '')}" if race_name else "#F1"
         hashtags = [race_tag] + entities.get("hashtags", ["#F12026", "#TechF1"])
 
+        # Fetch basic RSS feed for F1 news (Google News RSS query)
+        # Using a reliable public RSS endpoint for motorsport news
+        query = race_name.replace(" ", "+") if race_name else "Formula+1"
+        rss_url = f"https://news.google.com/rss/search?q={query}+F1&hl=en-US&gl=US&ceid=US:en"
+        
+        feed_data = []
+        overall_sentiment_score = 75 # Default
+        
+        try:
+            parsed_feed = feedparser.parse(rss_url)
+            total_polarity = 0
+            count = 0
+            
+            for entry in parsed_feed.entries[:5]: # Top 5 news items
+                text = entry.title
+                polarity = 0
+                if TextBlob:
+                    blob = TextBlob(text)
+                    polarity = blob.sentiment.polarity
+                    total_polarity += polarity
+                    count += 1
+                
+                # Convert polarity (-1 to 1) to a subjective weight logic for display
+                # F1 news is often neutral or technical.
+                feed_data.append({
+                    "author": entry.source.title if hasattr(entry, 'source') else "F1 Media",
+                    "handle": "NewsRadar",
+                    "type": "Media Outlet",
+                    "weight": 0.8,
+                    "text": text,
+                    "likes": "N/A",
+                    "retweets": "N/A",
+                    "time": entry.published if hasattr(entry, 'published') else "Recent"
+                })
+                
+            if count > 0:
+                avg_polarity = total_polarity / count
+                # Map -1..1 to 0..100 roughly
+                overall_sentiment_score = int(((avg_polarity + 1) / 2) * 100)
+                
+        except Exception as e:
+            logger.warning(f"Failed to fetch or parse RSS feed: {e}")
+
         # Driver sentiment ranking built from configured active drivers
         drivers = entities.get("drivers", [])
         driver_rankings = []
         for i, d in enumerate(drivers[:6]):
-            score = 88 - (i * 3)
+            # Dynamic pseudo-scoring for now since we can't easily query individual driver mentions without high API limits
+            # but we base it on the overall sentiment trend
+            score = min(100, max(0, overall_sentiment_score + (10 - i * 4)))
             driver_rankings.append({
                 "driver": d.get("name"),
                 "code": d.get("code"),
@@ -52,66 +103,31 @@ class F1SentimentEngine:
                 "team": d.get("team"),
                 "score": score,
                 "sentiment": "Positive" if score > 78 else "Mixed",
-                "buzz": f"High engagement around @{d.get('handle')}"
+                "buzz": f"Monitored engagement around @{d.get('handle')}"
             })
 
         journalists = entities.get("journalists_and_analysts", [])
         youtube_sources = entities.get("youtube_sources", [])
 
-        feed = [
-            {
-                "author": "@TracingInsights",
-                "handle": "TracingInsights",
-                "type": "Data Telemetry",
-                "weight": 0.95,
-                "text": "Telemetry breakdown: McLaren carrying +4.2 km/h through Turn 3 banking compared to Red Bull. Full corner data in bio.",
-                "likes": "2.4k",
-                "retweets": "340",
-                "time": "2h ago"
-            },
-            {
-                "author": "@F1",
-                "handle": "F1",
-                "type": "Official Broadcaster",
-                "weight": 1.0,
-                "text": "STEWARDS DECISION: No further action regarding the Turn 1 lap 1 entry between NOR and VER.",
-                "likes": "18.1k",
-                "retweets": "1.9k",
-                "time": "4h ago"
-            },
-            {
-                "author": "@AlbertFabrega",
-                "handle": "AlbertFabrega",
-                "type": "Technical Upgrades",
-                "weight": 0.9,
-                "text": "New floor edge winglet spotted on the Ferrari SF-26. Aiming to improve low-speed downforce stability.",
-                "likes": "4.1k",
-                "retweets": "512",
-                "time": "6h ago"
-            },
-            {
-                "author": "@peterdwindsor",
-                "handle": "peterdwindsor",
-                "type": "Driving Style Debrief",
-                "youtube": "@peterwindsor",
-                "weight": 0.9,
-                "text": "Fascinating corner entry throttle modulation from Kimi Antonelli into Turn 4. Video debrief uploading soon.",
-                "likes": "3.2k",
-                "retweets": "410",
-                "time": "7h ago"
-            }
-        ]
+        # Assign sentiment descriptor based on score
+        sentiment_label = "NEUTRAL"
+        if overall_sentiment_score > 80:
+            sentiment_label = "HIGHLY HYPED"
+        elif overall_sentiment_score > 60:
+            sentiment_label = "POSITIVE"
+        elif overall_sentiment_score < 40:
+            sentiment_label = "CONTROVERSIAL"
 
         return {
             "version": entities.get("version", "2026.3"),
-            "overallSentiment": "HIGHLY HYPED",
-            "sentimentScore": 84,
+            "overallSentiment": sentiment_label,
+            "sentimentScore": overall_sentiment_score,
             "monitoredAccountsCount": len(entities.get("official_accounts", [])) + len(journalists),
             "youtubeSourcesCount": len(youtube_sources),
             "trendingHashtags": hashtags[:5],
             "keywords": entities.get("keywords", {}),
             "youtubeSources": youtube_sources,
             "driverSentimentRanking": driver_rankings,
-            "breakingNewsTweets": feed,
-            "xTracksideFeed": feed
+            "breakingNewsTweets": feed_data,
+            "xTracksideFeed": feed_data
         }

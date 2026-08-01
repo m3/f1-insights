@@ -2,17 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import SessionCountdownHeader from './components/SessionCountdownHeader';
 import SessionClassificationTable from './components/SessionClassificationTable';
-import EvidenceExplanationCard from './components/EvidenceExplanationCard';
-import StrategicAdvantageCard from './components/StrategicAdvantageCard';
-import HiddenPaceCard from './components/HiddenPaceCard';
-import InteractiveQuestionCard from './components/InteractiveQuestionCard';
 import BriefCard from './components/BriefCard';
-import CircuitBlueprintCard from './components/CircuitBlueprintCard';
-import TelemetryOverlayTool from './components/TelemetryOverlayTool';
 import TyreDegSimulator from './components/TyreDegSimulator';
 import GridPenaltiesTracker from './components/GridPenaltiesTracker';
-import TelemetryChart from './components/TelemetryChart';
-import SectorMatrix from './components/SectorMatrix';
 import PitStrategyCalculator from './components/PitStrategyCalculator';
 import PenaltyWatch from './components/PenaltyWatch';
 import TeammateBattles from './components/TeammateBattles';
@@ -42,7 +34,7 @@ export default function App() {
             margin: '0 auto 16px'
           }} />
           <div className="font-orbitron" style={{ color: '#FFF', fontSize: '1.1rem' }}>
-            LOADING TELEMETRY DATA...
+            SYNTHESIZING RACE INTELLIGENCE...
           </div>
         </div>
       </div>
@@ -53,9 +45,9 @@ export default function App() {
     return (
       <div style={{ display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
         <div className="glass-panel" style={{ padding: '32px', textAlign: 'center', maxWidth: '400px' }}>
-          <h2 className="font-orbitron text-gradient-red" style={{ marginBottom: '12px' }}>TELEMETRY LOAD ERROR</h2>
+          <h2 className="font-orbitron text-gradient-red" style={{ marginBottom: '12px' }}>INTELLIGENCE FEED DISCONNECTED</h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginBottom: '20px' }}>{error}</p>
-          <button className="btn-primary" onClick={fetchData}>Retry Connection</button>
+          <button className="btn-primary" onClick={fetchData}>Re-establish Connection</button>
         </div>
       </div>
     );
@@ -70,68 +62,60 @@ export default function App() {
   const postBrief = data?.latestPostBrief;
 
   return (
-    <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 16px 40px' }}>
+    <div style={{ maxWidth: '1440px', margin: '0 auto', padding: '0 16px 40px' }}>
       <Header />
       
       {/* Session Countdown Header Bar */}
       <SessionCountdownHeader currentRace={currentRace} />
 
       <main>
-        {/* Full 20-Driver Classification Table on Overview / Brief Tab */}
-        {/* High-Density 3-Column Broadcast Command Workspace Grid */}
         {activeTab === 'brief' && (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '20px', width: '100%' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '24px', width: '100%', marginTop: '24px' }}>
             
-            {/* Left Column (4 cols): Standings & Position Deltas */}
-            <div style={{ gridColumn: 'span 4', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            {/* COLUMN 1: The Strategy Desk (4 cols) */}
+            <div style={{ gridColumn: 'span 4', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+              <div style={{ borderBottom: '2px solid #FF1801', paddingBottom: '8px', marginBottom: '8px' }}>
+                <h3 className="font-orbitron" style={{ margin: 0, fontSize: '1.2rem', color: '#FFF' }}>THE STRATEGY DESK</h3>
+                <p style={{ margin: '4px 0 0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>Data-driven forecasting & tactical analysis</p>
+              </div>
               <SessionClassificationTable data={data} currentRace={currentRace} />
-              <StrategicAdvantageCard />
-              <PenaltyWatch penaltyPoints={penaltyPoints} />
-            </div>
-
-            {/* Middle Column (5 cols): AI Reasoning, Telemetry & Circuit Blueprint */}
-            <div style={{ gridColumn: 'span 5', display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              <InteractiveQuestionCard />
-              <EvidenceExplanationCard
-                question="Why did Norris lose position to Verstappen during Laps 42-48?"
-                observation="Norris lost 4.3 seconds to Verstappen between Laps 42 and 48."
-                evidence={[
-                  "Tyre Compound & Age: Norris (Hard, 28 Laps) vs Verstappen (Medium, 12 Laps)",
-                  "Stint Lap Pace Slope: Norris +0.14s/lap degradation vs Verstappen -0.02s/lap",
-                  "Traffic Gap: Norris behind Stroll (Gap = 0.82s, DRS active L44-46)",
-                  "Pit Exit Delta: Verstappen gained +1.8s during out-lap window"
-                ]}
-                interpretation="The available evidence suggests tyre degradation and traffic obstruction contributed more to the pace delta than raw chassis performance."
-                confidence="HIGH"
-                validationStatus="Validated"
-                lastUpdated="Lap 37 (14:22:05 UTC)"
-                blindSpots={[
-                  "ERS Battery SOC is unobserved (estimated from straight-line speed traces)",
-                  "Fuel mass delta is unobserved (estimated from stint lap progression)"
-                ]}
-              />
-              <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />
-              <TelemetryOverlayTool telemetryData={data?.telemetryTraces} driverStandings={driverStandings} />
-            </div>
-
-            {/* Right Column (3 cols): Strategic Intelligence & Briefs */}
-            <div style={{ gridColumn: 'span 3', display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              <HiddenPaceCard />
-              <BriefCard preBrief={preBrief} postBrief={postBrief} />
               <TyreDegSimulator />
+              <PitStrategyCalculator pitStopsData={data?.pitStops} />
               <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
+              <TeammateBattles battles={teammateBattles} />
+            </div>
+
+            {/* COLUMN 2: AI Intelligence Briefings (4 cols) */}
+            <div style={{ gridColumn: 'span 4', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+              <div style={{ borderBottom: '2px solid var(--cyan-neon)', paddingBottom: '8px', marginBottom: '8px' }}>
+                <h3 className="font-orbitron" style={{ margin: 0, fontSize: '1.2rem', color: '#FFF' }}>INTELLIGENCE BRIEFINGS</h3>
+                <p style={{ margin: '4px 0 0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>AI-synthesized narrative reports</p>
+              </div>
+              <BriefCard preBrief={preBrief} postBrief={postBrief} />
+            </div>
+
+            {/* COLUMN 3: The Paddock Radar (4 cols) */}
+            <div style={{ gridColumn: 'span 4', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+              <div style={{ borderBottom: '2px solid #C084FC', paddingBottom: '8px', marginBottom: '8px' }}>
+                <h3 className="font-orbitron" style={{ margin: 0, fontSize: '1.2rem', color: '#FFF' }}>PADDOCK RADAR</h3>
+                <p style={{ margin: '4px 0 0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>Live news, drama, and regulatory scrutiny</p>
+              </div>
+              <PenaltyWatch penaltyPoints={penaltyPoints} />
               <SocialSentiment sentiment={data?.socialSentiment} />
+              <StandingsView
+                driverStandings={driverStandings}
+                constructorStandings={constructorStandings}
+                schedule={data?.schedule || []}
+              />
             </div>
 
           </div>
         )}
+        
+        {/* Keep isolated tabs for focused viewing if user clicks on nav links */}
         {activeTab === 'classification' && <SessionClassificationTable data={data} currentRace={currentRace} />}
-        {activeTab === 'circuit_blueprint' && <CircuitBlueprintCard currentRace={currentRace} circuitSpecsData={data?.circuitSpecs} />}
-        {activeTab === 'telemetry_overlay' && <TelemetryOverlayTool telemetryData={data?.telemetryTraces} driverStandings={driverStandings} />}
         {activeTab === 'tyre_deg' && <TyreDegSimulator />}
         {activeTab === 'grid_penalties' && <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />}
-        {activeTab === 'telemetry' && <TelemetryChart telemetryData={data?.telemetryTraces} />}
-        {activeTab === 'sectors' && <SectorMatrix sectorData={data?.sectorMatrix} />}
         {activeTab === 'pitstop' && <PitStrategyCalculator pitStopsData={data?.pitStops} />}
         {activeTab === 'penalties' && <PenaltyWatch penaltyPoints={penaltyPoints} />}
         {activeTab === 'teammates' && <TeammateBattles battles={teammateBattles} />}

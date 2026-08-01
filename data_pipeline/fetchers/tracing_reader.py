@@ -39,10 +39,18 @@ class TracingInsightsReader:
             f"https://cdn.staticdelivr.com/gh/TracingInsights/2026/{subpath}",
             f"https://raw.githubusercontent.com/TracingInsights/2026/main/{subpath}"
         ]
-        import requests
+        
+        import requests_cache
+        session = requests_cache.CachedSession(
+            'tracing_cdn_cache',
+            backend='sqlite',
+            use_cache_dir=True,
+            cache_control=True,
+            expire_after=300
+        )
         for url in cdn_urls:
             try:
-                res = requests.get(url, timeout=5)
+                res = session.get(url, timeout=5)
                 if res.status_code == 200:
                     return res.json()
             except Exception:

@@ -1,8 +1,7 @@
 {
-  "schema_version": "4.0",
-  "race": "Hungarian Grand Prix",
-  "overallSentiment": "MONITORED",
-  "sentimentScore": 75,
+  "version": "2026.3",
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 57,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -65,6 +64,164 @@
       "focus": "Technical Upgrades & Paddock Debriefs"
     }
   ],
-  "breakingNewsTweets": [],
-  "xTracksideFeed": []
+  "driverSentimentRanking": [
+    {
+      "driver": "Lando Norris",
+      "code": "NOR",
+      "handle": "LandoNorris",
+      "team": "McLaren",
+      "score": 67,
+      "sentiment": "Mixed",
+      "buzz": "Monitored engagement around @LandoNorris"
+    },
+    {
+      "driver": "Oscar Piastri",
+      "code": "PIA",
+      "handle": "OscarPiastri",
+      "team": "McLaren",
+      "score": 63,
+      "sentiment": "Mixed",
+      "buzz": "Monitored engagement around @OscarPiastri"
+    },
+    {
+      "driver": "Charles Leclerc",
+      "code": "LEC",
+      "handle": "Charles_Leclerc",
+      "team": "Ferrari",
+      "score": 59,
+      "sentiment": "Mixed",
+      "buzz": "Monitored engagement around @Charles_Leclerc"
+    },
+    {
+      "driver": "Lewis Hamilton",
+      "code": "HAM",
+      "handle": "LewisHamilton",
+      "team": "Ferrari",
+      "score": 55,
+      "sentiment": "Mixed",
+      "buzz": "Monitored engagement around @LewisHamilton"
+    },
+    {
+      "driver": "Max Verstappen",
+      "code": "VER",
+      "handle": "Max33Verstappen",
+      "team": "Red Bull",
+      "score": 51,
+      "sentiment": "Mixed",
+      "buzz": "Monitored engagement around @Max33Verstappen"
+    },
+    {
+      "driver": "Liam Lawson",
+      "code": "LAW",
+      "handle": "LiamLawson30",
+      "team": "Red Bull",
+      "score": 47,
+      "sentiment": "Mixed",
+      "buzz": "Monitored engagement around @LiamLawson30"
+    }
+  ],
+  "breakingNewsTweets": [
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Audi F1 have quietly impressed in 2026, but can they finally deliver? - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 05:05:03 GMT"
+    },
+    {
+      "author": "Autoweek",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What a day at McLaren HQ taught us about F1 - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 30 Jul 2026 15:56:30 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Franco Colapinto\u2019s ominous warning on Aston Martin\u2019s upgraded F1 car - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 29 Jul 2026 15:01:24 GMT"
+    }
+  ],
+  "xTracksideFeed": [
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Audi F1 have quietly impressed in 2026, but can they finally deliver? - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 05:05:03 GMT"
+    },
+    {
+      "author": "Autoweek",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What a day at McLaren HQ taught us about F1 - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 30 Jul 2026 15:56:30 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Franco Colapinto\u2019s ominous warning on Aston Martin\u2019s upgraded F1 car - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 29 Jul 2026 15:01:24 GMT"
+    }
+  ]
 }

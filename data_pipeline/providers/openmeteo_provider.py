@@ -2,7 +2,8 @@
 OpenMeteo Provider for F1 Insights HQ (v4.0 Specification).
 Ingests live weather forecasts and track ambient temperature based on canonical circuit GPS coordinates.
 """
-import requests
+import httpx
+import hishel
 import logging
 from typing import Dict, Any
 from .base_provider import BaseProvider, ProviderResponse
@@ -13,9 +14,14 @@ OPEN_METEO_BASE = "https://api.open-meteo.com/v1/forecast"
 class OpenMeteoProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="OpenMeteo", cache_ttl_seconds=600)
-        self.session = requests.Session()
+        storage = hishel.AsyncSQLiteStorage()
+        controller = hishel.Controller(cacheable_methods=["GET"], allow_stale=True)
+        self.session = hishel.AsyncCacheClient(
+            storage=storage,
+            controller=controller
+        )
 
-    def fetch_weather(self, lat: float = 47.583, lon: float = 19.248, circuit_name: str = "Hungaroring") -> ProviderResponse:
+    async def fetch_weather(self, lat: float = 47.583, lon: float = 19.248, circuit_name: str = "Hungaroring") -> ProviderResponse:
         """Fetch live weather metrics for circuit coordinates."""
         params = {
             "latitude": lat,
@@ -24,7 +30,7 @@ class OpenMeteoProvider(BaseProvider):
             "hourly": "temperature_2m,relativehumidity_2m,precipitation_probability,windspeed_10m,direct_normal_irradiance"
         }
         try:
-            res = self.session.get(OPEN_METEO_BASE, params=params, timeout=5)
+            res = await self.session.get(OPEN_METEO_BASE, params=params, timeout=5.0)
             if res.status_code == 200:
                 data = res.json()
                 current = data.get("current_weather", {})
