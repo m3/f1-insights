@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 53,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 64,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 63,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 59,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 55,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 51,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 47,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 43,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 08:00:02 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "bbc.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - bbc.com",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "AutoRacing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "'Unacceptable' Oscar Piastri incident triggers Damom Hill response - PlanetF1",
+      "text": "Formula 1 News: COTA Grand Prix Plaza alive with events ahead of USGP - AutoRacing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 17:09:58 GMT"
+      "time": "Fri, 31 Jul 2026 18:49:14 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Aston Martin F1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
+      "text": "Mathilda Paatz: In Michael Schumacher's wheel tracks - Aston Martin F1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+      "time": "Sat, 01 Aug 2026 06:59:29 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "motorsportmagazine.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
+      "text": "Five Dutch Grand Prix moments that defined Zandvoort\u2019s Formula 1 farewell - motorsportmagazine.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 14:15:02 GMT"
+      "time": "Tue, 28 Jul 2026 08:48:59 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 08:00:02 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "bbc.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - bbc.com",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "AutoRacing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "'Unacceptable' Oscar Piastri incident triggers Damom Hill response - PlanetF1",
+      "text": "Formula 1 News: COTA Grand Prix Plaza alive with events ahead of USGP - AutoRacing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 17:09:58 GMT"
+      "time": "Fri, 31 Jul 2026 18:49:14 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Aston Martin F1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
+      "text": "Mathilda Paatz: In Michael Schumacher's wheel tracks - Aston Martin F1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+      "time": "Sat, 01 Aug 2026 06:59:29 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "motorsportmagazine.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
+      "text": "Five Dutch Grand Prix moments that defined Zandvoort\u2019s Formula 1 farewell - motorsportmagazine.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 14:15:02 GMT"
+      "time": "Tue, 28 Jul 2026 08:48:59 GMT"
     }
   ]
 }
