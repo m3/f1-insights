@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 58,
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 68,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 64,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 60,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 56,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 52,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 48,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "grandprix247",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Honda tests upgraded Formula 1 power unit at Hungaroring ahead of Dutch Grand Prix debut - grandprix247",
+      "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 08:04:32 GMT"
+      "time": "Sat, 01 Aug 2026 08:00:02 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How 'pi**ing off' Marko unexpectedly helped launch Lawson's F1 career - GPblog",
+      "text": "'Unacceptable' Oscar Piastri incident triggers Damom Hill response - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 10:03:00 GMT"
+      "time": "Sat, 01 Aug 2026 17:09:58 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018No one\u2019 at Ferrari \u2018dares\u2019 to say one thing after Lewis Hamilton and Charles Leclerc\u2019s failures - F1 Oversteer",
+      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 11:00:00 GMT"
+      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1: 2026 season to end in Europe if Qatar and Abu Dhabi unable to host final rounds because of Middle East conflict - Sky Sports",
+      "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 29 Jul 2026 11:01:03 GMT"
+      "time": "Thu, 30 Jul 2026 14:15:02 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "grandprix247",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Honda tests upgraded Formula 1 power unit at Hungaroring ahead of Dutch Grand Prix debut - grandprix247",
+      "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 08:04:32 GMT"
+      "time": "Sat, 01 Aug 2026 08:00:02 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How 'pi**ing off' Marko unexpectedly helped launch Lawson's F1 career - GPblog",
+      "text": "'Unacceptable' Oscar Piastri incident triggers Damom Hill response - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 10:03:00 GMT"
+      "time": "Sat, 01 Aug 2026 17:09:58 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018No one\u2019 at Ferrari \u2018dares\u2019 to say one thing after Lewis Hamilton and Charles Leclerc\u2019s failures - F1 Oversteer",
+      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 11:00:00 GMT"
+      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1: 2026 season to end in Europe if Qatar and Abu Dhabi unable to host final rounds because of Middle East conflict - Sky Sports",
+      "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 29 Jul 2026 11:01:03 GMT"
+      "time": "Thu, 30 Jul 2026 14:15:02 GMT"
     }
   ]
 }
