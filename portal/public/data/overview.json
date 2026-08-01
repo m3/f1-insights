@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-01T18:32:29.142058Z",
+  "updatedAt": "2026-08-01T19:43:38.189572Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-08-01T18:06:05.301429Z",
+    "lastUpdatedUtc": "2026-08-01T19:43:38.189504Z",
     "nextSession": {
       "name": "FP1",
       "timeUtc": "2026-08-21T10:30:00Z"
@@ -15,10 +15,11 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,10 +61,10 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "20\u00b0C",
-    "trackTemp": "25\u00b0C",
+    "ambientTemp": "19\u00b0C",
+    "trackTemp": "24\u00b0C",
     "rainRisk": "0%",
-    "wind": "7 km/h NE",
+    "wind": "3 km/h NE",
     "humidity": "85%"
   },
   "schedule": [
@@ -1543,7 +1544,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-01T18:06:05.300398",
+    "generatedAt": "2026-08-01T19:43:38.188028",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1688,7 +1689,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-01T18:06:05.300741",
+    "generatedAt": "2026-08-01T19:43:38.188440",
     "facts": [],
     "teammateBattles": [
       {
@@ -1859,232 +1860,5 @@
       "race": "2 - 3",
       "leader": "GAS Ahead"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 65,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 75,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 71,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 67,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 63,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 59,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 55,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "F1 Oversteer",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Audi F1 boss shares why he\u2019s \u2018very happy\u2019 about Oscar Piastri and Carlos Sainz links - F1 Oversteer",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 15:00:00 GMT"
-      },
-      {
-        "author": "bbc.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - bbc.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 17:12:35 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 07:05:06 GMT"
-      },
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 08:00:02 GMT"
-      },
-      {
-        "author": "the-race.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "What a day at McLaren HQ taught us about F1 - the-race.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 30 Jul 2026 15:56:30 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "F1 Oversteer",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Audi F1 boss shares why he\u2019s \u2018very happy\u2019 about Oscar Piastri and Carlos Sainz links - F1 Oversteer",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 15:00:00 GMT"
-      },
-      {
-        "author": "bbc.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - bbc.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 17:12:35 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 07:05:06 GMT"
-      },
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 08:00:02 GMT"
-      },
-      {
-        "author": "the-race.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "What a day at McLaren HQ taught us about F1 - the-race.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 30 Jul 2026 15:56:30 GMT"
-      }
-    ]
-  }
+  ]
 }
