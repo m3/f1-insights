@@ -104,34 +104,7 @@ export default function Header() {
 
       </div>
 
-      {/* Nav Tabs */}
-      <div style={{
-        display: 'flex',
-        gap: '10px',
-        marginTop: '20px',
-        borderTop: '1px solid var(--border-subtle)',
-        paddingTop: '16px',
-        overflowX: 'auto'
-      }}>
-        <button className={`nav-tab ${activeTab === 'brief' ? 'active' : ''}`} onClick={() => setActiveTab('brief')}>
-          <Zap size={16} /> Intelligence Hub
-        </button>
-        <button className={`nav-tab ${activeTab === 'tyre_deg' ? 'active' : ''}`} onClick={() => setActiveTab('tyre_deg')}>
-          <Activity size={16} /> Tyre Deg Simulator
-        </button>
-        <button className={`nav-tab ${activeTab === 'pitstop' ? 'active' : ''}`} onClick={() => setActiveTab('pitstop')}>
-          <Timer size={16} /> Pit Strategy
-        </button>
-        <button className={`nav-tab ${activeTab === 'grid_penalties' ? 'active' : ''}`} onClick={() => setActiveTab('grid_penalties')}>
-          <AlertOctagon size={16} /> Grid Penalties
-        </button>
-        <button className={`nav-tab ${activeTab === 'penalties' ? 'active' : ''}`} onClick={() => setActiveTab('penalties')}>
-          <ShieldAlert size={16} /> Licence Points
-        </button>
-        <button className={`nav-tab ${activeTab === 'standings' ? 'active' : ''}`} onClick={() => setActiveTab('standings')}>
-          <Calendar size={16} /> Standings & Calendar
-        </button>
-      </div>
+      {/* Nav Tabs removed as we moved to a unified 3-Pillar Dashboard layout */}
     </header>
   );
 }
