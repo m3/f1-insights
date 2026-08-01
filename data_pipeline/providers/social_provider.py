@@ -16,14 +16,13 @@ class SocialProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="SocialRadar", cache_ttl_seconds=300)
 
-    async def fetch_social_sentiment(self, race_name: str = "Hungarian Grand Prix") -> ProviderResponse:
+    def fetch_social_sentiment(self, race_name: str = "Hungarian Grand Prix") -> ProviderResponse:
         """Fetch media radar metadata and monitored accounts via F1SentimentEngine."""
         try:
-            import asyncio
             from data_pipeline.analytics.sentiment import F1SentimentEngine
             
-            # Use the newly updated dynamic RSS + NLP engine in a thread pool to avoid blocking
-            payload = await asyncio.to_thread(F1SentimentEngine.get_race_sentiment_summary, race_name)
+            # Use the newly updated dynamic RSS + NLP engine
+            payload = F1SentimentEngine.get_race_sentiment_summary(race_name)
             
             return ProviderResponse(
                 data=payload,
