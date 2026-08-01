@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "sentimentScore": 58,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -132,44 +132,44 @@
       "time": "Sat, 01 Aug 2026 07:05:06 GMT"
     },
     {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Audi F1 have quietly impressed in 2026, but can they finally deliver? - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 05:05:03 GMT"
-    },
-    {
-      "author": "Autoweek",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What a day at McLaren HQ taught us about F1 - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 15:56:30 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Franco Colapinto\u2019s ominous warning on Aston Martin\u2019s upgraded F1 car - Motorsport.com",
+      "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 29 Jul 2026 15:01:24 GMT"
+      "time": "Sat, 01 Aug 2026 08:00:02 GMT"
+    },
+    {
+      "author": "the-sun.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 05:34:57 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Bold Adrian Newey comment sparks Fernando Alonso response - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 08:49:58 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -184,44 +184,44 @@
       "time": "Sat, 01 Aug 2026 07:05:06 GMT"
     },
     {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Audi F1 have quietly impressed in 2026, but can they finally deliver? - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 05:05:03 GMT"
-    },
-    {
-      "author": "Autoweek",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What a day at McLaren HQ taught us about F1 - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 15:56:30 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Franco Colapinto\u2019s ominous warning on Aston Martin\u2019s upgraded F1 car - Motorsport.com",
+      "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 29 Jul 2026 15:01:24 GMT"
+      "time": "Sat, 01 Aug 2026 08:00:02 GMT"
+    },
+    {
+      "author": "the-sun.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 05:34:57 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Bold Adrian Newey comment sparks Fernando Alonso response - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 08:49:58 GMT"
     }
   ]
 }

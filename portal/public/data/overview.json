@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-01T08:38:18.827247Z",
+  "updatedAt": "2026-08-01T10:20:38.797311Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
@@ -1634,10 +1634,9 @@
   "tyreStrategy": [],
   "pitStops": [],
   "socialSentiment": {
-    "schema_version": "4.0",
-    "race": "Hungarian Grand Prix",
-    "overallSentiment": "MONITORED",
-    "sentimentScore": 75,
+    "version": "2026.3",
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 58,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1700,8 +1699,166 @@
         "focus": "Technical Upgrades & Paddock Debriefs"
       }
     ],
-    "breakingNewsTweets": [],
-    "xTracksideFeed": []
+    "driverSentimentRanking": [
+      {
+        "driver": "Lando Norris",
+        "code": "NOR",
+        "handle": "LandoNorris",
+        "team": "McLaren",
+        "score": 68,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LandoNorris"
+      },
+      {
+        "driver": "Oscar Piastri",
+        "code": "PIA",
+        "handle": "OscarPiastri",
+        "team": "McLaren",
+        "score": 64,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @OscarPiastri"
+      },
+      {
+        "driver": "Charles Leclerc",
+        "code": "LEC",
+        "handle": "Charles_Leclerc",
+        "team": "Ferrari",
+        "score": 60,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Charles_Leclerc"
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "code": "HAM",
+        "handle": "LewisHamilton",
+        "team": "Ferrari",
+        "score": 56,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LewisHamilton"
+      },
+      {
+        "driver": "Max Verstappen",
+        "code": "VER",
+        "handle": "Max33Verstappen",
+        "team": "Red Bull",
+        "score": 52,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Max33Verstappen"
+      },
+      {
+        "driver": "Liam Lawson",
+        "code": "LAW",
+        "handle": "LiamLawson30",
+        "team": "Red Bull",
+        "score": 48,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LiamLawson30"
+      }
+    ],
+    "breakingNewsTweets": [
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      },
+      {
+        "author": "Motorsport.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 01 Aug 2026 08:00:02 GMT"
+      },
+      {
+        "author": "the-sun.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 01 Aug 2026 05:34:57 GMT"
+      },
+      {
+        "author": "BBC",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Bold Adrian Newey comment sparks Fernando Alonso response - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 01 Aug 2026 08:49:58 GMT"
+      }
+    ],
+    "xTracksideFeed": [
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      },
+      {
+        "author": "Motorsport.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 01 Aug 2026 08:00:02 GMT"
+      },
+      {
+        "author": "the-sun.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 01 Aug 2026 05:34:57 GMT"
+      },
+      {
+        "author": "BBC",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Bold Adrian Newey comment sparks Fernando Alonso response - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 01 Aug 2026 08:49:58 GMT"
+      }
+    ]
   },
   "latestPreBrief": {
     "type": "PRE_RACE",
