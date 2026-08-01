@@ -1,13 +1,24 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-01T16:59:41.738596Z",
+  "updatedAt": "2026-08-01T17:00:01.616506Z",
+  "timeline": {
+    "format": "sprint",
+    "macroState": "PRE_WEEKEND",
+    "sessionType": null,
+    "dataStatus": "STALE",
+    "lastUpdatedUtc": "2026-08-01T17:00:01.616449Z",
+    "nextSession": {
+      "name": "FP1",
+      "timeUtc": "2026-08-21T10:30:00Z"
+    }
+  },
   "provenance": {
     "sources": [
       "JolpicaErgast",
       "TracingInsights",
       "OpenMeteo"
     ],
-    "tracingInsightsCommit": null,
+    "tracingInsightsCommit": "5a8a877bb69f1f57f5614aa5107a569f55c4aedc",
     "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
@@ -50,11 +61,11 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "21\u00b0C",
-    "trackTemp": "26\u00b0C",
-    "rainRisk": "0%",
-    "wind": "11 km/h NE",
-    "humidity": "85%"
+    "ambientTemp": "Pending Weather Telemetry",
+    "trackTemp": "Pending Telemetry",
+    "rainRisk": "Pending",
+    "wind": "Pending",
+    "humidity": "Pending"
   },
   "schedule": [
     {
@@ -1533,7 +1544,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-01T16:59:41.737190",
+    "generatedAt": "2026-08-01T19:00:01.614302",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1678,16 +1689,9 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-01T16:59:41.737599",
+    "generatedAt": "2026-08-01T19:00:01.615076",
     "facts": [],
     "teammateBattles": [
-      {
-        "team": "Mercedes",
-        "drivers": "ANT vs RUS",
-        "quali": "3 - 1",
-        "race": "3 - 1",
-        "leader": "ANT Ahead"
-      },
       {
         "team": "Ferrari",
         "drivers": "HAM vs LEC",
@@ -1696,60 +1700,18 @@
         "leader": "HAM Ahead"
       },
       {
-        "team": "McLaren",
-        "drivers": "NOR vs PIA",
-        "quali": "1 - 3",
-        "race": "2 - 2",
-        "leader": "NOR Ahead"
-      },
-      {
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "drivers": "VER vs HAD",
         "quali": "3 - 2",
         "race": "4 - 1",
         "leader": "VER Ahead"
       },
       {
-        "team": "RB (Racing Bulls)",
-        "drivers": "LAW vs LIN",
-        "quali": "3 - 1",
-        "race": "2 - 2",
-        "leader": "LAW Ahead"
-      },
-      {
-        "team": "Alpine",
-        "drivers": "GAS vs COL",
-        "quali": "3 - 2",
-        "race": "3 - 2",
+        "team": "Alpine F1 Team",
+        "drivers": "COL vs GAS",
+        "quali": "2 - 3",
+        "race": "2 - 3",
         "leader": "GAS Ahead"
-      },
-      {
-        "team": "Haas",
-        "drivers": "BEA vs OCO",
-        "quali": "3 - 1",
-        "race": "3 - 1",
-        "leader": "BEA Ahead"
-      },
-      {
-        "team": "Sauber / Audi",
-        "drivers": "BOR vs HUL",
-        "quali": "2 - 2",
-        "race": "2 - 2",
-        "leader": "BOR Ahead"
-      },
-      {
-        "team": "Williams",
-        "drivers": "SAI vs ALB",
-        "quali": "3 - 1",
-        "race": "3 - 1",
-        "leader": "SAI Ahead"
-      },
-      {
-        "team": "Aston Martin",
-        "drivers": "ALO vs STR",
-        "quali": "4 - 0",
-        "race": "3 - 1",
-        "leader": "ALO Ahead"
       }
     ],
     "topStandings": [
@@ -1874,16 +1836,9 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
+    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
   },
   "teammateBattles": [
-    {
-      "team": "Mercedes",
-      "drivers": "ANT vs RUS",
-      "quali": "3 - 1",
-      "race": "3 - 1",
-      "leader": "ANT Ahead"
-    },
     {
       "team": "Ferrari",
       "drivers": "HAM vs LEC",
@@ -1892,60 +1847,18 @@
       "leader": "HAM Ahead"
     },
     {
-      "team": "McLaren",
-      "drivers": "NOR vs PIA",
-      "quali": "1 - 3",
-      "race": "2 - 2",
-      "leader": "NOR Ahead"
-    },
-    {
-      "team": "Red Bull Racing",
+      "team": "Red Bull",
       "drivers": "VER vs HAD",
       "quali": "3 - 2",
       "race": "4 - 1",
       "leader": "VER Ahead"
     },
     {
-      "team": "RB (Racing Bulls)",
-      "drivers": "LAW vs LIN",
-      "quali": "3 - 1",
-      "race": "2 - 2",
-      "leader": "LAW Ahead"
-    },
-    {
-      "team": "Alpine",
-      "drivers": "GAS vs COL",
-      "quali": "3 - 2",
-      "race": "3 - 2",
+      "team": "Alpine F1 Team",
+      "drivers": "COL vs GAS",
+      "quali": "2 - 3",
+      "race": "2 - 3",
       "leader": "GAS Ahead"
-    },
-    {
-      "team": "Haas",
-      "drivers": "BEA vs OCO",
-      "quali": "3 - 1",
-      "race": "3 - 1",
-      "leader": "BEA Ahead"
-    },
-    {
-      "team": "Sauber / Audi",
-      "drivers": "BOR vs HUL",
-      "quali": "2 - 2",
-      "race": "2 - 2",
-      "leader": "BOR Ahead"
-    },
-    {
-      "team": "Williams",
-      "drivers": "SAI vs ALB",
-      "quali": "3 - 1",
-      "race": "3 - 1",
-      "leader": "SAI Ahead"
-    },
-    {
-      "team": "Aston Martin",
-      "drivers": "ALO vs STR",
-      "quali": "4 - 0",
-      "race": "3 - 1",
-      "leader": "ALO Ahead"
     }
   ]
 }

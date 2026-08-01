@@ -13,37 +13,6 @@ class BriefGenerator:
         self.output_dir = output_dir
         os.makedirs(self.output_dir, exist_ok=True)
 
-    def _synthesize_llm_summary(self, race_name: str, context_type: str, context_data: str) -> str:
-        """Helper to invoke OpenAI for dynamic briefing summary if configured."""
-        try:
-            # Check for API key without failing if absent
-            api_key = os.environ.get("OPENAI_API_KEY")
-            if not api_key:
-                return f"> *Deterministic Data Brief for the {race_name}*"
-            
-            import openai
-            client = openai.OpenAI(api_key=api_key)
-            
-            prompt = f"""
-            You are an expert Formula 1 race engineer. Synthesize a 3-sentence {context_type} executive summary 
-            for the {race_name} based ONLY on the following structured data. Do not hallucinate or add outside facts.
-            
-            Data Context:
-            {context_data}
-            """
-            
-            response = client.chat.completions.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": "You are a concise, factual F1 race engineer."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.2,
-                max_tokens=150
-            )
-            return f"> 🤖 **AI Executive Summary:** {response.choices[0].message.content.strip()}"
-        except Exception as e:
-            return f"> *Deterministic Data Brief for the {race_name} (AI synthesis unavailable: {e})*"
 
     def build_pre_race_brief(
         self,
@@ -57,13 +26,7 @@ class BriefGenerator:
         circuit_name = race.get("Circuit", {}).get("circuitName", "Circuit")
         date_str = race.get("date", "Upcoming Weekend")
 
-        # Prepare context for LLM
-        context_data = json.dumps({
-            "facts": [f"{f['topic']}: {f['stat']} - {f['detail']}" for f in facts],
-            "penalty_watch_summary": penalty_watch.get("summary", ""),
-            "top_drivers": [f"{d.get('Driver', {}).get('code', '')}: {d.get('points', 0)}pts" for d in driver_standings[:3]]
-        })
-        ai_summary = self._synthesize_llm_summary(race_name, "Pre-Race Preview", context_data)
+        ai_summary = f"> *Deterministic Data Brief for the {race_name}*"
 
         markdown_content = f"""# 🏎️ F1 PRE-RACE BRIEFING: {race_name.upper()}
 **Location**: {circuit_name} | **Date**: {date_str}
@@ -121,13 +84,7 @@ class BriefGenerator:
         circuit_name = race.get("Circuit", {}).get("circuitName", "Circuit")
         date_str = race.get("date", "Recent Weekend")
 
-        # Prepare context for LLM
-        context_data = json.dumps({
-            "facts": [f"{f['topic']}: {f['stat']} - {f['detail']}" for f in facts],
-            "teammate_battles": [f"{b['team']}: {b['leader']} led" for b in teammate_battles[:3]],
-            "championship_leader": driver_standings[0].get("Driver", {}).get("code", "") if driver_standings else ""
-        })
-        ai_summary = self._synthesize_llm_summary(race_name, "Post-Race Debrief", context_data)
+        ai_summary = f"> *Deterministic Data Brief for the {race_name}*"
 
         markdown_content = f"""# 🏁 F1 POST-RACE DEBRIEF: {race_name.upper()}
 **Location**: {circuit_name} | **Date**: {date_str}

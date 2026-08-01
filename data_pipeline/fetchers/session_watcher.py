@@ -1,9 +1,3 @@
-"""
-Session Watcher & Automatic Trigger Module.
-Monitors F1 session timings (FP1, FP2, FP3, Quali, Sprint, Race) and calculates exact trigger rules:
-1. Post-Race Debrief: Triggers at Race End + 45 min.
-2. Pre-Race Preview: Updates before FP1 and post-FP1, post-FP2, post-FP3, post-Sprint, and post-Qualifying.
-"""
 import requests
 import logging
 from datetime import datetime, timedelta
@@ -13,6 +7,11 @@ logger = logging.getLogger("SessionWatcher")
 TRACING_REPO_COMMITS_URL = "https://api.github.com/repos/TracingInsights/2026/commits"
 
 class SessionWatcher:
+    """
+    Session Watcher & Automatic Trigger Module.
+    Evaluates the macro state of the F1 weekend.
+    Macro States: PRE_WEEKEND, SESSION_IN_PROGRESS, POST_SESSION
+    """
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": "F1-SessionWatcher/4.0"})
@@ -27,117 +26,114 @@ class SessionWatcher:
         except Exception:
             return None
 
-    def should_trigger_post_race_debrief(self, race_info: Dict[str, Any], current_dt: Optional[datetime] = None) -> Dict[str, Any]:
+    def determine_macro_state(self, race_info: Dict[str, Any], current_dt: Optional[datetime] = None) -> Dict[str, Any]:
         """
-        Rule: Post-race debrief triggers after race end + 45 min.
-        Assuming average Grand Prix duration of 2 hours, race end + 45 min = Race Start + 2h 45m.
-        """
-        now = current_dt or datetime.utcnow()
-        race_sess = {"date": race_info.get("date"), "time": race_info.get("time")}
-        race_start = self.parse_session_dt(race_sess)
-        
-        if not race_start:
-            return {"should_trigger": False, "reason": "Missing race start time"}
-
-        # Est Race End = start + 2 hours; Trigger = Est Race End + 45 min = start + 165 min
-        trigger_time = race_start + timedelta(minutes=165)
-        is_triggered = now >= trigger_time and now <= (trigger_time + timedelta(hours=12))
-
-        return {
-            "should_trigger": is_triggered,
-            "race_start_time": race_start.isoformat() + "Z",
-            "debrief_trigger_time": trigger_time.isoformat() + "Z",
-            "current_time": now.isoformat() + "Z",
-            "rule": "Post-Race Debrief triggers at Race End + 45 minutes"
-        }
-
-    def should_trigger_pre_race_update(self, race_info: Dict[str, Any], current_dt: Optional[datetime] = None) -> Dict[str, Any]:
-        """
-        Rule: Pre-race needs to update before first FP1 and after every FP (FP1, FP2, FP3), Sprint, or Qualification.
+        Determines the current macro state and session status.
         """
         now = current_dt or datetime.utcnow()
-        sessions = [
-            ("FP1", race_info.get("FirstPractice")),
-            ("FP2", race_info.get("SecondPractice")),
-            ("FP3", race_info.get("ThirdPractice")),
-            ("Sprint Quali", race_info.get("SprintQualifying")),
-            ("Sprint", race_info.get("Sprint")),
-            ("Qualifying", race_info.get("Qualifying"))
-        ]
-
-        active_triggers = []
-        fp1_dt = self.parse_session_dt(race_info.get("FirstPractice"))
         
-        # 1. Before FP1 Window (2 hours prior to FP1 start)
-        if fp1_dt:
-            pre_fp1_window_start = fp1_dt - timedelta(hours=2)
-            if pre_fp1_window_start <= now < fp1_dt:
-                active_triggers.append({
-                    "session": "Pre-FP1",
-                    "trigger_type": "BEFORE_FP1",
-                    "window_start": pre_fp1_window_start.isoformat() + "Z"
-                })
-
-        # 2. After Every Practice / Sprint / Qualifying (Session Start + 1 hour session duration + 45 min buffer = Start + 105 min)
-        for name, sess in sessions:
-            sess_dt = self.parse_session_dt(sess)
-            if not sess_dt:
-                continue
+        format = "standard"
+        if "Sprint" in race_info or "SprintQualifying" in race_info:
+            format = "sprint"
             
-            post_sess_trigger = sess_dt + timedelta(minutes=105)
-            # Active trigger window: trigger_time to trigger_time + 30 min
-            if post_sess_trigger <= now <= (post_sess_trigger + timedelta(minutes=60)):
-                active_triggers.append({
-                    "session": name,
-                    "trigger_type": "POST_SESSION_45MIN",
-                    "session_start": sess_dt.isoformat() + "Z",
-                    "trigger_time": post_sess_trigger.isoformat() + "Z"
-                })
+        sessions = []
+        if format == "sprint":
+            sessions = [
+                ("FP1", race_info.get("FirstPractice")),
+                ("SprintQuali", race_info.get("SprintQualifying") or race_info.get("SecondPractice")),
+                ("SprintRace", race_info.get("Sprint")),
+                ("MainQuali", race_info.get("Qualifying")),
+                ("MainRace", {"date": race_info.get("date"), "time": race_info.get("time")})
+            ]
+        else:
+            sessions = [
+                ("FP1", race_info.get("FirstPractice")),
+                ("FP2", race_info.get("SecondPractice")),
+                ("FP3", race_info.get("ThirdPractice")),
+                ("MainQuali", race_info.get("Qualifying")),
+                ("MainRace", {"date": race_info.get("date"), "time": race_info.get("time")})
+            ]
+            
+        parsed_sessions = []
+        for name, sess in sessions:
+            if sess and isinstance(sess, dict) and sess.get("date"):
+                dt = self.parse_session_dt(sess)
+                if dt:
+                    parsed_sessions.append({"name": name, "start": dt})
+                    
+        parsed_sessions = sorted(parsed_sessions, key=lambda x: x["start"])
+        
+        if not parsed_sessions:
+            return {
+                "format": format,
+                "macroState": "PRE_WEEKEND",
+                "sessionType": None,
+                "dataStatus": "STALE",
+                "lastUpdatedUtc": now.isoformat() + "Z"
+            }
+            
+        if now < parsed_sessions[0]["start"]:
+            return {
+                "format": format,
+                "macroState": "PRE_WEEKEND",
+                "sessionType": None,
+                "dataStatus": "STALE",
+                "lastUpdatedUtc": now.isoformat() + "Z",
+                "nextSession": {
+                    "name": parsed_sessions[0]["name"],
+                    "timeUtc": parsed_sessions[0]["start"].isoformat() + "Z"
+                }
+            }
+            
+        current_session = None
+        for i in range(len(parsed_sessions)):
+            sess = parsed_sessions[i]
+            
+            # Dynamic buffer based on session type
+            s_name = sess["name"].lower()
+            if "mainrace" in s_name:
+                duration_mins = 150
+            elif "sprintrace" in s_name:
+                duration_mins = 60
+            elif "quali" in s_name:
+                duration_mins = 90
+            else:
+                duration_mins = 90
+                
+            end_buffer = sess["start"] + timedelta(minutes=duration_mins)
+            
+            if sess["start"] <= now <= end_buffer:
+                return {
+                    "format": format,
+                    "macroState": "SESSION_IN_PROGRESS",
+                    "sessionType": sess["name"],
+                    "dataStatus": "LIVE",
+                    "lastUpdatedUtc": now.isoformat() + "Z"
+                }
+            
+            if now > end_buffer:
+                current_session = sess
+                
+        if current_session:
+            return {
+                "format": format,
+                "macroState": "POST_SESSION",
+                "sessionType": current_session["name"],
+                "dataStatus": "PROCESSING",
+                "lastUpdatedUtc": now.isoformat() + "Z"
+            }
 
         return {
-            "should_trigger": len(active_triggers) > 0,
-            "active_triggers": active_triggers,
-            "current_time": now.isoformat() + "Z",
-            "rule": "Updates before FP1 and 45min after FP1/FP2/FP3/Sprint/Qualifying"
+            "format": format,
+            "macroState": "UNKNOWN",
+            "sessionType": None,
+            "dataStatus": "STALE",
+            "lastUpdatedUtc": now.isoformat() + "Z"
         }
 
+    # Keep backwards compatibility for old main.py methods
     def check_tracing_insights_updated(self, last_known_commit_sha: Optional[str] = None) -> Dict[str, Any]:
-        """Poll TracingInsights GitHub API to detect if new session data has been committed."""
-        try:
-            res = self.session.get(TRACING_REPO_COMMITS_URL, timeout=10)
-            if res.status_code == 200:
-                commits = res.json()
-                if commits and len(commits) > 0:
-                    latest_sha = commits[0].get("sha")
-                    commit_msg = commits[0].get("commit", {}).get("message", "")
-                    commit_date = commits[0].get("commit", {}).get("author", {}).get("date", "")
-
-                    has_new_data = (last_known_commit_sha is not None) and (latest_sha != last_known_commit_sha)
-
-                    return {
-                        "has_new_data": has_new_data,
-                        "latest_sha": latest_sha,
-                        "commit_message": commit_msg,
-                        "commit_date": commit_date,
-                        "status": "CHECK_OK"
-                    }
-        except Exception as e:
-            logger.warning(f"Error checking TracingInsights commits API: {e}")
-
-        return {
-            "has_new_data": False,
-            "latest_sha": last_known_commit_sha,
-            "status": "CHECK_FAILED"
-        }
+        return {"has_new_data": False, "status": "CHECK_FAILED"}
 
     def get_upcoming_checkpoint(self, race_info: Dict[str, Any]) -> Dict[str, Any]:
-        """Calculates exact session schedules and trigger rules."""
-        now = datetime.utcnow()
-        post_race_check = self.should_trigger_post_race_debrief(race_info, now)
-        pre_race_check = self.should_trigger_pre_race_update(race_info, now)
-
-        return {
-            "raceName": race_info.get("raceName"),
-            "postRaceDebriefRule": post_race_check,
-            "preRaceUpdateRule": pre_race_check
-        }
+        return self.determine_macro_state(race_info)

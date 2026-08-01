@@ -2,6 +2,7 @@
 Data Fetcher module for TracingInsights & Ergast/Jolpica F1 APIs.
 Pulls current race weekend info, standings, penalty points, and pitstop telemetry.
 """
+import os
 import requests
 import json
 import logging
@@ -15,10 +16,30 @@ JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"
 TRACING_INSIGHTS_RAW = "https://raw.githubusercontent.com/TracingInsights"
 TRACING_ARCHIVE_RAW = "https://raw.githubusercontent.com/TracingInsights-Archive"
 
+CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "cache")
+
 class F1DataFetcher:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": "F1-Insights-Brief/1.0"})
+        os.makedirs(CACHE_DIR, exist_ok=True)
+
+    def _save_cache(self, filename: str, data: Any):
+        try:
+            with open(os.path.join(CACHE_DIR, filename), 'w') as f:
+                json.dump(data, f)
+        except Exception as e:
+            logger.warning(f"Failed to save cache {filename}: {e}")
+
+    def _load_cache(self, filename: str) -> Any:
+        try:
+            path = os.path.join(CACHE_DIR, filename)
+            if os.path.exists(path):
+                with open(path, 'r') as f:
+                    return json.load(f)
+        except Exception as e:
+            logger.warning(f"Failed to load cache {filename}: {e}")
+        return []
 
     def get_current_schedule(self, season: str = "current") -> List[Dict[str, Any]]:
         """Fetch race calendar for the specified or current season."""
@@ -27,11 +48,14 @@ class F1DataFetcher:
             res = self.session.get(url, timeout=10)
             if res.status_code == 200:
                 data = res.json()
-                return data.get("MRData", {}).get("RaceTable", {}).get("Races", [])
+                races = data.get("MRData", {}).get("RaceTable", {}).get("Races", [])
+                if races:
+                    self._save_cache('schedule.json', races)
+                return races
         except Exception as e:
-            logger.warning(f"Failed to fetch live schedule: {e}. Falling back to default 2026 calendar.")
+            logger.warning(f"Failed to fetch live schedule: {e}. Falling back to local cache.")
         
-        return self._get_fallback_schedule()
+        return self._load_cache('schedule.json')
 
     def get_driver_standings(self, season: str = "current") -> List[Dict[str, Any]]:
         """Fetch current Driver Championship Standings."""
@@ -42,11 +66,13 @@ class F1DataFetcher:
                 data = res.json()
                 lists = data.get("MRData", {}).get("StandingsTable", {}).get("StandingsLists", [])
                 if lists:
-                    return lists[0].get("DriverStandings", [])
+                    standings = lists[0].get("DriverStandings", [])
+                    self._save_cache('driver_standings.json', standings)
+                    return standings
         except Exception as e:
             logger.warning(f"Failed to fetch driver standings: {e}")
         
-        return []
+        return self.get_fallback_driver_standings()
 
     def get_active_driver_codes(self, season: str = "current") -> set:
         """Fetch list of verified active driver codes for the active season to guard against stale data leakage."""
@@ -68,11 +94,13 @@ class F1DataFetcher:
                 data = res.json()
                 lists = data.get("MRData", {}).get("StandingsTable", {}).get("StandingsLists", [])
                 if lists:
-                    return lists[0].get("ConstructorStandings", [])
+                    standings = lists[0].get("ConstructorStandings", [])
+                    self._save_cache('constructor_standings.json', standings)
+                    return standings
         except Exception as e:
             logger.warning(f"Failed to fetch constructor standings: {e}")
         
-        return []
+        return self.get_fallback_constructor_standings()
 
     def get_penalty_points(self) -> List[Dict[str, Any]]:
         """Fetch current driver penalty points from TracingInsights archive, strictly filtered by active drivers."""
@@ -92,111 +120,8 @@ class F1DataFetcher:
             return filtered if filtered else raw_list
         return raw_list
 
-    def _get_fallback_schedule(self) -> List[Dict[str, Any]]:
-        return [
-            {
-                "round": "1",
-                "raceName": "Australian Grand Prix",
-                "Circuit": {"circuitId": "albert_park", "circuitName": "Albert Park Circuit", "Location": {"locality": "Melbourne", "country": "Australia"}},
-                "date": "2026-03-15",
-                "time": "05:00:00Z"
-            },
-            {
-                "round": "2",
-                "raceName": "Chinese Grand Prix",
-                "Circuit": {"circuitId": "shanghai", "circuitName": "Shanghai International Circuit", "Location": {"locality": "Shanghai", "country": "China"}},
-                "date": "2026-03-29",
-                "time": "07:00:00Z"
-            },
-            {
-                "round": "3",
-                "raceName": "Japanese Grand Prix",
-                "Circuit": {"circuitId": "suzuka", "circuitName": "Suzuka International Racing Course", "Location": {"locality": "Suzuka", "country": "Japan"}},
-                "date": "2026-04-12",
-                "time": "05:00:00Z"
-            },
-            {
-                "round": "4",
-                "raceName": "Bahrain Grand Prix",
-                "Circuit": {"circuitId": "bahrain", "circuitName": "Bahrain International Circuit", "Location": {"locality": "Sakhir", "country": "Bahrain"}},
-                "date": "2026-04-19",
-                "time": "15:00:00Z"
-            },
-            {
-                "round": "5",
-                "raceName": "Saudi Arabian Grand Prix",
-                "Circuit": {"circuitId": "jeddah", "circuitName": "Jeddah Corniche Circuit", "Location": {"locality": "Jeddah", "country": "Saudi Arabia"}},
-                "date": "2026-05-03",
-                "time": "17:00:00Z"
-            },
-            {
-                "round": "6",
-                "raceName": "Miami Grand Prix",
-                "Circuit": {"circuitId": "miami", "circuitName": "Miami International Autodrome", "Location": {"locality": "Miami", "country": "USA"}},
-                "date": "2026-05-17",
-                "time": "19:30:00Z"
-            },
-            {
-                "round": "7",
-                "raceName": "Monaco Grand Prix",
-                "Circuit": {"circuitId": "monaco", "circuitName": "Circuit de Monaco", "Location": {"locality": "Monte Carlo", "country": "Monaco"}},
-                "date": "2026-05-24",
-                "time": "13:00:00Z"
-            },
-            {
-                "round": "8",
-                "raceName": "Spanish Grand Prix",
-                "Circuit": {"circuitId": "catalunya", "circuitName": "Circuit de Barcelona-Catalunya", "Location": {"locality": "Montmeló", "country": "Spain"}},
-                "date": "2026-06-07",
-                "time": "13:00:00Z"
-            },
-            {
-                "round": "9",
-                "raceName": "Canadian Grand Prix",
-                "Circuit": {"circuitId": "gilles_villeneuve", "circuitName": "Circuit Gilles Villeneuve", "Location": {"locality": "Montreal", "country": "Canada"}},
-                "date": "2026-06-21",
-                "time": "18:00:00Z"
-            },
-            {
-                "round": "10",
-                "raceName": "Austrian Grand Prix",
-                "Circuit": {"circuitId": "red_bull_ring", "circuitName": "Red Bull Ring", "Location": {"locality": "Spielberg", "country": "Austria"}},
-                "date": "2026-07-05",
-                "time": "13:00:00Z"
-            },
-            {
-                "round": "11",
-                "raceName": "British Grand Prix",
-                "Circuit": {"circuitId": "silverstone", "circuitName": "Silverstone Circuit", "Location": {"locality": "Silverstone", "country": "UK"}},
-                "date": "2026-07-19",
-                "time": "14:00:00Z"
-            },
-            {
-                "round": "12",
-                "raceName": "Hungarian Grand Prix",
-                "Circuit": {"circuitId": "hungaroring", "circuitName": "Hungaroring", "Location": {"locality": "Budapest", "country": "Hungary"}},
-                "date": "2026-07-26",
-                "time": "13:00:00Z"
-            },
-            {
-                "round": "13",
-                "raceName": "Belgian Grand Prix",
-                "Circuit": {"circuitId": "spa", "circuitName": "Circuit de Spa-Francorchamps", "Location": {"locality": "Stavelot", "country": "Belgium"}},
-                "date": "2026-08-30",
-                "time": "13:00:00Z"
-            },
-            {
-                "round": "14",
-                "raceName": "Dutch Grand Prix",
-                "Circuit": {"circuitId": "zandvoort", "circuitName": "Circuit Zandvoort", "Location": {"locality": "Zandvoort", "country": "Netherlands"}},
-                "date": "2026-09-06",
-                "time": "13:00:00Z"
-            },
-            {
-                "round": "15",
-                "raceName": "Italian Grand Prix",
-                "Circuit": {"circuitId": "monza", "circuitName": "Autodromo Nazionale Monza", "Location": {"locality": "Monza", "country": "Italy"}},
-                "date": "2026-09-13",
-                "time": "13:00:00Z"
-            }
-        ]
+    def get_fallback_driver_standings(self) -> List[Dict[str, Any]]:
+        return self._load_cache('driver_standings.json')
+
+    def get_fallback_constructor_standings(self) -> List[Dict[str, Any]]:
+        return self._load_cache('constructor_standings.json')

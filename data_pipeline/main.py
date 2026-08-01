@@ -221,20 +221,18 @@ def run_pipeline(mode: str = "full"):
 
     # 5. Check & Dispatch Webhook Notifications
     print("📡 Checking Webhook Notifications...")
-    pre_trigger_res = watcher.should_trigger_pre_race_update(next_race)
-    post_trigger_res = watcher.should_trigger_post_race_debrief(next_race)
-
-    if pre_trigger_res.get("should_trigger"):
-        print(f"🔔 Triggering Pre-Race Webhook Notification...")
-        notifier.send_discord_brief(pre_brief_portal)
-    if post_trigger_res.get("should_trigger"):
-        print(f"🔔 Triggering Post-Race Webhook Notification...")
-        notifier.send_discord_brief(post_brief_portal)
+    macro_state_dict = watcher.determine_macro_state(next_race)
+    
+    # We will expand Webhook rules in the future based on macroState transitions.
+    pass
 
     # 6. Export Chunked Payloads for Scalability
+    macro_state = watcher.determine_macro_state(next_race)
+
     core_overview = {
         "schema_version": "5.0",
         "updatedAt": datetime.utcnow().isoformat() + "Z",
+        "timeline": macro_state,
         "provenance": {
             "sources": ["JolpicaErgast", "TracingInsights", "OpenMeteo"],
             "tracingInsightsCommit": tracing.get_latest_commit_sha(),

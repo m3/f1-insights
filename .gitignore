@@ -22,3 +22,4 @@ public/data/*.json
 
 # TracingInsights cloned data repo
 data/tracing-insights/
+testvenv/

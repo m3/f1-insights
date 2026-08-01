@@ -17,8 +17,9 @@ export default function SessionClassificationTable({ data }) {
     const number = dObj.permanentNumber || `${idx+1}`;
     
     const finishPos = parseInt(item.position || idx + 1, 10);
-    const gridPos = item.gridPosition ? parseInt(item.gridPosition, 10) : finishPos;
-    const delta = gridPos - finishPos;
+    const hasGridPos = item.gridPosition !== undefined && item.gridPosition !== null;
+    const gridPosInt = hasGridPos ? parseInt(item.gridPosition, 10) : null;
+    const delta = hasGridPos ? (gridPosInt - finishPos) : null;
 
     // Remove fake hardcoded tyre strategy. Only show if we actually have them.
     const tyres = Array.isArray(item.tyreStints) && item.tyreStints.length > 0
@@ -35,11 +36,6 @@ export default function SessionClassificationTable({ data }) {
     if (item.Time?.time) timeGap = item.Time.time;
     else if (item.gap) timeGap = item.gap;
     else if (finishPos === 1 && status.includes('Finished')) timeGap = 'Leader';
-    
-    // For pure standings with no grid position, gridPos should be null so delta is null
-    const hasGridPos = item.gridPosition !== undefined && item.gridPosition !== null;
-    const gridPosInt = hasGridPos ? parseInt(item.gridPosition, 10) : null;
-    const delta = hasGridPos ? (gridPosInt - finishPos) : null;
 
     return {
       finishPos,

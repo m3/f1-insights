@@ -56,7 +56,9 @@ A production-ready **Modular Monolith** for Formula 1 race pace analysis, corner
 ## 🛠️ Tech Stack & Key Features
 
 - **Backend Monolith**: Python 3.11+, FastAPI, Uvicorn, SQLAlchemy, SQLite WAL Mode.
-- **Frontend Dashboard**: React, Vite, Recharts (interactive corner speed/throttle traces), Lucide React, Vanilla CSS Carbon Dark System.
+- **Frontend Dashboard**: React, Vite, Recharts, Lucide React, Vanilla CSS Carbon Dark System.
+- **MVP Features**: 3-Phase Macro State Engine (PRE_WEEKEND, SESSION_IN_PROGRESS, POST_SESSION).
+- **Core Widgets**: Strategic Position Index (SPI), True Pace Rank, and Forensic Telemetry (Counterfactual Analysis).
 - **Data Analytics Engine**: FastF1, TracingInsights GitHub archive, Jolpica / Ergast F1 API.
 - **Social Media Radar**: Schema v2026.3 tracking journalists, drivers, technical keywords, and **YouTube watchalong channels** (`@F1Gamer`, `@peterwindsor`, `@brrrake`, `@donut`, `@autosport`).
 - **Security & Hardening**: Let's Encrypt SSL, Nginx IP Rate Limiting (`30r/m burst=20`), `X-API-Key` protected admin trigger endpoints (`/api/v1/admin/*`).

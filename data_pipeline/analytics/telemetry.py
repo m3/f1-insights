@@ -176,22 +176,27 @@ class F1AnalyticsEngine:
         return self.tracing.build_pit_stops(race_name)
 
     def get_teammate_battle_summary(self, race_results_races: List[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        """Calculate teammate H2H from Jolpica Ergast race results."""
+        """Calculate teammate H2H from Jolpica Ergast race results dynamically."""
         if not race_results_races:
             return []
 
-        pairs = [
-            {"team": "Mercedes", "code1": "ANT", "code2": "RUS"},
-            {"team": "Ferrari", "code1": "HAM", "code2": "LEC"},
-            {"team": "McLaren", "code1": "NOR", "code2": "PIA"},
-            {"team": "Red Bull Racing", "code1": "VER", "code2": "HAD"},
-            {"team": "RB (Racing Bulls)", "code1": "LAW", "code2": "LIN"},
-            {"team": "Alpine", "code1": "GAS", "code2": "COL"},
-            {"team": "Haas", "code1": "BEA", "code2": "OCO"},
-            {"team": "Sauber / Audi", "code1": "BOR", "code2": "HUL"},
-            {"team": "Williams", "code1": "SAI", "code2": "ALB"},
-            {"team": "Aston Martin", "code1": "ALO", "code2": "STR"}
-        ]
+        latest_race = race_results_races[-1]
+        results = latest_race.get("Results", [])
+        
+        team_drivers = {}
+        for r in results:
+            constructor = r.get("Constructor", {}).get("name")
+            driver = r.get("Driver", {}).get("code")
+            if constructor and driver:
+                if constructor not in team_drivers:
+                    team_drivers[constructor] = []
+                if driver not in team_drivers[constructor]:
+                    team_drivers[constructor].append(driver)
+        
+        pairs = []
+        for team, drivers in team_drivers.items():
+            if len(drivers) >= 2:
+                pairs.append({"team": team, "code1": drivers[0], "code2": drivers[1]})
 
         summary = []
         for p in pairs:
