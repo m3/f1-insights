@@ -66,13 +66,7 @@ def get_master_overview(db: Session = Depends(get_db)):
     data = _get_cache(db, MasterOverviewCache)
     
     if not data:
-        # Fallback for empty DB
-        fallback_path = os.path.join(settings.BASE_DIR, "portal", "public", "data", "overview.json")
-        if os.path.exists(fallback_path):
-            try:
-                with open(fallback_path, "r") as f:
-                    data = json.load(f)
-            except: pass
+        pass
 
     if data:
         _OVERVIEW_CACHE["timestamp"] = now

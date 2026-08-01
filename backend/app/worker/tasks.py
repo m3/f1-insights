@@ -129,7 +129,7 @@ async def run_pipeline_async():
     tyre_strategy = await asyncio.to_thread(analytics.build_tyre_strategy_summary, race_name=race_name)
     pit_stops = await asyncio.to_thread(analytics.build_pit_strategy, race_name=race_name)
     
-    social_res = await social.fetch_social_sentiment(race_name)
+    social_res = social.fetch_social_sentiment(race_name)
     social_sentiment = social_res.data
     
     pre_brief = await asyncio.to_thread(generator.build_pre_race_brief, next_race, pre_race_facts, penalty_watch, driver_standings)

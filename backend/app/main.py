@@ -25,22 +25,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("F1FastAPI")
 
 def populate_initial_db_cache():
-    """Populate SQLite database cache from latest JSON feed if empty."""
-    db = SessionLocal()
-    try:
-        existing = db.query(MasterOverviewCache).filter(MasterOverviewCache.id == "latest").first()
-        if not existing:
-            json_path = os.path.join(root_dir, "portal", "public", "data", "overview.json")
-            if os.path.exists(json_path):
-                with open(json_path, "r") as f:
-                    content = f.read()
-                db.add(MasterOverviewCache(id="latest", payload_json=content))
-                db.commit()
-                logger.info("Successfully populated SQLite master overview cache from JSON feed!")
-    except Exception as e:
-        logger.warning(f"DB cache initialization notice: {e}")
-    finally:
-        db.close()
+    """No-op. Legacy JSON mock feed has been purged."""
+    pass
 
 from worker.tasks import pipeline_worker_loop
 
