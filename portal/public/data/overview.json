@@ -1,13 +1,14 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-01T10:20:38.797311Z",
+  "updatedAt": "2026-08-01T11:16:45.337573Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -49,10 +50,10 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "18\u00b0C",
-    "trackTemp": "23\u00b0C",
+    "ambientTemp": "22\u00b0C",
+    "trackTemp": "27\u00b0C",
     "rainRisk": "0%",
-    "wind": "3 km/h NE",
+    "wind": "11 km/h NE",
     "humidity": "85%"
   },
   "schedule": [
@@ -1526,347 +1527,13 @@
       }
     }
   ],
-  "sectorMatrix": [],
-  "gridPenalties": {
-    "startingGridImpacts": [],
-    "inRaceTimePenalties": []
-  },
-  "circuitSpecs": {
-    "circuitName": "Circuit Park Zandvoort",
-    "circuitId": "zandvoort",
-    "lat": "52.3888",
-    "lng": "4.54092"
-  },
-  "penaltyWatch": {
-    "high_risk_drivers": [
-      {
-        "driver": "Esteban Ocon",
-        "code": "OCO",
-        "points": 9,
-        "max": 12,
-        "at_risk": true,
-        "expiry_next": "2026-09-01"
-      },
-      {
-        "driver": "Lance Stroll",
-        "code": "STR",
-        "points": 8,
-        "max": 12,
-        "at_risk": true,
-        "expiry_next": "2026-10-15"
-      }
-    ],
-    "total_drivers_flagged": 2,
-    "summary": "2 driver(s) currently on penalty watch (>8 points)."
-  },
-  "teammateBattles": [
-    {
-      "team": "Mercedes",
-      "drivers": "ANT vs RUS",
-      "quali": "3 - 1",
-      "race": "3 - 1",
-      "leader": "ANT Ahead"
-    },
-    {
-      "team": "Ferrari",
-      "drivers": "HAM vs LEC",
-      "quali": "2 - 3",
-      "race": "3 - 2",
-      "leader": "HAM Ahead"
-    },
-    {
-      "team": "McLaren",
-      "drivers": "NOR vs PIA",
-      "quali": "1 - 3",
-      "race": "2 - 2",
-      "leader": "NOR Ahead"
-    },
-    {
-      "team": "Red Bull Racing",
-      "drivers": "VER vs HAD",
-      "quali": "3 - 2",
-      "race": "4 - 1",
-      "leader": "VER Ahead"
-    },
-    {
-      "team": "RB (Racing Bulls)",
-      "drivers": "LAW vs LIN",
-      "quali": "3 - 1",
-      "race": "2 - 2",
-      "leader": "LAW Ahead"
-    },
-    {
-      "team": "Alpine",
-      "drivers": "GAS vs COL",
-      "quali": "3 - 2",
-      "race": "3 - 2",
-      "leader": "GAS Ahead"
-    },
-    {
-      "team": "Haas",
-      "drivers": "BEA vs OCO",
-      "quali": "3 - 1",
-      "race": "3 - 1",
-      "leader": "BEA Ahead"
-    },
-    {
-      "team": "Sauber / Audi",
-      "drivers": "BOR vs HUL",
-      "quali": "2 - 2",
-      "race": "2 - 2",
-      "leader": "BOR Ahead"
-    },
-    {
-      "team": "Williams",
-      "drivers": "SAI vs ALB",
-      "quali": "3 - 1",
-      "race": "3 - 1",
-      "leader": "SAI Ahead"
-    },
-    {
-      "team": "Aston Martin",
-      "drivers": "ALO vs STR",
-      "quali": "4 - 0",
-      "race": "3 - 1",
-      "leader": "ALO Ahead"
-    }
-  ],
-  "tyreStrategy": [],
-  "pitStops": [],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 58,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 68,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 64,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 60,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 56,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 52,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 48,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 07:05:06 GMT"
-      },
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 08:00:02 GMT"
-      },
-      {
-        "author": "the-sun.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 05:34:57 GMT"
-      },
-      {
-        "author": "BBC",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 17:12:35 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Bold Adrian Newey comment sparks Fernando Alonso response - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 08:49:58 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 07:05:06 GMT"
-      },
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 08:00:02 GMT"
-      },
-      {
-        "author": "the-sun.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 05:34:57 GMT"
-      },
-      {
-        "author": "BBC",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 17:12:35 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Bold Adrian Newey comment sparks Fernando Alonso response - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 08:49:58 GMT"
-      }
-    ]
-  },
   "latestPreBrief": {
     "type": "PRE_RACE",
     "title": "Pre-Race Preview: Dutch Grand Prix",
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-01T07:02:56.404230",
+    "generatedAt": "2026-08-01T11:16:45.336151",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -2020,7 +1687,7 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\n2 driver(s) currently on penalty watch (>8 points).\n- **Esteban Ocon (OCO)**: 9/12 Points | Expiry: 2026-09-01\n- **Lance Stroll (STR)**: 8/12 Points | Expiry: 2026-10-15\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
@@ -2028,7 +1695,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-01T07:02:56.431323",
+    "generatedAt": "2026-08-01T11:16:45.336578",
     "facts": [],
     "teammateBattles": [
       {
@@ -2224,6 +1891,78 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
-  }
+    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Mercedes** (ANT vs RUS): Quali `3 - 1` | Race `3 - 1` -> Leader: **ANT Ahead**\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **McLaren** (NOR vs PIA): Quali `1 - 3` | Race `2 - 2` -> Leader: **NOR Ahead**\n- **Red Bull Racing** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **RB (Racing Bulls)** (LAW vs LIN): Quali `3 - 1` | Race `2 - 2` -> Leader: **LAW Ahead**\n- **Alpine** (GAS vs COL): Quali `3 - 2` | Race `3 - 2` -> Leader: **GAS Ahead**\n- **Haas** (BEA vs OCO): Quali `3 - 1` | Race `3 - 1` -> Leader: **BEA Ahead**\n- **Sauber / Audi** (BOR vs HUL): Quali `2 - 2` | Race `2 - 2` -> Leader: **BOR Ahead**\n- **Williams** (SAI vs ALB): Quali `3 - 1` | Race `3 - 1` -> Leader: **SAI Ahead**\n- **Aston Martin** (ALO vs STR): Quali `4 - 0` | Race `3 - 1` -> Leader: **ALO Ahead**\n"
+  },
+  "teammateBattles": [
+    {
+      "team": "Mercedes",
+      "drivers": "ANT vs RUS",
+      "quali": "3 - 1",
+      "race": "3 - 1",
+      "leader": "ANT Ahead"
+    },
+    {
+      "team": "Ferrari",
+      "drivers": "HAM vs LEC",
+      "quali": "2 - 3",
+      "race": "3 - 2",
+      "leader": "HAM Ahead"
+    },
+    {
+      "team": "McLaren",
+      "drivers": "NOR vs PIA",
+      "quali": "1 - 3",
+      "race": "2 - 2",
+      "leader": "NOR Ahead"
+    },
+    {
+      "team": "Red Bull Racing",
+      "drivers": "VER vs HAD",
+      "quali": "3 - 2",
+      "race": "4 - 1",
+      "leader": "VER Ahead"
+    },
+    {
+      "team": "RB (Racing Bulls)",
+      "drivers": "LAW vs LIN",
+      "quali": "3 - 1",
+      "race": "2 - 2",
+      "leader": "LAW Ahead"
+    },
+    {
+      "team": "Alpine",
+      "drivers": "GAS vs COL",
+      "quali": "3 - 2",
+      "race": "3 - 2",
+      "leader": "GAS Ahead"
+    },
+    {
+      "team": "Haas",
+      "drivers": "BEA vs OCO",
+      "quali": "3 - 1",
+      "race": "3 - 1",
+      "leader": "BEA Ahead"
+    },
+    {
+      "team": "Sauber / Audi",
+      "drivers": "BOR vs HUL",
+      "quali": "2 - 2",
+      "race": "2 - 2",
+      "leader": "BOR Ahead"
+    },
+    {
+      "team": "Williams",
+      "drivers": "SAI vs ALB",
+      "quali": "3 - 1",
+      "race": "3 - 1",
+      "leader": "SAI Ahead"
+    },
+    {
+      "team": "Aston Martin",
+      "drivers": "ALO vs STR",
+      "quali": "4 - 0",
+      "race": "3 - 1",
+      "leader": "ALO Ahead"
+    }
+  ]
 }
