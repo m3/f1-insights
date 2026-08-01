@@ -56,13 +56,13 @@ export default function App() {
     );
   }
 
-  const currentRace = data?.currentRace;
-  const driverStandings = Array.isArray(data?.driverStandings) ? data.driverStandings : [];
-  const constructorStandings = Array.isArray(data?.constructorStandings) ? data.constructorStandings : [];
-  const penaltyPoints = Array.isArray(data?.penaltyPoints) ? data.penaltyPoints : (Array.isArray(data?.penaltyWatch?.high_risk_drivers) ? data.penaltyWatch.high_risk_drivers : []);
-  const teammateBattles = Array.isArray(data?.teammateBattles) ? data.teammateBattles : (Array.isArray(data?.latestPostBrief?.teammateBattles) ? data.latestPostBrief.teammateBattles : []);
-  const preBrief = data?.latestPreBrief;
-  const postBrief = data?.latestPostBrief;
+  const currentRace = overview?.currentRace;
+  const driverStandings = Array.isArray(overview?.driverStandings) ? overview.driverStandings : [];
+  const constructorStandings = Array.isArray(overview?.constructorStandings) ? overview.constructorStandings : [];
+  const penaltyPoints = Array.isArray(strategy?.penaltyWatch?.high_risk_drivers) ? strategy.penaltyWatch.high_risk_drivers : [];
+  const teammateBattles = Array.isArray(overview?.teammateBattles) ? overview.teammateBattles : [];
+  const preBrief = overview?.latestPreBrief;
+  const postBrief = overview?.latestPostBrief;
 
   return (
     <div style={{ maxWidth: '1440px', margin: '0 auto', padding: '0 16px 40px' }}>
@@ -72,7 +72,7 @@ export default function App() {
       <SessionCountdownHeader currentRace={currentRace} />
 
       <main>
-        {activeTab === 'brief' && (
+        {activeTab === 'DASHBOARD' && (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '24px', width: '100%', marginTop: '24px' }}>
             
             {/* COLUMN 1: The Strategy Desk (4 cols) */}
@@ -81,10 +81,8 @@ export default function App() {
                 <h3 className="font-orbitron" style={{ margin: 0, fontSize: '1.2rem', color: '#FFF' }}>THE STRATEGY DESK</h3>
                 <p style={{ margin: '4px 0 0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>Data-driven forecasting & tactical analysis</p>
               </div>
-              <SessionClassificationTable data={data} currentRace={currentRace} />
-              <TyreDegSimulator />
-              <PitStrategyCalculator pitStopsData={data?.pitStops} />
-              <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
+              <SessionClassificationTable data={overview} currentRace={currentRace} />
+              <GridPenaltiesTracker penaltiesData={strategy?.gridPenalties} />
               <TeammateBattles battles={teammateBattles} />
             </div>
 
@@ -104,43 +102,24 @@ export default function App() {
                 <p style={{ margin: '4px 0 0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>Live news, drama, and regulatory scrutiny</p>
               </div>
               <PenaltyWatch penaltyPoints={penaltyPoints} />
-              <SocialSentiment sentiment={data?.socialSentiment} />
+              <SocialSentiment sentiment={social} />
               <StandingsView
                 driverStandings={driverStandings}
                 constructorStandings={constructorStandings}
-                schedule={data?.schedule || []}
+                schedule={overview?.schedule || []}
               />
             </div>
 
           </div>
         )}
-        
-        {/* Keep isolated tabs for focused viewing if user clicks on nav links */}
-        {activeTab === 'classification' && <SessionClassificationTable data={data} currentRace={currentRace} />}
-        {activeTab === 'tyre_deg' && <TyreDegSimulator />}
-        {activeTab === 'grid_penalties' && <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />}
-        {activeTab === 'pitstop' && <PitStrategyCalculator pitStopsData={data?.pitStops} />}
-        {activeTab === 'penalties' && <PenaltyWatch penaltyPoints={penaltyPoints} />}
-        {activeTab === 'teammates' && <TeammateBattles battles={teammateBattles} />}
-        {activeTab === 'standings' && (
-          <StandingsView
-            driverStandings={driverStandings}
-            constructorStandings={constructorStandings}
-            schedule={data?.schedule || []}
-          />
-        )}
-        {activeTab === 'social' && <SocialSentiment sentiment={data?.socialSentiment} />}
       </main>
 
       <WebhookDispatchModal
-        isOpen={isWebhookModalOpen}
-        onClose={() => setIsWebhookModalOpen(false)}
+        isOpen={webhookModalOpen}
+        onClose={() => setWebhookModalOpen(false)}
         preBrief={preBrief}
         postBrief={postBrief}
       />
     </div>
   );
 }
-
-
-
