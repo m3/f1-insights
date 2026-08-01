@@ -1,14 +1,13 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-01T04:02:08.768664Z",
+  "updatedAt": "2026-08-01T06:21:38.277887Z",
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "TracingInsights",
-      "OpenMeteo"
+      "FastF1",
+      "OpenMeteo",
+      "SocialMediaRadar"
     ],
-    "tracingInsightsCommit": null,
-    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -1636,13 +1635,13 @@
   "pitStops": [],
   "socialSentiment": {
     "schema_version": "4.0",
-    "race": "Dutch Grand Prix",
+    "race": "Hungarian Grand Prix",
     "overallSentiment": "MONITORED",
     "sentimentScore": 75,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
-      "#DutchGrandPrix",
+      "#HungarianGrandPrix",
       "#F1",
       "#F12026",
       "#Formula1",
