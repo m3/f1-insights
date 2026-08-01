@@ -13,15 +13,15 @@ JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"
 class JolpicaProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="JolpicaErgast", cache_ttl_seconds=86400)
-        self.session = httpx.AsyncClient(
+        self.session = httpx.Client(
             headers={"User-Agent": "F1-Insights-Brief/4.0"}
         )
 
-    async def fetch_schedule(self, season: str = "current") -> ProviderResponse:
+    def fetch_schedule(self, season: str = "current") -> ProviderResponse:
         """Fetch 2026 race calendar."""
         url = f"{JOLPICA_BASE}/{season}.json"
         try:
-            res = await self.session.get(url, timeout=10.0)
+            res = self.session.get(url, timeout=10.0)
             if res.status_code == 200:
                 data = res.json()
                 races = data.get("MRData", {}).get("RaceTable", {}).get("Races", [])
@@ -41,11 +41,11 @@ class JolpicaProvider(BaseProvider):
                 error_class="ProviderUnavailable"
             )
 
-    async def fetch_driver_standings(self, season: str = "current") -> ProviderResponse:
+    def fetch_driver_standings(self, season: str = "current") -> ProviderResponse:
         """Fetch Driver Championship Standings."""
         url = f"{JOLPICA_BASE}/{season}/driverStandings.json"
         try:
-            res = await self.session.get(url, timeout=10.0)
+            res = self.session.get(url, timeout=10.0)
             if res.status_code == 200:
                 data = res.json()
                 lists = data.get("MRData", {}).get("StandingsTable", {}).get("StandingsLists", [])
@@ -68,11 +68,11 @@ class JolpicaProvider(BaseProvider):
             error_class="ProviderUnavailable"
         )
 
-    async def fetch_constructor_standings(self, season: str = "current") -> ProviderResponse:
+    def fetch_constructor_standings(self, season: str = "current") -> ProviderResponse:
         """Fetch Constructor Championship Standings."""
         url = f"{JOLPICA_BASE}/{season}/constructorStandings.json"
         try:
-            res = await self.session.get(url, timeout=10.0)
+            res = self.session.get(url, timeout=10.0)
             if res.status_code == 200:
                 data = res.json()
                 lists = data.get("MRData", {}).get("StandingsTable", {}).get("StandingsLists", [])
@@ -95,11 +95,11 @@ class JolpicaProvider(BaseProvider):
             error_class="ProviderUnavailable"
         )
 
-    async def fetch_race_results(self, season: str = "current") -> ProviderResponse:
+    def fetch_race_results(self, season: str = "current") -> ProviderResponse:
         """Fetch completed race results for active season."""
         url = f"{JOLPICA_BASE}/{season}/results.json?limit=500"
         try:
-            res = await self.session.get(url, timeout=10.0)
+            res = self.session.get(url, timeout=10.0)
             if res.status_code == 200:
                 data = res.json()
                 races = data.get("MRData", {}).get("RaceTable", {}).get("Races", [])

@@ -13,9 +13,9 @@ OPEN_METEO_BASE = "https://api.open-meteo.com/v1/forecast"
 class OpenMeteoProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="OpenMeteo", cache_ttl_seconds=600)
-        self.session = httpx.AsyncClient()
+        self.session = httpx.Client()
 
-    async def fetch_weather(self, lat: float = 47.583, lon: float = 19.248, circuit_name: str = "Hungaroring") -> ProviderResponse:
+    def fetch_weather(self, lat: float = 47.583, lon: float = 19.248, circuit_name: str = "Hungaroring") -> ProviderResponse:
         """Fetch live weather metrics for circuit coordinates."""
         params = {
             "latitude": lat,
@@ -24,7 +24,7 @@ class OpenMeteoProvider(BaseProvider):
             "hourly": "temperature_2m,relativehumidity_2m,precipitation_probability,windspeed_10m,direct_normal_irradiance"
         }
         try:
-            res = await self.session.get(OPEN_METEO_BASE, params=params, timeout=5.0)
+            res = self.session.get(OPEN_METEO_BASE, params=params, timeout=5.0)
             if res.status_code == 200:
                 data = res.json()
                 current = data.get("current_weather", {})
