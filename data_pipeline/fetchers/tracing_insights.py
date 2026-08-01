@@ -46,7 +46,7 @@ class F1DataFetcher:
         except Exception as e:
             logger.warning(f"Failed to fetch driver standings: {e}")
         
-        return self._get_fallback_driver_standings()
+        return []
 
     def get_active_driver_codes(self, season: str = "current") -> set:
         """Fetch list of verified active driver codes for the active season to guard against stale data leakage."""
@@ -72,7 +72,7 @@ class F1DataFetcher:
         except Exception as e:
             logger.warning(f"Failed to fetch constructor standings: {e}")
         
-        return self._get_fallback_constructor_standings()
+        return []
 
     def get_penalty_points(self) -> List[Dict[str, Any]]:
         """Fetch current driver penalty points from TracingInsights archive, strictly filtered by active drivers."""
@@ -86,22 +86,8 @@ class F1DataFetcher:
         except Exception as e:
             logger.warning(f"TracingInsights Penalty Points fetch error: {e}")
         
-        if not raw_list:
-            raw_list = [
-                {"driver": "Esteban Ocon", "code": "OCO", "points": 9, "max": 12, "at_risk": True, "expiry_next": "2026-09-01"},
-                {"driver": "Lance Stroll", "code": "STR", "points": 8, "max": 12, "at_risk": True, "expiry_next": "2026-10-15"},
-                {"driver": "Fernando Alonso", "code": "ALO", "points": 6, "max": 12, "at_risk": False, "expiry_next": "2026-11-02"},
-                {"driver": "Max Verstappen", "code": "VER", "points": 4, "max": 12, "at_risk": False, "expiry_next": "2026-12-01"},
-                {"driver": "Lewis Hamilton", "code": "HAM", "points": 2, "max": 12, "at_risk": False, "expiry_next": "2027-01-10"},
-                {"driver": "Charles Leclerc", "code": "LEC", "points": 0, "max": 12, "at_risk": False, "expiry_next": "N/A"},
-                {"driver": "Lando Norris", "code": "NOR", "points": 1, "max": 12, "at_risk": False, "expiry_next": "2027-02-14"},
-                {"driver": "Oscar Piastri", "code": "PIA", "points": 0, "max": 12, "at_risk": False, "expiry_next": "N/A"},
-                {"driver": "George Russell", "code": "RUS", "points": 3, "max": 12, "at_risk": False, "expiry_next": "2026-08-20"},
-                {"driver": "Carlos Sainz", "code": "SAI", "points": 5, "max": 12, "at_risk": False, "expiry_next": "2026-09-12"}
-            ]
-
         # GUARDRAIL: Filter out any driver not in the active 2026 standings
-        if active_codes:
+        if active_codes and raw_list:
             filtered = [item for item in raw_list if item.get("code", "").upper() in active_codes]
             return filtered if filtered else raw_list
         return raw_list
@@ -213,20 +199,4 @@ class F1DataFetcher:
                 "date": "2026-09-13",
                 "time": "13:00:00Z"
             }
-        ]
-
-    def _get_fallback_driver_standings(self) -> List[Dict[str, Any]]:
-        return [
-            {"position": "1", "points": "204", "wins": "6", "Driver": {"driverId": "antonelli", "givenName": "Andrea Kimi", "familyName": "Antonelli", "code": "ANT", "nationality": "Italian"}, "Constructors": [{"name": "Mercedes"}]},
-            {"position": "2", "points": "159", "wins": "1", "Driver": {"driverId": "hamilton", "givenName": "Lewis", "familyName": "Hamilton", "code": "HAM", "nationality": "British"}, "Constructors": [{"name": "Ferrari"}]},
-            {"position": "3", "points": "154", "wins": "2", "Driver": {"driverId": "russell", "givenName": "George", "familyName": "Russell", "code": "RUS", "nationality": "British"}, "Constructors": [{"name": "Mercedes"}]},
-            {"position": "4", "points": "126", "wins": "1", "Driver": {"driverId": "leclerc", "givenName": "Charles", "familyName": "Leclerc", "code": "LEC", "nationality": "Monegasque"}, "Constructors": [{"name": "Ferrari"}]},
-            {"position": "5", "points": "103", "wins": "0", "Driver": {"driverId": "norris", "givenName": "Lando", "familyName": "Norris", "code": "NOR", "nationality": "British"}, "Constructors": [{"name": "McLaren"}]}
-        ]
-
-    def _get_fallback_constructor_standings(self) -> List[Dict[str, Any]]:
-        return [
-            {"position": "1", "points": "358", "wins": "8", "Constructor": {"constructorId": "mercedes", "name": "Mercedes"}},
-            {"position": "2", "points": "285", "wins": "2", "Constructor": {"constructorId": "ferrari", "name": "Ferrari"}},
-            {"position": "3", "points": "195", "wins": "0", "Constructor": {"constructorId": "mclaren", "name": "McLaren"}}
         ]

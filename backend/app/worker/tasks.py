@@ -90,8 +90,8 @@ async def run_pipeline_async():
     )
     
     schedule = sched_res.data if sched_res.data else fetcher.get_current_schedule()
-    driver_standings = wdc_res.data if wdc_res.data else fetcher.get_fallback_driver_standings()
-    constructor_standings = wcc_res.data if wcc_res.data else fetcher.get_fallback_constructor_standings()
+    driver_standings = wdc_res.data if wdc_res.data else []
+    constructor_standings = wcc_res.data if wcc_res.data else []
     completed_races = results_res.data if results_res.data else []
     
     penalty_points = fetcher.get_penalty_points()
