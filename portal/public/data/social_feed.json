@@ -142,16 +142,6 @@
       "time": "Sun, 26 Jul 2026 17:12:35 GMT"
     },
     {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
-    },
-    {
       "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -162,14 +152,24 @@
       "time": "Fri, 31 Jul 2026 16:01:00 GMT"
     },
     {
-      "author": "the-sun.com",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
+      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 05:34:57 GMT"
+      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+    },
+    {
+      "author": "Autosport",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 30 Jul 2026 14:15:02 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -194,16 +194,6 @@
       "time": "Sun, 26 Jul 2026 17:12:35 GMT"
     },
     {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
-    },
-    {
       "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -214,14 +204,24 @@
       "time": "Fri, 31 Jul 2026 16:01:00 GMT"
     },
     {
-      "author": "the-sun.com",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
+      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 05:34:57 GMT"
+      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+    },
+    {
+      "author": "Autosport",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 30 Jul 2026 14:15:02 GMT"
     }
   ]
 }
