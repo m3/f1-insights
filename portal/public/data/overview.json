@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-01T19:52:27.813040Z",
+  "updatedAt": "2026-08-01T20:41:32.130189Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1994,11 +1994,11 @@
         "time": "Sat, 01 Aug 2026 17:09:58 GMT"
       },
       {
-        "author": "BBC",
+        "author": "bbc.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - bbc.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 17:12:35 GMT"
@@ -2024,14 +2024,14 @@
         "time": "Fri, 31 Jul 2026 16:01:00 GMT"
       },
       {
-        "author": "The Race",
+        "author": "Autosport",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "What a day at McLaren HQ taught us about F1 - The Race",
+        "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Thu, 30 Jul 2026 15:56:30 GMT"
+        "time": "Thu, 30 Jul 2026 14:15:02 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2046,11 +2046,11 @@
         "time": "Sat, 01 Aug 2026 17:09:58 GMT"
       },
       {
-        "author": "BBC",
+        "author": "bbc.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - bbc.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 17:12:35 GMT"
@@ -2076,14 +2076,14 @@
         "time": "Fri, 31 Jul 2026 16:01:00 GMT"
       },
       {
-        "author": "The Race",
+        "author": "Autosport",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "What a day at McLaren HQ taught us about F1 - The Race",
+        "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Thu, 30 Jul 2026 15:56:30 GMT"
+        "time": "Thu, 30 Jul 2026 14:15:02 GMT"
       }
     ]
   }
