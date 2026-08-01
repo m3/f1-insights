@@ -3,9 +3,7 @@ import Header from './components/Header';
 import SessionCountdownHeader from './components/SessionCountdownHeader';
 import SessionClassificationTable from './components/SessionClassificationTable';
 import BriefCard from './components/BriefCard';
-import TyreDegSimulator from './components/TyreDegSimulator';
 import GridPenaltiesTracker from './components/GridPenaltiesTracker';
-import PitStrategyCalculator from './components/PitStrategyCalculator';
 import PenaltyWatch from './components/PenaltyWatch';
 import TeammateBattles from './components/TeammateBattles';
 import StandingsView from './components/StandingsView';
@@ -14,28 +12,34 @@ import WebhookDispatchModal from './components/WebhookDispatchModal';
 import { useF1Store } from './store/useF1Store';
 
 export default function App() {
-  const { data, loading, error, activeTab, isWebhookModalOpen, setIsWebhookModalOpen, fetchData } = useF1Store();
+  const { 
+    overview, 
+    strategy,
+    social,
+    error,
+    fetchOverview, 
+    fetchStrategy,
+    fetchSocial,
+    isLoading 
+  } = useF1Store();
+
+  const [activeTab, setActiveTab] = useState('DASHBOARD');
+  const [webhookModalOpen, setWebhookModalOpen] = useState(false);
 
   useEffect(() => {
-    fetchData();
-  }, []);
+    fetchOverview();
+    fetchStrategy();
+    fetchSocial();
+  }, [fetchOverview, fetchStrategy, fetchSocial]);
 
-  if (loading) {
+  const toggleWebhookModal = () => setWebhookModalOpen(!webhookModalOpen);
+
+  if (isLoading || !overview || !overview.currentRace) {
     return (
-      <div style={{ display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
+      <div className="min-h-screen bg-space-black text-white font-body flex items-center justify-center">
         <div style={{ textAlign: 'center' }}>
-          <div style={{
-            width: '40px',
-            height: '40px',
-            border: '4px solid rgba(255,24,1,0.2)',
-            borderTop: '4px solid #FF1801',
-            borderRadius: '50%',
-            animation: 'spin 1s linear infinite',
-            margin: '0 auto 16px'
-          }} />
-          <div className="font-orbitron" style={{ color: '#FFF', fontSize: '1.1rem' }}>
-            SYNTHESIZING RACE INTELLIGENCE...
-          </div>
+          <div className="glowing-spinner" style={{ margin: '0 auto 20px', width: '40px', height: '40px', border: '3px solid rgba(255, 24, 1, 0.2)', borderTopColor: '#FF1801', borderRadius: '50%', animation: 'spin 1s linear infinite' }} />
+          <h2 className="font-orbitron" style={{ color: '#FF1801', textTransform: 'uppercase', letterSpacing: '2px' }}>Establishing Uplink...</h2>
         </div>
       </div>
     );
@@ -47,7 +51,6 @@ export default function App() {
         <div className="glass-panel" style={{ padding: '32px', textAlign: 'center', maxWidth: '400px' }}>
           <h2 className="font-orbitron text-gradient-red" style={{ marginBottom: '12px' }}>INTELLIGENCE FEED DISCONNECTED</h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginBottom: '20px' }}>{error}</p>
-          <button className="btn-primary" onClick={fetchData}>Re-establish Connection</button>
         </div>
       </div>
     );
