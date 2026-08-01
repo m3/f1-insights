@@ -1,5 +1,5 @@
 import pytest
-from unittest.mock import patch, MagicMock, AsyncMock
+from unittest.mock import patch, MagicMock
 import sys
 import os
 
@@ -10,8 +10,7 @@ from providers.jolpica_provider import JolpicaProvider
 def provider():
     return JolpicaProvider()
 
-@pytest.mark.asyncio
-async def test_fetch_schedule_success(provider):
+def test_fetch_schedule_success(provider):
     mock_response = MagicMock()
     mock_response.status_code = 200
     mock_response.json.return_value = {
@@ -22,16 +21,15 @@ async def test_fetch_schedule_success(provider):
         }
     }
     
-    with patch.object(provider.session, 'get', new_callable=AsyncMock, return_value=mock_response):
-        res = await provider.fetch_schedule()
+    with patch.object(provider.session, 'get', return_value=mock_response):
+        res = provider.fetch_schedule()
         
     assert res.status == "available"
     assert len(res.data) == 1
     assert res.data[0]["raceName"] == "Hungarian Grand Prix"
     assert res.confidence == 1.0
 
-@pytest.mark.asyncio
-async def test_fetch_schedule_schema_drift(provider):
+def test_fetch_schedule_schema_drift(provider):
     """Test resilience against upstream API changing their JSON schema."""
     mock_response = MagicMock()
     mock_response.status_code = 200
@@ -42,24 +40,22 @@ async def test_fetch_schedule_schema_drift(provider):
         }
     }
     
-    with patch.object(provider.session, 'get', new_callable=AsyncMock, return_value=mock_response):
-        res = await provider.fetch_schedule()
+    with patch.object(provider.session, 'get', return_value=mock_response):
+        res = provider.fetch_schedule()
         
     assert res.status == "available"
     assert res.data == [] # Should safely fallback to empty list instead of crashing
 
-@pytest.mark.asyncio
-async def test_fetch_driver_standings_network_failure(provider):
-    with patch.object(provider.session, 'get', new_callable=AsyncMock, side_effect=Exception("Connection Timeout")):
-        res = await provider.fetch_driver_standings()
+def test_fetch_driver_standings_network_failure(provider):
+    with patch.object(provider.session, 'get', side_effect=Exception("Connection Timeout")):
+        res = provider.fetch_driver_standings()
         
     assert res.status == "failed"
     assert res.data == []
     assert res.error_class == "ProviderUnavailable"
     assert res.confidence == 0.0
 
-@pytest.mark.asyncio
-async def test_fetch_constructor_standings_success(provider):
+def test_fetch_constructor_standings_success(provider):
     mock_response = MagicMock()
     mock_response.status_code = 200
     mock_response.json.return_value = {
@@ -76,8 +72,8 @@ async def test_fetch_constructor_standings_success(provider):
         }
     }
     
-    with patch.object(provider.session, 'get', new_callable=AsyncMock, return_value=mock_response):
-        res = await provider.fetch_constructor_standings()
+    with patch.object(provider.session, 'get', return_value=mock_response):
+        res = provider.fetch_constructor_standings()
         
     assert res.status == "available"
     assert len(res.data) == 1
