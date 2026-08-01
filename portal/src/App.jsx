@@ -13,28 +13,22 @@ import { useF1Store } from './store/useF1Store';
 
 export default function App() {
   const { 
-    overview, 
-    strategy,
-    social,
+    data,
     error,
-    fetchOverview, 
-    fetchStrategy,
-    fetchSocial,
-    isLoading 
+    fetchData,
+    loading 
   } = useF1Store();
 
   const [activeTab, setActiveTab] = useState('DASHBOARD');
   const [webhookModalOpen, setWebhookModalOpen] = useState(false);
 
   useEffect(() => {
-    fetchOverview();
-    fetchStrategy();
-    fetchSocial();
-  }, [fetchOverview, fetchStrategy, fetchSocial]);
+    fetchData();
+  }, [fetchData]);
 
   const toggleWebhookModal = () => setWebhookModalOpen(!webhookModalOpen);
 
-  if (isLoading || !overview || !overview.currentRace) {
+  if (loading || !data || !data.currentRace) {
     return (
       <div className="min-h-screen bg-space-black text-white font-body flex items-center justify-center">
         <div style={{ textAlign: 'center' }}>
@@ -56,13 +50,13 @@ export default function App() {
     );
   }
 
-  const currentRace = overview?.currentRace;
-  const driverStandings = Array.isArray(overview?.driverStandings) ? overview.driverStandings : [];
-  const constructorStandings = Array.isArray(overview?.constructorStandings) ? overview.constructorStandings : [];
-  const penaltyPoints = Array.isArray(strategy?.penaltyWatch?.high_risk_drivers) ? strategy.penaltyWatch.high_risk_drivers : [];
-  const teammateBattles = Array.isArray(overview?.teammateBattles) ? overview.teammateBattles : [];
-  const preBrief = overview?.latestPreBrief;
-  const postBrief = overview?.latestPostBrief;
+  const currentRace = data?.currentRace;
+  const driverStandings = Array.isArray(data?.driverStandings) ? data.driverStandings : [];
+  const constructorStandings = Array.isArray(data?.constructorStandings) ? data.constructorStandings : [];
+  const penaltyPoints = Array.isArray(data?.penaltyWatch?.high_risk_drivers) ? data.penaltyWatch.high_risk_drivers : [];
+  const teammateBattles = Array.isArray(data?.teammateBattles) ? data.teammateBattles : [];
+  const preBrief = data?.latestPreBrief;
+  const postBrief = data?.latestPostBrief;
 
   return (
     <div style={{ maxWidth: '1440px', margin: '0 auto', padding: '0 16px 40px' }}>
@@ -81,8 +75,8 @@ export default function App() {
                 <h3 className="font-orbitron" style={{ margin: 0, fontSize: '1.2rem', color: '#FFF' }}>THE STRATEGY DESK</h3>
                 <p style={{ margin: '4px 0 0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>Data-driven forecasting & tactical analysis</p>
               </div>
-              <SessionClassificationTable data={overview} currentRace={currentRace} />
-              <GridPenaltiesTracker penaltiesData={strategy?.gridPenalties} />
+              <SessionClassificationTable data={data} currentRace={currentRace} />
+              <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
               <TeammateBattles battles={teammateBattles} />
             </div>
 
@@ -102,11 +96,11 @@ export default function App() {
                 <p style={{ margin: '4px 0 0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>Live news, drama, and regulatory scrutiny</p>
               </div>
               <PenaltyWatch penaltyPoints={penaltyPoints} />
-              <SocialSentiment sentiment={social} />
+              <SocialSentiment sentiment={data?.socialSentiment} />
               <StandingsView
                 driverStandings={driverStandings}
                 constructorStandings={constructorStandings}
-                schedule={overview?.schedule || []}
+                schedule={data?.schedule || []}
               />
             </div>
 
