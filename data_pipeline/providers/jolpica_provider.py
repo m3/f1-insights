@@ -3,7 +3,6 @@ Jolpica Provider for F1 Insights HQ (v4.0 Specification).
 Maintained Ergast-compatible API ingestion for 2026 schedule, standings, and race results.
 """
 import httpx
-import hishel
 import logging
 from typing import Dict, List, Any, Optional
 from .base_provider import BaseProvider, ProviderResponse
@@ -14,12 +13,7 @@ JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"
 class JolpicaProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="JolpicaErgast", cache_ttl_seconds=86400)
-        # Use AsyncCacheClient with SQLite backend
-        storage = hishel.AsyncSqliteStorage()
-        controller = hishel.Controller(cacheable_methods=["GET"], allow_stale=True)
-        self.session = hishel.AsyncCacheClient(
-            storage=storage,
-            controller=controller,
+        self.session = httpx.AsyncClient(
             headers={"User-Agent": "F1-Insights-Brief/4.0"}
         )
 
