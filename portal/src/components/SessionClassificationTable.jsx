@@ -20,18 +20,30 @@ export default function SessionClassificationTable({ data }) {
     const gridPos = item.gridPosition ? parseInt(item.gridPosition, 10) : finishPos;
     const delta = gridPos - finishPos;
 
-    // Use backend tyre strategy or realistic compound history
+    // Remove fake hardcoded tyre strategy. Only show if we actually have them.
     const tyres = Array.isArray(item.tyreStints) && item.tyreStints.length > 0
       ? item.tyreStints
-      : (idx % 2 === 0 ? ['MEDIUM', 'HARD'] : ['SOFT', 'MEDIUM', 'HARD']);
+      : [];
     
-    const stops = tyres.length - 1;
-    const status = item.status || (finishPos > 18 ? 'DNF' : 'Finished');
-    const timeGap = item.Time?.time || (finishPos === 1 ? 'Leader' : item.gap || `+${(finishPos * 1.85).toFixed(3)}s`);
+    const stops = tyres.length > 0 ? tyres.length - 1 : '-';
+    
+    // Only show status if it exists, otherwise fall back to empty string for standings
+    const status = item.status || '';
+    
+    // Only show time gap if it exists from real telemetry
+    let timeGap = '-';
+    if (item.Time?.time) timeGap = item.Time.time;
+    else if (item.gap) timeGap = item.gap;
+    else if (finishPos === 1 && status.includes('Finished')) timeGap = 'Leader';
+    
+    // For pure standings with no grid position, gridPos should be null so delta is null
+    const hasGridPos = item.gridPosition !== undefined && item.gridPosition !== null;
+    const gridPosInt = hasGridPos ? parseInt(item.gridPosition, 10) : null;
+    const delta = hasGridPos ? (gridPosInt - finishPos) : null;
 
     return {
       finishPos,
-      gridPos,
+      gridPos: gridPosInt,
       delta,
       code,
       name,
@@ -189,7 +201,7 @@ export default function SessionClassificationTable({ data }) {
                 </td>
 
                 <td className="font-mono" style={{ padding: '10px 12px', color: 'var(--text-muted)' }}>
-                  P{d.gridPos}
+                  {d.gridPos !== null ? `P${d.gridPos}` : '-'}
                 </td>
 
                 <td style={{ padding: '10px 12px' }}>
@@ -206,6 +218,11 @@ export default function SessionClassificationTable({ data }) {
                   {d.delta === 0 && (
                     <span style={{ display: 'inline-flex', alignItems: 'center', color: 'var(--text-dim)', fontSize: '0.75rem' }}>
                       <Minus size={12} /> =
+                    </span>
+                  )}
+                  {d.delta === null && (
+                    <span style={{ display: 'inline-flex', alignItems: 'center', color: 'var(--text-dim)', fontSize: '0.75rem' }}>
+                      -
                     </span>
                   )}
                 </td>
