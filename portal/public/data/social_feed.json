@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 55,
+  "sentimentScore": 60,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 65,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 61,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 57,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 53,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 49,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 45,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "PlanetF1",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      "time": "Sat, 01 Aug 2026 03:52:46 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 08:00:02 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "The Race",
+      "author": "astonmartinf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What a day at McLaren HQ taught us about F1 - The Race",
+      "text": "Mathilda Paatz: In Michael Schumacher's wheel tracks - astonmartinf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 15:56:30 GMT"
+      "time": "Sat, 01 Aug 2026 06:59:29 GMT"
     },
     {
-      "author": "BBC",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+      "text": "How 'pi**ing off' Marko unexpectedly helped launch Lawson's F1 career - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+      "time": "Sat, 01 Aug 2026 10:03:00 GMT"
     },
     {
-      "author": "autoweek.com",
+      "author": "AutoRacing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - autoweek.com",
+      "text": "Formula 1 News: COTA Grand Prix Plaza alive with events ahead of USGP - AutoRacing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+      "time": "Fri, 31 Jul 2026 18:49:14 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "PlanetF1",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      "time": "Sat, 01 Aug 2026 03:52:46 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen's Red Bull radio complaints prompt McLaren move question from David Croft - Motorsport.com",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 08:00:02 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "The Race",
+      "author": "astonmartinf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What a day at McLaren HQ taught us about F1 - The Race",
+      "text": "Mathilda Paatz: In Michael Schumacher's wheel tracks - astonmartinf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 15:56:30 GMT"
+      "time": "Sat, 01 Aug 2026 06:59:29 GMT"
     },
     {
-      "author": "BBC",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+      "text": "How 'pi**ing off' Marko unexpectedly helped launch Lawson's F1 career - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+      "time": "Sat, 01 Aug 2026 10:03:00 GMT"
     },
     {
-      "author": "autoweek.com",
+      "author": "AutoRacing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - autoweek.com",
+      "text": "Formula 1 News: COTA Grand Prix Plaza alive with events ahead of USGP - AutoRacing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+      "time": "Fri, 31 Jul 2026 18:49:14 GMT"
     }
   ]
 }
