@@ -3,7 +3,7 @@ Unit tests for data_pipeline/providers/openf1_provider.py (F1 Insights v2026.10)
 Proves OpenF1Provider schema structure, ProviderResponse provenance metadata, and error handling.
 """
 import pytest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch, MagicMock, AsyncMock
 from data_pipeline.providers.openf1_provider import OpenF1Provider
 
 def test_openf1_provider_initialization():

@@ -82,7 +82,7 @@ def sync_sqlite_cache(db_path: str, overview_data: Dict[str, Any], social_data: 
     except Exception as err:
         print(f"⚠️ SQLite sync error: {err}")
 
-def run_pipeline(mode: str = "full"):
+async def run_pipeline(mode: str = "full"):
     """Execute the data pipeline in 'full' or 'social' mode."""
     base_pipeline_dir = os.path.dirname(os.path.abspath(__file__))
     portal_data_dir = os.path.join(base_pipeline_dir, "..", "portal", "public", "data")
@@ -144,16 +144,16 @@ def run_pipeline(mode: str = "full"):
 
     # 2. Fetch schedule, standings & completed race results via Jolpica Provider
     print("📥 Fetching current season calendar, standings & completed race results via JolpicaProvider...")
-    sched_res = jolpica.fetch_schedule()
+    sched_res = await jolpica.fetch_schedule()
     schedule = sched_res.data if sched_res.data else fetcher.get_current_schedule()
 
-    wdc_res = jolpica.fetch_driver_standings()
+    wdc_res = await jolpica.fetch_driver_standings()
     driver_standings = wdc_res.data if wdc_res.data else fetcher.get_fallback_driver_standings()
 
-    wcc_res = jolpica.fetch_constructor_standings()
+    wcc_res = await jolpica.fetch_constructor_standings()
     constructor_standings = wcc_res.data if wcc_res.data else fetcher.get_fallback_constructor_standings()
 
-    results_res = jolpica.fetch_race_results()
+    results_res = await jolpica.fetch_race_results()
     completed_races = results_res.data if results_res.data else []
 
     penalty_points = fetcher.get_penalty_points()
@@ -176,7 +176,7 @@ def run_pipeline(mode: str = "full"):
         circuit = next_race.get('Circuit', {})
         lat = float(circuit.get('Location', {}).get('lat', 47.583))
         lng = float(circuit.get('Location', {}).get('long', 19.248))
-        weather_res = openmeteo.fetch_weather(lat=lat, lon=lng, circuit_name=circuit.get('circuitName', 'Circuit'))
+        weather_res = await openmeteo.fetch_weather(lat=lat, lon=lng, circuit_name=circuit.get('circuitName', 'Circuit'))
         circuit_weather = weather_res.data
         print(f"   🌤️ Using OpenMeteo forecast weather")
 
@@ -287,4 +287,5 @@ if __name__ == "__main__":
             mode_arg = raw_arg.split("=", 1)[1]
         else:
             mode_arg = raw_arg
-    run_pipeline(mode_arg)
+    import asyncio
+    asyncio.run(run_pipeline(mode_arg))
