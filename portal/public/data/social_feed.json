@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 55,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 69,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 65,
-      "sentiment": "Mixed",
+      "score": 79,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 61,
+      "score": 75,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 57,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 53,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 49,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 45,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "PlanetF1",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "BBC",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "autoracing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
+      "text": "Formula 1 News: COTA Grand Prix Plaza alive with events ahead of USGP - autoracing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+      "time": "Fri, 31 Jul 2026 18:49:14 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Motor Sport Magazine",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
+      "text": "Five Dutch Grand Prix moments that defined Zandvoort\u2019s Formula 1 farewell - Motor Sport Magazine",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 20:00:00 GMT"
+      "time": "Tue, 28 Jul 2026 08:48:59 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "grandprix247",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
+      "text": "Honda tests upgraded Formula 1 power unit at Hungaroring ahead of Dutch Grand Prix debut - grandprix247",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 14:15:02 GMT"
+      "time": "Thu, 30 Jul 2026 08:04:32 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "PlanetF1",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "BBC",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 17:12:35 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "autoracing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
+      "text": "Formula 1 News: COTA Grand Prix Plaza alive with events ahead of USGP - autoracing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+      "time": "Fri, 31 Jul 2026 18:49:14 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Motor Sport Magazine",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
+      "text": "Five Dutch Grand Prix moments that defined Zandvoort\u2019s Formula 1 farewell - Motor Sport Magazine",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 20:00:00 GMT"
+      "time": "Tue, 28 Jul 2026 08:48:59 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "grandprix247",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Hungarian GP was what every F1 race in 2026 should have been - Autosport",
+      "text": "Honda tests upgraded Formula 1 power unit at Hungaroring ahead of Dutch Grand Prix debut - grandprix247",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 30 Jul 2026 14:15:02 GMT"
+      "time": "Thu, 30 Jul 2026 08:04:32 GMT"
     }
   ]
 }
