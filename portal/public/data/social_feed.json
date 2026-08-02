@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 53,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 64,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 63,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 59,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 55,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 51,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 47,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 43,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -126,50 +126,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How do Formula 1 drivers recharge over the summer shutdown? - Formula 1",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 07:53:00 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "BBC",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 qualifying LIVE: Hungarian Grand Prix 2026 times, results & commentary from the Hungaroring - BBC",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 15:04:02 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "AutoRacing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren lifts lid on key Lando Norris change: 'There's no stopping him' - PlanetF1",
+      "text": "Formula 1 News: COTA Grand Prix Plaza alive with events ahead of USGP - AutoRacing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 07:29:58 GMT"
+      "time": "Fri, 31 Jul 2026 18:49:14 GMT"
     },
     {
-      "author": "racefans.net",
+      "author": "gpfans.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris ends Red Bull\u2019s run of 80 consecutive victories with car number one - racefans.net",
+      "text": "F1 News Today: Max Verstappen future to be announced as Fernando Alonso signing priority outlined - gpfans.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 06:15:14 GMT"
+      "time": "Sun, 02 Aug 2026 05:30:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "Motor Sport Magazine",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Toto Wolff unfazed by McLaren's Hungarian GP victory: 'AI would have predicted it' - GPblog",
+      "text": "Five Dutch Grand Prix moments that defined Zandvoort\u2019s Formula 1 farewell - Motor Sport Magazine",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 15:05:38 GMT"
+      "time": "Tue, 28 Jul 2026 08:48:59 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,50 +178,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How do Formula 1 drivers recharge over the summer shutdown? - Formula 1",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 07:53:00 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "BBC",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 qualifying LIVE: Hungarian Grand Prix 2026 times, results & commentary from the Hungaroring - BBC",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 15:04:02 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "AutoRacing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren lifts lid on key Lando Norris change: 'There's no stopping him' - PlanetF1",
+      "text": "Formula 1 News: COTA Grand Prix Plaza alive with events ahead of USGP - AutoRacing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 07:29:58 GMT"
+      "time": "Fri, 31 Jul 2026 18:49:14 GMT"
     },
     {
-      "author": "racefans.net",
+      "author": "gpfans.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris ends Red Bull\u2019s run of 80 consecutive victories with car number one - racefans.net",
+      "text": "F1 News Today: Max Verstappen future to be announced as Fernando Alonso signing priority outlined - gpfans.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 06:15:14 GMT"
+      "time": "Sun, 02 Aug 2026 05:30:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "Motor Sport Magazine",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Toto Wolff unfazed by McLaren's Hungarian GP victory: 'AI would have predicted it' - GPblog",
+      "text": "Five Dutch Grand Prix moments that defined Zandvoort\u2019s Formula 1 farewell - Motor Sport Magazine",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 15:05:38 GMT"
+      "time": "Tue, 28 Jul 2026 08:48:59 GMT"
     }
   ]
 }
