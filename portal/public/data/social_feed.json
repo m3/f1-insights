@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "sentimentScore": 59,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "planetf1.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - planetf1.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 10:54:58 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Former Haas F1 boss calls out FIA over 'lenient' Carlos Sainz Hungarian GP penalty - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 11:59:19 GMT"
-    },
-    {
-      "author": "F1 Oversteer",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 20:00:00 GMT"
-    },
-    {
-      "author": "Autosport",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
-    },
-    {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 is in shutdown \u2014 why and how does it work? - racingnews365.com",
+      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 13:25:00 GMT"
+      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+    },
+    {
+      "author": "gpfans.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 News Today: Max Verstappen future to be announced as Fernando Alonso signing priority outlined - gpfans.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 14:29:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
+    },
+    {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Alonso reveals the key question behind his F1 future: 'That's what I need to answer' - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 11:03:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "planetf1.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - planetf1.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 10:54:58 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Former Haas F1 boss calls out FIA over 'lenient' Carlos Sainz Hungarian GP penalty - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 11:59:19 GMT"
-    },
-    {
-      "author": "F1 Oversteer",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 20:00:00 GMT"
-    },
-    {
-      "author": "Autosport",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
-    },
-    {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 is in shutdown \u2014 why and how does it work? - racingnews365.com",
+      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 13:25:00 GMT"
+      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+    },
+    {
+      "author": "gpfans.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 News Today: Max Verstappen future to be announced as Fernando Alonso signing priority outlined - gpfans.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 14:29:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
+    },
+    {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Alonso reveals the key question behind his F1 future: 'That's what I need to answer' - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 11:03:00 GMT"
     }
   ]
 }
