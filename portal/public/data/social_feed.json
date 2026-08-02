@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 75,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 57,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 85,
-      "sentiment": "Positive",
+      "score": 67,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 81,
-      "sentiment": "Positive",
+      "score": 63,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 77,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 73,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 69,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,11 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 65,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [],
-  "xTracksideFeed": []
+  "breakingNewsTweets": [
+    {
+      "author": "planetf1.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - planetf1.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 10:54:58 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Former Haas F1 boss calls out FIA over 'lenient' Carlos Sainz Hungarian GP penalty - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 11:59:19 GMT"
+    },
+    {
+      "author": "F1 Oversteer",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 20:00:00 GMT"
+    },
+    {
+      "author": "Autosport",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+    },
+    {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 is in shutdown \u2014 why and how does it work? - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 13:25:00 GMT"
+    }
+  ],
+  "xTracksideFeed": [
+    {
+      "author": "planetf1.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - planetf1.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 10:54:58 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Former Haas F1 boss calls out FIA over 'lenient' Carlos Sainz Hungarian GP penalty - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 11:59:19 GMT"
+    },
+    {
+      "author": "F1 Oversteer",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 01 Aug 2026 20:00:00 GMT"
+    },
+    {
+      "author": "Autosport",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+    },
+    {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 is in shutdown \u2014 why and how does it work? - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 13:25:00 GMT"
+    }
+  ]
 }
