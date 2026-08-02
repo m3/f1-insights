@@ -23,3 +23,10 @@ public/data/*.json
 # TracingInsights cloned data repo
 data/tracing-insights/
 testvenv/
+
+# mex AST index — generated, rebuilt by `mex graph index`.
+# The -wal/-shm sidecars are live SQLite journal state and change on every
+# read, so tracking them produces permanent spurious diffs.
+.mex/graph.db
+.mex/graph.db-shm
+.mex/graph.db-wal
