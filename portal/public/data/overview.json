@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-02T12:13:46.371781Z",
+  "updatedAt": "2026-08-02T13:55:10.791214Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 53,
+    "sentimentScore": 52,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 63,
+        "score": 62,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 59,
+        "score": 58,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 55,
+        "score": 54,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 51,
+        "score": 50,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 47,
+        "score": 46,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,113 +1977,113 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 43,
+        "score": 42,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 02 Aug 2026 10:54:58 GMT"
+      },
+      {
         "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Lando Norris praised for \"true world champion's\" drive at F1 Hungarian GP - Motorsport.com",
+        "text": "Aston Martin backed to transform F1 fortunes over next two years by former driver - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 02 Aug 2026 10:45:44 GMT"
+        "time": "Sat, 01 Aug 2026 17:05:02 GMT"
       },
       {
-        "author": "F1 Oversteer",
+        "author": "sports.yahoo.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
+        "text": "Former Haas F1 boss calls out FIA over 'lenient' Carlos Sainz Hungarian GP penalty - sports.yahoo.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 02 Aug 2026 11:59:19 GMT"
+      },
+      {
+        "author": "f1oversteer.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - f1oversteer.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sat, 01 Aug 2026 20:00:00 GMT"
       },
       {
-        "author": "GPblog",
+        "author": "the-sun.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hadjar laments 'sad' reality of F1 2026 regulations despite Hungarian GP success - GPblog",
+        "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 18:01:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "LIVE COVERAGE: All the action from the Hungarian GP - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 12:00:00 GMT"
-      },
-      {
-        "author": "Autoweek",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+        "time": "Sat, 01 Aug 2026 05:34:57 GMT"
       }
     ],
     "xTracksideFeed": [
       {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 02 Aug 2026 10:54:58 GMT"
+      },
+      {
         "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Lando Norris praised for \"true world champion's\" drive at F1 Hungarian GP - Motorsport.com",
+        "text": "Aston Martin backed to transform F1 fortunes over next two years by former driver - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 02 Aug 2026 10:45:44 GMT"
+        "time": "Sat, 01 Aug 2026 17:05:02 GMT"
       },
       {
-        "author": "F1 Oversteer",
+        "author": "sports.yahoo.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
+        "text": "Former Haas F1 boss calls out FIA over 'lenient' Carlos Sainz Hungarian GP penalty - sports.yahoo.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 02 Aug 2026 11:59:19 GMT"
+      },
+      {
+        "author": "f1oversteer.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - f1oversteer.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sat, 01 Aug 2026 20:00:00 GMT"
       },
       {
-        "author": "GPblog",
+        "author": "the-sun.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hadjar laments 'sad' reality of F1 2026 regulations despite Hungarian GP success - GPblog",
+        "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 18:01:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "LIVE COVERAGE: All the action from the Hungarian GP - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 12:00:00 GMT"
-      },
-      {
-        "author": "Autoweek",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Aston Martin F1 Midseason Report: Utter Nightmare - Autoweek",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 31 Jul 2026 16:01:00 GMT"
+        "time": "Sat, 01 Aug 2026 05:34:57 GMT"
       }
     ]
   }
