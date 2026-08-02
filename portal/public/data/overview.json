@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-02T22:08:59.310056Z",
+  "updatedAt": "2026-08-02T22:58:09.368797Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-08-02T21:56:27.890676Z",
+    "lastUpdatedUtc": "2026-08-02T22:58:09.368750Z",
     "nextSession": {
       "name": "FP1",
       "timeUtc": "2026-08-21T10:30:00Z"
@@ -15,10 +15,11 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,8 +61,8 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "21\u00b0C",
-    "trackTemp": "26\u00b0C",
+    "ambientTemp": "20\u00b0C",
+    "trackTemp": "25\u00b0C",
     "rainRisk": "0%",
     "wind": "17 km/h NE",
     "humidity": "75%"
@@ -1543,7 +1544,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-02T21:56:27.889378",
+    "generatedAt": "2026-08-02T22:58:09.367343",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1688,7 +1689,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-02T21:56:27.889801",
+    "generatedAt": "2026-08-02T22:58:09.367799",
     "facts": [],
     "teammateBattles": [
       {
@@ -1859,232 +1860,5 @@
       "race": "2 - 3",
       "leader": "GAS Ahead"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 56,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 66,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 62,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 58,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 54,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 50,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 46,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Oliver Bearman admits Lewis Hamilton resurgence complicates Ferrari F1 dream - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 02 Aug 2026 12:58:46 GMT"
-      },
-      {
-        "author": "planetf1.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - planetf1.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 07:05:06 GMT"
-      },
-      {
-        "author": "F1 Oversteer",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 20:00:00 GMT"
-      },
-      {
-        "author": "Autosport",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 02 Aug 2026 08:01:24 GMT"
-      },
-      {
-        "author": "the-sun.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 05:34:57 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Oliver Bearman admits Lewis Hamilton resurgence complicates Ferrari F1 dream - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 02 Aug 2026 12:58:46 GMT"
-      },
-      {
-        "author": "planetf1.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - planetf1.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 07:05:06 GMT"
-      },
-      {
-        "author": "F1 Oversteer",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 20:00:00 GMT"
-      },
-      {
-        "author": "Autosport",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 02 Aug 2026 08:01:24 GMT"
-      },
-      {
-        "author": "the-sun.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 01 Aug 2026 05:34:57 GMT"
-      }
-    ]
-  }
+  ]
 }
