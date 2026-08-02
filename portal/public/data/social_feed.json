@@ -126,20 +126,20 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Former Haas F1 boss calls out FIA over 'lenient' Carlos Sainz Hungarian GP penalty - Motorsport.com",
+      "text": "Aston Martin backed to transform F1 fortunes over next two years by former driver - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 11:59:19 GMT"
+      "time": "Sat, 01 Aug 2026 17:05:02 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren \"ready to challenge\" Mercedes after upgrade, says Sky F1 commentator - Motorsport.com",
+      "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 12:00:05 GMT"
+      "time": "Sun, 02 Aug 2026 10:54:58 GMT"
     },
     {
       "author": "F1 Oversteer",
@@ -152,6 +152,16 @@
       "time": "Sat, 01 Aug 2026 20:00:00 GMT"
     },
     {
+      "author": "Autosport",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+    },
+    {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -160,16 +170,6 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 02 Aug 2026 13:25:00 GMT"
-    },
-    {
-      "author": "the-sun.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 05:34:57 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,20 +178,20 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Former Haas F1 boss calls out FIA over 'lenient' Carlos Sainz Hungarian GP penalty - Motorsport.com",
+      "text": "Aston Martin backed to transform F1 fortunes over next two years by former driver - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 11:59:19 GMT"
+      "time": "Sat, 01 Aug 2026 17:05:02 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren \"ready to challenge\" Mercedes after upgrade, says Sky F1 commentator - Motorsport.com",
+      "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 12:00:05 GMT"
+      "time": "Sun, 02 Aug 2026 10:54:58 GMT"
     },
     {
       "author": "F1 Oversteer",
@@ -204,6 +204,16 @@
       "time": "Sat, 01 Aug 2026 20:00:00 GMT"
     },
     {
+      "author": "Autosport",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+    },
+    {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -212,16 +222,6 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 02 Aug 2026 13:25:00 GMT"
-    },
-    {
-      "author": "the-sun.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Inside McLaren F1's futuristic and top-secret racing HQ - where almost everything is designed for speed - the-sun.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 05:34:57 GMT"
     }
   ]
 }
