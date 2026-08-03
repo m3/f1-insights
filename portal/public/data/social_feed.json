@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "sentimentScore": 56,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -126,50 +126,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
+      "text": "McLaren victory leaves 2026 F1 title race \"far from over\", says Martin Brundle - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
+      "time": "Mon, 03 Aug 2026 15:12:31 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
+      "text": "\u2018The most important thing\u2019 - Ferrari highlights key focus for rest of F1 2026 - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
+      "time": "Mon, 03 Aug 2026 08:40:44 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "Sports Illustrated",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 News Today: Max Verstappen future to be announced as Fernando Alonso signing priority outlined - gpfans.com",
+      "text": "AWS Chips Away at the \"Black Box\" of F1 Data with Strategy Insight - Sports Illustrated",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 14:29:00 GMT"
+      "time": "Mon, 03 Aug 2026 14:17:48 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How 'pi**ing off' Marko unexpectedly helped launch Lawson's F1 career - GPblog",
+      "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 10:03:00 GMT"
+      "time": "Sun, 02 Aug 2026 10:54:58 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+      "time": "Sun, 26 Jul 2026 15:12:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,50 +178,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
+      "text": "McLaren victory leaves 2026 F1 title race \"far from over\", says Martin Brundle - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
+      "time": "Mon, 03 Aug 2026 15:12:31 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
+      "text": "\u2018The most important thing\u2019 - Ferrari highlights key focus for rest of F1 2026 - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
+      "time": "Mon, 03 Aug 2026 08:40:44 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "Sports Illustrated",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 News Today: Max Verstappen future to be announced as Fernando Alonso signing priority outlined - gpfans.com",
+      "text": "AWS Chips Away at the \"Black Box\" of F1 Data with Strategy Insight - Sports Illustrated",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 14:29:00 GMT"
+      "time": "Mon, 03 Aug 2026 14:17:48 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How 'pi**ing off' Marko unexpectedly helped launch Lawson's F1 career - GPblog",
+      "text": "McLaren rejects Mercedes theory after MCL40 upgrade shock - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 10:03:00 GMT"
+      "time": "Sun, 02 Aug 2026 10:54:58 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+      "time": "Sun, 26 Jul 2026 15:12:00 GMT"
     }
   ]
 }
