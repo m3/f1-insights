@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-03T00:10:48.758167Z",
+  "updatedAt": "2026-08-03T03:52:03.751344Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -2014,16 +2014,6 @@
         "time": "Sat, 01 Aug 2026 20:00:00 GMT"
       },
       {
-        "author": "Autosport",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 02 Aug 2026 08:01:24 GMT"
-      },
-      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2032,6 +2022,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 15:12:00 GMT"
+      },
+      {
+        "author": "Autosport",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 02 Aug 2026 08:01:24 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2066,16 +2066,6 @@
         "time": "Sat, 01 Aug 2026 20:00:00 GMT"
       },
       {
-        "author": "Autosport",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 02 Aug 2026 08:01:24 GMT"
-      },
-      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2084,6 +2074,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 15:12:00 GMT"
+      },
+      {
+        "author": "Autosport",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 02 Aug 2026 08:01:24 GMT"
       }
     ]
   }
