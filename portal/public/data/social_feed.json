@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Oliver Bearman admits Lewis Hamilton resurgence complicates Ferrari F1 dream - Motorsport.com",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 12:58:46 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "williamsf1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
+      "text": "QUIZ: Take our post-Dutch GP test - williamsf1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 20:00:00 GMT"
+      "time": "Sun, 02 Aug 2026 15:04:48 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 15:12:00 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "news.gp",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+      "text": "F1 Explained: How does the mandatory summer shutdown work? - news.gp",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+      "time": "Sun, 02 Aug 2026 17:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Oliver Bearman admits Lewis Hamilton resurgence complicates Ferrari F1 dream - Motorsport.com",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 12:58:46 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "williamsf1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Flavio Briatore tells Franco Colapinto to find \u2018another seat\u2019 as Alpine land Fernando Alonso boost - F1 Oversteer",
+      "text": "QUIZ: Take our post-Dutch GP test - williamsf1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 20:00:00 GMT"
+      "time": "Sun, 02 Aug 2026 15:04:48 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 15:12:00 GMT"
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "news.gp",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+      "text": "F1 Explained: How does the mandatory summer shutdown work? - news.gp",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+      "time": "Sun, 02 Aug 2026 17:00:00 GMT"
     }
   ]
 }
