@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "sentimentScore": 54,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -126,50 +126,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "David Croft praises Cadillac's no-excuses approach after F1 Hungarian GP - Motorsport.com",
+      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 09:00:02 GMT"
+      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018The most important thing\u2019 - Ferrari highlights key focus for rest of F1 2026 - Crash.net",
+      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 08:40:44 GMT"
+      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "text": "Destination Zandvoort: An F1 fan\u2019s guide - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "williamsf1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
+      "text": "QUIZ: Take our post-Dutch GP test - williamsf1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 15:12:00 GMT"
+      "time": "Sun, 02 Aug 2026 15:04:48 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "GPToday.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Alonso reveals the key question behind his F1 future: 'That's what I need to answer' - GPblog",
+      "text": "Verstappen eyes three Zandvoort records in final race - GPToday.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 11:03:00 GMT"
+      "time": "Mon, 03 Aug 2026 11:35:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,50 +178,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "David Croft praises Cadillac's no-excuses approach after F1 Hungarian GP - Motorsport.com",
+      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 09:00:02 GMT"
+      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018The most important thing\u2019 - Ferrari highlights key focus for rest of F1 2026 - Crash.net",
+      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 08:40:44 GMT"
+      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes spotted something surprising behind Lando Norris' crushing Hungary victory - PlanetF1",
+      "text": "Destination Zandvoort: An F1 fan\u2019s guide - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 07:05:06 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "williamsf1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
+      "text": "QUIZ: Take our post-Dutch GP test - williamsf1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 15:12:00 GMT"
+      "time": "Sun, 02 Aug 2026 15:04:48 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "GPToday.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Alonso reveals the key question behind his F1 future: 'That's what I need to answer' - GPblog",
+      "text": "Verstappen eyes three Zandvoort records in final race - GPToday.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 11:03:00 GMT"
+      "time": "Mon, 03 Aug 2026 11:35:00 GMT"
     }
   ]
 }
