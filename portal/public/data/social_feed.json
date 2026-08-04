@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -126,50 +126,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
+      "text": "F1 2026 qualifying head-to-head at summer break - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
+      "time": "Mon, 03 Aug 2026 15:30:03 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Honda F1 chief breaks silence in telling Aston Martin claim - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 04 Aug 2026 07:05:10 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "POWER RANKINGS: Where do the drivers sit at the halfway stage of the 2026 season? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+      "time": "Tue, 04 Aug 2026 10:36:00 GMT"
     },
     {
-      "author": "businessairportinternational.com",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The Farewell Corridor: Zandvoort\u2019s last Grand Prix is a transport problem, not a security one - businessairportinternational.com",
+      "text": "F1 championship leader Kimi Antonelli\u2019s surprising claim about his current level - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 08:31:03 GMT"
+      "time": "Tue, 04 Aug 2026 08:52:57 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
+      "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
-    },
-    {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 2027 calendar: Contingency plans in place for next year's Formula 1 schedule amid US-Israel war with Iran - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 06:30:02 GMT"
+      "time": "Mon, 03 Aug 2026 18:01:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,50 +178,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
+      "text": "F1 2026 qualifying head-to-head at summer break - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
+      "time": "Mon, 03 Aug 2026 15:30:03 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Honda F1 chief breaks silence in telling Aston Martin claim - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 04 Aug 2026 07:05:10 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "POWER RANKINGS: Where do the drivers sit at the halfway stage of the 2026 season? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+      "time": "Tue, 04 Aug 2026 10:36:00 GMT"
     },
     {
-      "author": "businessairportinternational.com",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The Farewell Corridor: Zandvoort\u2019s last Grand Prix is a transport problem, not a security one - businessairportinternational.com",
+      "text": "F1 championship leader Kimi Antonelli\u2019s surprising claim about his current level - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 08:31:03 GMT"
+      "time": "Tue, 04 Aug 2026 08:52:57 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
+      "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
-    },
-    {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 2027 calendar: Contingency plans in place for next year's Formula 1 schedule amid US-Israel war with Iran - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 06:30:02 GMT"
+      "time": "Mon, 03 Aug 2026 18:01:00 GMT"
     }
   ]
 }
