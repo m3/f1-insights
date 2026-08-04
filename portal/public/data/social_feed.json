@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "sentimentScore": 56,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Oscar Piastri bad luck streak under Martin Brundle microscope - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 19:05:06 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "David Croft praises Cadillac's no-excuses approach after F1 Hungarian GP - Motorsport.com",
+      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 15:16:35 GMT"
+      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018The most important thing\u2019 - Ferrari highlights key focus for rest of F1 2026 - Crash.net",
+      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 08:40:44 GMT"
+      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+      "text": "Destination Zandvoort: An F1 fan\u2019s guide - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "F1i.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Audi F1 boss shares why he\u2019s \u2018very happy\u2019 about Oscar Piastri and Carlos Sainz links - F1 Oversteer",
+      "text": "Verstappen reveals the F1 memory \u2018no one can take away\u2019 - F1i.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 15:00:00 GMT"
+      "time": "Mon, 03 Aug 2026 14:18:51 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Oscar Piastri bad luck streak under Martin Brundle microscope - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 19:05:06 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "David Croft praises Cadillac's no-excuses approach after F1 Hungarian GP - Motorsport.com",
+      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 15:16:35 GMT"
+      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018The most important thing\u2019 - Ferrari highlights key focus for rest of F1 2026 - Crash.net",
+      "text": "Max Verstappen cherishes a special F1 chapter: 'No one can take that away from us anymore!' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 08:40:44 GMT"
+      "time": "Sun, 02 Aug 2026 16:10:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
+      "text": "Destination Zandvoort: An F1 fan\u2019s guide - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "F1i.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Audi F1 boss shares why he\u2019s \u2018very happy\u2019 about Oscar Piastri and Carlos Sainz links - F1 Oversteer",
+      "text": "Verstappen reveals the F1 memory \u2018no one can take away\u2019 - F1i.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 01 Aug 2026 15:00:00 GMT"
+      "time": "Mon, 03 Aug 2026 14:18:51 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What F1 can learn from the World Cup. Plus: Is George Lucas right about F1 regs? - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 31 Jul 2026 21:03:47 GMT"
     }
   ]
 }
