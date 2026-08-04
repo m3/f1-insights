@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 55,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 62,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 65,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 61,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 57,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 53,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 49,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 45,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -142,34 +142,34 @@
       "time": "Mon, 03 Aug 2026 15:12:31 GMT"
     },
     {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "How do Formula 1 drivers recharge over the summer shutdown? - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 07:53:00 GMT"
+    },
+    {
       "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren reveal MCL40 'course correction' after rival investigation - GPblog",
+      "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 17:01:00 GMT"
+      "time": "Mon, 03 Aug 2026 18:01:00 GMT"
     },
     {
-      "author": "Athlon Sports",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc and Alexandra Saint Mleux Pregnancy: Are the Monegasque Couple Expecting a Baby? - Athlon Sports",
+      "text": "\u2018The most important thing\u2019 - Ferrari highlights key focus for rest of F1 2026 - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 14:42:59 GMT"
-    },
-    {
-      "author": "Autosport",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+      "time": "Mon, 03 Aug 2026 08:40:44 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -194,34 +194,34 @@
       "time": "Mon, 03 Aug 2026 15:12:31 GMT"
     },
     {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "How do Formula 1 drivers recharge over the summer shutdown? - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 02 Aug 2026 07:53:00 GMT"
+    },
+    {
       "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren reveal MCL40 'course correction' after rival investigation - GPblog",
+      "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 17:01:00 GMT"
+      "time": "Mon, 03 Aug 2026 18:01:00 GMT"
     },
     {
-      "author": "Athlon Sports",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc and Alexandra Saint Mleux Pregnancy: Are the Monegasque Couple Expecting a Baby? - Athlon Sports",
+      "text": "\u2018The most important thing\u2019 - Ferrari highlights key focus for rest of F1 2026 - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 14:42:59 GMT"
-    },
-    {
-      "author": "Autosport",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen's mindset going into the F1 summer break: \"Of course I can easily stop, but I love racing\" - Autosport",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 02 Aug 2026 08:01:24 GMT"
+      "time": "Mon, 03 Aug 2026 08:40:44 GMT"
     }
   ]
 }
