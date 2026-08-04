@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 56,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 61,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 66,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 62,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 58,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 54,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 50,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 46,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Honda F1 chief breaks silence in telling Aston Martin claim - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 04 Aug 2026 07:05:10 GMT"
+    },
+    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
+      "text": "James Vowles explains cause of Carlos Sainz's Oscar Piastri Hungarian GP clash - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
+      "time": "Tue, 04 Aug 2026 10:00:02 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "How do Formula 1 drivers recharge over the summer shutdown? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+      "time": "Sun, 02 Aug 2026 07:53:00 GMT"
     },
     {
-      "author": "Business Airport International",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The Farewell Corridor: Zandvoort\u2019s last Grand Prix is a transport problem, not a security one - Business Airport International",
+      "text": "F1 championship leader Kimi Antonelli\u2019s surprising claim about his current level - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 08:31:03 GMT"
+      "time": "Tue, 04 Aug 2026 08:52:57 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 2027 calendar: Contingency plans in place for next year's Formula 1 schedule amid US-Israel war with Iran - Sky Sports",
+      "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 06:30:02 GMT"
-    },
-    {
-      "author": "racingnews365.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Bernie Ecclestone hails Max Verstappen as 'real reason' for historic F1 return - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 05:25:00 GMT"
+      "time": "Mon, 03 Aug 2026 18:01:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Honda F1 chief breaks silence in telling Aston Martin claim - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 04 Aug 2026 07:05:10 GMT"
+    },
+    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
+      "text": "James Vowles explains cause of Carlos Sainz's Oscar Piastri Hungarian GP clash - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
+      "time": "Tue, 04 Aug 2026 10:00:02 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "How do Formula 1 drivers recharge over the summer shutdown? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
+      "time": "Sun, 02 Aug 2026 07:53:00 GMT"
     },
     {
-      "author": "Business Airport International",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The Farewell Corridor: Zandvoort\u2019s last Grand Prix is a transport problem, not a security one - Business Airport International",
+      "text": "F1 championship leader Kimi Antonelli\u2019s surprising claim about his current level - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 08:31:03 GMT"
+      "time": "Tue, 04 Aug 2026 08:52:57 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 2027 calendar: Contingency plans in place for next year's Formula 1 schedule amid US-Israel war with Iran - Sky Sports",
+      "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 06:30:02 GMT"
-    },
-    {
-      "author": "racingnews365.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Bernie Ecclestone hails Max Verstappen as 'real reason' for historic F1 return - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 05:25:00 GMT"
+      "time": "Mon, 03 Aug 2026 18:01:00 GMT"
     }
   ]
 }
