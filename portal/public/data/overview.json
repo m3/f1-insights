@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-05T12:23:23.475549Z",
+  "updatedAt": "2026-08-05T14:44:48.079837Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 52,
+    "sentimentScore": 54,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 62,
+        "score": 64,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 58,
+        "score": 60,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 54,
+        "score": 56,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 50,
+        "score": 52,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 46,
+        "score": 48,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,21 +1977,21 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 42,
+        "score": 44,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
-        "author": "F1 Oversteer",
+        "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Ferrari told to give Max Verstappen \u2018blank check\u2019 for the same reason Lewis Hamilton was slated - F1 Oversteer",
+        "text": "How do Formula 1 drivers recharge over the summer shutdown? - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Wed, 05 Aug 2026 08:00:00 GMT"
+        "time": "Sun, 02 Aug 2026 07:53:00 GMT"
       },
       {
         "author": "PlanetF1",
@@ -2014,6 +2014,16 @@
         "time": "Mon, 03 Aug 2026 15:12:31 GMT"
       },
       {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Ferrari told to give Max Verstappen \u2018blank check\u2019 for the same reason Lewis Hamilton was slated - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 05 Aug 2026 08:00:00 GMT"
+      },
+      {
         "author": "Crash.net",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2022,28 +2032,18 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Tue, 04 Aug 2026 08:52:57 GMT"
-      },
-      {
-        "author": "Sports Illustrated",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "AWS Chips Away at the \"Black Box\" of F1 Data with Strategy Insight - Sports Illustrated",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 03 Aug 2026 14:17:48 GMT"
       }
     ],
     "xTracksideFeed": [
       {
-        "author": "F1 Oversteer",
+        "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Ferrari told to give Max Verstappen \u2018blank check\u2019 for the same reason Lewis Hamilton was slated - F1 Oversteer",
+        "text": "How do Formula 1 drivers recharge over the summer shutdown? - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Wed, 05 Aug 2026 08:00:00 GMT"
+        "time": "Sun, 02 Aug 2026 07:53:00 GMT"
       },
       {
         "author": "PlanetF1",
@@ -2066,6 +2066,16 @@
         "time": "Mon, 03 Aug 2026 15:12:31 GMT"
       },
       {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Ferrari told to give Max Verstappen \u2018blank check\u2019 for the same reason Lewis Hamilton was slated - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 05 Aug 2026 08:00:00 GMT"
+      },
+      {
         "author": "Crash.net",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2074,16 +2084,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Tue, 04 Aug 2026 08:52:57 GMT"
-      },
-      {
-        "author": "Sports Illustrated",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "AWS Chips Away at the \"Black Box\" of F1 Data with Strategy Insight - Sports Illustrated",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 03 Aug 2026 14:17:48 GMT"
       }
     ]
   }
