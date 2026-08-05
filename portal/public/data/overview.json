@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-04T23:56:40.228022Z",
+  "updatedAt": "2026-08-05T00:54:59.480484Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-08-04T23:03:24.156916Z",
+    "lastUpdatedUtc": "2026-08-05T00:54:59.480439Z",
     "nextSession": {
       "name": "FP1",
       "timeUtc": "2026-08-21T10:30:00Z"
@@ -15,10 +15,11 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,11 +61,11 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "22\u00b0C",
-    "trackTemp": "27\u00b0C",
-    "rainRisk": "4%",
-    "wind": "19 km/h NE",
-    "humidity": "75%"
+    "ambientTemp": "21\u00b0C",
+    "trackTemp": "26\u00b0C",
+    "rainRisk": "0%",
+    "wind": "23 km/h NE",
+    "humidity": "83%"
   },
   "schedule": [
     {
@@ -1543,7 +1544,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-04T23:03:24.155720",
+    "generatedAt": "2026-08-05T00:54:59.479110",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1688,7 +1689,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-04T23:03:24.156097",
+    "generatedAt": "2026-08-05T00:54:59.479497",
     "facts": [],
     "teammateBattles": [
       {
@@ -1859,232 +1860,5 @@
       "race": "2 - 3",
       "leader": "GAS Ahead"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 61,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 71,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 67,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 63,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 59,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 55,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 51,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 2026 qualifying head-to-head at summer break - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 03 Aug 2026 15:30:03 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Honda F1 chief breaks silence in telling Aston Martin claim - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 04 Aug 2026 07:05:10 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "POWER RANKINGS: Where do the drivers sit at the halfway stage of the 2026 season? - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 04 Aug 2026 10:36:00 GMT"
-      },
-      {
-        "author": "Crash.net",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 championship leader Kimi Antonelli\u2019s surprising claim about his current level - Crash.net",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 04 Aug 2026 08:52:57 GMT"
-      },
-      {
-        "author": "GPblog",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 03 Aug 2026 18:01:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 2026 qualifying head-to-head at summer break - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 03 Aug 2026 15:30:03 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Honda F1 chief breaks silence in telling Aston Martin claim - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 04 Aug 2026 07:05:10 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "POWER RANKINGS: Where do the drivers sit at the halfway stage of the 2026 season? - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 04 Aug 2026 10:36:00 GMT"
-      },
-      {
-        "author": "Crash.net",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 championship leader Kimi Antonelli\u2019s surprising claim about his current level - Crash.net",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 04 Aug 2026 08:52:57 GMT"
-      },
-      {
-        "author": "GPblog",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 03 Aug 2026 18:01:00 GMT"
-      }
-    ]
-  }
+  ]
 }
