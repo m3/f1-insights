@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "sentimentScore": 52,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,21 +115,21 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 42,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren victory leaves 2026 F1 title race \"far from over\", says Martin Brundle - Motorsport.com",
+      "text": "Ferrari told to give Max Verstappen \u2018blank check\u2019 for the same reason Lewis Hamilton was slated - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 15:12:31 GMT"
+      "time": "Wed, 05 Aug 2026 08:00:00 GMT"
     },
     {
       "author": "PlanetF1",
@@ -140,6 +140,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Tue, 04 Aug 2026 07:05:10 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "McLaren victory leaves 2026 F1 title race \"far from over\", says Martin Brundle - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 03 Aug 2026 15:12:31 GMT"
     },
     {
       "author": "Crash.net",
@@ -160,28 +170,18 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Mon, 03 Aug 2026 14:17:48 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 18:01:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren victory leaves 2026 F1 title race \"far from over\", says Martin Brundle - Motorsport.com",
+      "text": "Ferrari told to give Max Verstappen \u2018blank check\u2019 for the same reason Lewis Hamilton was slated - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 15:12:31 GMT"
+      "time": "Wed, 05 Aug 2026 08:00:00 GMT"
     },
     {
       "author": "PlanetF1",
@@ -192,6 +192,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Tue, 04 Aug 2026 07:05:10 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "McLaren victory leaves 2026 F1 title race \"far from over\", says Martin Brundle - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 03 Aug 2026 15:12:31 GMT"
     },
     {
       "author": "Crash.net",
@@ -212,16 +222,6 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Mon, 03 Aug 2026 14:17:48 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Aston Martin tipped for staggering turnaround by 2028: 'They will win races' - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 18:01:00 GMT"
     }
   ]
 }
