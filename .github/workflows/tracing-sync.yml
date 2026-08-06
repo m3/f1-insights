@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Check TracingInsights for New Commits
         id: check
@@ -38,7 +38,7 @@ jobs:
 
       - name: Set up Python 3.11
         if: steps.check.outputs.changed == 'true'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
           cache: 'pip'

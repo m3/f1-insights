@@ -15,7 +15,7 @@ JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"
 class JolpicaProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="JolpicaErgast", cache_ttl_seconds=86400)
-        self.storage = hishel.AsyncSqliteStorage()
+        self.storage = hishel.AsyncSQLiteStorage()
         self.session = hishel.AsyncCacheClient(
             storage=self.storage,
             headers={"User-Agent": "F1-Insights-Brief/4.0"}

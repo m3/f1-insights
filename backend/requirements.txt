@@ -17,3 +17,4 @@ feedparser>=6.0.10
 textblob>=0.18.0.post0
 openai>=1.14.0
 requests-cache>=1.2.0
+hishel[async]>=0.1.0,<1.0

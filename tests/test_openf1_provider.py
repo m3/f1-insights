@@ -12,33 +12,31 @@ def test_openf1_provider_initialization():
     assert provider.provider_name == "OpenF1"
     assert provider.cache_ttl_seconds == 60
 
-@patch("data_pipeline.providers.openf1_provider.requests.get")
-def test_openf1_fetch_positions_success(mock_get):
+@pytest.mark.asyncio
+async def test_openf1_fetch_positions_success():
     """Verify OpenF1Provider fetch_positions parses API response cleanly."""
+    provider = OpenF1Provider()
     mock_res = MagicMock()
     mock_res.status_code = 200
     mock_res.json.return_value = [
         {"driver_number": 4, "position": 1, "session_key": 9158},
         {"driver_number": 1, "position": 2, "session_key": 9158}
     ]
-    mock_get.return_value = mock_res
-
-    provider = OpenF1Provider()
-    resp = provider.fetch_positions("9158")
+    with patch.object(provider.session, "get", new=AsyncMock(return_value=mock_res)):
+        resp = await provider.fetch_positions("9158")
     assert resp.status == "available"
     assert resp.confidence == 0.95
     assert len(resp.data) == 2
     assert resp.data[0]["driver_number"] == 4
 
-@patch("data_pipeline.providers.openf1_provider.requests.get")
-def test_openf1_fetch_laps_failure_handling(mock_get):
+@pytest.mark.asyncio
+async def test_openf1_fetch_laps_failure_handling():
     """Verify OpenF1Provider handles HTTP failure non-destructively."""
+    provider = OpenF1Provider()
     mock_res = MagicMock()
     mock_res.status_code = 404
-    mock_get.return_value = mock_res
-
-    provider = OpenF1Provider()
-    resp = provider.fetch_laps("invalid_key")
+    with patch.object(provider.session, "get", new=AsyncMock(return_value=mock_res)):
+        resp = await provider.fetch_laps("invalid_key")
     assert resp.status == "failed"
     assert resp.confidence == 0.0
     assert resp.data == []
