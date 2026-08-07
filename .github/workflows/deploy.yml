@@ -67,6 +67,7 @@ jobs:
           rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' backend/ mathias@91.99.167.113:/var/www/f1-insights/backend/
           rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' data_pipeline/ mathias@91.99.167.113:/var/www/f1-insights/data_pipeline/
           rsync -avz -e "ssh -p 2222" --exclude '__pycache__' --exclude '*.pyc' mcp_server/ mathias@91.99.167.113:/var/www/f1-insights/mcp_server/
+          rsync -avz -e "ssh -p 2222" ecosystem.config.js mathias@91.99.167.113:/var/www/f1-insights/ecosystem.config.js
 
       - name: Restart PM2 & Verify Health on VPS
         uses: appleboy/ssh-action@v1.0.3
