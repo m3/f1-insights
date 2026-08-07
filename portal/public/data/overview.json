@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-06T14:08:26.028843Z",
+  "updatedAt": "2026-08-07T00:24:34.734653Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-08-06T14:08:26.028797Z",
+    "lastUpdatedUtc": "2026-08-07T00:24:34.734607Z",
     "nextSession": {
       "name": "FP1",
       "timeUtc": "2026-08-21T10:30:00Z"
@@ -61,11 +61,11 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "20\u00b0C",
-    "trackTemp": "25\u00b0C",
-    "rainRisk": "14%",
-    "wind": "20 km/h NE",
-    "humidity": "56%"
+    "ambientTemp": "16\u00b0C",
+    "trackTemp": "22\u00b0C",
+    "rainRisk": "27%",
+    "wind": "9 km/h NE",
+    "humidity": "76%"
   },
   "schedule": [
     {
@@ -1544,7 +1544,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-06T14:08:26.027593",
+    "generatedAt": "2026-08-07T00:24:34.733374",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1689,7 +1689,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-06T14:08:26.027976",
+    "generatedAt": "2026-08-07T00:24:34.733777",
     "facts": [],
     "teammateBattles": [
       {

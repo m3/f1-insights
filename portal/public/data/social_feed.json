@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "sentimentScore": 56,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 04:47:15 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
-    },
-    {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen calls for government action as Dutch motorsport enters uncertainty - racingnews365.com",
+      "text": "Max Verstappen wants government response as Lewis Hamilton impact hailed \u2013 RacingNews365 Review - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 12:45:00 GMT"
+      "time": "Thu, 06 Aug 2026 20:00:00 GMT"
     },
     {
-      "author": "AutoRacing1.com",
+      "author": "grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1 News: Without Verstappen Dutch GP would have never happened \u2013 Ecclestone - AutoRacing1.com",
+      "text": "Only Verstappen made Dutch GP possible says Ecclestone - grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 10:17:50 GMT"
+      "time": "Thu, 06 Aug 2026 01:04:00 GMT"
     },
     {
-      "author": "Motorsport Week",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ecclestone: Max Verstappen the \u2018real reason\u2019 for F1 Dutch GP return - Motorsport Week",
+      "text": "Formula 1 makes exclusive dinner in Zandvoort unaffordable for most fans - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 06:00:00 GMT"
+      "time": "Thu, 06 Aug 2026 15:01:00 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 2027 calendar: Contingency plans in place for next year's Formula 1 schedule amid US-Israel war with Iran - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 04 Aug 2026 05:01:37 GMT"
+    },
+    {
+      "author": "sports.yahoo.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What is the F1 summer break and why does it happen every year? - sports.yahoo.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 06 Aug 2026 16:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 04:47:15 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
-    },
-    {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen calls for government action as Dutch motorsport enters uncertainty - racingnews365.com",
+      "text": "Max Verstappen wants government response as Lewis Hamilton impact hailed \u2013 RacingNews365 Review - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 12:45:00 GMT"
+      "time": "Thu, 06 Aug 2026 20:00:00 GMT"
     },
     {
-      "author": "AutoRacing1.com",
+      "author": "grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1 News: Without Verstappen Dutch GP would have never happened \u2013 Ecclestone - AutoRacing1.com",
+      "text": "Only Verstappen made Dutch GP possible says Ecclestone - grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 10:17:50 GMT"
+      "time": "Thu, 06 Aug 2026 01:04:00 GMT"
     },
     {
-      "author": "Motorsport Week",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ecclestone: Max Verstappen the \u2018real reason\u2019 for F1 Dutch GP return - Motorsport Week",
+      "text": "Formula 1 makes exclusive dinner in Zandvoort unaffordable for most fans - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 06:00:00 GMT"
+      "time": "Thu, 06 Aug 2026 15:01:00 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 2027 calendar: Contingency plans in place for next year's Formula 1 schedule amid US-Israel war with Iran - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 04 Aug 2026 05:01:37 GMT"
+    },
+    {
+      "author": "sports.yahoo.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What is the F1 summer break and why does it happen every year? - sports.yahoo.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 06 Aug 2026 16:00:00 GMT"
     }
   ]
 }
