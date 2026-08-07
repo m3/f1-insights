@@ -5,6 +5,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      skip_rsync:
+        description: 'Skip the rsync/deploy steps (CI check only)'
+        required: false
+        default: 'false'
 
 jobs:
   build-and-deploy:
