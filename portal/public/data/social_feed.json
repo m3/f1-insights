@@ -152,16 +152,6 @@
       "time": "Thu, 06 Aug 2026 13:40:00 GMT"
     },
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "James Vowles explains cause of Carlos Sainz's Oscar Piastri Hungarian GP clash - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 10:00:02 GMT"
-    },
-    {
       "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -170,6 +160,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Thu, 06 Aug 2026 11:01:00 GMT"
+    },
+    {
+      "author": "F1 Oversteer",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Liam Lawson lands Racing Bulls lifeline as Red Bull eye rival 2027 F1 seat for Nikola Tsolov - F1 Oversteer",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 06 Aug 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -204,16 +204,6 @@
       "time": "Thu, 06 Aug 2026 13:40:00 GMT"
     },
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "James Vowles explains cause of Carlos Sainz's Oscar Piastri Hungarian GP clash - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 04 Aug 2026 10:00:02 GMT"
-    },
-    {
       "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -222,6 +212,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Thu, 06 Aug 2026 11:01:00 GMT"
+    },
+    {
+      "author": "F1 Oversteer",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Liam Lawson lands Racing Bulls lifeline as Red Bull eye rival 2027 F1 seat for Nikola Tsolov - F1 Oversteer",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 06 Aug 2026 07:00:00 GMT"
     }
   ]
 }
