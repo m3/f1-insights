@@ -104,8 +104,11 @@ jobs:
             # Ensure proper ownership
             sudo chown -R mathias:www-data /var/www/f1-insights 2>/dev/null || true
 
-            # Restart processes cleanly using ecosystem.config.js
+            # Restart processes cleanly using ecosystem.config.js.
+            # Delete BOTH apps first so PM2 re-resolves the interpreter from the
+            # config (backend/venv) instead of reusing the stale .venv one.
             cd /var/www/f1-insights
+            pm2 delete f1-insights-backend 2>/dev/null || true
             pm2 delete f1-insights-portal 2>/dev/null || true
             pm2 start ecosystem.config.js --only f1-insights-backend,f1-insights-portal
             pm2 save
