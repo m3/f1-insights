@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 56,
+  "sentimentScore": 46,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 66,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 62,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 58,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 54,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 50,
+      "score": 40,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 46,
+      "score": 36,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "grandprix.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen urges Dutch government to back motorsport - grandprix.com",
+      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 17:18:19 GMT"
+      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why it will \u201ctake years\u201d for Cadillac to reach the level F1 rivals are operating at - Autosport",
+      "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 08 Aug 2026 08:31:41 GMT"
+      "time": "Fri, 07 Aug 2026 12:35:36 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1 makes exclusive dinner in Zandvoort unaffordable for most fans - GPblog",
+      "text": "Liam Lawson lands Racing Bulls lifeline as Red Bull eye rival 2027 F1 seat for Nikola Tsolov - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 15:01:00 GMT"
+      "time": "Thu, 06 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Autoweek",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Alpine F1 Midseason Report: Moving Forward Again - Autoweek",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 06 Aug 2026 20:29:00 GMT"
     },
     {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen calls for government action as Dutch motorsport enters uncertainty - racingnews365.com",
+      "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 12:45:00 GMT"
-    },
-    {
-      "author": "grandprix.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Only Verstappen made Dutch GP possible says Ecclestone - grandprix.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 01:04:00 GMT"
+      "time": "Thu, 06 Aug 2026 13:40:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "grandprix.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen urges Dutch government to back motorsport - grandprix.com",
+      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 17:18:19 GMT"
+      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why it will \u201ctake years\u201d for Cadillac to reach the level F1 rivals are operating at - Autosport",
+      "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 08 Aug 2026 08:31:41 GMT"
+      "time": "Fri, 07 Aug 2026 12:35:36 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1 makes exclusive dinner in Zandvoort unaffordable for most fans - GPblog",
+      "text": "Liam Lawson lands Racing Bulls lifeline as Red Bull eye rival 2027 F1 seat for Nikola Tsolov - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 15:01:00 GMT"
+      "time": "Thu, 06 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Autoweek",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Alpine F1 Midseason Report: Moving Forward Again - Autoweek",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 06 Aug 2026 20:29:00 GMT"
     },
     {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen calls for government action as Dutch motorsport enters uncertainty - racingnews365.com",
+      "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 12:45:00 GMT"
-    },
-    {
-      "author": "grandprix.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Only Verstappen made Dutch GP possible says Ecclestone - grandprix.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 01:04:00 GMT"
+      "time": "Thu, 06 Aug 2026 13:40:00 GMT"
     }
   ]
 }
