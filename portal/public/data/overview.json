@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-07T23:46:56.246719Z",
+  "updatedAt": "2026-08-08T00:59:27.887189Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 42,
+    "sentimentScore": 41,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 52,
+        "score": 51,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 48,
+        "score": 47,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 44,
+        "score": 43,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 40,
+        "score": 39,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 36,
+        "score": 35,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,18 +1977,18 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 32,
+        "score": 31,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
-        "author": "The New York Times",
+        "author": "nytimes.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
+        "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - nytimes.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Thu, 06 Aug 2026 09:00:35 GMT"
@@ -2036,11 +2036,11 @@
     ],
     "xTracksideFeed": [
       {
-        "author": "The New York Times",
+        "author": "nytimes.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
+        "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - nytimes.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Thu, 06 Aug 2026 09:00:35 GMT"
