@@ -122,16 +122,6 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
-    },
-    {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -140,6 +130,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
     },
     {
       "author": "F1 Oversteer",
@@ -174,16 +174,6 @@
   ],
   "xTracksideFeed": [
     {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
-    },
-    {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -192,6 +182,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
     },
     {
       "author": "F1 Oversteer",
