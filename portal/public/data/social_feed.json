@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 56,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 75,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 66,
-      "sentiment": "Mixed",
+      "score": 85,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 62,
-      "sentiment": "Mixed",
+      "score": 81,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 58,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 54,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 50,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,11 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 46,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [
-    {
-      "author": "Radio Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is the F1 Dutch Grand Prix 2026? Start time and TV schedule - Radio Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 11:00:26 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
-    },
-    {
-      "author": "AutoRacing1.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Formula 1 News: Without Verstappen Dutch GP would have never happened \u2013 Ecclestone - AutoRacing1.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 10:17:50 GMT"
-    },
-    {
-      "author": "OneFootball",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Franco Colapinto returns to Formula 1: when he races, Dutch GP times - OneFootball",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 23:16:41 GMT"
-    },
-    {
-      "author": "Motorsport Week",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ecclestone: Max Verstappen the \u2018real reason\u2019 for F1 Dutch GP return - Motorsport Week",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 06:00:00 GMT"
-    }
-  ],
-  "xTracksideFeed": [
-    {
-      "author": "Radio Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is the F1 Dutch Grand Prix 2026? Start time and TV schedule - Radio Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 11:00:26 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Pierre Gasly: Alpine's Dutch GP upgrades \"critical\" for F1 2026 chances - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 03 Aug 2026 12:10:17 GMT"
-    },
-    {
-      "author": "AutoRacing1.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Formula 1 News: Without Verstappen Dutch GP would have never happened \u2013 Ecclestone - AutoRacing1.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 10:17:50 GMT"
-    },
-    {
-      "author": "OneFootball",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Franco Colapinto returns to Formula 1: when he races, Dutch GP times - OneFootball",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 23:16:41 GMT"
-    },
-    {
-      "author": "Motorsport Week",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ecclestone: Max Verstappen the \u2018real reason\u2019 for F1 Dutch GP return - Motorsport Week",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 06:00:00 GMT"
-    }
-  ]
+  "breakingNewsTweets": [],
+  "xTracksideFeed": []
 }
