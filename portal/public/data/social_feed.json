@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 45,
+  "sentimentScore": 58,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 55,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 51,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 47,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 43,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 39,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 35,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "The New York Times",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
+      "text": "Max Verstappen plays down popular claim: 'I don't need to take credit' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
+      "time": "Sun, 09 Aug 2026 12:45:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+      "text": "Max Verstappen delivers honest verdict ahead of Zandvoort\u2019s F1 farewell - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+      "time": "Sun, 09 Aug 2026 15:20:00 GMT"
     },
     {
-      "author": "planetf1.com",
+      "author": "grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - planetf1.com",
+      "text": "Cadillac veterans split Dutch F1 experts - grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+      "time": "Thu, 06 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Alpine F1 Midseason Report: Moving Forward Again - Autoweek",
+      "text": "Verstappen\u2019s manager hails Max for transforming F1 in the Netherlands - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 20:29:00 GMT"
+      "time": "Sat, 08 Aug 2026 16:11:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+      "text": "Verstappen urges Dutch government to back motorsport - grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+      "time": "Fri, 07 Aug 2026 17:18:19 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "The New York Times",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
+      "text": "Max Verstappen plays down popular claim: 'I don't need to take credit' - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
+      "time": "Sun, 09 Aug 2026 12:45:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+      "text": "Max Verstappen delivers honest verdict ahead of Zandvoort\u2019s F1 farewell - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+      "time": "Sun, 09 Aug 2026 15:20:00 GMT"
     },
     {
-      "author": "planetf1.com",
+      "author": "grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - planetf1.com",
+      "text": "Cadillac veterans split Dutch F1 experts - grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+      "time": "Thu, 06 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Alpine F1 Midseason Report: Moving Forward Again - Autoweek",
+      "text": "Verstappen\u2019s manager hails Max for transforming F1 in the Netherlands - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 20:29:00 GMT"
+      "time": "Sat, 08 Aug 2026 16:11:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+      "text": "Verstappen urges Dutch government to back motorsport - grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+      "time": "Fri, 07 Aug 2026 17:18:19 GMT"
     }
   ]
 }
