@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-09T21:32:06.128200Z",
+  "updatedAt": "2026-08-09T21:45:56.603111Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -15,11 +15,10 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "TracingInsights",
-      "OpenMeteo"
+      "FastF1",
+      "OpenMeteo",
+      "SocialMediaRadar"
     ],
-    "tracingInsightsCommit": null,
-    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -1860,5 +1859,232 @@
       "race": "2 - 3",
       "leader": "GAS Ahead"
     }
-  ]
+  ],
+  "socialSentiment": {
+    "version": "2026.3",
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 41,
+    "monitoredAccountsCount": 11,
+    "youtubeSourcesCount": 5,
+    "trendingHashtags": [
+      "#HungarianGrandPrix",
+      "#F1",
+      "#F12026",
+      "#Formula1",
+      "#TechF1"
+    ],
+    "keywords": {
+      "technical": [
+        "telemetry",
+        "floor upgrade",
+        "sidepod undercut",
+        "tyre degradation",
+        "MGU-K",
+        "active aerodynamics",
+        "driving technique",
+        "corner entry speed"
+      ],
+      "regulatory": [
+        "stewards decision",
+        "track limits",
+        "penalty points",
+        "cost cap",
+        "FIA summons"
+      ],
+      "live_coverage": [
+        "watchalong",
+        "live timing",
+        "FP1 commentary",
+        "quali reaction",
+        "race commentary"
+      ]
+    },
+    "youtubeSources": [
+      {
+        "channel_name": "F1 Gamer",
+        "handle": "@F1Gamer",
+        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
+      },
+      {
+        "channel_name": "Peter Windsor",
+        "handle": "@peterwindsor",
+        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
+      },
+      {
+        "channel_name": "Donut - Up to Speed",
+        "handle": "@donut",
+        "focus": "Automotive & Motorsport History/Deep Dives"
+      },
+      {
+        "channel_name": "Brrrake F1",
+        "handle": "@brrrake",
+        "focus": "Telemetry & Engineer Reaction"
+      },
+      {
+        "channel_name": "Autosport",
+        "handle": "@autosport",
+        "focus": "Technical Upgrades & Paddock Debriefs"
+      }
+    ],
+    "driverSentimentRanking": [
+      {
+        "driver": "Lando Norris",
+        "code": "NOR",
+        "handle": "LandoNorris",
+        "team": "McLaren",
+        "score": 51,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LandoNorris"
+      },
+      {
+        "driver": "Oscar Piastri",
+        "code": "PIA",
+        "handle": "OscarPiastri",
+        "team": "McLaren",
+        "score": 47,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @OscarPiastri"
+      },
+      {
+        "driver": "Charles Leclerc",
+        "code": "LEC",
+        "handle": "Charles_Leclerc",
+        "team": "Ferrari",
+        "score": 43,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Charles_Leclerc"
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "code": "HAM",
+        "handle": "LewisHamilton",
+        "team": "Ferrari",
+        "score": 39,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LewisHamilton"
+      },
+      {
+        "driver": "Max Verstappen",
+        "code": "VER",
+        "handle": "Max33Verstappen",
+        "team": "Red Bull",
+        "score": 35,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Max33Verstappen"
+      },
+      {
+        "driver": "Liam Lawson",
+        "code": "LAW",
+        "handle": "LiamLawson30",
+        "team": "Red Bull",
+        "score": 31,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LiamLawson30"
+      }
+    ],
+    "breakingNewsTweets": [
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "MotoGP icon Casey Stoner weighs in on \u2018overcomplicated\u2019 F1 2026 - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 08 Aug 2026 16:05:39 GMT"
+      },
+      {
+        "author": "Autosport",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+      },
+      {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+      },
+      {
+        "author": "racingnews365.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 06 Aug 2026 13:40:00 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+      }
+    ],
+    "xTracksideFeed": [
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "MotoGP icon Casey Stoner weighs in on \u2018overcomplicated\u2019 F1 2026 - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 08 Aug 2026 16:05:39 GMT"
+      },
+      {
+        "author": "Autosport",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+      },
+      {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+      },
+      {
+        "author": "racingnews365.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 06 Aug 2026 13:40:00 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+      }
+    ]
+  }
 }
