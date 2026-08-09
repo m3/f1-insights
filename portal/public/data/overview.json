@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-09T17:56:18.364457Z",
+  "updatedAt": "2026-08-09T18:28:53.511127Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 49,
+    "sentimentScore": 45,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 59,
+        "score": 55,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 55,
+        "score": 51,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 51,
+        "score": 47,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 47,
+        "score": 43,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 43,
+        "score": 39,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,7 +1977,7 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 39,
+        "score": 35,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
@@ -2004,21 +2004,11 @@
         "time": "Sun, 09 Aug 2026 08:39:09 GMT"
       },
       {
-        "author": "TSN",
+        "author": "planetf1.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Where does each Formula 1 driver\u2019s contract stand at summer break? - TSN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 08 Aug 2026 12:33:26 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
+        "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - planetf1.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 07 Aug 2026 12:35:36 GMT"
@@ -2032,6 +2022,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Thu, 06 Aug 2026 20:29:00 GMT"
+      },
+      {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 07 Aug 2026 06:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2056,21 +2056,11 @@
         "time": "Sun, 09 Aug 2026 08:39:09 GMT"
       },
       {
-        "author": "TSN",
+        "author": "planetf1.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Where does each Formula 1 driver\u2019s contract stand at summer break? - TSN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 08 Aug 2026 12:33:26 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
+        "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - planetf1.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 07 Aug 2026 12:35:36 GMT"
@@ -2084,6 +2074,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Thu, 06 Aug 2026 20:29:00 GMT"
+      },
+      {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 07 Aug 2026 06:00:00 GMT"
       }
     ]
   }
