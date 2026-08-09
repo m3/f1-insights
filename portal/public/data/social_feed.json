@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 51,
+  "sentimentScore": 47,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 61,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 57,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 53,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 49,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 45,
+      "score": 41,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,21 +115,31 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 41,
+      "score": 37,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "GPblog",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen delivers honest verdict ahead of Zandvoort\u2019s F1 farewell - GPblog",
+      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 15:20:00 GMT"
+      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "MotoGP icon Casey Stoner weighs in on \u2018overcomplicated\u2019 F1 2026 - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 08 Aug 2026 16:05:39 GMT"
     },
     {
       "author": "Autosport",
@@ -142,16 +152,6 @@
       "time": "Sun, 09 Aug 2026 08:39:09 GMT"
     },
     {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 12:35:36 GMT"
-    },
-    {
       "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -162,26 +162,36 @@
       "time": "Fri, 07 Aug 2026 06:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
+      "text": "Alpine F1 Midseason Report: Moving Forward Again - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
+      "time": "Thu, 06 Aug 2026 20:29:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "GPblog",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen delivers honest verdict ahead of Zandvoort\u2019s F1 farewell - GPblog",
+      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 15:20:00 GMT"
+      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "MotoGP icon Casey Stoner weighs in on \u2018overcomplicated\u2019 F1 2026 - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 08 Aug 2026 16:05:39 GMT"
     },
     {
       "author": "Autosport",
@@ -194,16 +204,6 @@
       "time": "Sun, 09 Aug 2026 08:39:09 GMT"
     },
     {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 12:35:36 GMT"
-    },
-    {
       "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -214,14 +214,14 @@
       "time": "Fri, 07 Aug 2026 06:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Kimi Antonelli has raced to a commanding F1 title lead. But one flaw is costing him points - The New York Times",
+      "text": "Alpine F1 Midseason Report: Moving Forward Again - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 09:00:35 GMT"
+      "time": "Thu, 06 Aug 2026 20:29:00 GMT"
     }
   ]
 }
