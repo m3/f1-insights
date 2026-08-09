@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-09T09:54:19.473885Z",
+  "updatedAt": "2026-08-09T10:24:04.594816Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1862,8 +1862,8 @@
   ],
   "socialSentiment": {
     "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 75,
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 43,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,8 +1932,8 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 85,
-        "sentiment": "Positive",
+        "score": 53,
+        "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
       {
@@ -1941,8 +1941,8 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 81,
-        "sentiment": "Positive",
+        "score": 49,
+        "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
       {
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 77,
+        "score": 45,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 73,
+        "score": 41,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 69,
+        "score": 37,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,12 +1977,114 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 65,
+        "score": 33,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
-    "breakingNewsTweets": [],
-    "xTracksideFeed": []
+    "breakingNewsTweets": [
+      {
+        "author": "Autosport",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "MotoGP icon Casey Stoner weighs in on \u2018overcomplicated\u2019 F1 2026 - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 08 Aug 2026 16:05:39 GMT"
+      },
+      {
+        "author": "Autoweek",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Alpine F1 Midseason Report: Moving Forward Again - Autoweek",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 06 Aug 2026 20:29:00 GMT"
+      },
+      {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+      },
+      {
+        "author": "racingnews365.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 06 Aug 2026 13:40:00 GMT"
+      }
+    ],
+    "xTracksideFeed": [
+      {
+        "author": "Autosport",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "MotoGP icon Casey Stoner weighs in on \u2018overcomplicated\u2019 F1 2026 - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 08 Aug 2026 16:05:39 GMT"
+      },
+      {
+        "author": "Autoweek",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Alpine F1 Midseason Report: Moving Forward Again - Autoweek",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 06 Aug 2026 20:29:00 GMT"
+      },
+      {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+      },
+      {
+        "author": "racingnews365.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 06 Aug 2026 13:40:00 GMT"
+      }
+    ]
   }
 }
