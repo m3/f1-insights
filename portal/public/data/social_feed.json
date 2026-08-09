@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 41,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 67,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 51,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 47,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 43,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 39,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 35,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 31,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "PlanetF1",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "MotoGP icon Casey Stoner weighs in on \u2018overcomplicated\u2019 F1 2026 - PlanetF1",
+      "text": "Max Verstappen delivers honest verdict ahead of Zandvoort\u2019s F1 farewell - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 08 Aug 2026 16:05:39 GMT"
+      "time": "Sun, 09 Aug 2026 15:20:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+      "text": "Zandvoort updates to be \u2019crucial\u2019 in Alpine\u2019s quest to top the midfield battle - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+      "time": "Sun, 09 Aug 2026 12:01:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "AutoRacing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
+      "text": "Formula 1 News: Without Verstappen Dutch GP would have never happened \u2013 Ecclestone - AutoRacing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 13:40:00 GMT"
+      "time": "Wed, 05 Aug 2026 10:17:50 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "Radio Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
+      "text": "What time is the F1 Dutch Grand Prix 2026? Start time and TV schedule - Radio Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+      "time": "Fri, 07 Aug 2026 11:00:26 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "PlanetF1",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "MotoGP icon Casey Stoner weighs in on \u2018overcomplicated\u2019 F1 2026 - PlanetF1",
+      "text": "Max Verstappen delivers honest verdict ahead of Zandvoort\u2019s F1 farewell - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 08 Aug 2026 16:05:39 GMT"
+      "time": "Sun, 09 Aug 2026 15:20:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+      "text": "Zandvoort updates to be \u2019crucial\u2019 in Alpine\u2019s quest to top the midfield battle - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+      "time": "Sun, 09 Aug 2026 12:01:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "AutoRacing1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
+      "text": "Formula 1 News: Without Verstappen Dutch GP would have never happened \u2013 Ecclestone - AutoRacing1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 06 Aug 2026 13:40:00 GMT"
+      "time": "Wed, 05 Aug 2026 10:17:50 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "Radio Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
+      "text": "What time is the F1 Dutch Grand Prix 2026? Start time and TV schedule - Radio Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+      "time": "Fri, 07 Aug 2026 11:00:26 GMT"
     }
   ]
 }
