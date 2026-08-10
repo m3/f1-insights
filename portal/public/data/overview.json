@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-10T01:55:07.962148Z",
+  "updatedAt": "2026-08-10T03:45:22.307386Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 41,
+    "sentimentScore": 59,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 51,
+        "score": 69,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 47,
+        "score": 65,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 43,
+        "score": 61,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 39,
+        "score": 57,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 35,
+        "score": 53,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,113 +1977,113 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 31,
+        "score": 49,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
-        "author": "Autosport",
+        "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "PlanetF1",
+        "author": "The New York Times",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
+        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "F1 Oversteer",
+        "author": "Autoweek",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+        "text": "Red Bull F1 Midseason Report: Back in the Fight - Autoweek",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+        "time": "Sun, 09 Aug 2026 21:52:00 GMT"
       },
       {
-        "author": "racingnews365.com",
+        "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Thu, 06 Aug 2026 13:40:00 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
       {
-        "author": "Autosport",
+        "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "100 not out: Albon on Williams\u2019s desire to atone for its 2026 struggles - Autosport",
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 09 Aug 2026 08:39:09 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "PlanetF1",
+        "author": "The New York Times",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "McLaren paid 'heavy price' in F1 2026 as Zak Brown comments resurface - PlanetF1",
+        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 07 Aug 2026 12:35:36 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "F1 Oversteer",
+        "author": "Autoweek",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "McLaren could now make Oscar Piastri\u2019s misery a lot worse with imminent MCL40 upgrade - F1 Oversteer",
+        "text": "Red Bull F1 Midseason Report: Back in the Fight - Autoweek",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 07 Aug 2026 06:00:00 GMT"
+        "time": "Sun, 09 Aug 2026 21:52:00 GMT"
       },
       {
-        "author": "racingnews365.com",
+        "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Toto Wolff offers 'miserable' F1 title fight outlook: 'The glass is half empty' - racingnews365.com",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Thu, 06 Aug 2026 13:40:00 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
       }
     ]
   }
