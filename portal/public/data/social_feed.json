@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 67,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 59,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 77,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 73,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 69,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 65,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 61,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 57,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Yahoo Sports",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Zandvoort updates to be \u2019crucial\u2019 in Alpine\u2019s quest to top the midfield battle - Yahoo Sports",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 12:01:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Autoweek",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Red Bull F1 Midseason Report: Back in the Fight - Autoweek",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 09 Aug 2026 21:52:00 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen delivers honest verdict ahead of Zandvoort\u2019s F1 farewell - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 15:20:00 GMT"
-    },
-    {
-      "author": "AutoRacing1.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Formula 1 News: Without Verstappen Dutch GP would have never happened \u2013 Ecclestone - AutoRacing1.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 10:17:50 GMT"
-    },
-    {
-      "author": "Radio Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is the F1 Dutch Grand Prix 2026? Start time and TV schedule - Radio Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 11:00:26 GMT"
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Yahoo Sports",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Zandvoort updates to be \u2019crucial\u2019 in Alpine\u2019s quest to top the midfield battle - Yahoo Sports",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 12:01:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Autoweek",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Red Bull F1 Midseason Report: Back in the Fight - Autoweek",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 09 Aug 2026 21:52:00 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - Formula 1",
+      "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 31 Jul 2026 13:32:42 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen delivers honest verdict ahead of Zandvoort\u2019s F1 farewell - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 09 Aug 2026 15:20:00 GMT"
-    },
-    {
-      "author": "AutoRacing1.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Formula 1 News: Without Verstappen Dutch GP would have never happened \u2013 Ecclestone - AutoRacing1.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 05 Aug 2026 10:17:50 GMT"
-    },
-    {
-      "author": "Radio Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is the F1 Dutch Grand Prix 2026? Start time and TV schedule - Radio Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 07 Aug 2026 11:00:26 GMT"
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     }
   ]
 }
