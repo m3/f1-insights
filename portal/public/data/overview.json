@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-11T19:45:20.587748Z",
+  "updatedAt": "2026-08-11T20:25:49.531330Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1984,11 +1984,11 @@
     ],
     "breakingNewsTweets": [
       {
-        "author": "ESPN",
+        "author": "espn.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - espn.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2004,11 +2004,11 @@
         "time": "Tue, 11 Aug 2026 09:13:15 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2024,11 +2024,11 @@
         "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "cbssports.com",
+        "author": "CBS Sports",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "2026 Hungarian Grand Prix picks, odds, grid, start time: Formula One predictions, best bets by proven model - cbssports.com",
+        "text": "2026 Hungarian Grand Prix picks, odds, grid, start time: Formula One predictions, best bets by proven model - CBS Sports",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2036,11 +2036,11 @@
     ],
     "xTracksideFeed": [
       {
-        "author": "ESPN",
+        "author": "espn.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - espn.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2056,11 +2056,11 @@
         "time": "Tue, 11 Aug 2026 09:13:15 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2076,11 +2076,11 @@
         "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "cbssports.com",
+        "author": "CBS Sports",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "2026 Hungarian Grand Prix picks, odds, grid, start time: Formula One predictions, best bets by proven model - cbssports.com",
+        "text": "2026 Hungarian Grand Prix picks, odds, grid, start time: Formula One predictions, best bets by proven model - CBS Sports",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
