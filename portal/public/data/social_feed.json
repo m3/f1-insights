@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "sentimentScore": 46,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 40,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 36,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "ESPN",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Honda 'secret' emerges after Aston Martin 50bhp gain reports addressed - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 11 Aug 2026 05:08:53 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Max Verstappen opens door for new Zandvoort event as final Dutch GP looms - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 10 Aug 2026 14:40:00 GMT"
     },
     {
-      "author": "Oracle Red Bull Racing",
+      "author": "Two Broke Watch Snobs",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Fasterclass with Max Verstappen - Oracle Red Bull Racing",
+      "text": "Solar-Powered and Retro-Sized: TAG Heuer Formula 1 Zandvoort Editions - Two Broke Watch Snobs",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 13:00:01 GMT"
+      "time": "Mon, 10 Aug 2026 20:01:00 GMT"
     },
     {
-      "author": "motorsport.com",
+      "author": "Fratello Watches",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
+      "text": "Zandvoort\u2019s Final Lap: The TAG Heuer Formula 1 Solargraph Limited Edition - Fratello Watches",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 10 Aug 2026 09:01:27 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Time+Tide Watches",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren F1 Midseason Report: Finally Finding Its Form - Autoweek",
+      "text": "TAG Heuer Solargraph Formula 1 Zandvoort F1 | INTRODUCING - Time+Tide Watches",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 02:14:00 GMT"
+      "time": "Mon, 10 Aug 2026 07:04:04 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "ESPN",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Honda 'secret' emerges after Aston Martin 50bhp gain reports addressed - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 11 Aug 2026 05:08:53 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Max Verstappen opens door for new Zandvoort event as final Dutch GP looms - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 10 Aug 2026 14:40:00 GMT"
     },
     {
-      "author": "Oracle Red Bull Racing",
+      "author": "Two Broke Watch Snobs",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Fasterclass with Max Verstappen - Oracle Red Bull Racing",
+      "text": "Solar-Powered and Retro-Sized: TAG Heuer Formula 1 Zandvoort Editions - Two Broke Watch Snobs",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 13:00:01 GMT"
+      "time": "Mon, 10 Aug 2026 20:01:00 GMT"
     },
     {
-      "author": "motorsport.com",
+      "author": "Fratello Watches",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
+      "text": "Zandvoort\u2019s Final Lap: The TAG Heuer Formula 1 Solargraph Limited Edition - Fratello Watches",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 10 Aug 2026 09:01:27 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Time+Tide Watches",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren F1 Midseason Report: Finally Finding Its Form - Autoweek",
+      "text": "TAG Heuer Solargraph Formula 1 Zandvoort F1 | INTRODUCING - Time+Tide Watches",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 02:14:00 GMT"
+      "time": "Mon, 10 Aug 2026 07:04:04 GMT"
     }
   ]
 }
