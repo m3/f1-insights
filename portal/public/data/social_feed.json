@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 75,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
-      "sentiment": "Mixed",
+      "score": 85,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
-      "sentiment": "Mixed",
+      "score": 81,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,11 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [
-    {
-      "author": "racingnews365.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen opens door for new Zandvoort event as final Dutch GP looms - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 14:40:00 GMT"
-    },
-    {
-      "author": "Fratello Watches",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Zandvoort\u2019s Final Lap: The TAG Heuer Formula 1 Solargraph Limited Edition - Fratello Watches",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 09:01:27 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Honda reveal \u2018big list\u2019 of Aston Martin engine changes ahead of Dutch Grand Prix - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 14:32:27 GMT"
-    },
-    {
-      "author": "Time+Tide Watches",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "TAG Heuer Solargraph Formula 1 Zandvoort F1 | INTRODUCING - Time+Tide Watches",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 07:04:04 GMT"
-    },
-    {
-      "author": "stuff.tv",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "TAG Heuer revives my favourite Formula 1 colourway \u2013 going orange for the Dutch Grand Prix - stuff.tv",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 10:29:41 GMT"
-    }
-  ],
-  "xTracksideFeed": [
-    {
-      "author": "racingnews365.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen opens door for new Zandvoort event as final Dutch GP looms - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 14:40:00 GMT"
-    },
-    {
-      "author": "Fratello Watches",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Zandvoort\u2019s Final Lap: The TAG Heuer Formula 1 Solargraph Limited Edition - Fratello Watches",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 09:01:27 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Honda reveal \u2018big list\u2019 of Aston Martin engine changes ahead of Dutch Grand Prix - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 14:32:27 GMT"
-    },
-    {
-      "author": "Time+Tide Watches",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "TAG Heuer Solargraph Formula 1 Zandvoort F1 | INTRODUCING - Time+Tide Watches",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 07:04:04 GMT"
-    },
-    {
-      "author": "stuff.tv",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "TAG Heuer revives my favourite Formula 1 colourway \u2013 going orange for the Dutch Grand Prix - stuff.tv",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 10 Aug 2026 10:29:41 GMT"
-    }
-  ]
+  "breakingNewsTweets": [],
+  "xTracksideFeed": []
 }
