@@ -152,24 +152,24 @@
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "McLaren address 'turning point' claim after Hungarian GP breakthrough - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 11 Aug 2026 04:30:00 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What are the tyre strategy options for the Hungarian GP? - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -204,24 +204,24 @@
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "McLaren address 'turning point' claim after Hungarian GP breakthrough - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 11 Aug 2026 04:30:00 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What are the tyre strategy options for the Hungarian GP? - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ]
 }
