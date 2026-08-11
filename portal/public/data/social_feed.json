@@ -132,16 +132,6 @@
       "time": "Tue, 11 Aug 2026 09:13:15 GMT"
     },
     {
-      "author": "Oracle Red Bull Racing",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Fasterclass with Max Verstappen - Oracle Red Bull Racing",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 13:00:01 GMT"
-    },
-    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -152,14 +142,14 @@
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Oracle Red Bull Racing",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren F1 Midseason Report: Finally Finding Its Form - Autoweek",
+      "text": "Fasterclass with Max Verstappen - Oracle Red Bull Racing",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 02:14:00 GMT"
+      "time": "Tue, 11 Aug 2026 13:00:01 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -170,6 +160,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "autoweek.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "McLaren F1 Midseason Report: Finally Finding Its Form - autoweek.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 11 Aug 2026 02:14:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -184,16 +184,6 @@
       "time": "Tue, 11 Aug 2026 09:13:15 GMT"
     },
     {
-      "author": "Oracle Red Bull Racing",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Fasterclass with Max Verstappen - Oracle Red Bull Racing",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 13:00:01 GMT"
-    },
-    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -204,14 +194,14 @@
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Oracle Red Bull Racing",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren F1 Midseason Report: Finally Finding Its Form - Autoweek",
+      "text": "Fasterclass with Max Verstappen - Oracle Red Bull Racing",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 02:14:00 GMT"
+      "time": "Tue, 11 Aug 2026 13:00:01 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -222,6 +212,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "autoweek.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "McLaren F1 Midseason Report: Finally Finding Its Form - autoweek.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 11 Aug 2026 02:14:00 GMT"
     }
   ]
 }
