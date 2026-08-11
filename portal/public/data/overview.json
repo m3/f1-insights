@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-11T23:39:45.183132Z",
+  "updatedAt": "2026-08-11T23:57:32.443782Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -15,11 +15,10 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "TracingInsights",
-      "OpenMeteo"
+      "FastF1",
+      "OpenMeteo",
+      "SocialMediaRadar"
     ],
-    "tracingInsightsCommit": null,
-    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -1860,5 +1859,232 @@
       "race": "2 - 3",
       "leader": "GAS Ahead"
     }
-  ]
+  ],
+  "socialSentiment": {
+    "version": "2026.3",
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 56,
+    "monitoredAccountsCount": 11,
+    "youtubeSourcesCount": 5,
+    "trendingHashtags": [
+      "#HungarianGrandPrix",
+      "#F1",
+      "#F12026",
+      "#Formula1",
+      "#TechF1"
+    ],
+    "keywords": {
+      "technical": [
+        "telemetry",
+        "floor upgrade",
+        "sidepod undercut",
+        "tyre degradation",
+        "MGU-K",
+        "active aerodynamics",
+        "driving technique",
+        "corner entry speed"
+      ],
+      "regulatory": [
+        "stewards decision",
+        "track limits",
+        "penalty points",
+        "cost cap",
+        "FIA summons"
+      ],
+      "live_coverage": [
+        "watchalong",
+        "live timing",
+        "FP1 commentary",
+        "quali reaction",
+        "race commentary"
+      ]
+    },
+    "youtubeSources": [
+      {
+        "channel_name": "F1 Gamer",
+        "handle": "@F1Gamer",
+        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
+      },
+      {
+        "channel_name": "Peter Windsor",
+        "handle": "@peterwindsor",
+        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
+      },
+      {
+        "channel_name": "Donut - Up to Speed",
+        "handle": "@donut",
+        "focus": "Automotive & Motorsport History/Deep Dives"
+      },
+      {
+        "channel_name": "Brrrake F1",
+        "handle": "@brrrake",
+        "focus": "Telemetry & Engineer Reaction"
+      },
+      {
+        "channel_name": "Autosport",
+        "handle": "@autosport",
+        "focus": "Technical Upgrades & Paddock Debriefs"
+      }
+    ],
+    "driverSentimentRanking": [
+      {
+        "driver": "Lando Norris",
+        "code": "NOR",
+        "handle": "LandoNorris",
+        "team": "McLaren",
+        "score": 66,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LandoNorris"
+      },
+      {
+        "driver": "Oscar Piastri",
+        "code": "PIA",
+        "handle": "OscarPiastri",
+        "team": "McLaren",
+        "score": 62,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @OscarPiastri"
+      },
+      {
+        "driver": "Charles Leclerc",
+        "code": "LEC",
+        "handle": "Charles_Leclerc",
+        "team": "Ferrari",
+        "score": 58,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Charles_Leclerc"
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "code": "HAM",
+        "handle": "LewisHamilton",
+        "team": "Ferrari",
+        "score": 54,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LewisHamilton"
+      },
+      {
+        "driver": "Max Verstappen",
+        "code": "VER",
+        "handle": "Max33Verstappen",
+        "team": "Red Bull",
+        "score": 50,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Max33Verstappen"
+      },
+      {
+        "driver": "Liam Lawson",
+        "code": "LAW",
+        "handle": "LiamLawson30",
+        "team": "Red Bull",
+        "score": 46,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LiamLawson30"
+      }
+    ],
+    "breakingNewsTweets": [
+      {
+        "author": "Autoweek",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Ferrari F1 Midseason Report: Back in the Title Fight - Autoweek",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 11 Aug 2026 23:16:00 GMT"
+      },
+      {
+        "author": "journal-news.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "CORRECTION Hungary F1 GP Auto Racing - journal-news.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 11 Aug 2026 22:06:30 GMT"
+      },
+      {
+        "author": "ESPN",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "nytimes.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mercedes appears dominant in F1 2026 but could yet lose via a vital, off-track, race - nytimes.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 11 Aug 2026 09:13:15 GMT"
+      },
+      {
+        "author": "Motorsport.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      }
+    ],
+    "xTracksideFeed": [
+      {
+        "author": "Autoweek",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Ferrari F1 Midseason Report: Back in the Title Fight - Autoweek",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 11 Aug 2026 23:16:00 GMT"
+      },
+      {
+        "author": "journal-news.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "CORRECTION Hungary F1 GP Auto Racing - journal-news.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 11 Aug 2026 22:06:30 GMT"
+      },
+      {
+        "author": "ESPN",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "nytimes.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mercedes appears dominant in F1 2026 but could yet lose via a vital, off-track, race - nytimes.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 11 Aug 2026 09:13:15 GMT"
+      },
+      {
+        "author": "Motorsport.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      }
+    ]
+  }
 }
