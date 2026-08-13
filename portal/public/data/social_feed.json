@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 55,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 64,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 65,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 61,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 57,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 53,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 49,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,12 +115,22 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 45,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
+    {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
+    },
     {
       "author": "GPblog",
       "handle": "NewsRadar",
@@ -152,21 +162,11 @@
       "time": "Wed, 12 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren address 'turning point' claim after Hungarian GP breakthrough - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 04:30:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "Hungarian Grand Prix: Lando Norris and McLaren almost perfect as Ferrari flounder - BBC",
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -174,6 +174,16 @@
   ],
   "xTracksideFeed": [
     {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
+    },
+    {
       "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -204,21 +214,11 @@
       "time": "Wed, 12 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren address 'turning point' claim after Hungarian GP breakthrough - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 11 Aug 2026 04:30:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "Hungarian Grand Prix: Lando Norris and McLaren almost perfect as Ferrari flounder - BBC",
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
