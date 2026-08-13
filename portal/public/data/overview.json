@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-13T08:05:28.433582Z",
+  "updatedAt": "2026-08-13T09:12:05.578383Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-08-13T07:41:20.004278Z",
+    "lastUpdatedUtc": "2026-08-13T09:12:05.578338Z",
     "nextSession": {
       "name": "FP1",
       "timeUtc": "2026-08-21T10:30:00Z"
@@ -15,10 +15,11 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,10 +61,10 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "23\u00b0C",
-    "trackTemp": "28\u00b0C",
+    "ambientTemp": "27\u00b0C",
+    "trackTemp": "32\u00b0C",
     "rainRisk": "0%",
-    "wind": "10 km/h NE",
+    "wind": "8 km/h NE",
     "humidity": "47%"
   },
   "schedule": [
@@ -1543,7 +1544,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-13T07:41:20.002945",
+    "generatedAt": "2026-08-13T09:12:05.577037",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1688,7 +1689,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-13T07:41:20.003415",
+    "generatedAt": "2026-08-13T09:12:05.577465",
     "facts": [],
     "teammateBattles": [
       {
@@ -1859,232 +1860,5 @@
       "race": "2 - 3",
       "leader": "GAS Ahead"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 55,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 65,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 61,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 57,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 53,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 49,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 45,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "F1 Oversteer",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Autoweek",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 23:45:00 GMT"
-      },
-      {
-        "author": "GPblog",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - GPblog",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 14:01:00 GMT"
-      },
-      {
-        "author": "racingnews365.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren address 'turning point' claim after Hungarian GP breakthrough - racingnews365.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 11 Aug 2026 04:30:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "F1 Oversteer",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Autoweek",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 23:45:00 GMT"
-      },
-      {
-        "author": "GPblog",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - GPblog",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 14:01:00 GMT"
-      },
-      {
-        "author": "racingnews365.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren address 'turning point' claim after Hungarian GP breakthrough - racingnews365.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 11 Aug 2026 04:30:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+  ]
 }
