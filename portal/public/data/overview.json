@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-13T10:43:17.089628Z",
+  "updatedAt": "2026-08-13T11:28:44.768156Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1984,11 +1984,11 @@
     ],
     "breakingNewsTweets": [
       {
-        "author": "GPblog",
+        "author": "gpblog.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - GPblog",
+        "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - gpblog.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Wed, 12 Aug 2026 14:01:00 GMT"
@@ -2036,11 +2036,11 @@
     ],
     "xTracksideFeed": [
       {
-        "author": "GPblog",
+        "author": "gpblog.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - GPblog",
+        "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - gpblog.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Wed, 12 Aug 2026 14:01:00 GMT"
