@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-13T19:43:17.618152Z",
+  "updatedAt": "2026-08-13T20:20:55.216706Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -2024,11 +2024,11 @@
         "time": "Wed, 12 Aug 2026 07:00:00 GMT"
       },
       {
-        "author": "bbc.com",
+        "author": "BBC",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix: Lando Norris and McLaren almost perfect as Ferrari flounder - bbc.com",
+        "text": "Hungarian Grand Prix: Lando Norris and McLaren almost perfect as Ferrari flounder - BBC",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2076,11 +2076,11 @@
         "time": "Wed, 12 Aug 2026 07:00:00 GMT"
       },
       {
-        "author": "bbc.com",
+        "author": "BBC",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix: Lando Norris and McLaren almost perfect as Ferrari flounder - bbc.com",
+        "text": "Hungarian Grand Prix: Lando Norris and McLaren almost perfect as Ferrari flounder - BBC",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
