@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-14T19:56:43.081649Z",
+  "updatedAt": "2026-08-14T20:25:40.923635Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 54,
+    "sentimentScore": 60,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 64,
+        "score": 70,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 60,
+        "score": 66,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 56,
+        "score": 62,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 52,
+        "score": 58,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 48,
+        "score": 54,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,23 +1977,13 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 44,
+        "score": 50,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Felipe Massa crash: Rob Smedley offers emotional new insight - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 14 Aug 2026 13:23:13 GMT"
-      },
-      {
         "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2004,48 +1994,48 @@
         "time": "Fri, 14 Aug 2026 15:30:00 GMT"
       },
       {
-        "author": "Autoweek",
+        "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 23:45:00 GMT"
-      },
-      {
-        "author": "f1oversteer.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - f1oversteer.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 07:00:00 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
         "author": "The New York Times",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Mercedes appears dominant in F1 2026 but could yet lose via a vital, off-track, race - The New York Times",
+        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Tue, 11 Aug 2026 09:13:15 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Motorsport.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
       {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Felipe Massa crash: Rob Smedley offers emotional new insight - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 14 Aug 2026 13:23:13 GMT"
-      },
-      {
         "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2056,34 +2046,44 @@
         "time": "Fri, 14 Aug 2026 15:30:00 GMT"
       },
       {
-        "author": "Autoweek",
+        "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 23:45:00 GMT"
-      },
-      {
-        "author": "f1oversteer.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - f1oversteer.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 12 Aug 2026 07:00:00 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
         "author": "The New York Times",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Mercedes appears dominant in F1 2026 but could yet lose via a vital, off-track, race - The New York Times",
+        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Tue, 11 Aug 2026 09:13:15 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Motorsport.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ]
   }
