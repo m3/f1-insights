@@ -122,6 +122,16 @@
   ],
   "breakingNewsTweets": [
     {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 12 Aug 2026 14:01:00 GMT"
+    },
+    {
       "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -130,16 +140,6 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Wed, 12 Aug 2026 23:45:00 GMT"
-    },
-    {
-      "author": "gpblog.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - gpblog.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 14:01:00 GMT"
     },
     {
       "author": "F1 Oversteer",
@@ -174,6 +174,16 @@
   ],
   "xTracksideFeed": [
     {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 12 Aug 2026 14:01:00 GMT"
+    },
+    {
       "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -182,16 +192,6 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Wed, 12 Aug 2026 23:45:00 GMT"
-    },
-    {
-      "author": "gpblog.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Good news for Verstappen: Red Bull identifies area where it can extract more performance - gpblog.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 14:01:00 GMT"
     },
     {
       "author": "F1 Oversteer",
