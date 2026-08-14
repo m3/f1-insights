@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-14T23:22:10.695874Z",
+  "updatedAt": "2026-08-14T23:44:57.369354Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 60,
+    "sentimentScore": 58,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 70,
+        "score": 68,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 66,
+        "score": 64,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 62,
+        "score": 60,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 58,
+        "score": 56,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 54,
+        "score": 52,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,13 +1977,23 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 50,
+        "score": 48,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Felipe Massa crash: Rob Smedley offers emotional new insight - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 14 Aug 2026 13:23:13 GMT"
+      },
+      {
         "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -1994,48 +2004,48 @@
         "time": "Fri, 14 Aug 2026 15:30:00 GMT"
       },
       {
-        "author": "ESPN",
+        "author": "Autoweek",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Wed, 12 Aug 2026 23:45:00 GMT"
       },
       {
-        "author": "The New York Times",
+        "author": "F1 Oversteer",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+        "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Wed, 12 Aug 2026 07:00:00 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "BBC",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Hungarian Grand Prix: Lewis Hamilton leads Charles Leclerc in Ferrari one-two in Friday practice - BBC",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Fri, 24 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
       {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Felipe Massa crash: Rob Smedley offers emotional new insight - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 14 Aug 2026 13:23:13 GMT"
+      },
+      {
         "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2046,44 +2056,34 @@
         "time": "Fri, 14 Aug 2026 15:30:00 GMT"
       },
       {
-        "author": "ESPN",
+        "author": "Autoweek",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Wed, 12 Aug 2026 23:45:00 GMT"
       },
       {
-        "author": "The New York Times",
+        "author": "F1 Oversteer",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+        "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Wed, 12 Aug 2026 07:00:00 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "BBC",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Hungarian Grand Prix: Lewis Hamilton leads Charles Leclerc in Ferrari one-two in Friday practice - BBC",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Fri, 24 Jul 2026 07:00:00 GMT"
       }
     ]
   }
