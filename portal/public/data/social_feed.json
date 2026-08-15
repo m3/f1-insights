@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 55,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 63,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 65,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 61,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 57,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 53,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 49,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 45,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "racingnews365.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+      "text": "Max Verstappen unveils special helmet for final F1 Dutch Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      "time": "Fri, 14 Aug 2026 11:37:07 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "Hodinkee",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Felipe Massa crash: Rob Smedley offers emotional new insight - PlanetF1",
+      "text": "Introducing The TAG Heuer Formula 1 Solargraph Limited Edition Inspired By Zandvoort For The Final Dutch Grand Prix - Hodinkee",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 13:23:13 GMT"
+      "time": "Wed, 12 Aug 2026 17:00:00 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 23:45:00 GMT"
+      "time": "Fri, 14 Aug 2026 11:29:55 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
+      "text": "Max Verstappen\u2019s Final Zandvoort Helmet Brings Dutch Blue to His Home Race - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 07:00:00 GMT"
+      "time": "Fri, 14 Aug 2026 08:39:05 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Radio Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
+      "text": "What time is the F1 Dutch Grand Prix 2026? Start time and TV schedule - Radio Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
+      "time": "Sat, 15 Aug 2026 01:29:28 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "racingnews365.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+      "text": "Max Verstappen unveils special helmet for final F1 Dutch Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      "time": "Fri, 14 Aug 2026 11:37:07 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "Hodinkee",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Felipe Massa crash: Rob Smedley offers emotional new insight - PlanetF1",
+      "text": "Introducing The TAG Heuer Formula 1 Solargraph Limited Edition Inspired By Zandvoort For The Final Dutch Grand Prix - Hodinkee",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 13:23:13 GMT"
+      "time": "Wed, 12 Aug 2026 17:00:00 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 23:45:00 GMT"
+      "time": "Fri, 14 Aug 2026 11:29:55 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
+      "text": "Max Verstappen\u2019s Final Zandvoort Helmet Brings Dutch Blue to His Home Race - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 07:00:00 GMT"
+      "time": "Fri, 14 Aug 2026 08:39:05 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Radio Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
+      "text": "What time is the F1 Dutch Grand Prix 2026? Start time and TV schedule - Radio Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
+      "time": "Sat, 15 Aug 2026 01:29:28 GMT"
     }
   ]
 }
