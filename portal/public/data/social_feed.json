@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 68,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 78,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "racingnews365.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      "time": "Sat, 15 Aug 2026 06:45:00 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "gpfans.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
+      "text": "Lewis Hamilton to get 'all-new chassis' for Dutch Grand Prix as Ferrari step up F1 title bid - gpfans.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 23:45:00 GMT"
+      "time": "Fri, 14 Aug 2026 17:45:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 07:00:00 GMT"
+      "time": "Fri, 14 Aug 2026 22:37:33 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "AutoNext.co",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
+      "text": "Dutch GP is ending with Verstappen's era, not despite it - AutoNext.co",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
+      "time": "Sat, 15 Aug 2026 13:46:40 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix: Lewis Hamilton leads Charles Leclerc in Ferrari one-two in Friday practice - BBC",
+      "text": "Fantasy Preview: Dutch Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 24 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 14 Aug 2026 19:37:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "racingnews365.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      "time": "Sat, 15 Aug 2026 06:45:00 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "gpfans.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
+      "text": "Lewis Hamilton to get 'all-new chassis' for Dutch Grand Prix as Ferrari step up F1 title bid - gpfans.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 23:45:00 GMT"
+      "time": "Fri, 14 Aug 2026 17:45:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
+      "text": "Why the Dutch Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 07:00:00 GMT"
+      "time": "Fri, 14 Aug 2026 22:37:33 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "AutoNext.co",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
+      "text": "Dutch GP is ending with Verstappen's era, not despite it - AutoNext.co",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
+      "time": "Sat, 15 Aug 2026 13:46:40 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix: Lewis Hamilton leads Charles Leclerc in Ferrari one-two in Friday practice - BBC",
+      "text": "Fantasy Preview: Dutch Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 24 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 14 Aug 2026 19:37:00 GMT"
     }
   ]
 }
