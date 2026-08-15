@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 65,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 59,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 75,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 71,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 67,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 63,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 59,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 55,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "ESPN",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 06:45:00 GMT"
+      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FIA makes new announcement as sanctions lifted - PlanetF1",
+      "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 09:43:18 GMT"
+      "time": "Wed, 12 Aug 2026 23:45:00 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton to get 'all-new chassis' for Dutch Grand Prix as Ferrari step up F1 title bid - gpfans.com",
+      "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 17:45:00 GMT"
+      "time": "Wed, 12 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Could McLaren follow Red Bull\u2019s path with its own F1 engine \u2013 and should it? - Autosport",
+      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 13 Aug 2026 14:20:22 GMT"
+      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
     },
     {
-      "author": "Hodinkee",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Introducing The TAG Heuer Formula 1 Solargraph Limited Edition Inspired By Zandvoort For The Final Dutch Grand Prix - Hodinkee",
+      "text": "Hungarian Grand Prix: Lewis Hamilton leads Charles Leclerc in Ferrari one-two in Friday practice - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 17:00:00 GMT"
+      "time": "Fri, 24 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "ESPN",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 06:45:00 GMT"
+      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FIA makes new announcement as sanctions lifted - PlanetF1",
+      "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 09:43:18 GMT"
+      "time": "Wed, 12 Aug 2026 23:45:00 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton to get 'all-new chassis' for Dutch Grand Prix as Ferrari step up F1 title bid - gpfans.com",
+      "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 17:45:00 GMT"
+      "time": "Wed, 12 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Could McLaren follow Red Bull\u2019s path with its own F1 engine \u2013 and should it? - Autosport",
+      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 13 Aug 2026 14:20:22 GMT"
+      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
     },
     {
-      "author": "Hodinkee",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Introducing The TAG Heuer Formula 1 Solargraph Limited Edition Inspired By Zandvoort For The Final Dutch Grand Prix - Hodinkee",
+      "text": "Hungarian Grand Prix: Lewis Hamilton leads Charles Leclerc in Ferrari one-two in Friday practice - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 17:00:00 GMT"
+      "time": "Fri, 24 Jul 2026 07:00:00 GMT"
     }
   ]
 }
