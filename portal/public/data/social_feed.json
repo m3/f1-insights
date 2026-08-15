@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 68,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 57,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 78,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 74,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 70,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 66,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 62,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 58,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "ESPN",
+      "author": "planetf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "From $70 bargains to $1,170 grandstands: The true cost of attending F1 in 2026 revealed - planetf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 06:45:00 GMT"
+      "time": "Sat, 15 Aug 2026 12:38:19 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton to get 'all-new chassis' for Dutch Grand Prix as Ferrari step up F1 title bid - gpfans.com",
+      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 17:45:00 GMT"
+      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
     },
     {
-      "author": "formula1.com",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - formula1.com",
+      "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 03:38:26 GMT"
+      "time": "Wed, 12 Aug 2026 23:45:00 GMT"
     },
     {
-      "author": "AutoNext.co",
+      "author": "f1oversteer.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch GP is ending with Verstappen's era, not despite it - AutoNext.co",
+      "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - f1oversteer.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 13:46:40 GMT"
+      "time": "Wed, 12 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Fantasy Preview: Dutch Grand Prix - Yahoo Sports",
+      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 19:37:00 GMT"
+      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "ESPN",
+      "author": "planetf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "From $70 bargains to $1,170 grandstands: The true cost of attending F1 in 2026 revealed - planetf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 06:45:00 GMT"
+      "time": "Sat, 15 Aug 2026 12:38:19 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton to get 'all-new chassis' for Dutch Grand Prix as Ferrari step up F1 title bid - gpfans.com",
+      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 17:45:00 GMT"
+      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
     },
     {
-      "author": "formula1.com",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Dutch Grand Prix is special - formula1.com",
+      "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 03:38:26 GMT"
+      "time": "Wed, 12 Aug 2026 23:45:00 GMT"
     },
     {
-      "author": "AutoNext.co",
+      "author": "f1oversteer.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch GP is ending with Verstappen's era, not despite it - AutoNext.co",
+      "text": "Racing Bulls boss reveals firm message to Liam Lawson and Arvid Lindblad after \u2018tense\u2019 incidents - f1oversteer.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 13:46:40 GMT"
+      "time": "Wed, 12 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Fantasy Preview: Dutch Grand Prix - Yahoo Sports",
+      "text": "F1 driver struck and injured by medical car in bizarre incident - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 19:37:00 GMT"
+      "time": "Thu, 13 Aug 2026 10:55:00 GMT"
     }
   ]
 }
