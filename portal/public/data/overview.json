@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-15T23:23:31.837792Z",
+  "updatedAt": "2026-08-15T23:42:08.149879Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1862,8 +1862,8 @@
   ],
   "socialSentiment": {
     "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 64,
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 56,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 74,
+        "score": 66,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 70,
+        "score": 62,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 66,
+        "score": 58,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 62,
+        "score": 54,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 58,
+        "score": 50,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,41 +1977,51 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 54,
+        "score": 46,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
-        "author": "ESPN",
+        "author": "F1 Oversteer",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - F1 Oversteer",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Sat, 15 Aug 2026 11:00:00 GMT"
       },
       {
-        "author": "The New York Times",
+        "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+        "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Fri, 14 Aug 2026 15:30:00 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "GPblog",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Verstappen switches things up: champion reveals special helmet for final Dutch GP - GPblog",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Fri, 14 Aug 2026 09:47:00 GMT"
+      },
+      {
+        "author": "Autoweek",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 12 Aug 2026 23:45:00 GMT"
       },
       {
         "author": "Formula 1",
@@ -2022,48 +2032,48 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Sports Illustrated",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Qualifying Results for the 2026 Hungarian Grand Prix: Hamilton, Antonelli Handed Grid Penalties - Sports Illustrated",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
       {
-        "author": "ESPN",
+        "author": "F1 Oversteer",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - F1 Oversteer",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Sat, 15 Aug 2026 11:00:00 GMT"
       },
       {
-        "author": "The New York Times",
+        "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+        "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Fri, 14 Aug 2026 15:30:00 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "GPblog",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Verstappen switches things up: champion reveals special helmet for final Dutch GP - GPblog",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Fri, 14 Aug 2026 09:47:00 GMT"
+      },
+      {
+        "author": "Autoweek",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mercedes F1 Midseason Report: Mighty, but Not Unbeatable - Autoweek",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 12 Aug 2026 23:45:00 GMT"
       },
       {
         "author": "Formula 1",
@@ -2074,16 +2084,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Sports Illustrated",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Qualifying Results for the 2026 Hungarian Grand Prix: Hamilton, Antonelli Handed Grid Penalties - Sports Illustrated",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       }
     ]
   }
