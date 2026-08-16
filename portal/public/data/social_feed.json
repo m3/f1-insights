@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 56,
+  "sentimentScore": 54,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 66,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 62,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 58,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 54,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 50,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 46,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Max Verstappen reveals special helmet design for Zandvoort F1 farewell - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 14 Aug 2026 09:46:00 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 16 Aug 2026 06:41:00 GMT"
+    },
+    {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 fans ruthless over new 2026 trailer: \u2018No words...\u2019 - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 16 Aug 2026 16:09:00 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "King Willem-Alexander to present F1 Dutch GP winner's trophy at Zandvoort - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 14 Aug 2026 20:46:54 GMT"
+    },
+    {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "From $70 bargains to $1,170 grandstands: The true cost of attending F1 in 2026 revealed - PlanetF1",
+      "text": "FIA makes new announcement as sanctions lifted - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 12:38:19 GMT"
-    },
-    {
-      "author": "racingnews365.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
-    },
-    {
-      "author": "f1oversteer.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - f1oversteer.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 11:00:00 GMT"
-    },
-    {
-      "author": "gpblog.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen switches things up: champion reveals special helmet for final Dutch GP - gpblog.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 09:47:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 15 Aug 2026 09:43:18 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Max Verstappen reveals special helmet design for Zandvoort F1 farewell - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 14 Aug 2026 09:46:00 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 16 Aug 2026 06:41:00 GMT"
+    },
+    {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 fans ruthless over new 2026 trailer: \u2018No words...\u2019 - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 16 Aug 2026 16:09:00 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "King Willem-Alexander to present F1 Dutch GP winner's trophy at Zandvoort - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 14 Aug 2026 20:46:54 GMT"
+    },
+    {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "From $70 bargains to $1,170 grandstands: The true cost of attending F1 in 2026 revealed - PlanetF1",
+      "text": "FIA makes new announcement as sanctions lifted - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 12:38:19 GMT"
-    },
-    {
-      "author": "racingnews365.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
-    },
-    {
-      "author": "f1oversteer.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - f1oversteer.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 11:00:00 GMT"
-    },
-    {
-      "author": "gpblog.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen switches things up: champion reveals special helmet for final Dutch GP - gpblog.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 09:47:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 15 Aug 2026 09:43:18 GMT"
     }
   ]
 }
