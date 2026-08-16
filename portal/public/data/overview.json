@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-16T15:56:07.041845Z",
+  "updatedAt": "2026-08-16T16:16:25.768060Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -2024,11 +2024,11 @@
         "time": "Fri, 14 Aug 2026 09:47:00 GMT"
       },
       {
-        "author": "Formula 1",
+        "author": "formula1.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - formula1.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2076,11 +2076,11 @@
         "time": "Fri, 14 Aug 2026 09:47:00 GMT"
       },
       {
-        "author": "Formula 1",
+        "author": "formula1.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - formula1.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
