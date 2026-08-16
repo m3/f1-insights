@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "sentimentScore": 56,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "ESPN",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "From $70 bargains to $1,170 grandstands: The true cost of attending F1 in 2026 revealed - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 16 Aug 2026 06:41:00 GMT"
+      "time": "Sat, 15 Aug 2026 12:38:19 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "King Willem-Alexander to present F1 Dutch GP winner's trophy at Zandvoort - Motorsport.com",
+      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 20:46:54 GMT"
+      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Zandvoort Helmet Brings Dutch Blue to His Home Race - Yahoo Sports",
+      "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 08:39:05 GMT"
+      "time": "Sat, 15 Aug 2026 11:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "gpblog.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "One last dance at Zandvoort: Full Dutch GP schedule as F1 returns from summer break - GPblog",
+      "text": "Verstappen switches things up: champion reveals special helmet for final Dutch GP - gpblog.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 16 Aug 2026 10:10:31 GMT"
+      "time": "Fri, 14 Aug 2026 09:47:00 GMT"
     },
     {
-      "author": "Hodinkee",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Introducing The TAG Heuer Formula 1 Solargraph Limited Edition Inspired By Zandvoort For The Final Dutch Grand Prix - Hodinkee",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 17:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "ESPN",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "From $70 bargains to $1,170 grandstands: The true cost of attending F1 in 2026 revealed - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 16 Aug 2026 06:41:00 GMT"
+      "time": "Sat, 15 Aug 2026 12:38:19 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "King Willem-Alexander to present F1 Dutch GP winner's trophy at Zandvoort - Motorsport.com",
+      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 20:46:54 GMT"
+      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Zandvoort Helmet Brings Dutch Blue to His Home Race - Yahoo Sports",
+      "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 08:39:05 GMT"
+      "time": "Sat, 15 Aug 2026 11:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "gpblog.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "One last dance at Zandvoort: Full Dutch GP schedule as F1 returns from summer break - GPblog",
+      "text": "Verstappen switches things up: champion reveals special helmet for final Dutch GP - gpblog.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 16 Aug 2026 10:10:31 GMT"
+      "time": "Fri, 14 Aug 2026 09:47:00 GMT"
     },
     {
-      "author": "Hodinkee",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Introducing The TAG Heuer Formula 1 Solargraph Limited Edition Inspired By Zandvoort For The Final Dutch Grand Prix - Hodinkee",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 12 Aug 2026 17:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
