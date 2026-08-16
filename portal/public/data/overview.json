@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-16T11:55:49.893326Z",
+  "updatedAt": "2026-08-16T12:21:36.761410Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -2018,20 +2018,20 @@
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Red Bull is clear: 'We are not satisfied' until we have a car Verstappen can win with - GPblog",
+        "text": "Verstappen switches things up: champion reveals special helmet for final Dutch GP - GPblog",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 15 Aug 2026 14:03:06 GMT"
+        "time": "Fri, 14 Aug 2026 09:47:00 GMT"
       },
       {
-        "author": "PlanetF1",
+        "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Felipe Massa crash: Rob Smedley offers emotional new insight - PlanetF1",
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 14 Aug 2026 13:23:13 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2070,20 +2070,20 @@
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Red Bull is clear: 'We are not satisfied' until we have a car Verstappen can win with - GPblog",
+        "text": "Verstappen switches things up: champion reveals special helmet for final Dutch GP - GPblog",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 15 Aug 2026 14:03:06 GMT"
+        "time": "Fri, 14 Aug 2026 09:47:00 GMT"
       },
       {
-        "author": "PlanetF1",
+        "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Felipe Massa crash: Rob Smedley offers emotional new insight - PlanetF1",
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 14 Aug 2026 13:23:13 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ]
   }
