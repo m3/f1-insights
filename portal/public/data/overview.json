@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-17T13:38:53.492581Z",
+  "updatedAt": "2026-08-17T13:53:43.697088Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -15,11 +15,10 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "TracingInsights",
-      "OpenMeteo"
+      "FastF1",
+      "OpenMeteo",
+      "SocialMediaRadar"
     ],
-    "tracingInsightsCommit": null,
-    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -1860,5 +1859,232 @@
       "race": "2 - 3",
       "leader": "GAS Ahead"
     }
-  ]
+  ],
+  "socialSentiment": {
+    "version": "2026.3",
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 53,
+    "monitoredAccountsCount": 11,
+    "youtubeSourcesCount": 5,
+    "trendingHashtags": [
+      "#HungarianGrandPrix",
+      "#F1",
+      "#F12026",
+      "#Formula1",
+      "#TechF1"
+    ],
+    "keywords": {
+      "technical": [
+        "telemetry",
+        "floor upgrade",
+        "sidepod undercut",
+        "tyre degradation",
+        "MGU-K",
+        "active aerodynamics",
+        "driving technique",
+        "corner entry speed"
+      ],
+      "regulatory": [
+        "stewards decision",
+        "track limits",
+        "penalty points",
+        "cost cap",
+        "FIA summons"
+      ],
+      "live_coverage": [
+        "watchalong",
+        "live timing",
+        "FP1 commentary",
+        "quali reaction",
+        "race commentary"
+      ]
+    },
+    "youtubeSources": [
+      {
+        "channel_name": "F1 Gamer",
+        "handle": "@F1Gamer",
+        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
+      },
+      {
+        "channel_name": "Peter Windsor",
+        "handle": "@peterwindsor",
+        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
+      },
+      {
+        "channel_name": "Donut - Up to Speed",
+        "handle": "@donut",
+        "focus": "Automotive & Motorsport History/Deep Dives"
+      },
+      {
+        "channel_name": "Brrrake F1",
+        "handle": "@brrrake",
+        "focus": "Telemetry & Engineer Reaction"
+      },
+      {
+        "channel_name": "Autosport",
+        "handle": "@autosport",
+        "focus": "Technical Upgrades & Paddock Debriefs"
+      }
+    ],
+    "driverSentimentRanking": [
+      {
+        "driver": "Lando Norris",
+        "code": "NOR",
+        "handle": "LandoNorris",
+        "team": "McLaren",
+        "score": 63,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LandoNorris"
+      },
+      {
+        "driver": "Oscar Piastri",
+        "code": "PIA",
+        "handle": "OscarPiastri",
+        "team": "McLaren",
+        "score": 59,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @OscarPiastri"
+      },
+      {
+        "driver": "Charles Leclerc",
+        "code": "LEC",
+        "handle": "Charles_Leclerc",
+        "team": "Ferrari",
+        "score": 55,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Charles_Leclerc"
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "code": "HAM",
+        "handle": "LewisHamilton",
+        "team": "Ferrari",
+        "score": 51,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LewisHamilton"
+      },
+      {
+        "driver": "Max Verstappen",
+        "code": "VER",
+        "handle": "Max33Verstappen",
+        "team": "Red Bull",
+        "score": 47,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Max33Verstappen"
+      },
+      {
+        "driver": "Liam Lawson",
+        "code": "LAW",
+        "handle": "LiamLawson30",
+        "team": "Red Bull",
+        "score": 43,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LiamLawson30"
+      }
+    ],
+    "breakingNewsTweets": [
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
+      },
+      {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 15 Aug 2026 11:00:00 GMT"
+      },
+      {
+        "author": "racingnews365.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      }
+    ],
+    "xTracksideFeed": [
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
+      },
+      {
+        "author": "F1 Oversteer",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - F1 Oversteer",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 15 Aug 2026 11:00:00 GMT"
+      },
+      {
+        "author": "racingnews365.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      }
+    ]
+  }
 }
