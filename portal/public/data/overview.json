@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-17T19:57:51.132595Z",
+  "updatedAt": "2026-08-17T20:22:40.272123Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1984,11 +1984,11 @@
     ],
     "breakingNewsTweets": [
       {
-        "author": "ESPN",
+        "author": "espn.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - espn.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Mon, 17 Aug 2026 06:45:00 GMT"
@@ -2024,11 +2024,11 @@
         "time": "Mon, 17 Aug 2026 14:27:28 GMT"
       },
       {
-        "author": "motorsport.com",
+        "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2036,11 +2036,11 @@
     ],
     "xTracksideFeed": [
       {
-        "author": "ESPN",
+        "author": "espn.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - espn.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Mon, 17 Aug 2026 06:45:00 GMT"
@@ -2076,11 +2076,11 @@
         "time": "Mon, 17 Aug 2026 14:27:28 GMT"
       },
       {
-        "author": "motorsport.com",
+        "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
