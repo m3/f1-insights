@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-17T13:53:43.697088Z",
+  "updatedAt": "2026-08-17T14:19:14.937919Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1994,16 +1994,6 @@
         "time": "Mon, 17 Aug 2026 12:43:35 GMT"
       },
       {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
-      },
-      {
         "author": "F1 Oversteer",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2022,6 +2012,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
       },
       {
         "author": "Formula 1",
@@ -2046,16 +2046,6 @@
         "time": "Mon, 17 Aug 2026 12:43:35 GMT"
       },
       {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
-      },
-      {
         "author": "F1 Oversteer",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2074,6 +2064,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      },
+      {
+        "author": "PlanetF1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
       },
       {
         "author": "Formula 1",
