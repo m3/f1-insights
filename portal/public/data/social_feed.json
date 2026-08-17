@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 66,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 76,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 72,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 68,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 64,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 60,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 56,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar turns viral Dutch GP trophy moment into special Red Bull helmet design - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 17 Aug 2026 12:46:04 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 title race: Assessing rivals to Kimi Antonelli and factors that will decide 2026 fight ahead of Dutch GP season resumption - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 17 Aug 2026 05:03:37 GMT"
+    },
+    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 06:45:00 GMT"
+      "time": "Mon, 17 Aug 2026 07:45:00 GMT"
     },
     {
-      "author": "Motorsport Week",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren issues caution to F1 \u2018turning point\u2019 possibility after Hungary success - Motorsport Week",
+      "text": "Leclerc reveals he'd be happy to see this rival crowned if Ferrari fails: 'Reminds me of myself' - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:00:00 GMT"
-    },
-    {
-      "author": "nytimes.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - nytimes.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "RACER - Racing News",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Momentum from developments can bring McLaren into title contention - Stella - RACER - Racing News",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 11:34:00 GMT"
-    },
-    {
-      "author": "news.gp",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 Formula 1 Dutch Grand Prix timetable - news.gp",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:23:00 GMT"
+      "time": "Mon, 17 Aug 2026 11:01:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar turns viral Dutch GP trophy moment into special Red Bull helmet design - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 17 Aug 2026 12:46:04 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 title race: Assessing rivals to Kimi Antonelli and factors that will decide 2026 fight ahead of Dutch GP season resumption - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 17 Aug 2026 05:03:37 GMT"
+    },
+    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 06:45:00 GMT"
+      "time": "Mon, 17 Aug 2026 07:45:00 GMT"
     },
     {
-      "author": "Motorsport Week",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren issues caution to F1 \u2018turning point\u2019 possibility after Hungary success - Motorsport Week",
+      "text": "Leclerc reveals he'd be happy to see this rival crowned if Ferrari fails: 'Reminds me of myself' - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:00:00 GMT"
-    },
-    {
-      "author": "nytimes.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - nytimes.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "RACER - Racing News",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Momentum from developments can bring McLaren into title contention - Stella - RACER - Racing News",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 11:34:00 GMT"
-    },
-    {
-      "author": "news.gp",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 Formula 1 Dutch Grand Prix timetable - news.gp",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:23:00 GMT"
+      "time": "Mon, 17 Aug 2026 11:01:00 GMT"
     }
   ]
 }
