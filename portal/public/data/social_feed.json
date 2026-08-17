@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 66,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 76,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 72,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 68,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 64,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 60,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 56,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "espn.com",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - espn.com",
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 06:45:00 GMT"
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
     },
     {
-      "author": "Motorsport Week",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren issues caution to F1 \u2018turning point\u2019 possibility after Hungary success - Motorsport Week",
+      "text": "F1 title race: Assessing rivals to Kimi Antonelli and factors that will decide 2026 fight ahead of Dutch GP season resumption - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 05:03:37 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 07:45:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is F1's 2026 Dutch Grand Prix? Full weekend schedule - The Race",
+      "text": "Ferrari crowned champions, emergency rules rethink and more F1 2026 predictions - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 14:27:28 GMT"
+      "time": "Mon, 17 Aug 2026 05:03:35 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "Norris suffers late heartbreak at Zandvoort as Piastri wins ahead of home hero Verstappen - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 14:01:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "espn.com",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - espn.com",
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 06:45:00 GMT"
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
     },
     {
-      "author": "Motorsport Week",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren issues caution to F1 \u2018turning point\u2019 possibility after Hungary success - Motorsport Week",
+      "text": "F1 title race: Assessing rivals to Kimi Antonelli and factors that will decide 2026 fight ahead of Dutch GP season resumption - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 05:03:37 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 07:45:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is F1's 2026 Dutch Grand Prix? Full weekend schedule - The Race",
+      "text": "Ferrari crowned champions, emergency rules rethink and more F1 2026 predictions - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 14:27:28 GMT"
+      "time": "Mon, 17 Aug 2026 05:03:35 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "Norris suffers late heartbreak at Zandvoort as Piastri wins ahead of home hero Verstappen - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 14:01:00 GMT"
     }
   ]
 }
