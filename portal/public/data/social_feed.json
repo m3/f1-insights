@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 53,
+  "sentimentScore": 50,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 63,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 59,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 55,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 51,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 47,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 43,
+      "score": 40,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "PlanetF1",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - F1 Oversteer",
+      "text": "The forgotten story few remember from F1's last Zandvoort farewell in 1985 - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 11:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 17:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+      "text": "F1 title race: Assessing rivals to Kimi Antonelli and factors that will decide 2026 fight ahead of Dutch GP season resumption - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      "time": "Mon, 17 Aug 2026 05:03:37 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
+      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 09:18:53 GMT"
+      "time": "Mon, 17 Aug 2026 07:45:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "planetf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "FIA makes new announcement as sanctions lifted - planetf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 15 Aug 2026 09:43:18 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "PlanetF1",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - F1 Oversteer",
+      "text": "The forgotten story few remember from F1's last Zandvoort farewell in 1985 - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 11:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 17:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+      "text": "F1 title race: Assessing rivals to Kimi Antonelli and factors that will decide 2026 fight ahead of Dutch GP season resumption - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      "time": "Mon, 17 Aug 2026 05:03:37 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
+      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 09:18:53 GMT"
+      "time": "Mon, 17 Aug 2026 07:45:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "planetf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "FIA makes new announcement as sanctions lifted - planetf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 15 Aug 2026 09:43:18 GMT"
     }
   ]
 }
