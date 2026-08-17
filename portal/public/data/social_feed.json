@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "PlanetF1",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
     },
     {
-      "author": "f1oversteer.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - f1oversteer.com",
+      "text": "Isack Hadjar turns viral Dutch GP trophy moment into special Red Bull helmet design - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 11:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 12:46:04 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+      "text": "F1 title race: Assessing rivals to Kimi Antonelli and factors that will decide 2026 fight ahead of Dutch GP season resumption - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      "time": "Mon, 17 Aug 2026 05:03:37 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
+      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 09:18:53 GMT"
+      "time": "Mon, 17 Aug 2026 07:45:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "SPORTbible",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "Max Verstappen given special helmet and race suit for emotional last Dutch Grand Prix at Zandvoort - SPORTbible",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 16 Aug 2026 17:23:31 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "PlanetF1",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
     },
     {
-      "author": "f1oversteer.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 experts predict final 2026 drivers\u2019 standings as Kimi Antonelli fights Lewis Hamilton for title - f1oversteer.com",
+      "text": "Isack Hadjar turns viral Dutch GP trophy moment into special Red Bull helmet design - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 15 Aug 2026 11:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 12:46:04 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren handed clear F1 title verdict after Hungarian GP breakthrough - racingnews365.com",
+      "text": "F1 title race: Assessing rivals to Kimi Antonelli and factors that will decide 2026 fight ahead of Dutch GP season resumption - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 14 Aug 2026 15:30:00 GMT"
+      "time": "Mon, 17 Aug 2026 05:03:37 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
+      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 09:18:53 GMT"
+      "time": "Mon, 17 Aug 2026 07:45:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "SPORTbible",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "Max Verstappen given special helmet and race suit for emotional last Dutch Grand Prix at Zandvoort - SPORTbible",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 16 Aug 2026 17:23:31 GMT"
     }
   ]
 }
