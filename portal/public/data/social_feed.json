@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 62,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 58,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 72,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 68,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 64,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 60,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 56,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 52,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Autoweek",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "10 Biggest Questions for the Second Half of the 2026 F1 Season - Autoweek",
+      "text": "5 storylines we\u2019re excited about ahead of the Dutch GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 23:06:00 GMT"
+      "time": "Mon, 17 Aug 2026 15:10:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Lewis Hamilton: What driver and Ferrari team need to do to launch full F1 title challenge to Mercedes from Dutch GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 06:45:00 GMT"
+      "time": "Tue, 18 Aug 2026 05:02:16 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "F1 launches new \"Five Lights\" campaign narrated by Colin Farrell - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 21:15:15 GMT"
     },
     {
-      "author": "The Race",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is F1's 2026 Dutch Grand Prix? Full weekend schedule - The Race",
+      "text": "Fernando Alonso can forget about scoring points as Honda release statement on Dutch GP upgrade - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 14:27:28 GMT"
+      "time": "Mon, 17 Aug 2026 18:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "williamsf1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "QUIZ: Dutch GP Trivia Test - williamsf1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 14:08:25 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Autoweek",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "10 Biggest Questions for the Second Half of the 2026 F1 Season - Autoweek",
+      "text": "5 storylines we\u2019re excited about ahead of the Dutch GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 23:06:00 GMT"
+      "time": "Mon, 17 Aug 2026 15:10:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Lewis Hamilton: What driver and Ferrari team need to do to launch full F1 title challenge to Mercedes from Dutch GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 06:45:00 GMT"
+      "time": "Tue, 18 Aug 2026 05:02:16 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "F1 launches new \"Five Lights\" campaign narrated by Colin Farrell - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 21:15:15 GMT"
     },
     {
-      "author": "The Race",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is F1's 2026 Dutch Grand Prix? Full weekend schedule - The Race",
+      "text": "Fernando Alonso can forget about scoring points as Honda release statement on Dutch GP upgrade - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 14:27:28 GMT"
+      "time": "Mon, 17 Aug 2026 18:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "williamsf1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "QUIZ: Dutch GP Trivia Test - williamsf1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 17 Aug 2026 14:08:25 GMT"
     }
   ]
 }
