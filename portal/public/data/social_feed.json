@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "sentimentScore": 49,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 39,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -132,6 +132,16 @@
       "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     },
     {
+      "author": "Autoweek",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Alex Albon Sticks with Williams Despite Miserable F1 Season - Autoweek",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 18 Aug 2026 17:10:00 GMT"
+    },
+    {
       "author": "SB Nation",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -142,26 +152,6 @@
       "time": "Tue, 18 Aug 2026 13:20:07 GMT"
     },
     {
-      "author": "roundtable.io",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Zandvoort: Five Interesting Facts About The Dutch Grand Prix - roundtable.io",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 10:16:57 GMT"
-    },
-    {
-      "author": "Autoweek",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "10 Biggest Questions for the Second Half of the 2026 F1 Season - Autoweek",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 23:06:00 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -170,6 +160,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "roundtable.io",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Zandvoort: Five Interesting Facts About The Dutch Grand Prix - roundtable.io",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 18 Aug 2026 10:16:57 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -184,6 +184,16 @@
       "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     },
     {
+      "author": "Autoweek",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Alex Albon Sticks with Williams Despite Miserable F1 Season - Autoweek",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 18 Aug 2026 17:10:00 GMT"
+    },
+    {
       "author": "SB Nation",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -194,26 +204,6 @@
       "time": "Tue, 18 Aug 2026 13:20:07 GMT"
     },
     {
-      "author": "roundtable.io",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Zandvoort: Five Interesting Facts About The Dutch Grand Prix - roundtable.io",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 10:16:57 GMT"
-    },
-    {
-      "author": "Autoweek",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "10 Biggest Questions for the Second Half of the 2026 F1 Season - Autoweek",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 23:06:00 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -222,6 +212,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "roundtable.io",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Zandvoort: Five Interesting Facts About The Dutch Grand Prix - roundtable.io",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 18 Aug 2026 10:16:57 GMT"
     }
   ]
 }
