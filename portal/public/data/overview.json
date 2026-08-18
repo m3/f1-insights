@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-18T21:48:16.840888Z",
+  "updatedAt": "2026-08-18T22:13:51.185235Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 48,
+    "sentimentScore": 53,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 58,
+        "score": 63,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 54,
+        "score": 59,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 50,
+        "score": 55,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 46,
+        "score": 51,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 42,
+        "score": 47,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,7 +1977,7 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 38,
+        "score": 43,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
@@ -2004,11 +2004,11 @@
         "time": "Tue, 18 Aug 2026 17:10:00 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2024,14 +2024,14 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "Yahoo Sports",
+        "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Alex Albon makes it official at Williams F1 - Yahoo Sports",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Tue, 18 Aug 2026 13:20:07 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2056,11 +2056,11 @@
         "time": "Tue, 18 Aug 2026 17:10:00 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2076,14 +2076,14 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "Yahoo Sports",
+        "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Alex Albon makes it official at Williams F1 - Yahoo Sports",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Tue, 18 Aug 2026 13:20:07 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ]
   }
