@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-17T23:57:07.197173Z",
+  "updatedAt": "2026-08-18T00:56:51.181484Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -2004,16 +2004,6 @@
         "time": "Mon, 17 Aug 2026 06:45:00 GMT"
       },
       {
-        "author": "Motorsport Week",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren issues caution to F1 \u2018turning point\u2019 possibility after Hungary success - Motorsport Week",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 17 Aug 2026 12:00:00 GMT"
-      },
-      {
         "author": "The New York Times",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2022,6 +2012,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Motorsport Week",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren issues caution to F1 \u2018turning point\u2019 possibility after Hungary success - Motorsport Week",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 17 Aug 2026 12:00:00 GMT"
       },
       {
         "author": "Formula 1",
@@ -2056,16 +2056,6 @@
         "time": "Mon, 17 Aug 2026 06:45:00 GMT"
       },
       {
-        "author": "Motorsport Week",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren issues caution to F1 \u2018turning point\u2019 possibility after Hungary success - Motorsport Week",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 17 Aug 2026 12:00:00 GMT"
-      },
-      {
         "author": "The New York Times",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2074,6 +2064,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Motorsport Week",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren issues caution to F1 \u2018turning point\u2019 possibility after Hungary success - Motorsport Week",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 17 Aug 2026 12:00:00 GMT"
       },
       {
         "author": "Formula 1",
