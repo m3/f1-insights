@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 58,
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 68,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 64,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 60,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 56,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 52,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 48,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Sky Sports",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton: What driver and Ferrari team need to do to launch full F1 title challenge to Mercedes from Dutch GP - Sky Sports",
+      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 05:02:16 GMT"
+      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - BBC",
+      "text": "Alex Albon Sticks with Williams Despite Miserable F1 Season - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
+      "time": "Tue, 18 Aug 2026 17:10:00 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 star Carlos Sainz 'set to sign' massive contract before Dutch Grand Prix - gpfans.com",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 12:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Aston Martin boost as major Honda upgrade confirmed - PlanetF1",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 09:35:50 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Honda Up for Challenge in Dutch GP Sprint Weekend with Updated F1 Power Unit - Yahoo Sports",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 19:35:46 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Sky Sports",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton: What driver and Ferrari team need to do to launch full F1 title challenge to Mercedes from Dutch GP - Sky Sports",
+      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 05:02:16 GMT"
+      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - BBC",
+      "text": "Alex Albon Sticks with Williams Despite Miserable F1 Season - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
+      "time": "Tue, 18 Aug 2026 17:10:00 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 star Carlos Sainz 'set to sign' massive contract before Dutch Grand Prix - gpfans.com",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 12:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Aston Martin boost as major Honda upgrade confirmed - PlanetF1",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 09:35:50 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Honda Up for Challenge in Dutch GP Sprint Weekend with Updated F1 Power Unit - Yahoo Sports",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 19:35:46 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
