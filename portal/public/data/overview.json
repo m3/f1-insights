@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-18T23:24:11.304116Z",
+  "updatedAt": "2026-08-18T23:44:14.463560Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 53,
+    "sentimentScore": 54,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 63,
+        "score": 64,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 59,
+        "score": 60,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 55,
+        "score": 56,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 51,
+        "score": 52,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 47,
+        "score": 48,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,7 +1977,7 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 43,
+        "score": 44,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
@@ -2004,21 +2004,21 @@
         "time": "Tue, 18 Aug 2026 17:10:00 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "The New York Times",
+        "author": "nytimes.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - nytimes.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
@@ -2056,21 +2056,21 @@
         "time": "Tue, 18 Aug 2026 17:10:00 GMT"
       },
       {
-        "author": "Motorsport.com",
+        "author": "motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "The New York Times",
+        "author": "nytimes.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - nytimes.com",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
