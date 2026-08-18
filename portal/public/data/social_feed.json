@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 48,
+  "sentimentScore": 55,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 58,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 54,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 50,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 46,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 42,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 38,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "espn.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - espn.com",
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "planetf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Alex Albon Sticks with Williams Despite Miserable F1 Season - Autoweek",
+      "text": "Aston Martin boost as major Honda upgrade confirmed - planetf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 17:10:00 GMT"
+      "time": "Tue, 18 Aug 2026 09:35:50 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "The Fast and the Curious: Sky Sports announces new partnership ahead of F1's return to action at Dutch GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 18 Aug 2026 07:00:36 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "gpfans.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Alex Albon makes it official at Williams F1 - Yahoo Sports",
+      "text": "F1 star Carlos Sainz 'set to sign' massive contract before Dutch Grand Prix - gpfans.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 13:20:07 GMT"
+      "time": "Tue, 18 Aug 2026 12:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Andrew Benson's F1 Q&A: What's going on at Cadillac and Haas? - F1 Q&A - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 18 Aug 2026 06:57:33 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "espn.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - espn.com",
+      "text": "Dutch GP in pictures as F1 prepares for Zandvoort farewell - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
+      "time": "Mon, 17 Aug 2026 06:31:36 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "planetf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Alex Albon Sticks with Williams Despite Miserable F1 Season - Autoweek",
+      "text": "Aston Martin boost as major Honda upgrade confirmed - planetf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 17:10:00 GMT"
+      "time": "Tue, 18 Aug 2026 09:35:50 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "The Fast and the Curious: Sky Sports announces new partnership ahead of F1's return to action at Dutch GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 18 Aug 2026 07:00:36 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "gpfans.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Alex Albon makes it official at Williams F1 - Yahoo Sports",
+      "text": "F1 star Carlos Sainz 'set to sign' massive contract before Dutch Grand Prix - gpfans.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 13:20:07 GMT"
+      "time": "Tue, 18 Aug 2026 12:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Andrew Benson's F1 Q&A: What's going on at Cadillac and Haas? - F1 Q&A - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 18 Aug 2026 06:57:33 GMT"
     }
   ]
 }
