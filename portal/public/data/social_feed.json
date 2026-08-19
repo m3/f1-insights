@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 62,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "reuters.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Isack Hadjar could miss F1 Dutch GP with Red Bull replacement plan already in place - Motorsport.com",
+      "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - reuters.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:52:30 GMT"
+      "time": "Wed, 19 Aug 2026 08:53:43 GMT"
     },
     {
-      "author": "BBC",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026 race times, weather forecast, how to follow on the BBC - BBC",
+      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 09:01:42 GMT"
+      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "'Meaningful performance still to come' - Mercedes out to avoid 'very uncomfortable' end to 2026 - Sky Sports",
+      "text": "McLaren continues F1 development push with upgrades confirmed for Dutch GP - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 06:01:32 GMT"
+      "time": "Wed, 19 Aug 2026 09:27:34 GMT"
     },
     {
-      "author": "formula1.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pool days, proposals and paddock preparations \u2013 what F1 drivers have been up to ahead of the Dutch Grand Prix - formula1.com",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 20:32:55 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "roundtable.io",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Andrew Benson's F1 Q&A: What's going on at Cadillac and Haas? - F1 Q&A - BBC",
+      "text": "Williams Boss Vowles Admits the Budget Cap Hinders F1 Development - roundtable.io",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 06:57:33 GMT"
+      "time": "Wed, 19 Aug 2026 09:06:52 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "reuters.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Isack Hadjar could miss F1 Dutch GP with Red Bull replacement plan already in place - Motorsport.com",
+      "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - reuters.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:52:30 GMT"
+      "time": "Wed, 19 Aug 2026 08:53:43 GMT"
     },
     {
-      "author": "BBC",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix 2026 race times, weather forecast, how to follow on the BBC - BBC",
+      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 09:01:42 GMT"
+      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "'Meaningful performance still to come' - Mercedes out to avoid 'very uncomfortable' end to 2026 - Sky Sports",
+      "text": "McLaren continues F1 development push with upgrades confirmed for Dutch GP - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 06:01:32 GMT"
+      "time": "Wed, 19 Aug 2026 09:27:34 GMT"
     },
     {
-      "author": "formula1.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pool days, proposals and paddock preparations \u2013 what F1 drivers have been up to ahead of the Dutch Grand Prix - formula1.com",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 20:32:55 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "roundtable.io",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Andrew Benson's F1 Q&A: What's going on at Cadillac and Haas? - F1 Q&A - BBC",
+      "text": "Williams Boss Vowles Admits the Budget Cap Hinders F1 Development - roundtable.io",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 06:57:33 GMT"
+      "time": "Wed, 19 Aug 2026 09:06:52 GMT"
     }
   ]
 }
