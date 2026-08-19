@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "Reuters",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen can give his home Dutch race a sendoff to celebrate - Reuters",
+      "text": "Hadjar to miss Dutch GP as Lawson steps up - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 17:03:43 GMT"
+      "time": "Wed, 19 Aug 2026 11:02:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "autosport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren continues F1 development push with upgrades confirmed for Dutch GP - Crash.net",
+      "text": "Williams confirms F1 2027 line-up with Sainz extension - autosport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 09:27:34 GMT"
+      "time": "Wed, 19 Aug 2026 13:32:45 GMT"
+    },
+    {
+      "author": "skysports.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Where will Max Verstappen end up driving for 2027? - skysports.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 19 Aug 2026 17:01:11 GMT"
     },
     {
       "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "text": "Dutch Grand Prix predictions as F1 experts assess Max Verstappen\u2019s hopes to win final Zandvoort race - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+      "time": "Wed, 19 Aug 2026 06:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "espn.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - espn.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
-    },
-    {
-      "author": "The Daily Gazette",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull's Hadjar injured for Dutch GP giving Lawson a return to race with Verstappen - The Daily Gazette",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 11:53:31 GMT"
+      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Reuters",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen can give his home Dutch race a sendoff to celebrate - Reuters",
+      "text": "Hadjar to miss Dutch GP as Lawson steps up - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 17:03:43 GMT"
+      "time": "Wed, 19 Aug 2026 11:02:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "autosport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren continues F1 development push with upgrades confirmed for Dutch GP - Crash.net",
+      "text": "Williams confirms F1 2027 line-up with Sainz extension - autosport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 09:27:34 GMT"
+      "time": "Wed, 19 Aug 2026 13:32:45 GMT"
+    },
+    {
+      "author": "skysports.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Where will Max Verstappen end up driving for 2027? - skysports.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 19 Aug 2026 17:01:11 GMT"
     },
     {
       "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "text": "Dutch Grand Prix predictions as F1 experts assess Max Verstappen\u2019s hopes to win final Zandvoort race - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+      "time": "Wed, 19 Aug 2026 06:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "espn.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - espn.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
-    },
-    {
-      "author": "The Daily Gazette",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull's Hadjar injured for Dutch GP giving Lawson a return to race with Verstappen - The Daily Gazette",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 11:53:31 GMT"
+      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     }
   ]
 }
