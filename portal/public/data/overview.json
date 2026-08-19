@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-19T08:43:24.222316Z",
+  "updatedAt": "2026-08-19T09:18:36.616795Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 53,
+    "sentimentScore": 48,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 63,
+        "score": 58,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 59,
+        "score": 54,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 55,
+        "score": 50,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 51,
+        "score": 46,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 47,
+        "score": 42,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,13 +1977,23 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 43,
+        "score": 38,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 08:53:43 GMT"
+      },
+      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2004,6 +2014,16 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
+        "author": "roundtable.io",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Williams Boss Vowles Admits the Budget Cap Hinders F1 Development - roundtable.io",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 09:06:52 GMT"
+      },
+      {
         "author": "Autoweek",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2012,30 +2032,20 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Tue, 18 Aug 2026 17:10:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
       {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 08:53:43 GMT"
+      },
+      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2056,6 +2066,16 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
+        "author": "roundtable.io",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Williams Boss Vowles Admits the Budget Cap Hinders F1 Development - roundtable.io",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 09:06:52 GMT"
+      },
+      {
         "author": "Autoweek",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2064,26 +2084,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Tue, 18 Aug 2026 17:10:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ]
   }
