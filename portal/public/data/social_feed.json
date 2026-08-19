@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 53,
+  "sentimentScore": 57,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 63,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 59,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 55,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 51,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 47,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 43,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Reuters",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen can give his home Dutch race a sendoff to celebrate - Reuters",
+      "text": "Hadjar to miss Dutch GP as Lawson steps up - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 17:03:43 GMT"
+      "time": "Wed, 19 Aug 2026 11:02:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "sports.yahoo.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "text": "F1 Dutch Grand Prix Prediction, Picks & Odds: Circuit Zandvoort 2026 - sports.yahoo.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+      "time": "Wed, 19 Aug 2026 18:46:00 GMT"
+    },
+    {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Exclusive: Honda deliver insight into engine upgrade ahead of Dutch GP debut - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 19 Aug 2026 17:05:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Honda reveal details of 'Spec 2' power unit for Dutch GP - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 19 Aug 2026 10:11:00 GMT"
     },
     {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Aston Martin boost as major Honda upgrade confirmed - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
-    },
-    {
-      "author": "The Daily Gazette",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull's Hadjar injured for Dutch GP giving Lawson a return to race with Verstappen - The Daily Gazette",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 11:53:31 GMT"
-    },
-    {
-      "author": "LancasterOnline",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull's Hadjar injured for Dutch GP giving Lawson a return to race with Verstappen - LancasterOnline",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 11:53:31 GMT"
+      "time": "Tue, 18 Aug 2026 09:35:50 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Reuters",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen can give his home Dutch race a sendoff to celebrate - Reuters",
+      "text": "Hadjar to miss Dutch GP as Lawson steps up - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 17:03:43 GMT"
+      "time": "Wed, 19 Aug 2026 11:02:00 GMT"
     },
     {
-      "author": "F1 Oversteer",
+      "author": "sports.yahoo.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "text": "F1 Dutch Grand Prix Prediction, Picks & Odds: Circuit Zandvoort 2026 - sports.yahoo.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+      "time": "Wed, 19 Aug 2026 18:46:00 GMT"
+    },
+    {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Exclusive: Honda deliver insight into engine upgrade ahead of Dutch GP debut - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 19 Aug 2026 17:05:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Honda reveal details of 'Spec 2' power unit for Dutch GP - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 19 Aug 2026 10:11:00 GMT"
     },
     {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Aston Martin boost as major Honda upgrade confirmed - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
-    },
-    {
-      "author": "The Daily Gazette",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull's Hadjar injured for Dutch GP giving Lawson a return to race with Verstappen - The Daily Gazette",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 11:53:31 GMT"
-    },
-    {
-      "author": "LancasterOnline",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull's Hadjar injured for Dutch GP giving Lawson a return to race with Verstappen - LancasterOnline",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 11:53:31 GMT"
+      "time": "Tue, 18 Aug 2026 09:35:50 GMT"
     }
   ]
 }
