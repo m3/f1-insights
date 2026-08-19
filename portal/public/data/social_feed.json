@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 58,
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 68,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 64,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 60,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 56,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 52,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 48,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "skysports.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lewis Hamilton: What driver and Ferrari team need to do to launch full F1 title challenge to Mercedes from Dutch GP - skysports.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 05:02:16 GMT"
-    },
-    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
+      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 07:29:00 GMT"
-    },
-    {
-      "author": "F1 Oversteer",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ferrari are \u2018lost\u2019 over key Lewis Hamilton and Charles Leclerc decision as F1 title race heats up - F1 Oversteer",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 10:00:00 GMT"
+      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is the 2026 Dutch GP and how can I watch it? - Formula 1",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 10:43:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pool days, proposals and paddock preparations \u2013 what F1 drivers have been up to ahead of the Dutch Grand Prix - Formula 1",
+      "text": "Alex Albon Sticks with Williams Despite Miserable F1 Season - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 13:04:27 GMT"
+      "time": "Tue, 18 Aug 2026 17:10:00 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "skysports.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lewis Hamilton: What driver and Ferrari team need to do to launch full F1 title challenge to Mercedes from Dutch GP - skysports.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 05:02:16 GMT"
-    },
-    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1 2026: The surprises, talking points and battles shaping the season - ESPN",
+      "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 07:29:00 GMT"
-    },
-    {
-      "author": "F1 Oversteer",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ferrari are \u2018lost\u2019 over key Lewis Hamilton and Charles Leclerc decision as F1 title race heats up - F1 Oversteer",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 10:00:00 GMT"
+      "time": "Tue, 18 Aug 2026 16:05:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is the 2026 Dutch GP and how can I watch it? - Formula 1",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 10:43:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Pool days, proposals and paddock preparations \u2013 what F1 drivers have been up to ahead of the Dutch Grand Prix - Formula 1",
+      "text": "Alex Albon Sticks with Williams Despite Miserable F1 Season - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 13:04:27 GMT"
+      "time": "Tue, 18 Aug 2026 17:10:00 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
