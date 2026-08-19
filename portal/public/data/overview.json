@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-19T16:54:28.856551Z",
+  "updatedAt": "2026-08-19T17:19:37.525483Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 59,
+    "sentimentScore": 57,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 69,
+        "score": 67,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 65,
+        "score": 63,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 61,
+        "score": 59,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 57,
+        "score": 55,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 53,
+        "score": 51,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,13 +1977,23 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 49,
+        "score": 47,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Verstappen can give his home Dutch race a sendoff to celebrate - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 17:03:43 GMT"
+      },
+      {
         "author": "Crash.net",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2022,20 +2032,20 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Wed, 19 Aug 2026 11:53:31 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
       }
     ],
     "xTracksideFeed": [
       {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Verstappen can give his home Dutch race a sendoff to celebrate - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 17:03:43 GMT"
+      },
+      {
         "author": "Crash.net",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2074,16 +2084,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Wed, 19 Aug 2026 11:53:31 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
       }
     ]
   }
