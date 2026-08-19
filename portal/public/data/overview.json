@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-19T10:28:20.085593Z",
+  "updatedAt": "2026-08-19T10:53:22.204533Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -15,11 +15,10 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "TracingInsights",
-      "OpenMeteo"
+      "FastF1",
+      "OpenMeteo",
+      "SocialMediaRadar"
     ],
-    "tracingInsightsCommit": null,
-    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -1860,5 +1859,232 @@
       "race": "2 - 3",
       "leader": "GAS Ahead"
     }
-  ]
+  ],
+  "socialSentiment": {
+    "version": "2026.3",
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 57,
+    "monitoredAccountsCount": 11,
+    "youtubeSourcesCount": 5,
+    "trendingHashtags": [
+      "#HungarianGrandPrix",
+      "#F1",
+      "#F12026",
+      "#Formula1",
+      "#TechF1"
+    ],
+    "keywords": {
+      "technical": [
+        "telemetry",
+        "floor upgrade",
+        "sidepod undercut",
+        "tyre degradation",
+        "MGU-K",
+        "active aerodynamics",
+        "driving technique",
+        "corner entry speed"
+      ],
+      "regulatory": [
+        "stewards decision",
+        "track limits",
+        "penalty points",
+        "cost cap",
+        "FIA summons"
+      ],
+      "live_coverage": [
+        "watchalong",
+        "live timing",
+        "FP1 commentary",
+        "quali reaction",
+        "race commentary"
+      ]
+    },
+    "youtubeSources": [
+      {
+        "channel_name": "F1 Gamer",
+        "handle": "@F1Gamer",
+        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
+      },
+      {
+        "channel_name": "Peter Windsor",
+        "handle": "@peterwindsor",
+        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
+      },
+      {
+        "channel_name": "Donut - Up to Speed",
+        "handle": "@donut",
+        "focus": "Automotive & Motorsport History/Deep Dives"
+      },
+      {
+        "channel_name": "Brrrake F1",
+        "handle": "@brrrake",
+        "focus": "Telemetry & Engineer Reaction"
+      },
+      {
+        "channel_name": "Autosport",
+        "handle": "@autosport",
+        "focus": "Technical Upgrades & Paddock Debriefs"
+      }
+    ],
+    "driverSentimentRanking": [
+      {
+        "driver": "Lando Norris",
+        "code": "NOR",
+        "handle": "LandoNorris",
+        "team": "McLaren",
+        "score": 67,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LandoNorris"
+      },
+      {
+        "driver": "Oscar Piastri",
+        "code": "PIA",
+        "handle": "OscarPiastri",
+        "team": "McLaren",
+        "score": 63,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @OscarPiastri"
+      },
+      {
+        "driver": "Charles Leclerc",
+        "code": "LEC",
+        "handle": "Charles_Leclerc",
+        "team": "Ferrari",
+        "score": 59,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Charles_Leclerc"
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "code": "HAM",
+        "handle": "LewisHamilton",
+        "team": "Ferrari",
+        "score": 55,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LewisHamilton"
+      },
+      {
+        "driver": "Max Verstappen",
+        "code": "VER",
+        "handle": "Max33Verstappen",
+        "team": "Red Bull",
+        "score": 51,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Max33Verstappen"
+      },
+      {
+        "driver": "Liam Lawson",
+        "code": "LAW",
+        "handle": "LiamLawson30",
+        "team": "Red Bull",
+        "score": 47,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LiamLawson30"
+      }
+    ],
+    "breakingNewsTweets": [
+      {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 08:53:43 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Honda reveal details of 'Spec 2' power unit for Dutch GP - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 10:11:00 GMT"
+      },
+      {
+        "author": "Crash.net",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren continues F1 development push with upgrades confirmed for Dutch GP - Crash.net",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 09:27:34 GMT"
+      },
+      {
+        "author": "ESPN",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 18 Aug 2026 16:05:00 GMT"
+      },
+      {
+        "author": "roundtable.io",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Williams Boss Vowles Admits the Budget Cap Hinders F1 Development - roundtable.io",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 09:06:52 GMT"
+      }
+    ],
+    "xTracksideFeed": [
+      {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 08:53:43 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Honda reveal details of 'Spec 2' power unit for Dutch GP - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 10:11:00 GMT"
+      },
+      {
+        "author": "Crash.net",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "McLaren continues F1 development push with upgrades confirmed for Dutch GP - Crash.net",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 09:27:34 GMT"
+      },
+      {
+        "author": "ESPN",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 18 Aug 2026 16:05:00 GMT"
+      },
+      {
+        "author": "roundtable.io",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Williams Boss Vowles Admits the Budget Cap Hinders F1 Development - roundtable.io",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 19 Aug 2026 09:06:52 GMT"
+      }
+    ]
+  }
 }
