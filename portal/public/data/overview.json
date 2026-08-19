@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-19T09:56:56.766463Z",
+  "updatedAt": "2026-08-19T10:22:39.392097Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1862,8 +1862,8 @@
   ],
   "socialSentiment": {
     "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 62,
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 57,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 72,
+        "score": 67,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 68,
+        "score": 63,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 64,
+        "score": 59,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 60,
+        "score": 55,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 56,
+        "score": 51,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,31 +1977,31 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 52,
+        "score": 47,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
-        "author": "reuters.com",
+        "author": "Reuters",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - reuters.com",
+        "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - Reuters",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Wed, 19 Aug 2026 08:53:43 GMT"
       },
       {
-        "author": "ESPN",
+        "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
+        "text": "Honda reveal details of 'Spec 2' power unit for Dutch GP - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Tue, 18 Aug 2026 16:05:00 GMT"
+        "time": "Wed, 19 Aug 2026 10:11:00 GMT"
       },
       {
         "author": "Crash.net",
@@ -2014,14 +2014,14 @@
         "time": "Wed, 19 Aug 2026 09:27:34 GMT"
       },
       {
-        "author": "Formula 1",
+        "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+        "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Tue, 18 Aug 2026 16:05:00 GMT"
       },
       {
         "author": "roundtable.io",
@@ -2036,24 +2036,24 @@
     ],
     "xTracksideFeed": [
       {
-        "author": "reuters.com",
+        "author": "Reuters",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - reuters.com",
+        "text": "Red Bull's Hadjar set to miss Dutch GP with wrist injury, reports say - Reuters",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Wed, 19 Aug 2026 08:53:43 GMT"
       },
       {
-        "author": "ESPN",
+        "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
+        "text": "Honda reveal details of 'Spec 2' power unit for Dutch GP - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Tue, 18 Aug 2026 16:05:00 GMT"
+        "time": "Wed, 19 Aug 2026 10:11:00 GMT"
       },
       {
         "author": "Crash.net",
@@ -2066,14 +2066,14 @@
         "time": "Wed, 19 Aug 2026 09:27:34 GMT"
       },
       {
-        "author": "Formula 1",
+        "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+        "text": "Bold predictions for the rest of 2026 as F1 returns from summer break - ESPN",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Tue, 18 Aug 2026 16:05:00 GMT"
       },
       {
         "author": "roundtable.io",
