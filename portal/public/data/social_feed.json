@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 53,
+  "sentimentScore": 57,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 63,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 59,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 55,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 51,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 47,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 43,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "F1 Oversteer",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "text": "Hadjar to miss Dutch GP as Lawson steps up - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
-    },
-    {
-      "author": "KSAT",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - KSAT",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:23:03 GMT"
+      "time": "Wed, 19 Aug 2026 11:02:00 GMT"
     },
     {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Trouble for Lawson and Tsunoda, Aston Martin long shot and more Dutch GP predictions - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+      "time": "Thu, 20 Aug 2026 05:04:01 GMT"
     },
     {
-      "author": "WWLP",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - WWLP",
+      "text": "Honda\u2019s F1 Team\u2019s Hilarious Way of Preparing for Media Onslaught at Dutch GP - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:23:04 GMT"
+      "time": "Thu, 20 Aug 2026 10:05:41 GMT"
     },
     {
-      "author": "Times Union",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Times Union",
+      "text": "Aston Martin's saviour? What to expect from Honda's new F1 engine - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:38:37 GMT"
+      "time": "Thu, 20 Aug 2026 10:01:30 GMT"
+    },
+    {
+      "author": "Al Jazeera",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Max Verstappen signs new F1 contract with Red Bull until 2030 - Al Jazeera",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 08:31:20 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "F1 Oversteer",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "text": "Hadjar to miss Dutch GP as Lawson steps up - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
-    },
-    {
-      "author": "KSAT",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - KSAT",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:23:03 GMT"
+      "time": "Wed, 19 Aug 2026 11:02:00 GMT"
     },
     {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
+      "text": "Trouble for Lawson and Tsunoda, Aston Martin long shot and more Dutch GP predictions - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+      "time": "Thu, 20 Aug 2026 05:04:01 GMT"
     },
     {
-      "author": "WWLP",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - WWLP",
+      "text": "Honda\u2019s F1 Team\u2019s Hilarious Way of Preparing for Media Onslaught at Dutch GP - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:23:04 GMT"
+      "time": "Thu, 20 Aug 2026 10:05:41 GMT"
     },
     {
-      "author": "Times Union",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Times Union",
+      "text": "Aston Martin's saviour? What to expect from Honda's new F1 engine - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:38:37 GMT"
+      "time": "Thu, 20 Aug 2026 10:01:30 GMT"
+    },
+    {
+      "author": "Al Jazeera",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Max Verstappen signs new F1 contract with Red Bull until 2030 - Al Jazeera",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 08:31:20 GMT"
     }
   ]
 }
