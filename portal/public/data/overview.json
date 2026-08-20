@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-20T19:27:09.216935Z",
+  "updatedAt": "2026-08-20T19:30:53.569660Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-08-20T18:51:12.222483Z",
+    "lastUpdatedUtc": "2026-08-20T19:30:53.569611Z",
     "nextSession": {
       "name": "FP1",
       "timeUtc": "2026-08-21T10:30:00Z"
@@ -15,10 +15,11 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,10 +61,10 @@
   },
   "circuitWeather": {
     "circuit": "Circuit Park Zandvoort",
-    "ambientTemp": "17\u00b0C",
-    "trackTemp": "22\u00b0C",
+    "ambientTemp": "16\u00b0C",
+    "trackTemp": "21\u00b0C",
     "rainRisk": "49%",
-    "wind": "16 km/h NE",
+    "wind": "12 km/h NE",
     "humidity": "95%"
   },
   "schedule": [
@@ -1543,7 +1544,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-20T18:51:12.221252",
+    "generatedAt": "2026-08-20T19:30:53.568289",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1688,7 +1689,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-20T18:51:12.221627",
+    "generatedAt": "2026-08-20T19:30:53.568694",
     "facts": [],
     "teammateBattles": [
       {
@@ -1859,232 +1860,5 @@
       "race": "2 - 3",
       "leader": "GAS Ahead"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 53,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 63,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 59,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 55,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 51,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 47,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 43,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "LancasterOnline",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Lewis Hamilton returns from F1 summer break at his 'fittest' as he aims to challenge Kimi Antonelli - LancasterOnline",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 15:44:06 GMT"
-      },
-      {
-        "author": "Reuters",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 12:38:30 GMT"
-      },
-      {
-        "author": "Fox 59",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Fox 59",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 07:53:03 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 17 Aug 2026 12:43:35 GMT"
-      },
-      {
-        "author": "LancasterOnline",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen extends contract with Red Bull to 2030 after he weighed up leaving F1 - LancasterOnline",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 16:00:23 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "LancasterOnline",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Lewis Hamilton returns from F1 summer break at his 'fittest' as he aims to challenge Kimi Antonelli - LancasterOnline",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 15:44:06 GMT"
-      },
-      {
-        "author": "Reuters",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 12:38:30 GMT"
-      },
-      {
-        "author": "Fox 59",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Fox 59",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 07:53:03 GMT"
-      },
-      {
-        "author": "PlanetF1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 17 Aug 2026 12:43:35 GMT"
-      },
-      {
-        "author": "LancasterOnline",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen extends contract with Red Bull to 2030 after he weighed up leaving F1 - LancasterOnline",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 16:00:23 GMT"
-      }
-    ]
-  }
+  ]
 }
