@@ -132,6 +132,16 @@
       "time": "Thu, 20 Aug 2026 11:44:00 GMT"
     },
     {
+      "author": "F1 Oversteer",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+    },
+    {
       "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -142,6 +152,16 @@
       "time": "Thu, 20 Aug 2026 12:38:30 GMT"
     },
     {
+      "author": "The Daily Gazette",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton returns from F1 summer break at his 'fittest' as he aims to challenge Kimi Antonelli - The Daily Gazette",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 15:44:06 GMT"
+    },
+    {
       "author": "WAVY.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -150,26 +170,6 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Thu, 20 Aug 2026 07:53:03 GMT"
-    },
-    {
-      "author": "WWLP",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - WWLP",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:23:04 GMT"
-    },
-    {
-      "author": "F1 Oversteer",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -184,6 +184,16 @@
       "time": "Thu, 20 Aug 2026 11:44:00 GMT"
     },
     {
+      "author": "F1 Oversteer",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+    },
+    {
       "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -194,6 +204,16 @@
       "time": "Thu, 20 Aug 2026 12:38:30 GMT"
     },
     {
+      "author": "The Daily Gazette",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton returns from F1 summer break at his 'fittest' as he aims to challenge Kimi Antonelli - The Daily Gazette",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 15:44:06 GMT"
+    },
+    {
       "author": "WAVY.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -202,26 +222,6 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Thu, 20 Aug 2026 07:53:03 GMT"
-    },
-    {
-      "author": "WWLP",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - WWLP",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:23:04 GMT"
-    },
-    {
-      "author": "F1 Oversteer",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
     }
   ]
 }
