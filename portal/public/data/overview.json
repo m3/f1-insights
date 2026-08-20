@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-20T08:54:29.132999Z",
+  "updatedAt": "2026-08-20T09:25:14.303926Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 52,
+    "sentimentScore": 55,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 62,
+        "score": 65,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 58,
+        "score": 61,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 54,
+        "score": 57,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 50,
+        "score": 53,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 46,
+        "score": 49,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,31 +1977,31 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 42,
+        "score": 45,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
-        "author": "Click2Houston",
+        "author": "F1 Oversteer",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Click2Houston",
+        "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 07:23:03 GMT"
+        "time": "Wed, 19 Aug 2026 07:30:00 GMT"
       },
       {
-        "author": "Seattle Post-Intelligencer",
+        "author": "PlanetF1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Seattle Post-Intelligencer",
+        "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 07:52:30 GMT"
+        "time": "Mon, 17 Aug 2026 12:43:35 GMT"
       },
       {
         "author": "WWLP",
@@ -2014,46 +2014,46 @@
         "time": "Thu, 20 Aug 2026 07:23:04 GMT"
       },
       {
-        "author": "F1 Oversteer",
+        "author": "The Daily Gazette",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+        "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - The Daily Gazette",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+        "time": "Thu, 20 Aug 2026 07:47:22 GMT"
       },
       {
-        "author": "SB Nation",
+        "author": "PlanetF1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Alex Albon makes it official at Williams F1 - SB Nation",
+        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Tue, 18 Aug 2026 13:20:07 GMT"
+        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
       }
     ],
     "xTracksideFeed": [
       {
-        "author": "Click2Houston",
+        "author": "F1 Oversteer",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Click2Houston",
+        "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 07:23:03 GMT"
+        "time": "Wed, 19 Aug 2026 07:30:00 GMT"
       },
       {
-        "author": "Seattle Post-Intelligencer",
+        "author": "PlanetF1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Seattle Post-Intelligencer",
+        "text": "Ferrari has one clear answer to McLaren's Hungarian GP breakthrough - PlanetF1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 07:52:30 GMT"
+        "time": "Mon, 17 Aug 2026 12:43:35 GMT"
       },
       {
         "author": "WWLP",
@@ -2066,24 +2066,24 @@
         "time": "Thu, 20 Aug 2026 07:23:04 GMT"
       },
       {
-        "author": "F1 Oversteer",
+        "author": "The Daily Gazette",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+        "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - The Daily Gazette",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+        "time": "Thu, 20 Aug 2026 07:47:22 GMT"
       },
       {
-        "author": "SB Nation",
+        "author": "PlanetF1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Alex Albon makes it official at Williams F1 - SB Nation",
+        "text": "McLaren set for further upgrade push after Budapest success - PlanetF1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Tue, 18 Aug 2026 13:20:07 GMT"
+        "time": "Mon, 17 Aug 2026 09:18:53 GMT"
       }
     ]
   }
