@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 56,
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 66,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 62,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 58,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 54,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 50,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,21 +115,21 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 46,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "F1 Oversteer",
+      "author": "LancasterOnline",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "text": "Lewis Hamilton returns from F1 summer break at his 'fittest' as he aims to challenge Kimi Antonelli - LancasterOnline",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+      "time": "Thu, 20 Aug 2026 15:44:06 GMT"
     },
     {
       "author": "Reuters",
@@ -142,24 +142,14 @@
       "time": "Thu, 20 Aug 2026 12:38:30 GMT"
     },
     {
-      "author": "LancasterOnline",
+      "author": "Fox 59",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton returns from F1 summer break at his 'fittest' as he aims to challenge Kimi Antonelli - LancasterOnline",
+      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Fox 59",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 15:44:06 GMT"
-    },
-    {
-      "author": "theScore",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen extends contract with Red Bull to 2030 - theScore",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:36:06 GMT"
+      "time": "Thu, 20 Aug 2026 07:53:03 GMT"
     },
     {
       "author": "PlanetF1",
@@ -170,18 +160,28 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+    },
+    {
+      "author": "LancasterOnline",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Max Verstappen extends contract with Red Bull to 2030 after he weighed up leaving F1 - LancasterOnline",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 16:00:23 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "F1 Oversteer",
+      "author": "LancasterOnline",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Liam Lawson\u2019s Red Bull cameo at Dutch Grand Prix will incense McLaren CEO Zak Brown, and rightly so - F1 Oversteer",
+      "text": "Lewis Hamilton returns from F1 summer break at his 'fittest' as he aims to challenge Kimi Antonelli - LancasterOnline",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 19 Aug 2026 07:30:00 GMT"
+      "time": "Thu, 20 Aug 2026 15:44:06 GMT"
     },
     {
       "author": "Reuters",
@@ -194,24 +194,14 @@
       "time": "Thu, 20 Aug 2026 12:38:30 GMT"
     },
     {
-      "author": "LancasterOnline",
+      "author": "Fox 59",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton returns from F1 summer break at his 'fittest' as he aims to challenge Kimi Antonelli - LancasterOnline",
+      "text": "Max Verstappen extends F1 contract with Red Bull to 2030 - Fox 59",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 15:44:06 GMT"
-    },
-    {
-      "author": "theScore",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen extends contract with Red Bull to 2030 - theScore",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:36:06 GMT"
+      "time": "Thu, 20 Aug 2026 07:53:03 GMT"
     },
     {
       "author": "PlanetF1",
@@ -222,6 +212,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Mon, 17 Aug 2026 12:43:35 GMT"
+    },
+    {
+      "author": "LancasterOnline",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Max Verstappen extends contract with Red Bull to 2030 after he weighed up leaving F1 - LancasterOnline",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 16:00:23 GMT"
     }
   ]
 }
