@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "sentimentScore": 49,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 39,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Crinkled McLaren rear wing among Dutch GP F1 upgrades - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      "time": "Fri, 21 Aug 2026 11:02:07 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "F1 Dutch GP LIVE: Sprint Qualifying, Practice updates, results, stream, highlights from Zandvoort race weekend - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
+      "time": "Fri, 21 Aug 2026 09:47:21 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Dutch GP schedule: Sprint qualifying start time and TV coverage - The Independent",
+      "text": "Zandvoort memories: Our writers' highlights from the F1 Dutch GP - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:27:18 GMT"
+      "time": "Thu, 20 Aug 2026 10:17:26 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren",
+      "text": "Tsunoda details last-minute call behind his surprise return - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
+      "time": "Thu, 20 Aug 2026 14:06:00 GMT"
     },
     {
-      "author": "Oracle Red Bull Racing",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Oracle Strategy Series: Dutch Grand Prix 2026 - Oracle Red Bull Racing",
+      "text": "\ud83c\udfce\ufe0f F1\u00ae returns with the Dutch Grand Prix, streaming only on NOW \ud83d\udd25 - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:40:30 GMT"
+      "time": "Fri, 21 Aug 2026 09:13:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Crinkled McLaren rear wing among Dutch GP F1 upgrades - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      "time": "Fri, 21 Aug 2026 11:02:07 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "F1 Dutch GP LIVE: Sprint Qualifying, Practice updates, results, stream, highlights from Zandvoort race weekend - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
+      "time": "Fri, 21 Aug 2026 09:47:21 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Dutch GP schedule: Sprint qualifying start time and TV coverage - The Independent",
+      "text": "Zandvoort memories: Our writers' highlights from the F1 Dutch GP - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:27:18 GMT"
+      "time": "Thu, 20 Aug 2026 10:17:26 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren",
+      "text": "Tsunoda details last-minute call behind his surprise return - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
+      "time": "Thu, 20 Aug 2026 14:06:00 GMT"
     },
     {
-      "author": "Oracle Red Bull Racing",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Oracle Strategy Series: Dutch Grand Prix 2026 - Oracle Red Bull Racing",
+      "text": "\ud83c\udfce\ufe0f F1\u00ae returns with the Dutch Grand Prix, streaming only on NOW \ud83d\udd25 - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:40:30 GMT"
+      "time": "Fri, 21 Aug 2026 09:13:00 GMT"
     }
   ]
 }
