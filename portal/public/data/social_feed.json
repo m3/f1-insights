@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Russell charges to Dutch GP Sprint pole ahead of Norris - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      "time": "Fri, 21 Aug 2026 15:31:00 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Dutch GP schedule: Sprint race start time and TV coverage - The Independent",
+      "text": "Winners and losers from sprint qualifying at F1's Dutch GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 22:27:18 GMT"
+      "time": "Fri, 21 Aug 2026 16:37:16 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas Can\u2019t Keep Up with F1\u2019s Development Arms Race - Autoweek",
+      "text": "Dutch GP Saturday Schedule: Sprint, Qualifying Times & More - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 16:03:00 GMT"
+      "time": "Fri, 21 Aug 2026 22:32:01 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "What ruined Honda's big F1 upgrade engine debut - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
+      "time": "Fri, 21 Aug 2026 18:47:20 GMT"
     },
     {
-      "author": "MotorBiscuit",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - MotorBiscuit",
+      "text": "What the teams said \u2013 Sprint Qualifying in the Netherlands - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:27:29 GMT"
+      "time": "Fri, 21 Aug 2026 18:08:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Russell charges to Dutch GP Sprint pole ahead of Norris - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      "time": "Fri, 21 Aug 2026 15:31:00 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Dutch GP schedule: Sprint race start time and TV coverage - The Independent",
+      "text": "Winners and losers from sprint qualifying at F1's Dutch GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 22:27:18 GMT"
+      "time": "Fri, 21 Aug 2026 16:37:16 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas Can\u2019t Keep Up with F1\u2019s Development Arms Race - Autoweek",
+      "text": "Dutch GP Saturday Schedule: Sprint, Qualifying Times & More - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 16:03:00 GMT"
+      "time": "Fri, 21 Aug 2026 22:32:01 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "What ruined Honda's big F1 upgrade engine debut - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
+      "time": "Fri, 21 Aug 2026 18:47:20 GMT"
     },
     {
-      "author": "MotorBiscuit",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - MotorBiscuit",
+      "text": "What the teams said \u2013 Sprint Qualifying in the Netherlands - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:27:29 GMT"
+      "time": "Fri, 21 Aug 2026 18:08:00 GMT"
     }
   ]
 }
