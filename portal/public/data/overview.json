@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-21T15:47:00.983878Z",
+  "updatedAt": "2026-08-21T16:22:23.706775Z",
   "timeline": {
     "format": "sprint",
     "macroState": "SESSION_IN_PROGRESS",
@@ -1858,8 +1858,8 @@
   ],
   "socialSentiment": {
     "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 61,
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 56,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1928,7 +1928,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 71,
+        "score": 66,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1937,7 +1937,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 67,
+        "score": 62,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1946,7 +1946,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 63,
+        "score": 58,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1955,7 +1955,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 59,
+        "score": 54,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1964,7 +1964,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 55,
+        "score": 50,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1973,7 +1973,7 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 51,
+        "score": 46,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
@@ -1990,6 +1990,16 @@
         "time": "Tue, 18 Aug 2026 15:16:30 GMT"
       },
       {
+        "author": "Autoweek",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Haas Can\u2019t Keep Up with F1\u2019s Development Arms Race - Autoweek",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 21 Aug 2026 16:03:00 GMT"
+      },
+      {
         "author": "The Independent",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2018,16 +2028,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 21 Aug 2026 09:45:00 GMT"
-      },
-      {
-        "author": "MotorBiscuit",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - MotorBiscuit",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 10:27:29 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2042,6 +2042,16 @@
         "time": "Tue, 18 Aug 2026 15:16:30 GMT"
       },
       {
+        "author": "Autoweek",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Haas Can\u2019t Keep Up with F1\u2019s Development Arms Race - Autoweek",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 21 Aug 2026 16:03:00 GMT"
+      },
+      {
         "author": "The Independent",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2070,16 +2080,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 21 Aug 2026 09:45:00 GMT"
-      },
-      {
-        "author": "MotorBiscuit",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - MotorBiscuit",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 10:27:29 GMT"
       }
     ]
   }
