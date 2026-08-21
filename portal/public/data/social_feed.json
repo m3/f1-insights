@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Russell charges to Dutch GP Sprint pole ahead of Norris - Formula 1",
+      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 15:31:00 GMT"
+      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
     },
     {
-      "author": "The Race",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Crinkled McLaren rear wing among Dutch GP F1 upgrades - The Race",
+      "text": "Haas Can\u2019t Keep Up with F1\u2019s Development Arms Race - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 11:02:07 GMT"
+      "time": "Fri, 21 Aug 2026 16:03:00 GMT"
     },
     {
-      "author": "The Guardian",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The Premier League returns, F1\u2019s Dutch Grand Prix and The Greatest Rivalry \u2013 follow with us - The Guardian",
+      "text": "F1 Dutch GP schedule: Sprint race start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 16:06:00 GMT"
+      "time": "Fri, 21 Aug 2026 17:57:18 GMT"
+    },
+    {
+      "author": "MotorBiscuit",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - MotorBiscuit",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 21 Aug 2026 10:27:29 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch GP Sprint Qualifying: George Russell claims pole position with title rivals Kimi Antonelli, Lewis Hamilton on back foot - Sky Sports",
+      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 16:57:16 GMT"
-    },
-    {
-      "author": "Mashable",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "I'm watching the Dutch GP for free this weekend \u2014 how to live stream F1 for free - Mashable",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 09:00:33 GMT"
+      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Russell charges to Dutch GP Sprint pole ahead of Norris - Formula 1",
+      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 15:31:00 GMT"
+      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
     },
     {
-      "author": "The Race",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Crinkled McLaren rear wing among Dutch GP F1 upgrades - The Race",
+      "text": "Haas Can\u2019t Keep Up with F1\u2019s Development Arms Race - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 11:02:07 GMT"
+      "time": "Fri, 21 Aug 2026 16:03:00 GMT"
     },
     {
-      "author": "The Guardian",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The Premier League returns, F1\u2019s Dutch Grand Prix and The Greatest Rivalry \u2013 follow with us - The Guardian",
+      "text": "F1 Dutch GP schedule: Sprint race start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 16:06:00 GMT"
+      "time": "Fri, 21 Aug 2026 17:57:18 GMT"
+    },
+    {
+      "author": "MotorBiscuit",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - MotorBiscuit",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 21 Aug 2026 10:27:29 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch GP Sprint Qualifying: George Russell claims pole position with title rivals Kimi Antonelli, Lewis Hamilton on back foot - Sky Sports",
+      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 16:57:16 GMT"
-    },
-    {
-      "author": "Mashable",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "I'm watching the Dutch GP for free this weekend \u2014 how to live stream F1 for free - Mashable",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 09:00:33 GMT"
+      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
     }
   ]
 }
