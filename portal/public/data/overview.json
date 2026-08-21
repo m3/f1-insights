@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-21T08:55:58.211627Z",
+  "updatedAt": "2026-08-21T09:28:25.534486Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
@@ -1863,7 +1863,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "NEUTRAL",
-    "sentimentScore": 57,
+    "sentimentScore": 60,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1932,7 +1932,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 67,
+        "score": 70,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1941,7 +1941,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 63,
+        "score": 66,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1950,7 +1950,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 59,
+        "score": 62,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1959,7 +1959,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 55,
+        "score": 58,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -1968,7 +1968,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 51,
+        "score": 54,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -1977,7 +1977,7 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 47,
+        "score": 50,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
@@ -2004,16 +2004,6 @@
         "time": "Thu, 20 Aug 2026 17:57:02 GMT"
       },
       {
-        "author": "Reuters",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "No feeling of vindication for Lawson on Red Bull return - Reuters",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 01:38:00 GMT"
-      },
-      {
         "author": "The Independent",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2021,7 +2011,7 @@
         "text": "F1 Dutch GP schedule: Sprint qualifying start time and TV coverage - The Independent",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 07:27:18 GMT"
+        "time": "Fri, 21 Aug 2026 08:57:18 GMT"
       },
       {
         "author": "Oracle Red Bull Racing",
@@ -2032,6 +2022,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 21 Aug 2026 07:40:30 GMT"
+      },
+      {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 20 Aug 2026 12:38:30 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2056,16 +2056,6 @@
         "time": "Thu, 20 Aug 2026 17:57:02 GMT"
       },
       {
-        "author": "Reuters",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "No feeling of vindication for Lawson on Red Bull return - Reuters",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 01:38:00 GMT"
-      },
-      {
         "author": "The Independent",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2073,7 +2063,7 @@
         "text": "F1 Dutch GP schedule: Sprint qualifying start time and TV coverage - The Independent",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 07:27:18 GMT"
+        "time": "Fri, 21 Aug 2026 08:57:18 GMT"
       },
       {
         "author": "Oracle Red Bull Racing",
@@ -2084,6 +2074,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 21 Aug 2026 07:40:30 GMT"
+      },
+      {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 20 Aug 2026 12:38:30 GMT"
       }
     ]
   }
