@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "sentimentScore": 60,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Antonelli leads Norris and Russell in Dutch GP FP1 - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 21 Aug 2026 11:50:00 GMT"
+    },
+    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Goodbye Zandvoort: Our writers' highlights from F1's Dutch Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      "time": "Fri, 21 Aug 2026 09:56:25 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Dutch GP schedule: Sprint qualifying start time and TV coverage - The Independent",
+      "text": "Crinkled McLaren rear wing among Dutch GP F1 upgrades - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 11:57:18 GMT"
+      "time": "Fri, 21 Aug 2026 11:02:07 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Yuki Tsunoda 'dying' to make F1 return after Racing Bulls call-up for Dutch Grand Prix - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
+      "time": "Fri, 21 Aug 2026 11:22:00 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "NBC News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren",
+      "text": "Formula 1 returns to racing after summer break: Four things to watch - NBC News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
-    },
-    {
-      "author": "Oracle Red Bull Racing",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Oracle Strategy Series: Dutch Grand Prix 2026 - Oracle Red Bull Racing",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:40:30 GMT"
+      "time": "Fri, 21 Aug 2026 09:17:40 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Antonelli leads Norris and Russell in Dutch GP FP1 - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 21 Aug 2026 11:50:00 GMT"
+    },
+    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Goodbye Zandvoort: Our writers' highlights from F1's Dutch Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      "time": "Fri, 21 Aug 2026 09:56:25 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Dutch GP schedule: Sprint qualifying start time and TV coverage - The Independent",
+      "text": "Crinkled McLaren rear wing among Dutch GP F1 upgrades - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 11:57:18 GMT"
+      "time": "Fri, 21 Aug 2026 11:02:07 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Yuki Tsunoda 'dying' to make F1 return after Racing Bulls call-up for Dutch Grand Prix - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
+      "time": "Fri, 21 Aug 2026 11:22:00 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "NBC News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren",
+      "text": "Formula 1 returns to racing after summer break: Four things to watch - NBC News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
-    },
-    {
-      "author": "Oracle Red Bull Racing",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Oracle Strategy Series: Dutch Grand Prix 2026 - Oracle Red Bull Racing",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:40:30 GMT"
+      "time": "Fri, 21 Aug 2026 09:17:40 GMT"
     }
   ]
 }
