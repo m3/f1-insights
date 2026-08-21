@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "sentimentScore": 48,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 42,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 38,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Why the Dutch GP is ending despite F1 wanting Zandvoort to stay - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      "time": "Thu, 20 Aug 2026 16:39:38 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Everything we learned from day one at F1's Dutch GP - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 16:56:30 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Antonelli reveals title battle mindset for Dutch GP - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 21 Aug 2026 08:18:00 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Lewis Hamilton urges Ferrari to 'apply pressure' to Kimi Antonelli in title battle as F1 season resumes with Dutch GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
+      "time": "Thu, 20 Aug 2026 15:38:21 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Dutch GP schedule: Sprint qualifying start time and TV coverage - The Independent",
+      "text": "Isack Hadjar has just three words for Yuki Tsunoda after missing the Dutch GP - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 08:57:18 GMT"
-    },
-    {
-      "author": "Oracle Red Bull Racing",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Oracle Strategy Series: Dutch Grand Prix 2026 - Oracle Red Bull Racing",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:40:30 GMT"
-    },
-    {
-      "author": "Reuters",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 12:38:30 GMT"
+      "time": "Fri, 21 Aug 2026 05:34:19 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Why the Dutch GP is ending despite F1 wanting Zandvoort to stay - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      "time": "Thu, 20 Aug 2026 16:39:38 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Everything we learned from day one at F1's Dutch GP - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 16:56:30 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Antonelli reveals title battle mindset for Dutch GP - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 21 Aug 2026 08:18:00 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Lewis Hamilton urges Ferrari to 'apply pressure' to Kimi Antonelli in title battle as F1 season resumes with Dutch GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 17:57:02 GMT"
+      "time": "Thu, 20 Aug 2026 15:38:21 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Dutch GP schedule: Sprint qualifying start time and TV coverage - The Independent",
+      "text": "Isack Hadjar has just three words for Yuki Tsunoda after missing the Dutch GP - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 08:57:18 GMT"
-    },
-    {
-      "author": "Oracle Red Bull Racing",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Oracle Strategy Series: Dutch Grand Prix 2026 - Oracle Red Bull Racing",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:40:30 GMT"
-    },
-    {
-      "author": "Reuters",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 12:38:30 GMT"
+      "time": "Fri, 21 Aug 2026 05:34:19 GMT"
     }
   ]
 }
