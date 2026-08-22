@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 64,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Russell surges to victory in Zandvoort Sprint ahead of Leclerc and Norris - Formula 1",
+      "text": "Max Verstappen Ends F1 Speculation, Commits to Red Bull Through 2030 - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 10:47:00 GMT"
+      "time": "Thu, 20 Aug 2026 10:56:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix: George Russell leads from start to finish to win sprint race - BBC",
+      "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 10:45:13 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why popularity alone couldn\u2019t save F1\u2019s Dutch GP: \u2018The risk is simply too high\u2019 - The New York Times",
+      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 09:00:05 GMT"
+      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
     },
     {
-      "author": "The Race",
+      "author": "McLaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Could have been 2.5s quicker?! Honda's deceptive F1 engine upgrade debut - The Race",
+      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 18:47:20 GMT"
+      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
     },
     {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton and Max Verstappen learn stewards' verdicts after Dutch GP investigations - racingnews365.com",
+      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 11:49:00 GMT"
+      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Russell surges to victory in Zandvoort Sprint ahead of Leclerc and Norris - Formula 1",
+      "text": "Max Verstappen Ends F1 Speculation, Commits to Red Bull Through 2030 - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 10:47:00 GMT"
+      "time": "Thu, 20 Aug 2026 10:56:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix: George Russell leads from start to finish to win sprint race - BBC",
+      "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 10:45:13 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why popularity alone couldn\u2019t save F1\u2019s Dutch GP: \u2018The risk is simply too high\u2019 - The New York Times",
+      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 09:00:05 GMT"
+      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
     },
     {
-      "author": "The Race",
+      "author": "McLaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Could have been 2.5s quicker?! Honda's deceptive F1 engine upgrade debut - The Race",
+      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 18:47:20 GMT"
+      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
     },
     {
       "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton and Max Verstappen learn stewards' verdicts after Dutch GP investigations - racingnews365.com",
+      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 11:49:00 GMT"
+      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
     }
   ]
 }
