@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 64,
+  "sentimentScore": 67,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 74,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 70,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 66,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 62,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 58,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,21 +115,21 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 54,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Autoweek",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen Ends F1 Speculation, Commits to Red Bull Through 2030 - Autoweek",
+      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 10:56:00 GMT"
+      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -142,21 +142,11 @@
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
-    },
-    {
-      "author": "McLaren.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren.com",
+      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 09:45:00 GMT"
@@ -170,18 +160,28 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 06:10:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix: Fernando Alonso optimistic about Aston Martin's major upgrade - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Autoweek",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen Ends F1 Speculation, Commits to Red Bull Through 2030 - Autoweek",
+      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 10:56:00 GMT"
+      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -194,21 +194,11 @@
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
-    },
-    {
-      "author": "McLaren.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren.com",
+      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 09:45:00 GMT"
@@ -222,6 +212,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 06:10:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix: Fernando Alonso optimistic about Aston Martin's major upgrade - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     }
   ]
 }
