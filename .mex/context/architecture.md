@@ -15,7 +15,7 @@ edges:
 # Broad overview: keep this empty unless a claim depends on a few specific symbols.
 # Entry shape: { node: "function:<tier-1-id>", fingerprint: "mh:64:<hex>" }
 grounds_to: []
-last_updated: [YYYY-MM-DD]
+last_updated: 2026-08-22
 ---
 
 # Architecture

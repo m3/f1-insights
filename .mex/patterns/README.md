@@ -40,7 +40,7 @@ edges:
 grounds_to:
   - node: "function:<tier-1-id>"
     fingerprint: "mh:64:<hex-fingerprint>"
-last_updated: [YYYY-MM-DD]
+last_updated: 2026-08-22
 ---
 
 # [Pattern Name]
@@ -86,7 +86,7 @@ edges:
 grounds_to:
   - node: "function:<tier-1-id>"
     fingerprint: "mh:64:<hex-fingerprint>"
-last_updated: [YYYY-MM-DD]
+last_updated: 2026-08-22
 ---
 
 # [Pattern Name]

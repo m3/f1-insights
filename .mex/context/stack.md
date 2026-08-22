@@ -15,7 +15,7 @@ edges:
 # Broad inventory: ground only claims embodied by a small number of symbols.
 # Entry shape: { node: "function:<tier-1-id>", fingerprint: "mh:64:<hex>" }
 grounds_to: []
-last_updated: [YYYY-MM-DD]
+last_updated: 2026-08-22
 ---
 
 # Stack

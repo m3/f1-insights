@@ -1,3 +1,7 @@
+---
+last_updated: 2026-08-22
+---
+
 # Sync — Realign This Scaffold
 
 ## Recommended: Use sync.sh
