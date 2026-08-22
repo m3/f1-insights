@@ -3,7 +3,6 @@ Jolpica Provider for F1 Insights HQ (v4.0 Specification).
 Maintained Ergast-compatible API ingestion for 2026 schedule, standings, and race results.
 """
 import httpx
-import hishel
 import asyncio
 import logging
 from typing import Dict, List, Any, Optional
@@ -12,14 +11,20 @@ from .base_provider import BaseProvider, ProviderResponse
 logger = logging.getLogger("JolpicaProvider")
 JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"
 
+# Shared plain httpx client — no HTTP cache, no keep-alive. The worker polls
+# every 5 min and needs fresh results (sprint/race/qualifying get corrected
+# post-session). Jolpica's Cloudflare serves stale edge-cached values on
+# reused keep-alive connections, so open a fresh connection per request.
+_SESSION = httpx.AsyncClient(
+    headers={"User-Agent": "F1-Insights-Brief/4.0"},
+    timeout=10.0,
+    limits=httpx.Limits(max_keepalive_connections=0, max_connections=10),
+)
+
 class JolpicaProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="JolpicaErgast", cache_ttl_seconds=300)
-        self.storage = hishel.AsyncSQLiteStorage(ttl=self.cache_ttl_seconds)
-        self.session = hishel.AsyncCacheClient(
-            storage=self.storage,
-            headers={"User-Agent": "F1-Insights-Brief/4.0"}
-        )
+        self.session = _SESSION
 
     async def fetch_schedule(self, season: str = "current") -> ProviderResponse:
         """Fetch 2026 race calendar."""

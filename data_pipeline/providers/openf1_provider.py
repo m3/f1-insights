@@ -4,20 +4,23 @@ Ingests live car telemetry, gaps, track limits, and session positions from api.o
 """
 from typing import Dict, List, Any, Optional
 import httpx
-import hishel
 import asyncio
 import logging
 from .base_provider import BaseProvider, ProviderResponse
 
 logger = logging.getLogger("OpenF1Provider")
 
+_SESSION = httpx.AsyncClient(
+    timeout=5.0,
+    limits=httpx.Limits(max_keepalive_connections=0, max_connections=10),
+)
+
 class OpenF1Provider(BaseProvider):
     BASE_URL = "https://api.openf1.org/v1"
 
     def __init__(self, cache_ttl_seconds: int = 60):
         super().__init__("OpenF1", cache_ttl_seconds)
-        self.storage = hishel.AsyncSQLiteStorage(ttl=self.cache_ttl_seconds)
-        self.session = hishel.AsyncCacheClient(storage=self.storage)
+        self.session = _SESSION
 
     async def fetch_car_data(self, session_key: str, driver_number: int) -> ProviderResponse:
         """Fetch telemetry sample records (speed, rpm, gear, throttle) for a driver."""

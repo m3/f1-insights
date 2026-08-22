@@ -3,7 +3,6 @@ OpenMeteo Provider for F1 Insights HQ (v4.0 Specification).
 Ingests live weather forecasts and track ambient temperature based on canonical circuit GPS coordinates.
 """
 import httpx
-import hishel
 import asyncio
 import logging
 from typing import Dict, Any
@@ -12,11 +11,15 @@ from .base_provider import BaseProvider, ProviderResponse
 logger = logging.getLogger("OpenMeteoProvider")
 OPEN_METEO_BASE = "https://api.open-meteo.com/v1/forecast"
 
+_SESSION = httpx.AsyncClient(
+    timeout=10.0,
+    limits=httpx.Limits(max_keepalive_connections=0, max_connections=10),
+)
+
 class OpenMeteoProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="OpenMeteo", cache_ttl_seconds=600)
-        self.storage = hishel.AsyncSQLiteStorage(ttl=self.cache_ttl_seconds)
-        self.session = hishel.AsyncCacheClient(storage=self.storage)
+        self.session = _SESSION
 
     async def fetch_weather(self, lat: float = 47.583, lon: float = 19.248, circuit_name: str = "Hungaroring") -> ProviderResponse:
         """Fetch live weather metrics for circuit coordinates."""
