@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-22T14:57:26.195568Z",
+  "updatedAt": "2026-08-22T15:16:38.112469Z",
   "timeline": {
     "format": "sprint",
     "macroState": "SESSION_IN_PROGRESS",
@@ -2683,7 +2683,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "POSITIVE",
-    "sentimentScore": 67,
+    "sentimentScore": 61,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -2752,7 +2752,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 77,
+        "score": 71,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -2761,7 +2761,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 73,
+        "score": 67,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -2770,7 +2770,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 69,
+        "score": 63,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -2779,7 +2779,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 65,
+        "score": 59,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -2788,7 +2788,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 61,
+        "score": 55,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -2797,113 +2797,113 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 57,
+        "score": 51,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
-        "author": "Yahoo Sports",
+        "author": "Sky Sports",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+        "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+        "time": "Sat, 22 Aug 2026 02:57:32 GMT"
       },
       {
         "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
+        "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      },
+      {
+        "author": "Oracle Red Bull Racing",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hear from the Team after Friday in Zandvoort - Oracle Red Bull Racing",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 22 Aug 2026 11:10:36 GMT"
+      },
+      {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 20 Aug 2026 12:38:30 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "McLaren.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 09:45:00 GMT"
-      },
-      {
-        "author": "racingnews365.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 06:10:00 GMT"
-      },
-      {
-        "author": "BBC",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix: Fernando Alonso optimistic about Aston Martin's major upgrade - BBC",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
       {
-        "author": "Yahoo Sports",
+        "author": "Sky Sports",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+        "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+        "time": "Sat, 22 Aug 2026 02:57:32 GMT"
       },
       {
         "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
+        "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 18 Aug 2026 15:16:30 GMT"
+      },
+      {
+        "author": "Oracle Red Bull Racing",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hear from the Team after Friday in Zandvoort - Oracle Red Bull Racing",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 22 Aug 2026 11:10:36 GMT"
+      },
+      {
+        "author": "Reuters",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 20 Aug 2026 12:38:30 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "McLaren.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 09:45:00 GMT"
-      },
-      {
-        "author": "racingnews365.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 06:10:00 GMT"
-      },
-      {
-        "author": "BBC",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix: Fernando Alonso optimistic about Aston Martin's major upgrade - BBC",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
       }
     ]
   }
