@@ -122,14 +122,14 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "the-independent.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 grid: Starting positions for Dutch Grand Prix - the-independent.com",
+      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 15:07:00 GMT"
+      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -140,6 +140,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "the-independent.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 grid: Starting positions for Dutch Grand Prix - the-independent.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 15:07:00 GMT"
     },
     {
       "author": "Yahoo Sports",
@@ -160,28 +170,18 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 09:45:00 GMT"
-    },
-    {
-      "author": "racingnews365.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "the-independent.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 grid: Starting positions for Dutch Grand Prix - the-independent.com",
+      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 15:07:00 GMT"
+      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -192,6 +192,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "the-independent.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 grid: Starting positions for Dutch Grand Prix - the-independent.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 15:07:00 GMT"
     },
     {
       "author": "Yahoo Sports",
@@ -212,16 +222,6 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 09:45:00 GMT"
-    },
-    {
-      "author": "racingnews365.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
     }
   ]
 }
