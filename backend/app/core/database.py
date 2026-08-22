@@ -1,5 +1,7 @@
 import os
 import sys
+import sqlite3
+import logging
 from sqlalchemy import create_engine, event
 from sqlalchemy.orm import sessionmaker, declarative_base
 
@@ -8,6 +10,8 @@ if app_dir not in sys.path:
     sys.path.insert(0, app_dir)
 
 from core.config import settings
+
+logger = logging.getLogger("F1Database")
 
 # Create directory if needed
 os.makedirs(os.path.dirname(settings.SQLITE_DB_PATH), exist_ok=True)
@@ -31,6 +35,28 @@ def set_sqlite_pragma(dbapi_connection, connection_record):
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
+
+def ensure_sqlite_integrity():
+    """PRAGMA integrity_check; rebuild the (re-fetchable cache) DB on failure."""
+    db_path = settings.SQLITE_DB_PATH
+    try:
+        conn = sqlite3.connect(db_path)
+        try:
+            row = conn.execute("PRAGMA integrity_check").fetchone()
+            if row and str(row[0]).lower() == "ok":
+                return True
+        finally:
+            conn.close()
+    except Exception as e:
+        logger.warning(f"SQLite integrity check error: {e}")
+
+    logger.warning("SQLite DB failed integrity check; rebuilding cache from scratch.")
+    for suffix in ("", "-wal", "-shm"):
+        try:
+            os.remove(db_path + suffix)
+        except OSError:
+            pass
+    return False
 
 def get_db():
     db = SessionLocal()

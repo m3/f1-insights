@@ -1,6 +1,6 @@
 import os
 import sys
-from sqlalchemy import Column, Integer, String, Float, Boolean, DateTime, Text, func
+from sqlalchemy import Column, Integer, String, Float, Boolean, DateTime, Text, func, UniqueConstraint
 
 app_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if app_dir not in sys.path:
@@ -117,3 +117,16 @@ class SocialCache(Base):
     id = Column(String, primary_key=True, default="latest")
     payload_json = Column(Text, nullable=False)
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+class NotificationLog(Base):
+    __tablename__ = "notification_log"
+    __table_args__ = (
+        UniqueConstraint('race_name', 'session_type', 'brief_type', name='uq_notification'),
+        {'extend_existing': True},
+    )
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    race_name = Column(String, nullable=False)
+    session_type = Column(String, nullable=False)
+    brief_type = Column(String, nullable=False)
+    dispatched_at = Column(DateTime, server_default=func.now())

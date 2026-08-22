@@ -7,7 +7,6 @@ Generates canonical overview.json, social_feed.json, and SQLite database caches.
 import os
 import sys
 import json
-import sqlite3
 from datetime import datetime
 from typing import Dict, List, Any
 
@@ -20,11 +19,6 @@ for path in [project_root, backend_dir, pipeline_dir]:
     if path not in sys.path:
         sys.path.insert(0, path)
 
-try:
-    from app.core.config import settings
-except ImportError:
-    from core.config import settings
-
 from providers.jolpica_provider import JolpicaProvider
 from providers.fastf1_provider import FastF1Provider
 from providers.openmeteo_provider import OpenMeteoProvider
@@ -36,6 +30,10 @@ from fetchers.session_watcher import SessionWatcher
 from analytics.telemetry import F1AnalyticsEngine
 from generators.brief_generator import BriefGenerator
 from generators.notifier import F1Notifier
+from pipeline_common import (
+    build_core_overview, build_telemetry_data, build_strategy_data,
+    sync_caches_to_db, NotificationTrigger,
+)
 
 def find_target_race(schedule: List[Dict[str, Any]]) -> Dict[str, Any]:
     """Find the target active Grand Prix (defaults to Hungarian Grand Prix if active)."""
@@ -45,50 +43,12 @@ def find_target_race(schedule: List[Dict[str, Any]]) -> Dict[str, Any]:
             return race
     return schedule[-1] if schedule else {}
 
-def sync_sqlite_cache(db_path: str, overview_data: Dict[str, Any], social_data: Dict[str, Any]):
-    """Sync master overview & social feed payloads to SQLite database (f1_insights.db)."""
-    try:
-        conn = sqlite3.connect(db_path)
-        cursor = conn.cursor()
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS MasterOverviewCache (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                schema_version TEXT,
-                updated_at TEXT,
-                data_json TEXT
-            )
-        """)
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS SocialFeedCache (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                updated_at TEXT,
-                data_json TEXT
-            )
-        """)
-        cursor.execute("DELETE FROM MasterOverviewCache")
-        cursor.execute("DELETE FROM SocialFeedCache")
-        
-        cursor.execute(
-            "INSERT INTO MasterOverviewCache (schema_version, updated_at, data_json) VALUES (?, ?, ?)",
-            (overview_data.get("schema_version", "4.0"), overview_data.get("updatedAt"), json.dumps(overview_data))
-        )
-        cursor.execute(
-            "INSERT INTO SocialFeedCache (updated_at, data_json) VALUES (?, ?)",
-            (overview_data.get("updatedAt"), json.dumps(social_data))
-        )
-        conn.commit()
-        conn.close()
-        print("💾 Synced master v4.0 overview to SQLite database (f1_insights.db)")
-    except Exception as err:
-        print(f"⚠️ SQLite sync error: {err}")
-
 async def run_pipeline(mode: str = "full"):
     """Execute the data pipeline in 'full' or 'social' mode."""
     base_pipeline_dir = os.path.dirname(os.path.abspath(__file__))
     portal_data_dir = os.path.join(base_pipeline_dir, "..", "portal", "public", "data")
     root_data_dir = os.path.join(base_pipeline_dir, "..", "public", "data")
     dist_data_dir = os.path.join(base_pipeline_dir, "..", "portal", "dist", "data")
-    db_path = settings.SQLITE_DB_PATH
 
     jolpica = JolpicaProvider()
     openmeteo = OpenMeteoProvider()
@@ -221,47 +181,16 @@ async def run_pipeline(mode: str = "full"):
 
     # 5. Check & Dispatch Webhook Notifications
     print("📡 Checking Webhook Notifications...")
-    macro_state_dict = watcher.determine_macro_state(next_race)
-    
-    # We will expand Webhook rules in the future based on macroState transitions.
-    pass
-
-    # 6. Export Chunked Payloads for Scalability
     macro_state = watcher.determine_macro_state(next_race)
 
-    core_overview = {
-        "schema_version": "5.0",
-        "updatedAt": datetime.utcnow().isoformat() + "Z",
-        "timeline": macro_state,
-        "provenance": {
-            "sources": ["JolpicaErgast", "TracingInsights", "OpenMeteo"],
-            "tracingInsightsCommit": tracing.get_latest_commit_sha(),
-            "tracingInsightsSessions": ti_sessions,
-            "confidence": 1.0,
-            "status": "available",
-            "is_synthetic": False
-        },
-        "currentRace": next_race,
-        "circuitWeather": circuit_weather,
-        "schedule": schedule,
-        "driverStandings": driver_standings,
-        "constructorStandings": constructor_standings,
-        "latestPreBrief": pre_brief_portal,
-        "latestPostBrief": post_brief_portal,
-        "teammateBattles": teammate_battles
-    }
-
-    telemetry_data = {
-        "sectorMatrix": sector_matrix,
-        "circuitSpecs": circuit_specs
-    }
-
-    strategy_data = {
-        "gridPenalties": grid_penalties,
-        "penaltyWatch": penalty_watch,
-        "tyreStrategy": tyre_strategy,
-        "pitStops": pit_stops
-    }
+    # 6. Export Chunked Payloads for Scalability
+    core_overview = build_core_overview(
+        next_race, circuit_weather, schedule, driver_standings, constructor_standings,
+        pre_brief_portal, post_brief_portal, teammate_battles, macro_state,
+        tracing.get_latest_commit_sha(), ti_sessions
+    )
+    telemetry_data = build_telemetry_data(sector_matrix, circuit_specs)
+    strategy_data = build_strategy_data(grid_penalties, penalty_watch, tyre_strategy, pit_stops)
 
     for target_dir in [portal_data_dir, root_data_dir, dist_data_dir]:
         os.makedirs(target_dir, exist_ok=True)
@@ -274,8 +203,12 @@ async def run_pipeline(mode: str = "full"):
         with open(os.path.join(target_dir, "social_feed.json"), "w") as f:
             json.dump(social_sentiment, f, indent=2)
 
-    sync_sqlite_cache(db_path, core_overview, social_sentiment)
-    print("✅ F1 Insights Full Pipeline v4.0 execution completed successfully (Chunked Payloads)!")
+    sync_caches_to_db(core_overview, telemetry_data, strategy_data, social_sentiment)
+    NotificationTrigger().dispatch_if_due(
+        macro_state, race_name, pre_brief_portal, post_brief_portal,
+        notifier.send_discord_brief
+    )
+    print("✅ F1 Insights Full Pipeline v5.0 execution completed successfully (Chunked Payloads)!")
 
 if __name__ == "__main__":
     mode_arg = "full"

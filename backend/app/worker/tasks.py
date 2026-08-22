@@ -1,11 +1,9 @@
 import os
 import sys
-import json
 import asyncio
 import logging
 from datetime import datetime
 from tenacity import retry, wait_exponential, stop_after_attempt
-import httpx
 
 app_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 root_dir = os.path.dirname(app_dir)
@@ -13,9 +11,6 @@ pipeline_dir = os.path.join(root_dir, "data_pipeline")
 
 if pipeline_dir not in sys.path:
     sys.path.insert(0, pipeline_dir)
-
-from core.database import SessionLocal
-from db.models import MasterOverviewCache, TelemetryCache, StrategyCache, SocialCache
 
 from providers.jolpica_provider import JolpicaProvider
 from providers.openmeteo_provider import OpenMeteoProvider
@@ -27,28 +22,12 @@ from fetchers.session_watcher import SessionWatcher
 from analytics.telemetry import F1AnalyticsEngine
 from generators.brief_generator import BriefGenerator
 from generators.notifier import F1Notifier
+from pipeline_common import (
+    build_core_overview, build_telemetry_data, build_strategy_data,
+    sync_caches_to_db, NotificationTrigger,
+)
 
 logger = logging.getLogger("F1Worker")
-
-def sync_caches_to_db(core_overview, telemetry_data, strategy_data, social_data):
-    db = SessionLocal()
-    try:
-        db.query(MasterOverviewCache).delete()
-        db.query(TelemetryCache).delete()
-        db.query(StrategyCache).delete()
-        db.query(SocialCache).delete()
-
-        db.add(MasterOverviewCache(id="latest", payload_json=json.dumps(core_overview)))
-        db.add(TelemetryCache(id="latest", payload_json=json.dumps(telemetry_data)))
-        db.add(StrategyCache(id="latest", payload_json=json.dumps(strategy_data)))
-        db.add(SocialCache(id="latest", payload_json=json.dumps(social_data)))
-        db.commit()
-        logger.info("💾 Synced chunked payloads to SQLite caches successfully.")
-    except Exception as e:
-        db.rollback()
-        logger.error(f"⚠️ SQLite sync error: {e}")
-    finally:
-        db.close()
 
 def find_target_race(schedule):
     now_str = datetime.utcnow().strftime("%Y-%m-%d")
@@ -134,49 +113,23 @@ async def run_pipeline_async():
     
     pre_brief = await asyncio.to_thread(generator.build_pre_race_brief, next_race, pre_race_facts, penalty_watch, driver_standings)
     post_brief = await asyncio.to_thread(generator.build_post_race_brief, next_race, post_race_facts, teammate_battles, driver_standings)
-    
-    core_overview = {
-        "schema_version": "5.0",
-        "updatedAt": datetime.utcnow().isoformat() + "Z",
-        "provenance": {
-            "sources": ["JolpicaErgast", "TracingInsights", "OpenMeteo"],
-            "tracingInsightsCommit": await asyncio.to_thread(tracing.get_latest_commit_sha),
-            "tracingInsightsSessions": ti_sessions,
-            "confidence": 1.0,
-            "status": "available",
-            "is_synthetic": False
-        },
-        "currentRace": next_race,
-        "circuitWeather": circuit_weather,
-        "schedule": schedule,
-        "driverStandings": driver_standings,
-        "constructorStandings": constructor_standings,
-        "latestPreBrief": pre_brief,
-        "latestPostBrief": post_brief,
-        "teammateBattles": teammate_battles
-    }
-    
-    telemetry_data = {
-        "sectorMatrix": sector_matrix,
-        "circuitSpecs": circuit_specs
-    }
-    
-    strategy_data = {
-        "gridPenalties": grid_penalties,
-        "penaltyWatch": penalty_watch,
-        "tyreStrategy": tyre_strategy,
-        "pitStops": pit_stops
-    }
-    
-    await asyncio.to_thread(sync_caches_to_db, core_overview, telemetry_data, strategy_data, social_sentiment)
-    
-    pre_trigger_res = await asyncio.to_thread(watcher.should_trigger_pre_race_update, next_race)
-    post_trigger_res = await asyncio.to_thread(watcher.should_trigger_post_race_debrief, next_race)
 
-    if pre_trigger_res.get("should_trigger"):
-        await asyncio.to_thread(notifier.send_discord_brief, pre_brief)
-    if post_trigger_res.get("should_trigger"):
-        await asyncio.to_thread(notifier.send_discord_brief, post_brief)
+    macro_state = await asyncio.to_thread(watcher.determine_macro_state, next_race)
+    tracing_commit_sha = await asyncio.to_thread(tracing.get_latest_commit_sha)
+
+    core_overview = build_core_overview(
+        next_race, circuit_weather, schedule, driver_standings, constructor_standings,
+        pre_brief, post_brief, teammate_battles, macro_state, tracing_commit_sha, ti_sessions
+    )
+    telemetry_data = build_telemetry_data(sector_matrix, circuit_specs)
+    strategy_data = build_strategy_data(grid_penalties, penalty_watch, tyre_strategy, pit_stops)
+
+    await asyncio.to_thread(sync_caches_to_db, core_overview, telemetry_data, strategy_data, social_sentiment)
+
+    await asyncio.to_thread(
+        NotificationTrigger().dispatch_if_due,
+        macro_state, race_name, pre_brief, post_brief, notifier.send_discord_brief
+    )
 
 async def pipeline_worker_loop():
     """Async loop managed by FastAPI lifespan."""

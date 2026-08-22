@@ -17,7 +17,7 @@ for path in [app_dir, backend_dir, os.path.join(root_dir, "data_pipeline")]:
         sys.path.insert(0, path)
 
 from core.config import settings
-from core.database import engine, Base, SessionLocal
+from core.database import engine, Base, SessionLocal, ensure_sqlite_integrity
 from db.models import MasterOverviewCache
 from api.v1.router import api_router
 
@@ -38,6 +38,7 @@ async def lifespan(app: FastAPI):
         logger.critical("FATAL: Production deployment MUST configure a non-default ADMIN_API_KEY!")
         raise ValueError("CRITICAL: Insecure default ADMIN_API_KEY detected in production environment!")
         
+    ensure_sqlite_integrity()
     Base.metadata.create_all(bind=engine)
     populate_initial_db_cache()
     

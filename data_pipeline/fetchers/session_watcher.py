@@ -32,12 +32,12 @@ class SessionWatcher:
         """
         now = current_dt or datetime.utcnow()
         
-        format = "standard"
-        if "Sprint" in race_info or "SprintQualifying" in race_info:
-            format = "sprint"
+        weekend_format = "standard"
+        if race_info.get("Sprint") or race_info.get("SprintQualifying"):
+            weekend_format = "sprint"
             
         sessions = []
-        if format == "sprint":
+        if weekend_format == "sprint":
             sessions = [
                 ("FP1", race_info.get("FirstPractice")),
                 ("SprintQuali", race_info.get("SprintQualifying") or race_info.get("SecondPractice")),
@@ -65,7 +65,7 @@ class SessionWatcher:
         
         if not parsed_sessions:
             return {
-                "format": format,
+                "format": weekend_format,
                 "macroState": "PRE_WEEKEND",
                 "sessionType": None,
                 "dataStatus": "STALE",
@@ -74,7 +74,7 @@ class SessionWatcher:
             
         if now < parsed_sessions[0]["start"]:
             return {
-                "format": format,
+                "format": weekend_format,
                 "macroState": "PRE_WEEKEND",
                 "sessionType": None,
                 "dataStatus": "STALE",
@@ -104,7 +104,7 @@ class SessionWatcher:
             
             if sess["start"] <= now <= end_buffer:
                 return {
-                    "format": format,
+                    "format": weekend_format,
                     "macroState": "SESSION_IN_PROGRESS",
                     "sessionType": sess["name"],
                     "dataStatus": "LIVE",
@@ -116,7 +116,7 @@ class SessionWatcher:
                 
         if current_session:
             return {
-                "format": format,
+                "format": weekend_format,
                 "macroState": "POST_SESSION",
                 "sessionType": current_session["name"],
                 "dataStatus": "PROCESSING",
@@ -124,7 +124,7 @@ class SessionWatcher:
             }
 
         return {
-            "format": format,
+            "format": weekend_format,
             "macroState": "UNKNOWN",
             "sessionType": None,
             "dataStatus": "STALE",

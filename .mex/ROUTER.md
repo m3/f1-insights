@@ -14,7 +14,7 @@ edges:
     condition: when setting up the dev environment or running the project for the first time
   - target: patterns/INDEX.md
     condition: when starting a task — check the pattern index for a matching pattern file
-last_updated: [YYYY-MM-DD]
+last_updated: 2026-08-22
 ---
 
 # Session Bootstrap
@@ -24,19 +24,26 @@ If you haven't already read `AGENTS.md`, read it now — it contains the project
 Then read this file fully before doing anything else in this session.
 
 ## Current Project State
-<!-- What is working. What is not yet built. Known issues.
-     Update this section whenever significant work is completed.
-     This is the primary drift prevention mechanism — it re-grounds the agent every session.
-     Length: 3 sections (Working / Not Built / Known Issues), 3-7 items each.
-     Example:
+
+**Working:**
+- Portal (port 3010), FastAPI backend (port 8000), pipeline + social-worker — all restored on m3-vps.
+- Background async worker (`backend/app/worker/tasks.py`) completes a clean cycle: fetch → sync caches → `determine_macro_state` → idempotent notify → sleep 5m. The `should_trigger_*` `AttributeError`/`RetryError` crash is fixed.
+- Cache DB rebuilt; `overview_cache.payload_json` carries `timeline.macroState` + `schema_version 5.0`.
+- Idempotent notification triggers (post-quali → PRE_RACE, post-race → POST_RACE) wired via `data_pipeline/pipeline_common.py` `NotificationTrigger` + a `notification_log` table.
+- `core_overview`/cache-writer/trigger logic extracted to `data_pipeline/pipeline_common.py` (schema 5.0 defined in one place); `data_pipeline/main.py` migrated off raw-SQL cache tables.
+- Deps consolidated to `backend/requirements.txt` (single source of truth); all PM2 apps run on one canonical venv. SQLite `integrity_check` + rebuild-on-fail runs at backend startup.
+
+**Not yet built:**
+- Sprint-specific briefs (sprint quali / sprint race) — only main quali/race fire briefs today.
+
+**Known issues:**
+- `hishel` class-name drift: providers use `AsyncSQLiteStorage`, but hishel >=0.1 exposes `AsyncSqliteStorage` — see `context/decisions.md`.
+
+<!-- Below this line is the template example, kept for reference. Replace as the state evolves.
      **Working:**
      - User authentication and session management
-     - Core CRUD operations for all main entities
-
      **Not yet built:**
      - Email notification system
-     - Admin dashboard
-
      **Known issues:**
      - Pagination breaks on filtered queries with more than 1000 results -->
 

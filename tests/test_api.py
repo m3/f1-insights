@@ -27,12 +27,12 @@ def test_master_overview_endpoint():
     assert "currentRace" in data
     assert "driverStandings" in data
 
-def test_v4_schema_contract():
-    """Verify master overview endpoint conforms to v4.0 schema versioning and provenance contract."""
+def test_schema_contract():
+    """Verify master overview endpoint conforms to v5.0 schema versioning and provenance contract."""
     response = client.get("/api/v1/overview")
     assert response.status_code == 200
     data = response.json()
-    assert data.get("schema_version") == "4.0"
+    assert data.get("schema_version") == "5.0"
     assert "provenance" in data
     assert "sources" in data["provenance"]
     assert "JolpicaErgast" in data["provenance"]["sources"]
