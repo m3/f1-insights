@@ -4,7 +4,7 @@
   "raceName": "Dutch Grand Prix",
   "circuitName": "Circuit Park Zandvoort",
   "date": "2026-08-23",
-  "generatedAt": "2026-08-22T11:46:18.364788",
+  "generatedAt": "2026-08-22T12:37:43.568864",
   "facts": [],
   "teammateBattles": [
     {
@@ -33,7 +33,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "219",
+      "points": "224",
       "wins": "6",
       "Driver": {
         "driverId": "antonelli",
@@ -57,7 +57,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "169",
+      "points": "171",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -81,7 +81,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "160",
+      "points": "168",
       "wins": "2",
       "Driver": {
         "driverId": "russell",
@@ -105,7 +105,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "138",
+      "points": "145",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -129,7 +129,7 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "128",
+      "points": "134",
       "wins": "1",
       "Driver": {
         "driverId": "norris",
