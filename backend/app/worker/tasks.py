@@ -116,10 +116,10 @@ async def run_pipeline_async():
 
     sprint_results = []
     if next_race.get("Sprint"):
-        sprint_res = await jolpica.fetch_sprint_results()
+        sprint_res = await jolpica.fetch_sprint_results(race_round=next_race.get("round"))
         sprint_results = sprint_res.data if sprint_res.data else []
 
-    quali_res = await jolpica.fetch_qualifying_results()
+    quali_res = await jolpica.fetch_qualifying_results(race_round=next_race.get("round"))
     qualifying_results = quali_res.data if quali_res.data else []
 
     macro_state = await asyncio.to_thread(watcher.determine_macro_state, next_race)

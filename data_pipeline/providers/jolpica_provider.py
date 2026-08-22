@@ -11,6 +11,17 @@ from .base_provider import BaseProvider, ProviderResponse
 logger = logging.getLogger("JolpicaProvider")
 JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"
 
+def _bust(url: str) -> str:
+    """Append a unique query param to bypass Cloudflare's stale edge cache.
+
+    Jolpica corrects results post-session, but Cloudflare serves old
+    edge-cached payloads for the plain URL. A unique cache key forces an
+    origin fetch every time.
+    """
+    import time
+    sep = "&" if "?" in url else "?"
+    return f"{url}{sep}cb={time.time_ns()}"
+
 # Shared plain httpx client — no HTTP cache, no keep-alive. The worker polls
 # every 5 min and needs fresh results (sprint/race/qualifying get corrected
 # post-session). Jolpica's Cloudflare serves stale edge-cached values on
@@ -28,7 +39,7 @@ class JolpicaProvider(BaseProvider):
 
     async def fetch_schedule(self, season: str = "current") -> ProviderResponse:
         """Fetch 2026 race calendar."""
-        url = f"{JOLPICA_BASE}/{season}.json"
+        url = _bust(f"{JOLPICA_BASE}/{season}.json")
         try:
             res = await self.session.get(url, timeout=10.0)
             if res.status_code == 200:
@@ -52,7 +63,7 @@ class JolpicaProvider(BaseProvider):
 
     async def fetch_driver_standings(self, season: str = "current") -> ProviderResponse:
         """Fetch Driver Championship Standings."""
-        url = f"{JOLPICA_BASE}/{season}/driverStandings.json"
+        url = _bust(f"{JOLPICA_BASE}/{season}/driverStandings.json")
         try:
             res = await self.session.get(url, timeout=10.0)
             if res.status_code == 200:
@@ -79,7 +90,7 @@ class JolpicaProvider(BaseProvider):
 
     async def fetch_constructor_standings(self, season: str = "current") -> ProviderResponse:
         """Fetch Constructor Championship Standings."""
-        url = f"{JOLPICA_BASE}/{season}/constructorStandings.json"
+        url = _bust(f"{JOLPICA_BASE}/{season}/constructorStandings.json")
         try:
             res = await self.session.get(url, timeout=10.0)
             if res.status_code == 200:
@@ -106,7 +117,7 @@ class JolpicaProvider(BaseProvider):
 
     async def fetch_race_results(self, season: str = "current") -> ProviderResponse:
         """Fetch completed race results for active season."""
-        url = f"{JOLPICA_BASE}/{season}/results.json?limit=500"
+        url = _bust(f"{JOLPICA_BASE}/{season}/results.json?limit=500")
         try:
             res = await self.session.get(url, timeout=10.0)
             if res.status_code == 200:
@@ -129,9 +140,17 @@ class JolpicaProvider(BaseProvider):
             error_class="ProviderUnavailable"
         )
 
-    async def fetch_sprint_results(self, season: str = "current") -> ProviderResponse:
-        """Fetch sprint race results for the current round (empty list on standard weekends)."""
-        url = f"{JOLPICA_BASE}/{season}/sprint.json"
+    async def fetch_sprint_results(self, season: str = "current", race_round: str = None) -> ProviderResponse:
+        """Fetch sprint race results for the current round (empty list on standard weekends).
+
+        The explicit round path (current/12/sprint.json) returns refreshed
+        results; the round-less alias (current/sprint.json) can serve stale
+        payloads, so always pass the round when known.
+        """
+        base = f"{JOLPICA_BASE}/{season}"
+        if race_round:
+            base = f"{base}/{race_round}"
+        url = _bust(f"{base}/sprint.json")
         try:
             res = await self.session.get(url, timeout=10.0)
             if res.status_code == 200:
@@ -155,9 +174,12 @@ class JolpicaProvider(BaseProvider):
             error_class="ProviderUnavailable"
         )
 
-    async def fetch_qualifying_results(self, season: str = "current") -> ProviderResponse:
+    async def fetch_qualifying_results(self, season: str = "current", race_round: str = None) -> ProviderResponse:
         """Fetch main qualifying results for the current round (empty until published)."""
-        url = f"{JOLPICA_BASE}/{season}/qualifying.json"
+        base = f"{JOLPICA_BASE}/{season}"
+        if race_round:
+            base = f"{base}/{race_round}"
+        url = _bust(f"{base}/qualifying.json")
         try:
             res = await self.session.get(url, timeout=10.0)
             if res.status_code == 200:
