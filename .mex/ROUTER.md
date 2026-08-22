@@ -37,7 +37,7 @@ Then read this file fully before doing anything else in this session.
 - Sprint-specific briefs (sprint quali / sprint race) — only main quali/race fire briefs today.
 
 **Known issues:**
-- `hishel` class-name drift: providers use `AsyncSQLiteStorage`, but hishel >=0.1 exposes `AsyncSqliteStorage` — see `context/decisions.md`.
+- None currently tracked.
 
 <!-- Below this line is the template example, kept for reference. Replace as the state evolves.
      **Working:**
