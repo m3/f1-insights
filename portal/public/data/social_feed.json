@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 75,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 60,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 85,
-      "sentiment": "Positive",
+      "score": 70,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 81,
-      "sentiment": "Positive",
+      "score": 66,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 77,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 73,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 69,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,11 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 65,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [],
-  "xTracksideFeed": []
+  "breakingNewsTweets": [
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Norris denies Russell pole position in Dutch GP Qualifying - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 15:13:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Dutch Grand Prix: George Russell leads from start to finish to win sprint race - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 10:45:13 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What Verstappen thinks Red Bull substitutes have exposed about F1 - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 18:56:15 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 points leader Antonelli calls Dutch GP a \u2018wake-up call\u2019 after qualifying mistakes - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 16:24:16 GMT"
+    },
+    {
+      "author": "Mashable",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "I'm watching the Dutch GP for free this weekend \u2014 how to live stream F1 for free - Mashable",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 09:45:26 GMT"
+    }
+  ],
+  "xTracksideFeed": [
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Norris denies Russell pole position in Dutch GP Qualifying - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 15:13:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Dutch Grand Prix: George Russell leads from start to finish to win sprint race - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 10:45:13 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What Verstappen thinks Red Bull substitutes have exposed about F1 - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 18:56:15 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 points leader Antonelli calls Dutch GP a \u2018wake-up call\u2019 after qualifying mistakes - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 16:24:16 GMT"
+    },
+    {
+      "author": "Mashable",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "I'm watching the Dutch GP for free this weekend \u2014 how to live stream F1 for free - Mashable",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 09:45:26 GMT"
+    }
+  ]
 }
