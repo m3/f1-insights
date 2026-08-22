@@ -28,6 +28,19 @@ def populate_initial_db_cache():
     """No-op. Legacy JSON mock feed has been purged."""
     pass
 
+def purge_hishel_cache():
+    """Drop the hishel HTTP cache so corrected upstream results are refetched.
+
+    Old entries were written with ttl=None (indefinite), so a provider TTL
+    change alone can't expire them. The cache is disposable — rebuild fresh.
+    """
+    for base in (os.getcwd(), app_dir):
+        for suffix in ("", "-wal", "-shm"):
+            try:
+                os.remove(os.path.join(base, ".hishel.sqlite" + suffix))
+            except OSError:
+                pass
+
 from worker.tasks import pipeline_worker_loop
 
 @asynccontextmanager
@@ -37,7 +50,8 @@ async def lifespan(app: FastAPI):
     if settings.ENVIRONMENT.lower() == "production" and settings.ADMIN_API_KEY == "f1-insights-admin-secret-key-2026":
         logger.critical("FATAL: Production deployment MUST configure a non-default ADMIN_API_KEY!")
         raise ValueError("CRITICAL: Insecure default ADMIN_API_KEY detected in production environment!")
-        
+
+    purge_hishel_cache()
     ensure_sqlite_integrity()
     Base.metadata.create_all(bind=engine)
     populate_initial_db_cache()
