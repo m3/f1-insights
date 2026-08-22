@@ -189,10 +189,13 @@ async def run_pipeline(mode: str = "full"):
         sprint_res = await jolpica.fetch_sprint_results()
         sprint_results = sprint_res.data if sprint_res.data else []
 
+    quali_res = await jolpica.fetch_qualifying_results()
+    qualifying_results = quali_res.data if quali_res.data else []
+
     core_overview = build_core_overview(
         next_race, circuit_weather, schedule, driver_standings, constructor_standings,
         pre_brief_portal, post_brief_portal, teammate_battles, macro_state,
-        tracing.get_latest_commit_sha(), ti_sessions, sprint_results
+        tracing.get_latest_commit_sha(), ti_sessions, sprint_results, qualifying_results
     )
     telemetry_data = build_telemetry_data(sector_matrix, circuit_specs)
     strategy_data = build_strategy_data(grid_penalties, penalty_watch, tyre_strategy, pit_stops)

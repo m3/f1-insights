@@ -16,7 +16,7 @@ class OpenF1Provider(BaseProvider):
 
     def __init__(self, cache_ttl_seconds: int = 60):
         super().__init__("OpenF1", cache_ttl_seconds)
-        self.storage = hishel.AsyncSQLiteStorage()
+        self.storage = hishel.AsyncSQLiteStorage(ttl=self.cache_ttl_seconds)
         self.session = hishel.AsyncCacheClient(storage=self.storage)
 
     async def fetch_car_data(self, session_key: str, driver_number: int) -> ProviderResponse:

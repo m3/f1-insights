@@ -14,8 +14,8 @@ JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"
 
 class JolpicaProvider(BaseProvider):
     def __init__(self):
-        super().__init__(provider_name="JolpicaErgast", cache_ttl_seconds=86400)
-        self.storage = hishel.AsyncSQLiteStorage()
+        super().__init__(provider_name="JolpicaErgast", cache_ttl_seconds=300)
+        self.storage = hishel.AsyncSQLiteStorage(ttl=self.cache_ttl_seconds)
         self.session = hishel.AsyncCacheClient(
             storage=self.storage,
             headers={"User-Agent": "F1-Insights-Brief/4.0"}
@@ -141,6 +141,32 @@ class JolpicaProvider(BaseProvider):
                 )
         except Exception as e:
             logger.warning(f"Jolpica sprint results fetch error: {e}")
+
+        return ProviderResponse(
+            data=[],
+            source="JolpicaErgast",
+            confidence=0.0,
+            status="failed",
+            error_class="ProviderUnavailable"
+        )
+
+    async def fetch_qualifying_results(self, season: str = "current") -> ProviderResponse:
+        """Fetch main qualifying results for the current round (empty until published)."""
+        url = f"{JOLPICA_BASE}/{season}/qualifying.json"
+        try:
+            res = await self.session.get(url, timeout=10.0)
+            if res.status_code == 200:
+                data = res.json()
+                races = data.get("MRData", {}).get("RaceTable", {}).get("Races", [])
+                qualifying_results = races[0].get("QualifyingResults", []) if races else []
+                return ProviderResponse(
+                    data=qualifying_results,
+                    source="JolpicaErgast",
+                    confidence=1.0,
+                    status="available"
+                )
+        except Exception as e:
+            logger.warning(f"Jolpica qualifying results fetch error: {e}")
 
         return ProviderResponse(
             data=[],

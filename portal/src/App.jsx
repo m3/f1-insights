@@ -62,7 +62,10 @@ export default function App() {
   const penaltyPoints = Array.isArray(data?.penaltyWatch?.high_risk_drivers) ? data.penaltyWatch.high_risk_drivers : [];
   const teammateBattles = Array.isArray(data?.teammateBattles) ? data.teammateBattles : [];
   const sprintResults = Array.isArray(data?.sprintResults) ? data.sprintResults : [];
-  const sessionClassification = sprintResults.length > 0 ? sprintResults : driverStandings;
+  const qualifyingResults = Array.isArray(data?.qualifyingResults) ? data.qualifyingResults : [];
+  const sessionClassification = qualifyingResults.length > 0
+    ? qualifyingResults
+    : (sprintResults.length > 0 ? sprintResults : driverStandings);
 
   return (
     <div style={{ maxWidth: '1440px', margin: '0 auto', padding: '0 16px 40px' }}>

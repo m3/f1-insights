@@ -37,6 +37,11 @@ export default function SessionClassificationTable({ data }) {
     let timeGap = '-';
     if (item.Time?.time) timeGap = item.Time.time;
     else if (item.gap) timeGap = item.gap;
+    else if (item.Q1 || item.Q2 || item.Q3) {
+      // Qualifying results: show the fastest of Q1/Q2/Q3
+      const laps = [item.Q1, item.Q2, item.Q3].filter(Boolean).sort();
+      timeGap = laps[0] || '-';
+    }
     else if (finishPos === 1 && status.includes('Finished')) timeGap = 'Leader';
 
     return {

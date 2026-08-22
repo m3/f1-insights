@@ -15,7 +15,7 @@ OPEN_METEO_BASE = "https://api.open-meteo.com/v1/forecast"
 class OpenMeteoProvider(BaseProvider):
     def __init__(self):
         super().__init__(provider_name="OpenMeteo", cache_ttl_seconds=600)
-        self.storage = hishel.AsyncSQLiteStorage()
+        self.storage = hishel.AsyncSQLiteStorage(ttl=self.cache_ttl_seconds)
         self.session = hishel.AsyncCacheClient(storage=self.storage)
 
     async def fetch_weather(self, lat: float = 47.583, lon: float = 19.248, circuit_name: str = "Hungaroring") -> ProviderResponse:
