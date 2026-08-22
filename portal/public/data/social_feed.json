@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 67,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris denies Russell pole position in Dutch GP Qualifying - Formula 1",
+      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 15:13:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from 2026 Dutch GP qualifying - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 16:52:35 GMT"
+      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen feeling \"flu-like\" as Zandvoort exposes Red Bull's fundamental problems - Motorsport.com",
+      "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 17:32:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "CNET",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix: How to Watch the F1 Race Today - CNET",
+      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 19:00:00 GMT"
+      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
     },
     {
-      "author": "BBC",
+      "author": "the-independent.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix: Lando Norris says he is expecting a challenge for victory at Zandvoort - BBC",
+      "text": "F1 grid: Starting positions for Dutch Grand Prix - the-independent.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 17:43:01 GMT"
+      "time": "Sat, 22 Aug 2026 15:07:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris denies Russell pole position in Dutch GP Qualifying - Formula 1",
+      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 15:13:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from 2026 Dutch GP qualifying - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 16:52:35 GMT"
+      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen feeling \"flu-like\" as Zandvoort exposes Red Bull's fundamental problems - Motorsport.com",
+      "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 17:32:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "CNET",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix: How to Watch the F1 Race Today - CNET",
+      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 19:00:00 GMT"
+      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
     },
     {
-      "author": "BBC",
+      "author": "the-independent.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Dutch Grand Prix: Lando Norris says he is expecting a challenge for victory at Zandvoort - BBC",
+      "text": "F1 grid: Starting positions for Dutch Grand Prix - the-independent.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 17:43:01 GMT"
+      "time": "Sat, 22 Aug 2026 15:07:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
     }
   ]
 }
