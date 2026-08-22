@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 67,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 54,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 77,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 73,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 69,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 65,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 61,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 57,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Yahoo Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+      "text": "Russell surges to victory in Zandvoort Sprint ahead of Leclerc and Norris - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+      "time": "Sat, 22 Aug 2026 10:47:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
+      "text": "Winners and losers from F1's Dutch GP sprint race - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 22 Aug 2026 11:27:34 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren.com",
+      "text": "F1 Dutch GP live commentary and updates - qualifying - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
+      "time": "Sat, 22 Aug 2026 12:29:05 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
+      "text": "Dutch Grand Prix: George Russell takes third sprint race victory of the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
+      "time": "Sat, 22 Aug 2026 10:36:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Mashable",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix: Fernando Alonso optimistic about Aston Martin's major upgrade - BBC",
+      "text": "I'm watching the Dutch GP for free this weekend \u2014 how to live stream F1 for free - Mashable",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 21 Aug 2026 09:00:41 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Yahoo Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+      "text": "Russell surges to victory in Zandvoort Sprint ahead of Leclerc and Norris - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+      "time": "Sat, 22 Aug 2026 10:47:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
+      "text": "Winners and losers from F1's Dutch GP sprint race - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 22 Aug 2026 11:27:34 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u201cOUR GOALS ARE SET HIGH\u201d - LANDO AIMING TO BUILD MOMENTUM AT ZANDVOORT - McLaren.com",
+      "text": "F1 Dutch GP live commentary and updates - qualifying - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 09:45:00 GMT"
+      "time": "Sat, 22 Aug 2026 12:29:05 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
+      "text": "Dutch Grand Prix: George Russell takes third sprint race victory of the season - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
+      "time": "Sat, 22 Aug 2026 10:36:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Mashable",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix: Fernando Alonso optimistic about Aston Martin's major upgrade - BBC",
+      "text": "I'm watching the Dutch GP for free this weekend \u2014 how to live stream F1 for free - Mashable",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 21 Aug 2026 09:00:41 GMT"
     }
   ]
 }
