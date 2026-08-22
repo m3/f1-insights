@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-21T23:49:16.612428Z",
+  "updatedAt": "2026-08-22T00:44:22.586617Z",
   "timeline": {
     "format": "sprint",
     "macroState": "POST_SESSION",
@@ -1980,14 +1980,14 @@
     ],
     "breakingNewsTweets": [
       {
-        "author": "Crash.net",
+        "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Fernando Alonso blames upgraded Honda power unit for F1 Dutch GP sprint qualifying problems - Crash.net",
+        "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 16:40:00 GMT"
+        "time": "Fri, 21 Aug 2026 06:10:00 GMT"
       },
       {
         "author": "Motorsport.com",
@@ -1998,16 +1998,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "racingnews365.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 06:10:00 GMT"
       },
       {
         "author": "Yahoo Sports",
@@ -2028,18 +2018,28 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 21 Aug 2026 09:45:00 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
       {
-        "author": "Crash.net",
+        "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Fernando Alonso blames upgraded Honda power unit for F1 Dutch GP sprint qualifying problems - Crash.net",
+        "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 16:40:00 GMT"
+        "time": "Fri, 21 Aug 2026 06:10:00 GMT"
       },
       {
         "author": "Motorsport.com",
@@ -2050,16 +2050,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "racingnews365.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 06:10:00 GMT"
       },
       {
         "author": "Yahoo Sports",
@@ -2080,6 +2070,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 21 Aug 2026 09:45:00 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ]
   }
