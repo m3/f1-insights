@@ -37,7 +37,7 @@ def _ensure_tables():
 def build_core_overview(next_race, circuit_weather, schedule, driver_standings,
                         constructor_standings, pre_brief, post_brief,
                         teammate_battles, macro_state, tracing_commit_sha,
-                        ti_sessions):
+                        ti_sessions, sprint_results=None):
     """Build the canonical schema v5.0 core overview payload."""
     return {
         "schema_version": "5.0",
@@ -58,7 +58,8 @@ def build_core_overview(next_race, circuit_weather, schedule, driver_standings,
         "constructorStandings": constructor_standings,
         "latestPreBrief": pre_brief,
         "latestPostBrief": post_brief,
-        "teammateBattles": teammate_battles
+        "teammateBattles": teammate_battles,
+        "sprintResults": sprint_results or []
     }
 
 

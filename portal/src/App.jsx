@@ -61,6 +61,8 @@ export default function App() {
   const constructorStandings = Array.isArray(data?.constructorStandings) ? data.constructorStandings : [];
   const penaltyPoints = Array.isArray(data?.penaltyWatch?.high_risk_drivers) ? data.penaltyWatch.high_risk_drivers : [];
   const teammateBattles = Array.isArray(data?.teammateBattles) ? data.teammateBattles : [];
+  const sprintResults = Array.isArray(data?.sprintResults) ? data.sprintResults : [];
+  const sessionClassification = sprintResults.length > 0 ? sprintResults : driverStandings;
 
   return (
     <div style={{ maxWidth: '1440px', margin: '0 auto', padding: '0 16px 40px' }}>
@@ -98,7 +100,7 @@ export default function App() {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px', width: '100%' }}>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
                <StrategicPositionIndex data={data} />
-               <SessionClassificationTable data={data} currentRace={currentRace} />
+               <SessionClassificationTable data={{ ...data, driverStandings: sessionClassification }} currentRace={currentRace} />
                <GridPenaltiesTracker penaltiesData={data?.gridPenalties} />
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>

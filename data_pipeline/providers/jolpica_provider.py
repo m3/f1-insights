@@ -123,3 +123,29 @@ class JolpicaProvider(BaseProvider):
             status="failed",
             error_class="ProviderUnavailable"
         )
+
+    async def fetch_sprint_results(self, season: str = "current") -> ProviderResponse:
+        """Fetch sprint race results for the current round (empty list on standard weekends)."""
+        url = f"{JOLPICA_BASE}/{season}/sprint.json"
+        try:
+            res = await self.session.get(url, timeout=10.0)
+            if res.status_code == 200:
+                data = res.json()
+                races = data.get("MRData", {}).get("RaceTable", {}).get("Races", [])
+                sprint_results = races[0].get("SprintResults", []) if races else []
+                return ProviderResponse(
+                    data=sprint_results,
+                    source="JolpicaErgast",
+                    confidence=1.0,
+                    status="available"
+                )
+        except Exception as e:
+            logger.warning(f"Jolpica sprint results fetch error: {e}")
+
+        return ProviderResponse(
+            data=[],
+            source="JolpicaErgast",
+            confidence=0.0,
+            status="failed",
+            error_class="ProviderUnavailable"
+        )

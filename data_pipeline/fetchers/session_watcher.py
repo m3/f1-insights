@@ -63,6 +63,12 @@ class SessionWatcher:
                     
         parsed_sessions = sorted(parsed_sessions, key=lambda x: x["start"])
         
+        next_session = next((s for s in parsed_sessions if s["start"] > now), None)
+        next_session_payload = {
+            "name": next_session["name"],
+            "timeUtc": next_session["start"].isoformat() + "Z"
+        } if next_session else None
+        
         if not parsed_sessions:
             return {
                 "format": weekend_format,
@@ -79,10 +85,7 @@ class SessionWatcher:
                 "sessionType": None,
                 "dataStatus": "STALE",
                 "lastUpdatedUtc": now.isoformat() + "Z",
-                "nextSession": {
-                    "name": parsed_sessions[0]["name"],
-                    "timeUtc": parsed_sessions[0]["start"].isoformat() + "Z"
-                }
+                "nextSession": next_session_payload
             }
             
         current_session = None
@@ -108,7 +111,8 @@ class SessionWatcher:
                     "macroState": "SESSION_IN_PROGRESS",
                     "sessionType": sess["name"],
                     "dataStatus": "LIVE",
-                    "lastUpdatedUtc": now.isoformat() + "Z"
+                    "lastUpdatedUtc": now.isoformat() + "Z",
+                    "nextSession": next_session_payload
                 }
             
             if now > end_buffer:
@@ -120,7 +124,8 @@ class SessionWatcher:
                 "macroState": "POST_SESSION",
                 "sessionType": current_session["name"],
                 "dataStatus": "PROCESSING",
-                "lastUpdatedUtc": now.isoformat() + "Z"
+                "lastUpdatedUtc": now.isoformat() + "Z",
+                "nextSession": next_session_payload
             }
 
         return {
@@ -128,7 +133,8 @@ class SessionWatcher:
             "macroState": "UNKNOWN",
             "sessionType": None,
             "dataStatus": "STALE",
-            "lastUpdatedUtc": now.isoformat() + "Z"
+            "lastUpdatedUtc": now.isoformat() + "Z",
+            "nextSession": next_session_payload
         }
 
     # Keep backwards compatibility for old main.py methods

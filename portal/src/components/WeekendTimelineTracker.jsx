@@ -1,10 +1,50 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
+const SESSION_LABELS = {
+  MainQuali: 'Qualifying',
+  MainRace: 'Race',
+  SprintQuali: 'Sprint Qualifying',
+  SprintRace: 'Sprint Race',
+};
+
+function sessionLabel(name) {
+  return (SESSION_LABELS[name] || name || '').toUpperCase();
+}
+
+function formatSessionTime(iso) {
+  const d = new Date(iso);
+  return d.toLocaleString([], {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+}
+
+function formatCountdown(iso) {
+  const ms = new Date(iso).getTime() - Date.now();
+  if (ms <= 0) return 'STARTING NOW';
+  const s = Math.floor(ms / 1000);
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  return h > 0 ? `${h}h ${m}m ${sec}s` : `${m}m ${sec}s`;
+}
 
 export default function WeekendTimelineTracker({ timeline, activeView, setActiveView }) {
+  const [nowTick, setNowTick] = useState(Date.now());
+
+  useEffect(() => {
+    const id = setInterval(() => setNowTick(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
   if (!timeline) return null;
 
   const states = ['PRE_WEEKEND', 'SESSION_IN_PROGRESS', 'POST_SESSION'];
-  
+  const next = timeline.nextSession;
+
   const getLabel = (st) => {
     switch(st) {
       case 'PRE_WEEKEND': return 'Pre-Weekend';
@@ -26,7 +66,9 @@ export default function WeekendTimelineTracker({ timeline, activeView, setActive
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
-      marginBottom: '24px'
+      gap: '16px',
+      marginBottom: '24px',
+      flexWrap: 'wrap'
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
         <h2 className="font-orbitron" style={{ fontSize: '1.2rem', margin: 0, color: '#FFF' }}>
@@ -44,8 +86,34 @@ export default function WeekendTimelineTracker({ timeline, activeView, setActive
           {timeline.dataStatus}
         </div>
       </div>
-      
-      <div style={{ display: 'flex', gap: '8px' }}>
+
+      {next && (
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '12px',
+          padding: '8px 16px',
+          borderRadius: '8px',
+          background: 'rgba(255, 24, 1, 0.12)',
+          border: '1px solid rgba(255, 24, 1, 0.35)',
+          flexWrap: 'wrap'
+        }}>
+          <span style={{ color: 'var(--text-dim)', fontSize: '0.75rem', fontWeight: 700, letterSpacing: '1px' }}>
+            NEXT SESSION
+          </span>
+          <strong style={{ color: '#FF1801', fontSize: '1rem', letterSpacing: '1px' }}>
+            {sessionLabel(next.name)}
+          </strong>
+          <span className="font-mono" style={{ color: '#FFF', fontSize: '0.9rem' }}>
+            {formatSessionTime(next.timeUtc)}
+          </span>
+          <span className="font-mono" style={{ color: '#34D399', fontSize: '0.9rem', fontWeight: 700 }}>
+            T-{formatCountdown(next.timeUtc)}
+          </span>
+        </div>
+      )}
+
+      <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
         {states.map(st => (
           <button
             key={st}

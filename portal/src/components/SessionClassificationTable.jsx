@@ -10,16 +10,18 @@ export default function SessionClassificationTable({ data }) {
   
   const driversList = rawStandings.length > 0 ? rawStandings.map((item, idx) => {
     const dObj = item.Driver || {};
-    const cObj = (item.Constructors && item.Constructors[0]) || {};
+    const cObj = (item.Constructors && item.Constructors[0]) || item.Constructor || {};
     const code = dObj.code || `D${idx+1}`;
     const name = `${dObj.givenName || ''} ${dObj.familyName || ''}`.trim() || dObj.driverId || `Driver ${idx+1}`;
     const team = cObj.name || dObj.current_team || 'F1 Team';
     const number = dObj.permanentNumber || `${idx+1}`;
     
     const finishPos = parseInt(item.position || idx + 1, 10);
-    const hasGridPos = item.gridPosition !== undefined && item.gridPosition !== null;
-    const gridPosInt = hasGridPos ? parseInt(item.gridPosition, 10) : null;
-    const delta = hasGridPos ? (gridPosInt - finishPos) : null;
+    const gridRaw = item.gridPosition !== undefined && item.gridPosition !== null
+      ? item.gridPosition
+      : (item.grid !== undefined && item.grid !== null ? item.grid : null);
+    const gridPosInt = gridRaw !== null ? parseInt(gridRaw, 10) : null;
+    const delta = gridPosInt !== null ? (gridPosInt - finishPos) : null;
 
     // Remove fake hardcoded tyre strategy. Only show if we actually have them.
     const tyres = Array.isArray(item.tyreStints) && item.tyreStints.length > 0

@@ -114,12 +114,18 @@ async def run_pipeline_async():
     pre_brief = await asyncio.to_thread(generator.build_pre_race_brief, next_race, pre_race_facts, penalty_watch, driver_standings)
     post_brief = await asyncio.to_thread(generator.build_post_race_brief, next_race, post_race_facts, teammate_battles, driver_standings)
 
+    sprint_results = []
+    if next_race.get("Sprint"):
+        sprint_res = await jolpica.fetch_sprint_results()
+        sprint_results = sprint_res.data if sprint_res.data else []
+
     macro_state = await asyncio.to_thread(watcher.determine_macro_state, next_race)
     tracing_commit_sha = await asyncio.to_thread(tracing.get_latest_commit_sha)
 
     core_overview = build_core_overview(
         next_race, circuit_weather, schedule, driver_standings, constructor_standings,
-        pre_brief, post_brief, teammate_battles, macro_state, tracing_commit_sha, ti_sessions
+        pre_brief, post_brief, teammate_battles, macro_state, tracing_commit_sha, ti_sessions,
+        sprint_results
     )
     telemetry_data = build_telemetry_data(sector_matrix, circuit_specs)
     strategy_data = build_strategy_data(grid_penalties, penalty_watch, tyre_strategy, pit_stops)
