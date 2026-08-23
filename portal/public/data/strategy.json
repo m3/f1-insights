@@ -1,7 +1,138 @@
 {
   "gridPenalties": {
     "startingGridImpacts": [],
-    "inRaceTimePenalties": []
+    "inRaceTimePenalties": [
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 23 (ALB) REVIEWED NO FURTHER INVESTIGATION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS",
+        "lap": 1,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 3 (VER) REVIEWED NO FURTHER INVESTIGATION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS",
+        "lap": 1,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 55 (SAI) REVIEWED NO FURTHER INVESTIGATION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS",
+        "lap": 1,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 44 (HAM) REVIEWED NO FURTHER INVESTIGATION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS",
+        "lap": 1,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 43 (COL) REVIEWED NO FURTHER INVESTIGATION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS",
+        "lap": 1,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CAR 31 (OCO) REVIEWED NO FURTHER INVESTIGATION - YELLOW FLAG INFRINGEMENT (15:04:54)",
+        "lap": 3,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CAR 41 (LIN) UNDER INVESTIGATION - YELLOW FLAG INFRINGEMENT (15:04:49)",
+        "lap": 3,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 14 INCIDENT INVOLVING CAR 43 (COL) UNDER INVESTIGATION - YELLOW FLAG INFRINGEMENT (15:04:50)",
+        "lap": 3,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: DRIVE THROUGH PENALTY FOR CAR 41 (LIN) - YELLOW FLAG INFRINGEMENT (15:04:49)",
+        "lap": 5,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: DRIVE THROUGH PENALTY FOR CAR 43 (COL) - YELLOW FLAG INFRINGEMENT (15:04:50)",
+        "lap": 7,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 87 (BEA) WILL BE INVESTIGATED AFTER THE RACE - LEAVING PIT EXIT ON RED LIGHT (15:33:53)",
+        "lap": 12,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 5 (BOR) WILL BE INVESTIGATED AFTER THE RACE - LEAVING PIT EXIT ON RED LIGHT (15:33:53)",
+        "lap": 12,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - DRIVE THROUGH PENALTY FOR CAR 41 (LIN) - YELLOW FLAG INFRINGEMENT (15:04:49)",
+        "lap": 13,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - DRIVE THROUGH PENALTY FOR CAR 43 (COL) - YELLOW FLAG INFRINGEMENT (15:04:50)",
+        "lap": 13,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 81 (PIA) AND 44 (HAM) REVIEWED NO FURTHER INVESTIGATION - DRIVING ERRATICALLY (16:18:41)",
+        "lap": 38,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "CAR 23 (ALB) LAP DELETED - TRACK LIMITS AT TURN 3 LAP 49 16:38:32 (PIT)",
+        "lap": 51,
+        "category": "Track Limits"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 43 (COL) UNDER INVESTIGATION - YELLOW FLAG INFRINGEMENT (16:44:04)",
+        "lap": 66,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 43 (COL) - YELLOW FLAG INFRINGEMENT (16:44:04)",
+        "lap": 68,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 43 (COL) - YELLOW FLAG INFRINGEMENT (16:44:04)",
+        "lap": 68,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 30 (LAW) UNDER INVESTIGATION - YELLOW FLAG INFRINGEMENT (16:44:04)",
+        "lap": 68,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "CAR 55 (SAI) LAP DELETED - TRACK LIMITS AT TURN 1 LAP 65 17:00:31 (PIT)",
+        "lap": 69,
+        "category": "Track Limits"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 30 (LAW) - YELLOW FLAG INFRINGEMENT (16:44:04)",
+        "lap": 70,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 30 (LAW) - YELLOW FLAG INFRINGEMENT (16:44:04)",
+        "lap": 70,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 55 (SAI) AND 23 (ALB) UNDER INVESTIGATION - CAUSING A COLLISION (17:04:55)",
+        "lap": 71,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 55 (SAI) - CAUSING A COLLISION (17:04:55)",
+        "lap": 71,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 55 (SAI) - CAUSING A COLLISION (17:04:55)",
+        "lap": 71,
+        "category": "Steward Decision"
+      }
+    ]
   },
   "penaltyWatch": {
     "high_risk_drivers": [],
