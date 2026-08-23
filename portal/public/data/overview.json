@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-23T11:58:04.148146Z",
+  "updatedAt": "2026-08-23T12:35:39.754175Z",
   "timeline": {
     "format": "sprint",
     "macroState": "POST_SESSION",
@@ -3173,7 +3173,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "POSITIVE",
-    "sentimentScore": 65,
+    "sentimentScore": 67,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -3242,7 +3242,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 75,
+        "score": 77,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -3251,7 +3251,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 71,
+        "score": 73,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -3260,7 +3260,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 67,
+        "score": 69,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -3269,7 +3269,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 63,
+        "score": 65,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -3278,7 +3278,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 59,
+        "score": 61,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -3287,7 +3287,7 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 55,
+        "score": 57,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
@@ -3301,7 +3301,7 @@
         "text": "F1 grid: Starting positions for Dutch Grand Prix - the-independent.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 15:07:00 GMT"
+        "time": "Sun, 23 Aug 2026 10:23:00 GMT"
       },
       {
         "author": "Motorsport.com",
@@ -3334,14 +3334,14 @@
         "time": "Fri, 21 Aug 2026 09:45:00 GMT"
       },
       {
-        "author": "autohebdof1.com",
+        "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "2026 Formula 1 Dutch Grand Prix \u2013 Saturday's schedule - autohebdof1.com",
+        "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 15:12:10 GMT"
+        "time": "Fri, 21 Aug 2026 06:10:00 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -3353,7 +3353,7 @@
         "text": "F1 grid: Starting positions for Dutch Grand Prix - the-independent.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 15:07:00 GMT"
+        "time": "Sun, 23 Aug 2026 10:23:00 GMT"
       },
       {
         "author": "Motorsport.com",
@@ -3386,14 +3386,14 @@
         "time": "Fri, 21 Aug 2026 09:45:00 GMT"
       },
       {
-        "author": "autohebdof1.com",
+        "author": "racingnews365.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "2026 Formula 1 Dutch Grand Prix \u2013 Saturday's schedule - autohebdof1.com",
+        "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 15:12:10 GMT"
+        "time": "Fri, 21 Aug 2026 06:10:00 GMT"
       }
     ]
   }
