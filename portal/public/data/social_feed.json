@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 65,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 59,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 75,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 71,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 67,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 63,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 59,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 55,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Autoweek",
+      "author": "AP News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
+      "text": "Heavy crash for Max Verstappen causes red flag at F1\u2019s Dutch Grand Prix - AP News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
+      "time": "Sun, 23 Aug 2026 13:13:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Mashable",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+      "text": "I'm watching the Dutch GP for free this weekend \u2014 how to live stream F1 for free - Mashable",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
+      "time": "Fri, 21 Aug 2026 09:00:41 GMT"
     },
     {
-      "author": "LancasterOnline",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Rain falls at F1's Dutch Grand Prix as Lando Norris seeks another win from pole - LancasterOnline",
+      "text": "Goodbye to the Dutch Grand Prix, the happiest Formula 1 race of the year - The Athletic - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 12:27:39 GMT"
+      "time": "Sun, 23 Aug 2026 09:02:42 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+      "text": "Max Verstappen battling illness setback at Dutch GP - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+      "time": "Sun, 23 Aug 2026 06:00:00 GMT"
     },
     {
-      "author": "Cleveland.com",
+      "author": "New York Post",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How to watch F1 Dutch Grand Prix today for free - Cleveland.com",
+      "text": "Here\u2019s how to watch the final Dutch Grand Prix live for free in 2026 - New York Post",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 10:01:00 GMT"
+      "time": "Sun, 23 Aug 2026 09:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Autoweek",
+      "author": "AP News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
+      "text": "Heavy crash for Max Verstappen causes red flag at F1\u2019s Dutch Grand Prix - AP News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
+      "time": "Sun, 23 Aug 2026 13:13:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Mashable",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+      "text": "I'm watching the Dutch GP for free this weekend \u2014 how to live stream F1 for free - Mashable",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
+      "time": "Fri, 21 Aug 2026 09:00:41 GMT"
     },
     {
-      "author": "LancasterOnline",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Rain falls at F1's Dutch Grand Prix as Lando Norris seeks another win from pole - LancasterOnline",
+      "text": "Goodbye to the Dutch Grand Prix, the happiest Formula 1 race of the year - The Athletic - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 12:27:39 GMT"
+      "time": "Sun, 23 Aug 2026 09:02:42 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+      "text": "Max Verstappen battling illness setback at Dutch GP - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+      "time": "Sun, 23 Aug 2026 06:00:00 GMT"
     },
     {
-      "author": "Cleveland.com",
+      "author": "New York Post",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How to watch F1 Dutch Grand Prix today for free - Cleveland.com",
+      "text": "Here\u2019s how to watch the final Dutch Grand Prix live for free in 2026 - New York Post",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 10:01:00 GMT"
+      "time": "Sun, 23 Aug 2026 09:00:00 GMT"
     }
   ]
 }
