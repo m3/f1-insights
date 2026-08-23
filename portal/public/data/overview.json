@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-23T01:08:24.886248Z",
+  "updatedAt": "2026-08-23T01:17:18.729504Z",
   "timeline": {
     "format": "sprint",
     "macroState": "POST_SESSION",
     "sessionType": "MainQuali",
     "dataStatus": "PROCESSING",
-    "lastUpdatedUtc": "2026-08-22T23:45:48.289685Z",
+    "lastUpdatedUtc": "2026-08-23T01:17:17.475940Z",
     "nextSession": {
       "name": "MainRace",
       "timeUtc": "2026-08-23T13:00:00Z"
@@ -15,10 +15,11 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -62,9 +63,9 @@
     "circuit": "Circuit Park Zandvoort",
     "ambientTemp": "15\u00b0C",
     "trackTemp": "20\u00b0C",
-    "rainRisk": "51%",
-    "wind": "14 km/h NE",
-    "humidity": "75%"
+    "rainRisk": "12%",
+    "wind": "15 km/h NE",
+    "humidity": "69%"
   },
   "schedule": [
     {
@@ -1573,7 +1574,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-22T23:45:48.288544",
+    "generatedAt": "2026-08-23T01:17:17.474739",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1718,7 +1719,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-22T23:45:48.288941",
+    "generatedAt": "2026-08-23T01:17:17.475167",
     "facts": [],
     "teammateBattles": [
       {
@@ -3169,232 +3170,5 @@
       },
       "Q1": "1:14.600"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 72,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 82,
-        "sentiment": "Positive",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 78,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 74,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 70,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 66,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 62,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 02:57:32 GMT"
-      },
-      {
-        "author": "Autoweek",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Russell Cruises to F1 Sprint Win, Norris Grabs Dutch GP Pole - Autoweek",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 16:09:00 GMT"
-      },
-      {
-        "author": "Reuters",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 12:38:30 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 02:57:32 GMT"
-      },
-      {
-        "author": "Autoweek",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Russell Cruises to F1 Sprint Win, Norris Grabs Dutch GP Pole - Autoweek",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 16:09:00 GMT"
-      },
-      {
-        "author": "Reuters",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Verstappen would have been more likely to leave F1 than change teams - Reuters",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 12:38:30 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+  ]
 }
