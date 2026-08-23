@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 65,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 75,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,31 +115,41 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "the-independent.com",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 2026 Dutch GP LIVE: Race updates, times and stream as Verstappen crashes out - the-independent.com",
+      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:24:00 GMT"
+      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
+    },
+    {
+      "author": "LancasterOnline",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Rain falls at F1's Dutch Grand Prix as Lando Norris seeks another win from pole - LancasterOnline",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 23 Aug 2026 12:27:39 GMT"
     },
     {
       "author": "Yahoo Sports",
@@ -152,46 +162,46 @@
       "time": "Fri, 21 Aug 2026 10:26:14 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Cleveland.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
+      "text": "How to watch F1 Dutch Grand Prix today for free - Cleveland.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
-    },
-    {
-      "author": "Autoweek",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
+      "time": "Sun, 23 Aug 2026 10:01:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "the-independent.com",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 2026 Dutch GP LIVE: Race updates, times and stream as Verstappen crashes out - the-independent.com",
+      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:24:00 GMT"
+      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP as it happened - Norris won as Piastri retired | Live text - Motorsport.com",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
+    },
+    {
+      "author": "LancasterOnline",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Rain falls at F1's Dutch Grand Prix as Lando Norris seeks another win from pole - LancasterOnline",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 23 Aug 2026 12:27:39 GMT"
     },
     {
       "author": "Yahoo Sports",
@@ -204,24 +214,14 @@
       "time": "Fri, 21 Aug 2026 10:26:14 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Cleveland.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris makes surprising claim over McLaren F1 car - racingnews365.com",
+      "text": "How to watch F1 Dutch Grand Prix today for free - Cleveland.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 06:10:00 GMT"
-    },
-    {
-      "author": "Autoweek",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
+      "time": "Sun, 23 Aug 2026 10:01:00 GMT"
     }
   ]
 }
