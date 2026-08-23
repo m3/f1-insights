@@ -4,13 +4,13 @@
   "raceName": "Dutch Grand Prix",
   "circuitName": "Circuit Park Zandvoort",
   "date": "2026-08-23",
-  "generatedAt": "2026-08-23T15:47:53.398684",
+  "generatedAt": "2026-08-23T16:24:34.312590",
   "facts": [
     {
       "topic": "Championship Stakes",
       "badge": "Title Race",
-      "detail": "Antonelli leads Hamilton by 53 points in the World Drivers' Championship heading into Dutch Grand Prix.",
-      "stat": "53 Pts Gap",
+      "detail": "Antonelli leads Russell by 59 points in the World Drivers' Championship heading into Dutch Grand Prix.",
+      "stat": "59 Pts Gap",
       "source": "JolpicaErgast"
     }
   ],
@@ -23,7 +23,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "224",
+      "points": "242",
       "wins": "6",
       "Driver": {
         "driverId": "antonelli",
@@ -47,31 +47,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "171",
-      "wins": "1",
-      "Driver": {
-        "driverId": "hamilton",
-        "permanentNumber": "44",
-        "code": "HAM",
-        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
-        "givenName": "Lewis",
-        "familyName": "Hamilton",
-        "dateOfBirth": "1985-01-07",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "ferrari",
-          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-          "name": "Ferrari",
-          "nationality": "Italian"
-        }
-      ]
-    },
-    {
-      "position": "3",
-      "positionText": "3",
-      "points": "168",
+      "points": "183",
       "wins": "2",
       "Driver": {
         "driverId": "russell",
@@ -93,9 +69,57 @@
       ]
     },
     {
+      "position": "3",
+      "positionText": "3",
+      "points": "183",
+      "wins": "1",
+      "Driver": {
+        "driverId": "hamilton",
+        "permanentNumber": "44",
+        "code": "HAM",
+        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "dateOfBirth": "1985-01-07",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "ferrari",
+          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "name": "Ferrari",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
       "position": "4",
       "positionText": "4",
-      "points": "145",
+      "points": "159",
+      "wins": "2",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "155",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -115,31 +139,7 @@
           "nationality": "Italian"
         }
       ]
-    },
-    {
-      "position": "5",
-      "positionText": "5",
-      "points": "134",
-      "wins": "1",
-      "Driver": {
-        "driverId": "norris",
-        "permanentNumber": "1",
-        "code": "NOR",
-        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "dateOfBirth": "1999-11-13",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mclaren",
-          "url": "https://en.wikipedia.org/wiki/McLaren",
-          "name": "McLaren",
-          "nationality": "British"
-        }
-      ]
     }
   ],
-  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*53 Pts Gap*)\n  Antonelli leads Hamilton by 53 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 224 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 171 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 168 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 145 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 134 Pts (1 Wins)\n"
+  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*59 Pts Gap*)\n  Antonelli leads Russell by 59 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 242 Pts (6 Wins)\n2. **George Russell** (Mercedes) - 183 Pts (2 Wins)\n3. **Lewis Hamilton** (Ferrari) - 183 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 159 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 155 Pts (1 Wins)\n"
 }

@@ -1,21 +1,22 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-23T15:59:12.908353Z",
+  "updatedAt": "2026-08-23T16:24:35.734434Z",
   "timeline": {
     "format": "sprint",
     "macroState": "POST_SESSION",
     "sessionType": "MainRace",
     "dataStatus": "PROCESSING",
-    "lastUpdatedUtc": "2026-08-23T15:47:53.399840Z",
+    "lastUpdatedUtc": "2026-08-23T16:24:34.313546Z",
     "nextSession": null
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -874,7 +875,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "224",
+      "points": "242",
       "wins": "6",
       "Driver": {
         "driverId": "antonelli",
@@ -898,31 +899,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "171",
-      "wins": "1",
-      "Driver": {
-        "driverId": "hamilton",
-        "permanentNumber": "44",
-        "code": "HAM",
-        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
-        "givenName": "Lewis",
-        "familyName": "Hamilton",
-        "dateOfBirth": "1985-01-07",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "ferrari",
-          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-          "name": "Ferrari",
-          "nationality": "Italian"
-        }
-      ]
-    },
-    {
-      "position": "3",
-      "positionText": "3",
-      "points": "168",
+      "points": "183",
       "wins": "2",
       "Driver": {
         "driverId": "russell",
@@ -944,9 +921,57 @@
       ]
     },
     {
+      "position": "3",
+      "positionText": "3",
+      "points": "183",
+      "wins": "1",
+      "Driver": {
+        "driverId": "hamilton",
+        "permanentNumber": "44",
+        "code": "HAM",
+        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "dateOfBirth": "1985-01-07",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "ferrari",
+          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "name": "Ferrari",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
       "position": "4",
       "positionText": "4",
-      "points": "145",
+      "points": "159",
+      "wins": "2",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "155",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -964,30 +989,6 @@
           "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
           "name": "Ferrari",
           "nationality": "Italian"
-        }
-      ]
-    },
-    {
-      "position": "5",
-      "positionText": "5",
-      "points": "134",
-      "wins": "1",
-      "Driver": {
-        "driverId": "norris",
-        "permanentNumber": "1",
-        "code": "NOR",
-        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "dateOfBirth": "1999-11-13",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mclaren",
-          "url": "https://en.wikipedia.org/wiki/McLaren",
-          "name": "McLaren",
-          "nationality": "British"
         }
       ]
     },
@@ -1018,7 +1019,7 @@
     {
       "position": "7",
       "positionText": "7",
-      "points": "96",
+      "points": "104",
       "wins": "0",
       "Driver": {
         "driverId": "piastri",
@@ -1066,31 +1067,7 @@
     {
       "position": "9",
       "positionText": "9",
-      "points": "43",
-      "wins": "0",
-      "Driver": {
-        "driverId": "gasly",
-        "permanentNumber": "10",
-        "code": "GAS",
-        "url": "http://en.wikipedia.org/wiki/Pierre_Gasly",
-        "givenName": "Pierre",
-        "familyName": "Gasly",
-        "dateOfBirth": "1996-02-07",
-        "nationality": "French"
-      },
-      "Constructors": [
-        {
-          "constructorId": "alpine",
-          "url": "https://en.wikipedia.org/wiki/Alpine_F1_Team",
-          "name": "Alpine F1 Team",
-          "nationality": "French"
-        }
-      ]
-    },
-    {
-      "position": "10",
-      "positionText": "10",
-      "points": "43",
+      "points": "49",
       "wins": "0",
       "Driver": {
         "driverId": "lawson",
@@ -1114,6 +1091,30 @@
           "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
           "name": "Red Bull",
           "nationality": "Austrian"
+        }
+      ]
+    },
+    {
+      "position": "10",
+      "positionText": "10",
+      "points": "44",
+      "wins": "0",
+      "Driver": {
+        "driverId": "gasly",
+        "permanentNumber": "10",
+        "code": "GAS",
+        "url": "http://en.wikipedia.org/wiki/Pierre_Gasly",
+        "givenName": "Pierre",
+        "familyName": "Gasly",
+        "dateOfBirth": "1996-02-07",
+        "nationality": "French"
+      },
+      "Constructors": [
+        {
+          "constructorId": "alpine",
+          "url": "https://en.wikipedia.org/wiki/Alpine_F1_Team",
+          "name": "Alpine F1 Team",
+          "nationality": "French"
         }
       ]
     },
@@ -1219,6 +1220,30 @@
       "points": "6",
       "wins": "0",
       "Driver": {
+        "driverId": "hulkenberg",
+        "permanentNumber": "27",
+        "code": "HUL",
+        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
+        "givenName": "Nico",
+        "familyName": "H\u00fclkenberg",
+        "dateOfBirth": "1987-08-19",
+        "nationality": "German"
+      },
+      "Constructors": [
+        {
+          "constructorId": "audi",
+          "url": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
+          "name": "Audi",
+          "nationality": "German"
+        }
+      ]
+    },
+    {
+      "position": "16",
+      "positionText": "16",
+      "points": "6",
+      "wins": "0",
+      "Driver": {
         "driverId": "sainz",
         "permanentNumber": "55",
         "code": "SAI",
@@ -1238,8 +1263,8 @@
       ]
     },
     {
-      "position": "16",
-      "positionText": "16",
+      "position": "17",
+      "positionText": "17",
       "points": "5",
       "wins": "0",
       "Driver": {
@@ -1262,8 +1287,8 @@
       ]
     },
     {
-      "position": "17",
-      "positionText": "17",
+      "position": "18",
+      "positionText": "18",
       "points": "3",
       "wins": "0",
       "Driver": {
@@ -1286,33 +1311,9 @@
       ]
     },
     {
-      "position": "18",
-      "positionText": "18",
-      "points": "2",
-      "wins": "0",
-      "Driver": {
-        "driverId": "hulkenberg",
-        "permanentNumber": "27",
-        "code": "HUL",
-        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
-        "givenName": "Nico",
-        "familyName": "H\u00fclkenberg",
-        "dateOfBirth": "1987-08-19",
-        "nationality": "German"
-      },
-      "Constructors": [
-        {
-          "constructorId": "audi",
-          "url": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
-          "name": "Audi",
-          "nationality": "German"
-        }
-      ]
-    },
-    {
       "position": "19",
       "positionText": "19",
-      "points": "1",
+      "points": "3",
       "wins": "0",
       "Driver": {
         "driverId": "alonso",
@@ -1339,6 +1340,30 @@
       "points": "0",
       "wins": "0",
       "Driver": {
+        "driverId": "tsunoda",
+        "permanentNumber": "22",
+        "code": "TSU",
+        "url": "http://en.wikipedia.org/wiki/Yuki_Tsunoda",
+        "givenName": "Yuki",
+        "familyName": "Tsunoda",
+        "dateOfBirth": "2000-05-11",
+        "nationality": "Japanese"
+      },
+      "Constructors": [
+        {
+          "constructorId": "rb",
+          "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
+          "name": "RB F1 Team",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
+      "position": "21",
+      "positionText": "21",
+      "points": "0",
+      "wins": "0",
+      "Driver": {
         "driverId": "stroll",
         "permanentNumber": "18",
         "code": "STR",
@@ -1358,8 +1383,8 @@
       ]
     },
     {
-      "position": "21",
-      "positionText": "21",
+      "position": "22",
+      "positionText": "22",
       "points": "0",
       "wins": "0",
       "Driver": {
@@ -1382,8 +1407,8 @@
       ]
     },
     {
-      "position": "22",
-      "positionText": "22",
+      "position": "23",
+      "positionText": "23",
       "points": "0",
       "wins": "0",
       "Driver": {
@@ -1404,37 +1429,13 @@
           "nationality": "American"
         }
       ]
-    },
-    {
-      "position": "23",
-      "positionText": "23",
-      "points": "0",
-      "wins": "0",
-      "Driver": {
-        "driverId": "tsunoda",
-        "permanentNumber": "22",
-        "code": "TSU",
-        "url": "http://en.wikipedia.org/wiki/Yuki_Tsunoda",
-        "givenName": "Yuki",
-        "familyName": "Tsunoda",
-        "dateOfBirth": "2000-05-11",
-        "nationality": "Japanese"
-      },
-      "Constructors": [
-        {
-          "constructorId": "rb",
-          "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
-          "name": "RB F1 Team",
-          "nationality": "Italian"
-        }
-      ]
     }
   ],
   "constructorStandings": [
     {
       "position": "1",
       "positionText": "1",
-      "points": "392",
+      "points": "425",
       "wins": "8",
       "Constructor": {
         "constructorId": "mercedes",
@@ -1446,7 +1447,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "316",
+      "points": "338",
       "wins": "2",
       "Constructor": {
         "constructorId": "ferrari",
@@ -1458,8 +1459,8 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "230",
-      "wins": "1",
+      "points": "263",
+      "wins": "2",
       "Constructor": {
         "constructorId": "mclaren",
         "url": "https://en.wikipedia.org/wiki/McLaren",
@@ -1470,7 +1471,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "180",
+      "points": "186",
       "wins": "0",
       "Constructor": {
         "constructorId": "red_bull",
@@ -1494,7 +1495,7 @@
     {
       "position": "6",
       "positionText": "6",
-      "points": "62",
+      "points": "63",
       "wins": "0",
       "Constructor": {
         "constructorId": "alpine",
@@ -1518,7 +1519,7 @@
     {
       "position": "8",
       "positionText": "8",
-      "points": "12",
+      "points": "16",
       "wins": "0",
       "Constructor": {
         "constructorId": "audi",
@@ -1542,7 +1543,7 @@
     {
       "position": "10",
       "positionText": "10",
-      "points": "1",
+      "points": "3",
       "wins": "0",
       "Constructor": {
         "constructorId": "aston_martin",
@@ -1570,13 +1571,13 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-23T15:47:53.398684",
+    "generatedAt": "2026-08-23T16:24:34.312590",
     "facts": [
       {
         "topic": "Championship Stakes",
         "badge": "Title Race",
-        "detail": "Antonelli leads Hamilton by 53 points in the World Drivers' Championship heading into Dutch Grand Prix.",
-        "stat": "53 Pts Gap",
+        "detail": "Antonelli leads Russell by 59 points in the World Drivers' Championship heading into Dutch Grand Prix.",
+        "stat": "59 Pts Gap",
         "source": "JolpicaErgast"
       }
     ],
@@ -1589,7 +1590,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "224",
+        "points": "242",
         "wins": "6",
         "Driver": {
           "driverId": "antonelli",
@@ -1613,31 +1614,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "171",
-        "wins": "1",
-        "Driver": {
-          "driverId": "hamilton",
-          "permanentNumber": "44",
-          "code": "HAM",
-          "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
-          "givenName": "Lewis",
-          "familyName": "Hamilton",
-          "dateOfBirth": "1985-01-07",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "ferrari",
-            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-            "name": "Ferrari",
-            "nationality": "Italian"
-          }
-        ]
-      },
-      {
-        "position": "3",
-        "positionText": "3",
-        "points": "168",
+        "points": "183",
         "wins": "2",
         "Driver": {
           "driverId": "russell",
@@ -1659,9 +1636,57 @@
         ]
       },
       {
+        "position": "3",
+        "positionText": "3",
+        "points": "183",
+        "wins": "1",
+        "Driver": {
+          "driverId": "hamilton",
+          "permanentNumber": "44",
+          "code": "HAM",
+          "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+          "givenName": "Lewis",
+          "familyName": "Hamilton",
+          "dateOfBirth": "1985-01-07",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "ferrari",
+            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+            "name": "Ferrari",
+            "nationality": "Italian"
+          }
+        ]
+      },
+      {
         "position": "4",
         "positionText": "4",
-        "points": "145",
+        "points": "159",
+        "wins": "2",
+        "Driver": {
+          "driverId": "norris",
+          "permanentNumber": "1",
+          "code": "NOR",
+          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+          "givenName": "Lando",
+          "familyName": "Norris",
+          "dateOfBirth": "1999-11-13",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "mclaren",
+            "url": "https://en.wikipedia.org/wiki/McLaren",
+            "name": "McLaren",
+            "nationality": "British"
+          }
+        ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "155",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -1681,33 +1706,9 @@
             "nationality": "Italian"
           }
         ]
-      },
-      {
-        "position": "5",
-        "positionText": "5",
-        "points": "134",
-        "wins": "1",
-        "Driver": {
-          "driverId": "norris",
-          "permanentNumber": "1",
-          "code": "NOR",
-          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-          "givenName": "Lando",
-          "familyName": "Norris",
-          "dateOfBirth": "1999-11-13",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "mclaren",
-            "url": "https://en.wikipedia.org/wiki/McLaren",
-            "name": "McLaren",
-            "nationality": "British"
-          }
-        ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*53 Pts Gap*)\n  Antonelli leads Hamilton by 53 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 224 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 171 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 168 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 145 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 134 Pts (1 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*59 Pts Gap*)\n  Antonelli leads Russell by 59 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 242 Pts (6 Wins)\n2. **George Russell** (Mercedes) - 183 Pts (2 Wins)\n3. **Lewis Hamilton** (Ferrari) - 183 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 159 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 155 Pts (1 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
@@ -1715,7 +1716,7 @@
     "raceName": "Dutch Grand Prix",
     "circuitName": "Circuit Park Zandvoort",
     "date": "2026-08-23",
-    "generatedAt": "2026-08-23T15:47:53.399099",
+    "generatedAt": "2026-08-23T16:24:34.312948",
     "facts": [],
     "teammateBattles": [
       {
@@ -1744,7 +1745,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "224",
+        "points": "242",
         "wins": "6",
         "Driver": {
           "driverId": "antonelli",
@@ -1768,31 +1769,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "171",
-        "wins": "1",
-        "Driver": {
-          "driverId": "hamilton",
-          "permanentNumber": "44",
-          "code": "HAM",
-          "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
-          "givenName": "Lewis",
-          "familyName": "Hamilton",
-          "dateOfBirth": "1985-01-07",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "ferrari",
-            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-            "name": "Ferrari",
-            "nationality": "Italian"
-          }
-        ]
-      },
-      {
-        "position": "3",
-        "positionText": "3",
-        "points": "168",
+        "points": "183",
         "wins": "2",
         "Driver": {
           "driverId": "russell",
@@ -1814,9 +1791,57 @@
         ]
       },
       {
+        "position": "3",
+        "positionText": "3",
+        "points": "183",
+        "wins": "1",
+        "Driver": {
+          "driverId": "hamilton",
+          "permanentNumber": "44",
+          "code": "HAM",
+          "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+          "givenName": "Lewis",
+          "familyName": "Hamilton",
+          "dateOfBirth": "1985-01-07",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "ferrari",
+            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+            "name": "Ferrari",
+            "nationality": "Italian"
+          }
+        ]
+      },
+      {
         "position": "4",
         "positionText": "4",
-        "points": "145",
+        "points": "159",
+        "wins": "2",
+        "Driver": {
+          "driverId": "norris",
+          "permanentNumber": "1",
+          "code": "NOR",
+          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+          "givenName": "Lando",
+          "familyName": "Norris",
+          "dateOfBirth": "1999-11-13",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "mclaren",
+            "url": "https://en.wikipedia.org/wiki/McLaren",
+            "name": "McLaren",
+            "nationality": "British"
+          }
+        ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "155",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -1834,30 +1859,6 @@
             "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
             "name": "Ferrari",
             "nationality": "Italian"
-          }
-        ]
-      },
-      {
-        "position": "5",
-        "positionText": "5",
-        "points": "134",
-        "wins": "1",
-        "Driver": {
-          "driverId": "norris",
-          "permanentNumber": "1",
-          "code": "NOR",
-          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-          "givenName": "Lando",
-          "familyName": "Norris",
-          "dateOfBirth": "1999-11-13",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "mclaren",
-            "url": "https://en.wikipedia.org/wiki/McLaren",
-            "name": "McLaren",
-            "nationality": "British"
           }
         ]
       }
@@ -3166,232 +3167,5 @@
       },
       "Q1": "1:14.600"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 65,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 75,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 71,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 67,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 63,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 59,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 55,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Autoweek",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 13:37:00 GMT"
-      },
-      {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 02:57:32 GMT"
-      },
-      {
-        "author": "LancasterOnline",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Rain falls at F1's Dutch Grand Prix as Lando Norris seeks another win from pole - LancasterOnline",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 12:27:39 GMT"
-      },
-      {
-        "author": "Yahoo Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 10:26:14 GMT"
-      },
-      {
-        "author": "Cleveland.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "How to watch F1 Dutch Grand Prix today for free - Cleveland.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 10:01:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Autoweek",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 13:37:00 GMT"
-      },
-      {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 02:57:32 GMT"
-      },
-      {
-        "author": "LancasterOnline",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Rain falls at F1's Dutch Grand Prix as Lando Norris seeks another win from pole - LancasterOnline",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 12:27:39 GMT"
-      },
-      {
-        "author": "Yahoo Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 10:26:14 GMT"
-      },
-      {
-        "author": "Cleveland.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "How to watch F1 Dutch Grand Prix today for free - Cleveland.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 10:01:00 GMT"
-      }
-    ]
-  }
+  ]
 }
