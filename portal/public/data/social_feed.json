@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 54,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 75,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#DutchGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 64,
-      "sentiment": "Mixed",
+      "score": 85,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 60,
-      "sentiment": "Mixed",
+      "score": 81,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 56,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 52,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 48,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,11 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 44,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen explains what caused his race-ending F1 Dutch GP crash - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 15:58:52 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "\u2018I want to win\u2019 \u2013 Lewis Hamilton explains frustrated radio messages in Dutch Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 17:45:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from F1's 2026 Dutch GP - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 17:52:52 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lando Norris wins thrilling Dutch Grand Prix to take back-to-back victories - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 15:08:00 GMT"
-    },
-    {
-      "author": "AP News",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Dutch Grand Prix sees a potential path back to F1 amid Middle East uncertainty - AP News",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 08:15:00 GMT"
-    }
-  ],
-  "xTracksideFeed": [
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Max Verstappen explains what caused his race-ending F1 Dutch GP crash - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 15:58:52 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "\u2018I want to win\u2019 \u2013 Lewis Hamilton explains frustrated radio messages in Dutch Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 17:45:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from F1's 2026 Dutch GP - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 17:52:52 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lando Norris wins thrilling Dutch Grand Prix to take back-to-back victories - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 15:08:00 GMT"
-    },
-    {
-      "author": "AP News",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Dutch Grand Prix sees a potential path back to F1 amid Middle East uncertainty - AP News",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 08:15:00 GMT"
-    }
-  ]
+  "breakingNewsTweets": [],
+  "xTracksideFeed": []
 }
