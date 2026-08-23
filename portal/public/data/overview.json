@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-23T23:24:39.305408Z",
+  "updatedAt": "2026-08-23T23:42:49.971007Z",
   "timeline": {
     "format": "sprint",
     "macroState": "POST_SESSION",
@@ -3321,16 +3321,6 @@
         "time": "Fri, 21 Aug 2026 10:26:14 GMT"
       },
       {
-        "author": "Red Bull",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 15:56:58 GMT"
-      },
-      {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -3339,6 +3329,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Red Bull",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 23 Aug 2026 15:56:58 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -3373,16 +3373,6 @@
         "time": "Fri, 21 Aug 2026 10:26:14 GMT"
       },
       {
-        "author": "Red Bull",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 15:56:58 GMT"
-      },
-      {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -3391,6 +3381,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Red Bull",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 23 Aug 2026 15:56:58 GMT"
       }
     ]
   }
