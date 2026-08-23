@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "sentimentScore": 54,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#DutchGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Autoweek",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
+      "text": "Max Verstappen explains what caused his race-ending F1 Dutch GP crash - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
+      "time": "Sun, 23 Aug 2026 15:58:52 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+      "text": "\u2018I want to win\u2019 \u2013 Lewis Hamilton explains frustrated radio messages in Dutch Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
+      "time": "Sun, 23 Aug 2026 17:45:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+      "text": "Winners and losers from F1's 2026 Dutch GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+      "time": "Sun, 23 Aug 2026 17:52:52 GMT"
     },
     {
-      "author": "Red Bull",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
+      "text": "Lando Norris wins thrilling Dutch Grand Prix to take back-to-back victories - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 15:56:58 GMT"
+      "time": "Sun, 23 Aug 2026 15:08:00 GMT"
     },
     {
-      "author": "Cleveland.com",
+      "author": "AP News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How to watch F1 Dutch Grand Prix today for free - Cleveland.com",
+      "text": "Dutch Grand Prix sees a potential path back to F1 amid Middle East uncertainty - AP News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 10:01:00 GMT"
+      "time": "Sun, 23 Aug 2026 08:15:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Autoweek",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
+      "text": "Max Verstappen explains what caused his race-ending F1 Dutch GP crash - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
+      "time": "Sun, 23 Aug 2026 15:58:52 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+      "text": "\u2018I want to win\u2019 \u2013 Lewis Hamilton explains frustrated radio messages in Dutch Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
+      "time": "Sun, 23 Aug 2026 17:45:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+      "text": "Winners and losers from F1's 2026 Dutch GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+      "time": "Sun, 23 Aug 2026 17:52:52 GMT"
     },
     {
-      "author": "Red Bull",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
+      "text": "Lando Norris wins thrilling Dutch Grand Prix to take back-to-back victories - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 15:56:58 GMT"
+      "time": "Sun, 23 Aug 2026 15:08:00 GMT"
     },
     {
-      "author": "Cleveland.com",
+      "author": "AP News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How to watch F1 Dutch Grand Prix today for free - Cleveland.com",
+      "text": "Dutch Grand Prix sees a potential path back to F1 amid Middle East uncertainty - AP News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 10:01:00 GMT"
+      "time": "Sun, 23 Aug 2026 08:15:00 GMT"
     }
   ]
 }
