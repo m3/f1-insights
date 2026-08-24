@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-23T23:57:23.703758Z",
+  "updatedAt": "2026-08-24T01:02:51.019765Z",
   "timeline": {
     "format": "sprint",
     "macroState": "POST_SESSION",
@@ -3170,7 +3170,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "POSITIVE",
-    "sentimentScore": 61,
+    "sentimentScore": 65,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -3239,7 +3239,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 71,
+        "score": 75,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -3248,7 +3248,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 67,
+        "score": 71,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -3257,7 +3257,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 63,
+        "score": 67,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -3266,7 +3266,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 59,
+        "score": 63,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -3275,7 +3275,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 55,
+        "score": 59,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -3284,7 +3284,7 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 51,
+        "score": 55,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
@@ -3301,24 +3301,14 @@
         "time": "Sun, 23 Aug 2026 13:37:00 GMT"
       },
       {
-        "author": "Sky Sports",
+        "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+        "text": "Fernando Alonso reflects on highest-place finish in 2026: 'I'm happy and relaxed' - ESPN",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 02:57:32 GMT"
-      },
-      {
-        "author": "Yahoo Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+        "time": "Sun, 23 Aug 2026 18:54:00 GMT"
       },
       {
         "author": "Formula 1",
@@ -3331,14 +3321,24 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "Red Bull",
+        "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 15:56:58 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Yahoo Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -3353,24 +3353,14 @@
         "time": "Sun, 23 Aug 2026 13:37:00 GMT"
       },
       {
-        "author": "Sky Sports",
+        "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+        "text": "Fernando Alonso reflects on highest-place finish in 2026: 'I'm happy and relaxed' - ESPN",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 22 Aug 2026 02:57:32 GMT"
-      },
-      {
-        "author": "Yahoo Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+        "time": "Sun, 23 Aug 2026 18:54:00 GMT"
       },
       {
         "author": "Formula 1",
@@ -3383,14 +3373,24 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "Red Bull",
+        "author": "Motorsport.com",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
+        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 23 Aug 2026 15:56:58 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Yahoo Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ]
   }
