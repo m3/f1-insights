@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 62,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 55,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 72,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 68,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 64,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 60,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 56,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 52,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Toto Wolff confirms Kimi Antonelli is set for grid penalty at Italian Grand Prix for exceeding engine allocation - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 12:27:00 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes confirms Kimi Antonelli grid penalty in Monza - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 24 Aug 2026 08:14:04 GMT"
+    },
+    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+      "text": "Kimi Antonelli to take grid penalty at Italian GP in Monza for engine change, Mercedes boss Toto Wolff confirms - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
+      "time": "Sat, 22 Aug 2026 11:44:25 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+      "text": "Kimi Antonelli set for F1 grid penalty at Italian Grand Prix - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+      "time": "Sat, 22 Aug 2026 14:09:36 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
+      "text": "Red Bull fear Isack Hadjar could miss the rest of 2026 with wrist injury if he does one thing - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
-    },
-    {
-      "author": "Al Jazeera",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Mercedes no longer have the fastest car in F1, says leader Antonelli - Al Jazeera",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 24 Aug 2026 09:11:42 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Fernando Alonso reflects on highest-place finish in 2026: 'I'm happy and relaxed' - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 18:54:00 GMT"
+      "time": "Sun, 23 Aug 2026 06:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Toto Wolff confirms Kimi Antonelli is set for grid penalty at Italian Grand Prix for exceeding engine allocation - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 22 Aug 2026 12:27:00 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes confirms Kimi Antonelli grid penalty in Monza - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 24 Aug 2026 08:14:04 GMT"
+    },
+    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+      "text": "Kimi Antonelli to take grid penalty at Italian GP in Monza for engine change, Mercedes boss Toto Wolff confirms - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
+      "time": "Sat, 22 Aug 2026 11:44:25 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Piastri and Sainz Shared a \u2018Couple of Messages\u2019 After Heated Hungarian Grand Prix Clash - Yahoo Sports",
+      "text": "Kimi Antonelli set for F1 grid penalty at Italian Grand Prix - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+      "time": "Sat, 22 Aug 2026 14:09:36 GMT"
     },
     {
-      "author": "Autoweek",
+      "author": "F1 Oversteer",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
+      "text": "Red Bull fear Isack Hadjar could miss the rest of 2026 with wrist injury if he does one thing - F1 Oversteer",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
-    },
-    {
-      "author": "Al Jazeera",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Mercedes no longer have the fastest car in F1, says leader Antonelli - Al Jazeera",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 24 Aug 2026 09:11:42 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Fernando Alonso reflects on highest-place finish in 2026: 'I'm happy and relaxed' - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 18:54:00 GMT"
+      "time": "Sun, 23 Aug 2026 06:00:00 GMT"
     }
   ]
 }
