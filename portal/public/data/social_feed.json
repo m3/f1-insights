@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 68,
+  "sentimentScore": 70,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 78,
-      "sentiment": "Mixed",
+      "score": 80,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 74,
+      "score": 76,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 70,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 66,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 62,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 58,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -132,16 +132,6 @@
       "time": "Mon, 24 Aug 2026 18:17:00 GMT"
     },
     {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
-    },
-    {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -150,6 +140,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix | Race Highlights - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 07:00:00 GMT"
     },
     {
       "author": "Al Jazeera",
@@ -184,16 +184,6 @@
       "time": "Mon, 24 Aug 2026 18:17:00 GMT"
     },
     {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 22 Aug 2026 02:57:32 GMT"
-    },
-    {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -202,6 +192,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 10:26:14 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix | Race Highlights - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 20 Aug 2026 07:00:00 GMT"
     },
     {
       "author": "Al Jazeera",
