@@ -1,10 +1,10 @@
 {
   "type": "POST_RACE",
-  "title": "Post-Race Debrief: Dutch Grand Prix",
-  "raceName": "Dutch Grand Prix",
-  "circuitName": "Circuit Park Zandvoort",
-  "date": "2026-08-23",
-  "generatedAt": "2026-08-23T23:46:09.660770",
+  "title": "Post-Race Debrief: Italian Grand Prix",
+  "raceName": "Italian Grand Prix",
+  "circuitName": "Autodromo Nazionale di Monza",
+  "date": "2026-09-06",
+  "generatedAt": "2026-08-24T01:14:57.196083",
   "facts": [],
   "teammateBattles": [
     {
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
+  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: ITALIAN GRAND PRIX\n**Location**: Autodromo Nazionale di Monza | **Date**: 2026-09-06\n\n> *Deterministic Data Brief for the Italian Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
 }

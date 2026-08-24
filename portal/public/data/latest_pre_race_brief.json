@@ -1,15 +1,15 @@
 {
   "type": "PRE_RACE",
-  "title": "Pre-Race Preview: Dutch Grand Prix",
-  "raceName": "Dutch Grand Prix",
-  "circuitName": "Circuit Park Zandvoort",
-  "date": "2026-08-23",
-  "generatedAt": "2026-08-23T23:46:09.660379",
+  "title": "Pre-Race Preview: Italian Grand Prix",
+  "raceName": "Italian Grand Prix",
+  "circuitName": "Autodromo Nazionale di Monza",
+  "date": "2026-09-06",
+  "generatedAt": "2026-08-24T01:14:57.195686",
   "facts": [
     {
       "topic": "Championship Stakes",
       "badge": "Title Race",
-      "detail": "Antonelli leads Russell by 59 points in the World Drivers' Championship heading into Dutch Grand Prix.",
+      "detail": "Antonelli leads Russell by 59 points in the World Drivers' Championship heading into Italian Grand Prix.",
       "stat": "59 Pts Gap",
       "source": "JolpicaErgast"
     }
@@ -141,5 +141,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: DUTCH GRAND PRIX\n**Location**: Circuit Park Zandvoort | **Date**: 2026-08-23\n\n> *Deterministic Data Brief for the Dutch Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*59 Pts Gap*)\n  Antonelli leads Russell by 59 points in the World Drivers' Championship heading into Dutch Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 242 Pts (6 Wins)\n2. **George Russell** (Mercedes) - 183 Pts (2 Wins)\n3. **Lewis Hamilton** (Ferrari) - 183 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 159 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 155 Pts (1 Wins)\n"
+  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: ITALIAN GRAND PRIX\n**Location**: Autodromo Nazionale di Monza | **Date**: 2026-09-06\n\n> *Deterministic Data Brief for the Italian Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*59 Pts Gap*)\n  Antonelli leads Russell by 59 points in the World Drivers' Championship heading into Italian Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 242 Pts (6 Wins)\n2. **George Russell** (Mercedes) - 183 Pts (2 Wins)\n3. **Lewis Hamilton** (Ferrari) - 183 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 159 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 155 Pts (1 Wins)\n"
 }
