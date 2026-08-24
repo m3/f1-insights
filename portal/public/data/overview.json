@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-24T20:56:36.067496Z",
+  "updatedAt": "2026-08-24T21:22:56.428091Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
@@ -2046,16 +2046,6 @@
         "time": "Thu, 20 Aug 2026 07:00:00 GMT"
       },
       {
-        "author": "Al Jazeera",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes no longer have the fastest car in F1, says leader Antonelli - Al Jazeera",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 24 Aug 2026 09:11:42 GMT"
-      },
-      {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2064,6 +2054,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Al Jazeera",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mercedes no longer have the fastest car in F1, says leader Antonelli - Al Jazeera",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 24 Aug 2026 09:11:42 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2098,16 +2098,6 @@
         "time": "Thu, 20 Aug 2026 07:00:00 GMT"
       },
       {
-        "author": "Al Jazeera",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mercedes no longer have the fastest car in F1, says leader Antonelli - Al Jazeera",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 24 Aug 2026 09:11:42 GMT"
-      },
-      {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2116,6 +2106,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Al Jazeera",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mercedes no longer have the fastest car in F1, says leader Antonelli - Al Jazeera",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Mon, 24 Aug 2026 09:11:42 GMT"
       }
     ]
   }
