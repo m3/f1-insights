@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 64,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 50,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 74,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 70,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 66,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 62,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 58,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 54,
+      "score": 40,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Autoweek",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Next Challenge: Pass 100 Go-Karts - Autoweek",
+      "text": "Mercedes' Kimi Antonelli to take grid penalty at Italian Grand Prix for new engine - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 15:12:00 GMT"
+      "time": "Mon, 24 Aug 2026 14:09:00 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights - Sky Sports",
+      "text": "Lewis Hamilton: Ferrari driver 'takes responsibility' for frustrated radio and media comments at Dutch GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:00:00 GMT"
+      "time": "Tue, 25 Aug 2026 10:37:33 GMT"
+    },
+    {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Red Bull makes a decision about Lawson while awaiting Hadjar - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 25 Aug 2026 18:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "Why the Italian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 25 Aug 2026 09:56:31 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "Sports Illustrated",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Red Bull hopes for F1 development lifeline as FIA's new ADUO decision looms - Motorsport.com",
+      "text": "Charles Leclerc Set for Strategy Showdown Ahead of 2026 F1 Italian Grand Prix (Exclusive) - Sports Illustrated",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 15:45:02 GMT"
-    },
-    {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 25 Aug 2026 10:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Autoweek",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen\u2019s Next Challenge: Pass 100 Go-Karts - Autoweek",
+      "text": "Mercedes' Kimi Antonelli to take grid penalty at Italian Grand Prix for new engine - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 15:12:00 GMT"
+      "time": "Mon, 24 Aug 2026 14:09:00 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights - Sky Sports",
+      "text": "Lewis Hamilton: Ferrari driver 'takes responsibility' for frustrated radio and media comments at Dutch GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 20 Aug 2026 07:00:00 GMT"
+      "time": "Tue, 25 Aug 2026 10:37:33 GMT"
+    },
+    {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Red Bull makes a decision about Lawson while awaiting Hadjar - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 25 Aug 2026 18:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "Why the Italian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 25 Aug 2026 09:56:31 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "Sports Illustrated",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Red Bull hopes for F1 development lifeline as FIA's new ADUO decision looms - Motorsport.com",
+      "text": "Charles Leclerc Set for Strategy Showdown Ahead of 2026 F1 Italian Grand Prix (Exclusive) - Sports Illustrated",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 15:45:02 GMT"
-    },
-    {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 25 Aug 2026 10:00:00 GMT"
     }
   ]
 }
