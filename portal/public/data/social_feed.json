@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 47,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 74,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 57,
-      "sentiment": "Mixed",
+      "score": 84,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 53,
-      "sentiment": "Mixed",
+      "score": 80,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 49,
+      "score": 76,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 45,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 41,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 37,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton: Ferrari driver 'takes responsibility' for frustrated radio and media comments at Dutch GP - Sky Sports",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 10:37:33 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What's at stake for Red Bull as engine decision approaches - The Race",
+      "text": "Mercedes Is Winning F1 but Losing the Upgrade War - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 09:39:10 GMT"
+      "time": "Mon, 24 Aug 2026 18:17:00 GMT"
+    },
+    {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes' Kimi Antonelli to take grid penalty at Italian Grand Prix for new engine - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 24 Aug 2026 14:09:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sports Illustrated",
+      "author": "PrizePicks",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc Set for Strategy Showdown Ahead of 2026 F1 Italian Grand Prix (Exclusive) - Sports Illustrated",
+      "text": "F1 Hungarian Grand Prix Predictions, Winner, Podium Pick for Sunday, July 26 - PrizePicks",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 10:00:00 GMT"
-    },
-    {
-      "author": "F1 Oversteer",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull fear Isack Hadjar could miss the rest of 2026 with wrist injury if he does one thing - F1 Oversteer",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 06:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton: Ferrari driver 'takes responsibility' for frustrated radio and media comments at Dutch GP - Sky Sports",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 10:37:33 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What's at stake for Red Bull as engine decision approaches - The Race",
+      "text": "Mercedes Is Winning F1 but Losing the Upgrade War - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 09:39:10 GMT"
+      "time": "Mon, 24 Aug 2026 18:17:00 GMT"
+    },
+    {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes' Kimi Antonelli to take grid penalty at Italian Grand Prix for new engine - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 24 Aug 2026 14:09:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sports Illustrated",
+      "author": "PrizePicks",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc Set for Strategy Showdown Ahead of 2026 F1 Italian Grand Prix (Exclusive) - Sports Illustrated",
+      "text": "F1 Hungarian Grand Prix Predictions, Winner, Podium Pick for Sunday, July 26 - PrizePicks",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 10:00:00 GMT"
-    },
-    {
-      "author": "F1 Oversteer",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull fear Isack Hadjar could miss the rest of 2026 with wrist injury if he does one thing - F1 Oversteer",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 23 Aug 2026 06:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
