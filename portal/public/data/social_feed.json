@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 53,
+  "sentimentScore": 51,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 63,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 59,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 55,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 51,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 47,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 43,
+      "score": 41,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "ESPN",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes' Kimi Antonelli to take grid penalty at Italian Grand Prix for new engine - ESPN",
+      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 24 Aug 2026 14:09:00 GMT"
+      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton: Ferrari driver 'takes responsibility' for frustrated radio and media comments at Dutch GP - Sky Sports",
+      "text": "LIVE: F1 Hungarian GP updates - Norris wins from Verstappen, Piastri retires with gearbox failure | Live text - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 10:37:33 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Red Bull",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Italian Grand Prix is special - Formula 1",
+      "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 09:56:31 GMT"
+      "time": "Sun, 23 Aug 2026 15:56:58 GMT"
     },
     {
-      "author": "Sports Illustrated",
+      "author": "the-independent.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc Set for Strategy Showdown Ahead of 2026 F1 Italian Grand Prix (Exclusive) - Sports Illustrated",
+      "text": "F1 standings after Dutch GP as Kimi Antonelli extends lead to Lewis Hamilton - the-independent.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 10:00:00 GMT"
+      "time": "Sun, 23 Aug 2026 16:07:00 GMT"
     },
     {
-      "author": "Formula 1 Las Vegas Grand Prix",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "GRAND PRIX PLAZA ANNOUNCES OCTOBER 4 AS FINAL DAY OF PUBLIC OPERATIONS FOR THE 2026 SEASON AHEAD OF FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX - Formula 1 Las Vegas Grand Prix - Formula 1 Las Vegas Grand Prix",
+      "text": "Lando Norris Wins Zandvoort Farewell As McLaren Completes Hat-Trick - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 17:41:55 GMT"
+      "time": "Sun, 23 Aug 2026 23:21:23 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "ESPN",
+      "author": "Autoweek",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes' Kimi Antonelli to take grid penalty at Italian Grand Prix for new engine - ESPN",
+      "text": "Max Verstappen\u2019s Final Dutch GP Ends in Violent Lap 1 Crash - Autoweek",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 24 Aug 2026 14:09:00 GMT"
+      "time": "Sun, 23 Aug 2026 13:37:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton: Ferrari driver 'takes responsibility' for frustrated radio and media comments at Dutch GP - Sky Sports",
+      "text": "LIVE: F1 Hungarian GP updates - Norris wins from Verstappen, Piastri retires with gearbox failure | Live text - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 10:37:33 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Red Bull",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Italian Grand Prix is special - Formula 1",
+      "text": "Why Max Verstappen\u2019s commitment to one team is rare in F1 - Red Bull",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 09:56:31 GMT"
+      "time": "Sun, 23 Aug 2026 15:56:58 GMT"
     },
     {
-      "author": "Sports Illustrated",
+      "author": "the-independent.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc Set for Strategy Showdown Ahead of 2026 F1 Italian Grand Prix (Exclusive) - Sports Illustrated",
+      "text": "F1 standings after Dutch GP as Kimi Antonelli extends lead to Lewis Hamilton - the-independent.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 10:00:00 GMT"
+      "time": "Sun, 23 Aug 2026 16:07:00 GMT"
     },
     {
-      "author": "Formula 1 Las Vegas Grand Prix",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "GRAND PRIX PLAZA ANNOUNCES OCTOBER 4 AS FINAL DAY OF PUBLIC OPERATIONS FOR THE 2026 SEASON AHEAD OF FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX - Formula 1 Las Vegas Grand Prix - Formula 1 Las Vegas Grand Prix",
+      "text": "Lando Norris Wins Zandvoort Farewell As McLaren Completes Hat-Trick - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 17:41:55 GMT"
+      "time": "Sun, 23 Aug 2026 23:21:23 GMT"
     }
   ]
 }
