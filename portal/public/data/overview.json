@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-26T05:48:40.236279Z",
+  "updatedAt": "2026-08-26T06:33:06.797141Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
@@ -2026,16 +2026,6 @@
         "time": "Tue, 25 Aug 2026 15:12:00 GMT"
       },
       {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix | Race Highlights - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 07:00:00 GMT"
-      },
-      {
         "author": "Yahoo Sports",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2054,6 +2044,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Sky Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungarian Grand Prix | Race Highlights - Sky Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 20 Aug 2026 07:00:00 GMT"
       },
       {
         "author": "The New York Times",
@@ -2078,16 +2078,6 @@
         "time": "Tue, 25 Aug 2026 15:12:00 GMT"
       },
       {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix | Race Highlights - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 20 Aug 2026 07:00:00 GMT"
-      },
-      {
         "author": "Yahoo Sports",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2106,6 +2096,16 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Sky Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungarian Grand Prix | Race Highlights - Sky Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Thu, 20 Aug 2026 07:00:00 GMT"
       },
       {
         "author": "The New York Times",
