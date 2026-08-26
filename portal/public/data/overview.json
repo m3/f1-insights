@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-08-26T14:12:01.280133Z",
+  "updatedAt": "2026-08-26T16:00:16.039182Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-08-26T14:12:00.793146Z",
+    "lastUpdatedUtc": "2026-08-26T16:00:15.464423Z",
     "nextSession": {
       "name": "FP1",
       "timeUtc": "2026-09-04T10:30:00Z"
@@ -61,10 +61,10 @@
   },
   "circuitWeather": {
     "circuit": "Autodromo Nazionale di Monza",
-    "ambientTemp": "30\u00b0C",
-    "trackTemp": "35\u00b0C",
+    "ambientTemp": "29\u00b0C",
+    "trackTemp": "34\u00b0C",
     "rainRisk": "0%",
-    "wind": "7 km/h NE",
+    "wind": "8 km/h NE",
     "humidity": "87%"
   },
   "schedule": [
@@ -1574,7 +1574,7 @@
     "raceName": "Italian Grand Prix",
     "circuitName": "Autodromo Nazionale di Monza",
     "date": "2026-09-06",
-    "generatedAt": "2026-08-26T14:12:00.791921",
+    "generatedAt": "2026-08-26T16:00:15.463224",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1719,7 +1719,7 @@
     "raceName": "Italian Grand Prix",
     "circuitName": "Autodromo Nazionale di Monza",
     "date": "2026-09-06",
-    "generatedAt": "2026-08-26T14:12:00.792340",
+    "generatedAt": "2026-08-26T16:00:15.463636",
     "facts": [],
     "teammateBattles": [
       {

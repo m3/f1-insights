@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "sentimentScore": 54,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,21 +115,41 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "GPblog",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari planning throwback livery for home Grand Prix at Monza - GPblog",
+      "text": "Browning to drive for Williams in Monza FP1 - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 26 Aug 2026 13:34:00 GMT"
+      "time": "Wed, 26 Aug 2026 13:03:00 GMT"
+    },
+    {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Williams confirm F1 driver change for Monza FP1 - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 26 Aug 2026 13:00:00 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Carlos Sainz gets new teammate as Williams makes Luke Browning FP1 announcement - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 26 Aug 2026 13:03:03 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -142,46 +162,46 @@
       "time": "Wed, 26 Aug 2026 08:22:17 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes' Kimi Antonelli to take grid penalty at Italian Grand Prix for new engine - ESPN",
+      "text": "Ferrari tease announcement ahead of Italian GP - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 24 Aug 2026 14:09:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Browning to drive for Williams in Monza FP1 - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 26 Aug 2026 13:03:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What's at stake for Red Bull as engine decision approaches - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 09:39:10 GMT"
+      "time": "Wed, 26 Aug 2026 09:20:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "GPblog",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari planning throwback livery for home Grand Prix at Monza - GPblog",
+      "text": "Browning to drive for Williams in Monza FP1 - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 26 Aug 2026 13:34:00 GMT"
+      "time": "Wed, 26 Aug 2026 13:03:00 GMT"
+    },
+    {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Williams confirm F1 driver change for Monza FP1 - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 26 Aug 2026 13:00:00 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Carlos Sainz gets new teammate as Williams makes Luke Browning FP1 announcement - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 26 Aug 2026 13:03:03 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -194,34 +214,14 @@
       "time": "Wed, 26 Aug 2026 08:22:17 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes' Kimi Antonelli to take grid penalty at Italian Grand Prix for new engine - ESPN",
+      "text": "Ferrari tease announcement ahead of Italian GP - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 24 Aug 2026 14:09:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Browning to drive for Williams in Monza FP1 - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 26 Aug 2026 13:03:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What's at stake for Red Bull as engine decision approaches - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 25 Aug 2026 09:39:10 GMT"
+      "time": "Wed, 26 Aug 2026 09:20:00 GMT"
     }
   ]
 }
