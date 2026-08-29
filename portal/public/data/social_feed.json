@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 51,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 67,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 61,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 57,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 53,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 49,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 45,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 41,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ferrari pays tribute to Michael Schumacher with special Italian GP race suits - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 12:00:27 GMT"
-    },
-    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian GP dates, UK start time and Sky Sports F1's live schedule - Sky Sports",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 11:22:30 GMT"
+      "time": "Sat, 29 Aug 2026 01:35:42 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "audi.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 08:48:00 GMT"
+      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Wolff explains decision behind Monza penalty for Antonelli - Formula 1",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 26 Aug 2026 15:07:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "George Russell: Mercedes confirm grid penalty but where will British driver take new power unit in 2026 F1 season? - Sky Sports",
+      "text": "F1 leaders Mercedes granted engine upgrades, none for Red Bull - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 10:18:26 GMT"
+      "time": "Wed, 26 Aug 2026 21:28:13 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ferrari pays tribute to Michael Schumacher with special Italian GP race suits - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 12:00:27 GMT"
-    },
-    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian GP dates, UK start time and Sky Sports F1's live schedule - Sky Sports",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 11:22:30 GMT"
+      "time": "Sat, 29 Aug 2026 01:35:42 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "audi.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 08:48:00 GMT"
+      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Wolff explains decision behind Monza penalty for Antonelli - Formula 1",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 26 Aug 2026 15:07:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "George Russell: Mercedes confirm grid penalty but where will British driver take new power unit in 2026 F1 season? - Sky Sports",
+      "text": "F1 leaders Mercedes granted engine upgrades, none for Red Bull - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 10:18:26 GMT"
+      "time": "Wed, 26 Aug 2026 21:28:13 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
