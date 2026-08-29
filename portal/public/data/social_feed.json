@@ -142,16 +142,6 @@
       "time": "Sat, 29 Aug 2026 12:39:12 GMT"
     },
     {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "audi.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -160,6 +150,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Reuters",
@@ -194,16 +194,6 @@
       "time": "Sat, 29 Aug 2026 12:39:12 GMT"
     },
     {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "audi.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -212,6 +202,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Fri, 21 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Reuters",
