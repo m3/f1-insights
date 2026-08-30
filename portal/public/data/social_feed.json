@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 53,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 75,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 63,
-      "sentiment": "Mixed",
+      "score": 85,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 59,
-      "sentiment": "Mixed",
+      "score": 81,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 55,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 51,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 47,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,11 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 43,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [
-    {
-      "author": "Autosport",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ferrari to deliver upgraded F1 engine at Italian GP - Autosport",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 13:25:07 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Isack Hadjar shares injury update as he targets Italian GP Red Bull return - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 29 Aug 2026 15:11:42 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lewis Hamilton urges Ferrari to \u201cturn up the heat\u201d in F1 title battle - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 29 Aug 2026 08:00:00 GMT"
-    },
-    {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Italian GP dates, UK start time and Sky Sports F1's live schedule - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 11:22:30 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Italian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 08:48:00 GMT"
-    }
-  ],
-  "xTracksideFeed": [
-    {
-      "author": "Autosport",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ferrari to deliver upgraded F1 engine at Italian GP - Autosport",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 13:25:07 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Isack Hadjar shares injury update as he targets Italian GP Red Bull return - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 29 Aug 2026 15:11:42 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lewis Hamilton urges Ferrari to \u201cturn up the heat\u201d in F1 title battle - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 29 Aug 2026 08:00:00 GMT"
-    },
-    {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Italian GP dates, UK start time and Sky Sports F1's live schedule - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 11:22:30 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Italian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 08:48:00 GMT"
-    }
-  ]
+  "breakingNewsTweets": [],
+  "xTracksideFeed": []
 }
