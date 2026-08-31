@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 68,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 78,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "The Race",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is F1's 2026 Italian Grand Prix? Full weekend schedule - The Race",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 30 Aug 2026 17:52:48 GMT"
+      "time": "Sun, 30 Aug 2026 19:39:30 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Odds: Antonelli penalty means we have a new favourite in big Italian Grand Prix shakeup - gpfans.com",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 30 Aug 2026 13:27:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "audi.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Today | Hadjar hopeful for Monza as Ralf Schumacher set to undergo surgery - GPblog",
+      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 30 Aug 2026 19:01:00 GMT"
+      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari pays tribute to Michael Schumacher with special Italian GP race suits - Motorsport.com",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 12:00:27 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ferrari reveals special Michael Schumacher inspired Monza race suits for F1 Italian GP - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 09:06:23 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "The Race",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is F1's 2026 Italian Grand Prix? Full weekend schedule - The Race",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 30 Aug 2026 17:52:48 GMT"
+      "time": "Sun, 30 Aug 2026 19:39:30 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Odds: Antonelli penalty means we have a new favourite in big Italian Grand Prix shakeup - gpfans.com",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 30 Aug 2026 13:27:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "audi.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Today | Hadjar hopeful for Monza as Ralf Schumacher set to undergo surgery - GPblog",
+      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 30 Aug 2026 19:01:00 GMT"
+      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari pays tribute to Michael Schumacher with special Italian GP race suits - Motorsport.com",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 12:00:27 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Ferrari reveals special Michael Schumacher inspired Monza race suits for F1 Italian GP - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 09:06:23 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
