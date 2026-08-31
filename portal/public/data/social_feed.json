@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 76,
+  "sentimentScore": 69,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 86,
+      "score": 79,
       "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 82,
-      "sentiment": "Positive",
+      "score": 75,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 78,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 74,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 70,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 66,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "SB Nation",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Can Lando Norris stay hot at the Temple of Speed? - SB Nation",
+      "text": "Italian Grand Prix at Monza in pictures - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 12:00:00 GMT"
+      "time": "Mon, 31 Aug 2026 07:06:17 GMT"
     },
     {
-      "author": "RFK Racing Digest",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ranking the 5 best principles in F1 history - RFK Racing Digest",
+      "text": "What time is F1's 2026 Italian Grand Prix? Full weekend schedule - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 10:32:25 GMT"
+      "time": "Sun, 30 Aug 2026 17:52:48 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "5 storylines we\u2019re excited about ahead of the Italian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 31 Aug 2026 15:17:00 GMT"
     },
     {
-      "author": "audi.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
+      "text": "Schumacher\u2019s tears, Leclerc\u2019s win, and maiden victories \u2013 7 memorable Italian Grand Prix moments from Monza - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
+      "time": "Mon, 31 Aug 2026 15:53:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Everything Ferrari's changing to try to win at Monza - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 31 Aug 2026 05:55:26 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "SB Nation",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Can Lando Norris stay hot at the Temple of Speed? - SB Nation",
+      "text": "Italian Grand Prix at Monza in pictures - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 12:00:00 GMT"
+      "time": "Mon, 31 Aug 2026 07:06:17 GMT"
     },
     {
-      "author": "RFK Racing Digest",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ranking the 5 best principles in F1 history - RFK Racing Digest",
+      "text": "What time is F1's 2026 Italian Grand Prix? Full weekend schedule - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 10:32:25 GMT"
+      "time": "Sun, 30 Aug 2026 17:52:48 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "5 storylines we\u2019re excited about ahead of the Italian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 31 Aug 2026 15:17:00 GMT"
     },
     {
-      "author": "audi.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
+      "text": "Schumacher\u2019s tears, Leclerc\u2019s win, and maiden victories \u2013 7 memorable Italian Grand Prix moments from Monza - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
+      "time": "Mon, 31 Aug 2026 15:53:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Everything Ferrari's changing to try to win at Monza - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 31 Aug 2026 05:55:26 GMT"
     }
   ]
 }
