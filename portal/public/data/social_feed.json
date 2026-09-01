@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 58,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 70,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 68,
-      "sentiment": "Mixed",
+      "score": 80,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 64,
+      "score": 76,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 60,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 56,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 52,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 48,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "BBC",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Q&A: Piastri after Norris deal, Antonelli's Italian GP penalty, Ferrari and Zandvoort - BBC",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 06:59:56 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Kimi Antonelli: Why is Mercedes driver taking grid penalties at Italian Grand Prix in Monza on home soil? - Sky Sports",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 07:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "audi.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "George Russell \"has to win\" Italian GP to keep F1 title hopes alive, says former driver - Motorsport.com",
+      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 18:43:52 GMT"
+      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Sebastian Vettel to make special Ferrari return at Italian GP - racingnews365.com",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 10:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian GP unveils one of F1\u2019s most unusual trophies - The Race",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 15:58:20 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "BBC",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Q&A: Piastri after Norris deal, Antonelli's Italian GP penalty, Ferrari and Zandvoort - BBC",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 06:59:56 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Kimi Antonelli: Why is Mercedes driver taking grid penalties at Italian Grand Prix in Monza on home soil? - Sky Sports",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 28 Aug 2026 07:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "audi.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "George Russell \"has to win\" Italian GP to keep F1 title hopes alive, says former driver - Motorsport.com",
+      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 18:43:52 GMT"
+      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Sebastian Vettel to make special Ferrari return at Italian GP - racingnews365.com",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 10:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian GP unveils one of F1\u2019s most unusual trophies - The Race",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 15:58:20 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
