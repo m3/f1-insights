@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 68,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 58,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 78,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 74,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 70,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 66,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 62,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 58,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "George Russell \"has to win\" Italian GP to keep F1 title hopes alive, says former driver - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 31 Aug 2026 18:43:52 GMT"
+    },
+    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+      "text": "Kimi Antonelli: Why is Mercedes driver taking grid penalties at Italian Grand Prix in Monza on home soil? - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 05:09:49 GMT"
+      "time": "Fri, 28 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "formula1.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - formula1.com",
+      "text": "F1 Q&A: Piastri after Norris deal, Antonelli's Italian GP penalty, Ferrari and Zandvoort - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 06:59:56 GMT"
     },
     {
-      "author": "audi.com",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
+      "text": "Why F1's 2027 'silly season' has been so static - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 07:48:11 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Ferrari reveal special Schumacher-inspired livery for Monza - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 08:53:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "George Russell \"has to win\" Italian GP to keep F1 title hopes alive, says former driver - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 31 Aug 2026 18:43:52 GMT"
+    },
+    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
+      "text": "Kimi Antonelli: Why is Mercedes driver taking grid penalties at Italian Grand Prix in Monza on home soil? - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 05:09:49 GMT"
+      "time": "Fri, 28 Aug 2026 07:00:00 GMT"
     },
     {
-      "author": "formula1.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - formula1.com",
+      "text": "F1 Q&A: Piastri after Norris deal, Antonelli's Italian GP penalty, Ferrari and Zandvoort - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 06:59:56 GMT"
     },
     {
-      "author": "audi.com",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
+      "text": "Why F1's 2027 'silly season' has been so static - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 07:48:11 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Ferrari reveal special Schumacher-inspired livery for Monza - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 08:53:00 GMT"
     }
   ]
 }
