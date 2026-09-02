@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 54,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 69,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 64,
-      "sentiment": "Mixed",
+      "score": 79,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 60,
+      "score": 75,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 56,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 52,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 48,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 44,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren to run rotating F1 rear wing in Italy, calls it H-wing - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 16:19:26 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren confirms major Italian GP upgrade with H-wing debut imminent - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 06:36:19 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen cruises to Monza glory amid McLaren team-order drama - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 19:39:00 GMT"
-    },
-    {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Italian Grand Prix at Monza in pictures - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 07:06:17 GMT"
-    },
-    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Isack Hadjar to miss Italian Grand Prix with wrist injury as Liam Lawson gets Red Bull opportunity at Monza - Sky Sports",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 14:06:18 GMT"
+      "time": "Wed, 02 Sep 2026 00:21:29 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "gpfans.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lando Norris F1 title boost as McLaren introduce genius upgrade at Italian Grand Prix - gpfans.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 02 Sep 2026 13:27:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix 2026: Where to watch the Formula 1 race, TV schedule, how to stream, and more - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren to run rotating F1 rear wing in Italy, calls it H-wing - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 16:19:26 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren confirms major Italian GP upgrade with H-wing debut imminent - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 06:36:19 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen cruises to Monza glory amid McLaren team-order drama - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 19:39:00 GMT"
-    },
-    {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Italian Grand Prix at Monza in pictures - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 31 Aug 2026 07:06:17 GMT"
-    },
-    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Isack Hadjar to miss Italian Grand Prix with wrist injury as Liam Lawson gets Red Bull opportunity at Monza - Sky Sports",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 14:06:18 GMT"
+      "time": "Wed, 02 Sep 2026 00:21:29 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "gpfans.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lando Norris F1 title boost as McLaren introduce genius upgrade at Italian Grand Prix - gpfans.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 02 Sep 2026 13:27:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix 2026: Where to watch the Formula 1 race, TV schedule, how to stream, and more - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ]
 }
