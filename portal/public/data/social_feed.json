@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "sentimentScore": 52,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 42,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "audi.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "McLaren to run rotating F1 rear wing in Italy, calls it H-wing - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 16:19:26 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "McLaren confirm return of eye-catching F1 upgrade at Italian GP - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 15:53:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
+      "text": "What do McLaren\u2019s newest upgrades tell us ahead of Monza? - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 11:57:44 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungary was the past, present and future all rolled into one - ESPN",
+      "text": "F1 Q&A: Piastri after Norris deal, Antonelli's Italian GP penalty, Ferrari and Zandvoort - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 06:59:56 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli: Why is Mercedes driver taking grid penalties at Italian Grand Prix in Monza on home soil? - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 28 Aug 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "audi.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Audi Revolut F1 Team: Hungarian Grand Prix - audi.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 21 Aug 2026 07:00:00 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "McLaren to run rotating F1 rear wing in Italy, calls it H-wing - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 16:19:26 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "McLaren confirm return of eye-catching F1 upgrade at Italian GP - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 15:53:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
+      "text": "What do McLaren\u2019s newest upgrades tell us ahead of Monza? - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 11:57:44 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungary was the past, present and future all rolled into one - ESPN",
+      "text": "F1 Q&A: Piastri after Norris deal, Antonelli's Italian GP penalty, Ferrari and Zandvoort - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 01 Sep 2026 06:59:56 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli: Why is Mercedes driver taking grid penalties at Italian Grand Prix in Monza on home soil? - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 28 Aug 2026 07:00:00 GMT"
     }
   ]
 }
