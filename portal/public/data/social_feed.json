@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 62,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 55,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 72,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 68,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 64,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 60,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 56,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 52,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Yahoo Sports",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+      "text": "Italian Grand Prix at Monza declared heat-hazard race by FIA - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 03 Sep 2026 09:41:30 GMT"
     },
     {
-      "author": "Grandprix.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Schumacher says modern F1 helps veterans race longer - Grandprix.com",
+      "text": "F1 Italian GP LIVE: Friday Practice updates, results, stream, highlights from Formula 1 race weekend at Monza - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 09:48:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 03 Sep 2026 19:04:16 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungary was the past, present and future all rolled into one - ESPN",
+      "text": "Monza personifies the passion that enticed Leclerc to commit his future to Ferrari - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 02 Sep 2026 16:27:00 GMT"
     },
     {
-      "author": "formula1.com",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE COVERAGE: Qualifying for the Hungarian GP - formula1.com",
+      "text": "The crucial F1 advantage Lewis Hamilton could hold over Charles Leclerc at Monza - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 03 Sep 2026 14:46:58 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Why Lewis Hamilton brought his dream Ferrari F40 road car and his iconic arrival at Italian GP - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 17:10:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Yahoo Sports",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+      "text": "Italian Grand Prix at Monza declared heat-hazard race by FIA - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 03 Sep 2026 09:41:30 GMT"
     },
     {
-      "author": "Grandprix.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Schumacher says modern F1 helps veterans race longer - Grandprix.com",
+      "text": "F1 Italian GP LIVE: Friday Practice updates, results, stream, highlights from Formula 1 race weekend at Monza - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 09:48:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 03 Sep 2026 19:04:16 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungary was the past, present and future all rolled into one - ESPN",
+      "text": "Monza personifies the passion that enticed Leclerc to commit his future to Ferrari - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 02 Sep 2026 16:27:00 GMT"
     },
     {
-      "author": "formula1.com",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE COVERAGE: Qualifying for the Hungarian GP - formula1.com",
+      "text": "The crucial F1 advantage Lewis Hamilton could hold over Charles Leclerc at Monza - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 03 Sep 2026 14:46:58 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Why Lewis Hamilton brought his dream Ferrari F40 road car and his iconic arrival at Italian GP - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 17:10:00 GMT"
     }
   ]
 }
