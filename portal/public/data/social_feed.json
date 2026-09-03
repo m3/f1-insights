@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "sentimentScore": 56,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula One World Championship Limited",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1\u00ae, Disney and Mercedes-AMG bring Disney and Pixar\u2019s Cars to Monza, with a special Mercedes-AMG Safety Car activation \u2013 Formula One World Championship Limited - Formula One World Championship Limited",
+      "text": "Italian Grand Prix at Monza declared heat-hazard race by FIA - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 11:02:54 GMT"
+      "time": "Thu, 03 Sep 2026 09:41:30 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 fans deliver verdict on expected 2026 Malaysian Grand Prix return - Motorsport.com",
+      "text": "Why Lewis Hamilton brought his dream Ferrari F40 road car and his iconic arrival at Italian GP - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 17:03:05 GMT"
+      "time": "Thu, 03 Sep 2026 17:10:00 GMT"
+    },
+    {
+      "author": "The Guardian",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton ready to rock Monza with \u2018phenomenal\u2019 Italian GP win for Ferrari - The Guardian",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 20:25:00 GMT"
+    },
+    {
+      "author": "People.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton Leaves Fans Confused After Wearing Coat and Suit in Sizzling 90-Degree Weather at F1 Grand Prix - People.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 15:41:01 GMT"
     },
     {
       "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What's next for Aston Martin's and Honda's F1 development - The Race",
+      "text": "What's behind Haas's uncomfortable engine upgrade split at Italian GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 14:26:08 GMT"
-    },
-    {
-      "author": "sports.yahoo.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - sports.yahoo.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Grandprix.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Schumacher says modern F1 helps veterans race longer - Grandprix.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 09:48:00 GMT"
+      "time": "Thu, 03 Sep 2026 17:11:09 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula One World Championship Limited",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1\u00ae, Disney and Mercedes-AMG bring Disney and Pixar\u2019s Cars to Monza, with a special Mercedes-AMG Safety Car activation \u2013 Formula One World Championship Limited - Formula One World Championship Limited",
+      "text": "Italian Grand Prix at Monza declared heat-hazard race by FIA - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 11:02:54 GMT"
+      "time": "Thu, 03 Sep 2026 09:41:30 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 fans deliver verdict on expected 2026 Malaysian Grand Prix return - Motorsport.com",
+      "text": "Why Lewis Hamilton brought his dream Ferrari F40 road car and his iconic arrival at Italian GP - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 17:03:05 GMT"
+      "time": "Thu, 03 Sep 2026 17:10:00 GMT"
+    },
+    {
+      "author": "The Guardian",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton ready to rock Monza with \u2018phenomenal\u2019 Italian GP win for Ferrari - The Guardian",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 20:25:00 GMT"
+    },
+    {
+      "author": "People.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton Leaves Fans Confused After Wearing Coat and Suit in Sizzling 90-Degree Weather at F1 Grand Prix - People.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 15:41:01 GMT"
     },
     {
       "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What's next for Aston Martin's and Honda's F1 development - The Race",
+      "text": "What's behind Haas's uncomfortable engine upgrade split at Italian GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 14:26:08 GMT"
-    },
-    {
-      "author": "sports.yahoo.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - sports.yahoo.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Grandprix.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Schumacher says modern F1 helps veterans race longer - Grandprix.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 09:48:00 GMT"
+      "time": "Thu, 03 Sep 2026 17:11:09 GMT"
     }
   ]
 }
