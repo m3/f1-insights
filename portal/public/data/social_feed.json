@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 75,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 56,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 85,
-      "sentiment": "Positive",
+      "score": 66,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 81,
-      "sentiment": "Positive",
+      "score": 62,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 77,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 73,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 69,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,11 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 65,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [],
-  "xTracksideFeed": []
+  "breakingNewsTweets": [
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lightning McQueen debuts as F1 track vehicle at Italian GP - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 11:44:52 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "LIVE COVERAGE: Follow all the build-up ahead of the Italian Grand Prix weekend - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 11:38:44 GMT"
+    },
+    {
+      "author": "skysports.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Italian GP: Lewis Hamilton hopeful Ferrari can fight for Monza win as team confirm engine upgrade for home race - skysports.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 14:40:32 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton shares \"wholesome\" Ferrari moment with mother ahead of Italian GP - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 14:42:01 GMT"
+    },
+    {
+      "author": "People.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton Leaves Fans Confused After Wearing Coat and Suit in Sizzling 90-Degree Weather at F1 Grand Prix - People.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 15:41:01 GMT"
+    }
+  ],
+  "xTracksideFeed": [
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lightning McQueen debuts as F1 track vehicle at Italian GP - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 11:44:52 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "LIVE COVERAGE: Follow all the build-up ahead of the Italian Grand Prix weekend - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 11:38:44 GMT"
+    },
+    {
+      "author": "skysports.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Italian GP: Lewis Hamilton hopeful Ferrari can fight for Monza win as team confirm engine upgrade for home race - skysports.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 14:40:32 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton shares \"wholesome\" Ferrari moment with mother ahead of Italian GP - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 14:42:01 GMT"
+    },
+    {
+      "author": "People.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Lewis Hamilton Leaves Fans Confused After Wearing Coat and Suit in Sizzling 90-Degree Weather at F1 Grand Prix - People.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 15:41:01 GMT"
+    }
+  ]
 }
