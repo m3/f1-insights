@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 50,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 65,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 60,
+      "score": 75,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 56,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 52,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 48,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 44,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 40,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "espn.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungary was the past, present and future all rolled into one - espn.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lawson to replace Hadjar again at Red Bull in Monza - Formula 1",
+      "text": "LIVE COVERAGE: Qualifying for the Hungarian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 14:16:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "cadillacf1team.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren to run rotating F1 rear wing in Italy, calls it H-wing - Motorsport.com",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2014 RACE REPORT - cadillacf1team.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 16:19:26 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What do McLaren\u2019s newest upgrades tell us ahead of Monza? - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 10:36:28 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren confirms major Italian GP upgrade with H-wing debut imminent - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 06:36:19 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Monza personifies the passion that enticed Leclerc to commit his future to Ferrari - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 16:27:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "espn.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungary was the past, present and future all rolled into one - espn.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lawson to replace Hadjar again at Red Bull in Monza - Formula 1",
+      "text": "LIVE COVERAGE: Qualifying for the Hungarian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 14:16:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "cadillacf1team.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren to run rotating F1 rear wing in Italy, calls it H-wing - Motorsport.com",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2014 RACE REPORT - cadillacf1team.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 16:19:26 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What do McLaren\u2019s newest upgrades tell us ahead of Monza? - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 01 Sep 2026 10:36:28 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren confirms major Italian GP upgrade with H-wing debut imminent - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 06:36:19 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Monza personifies the passion that enticed Leclerc to commit his future to Ferrari - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 02 Sep 2026 16:27:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }

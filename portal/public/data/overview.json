@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-03T06:12:16.323540Z",
+  "updatedAt": "2026-09-03T09:11:47.697161Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
@@ -15,11 +15,10 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "TracingInsights",
-      "OpenMeteo"
+      "FastF1",
+      "OpenMeteo",
+      "SocialMediaRadar"
     ],
-    "tracingInsightsCommit": null,
-    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -1892,5 +1891,232 @@
     }
   ],
   "sprintResults": [],
-  "qualifyingResults": []
+  "qualifyingResults": [],
+  "socialSentiment": {
+    "version": "2026.3",
+    "overallSentiment": "POSITIVE",
+    "sentimentScore": 65,
+    "monitoredAccountsCount": 11,
+    "youtubeSourcesCount": 5,
+    "trendingHashtags": [
+      "#HungarianGrandPrix",
+      "#F1",
+      "#F12026",
+      "#Formula1",
+      "#TechF1"
+    ],
+    "keywords": {
+      "technical": [
+        "telemetry",
+        "floor upgrade",
+        "sidepod undercut",
+        "tyre degradation",
+        "MGU-K",
+        "active aerodynamics",
+        "driving technique",
+        "corner entry speed"
+      ],
+      "regulatory": [
+        "stewards decision",
+        "track limits",
+        "penalty points",
+        "cost cap",
+        "FIA summons"
+      ],
+      "live_coverage": [
+        "watchalong",
+        "live timing",
+        "FP1 commentary",
+        "quali reaction",
+        "race commentary"
+      ]
+    },
+    "youtubeSources": [
+      {
+        "channel_name": "F1 Gamer",
+        "handle": "@F1Gamer",
+        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
+      },
+      {
+        "channel_name": "Peter Windsor",
+        "handle": "@peterwindsor",
+        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
+      },
+      {
+        "channel_name": "Donut - Up to Speed",
+        "handle": "@donut",
+        "focus": "Automotive & Motorsport History/Deep Dives"
+      },
+      {
+        "channel_name": "Brrrake F1",
+        "handle": "@brrrake",
+        "focus": "Telemetry & Engineer Reaction"
+      },
+      {
+        "channel_name": "Autosport",
+        "handle": "@autosport",
+        "focus": "Technical Upgrades & Paddock Debriefs"
+      }
+    ],
+    "driverSentimentRanking": [
+      {
+        "driver": "Lando Norris",
+        "code": "NOR",
+        "handle": "LandoNorris",
+        "team": "McLaren",
+        "score": 75,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LandoNorris"
+      },
+      {
+        "driver": "Oscar Piastri",
+        "code": "PIA",
+        "handle": "OscarPiastri",
+        "team": "McLaren",
+        "score": 71,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @OscarPiastri"
+      },
+      {
+        "driver": "Charles Leclerc",
+        "code": "LEC",
+        "handle": "Charles_Leclerc",
+        "team": "Ferrari",
+        "score": 67,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Charles_Leclerc"
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "code": "HAM",
+        "handle": "LewisHamilton",
+        "team": "Ferrari",
+        "score": 63,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LewisHamilton"
+      },
+      {
+        "driver": "Max Verstappen",
+        "code": "VER",
+        "handle": "Max33Verstappen",
+        "team": "Red Bull",
+        "score": 59,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Max33Verstappen"
+      },
+      {
+        "driver": "Liam Lawson",
+        "code": "LAW",
+        "handle": "LiamLawson30",
+        "team": "Red Bull",
+        "score": 55,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LiamLawson30"
+      }
+    ],
+    "breakingNewsTweets": [
+      {
+        "author": "Yahoo Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "McLaren",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "espn.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungary was the past, present and future all rolled into one - espn.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "LIVE COVERAGE: Qualifying for the Hungarian GP - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "cadillacf1team.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "2026 HUNGARIAN GRAND PRIX \u2014 RACE REPORT - cadillacf1team.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      }
+    ],
+    "xTracksideFeed": [
+      {
+        "author": "Yahoo Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "McLaren",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "espn.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungary was the past, present and future all rolled into one - espn.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "LIVE COVERAGE: Qualifying for the Hungarian GP - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "cadillacf1team.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "2026 HUNGARIAN GRAND PRIX \u2014 RACE REPORT - cadillacf1team.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      }
+    ]
+  }
 }
