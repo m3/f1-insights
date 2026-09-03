@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "BBC",
+      "author": "Formula One World Championship Limited",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian Grand Prix at Monza declared heat-hazard race by FIA - BBC",
+      "text": "Formula 1\u00ae, Disney and Mercedes-AMG bring Disney and Pixar\u2019s Cars to Monza, with a special Mercedes-AMG Safety Car activation \u2013 Formula One World Championship Limited - Formula One World Championship Limited",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 09:41:30 GMT"
+      "time": "Thu, 03 Sep 2026 11:02:54 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 fans deliver verdict on expected 2026 Malaysian Grand Prix return - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 01 Sep 2026 17:03:05 GMT"
+    },
+    {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why Lewis Hamilton brought his dream Ferrari F40 road car and his iconic arrival at Italian GP - ESPN",
+      "text": "Hungary was the past, present and future all rolled into one - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 17:10:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Guardian",
+      "author": "Grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton ready to rock Monza with \u2018phenomenal\u2019 Italian GP win for Ferrari - The Guardian",
+      "text": "Schumacher says modern F1 helps veterans race longer - Grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 20:25:00 GMT"
-    },
-    {
-      "author": "People.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lewis Hamilton Leaves Fans Confused After Wearing Coat and Suit in Sizzling 90-Degree Weather at F1 Grand Prix - People.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 15:41:01 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What's behind Haas's uncomfortable engine upgrade split at Italian GP - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 17:11:09 GMT"
+      "time": "Thu, 03 Sep 2026 09:48:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "BBC",
+      "author": "Formula One World Championship Limited",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian Grand Prix at Monza declared heat-hazard race by FIA - BBC",
+      "text": "Formula 1\u00ae, Disney and Mercedes-AMG bring Disney and Pixar\u2019s Cars to Monza, with a special Mercedes-AMG Safety Car activation \u2013 Formula One World Championship Limited - Formula One World Championship Limited",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 09:41:30 GMT"
+      "time": "Thu, 03 Sep 2026 11:02:54 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 fans deliver verdict on expected 2026 Malaysian Grand Prix return - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 01 Sep 2026 17:03:05 GMT"
+    },
+    {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why Lewis Hamilton brought his dream Ferrari F40 road car and his iconic arrival at Italian GP - ESPN",
+      "text": "Hungary was the past, present and future all rolled into one - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 17:10:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Guardian",
+      "author": "Grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton ready to rock Monza with \u2018phenomenal\u2019 Italian GP win for Ferrari - The Guardian",
+      "text": "Schumacher says modern F1 helps veterans race longer - Grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 20:25:00 GMT"
-    },
-    {
-      "author": "People.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Lewis Hamilton Leaves Fans Confused After Wearing Coat and Suit in Sizzling 90-Degree Weather at F1 Grand Prix - People.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 15:41:01 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What's behind Haas's uncomfortable engine upgrade split at Italian GP - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 17:11:09 GMT"
+      "time": "Thu, 03 Sep 2026 09:48:00 GMT"
     }
   ]
 }
