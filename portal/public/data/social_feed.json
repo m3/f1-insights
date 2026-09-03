@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 65,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 75,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 71,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 67,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 63,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 59,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 55,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "espn.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungary was the past, present and future all rolled into one - espn.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE COVERAGE: Qualifying for the Hungarian GP - Formula 1",
+      "text": "Lawson to replace Hadjar again at Red Bull in Monza - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 02 Sep 2026 14:16:00 GMT"
     },
     {
-      "author": "cadillacf1team.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2014 RACE REPORT - cadillacf1team.com",
+      "text": "Red Bull confirm Isack Hadjar decision as Max Verstappen also steps aside for key session - RacingNews365 Review - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 02 Sep 2026 20:00:00 GMT"
+    },
+    {
+      "author": "gpfans.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Red Bull announce Max Verstappen replacement at F1 Italian Grand Prix - gpfans.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 02 Sep 2026 17:45:00 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes DNF disaster, McLaren shock and more Italian GP predictions - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 05:21:09 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes rules out ADUO engine upgrade at Italian GP as updated F1 power unit due in October - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 02 Sep 2026 14:43:35 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "espn.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungary was the past, present and future all rolled into one - espn.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE COVERAGE: Qualifying for the Hungarian GP - Formula 1",
+      "text": "Lawson to replace Hadjar again at Red Bull in Monza - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 02 Sep 2026 14:16:00 GMT"
     },
     {
-      "author": "cadillacf1team.com",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2014 RACE REPORT - cadillacf1team.com",
+      "text": "Red Bull confirm Isack Hadjar decision as Max Verstappen also steps aside for key session - RacingNews365 Review - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 02 Sep 2026 20:00:00 GMT"
+    },
+    {
+      "author": "gpfans.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Red Bull announce Max Verstappen replacement at F1 Italian Grand Prix - gpfans.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 02 Sep 2026 17:45:00 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes DNF disaster, McLaren shock and more Italian GP predictions - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 05:21:09 GMT"
+    },
+    {
+      "author": "motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes rules out ADUO engine upgrade at Italian GP as updated F1 power unit due in October - motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 02 Sep 2026 14:43:35 GMT"
     }
   ]
 }
