@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 49,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 62,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 59,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 55,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 51,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 47,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 43,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 39,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula One World Championship Limited",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lightning McQueen debuts as F1 track vehicle at Italian GP - Motorsport.com",
+      "text": "Formula 1\u00ae, Disney and Mercedes-AMG bring Disney and Pixar\u2019s Cars to Monza, with a special Mercedes-AMG Safety Car activation \u2013 Formula One World Championship Limited - Formula One World Championship Limited",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 17:41:15 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Fernando Alonso uncertain on future: 'This is not the Formula 1 we grew up with' - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 13:36:04 GMT"
+      "time": "Thu, 03 Sep 2026 11:02:54 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Fernando Alonso reveals emotional helmet tribute for Italian Grand Prix - Motorsport.com",
+      "text": "F1 fans deliver verdict on expected 2026 Malaysian Grand Prix return - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 16:43:35 GMT"
+      "time": "Tue, 01 Sep 2026 17:03:05 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "sports.yahoo.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Fernando Alonso makes blunt future verdict; \u2018Sad\u2019 Monza weekend predicted \u2013 round-up - PlanetF1",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - sports.yahoo.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 19:06:35 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "PrizePicks",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen health update as Lewis Hamilton set for Ferrari advantage \u2013 RacingNews365 Review - racingnews365.com",
+      "text": "F1 Hungarian Grand Prix Predictions, Winner, Podium Pick for Sunday, July 26 - PrizePicks",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 20:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Grandprix.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Schumacher says modern F1 helps veterans race longer - Grandprix.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 09:48:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula One World Championship Limited",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lightning McQueen debuts as F1 track vehicle at Italian GP - Motorsport.com",
+      "text": "Formula 1\u00ae, Disney and Mercedes-AMG bring Disney and Pixar\u2019s Cars to Monza, with a special Mercedes-AMG Safety Car activation \u2013 Formula One World Championship Limited - Formula One World Championship Limited",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 17:41:15 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Fernando Alonso uncertain on future: 'This is not the Formula 1 we grew up with' - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 13:36:04 GMT"
+      "time": "Thu, 03 Sep 2026 11:02:54 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Fernando Alonso reveals emotional helmet tribute for Italian Grand Prix - Motorsport.com",
+      "text": "F1 fans deliver verdict on expected 2026 Malaysian Grand Prix return - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 16:43:35 GMT"
+      "time": "Tue, 01 Sep 2026 17:03:05 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "sports.yahoo.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Fernando Alonso makes blunt future verdict; \u2018Sad\u2019 Monza weekend predicted \u2013 round-up - PlanetF1",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - sports.yahoo.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 19:06:35 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "PrizePicks",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen health update as Lewis Hamilton set for Ferrari advantage \u2013 RacingNews365 Review - racingnews365.com",
+      "text": "F1 Hungarian Grand Prix Predictions, Winner, Podium Pick for Sunday, July 26 - PrizePicks",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 20:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Grandprix.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Schumacher says modern F1 helps veterans race longer - Grandprix.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 03 Sep 2026 09:48:00 GMT"
     }
   ]
 }
