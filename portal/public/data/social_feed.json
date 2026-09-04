@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 63,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 46,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 73,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 69,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 65,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 61,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 57,
+      "score": 40,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 53,
+      "score": 36,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "The Independent",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
+      "text": "F1 practice LIVE: Italian Grand Prix 2026 times, results, radio & updates - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 11:56:12 GMT"
+      "time": "Fri, 04 Sep 2026 15:38:14 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How F1\u2019s 5MJ rule will lead to lower top speeds at Monza than in Hungary - Motorsport.com",
+      "text": "Flavio Briatore questions Monaco GP appeal integrity in explosive Monza press conference - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 09:42:36 GMT"
+      "time": "Fri, 04 Sep 2026 14:21:52 GMT"
     },
     {
-      "author": "RFK Racing Digest",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 promises 'something special' for fans in 2027: Here's all we know - RFK Racing Digest",
+      "text": "Pierre Gasly loses Monaco GP podium, FIA\u2019s Court of Appeal rules - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 03:26:14 GMT"
+      "time": "Fri, 04 Sep 2026 12:44:55 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren finally debuts its newly-named rotating F1 rear wing at Monza - Crash.net",
+      "text": "Briatore accuses judge of McLaren links after Gasly loses Monaco podium - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 11:10:25 GMT"
+      "time": "Fri, 04 Sep 2026 15:20:15 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Athlon Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "Meet Max Verstappen\u2019s Italian GP Replacement: Why Is Red Bull Driver Not Racing at Monza? - Athlon Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 04 Sep 2026 10:48:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "The Independent",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
+      "text": "F1 practice LIVE: Italian Grand Prix 2026 times, results, radio & updates - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 11:56:12 GMT"
+      "time": "Fri, 04 Sep 2026 15:38:14 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How F1\u2019s 5MJ rule will lead to lower top speeds at Monza than in Hungary - Motorsport.com",
+      "text": "Flavio Briatore questions Monaco GP appeal integrity in explosive Monza press conference - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 09:42:36 GMT"
+      "time": "Fri, 04 Sep 2026 14:21:52 GMT"
     },
     {
-      "author": "RFK Racing Digest",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 promises 'something special' for fans in 2027: Here's all we know - RFK Racing Digest",
+      "text": "Pierre Gasly loses Monaco GP podium, FIA\u2019s Court of Appeal rules - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 03:26:14 GMT"
+      "time": "Fri, 04 Sep 2026 12:44:55 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren finally debuts its newly-named rotating F1 rear wing at Monza - Crash.net",
+      "text": "Briatore accuses judge of McLaren links after Gasly loses Monaco podium - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 11:10:25 GMT"
+      "time": "Fri, 04 Sep 2026 15:20:15 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Athlon Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "Meet Max Verstappen\u2019s Italian GP Replacement: Why Is Red Bull Driver Not Racing at Monza? - Athlon Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 04 Sep 2026 10:48:00 GMT"
     }
   ]
 }
