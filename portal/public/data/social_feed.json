@@ -1,7 +1,7 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 63,
+  "sentimentScore": 68,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 73,
+      "score": 78,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 69,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 65,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 61,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 57,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,13 +115,23 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 53,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+    },
+    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -139,7 +149,7 @@
       "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 16:26:12 GMT"
+      "time": "Fri, 04 Sep 2026 17:56:12 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -160,20 +170,20 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren finally debuts its newly-named rotating F1 rear wing at Monza - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 11:10:25 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+    },
+    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
@@ -191,7 +201,7 @@
       "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 16:26:12 GMT"
+      "time": "Fri, 04 Sep 2026 17:56:12 GMT"
     },
     {
       "author": "Motorsport.com",
@@ -212,16 +222,6 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren finally debuts its newly-named rotating F1 rear wing at Monza - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 11:10:25 GMT"
     }
   ]
 }
