@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 75,
+  "sentimentScore": 63,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 85,
-      "sentiment": "Positive",
+      "score": 73,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 81,
-      "sentiment": "Positive",
+      "score": 69,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 77,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 73,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 69,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,11 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 65,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [],
-  "xTracksideFeed": []
+  "breakingNewsTweets": [
+    {
+      "author": "The Independent",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 11:56:12 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "How F1\u2019s 5MJ rule will lead to lower top speeds at Monza than in Hungary - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 09:42:36 GMT"
+    },
+    {
+      "author": "RFK Racing Digest",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 promises 'something special' for fans in 2027: Here's all we know - RFK Racing Digest",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 03:26:14 GMT"
+    },
+    {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "McLaren finally debuts its newly-named rotating F1 rear wing at Monza - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 11:10:25 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    }
+  ],
+  "xTracksideFeed": [
+    {
+      "author": "The Independent",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 11:56:12 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "How F1\u2019s 5MJ rule will lead to lower top speeds at Monza than in Hungary - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 09:42:36 GMT"
+    },
+    {
+      "author": "RFK Racing Digest",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 promises 'something special' for fans in 2027: Here's all we know - RFK Racing Digest",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 03:26:14 GMT"
+    },
+    {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "McLaren finally debuts its newly-named rotating F1 rear wing at Monza - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 11:10:25 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    }
+  ]
 }
