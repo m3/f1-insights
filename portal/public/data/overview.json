@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-04T23:45:27.604998Z",
+  "updatedAt": "2026-09-05T00:56:53.239867Z",
   "timeline": {
     "format": "standard",
     "macroState": "POST_SESSION",
@@ -15,11 +15,10 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "TracingInsights",
-      "OpenMeteo"
+      "FastF1",
+      "OpenMeteo",
+      "SocialMediaRadar"
     ],
-    "tracingInsightsCommit": null,
-    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -1892,5 +1891,232 @@
     }
   ],
   "sprintResults": [],
-  "qualifyingResults": []
+  "qualifyingResults": [],
+  "socialSentiment": {
+    "version": "2026.3",
+    "overallSentiment": "POSITIVE",
+    "sentimentScore": 69,
+    "monitoredAccountsCount": 11,
+    "youtubeSourcesCount": 5,
+    "trendingHashtags": [
+      "#HungarianGrandPrix",
+      "#F1",
+      "#F12026",
+      "#Formula1",
+      "#TechF1"
+    ],
+    "keywords": {
+      "technical": [
+        "telemetry",
+        "floor upgrade",
+        "sidepod undercut",
+        "tyre degradation",
+        "MGU-K",
+        "active aerodynamics",
+        "driving technique",
+        "corner entry speed"
+      ],
+      "regulatory": [
+        "stewards decision",
+        "track limits",
+        "penalty points",
+        "cost cap",
+        "FIA summons"
+      ],
+      "live_coverage": [
+        "watchalong",
+        "live timing",
+        "FP1 commentary",
+        "quali reaction",
+        "race commentary"
+      ]
+    },
+    "youtubeSources": [
+      {
+        "channel_name": "F1 Gamer",
+        "handle": "@F1Gamer",
+        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
+      },
+      {
+        "channel_name": "Peter Windsor",
+        "handle": "@peterwindsor",
+        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
+      },
+      {
+        "channel_name": "Donut - Up to Speed",
+        "handle": "@donut",
+        "focus": "Automotive & Motorsport History/Deep Dives"
+      },
+      {
+        "channel_name": "Brrrake F1",
+        "handle": "@brrrake",
+        "focus": "Telemetry & Engineer Reaction"
+      },
+      {
+        "channel_name": "Autosport",
+        "handle": "@autosport",
+        "focus": "Technical Upgrades & Paddock Debriefs"
+      }
+    ],
+    "driverSentimentRanking": [
+      {
+        "driver": "Lando Norris",
+        "code": "NOR",
+        "handle": "LandoNorris",
+        "team": "McLaren",
+        "score": 79,
+        "sentiment": "Positive",
+        "buzz": "Monitored engagement around @LandoNorris"
+      },
+      {
+        "driver": "Oscar Piastri",
+        "code": "PIA",
+        "handle": "OscarPiastri",
+        "team": "McLaren",
+        "score": 75,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @OscarPiastri"
+      },
+      {
+        "driver": "Charles Leclerc",
+        "code": "LEC",
+        "handle": "Charles_Leclerc",
+        "team": "Ferrari",
+        "score": 71,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Charles_Leclerc"
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "code": "HAM",
+        "handle": "LewisHamilton",
+        "team": "Ferrari",
+        "score": 67,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LewisHamilton"
+      },
+      {
+        "driver": "Max Verstappen",
+        "code": "VER",
+        "handle": "Max33Verstappen",
+        "team": "Red Bull",
+        "score": 63,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Max33Verstappen"
+      },
+      {
+        "driver": "Liam Lawson",
+        "code": "LAW",
+        "handle": "LiamLawson30",
+        "team": "Red Bull",
+        "score": 59,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LiamLawson30"
+      }
+    ],
+    "breakingNewsTweets": [
+      {
+        "author": "The Independent",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 04 Sep 2026 23:56:12 GMT"
+      },
+      {
+        "author": "Motorsport.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "How F1\u2019s 5MJ rule will lead to lower top speeds at Monza than in Hungary - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 04 Sep 2026 10:51:35 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Yahoo Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "ESPN",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      }
+    ],
+    "xTracksideFeed": [
+      {
+        "author": "The Independent",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 04 Sep 2026 23:56:12 GMT"
+      },
+      {
+        "author": "Motorsport.com",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "How F1\u2019s 5MJ rule will lead to lower top speeds at Monza than in Hungary - Motorsport.com",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 04 Sep 2026 10:51:35 GMT"
+      },
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Yahoo Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "ESPN",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      }
+    ]
+  }
 }
