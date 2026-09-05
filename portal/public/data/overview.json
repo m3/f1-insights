@@ -1,24 +1,25 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-05T12:40:16.134494Z",
+  "updatedAt": "2026-09-05T14:41:08.258929Z",
   "timeline": {
     "format": "standard",
     "macroState": "SESSION_IN_PROGRESS",
-    "sessionType": "FP3",
+    "sessionType": "MainQuali",
     "dataStatus": "LIVE",
-    "lastUpdatedUtc": "2026-09-05T11:40:35.404746Z",
+    "lastUpdatedUtc": "2026-09-05T14:41:07.791206Z",
     "nextSession": {
-      "name": "MainQuali",
-      "timeUtc": "2026-09-05T14:00:00Z"
+      "name": "MainRace",
+      "timeUtc": "2026-09-06T13:00:00Z"
     }
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,10 +61,10 @@
   },
   "circuitWeather": {
     "circuit": "Autodromo Nazionale di Monza",
-    "ambientTemp": "32\u00b0C",
-    "trackTemp": "37\u00b0C",
+    "ambientTemp": "34\u00b0C",
+    "trackTemp": "39\u00b0C",
     "rainRisk": "0%",
-    "wind": "9 km/h NE",
+    "wind": "10 km/h NE",
     "humidity": "42%"
   },
   "schedule": [
@@ -1573,7 +1574,7 @@
     "raceName": "Italian Grand Prix",
     "circuitName": "Autodromo Nazionale di Monza",
     "date": "2026-09-06",
-    "generatedAt": "2026-09-05T11:40:35.403523",
+    "generatedAt": "2026-09-05T14:41:07.790062",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1718,7 +1719,7 @@
     "raceName": "Italian Grand Prix",
     "circuitName": "Autodromo Nazionale di Monza",
     "date": "2026-09-06",
-    "generatedAt": "2026-09-05T11:40:35.403875",
+    "generatedAt": "2026-09-05T14:41:07.790468",
     "facts": [],
     "teammateBattles": [
       {
@@ -1891,232 +1892,5 @@
     }
   ],
   "sprintResults": [],
-  "qualifyingResults": [],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 65,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 75,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 71,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 67,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 63,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 59,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 55,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 31 Aug 2026 15:06:37 GMT"
-      },
-      {
-        "author": "Crash.net",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 04 Sep 2026 10:14:41 GMT"
-      },
-      {
-        "author": "The Drive",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Gabriel Bortoleto Is 'Willing to Sacrifice Everything' to Achieve F1 Greatness. Anything Less Isn't an Option - The Drive",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 04 Sep 2026 21:44:47 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The Independent",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 03 Sep 2026 10:27:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 31 Aug 2026 15:06:37 GMT"
-      },
-      {
-        "author": "Crash.net",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 04 Sep 2026 10:14:41 GMT"
-      },
-      {
-        "author": "The Drive",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Gabriel Bortoleto Is 'Willing to Sacrifice Everything' to Achieve F1 Greatness. Anything Less Isn't an Option - The Drive",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 04 Sep 2026 21:44:47 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The Independent",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 03 Sep 2026 10:27:00 GMT"
-      }
-    ]
-  }
+  "qualifyingResults": []
 }
