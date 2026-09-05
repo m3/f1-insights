@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 58,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 65,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 68,
+      "score": 75,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 64,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 60,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 56,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 52,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 48,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari pole at Italian GP 'ultimate dream' \u2013 Hamilton - Formula 1",
+      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 18:58:00 GMT"
+      "time": "Mon, 31 Aug 2026 15:06:37 GMT"
+    },
+    {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+    },
+    {
+      "author": "The Drive",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Gabriel Bortoleto Is 'Willing to Sacrifice Everything' to Achieve F1 Greatness. Anything Less Isn't an Option - The Drive",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 21:44:47 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "When Schumacher retired after winning in front of the Tifosi - Formula 1",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 05 Sep 2026 07:24:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "independent.co.uk",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian GP: Kimi Antonelli to help Mercedes team-mate George Russell in Monza qualifying due to engine grid penalty - Sky Sports",
+      "text": "F1 Italian GP schedule: Practice start time and TV coverage - independent.co.uk",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 05 Sep 2026 07:16:11 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Albon joins Antonelli with heavy grid drop for Italian GP - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 16:14:00 GMT"
-    },
-    {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Is 'disruptor' Antonelli winning hearts in Italy, where Ferrari is F1? - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 05 Sep 2026 06:32:23 GMT"
+      "time": "Thu, 03 Sep 2026 10:27:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari pole at Italian GP 'ultimate dream' \u2013 Hamilton - Formula 1",
+      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 18:58:00 GMT"
+      "time": "Mon, 31 Aug 2026 15:06:37 GMT"
+    },
+    {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+    },
+    {
+      "author": "The Drive",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Gabriel Bortoleto Is 'Willing to Sacrifice Everything' to Achieve F1 Greatness. Anything Less Isn't an Option - The Drive",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 21:44:47 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "When Schumacher retired after winning in front of the Tifosi - Formula 1",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 05 Sep 2026 07:24:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "independent.co.uk",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian GP: Kimi Antonelli to help Mercedes team-mate George Russell in Monza qualifying due to engine grid penalty - Sky Sports",
+      "text": "F1 Italian GP schedule: Practice start time and TV coverage - independent.co.uk",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 05 Sep 2026 07:16:11 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Albon joins Antonelli with heavy grid drop for Italian GP - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 16:14:00 GMT"
-    },
-    {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Is 'disruptor' Antonelli winning hearts in Italy, where Ferrari is F1? - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 05 Sep 2026 06:32:23 GMT"
+      "time": "Thu, 03 Sep 2026 10:27:00 GMT"
     }
   ]
 }
