@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 47,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 64,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#ItalianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 57,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 53,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 49,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 45,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 41,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 37,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Russell beats Leclerc and Antonelli to FP2 fastest time - Formula 1",
+      "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 15:19:00 GMT"
+      "time": "Sat, 05 Sep 2026 04:26:17 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 31 Aug 2026 15:06:37 GMT"
+    },
+    {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian GP: Kimi Antonelli to help Mercedes team-mate George Russell in Monza qualifying due to engine grid penalty - Sky Sports",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 16:33:04 GMT"
+      "time": "Fri, 04 Sep 2026 09:37:25 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "thedrive.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Albon joins Antonelli with heavy grid drop for Italian GP - Formula 1",
+      "text": "Gabriel Bortoleto Is 'Willing to Sacrifice Everything' to Achieve F1 Greatness. Anything Less Isn't an Option - thedrive.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 16:14:00 GMT"
-    },
-    {
-      "author": "The Guardian",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kimi Antonelli: \u2018The F1 environment is great but at times it can be very brutal\u2019 - The Guardian",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 19:00:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "The early verdict on Ferrari's Italian GP engine upgrade - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 19:37:33 GMT"
+      "time": "Fri, 04 Sep 2026 21:44:47 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Russell beats Leclerc and Antonelli to FP2 fastest time - Formula 1",
+      "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 15:19:00 GMT"
+      "time": "Sat, 05 Sep 2026 04:26:17 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 31 Aug 2026 15:06:37 GMT"
+    },
+    {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Italian GP: Kimi Antonelli to help Mercedes team-mate George Russell in Monza qualifying due to engine grid penalty - Sky Sports",
+      "text": "Look back at all the key updates, reaction and watch the best video from the Hungarian Grand Prix in Budapest - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 16:33:04 GMT"
+      "time": "Fri, 04 Sep 2026 09:37:25 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "thedrive.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Albon joins Antonelli with heavy grid drop for Italian GP - Formula 1",
+      "text": "Gabriel Bortoleto Is 'Willing to Sacrifice Everything' to Achieve F1 Greatness. Anything Less Isn't an Option - thedrive.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 16:14:00 GMT"
-    },
-    {
-      "author": "The Guardian",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kimi Antonelli: \u2018The F1 environment is great but at times it can be very brutal\u2019 - The Guardian",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 19:00:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "The early verdict on Ferrari's Italian GP engine upgrade - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 19:37:33 GMT"
+      "time": "Fri, 04 Sep 2026 21:44:47 GMT"
     }
   ]
 }
