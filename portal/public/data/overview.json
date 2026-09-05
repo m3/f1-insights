@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-05T21:32:36.188794Z",
+  "updatedAt": "2026-09-05T23:17:26.033885Z",
   "timeline": {
     "format": "standard",
     "macroState": "POST_SESSION",
@@ -2384,7 +2384,7 @@
   "socialSentiment": {
     "version": "2026.3",
     "overallSentiment": "POSITIVE",
-    "sentimentScore": 64,
+    "sentimentScore": 62,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -2453,7 +2453,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 74,
+        "score": 72,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -2462,7 +2462,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 70,
+        "score": 68,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -2471,7 +2471,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 66,
+        "score": 64,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -2480,7 +2480,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 62,
+        "score": 60,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -2489,7 +2489,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 58,
+        "score": 56,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -2498,7 +2498,7 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 54,
+        "score": 52,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
@@ -2525,14 +2525,14 @@
         "time": "Sat, 05 Sep 2026 15:33:00 GMT"
       },
       {
-        "author": "Grande Pr\u00eamio",
+        "author": "The New York Times",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Gasly breaks 17-year Alpine/Renault pole drought at Italian GP - Grande Pr\u00eamio",
+        "text": "Pierre Gasly stuns Mercedes in Italian GP qualifying to claim first F1 pole - The New York Times",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 05 Sep 2026 16:05:13 GMT"
+        "time": "Sat, 05 Sep 2026 17:30:44 GMT"
       },
       {
         "author": "Formula 1",
@@ -2545,14 +2545,14 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "The New York Times",
+        "author": "Grande Pr\u00eamio",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+        "text": "Gasly breaks 17-year Alpine/Renault pole drought at Italian GP - Grande Pr\u00eamio",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Sat, 05 Sep 2026 16:05:13 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2577,14 +2577,14 @@
         "time": "Sat, 05 Sep 2026 15:33:00 GMT"
       },
       {
-        "author": "Grande Pr\u00eamio",
+        "author": "The New York Times",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Gasly breaks 17-year Alpine/Renault pole drought at Italian GP - Grande Pr\u00eamio",
+        "text": "Pierre Gasly stuns Mercedes in Italian GP qualifying to claim first F1 pole - The New York Times",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sat, 05 Sep 2026 16:05:13 GMT"
+        "time": "Sat, 05 Sep 2026 17:30:44 GMT"
       },
       {
         "author": "Formula 1",
@@ -2597,14 +2597,14 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "The New York Times",
+        "author": "Grande Pr\u00eamio",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+        "text": "Gasly breaks 17-year Alpine/Renault pole drought at Italian GP - Grande Pr\u00eamio",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+        "time": "Sat, 05 Sep 2026 16:05:13 GMT"
       }
     ]
   }
