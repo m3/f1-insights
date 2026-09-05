@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-05T23:17:26.033885Z",
+  "updatedAt": "2026-09-05T23:35:00.837093Z",
   "timeline": {
     "format": "standard",
     "macroState": "POST_SESSION",
     "sessionType": "MainQuali",
     "dataStatus": "PROCESSING",
-    "lastUpdatedUtc": "2026-09-05T21:31:17.245383Z",
+    "lastUpdatedUtc": "2026-09-05T23:35:00.179793Z",
     "nextSession": {
       "name": "MainRace",
       "timeUtc": "2026-09-06T13:00:00Z"
@@ -15,10 +15,11 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,10 +61,10 @@
   },
   "circuitWeather": {
     "circuit": "Autodromo Nazionale di Monza",
-    "ambientTemp": "27\u00b0C",
-    "trackTemp": "32\u00b0C",
+    "ambientTemp": "25\u00b0C",
+    "trackTemp": "30\u00b0C",
     "rainRisk": "0%",
-    "wind": "7 km/h NE",
+    "wind": "8 km/h NE",
     "humidity": "42%"
   },
   "schedule": [
@@ -1573,7 +1574,7 @@
     "raceName": "Italian Grand Prix",
     "circuitName": "Autodromo Nazionale di Monza",
     "date": "2026-09-06",
-    "generatedAt": "2026-09-05T21:31:17.244262",
+    "generatedAt": "2026-09-05T23:35:00.178669",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1718,7 +1719,7 @@
     "raceName": "Italian Grand Prix",
     "circuitName": "Autodromo Nazionale di Monza",
     "date": "2026-09-06",
-    "generatedAt": "2026-09-05T21:31:17.244594",
+    "generatedAt": "2026-09-05T23:35:00.179043",
     "facts": [],
     "teammateBattles": [
       {
@@ -2380,232 +2381,5 @@
       },
       "Q1": "1:25.222"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 62,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 72,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 68,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 64,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 60,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 56,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 52,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Crash.net",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 04 Sep 2026 10:14:41 GMT"
-      },
-      {
-        "author": "The Independent",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 grid: Starting positions for Italian Grand Prix after shock Gasly pole - The Independent",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 05 Sep 2026 15:33:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Pierre Gasly stuns Mercedes in Italian GP qualifying to claim first F1 pole - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 05 Sep 2026 17:30:44 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Grande Pr\u00eamio",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Gasly breaks 17-year Alpine/Renault pole drought at Italian GP - Grande Pr\u00eamio",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 05 Sep 2026 16:05:13 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Crash.net",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 04 Sep 2026 10:14:41 GMT"
-      },
-      {
-        "author": "The Independent",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 grid: Starting positions for Italian Grand Prix after shock Gasly pole - The Independent",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 05 Sep 2026 15:33:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Pierre Gasly stuns Mercedes in Italian GP qualifying to claim first F1 pole - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 05 Sep 2026 17:30:44 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Grande Pr\u00eamio",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Gasly breaks 17-year Alpine/Renault pole drought at Italian GP - Grande Pr\u00eamio",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 05 Sep 2026 16:05:13 GMT"
-      }
-    ]
-  }
+  ]
 }
