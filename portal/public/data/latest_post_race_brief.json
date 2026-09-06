@@ -4,7 +4,7 @@
   "raceName": "Italian Grand Prix",
   "circuitName": "Autodromo Nazionale di Monza",
   "date": "2026-09-06",
-  "generatedAt": "2026-09-06T20:39:49.941292",
+  "generatedAt": "2026-09-06T22:43:51.582102",
   "facts": [],
   "teammateBattles": [
     {
@@ -33,8 +33,8 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "242",
-      "wins": "6",
+      "points": "267",
+      "wins": "7",
       "Driver": {
         "driverId": "antonelli",
         "permanentNumber": "12",
@@ -57,7 +57,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "183",
+      "points": "201",
       "wins": "2",
       "Driver": {
         "driverId": "russell",
@@ -81,7 +81,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "183",
+      "points": "191",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -105,7 +105,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "159",
+      "points": "171",
       "wins": "2",
       "Driver": {
         "driverId": "norris",
