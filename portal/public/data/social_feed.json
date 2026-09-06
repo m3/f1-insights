@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#ItalianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "Crash.net",
+      "author": "The Guardian",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
+      "text": "Formula One 2026: Kimi Antonelli ends 60-year home wait at Italian GP after overtaking George Russell \u2013 live reaction - The Guardian",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+      "time": "Sun, 06 Sep 2026 12:00:00 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli comes from 19th on the grid to win sensational home Italian Grand Prix - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 06 Sep 2026 14:58:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "Antonelli beats Russell to Monza win with stunning comeback - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 06 Sep 2026 15:11:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "LIVE: F1 Italian GP updates - Russell leads as Antonelli and Verstappen pit under virtual safety car | Live text - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 06 Sep 2026 14:41:23 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "F1 LIVE: Italian Grand Prix 2026 start time, grid, commentary & updates from Monza - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 10:27:00 GMT"
+      "time": "Sun, 06 Sep 2026 14:38:48 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Crash.net",
+      "author": "The Guardian",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
+      "text": "Formula One 2026: Kimi Antonelli ends 60-year home wait at Italian GP after overtaking George Russell \u2013 live reaction - The Guardian",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+      "time": "Sun, 06 Sep 2026 12:00:00 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli comes from 19th on the grid to win sensational home Italian Grand Prix - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 06 Sep 2026 14:58:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "Antonelli beats Russell to Monza win with stunning comeback - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 06 Sep 2026 15:11:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "LIVE: F1 Italian GP updates - Russell leads as Antonelli and Verstappen pit under virtual safety car | Live text - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 06 Sep 2026 14:41:23 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "F1 LIVE: Italian Grand Prix 2026 start time, grid, commentary & updates from Monza - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Italian GP schedule: Practice start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 03 Sep 2026 10:27:00 GMT"
+      "time": "Sun, 06 Sep 2026 14:38:48 GMT"
     }
   ]
 }
