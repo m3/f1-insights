@@ -1,63 +1,7 @@
 {
   "gridPenalties": {
     "startingGridImpacts": [],
-    "inRaceTimePenalties": [
-      {
-        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 11 (PER) WILL BE INVESTIGATED AFTER THE RACE - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS \u2013 PRACTICE START INFRINGEMENT (14:20:30)",
-        "lap": 1,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 43 (COL) WILL BE INVESTIGATED AFTER THE RACE - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS \u2013 PRACTICE START INFRINGEMENT (14:27:01)",
-        "lap": 1,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "CAR 55 (SAI) LAP DELETED - TRACK LIMITS AT TURN 5 LAP 1 15:04:11",
-        "lap": 4,
-        "category": "Track Limits"
-      },
-      {
-        "message": "FIA STEWARDS: TURN 2 INCIDENT INVOLVING CARS 16 (LEC) AND 44 (HAM) REVIEWED NO FURTHER INVESTIGATION (15:03:44)",
-        "lap": 4,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 22 (TSU) WILL BE INVESTIGATED AFTER THE RACE - STARTING PROCEDURE INFRINGEMENT (15:41:47)",
-        "lap": 11,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CARS 30 (LAW) AND 27 (HUL) UNDER INVESTIGATION (15:53:37)",
-        "lap": 19,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CAR 11 (PER) UNDER INVESTIGATION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS \u2013 ESCAPE ROAD INSTRUCTIONS (16:09:46)",
-        "lap": 28,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 11 (PER) - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS \u2013 ESCAPE ROAD INSTRUCTIONS",
-        "lap": 30,
-        "category": "Other"
-      },
-      {
-        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 11 (PER) - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS \u2013 ESCAPE ROAD INSTRUCTIONS",
-        "lap": 30,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 63 (RUS) UNDER INVESTIGATION - YELLOW FLAG INFRINGEMENT (16:17:30)",
-        "lap": 37,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 63 (RUS) NO FURTHER ACTION - YELLOW FLAG INFRINGEMENT (16:17:30)",
-        "lap": 40,
-        "category": "Steward Decision"
-      }
-    ]
+    "inRaceTimePenalties": []
   },
   "penaltyWatch": {
     "high_risk_drivers": [],
