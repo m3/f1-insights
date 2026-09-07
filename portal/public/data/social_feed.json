@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 70,
+  "sentimentScore": 61,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SpanishGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 80,
-      "sentiment": "Positive",
+      "score": 71,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 76,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 72,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 68,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 64,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 60,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "crash.net",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - crash.net",
+      "text": "Why the Spanish Grand Prix is special - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+      "time": "Sun, 06 Sep 2026 15:05:19 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "Spanish Grand Prix practice, qualifying and race times, UK times, plus weather forecast - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 06 Sep 2026 19:06:26 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "Red Bull urged to keep Liam Lawson for Spanish GP as Isack Hadjar recovers from injury - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 05 Sep 2026 12:31:31 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "skysports.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "Italian GP: Did Mercedes strategy cost George Russell win at Monza against Kimi Antonelli? - skysports.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 06 Sep 2026 18:00:07 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Barcelona-Catalunya Grand Prix: Lewis Hamilton wins first race for Ferrari, first all British podium since 1968 - as it happened - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 14 Jun 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "crash.net",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - crash.net",
+      "text": "Why the Spanish Grand Prix is special - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+      "time": "Sun, 06 Sep 2026 15:05:19 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "Spanish Grand Prix practice, qualifying and race times, UK times, plus weather forecast - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 06 Sep 2026 19:06:26 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "Red Bull urged to keep Liam Lawson for Spanish GP as Isack Hadjar recovers from injury - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 05 Sep 2026 12:31:31 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "skysports.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "Italian GP: Did Mercedes strategy cost George Russell win at Monza against Kimi Antonelli? - skysports.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 06 Sep 2026 18:00:07 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Barcelona-Catalunya Grand Prix: Lewis Hamilton wins first race for Ferrari, first all British podium since 1968 - as it happened - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 14 Jun 2026 07:00:00 GMT"
     }
   ]
 }
