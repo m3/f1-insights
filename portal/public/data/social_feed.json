@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 75,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 54,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SpanishGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 85,
-      "sentiment": "Positive",
+      "score": 64,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 81,
-      "sentiment": "Positive",
+      "score": 60,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 77,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 73,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 69,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,11 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 65,
+      "score": 44,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [],
-  "xTracksideFeed": []
+  "breakingNewsTweets": [
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Williams reveal special livery ahead of Spanish GP in Madrid - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 08 Sep 2026 17:21:00 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Spanish Grand Prix 2026: Race start time in Madrid, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 07 Sep 2026 12:37:00 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar to sit out third F1 race in Madrid as Yuki Tsunoda returns - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 07 Sep 2026 17:21:46 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Spanish GP: Ferrari boss Frederic Vasseur says team will come back stronger in Madrid after Italian GP 'failure' at Monza - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 08 Sep 2026 13:02:02 GMT"
+    },
+    {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Charles Leclerc shares personal update after major Monza crash - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 08 Sep 2026 19:50:00 GMT"
+    }
+  ],
+  "xTracksideFeed": [
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Williams reveal special livery ahead of Spanish GP in Madrid - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 08 Sep 2026 17:21:00 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Spanish Grand Prix 2026: Race start time in Madrid, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 07 Sep 2026 12:37:00 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar to sit out third F1 race in Madrid as Yuki Tsunoda returns - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 07 Sep 2026 17:21:46 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Spanish GP: Ferrari boss Frederic Vasseur says team will come back stronger in Madrid after Italian GP 'failure' at Monza - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 08 Sep 2026 13:02:02 GMT"
+    },
+    {
+      "author": "racingnews365.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Charles Leclerc shares personal update after major Monza crash - racingnews365.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 08 Sep 2026 19:50:00 GMT"
+    }
+  ]
 }
