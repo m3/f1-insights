@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 54,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 62,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#SpanishGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 64,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 60,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 56,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 52,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 48,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 44,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "ESPN",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Spanish Grand Prix: Everything you need to know about F1's brand-new Madring - ESPN",
+      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 09 Sep 2026 08:45:00 GMT"
+      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Oracle Red Bull Racing",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen predicts 'big shunts' at Madrid F1 weekend - racingnews365.com",
+      "text": "Qualifying Team Reaction: Hungarian Grand Prix 2026 - Oracle Red Bull Racing",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 09 Sep 2026 11:20:00 GMT"
-    },
-    {
-      "author": "gpblog.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen questions modern F1 with Tsunoda-Lawson example: 'No disrespect, but...' - gpblog.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 09 Sep 2026 15:54:00 GMT"
-    },
-    {
-      "author": "gpfans.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 News Today: Max Verstappen unhappy as Red Bull star set to miss Spanish Grand Prix - gpfans.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 08 Sep 2026 05:30:00 GMT"
+      "time": "Sun, 06 Sep 2026 07:00:00 GMT"
     },
     {
       "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Wrist injury keeps Isack Hadjar out of F1 Spanish GP as Liam Lawson continues at Red Bull - Crash.net",
+      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 09 Sep 2026 09:30:56 GMT"
+      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+    },
+    {
+      "author": "The Independent",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Madrid GP schedule: Race start time and TV coverage - The Independent",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 08 Sep 2026 16:53:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "ESPN",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Spanish Grand Prix: Everything you need to know about F1's brand-new Madring - ESPN",
+      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 09 Sep 2026 08:45:00 GMT"
+      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Oracle Red Bull Racing",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Max Verstappen predicts 'big shunts' at Madrid F1 weekend - racingnews365.com",
+      "text": "Qualifying Team Reaction: Hungarian Grand Prix 2026 - Oracle Red Bull Racing",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 09 Sep 2026 11:20:00 GMT"
-    },
-    {
-      "author": "gpblog.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen questions modern F1 with Tsunoda-Lawson example: 'No disrespect, but...' - gpblog.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 09 Sep 2026 15:54:00 GMT"
-    },
-    {
-      "author": "gpfans.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 News Today: Max Verstappen unhappy as Red Bull star set to miss Spanish Grand Prix - gpfans.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 08 Sep 2026 05:30:00 GMT"
+      "time": "Sun, 06 Sep 2026 07:00:00 GMT"
     },
     {
       "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Wrist injury keeps Isack Hadjar out of F1 Spanish GP as Liam Lawson continues at Red Bull - Crash.net",
+      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 09 Sep 2026 09:30:56 GMT"
+      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
+    },
+    {
+      "author": "The Independent",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Madrid GP schedule: Race start time and TV coverage - The Independent",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 08 Sep 2026 16:53:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
