@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 61,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 48,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SpanishGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 71,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 67,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 63,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 59,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 55,
+      "score": 42,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 51,
+      "score": 38,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "Madring madness, Charles Leclerc hits back and more Spanish GP predictions - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
+      "time": "Thu, 10 Sep 2026 05:01:56 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "\u2018Pathetic and dangerous\u2019 \u2013 Martin Brundle suffers nightmare Spanish GP journey - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 10 Sep 2026 10:21:56 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar to miss Spanish Grand Prix in Madrid due to wrist injury as Liam Lawson continues at Red Bull - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 10 Sep 2026 05:58:40 GMT"
+    },
+    {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar Set to Miss Third Straight Race at 2026 Spanish Grand Prix - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 10 Sep 2026 08:00:34 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Isack Hadjar to sit out third F1 race in Madrid as Yuki Tsunoda returns - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Spanish GP schedule: Madrid race start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 08 Sep 2026 16:53:00 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 07 Sep 2026 17:14:41 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "Madring madness, Charles Leclerc hits back and more Spanish GP predictions - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
+      "time": "Thu, 10 Sep 2026 05:01:56 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "\u2018Pathetic and dangerous\u2019 \u2013 Martin Brundle suffers nightmare Spanish GP journey - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 10 Sep 2026 10:21:56 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar to miss Spanish Grand Prix in Madrid due to wrist injury as Liam Lawson continues at Red Bull - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 10 Sep 2026 05:58:40 GMT"
+    },
+    {
+      "author": "Yahoo Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar Set to Miss Third Straight Race at 2026 Spanish Grand Prix - Yahoo Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 10 Sep 2026 08:00:34 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Isack Hadjar to sit out third F1 race in Madrid as Yuki Tsunoda returns - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Spanish GP schedule: Madrid race start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 08 Sep 2026 16:53:00 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 F1 Hungarian Grand Prix - Friday Practice Results - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 04 Sep 2026 10:14:41 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 07 Sep 2026 17:14:41 GMT"
     }
   ]
 }
