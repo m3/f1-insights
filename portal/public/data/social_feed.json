@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 56,
+  "sentimentScore": 48,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SpanishGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 66,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 62,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 58,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 54,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 50,
+      "score": 42,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 46,
+      "score": 38,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -126,50 +126,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "McLaren drops upside down H-wing concept for F1 Spanish GP - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
+      "time": "Thu, 10 Sep 2026 11:55:21 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "planetf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Spanish GP schedule: Madrid race start time and TV coverage - The Independent",
+      "text": "\u2018Pathetic and dangerous\u2019 \u2013 Martin Brundle suffers nightmare Spanish GP journey - planetf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 16:55:25 GMT"
+      "time": "Thu, 10 Sep 2026 10:21:56 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Charles Leclerc takes blame for Lewis Hamilton clash at Monza after pair hold talks ahead of Spanish Grand Prix in Madrid - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 10 Sep 2026 15:15:59 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Lewis Hamilton: I don\u2019t want preferential treatment from Ferrari - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
+      "time": "Thu, 10 Sep 2026 16:19:58 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren drops H-wing concept for F1 Spanish GP - Autosport",
+      "text": "Spanish Grand Prix: Lewis Hamilton says he and Charles Leclerc have 'squashed' Monza controversy - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 13:35:55 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 10 Sep 2026 17:27:04 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,50 +178,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "McLaren drops upside down H-wing concept for F1 Spanish GP - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
+      "time": "Thu, 10 Sep 2026 11:55:21 GMT"
     },
     {
-      "author": "The Independent",
+      "author": "planetf1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Spanish GP schedule: Madrid race start time and TV coverage - The Independent",
+      "text": "\u2018Pathetic and dangerous\u2019 \u2013 Martin Brundle suffers nightmare Spanish GP journey - planetf1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 16:55:25 GMT"
+      "time": "Thu, 10 Sep 2026 10:21:56 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Charles Leclerc takes blame for Lewis Hamilton clash at Monza after pair hold talks ahead of Spanish Grand Prix in Madrid - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 10 Sep 2026 15:15:59 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Lewis Hamilton: I don\u2019t want preferential treatment from Ferrari - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
+      "time": "Thu, 10 Sep 2026 16:19:58 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren drops H-wing concept for F1 Spanish GP - Autosport",
+      "text": "Spanish Grand Prix: Lewis Hamilton says he and Charles Leclerc have 'squashed' Monza controversy - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 13:35:55 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 10 Sep 2026 17:27:04 GMT"
     }
   ]
 }
