@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-09T22:45:16.684919Z",
+  "updatedAt": "2026-09-10T00:37:56.043393Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
@@ -2036,6 +2036,16 @@
         "time": "Mon, 07 Sep 2026 17:13:12 GMT"
       },
       {
+        "author": "The Independent",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Madrid GP schedule: Race start time and TV coverage - The Independent",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 08 Sep 2026 16:53:00 GMT"
+      },
+      {
         "author": "Crash.net",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2044,16 +2054,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 04 Sep 2026 10:14:41 GMT"
-      },
-      {
-        "author": "The Independent",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Spanish GP schedule: Madrid race start time and TV coverage - The Independent",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 08 Sep 2026 16:53:00 GMT"
       },
       {
         "author": "Formula 1",
@@ -2088,6 +2088,16 @@
         "time": "Mon, 07 Sep 2026 17:13:12 GMT"
       },
       {
+        "author": "The Independent",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "F1 Madrid GP schedule: Race start time and TV coverage - The Independent",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Tue, 08 Sep 2026 16:53:00 GMT"
+      },
+      {
         "author": "Crash.net",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2096,16 +2106,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Fri, 04 Sep 2026 10:14:41 GMT"
-      },
-      {
-        "author": "The Independent",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Spanish GP schedule: Madrid race start time and TV coverage - The Independent",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 08 Sep 2026 16:53:00 GMT"
       },
       {
         "author": "Formula 1",
