@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 56,
+  "sentimentScore": 60,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#SpanishGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 66,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 62,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 58,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 54,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 50,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 46,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Sky Sports",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc takes blame for Lewis Hamilton clash at Monza after pair hold talks ahead of Spanish Grand Prix in Madrid - Sky Sports",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 11 Sep 2026 04:08:09 GMT"
+      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 star Charles Leclerc could miss Spanish GP, faces 'hardest return in sport' with FIA health test - gpfans.com",
+      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 11:30:00 GMT"
+      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
     },
     {
-      "author": "BBC",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Spanish Grand Prix: Lewis Hamilton says he and Charles Leclerc have 'squashed' Monza controversy - BBC",
+      "text": "F1 Madrid GP schedule: Race start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 17:27:04 GMT"
+      "time": "Tue, 08 Sep 2026 16:55:24 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "'The most risky on the calendar': F1 drivers react to 'crazy' Madring layout ahead of Spanish Grand Prix - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 17:47:00 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "New Fernando Alonso option emerges as final Aston Martin decision looms - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 11 Sep 2026 05:06:03 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Sky Sports",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc takes blame for Lewis Hamilton clash at Monza after pair hold talks ahead of Spanish Grand Prix in Madrid - Sky Sports",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 11 Sep 2026 04:08:09 GMT"
+      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
     },
     {
-      "author": "gpfans.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 star Charles Leclerc could miss Spanish GP, faces 'hardest return in sport' with FIA health test - gpfans.com",
+      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 11:30:00 GMT"
+      "time": "Mon, 07 Sep 2026 17:13:12 GMT"
     },
     {
-      "author": "BBC",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Spanish Grand Prix: Lewis Hamilton says he and Charles Leclerc have 'squashed' Monza controversy - BBC",
+      "text": "F1 Madrid GP schedule: Race start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 17:27:04 GMT"
+      "time": "Tue, 08 Sep 2026 16:55:24 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "'The most risky on the calendar': F1 drivers react to 'crazy' Madring layout ahead of Spanish Grand Prix - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 17:47:00 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "New Fernando Alonso option emerges as final Aston Martin decision looms - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 11 Sep 2026 05:06:03 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
