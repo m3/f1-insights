@@ -1,24 +1,25 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-11T13:41:42.698917Z",
+  "updatedAt": "2026-09-11T15:57:23.056439Z",
   "timeline": {
     "format": "standard",
     "macroState": "SESSION_IN_PROGRESS",
-    "sessionType": "FP1",
+    "sessionType": "FP2",
     "dataStatus": "LIVE",
-    "lastUpdatedUtc": "2026-09-11T11:41:30.679651Z",
+    "lastUpdatedUtc": "2026-09-11T15:57:22.541519Z",
     "nextSession": {
-      "name": "FP2",
-      "timeUtc": "2026-09-11T15:00:00Z"
+      "name": "FP3",
+      "timeUtc": "2026-09-12T10:30:00Z"
     }
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,10 +61,10 @@
   },
   "circuitWeather": {
     "circuit": "Madring",
-    "ambientTemp": "27\u00b0C",
-    "trackTemp": "32\u00b0C",
+    "ambientTemp": "30\u00b0C",
+    "trackTemp": "35\u00b0C",
     "rainRisk": "0%",
-    "wind": "3 km/h NE",
+    "wind": "5 km/h NE",
     "humidity": "36%"
   },
   "schedule": [
@@ -1573,7 +1574,7 @@
     "raceName": "Spanish Grand Prix",
     "circuitName": "Madring",
     "date": "2026-09-13",
-    "generatedAt": "2026-09-11T11:41:30.678547",
+    "generatedAt": "2026-09-11T15:57:22.540669",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1718,7 +1719,7 @@
     "raceName": "Spanish Grand Prix",
     "circuitName": "Madring",
     "date": "2026-09-13",
-    "generatedAt": "2026-09-11T11:41:30.678925",
+    "generatedAt": "2026-09-11T15:57:22.540963",
     "facts": [],
     "teammateBattles": [
       {
@@ -1891,232 +1892,5 @@
     }
   ],
   "sprintResults": [],
-  "qualifyingResults": [],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 60,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 70,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 66,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 62,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 58,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 54,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 50,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 07 Sep 2026 17:13:12 GMT"
-      },
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 07 Sep 2026 17:13:12 GMT"
-      },
-      {
-        "author": "independent.co.uk",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Madrid GP schedule: Race start time and TV coverage - independent.co.uk",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 08 Sep 2026 16:55:24 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 07 Sep 2026 17:13:12 GMT"
-      },
-      {
-        "author": "Motorsport.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 07 Sep 2026 17:13:12 GMT"
-      },
-      {
-        "author": "independent.co.uk",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Madrid GP schedule: Race start time and TV coverage - independent.co.uk",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Tue, 08 Sep 2026 16:55:24 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+  "qualifyingResults": []
 }
