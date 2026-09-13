@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 56,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 66,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#SpanishGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 66,
+      "score": 76,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 62,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 58,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 54,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 50,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 46,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "BBC",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: Spanish Grand Prix 2026 start time, grid, commentary & updates from Madrid - BBC",
+      "text": "F1 grid: Starting positions for Spanish Grand Prix - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 12 Sep 2026 12:07:00 GMT"
+      "time": "Sun, 13 Sep 2026 12:36:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "nypost.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE: 2026 F1 Spanish Grand Prix - Madrid - racingnews365.com",
+      "text": "How to watch F1 Spanish Grand Prix 2026 live for free: Schedule, streaming - nypost.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 11:55:00 GMT"
+      "time": "Sun, 13 Sep 2026 09:00:00 GMT"
     },
     {
-      "author": "motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE: F1 Spanish Grand Prix updates - Lando Norris leads Kimi Antonelli as Lewis Hamilton retires | Live text - motorsport.com",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 13:18:43 GMT"
-    },
-    {
-      "author": "The Guardian",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Spanish Grand Prix: Formula One \u2013 live - The Guardian",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 12:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton suffers early retirement at Spanish GP after Ferrari brake issues - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 13:23:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "BBC",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: Spanish Grand Prix 2026 start time, grid, commentary & updates from Madrid - BBC",
+      "text": "F1 grid: Starting positions for Spanish Grand Prix - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 12 Sep 2026 12:07:00 GMT"
+      "time": "Sun, 13 Sep 2026 12:36:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "nypost.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE: 2026 F1 Spanish Grand Prix - Madrid - racingnews365.com",
+      "text": "How to watch F1 Spanish Grand Prix 2026 live for free: Schedule, streaming - nypost.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 11:55:00 GMT"
+      "time": "Sun, 13 Sep 2026 09:00:00 GMT"
     },
     {
-      "author": "motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE: F1 Spanish Grand Prix updates - Lando Norris leads Kimi Antonelli as Lewis Hamilton retires | Live text - motorsport.com",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 13:18:43 GMT"
-    },
-    {
-      "author": "The Guardian",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Spanish Grand Prix: Formula One \u2013 live - The Guardian",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 12:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton suffers early retirement at Spanish GP after Ferrari brake issues - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 13:23:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
