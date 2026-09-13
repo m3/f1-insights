@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 67,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SpanishGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 77,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 73,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 69,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 65,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 61,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 57,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "The Guardian",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula One 2026: Norris pips Antonelli to Spanish Grand Prix pole by 0.011sec \u2013 as it happened - The Guardian",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 12 Sep 2026 13:00:00 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from Spanish GP F1 qualifying at the Madring - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 12 Sep 2026 17:22:31 GMT"
+    },
+    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "\"F1 cannot continue this way\" - Fernando Alonso sounds the alarm at Spanish GP home race - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 06 Sep 2026 20:01:07 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Spanish GP schedule: Madrid race start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 16:41:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 13 Sep 2026 08:50:02 GMT"
     },
     {
       "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "F1 Spain GP live updates: Follow latest from today\u2019s race with Norris on pole - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 13 Sep 2026 11:04:10 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Oliver Bearman's Spanish GP grid uncertainty resolved after heavy Madring crash - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 13 Sep 2026 10:27:53 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "The Guardian",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula One 2026: Norris pips Antonelli to Spanish Grand Prix pole by 0.011sec \u2013 as it happened - The Guardian",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 12 Sep 2026 13:00:00 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from Spanish GP F1 qualifying at the Madring - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 12 Sep 2026 17:22:31 GMT"
+    },
+    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "\"F1 cannot continue this way\" - Fernando Alonso sounds the alarm at Spanish GP home race - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 06 Sep 2026 20:01:07 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Spanish GP schedule: Madrid race start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 10 Sep 2026 16:41:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 13 Sep 2026 08:50:02 GMT"
     },
     {
       "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "F1 Spain GP live updates: Follow latest from today\u2019s race with Norris on pole - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 13 Sep 2026 11:04:10 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Oliver Bearman's Spanish GP grid uncertainty resolved after heavy Madring crash - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 13 Sep 2026 10:27:53 GMT"
     }
   ]
 }
