@@ -1,24 +1,22 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-13T11:51:14.584131Z",
+  "updatedAt": "2026-09-13T14:59:23.796157Z",
   "timeline": {
     "format": "standard",
-    "macroState": "POST_SESSION",
-    "sessionType": "MainQuali",
-    "dataStatus": "PROCESSING",
-    "lastUpdatedUtc": "2026-09-13T11:10:44.381409Z",
-    "nextSession": {
-      "name": "MainRace",
-      "timeUtc": "2026-09-13T13:00:00Z"
-    }
+    "macroState": "SESSION_IN_PROGRESS",
+    "sessionType": "MainRace",
+    "dataStatus": "LIVE",
+    "lastUpdatedUtc": "2026-09-13T14:59:23.041926Z",
+    "nextSession": null
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,8 +58,8 @@
   },
   "circuitWeather": {
     "circuit": "Madring",
-    "ambientTemp": "27\u00b0C",
-    "trackTemp": "32\u00b0C",
+    "ambientTemp": "32\u00b0C",
+    "trackTemp": "37\u00b0C",
     "rainRisk": "0%",
     "wind": "6 km/h NE",
     "humidity": "32%"
@@ -1573,7 +1571,7 @@
     "raceName": "Spanish Grand Prix",
     "circuitName": "Madring",
     "date": "2026-09-13",
-    "generatedAt": "2026-09-13T11:10:44.380285",
+    "generatedAt": "2026-09-13T14:59:23.041136",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1718,7 +1716,7 @@
     "raceName": "Spanish Grand Prix",
     "circuitName": "Madring",
     "date": "2026-09-13",
-    "generatedAt": "2026-09-13T11:10:44.380679",
+    "generatedAt": "2026-09-13T14:59:23.041451",
     "facts": [],
     "teammateBattles": [
       {
@@ -2338,232 +2336,5 @@
       },
       "Q1": "1:38.011"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 66,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 76,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 72,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 68,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 64,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 60,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 56,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "The Independent",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 grid: Starting positions for Spanish Grand Prix - The Independent",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 13 Sep 2026 09:35:00 GMT"
-      },
-      {
-        "author": "New York Post",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "How to watch F1 Spanish Grand Prix 2026 live for free: Schedule, streaming - New York Post",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 13 Sep 2026 09:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "The Independent",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 grid: Starting positions for Spanish Grand Prix - The Independent",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 13 Sep 2026 09:35:00 GMT"
-      },
-      {
-        "author": "New York Post",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "How to watch F1 Spanish Grand Prix 2026 live for free: Schedule, streaming - New York Post",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 13 Sep 2026 09:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+  ]
 }
