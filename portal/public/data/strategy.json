@@ -1,7 +1,113 @@
 {
   "gridPenalties": {
     "startingGridImpacts": [],
-    "inRaceTimePenalties": []
+    "inRaceTimePenalties": [
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CAR 3 (VER) REVIEWED NO FURTHER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:12)",
+        "lap": 5,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "CAR 81 (PIA) LAP DELETED - TRACK LIMITS AT TURN 5 LAP 1 15:04:34",
+        "lap": 5,
+        "category": "Track Limits"
+      },
+      {
+        "message": "CAR 44 (HAM) LAP DELETED - TRACK LIMITS AT TURN 17 LAP 6 15:14:10 (PIT)",
+        "lap": 7,
+        "category": "Track Limits"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 55 (SAI) AND 22 (TSU) REVIEWED NO FURTHER INVESTIGATION - CAUSING A COLLISION (15:04:12)",
+        "lap": 8,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 81 (PIA) REVIEWED NO FURTHER INVESTIGATION - YELLOW FLAG INFRINGEMENT (15:12::25)",
+        "lap": 13,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 41 (LIN) REVIEWED NO FURTHER INVESTIGATION - YELLOW FLAG INFRINGEMENT (15:12:24)",
+        "lap": 13,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 5 INCIDENT INVOLVING CARS 55 (SAI) AND 14 (ALO) UNDER INVESTIGATION (15:23:42)",
+        "lap": 18,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 5 INCIDENT INVOLVING CARS 11 (PER) AND 22 (TSU) REVIEWED NO FURTHER INVESTIGATION (15:23:41)",
+        "lap": 19,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 55 (SAI) (15:23:42)",
+        "lap": 20,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 55 (SAI) (15:23:42)",
+        "lap": 20,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 5 SECOND TIME PENALTY FOR CAR 55 (SAI) (15:23:42)",
+        "lap": 27,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 5 SECOND TIME PENALTY FOR CAR 55 (SAI) (15:23:42)",
+        "lap": 27,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "CAR 11 (PER) LAP DELETED - TRACK LIMITS AT TURN 5 LAP 31 15:57:15 (PIT)",
+        "lap": 34,
+        "category": "Track Limits"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 17 INCIDENT INVOLVING CAR 43 (COL) REVIEWED NO FURTHER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (16:14:53)",
+        "lap": 48,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 5 INCIDENT INVOLVING CAR 5 (BOR) UNDER INVESTIGATION - MOVING UNDER BRAKING (16:19:05)",
+        "lap": 49,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: WARNING FOR CAR 5 (BOR) - MOVING UNDER BRAKING (16:19:05)",
+        "lap": 50,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 41 (LIN) AND 27 (HUL) REVIEWED NO FURTHER INVESTIGATION - FORCING ANOTHER DRIVER OFF THE TRACK (16:35:23)",
+        "lap": 57,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 5 INCIDENT INVOLVING CAR 3 (VER) REVIEWED NO FURTHER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (16:35:42)",
+        "lap": 57,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 10 (GAS) UNDER INVESTIGATION - SPEEDING IN THE PIT LANE (16:37:16)",
+        "lap": 57,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 10 (GAS) - SPEEDING IN THE PIT LANE (16:37:16)",
+        "lap": 57,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 10 (GAS) - SPEEDING IN THE PIT LANE (16:37:16)",
+        "lap": 57,
+        "category": "Steward Decision"
+      }
+    ]
   },
   "penaltyWatch": {
     "high_risk_drivers": [],
