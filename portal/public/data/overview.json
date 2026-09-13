@@ -1,21 +1,22 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-13T20:59:49.587060Z",
+  "updatedAt": "2026-09-13T21:02:27.601244Z",
   "timeline": {
     "format": "standard",
     "macroState": "POST_SESSION",
     "sessionType": "MainRace",
     "dataStatus": "PROCESSING",
-    "lastUpdatedUtc": "2026-09-13T18:04:50.369358Z",
+    "lastUpdatedUtc": "2026-09-13T21:02:27.090009Z",
     "nextSession": null
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -874,8 +875,8 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "267",
-      "wins": "7",
+      "points": "292",
+      "wins": "8",
       "Driver": {
         "driverId": "antonelli",
         "permanentNumber": "12",
@@ -898,7 +899,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "201",
+      "points": "211",
       "wins": "2",
       "Driver": {
         "driverId": "russell",
@@ -946,7 +947,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "171",
+      "points": "186",
       "wins": "2",
       "Driver": {
         "driverId": "norris",
@@ -970,7 +971,7 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "155",
+      "points": "167",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -994,7 +995,7 @@
     {
       "position": "6",
       "positionText": "6",
-      "points": "127",
+      "points": "145",
       "wins": "0",
       "Driver": {
         "driverId": "max_verstappen",
@@ -1018,7 +1019,7 @@
     {
       "position": "7",
       "positionText": "7",
-      "points": "116",
+      "points": "120",
       "wins": "0",
       "Driver": {
         "driverId": "piastri",
@@ -1066,7 +1067,7 @@
     {
       "position": "9",
       "positionText": "9",
-      "points": "51",
+      "points": "59",
       "wins": "0",
       "Driver": {
         "driverId": "lawson",
@@ -1120,7 +1121,7 @@
     {
       "position": "11",
       "positionText": "11",
-      "points": "29",
+      "points": "31",
       "wins": "0",
       "Driver": {
         "driverId": "arvid_lindblad",
@@ -1144,7 +1145,7 @@
     {
       "position": "12",
       "positionText": "12",
-      "points": "21",
+      "points": "27",
       "wins": "0",
       "Driver": {
         "driverId": "colapinto",
@@ -1216,7 +1217,7 @@
     {
       "position": "15",
       "positionText": "15",
-      "points": "6",
+      "points": "7",
       "wins": "0",
       "Driver": {
         "driverId": "hulkenberg",
@@ -1434,8 +1435,8 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "468",
-      "wins": "9",
+      "points": "503",
+      "wins": "10",
       "Constructor": {
         "constructorId": "mercedes",
         "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
@@ -1446,7 +1447,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "346",
+      "points": "358",
       "wins": "2",
       "Constructor": {
         "constructorId": "ferrari",
@@ -1458,7 +1459,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "287",
+      "points": "306",
       "wins": "2",
       "Constructor": {
         "constructorId": "mclaren",
@@ -1470,7 +1471,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "204",
+      "points": "230",
       "wins": "0",
       "Constructor": {
         "constructorId": "red_bull",
@@ -1482,7 +1483,7 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "75",
+      "points": "77",
       "wins": "0",
       "Constructor": {
         "constructorId": "rb",
@@ -1494,7 +1495,7 @@
     {
       "position": "6",
       "positionText": "6",
-      "points": "62",
+      "points": "68",
       "wins": "0",
       "Constructor": {
         "constructorId": "alpine",
@@ -1518,7 +1519,7 @@
     {
       "position": "8",
       "positionText": "8",
-      "points": "16",
+      "points": "17",
       "wins": "0",
       "Constructor": {
         "constructorId": "audi",
@@ -1570,13 +1571,13 @@
     "raceName": "Spanish Grand Prix",
     "circuitName": "Madring",
     "date": "2026-09-13",
-    "generatedAt": "2026-09-13T18:04:50.368112",
+    "generatedAt": "2026-09-13T21:02:27.088867",
     "facts": [
       {
         "topic": "Championship Stakes",
         "badge": "Title Race",
-        "detail": "Antonelli leads Russell by 66 points in the World Drivers' Championship heading into Spanish Grand Prix.",
-        "stat": "66 Pts Gap",
+        "detail": "Antonelli leads Russell by 81 points in the World Drivers' Championship heading into Spanish Grand Prix.",
+        "stat": "81 Pts Gap",
         "source": "JolpicaErgast"
       }
     ],
@@ -1589,8 +1590,8 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "267",
-        "wins": "7",
+        "points": "292",
+        "wins": "8",
         "Driver": {
           "driverId": "antonelli",
           "permanentNumber": "12",
@@ -1613,7 +1614,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "201",
+        "points": "211",
         "wins": "2",
         "Driver": {
           "driverId": "russell",
@@ -1661,7 +1662,7 @@
       {
         "position": "4",
         "positionText": "4",
-        "points": "171",
+        "points": "186",
         "wins": "2",
         "Driver": {
           "driverId": "norris",
@@ -1685,7 +1686,7 @@
       {
         "position": "5",
         "positionText": "5",
-        "points": "155",
+        "points": "167",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -1707,7 +1708,7 @@
         ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: SPANISH GRAND PRIX\n**Location**: Madring | **Date**: 2026-09-13\n\n> *Deterministic Data Brief for the Spanish Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*66 Pts Gap*)\n  Antonelli leads Russell by 66 points in the World Drivers' Championship heading into Spanish Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 267 Pts (7 Wins)\n2. **George Russell** (Mercedes) - 201 Pts (2 Wins)\n3. **Lewis Hamilton** (Ferrari) - 191 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 171 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 155 Pts (1 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: SPANISH GRAND PRIX\n**Location**: Madring | **Date**: 2026-09-13\n\n> *Deterministic Data Brief for the Spanish Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*81 Pts Gap*)\n  Antonelli leads Russell by 81 points in the World Drivers' Championship heading into Spanish Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 292 Pts (8 Wins)\n2. **George Russell** (Mercedes) - 211 Pts (2 Wins)\n3. **Lewis Hamilton** (Ferrari) - 191 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 186 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 167 Pts (1 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
@@ -1715,7 +1716,7 @@
     "raceName": "Spanish Grand Prix",
     "circuitName": "Madring",
     "date": "2026-09-13",
-    "generatedAt": "2026-09-13T18:04:50.368530",
+    "generatedAt": "2026-09-13T21:02:27.089241",
     "facts": [],
     "teammateBattles": [
       {
@@ -1744,8 +1745,8 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "267",
-        "wins": "7",
+        "points": "292",
+        "wins": "8",
         "Driver": {
           "driverId": "antonelli",
           "permanentNumber": "12",
@@ -1768,7 +1769,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "201",
+        "points": "211",
         "wins": "2",
         "Driver": {
           "driverId": "russell",
@@ -1816,7 +1817,7 @@
       {
         "position": "4",
         "positionText": "4",
-        "points": "171",
+        "points": "186",
         "wins": "2",
         "Driver": {
           "driverId": "norris",
@@ -1840,7 +1841,7 @@
       {
         "position": "5",
         "positionText": "5",
-        "points": "155",
+        "points": "167",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -2335,232 +2336,5 @@
       },
       "Q1": "1:38.011"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 73,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 83,
-        "sentiment": "Positive",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 79,
-        "sentiment": "Positive",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 75,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 71,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 67,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 63,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "nytimes.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - nytimes.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "PrizePicks",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Hungarian Grand Prix Predictions, Winner, Podium Pick for Sunday, July 26 - PrizePicks",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "McLaren",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "nytimes.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - nytimes.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "PrizePicks",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Hungarian Grand Prix Predictions, Winner, Podium Pick for Sunday, July 26 - PrizePicks",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "McLaren",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+  ]
 }
