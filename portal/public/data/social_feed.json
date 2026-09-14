@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 56,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 72,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#AzerbaijanGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 66,
-      "sentiment": "Mixed",
+      "score": 82,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 62,
+      "score": 78,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 58,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 54,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 50,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 46,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Destination Baku: An F1 fan\u2019s guide - Formula 1",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 17:23:53 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris to test McLaren MCL-HY hypercar ahead of Azerbaijan GP - Motorsport.com",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 19:43:03 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "cadillacf1team.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 SPANISH GRAND PRIX \u2014 RACE REPORT - cadillacf1team.com",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 16:27:01 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "redbullracing.com",
+      "author": "PrizePicks",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hear from the Team after the Spanish Grand Prix 2026 - redbullracing.com",
+      "text": "F1 Hungarian Grand Prix Predictions, Winner, Podium Pick for Sunday, July 26 - PrizePicks",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 16:42:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "McLaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "When is the next Formula 1 race after the Spanish Grand Prix? - Crash.net",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 15:08:38 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "formula1.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Destination Baku: An F1 fan\u2019s guide - Formula 1",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - formula1.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 17:23:53 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lando Norris to test McLaren MCL-HY hypercar ahead of Azerbaijan GP - Motorsport.com",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 19:43:03 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "cadillacf1team.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 SPANISH GRAND PRIX \u2014 RACE REPORT - cadillacf1team.com",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 16:27:01 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "redbullracing.com",
+      "author": "PrizePicks",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hear from the Team after the Spanish Grand Prix 2026 - redbullracing.com",
+      "text": "F1 Hungarian Grand Prix Predictions, Winner, Podium Pick for Sunday, July 26 - PrizePicks",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 16:42:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "McLaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "When is the next Formula 1 race after the Spanish Grand Prix? - Crash.net",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 13 Sep 2026 15:08:38 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
