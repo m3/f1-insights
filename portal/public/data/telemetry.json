@@ -1,9 +1,9 @@
 {
   "sectorMatrix": [],
   "circuitSpecs": {
-    "circuitName": "Madring",
-    "circuitId": "madring",
-    "lat": "40.46528",
-    "lng": "-3.61528"
+    "circuitName": "Baku City Circuit",
+    "circuitId": "baku",
+    "lat": "40.3725",
+    "lng": "49.8533"
   }
 }
