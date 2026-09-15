@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 69,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 55,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#AzerbaijanGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 79,
-      "sentiment": "Positive",
+      "score": 65,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 75,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 71,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 67,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 63,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 59,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "F1 Azerbaijan GP is on a Saturday in 2026, here's why - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 14 Sep 2026 16:46:02 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "F1 drivers, team bosses hopeful over Madring track changes for overtaking after new venue's first Spanish GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 14 Sep 2026 10:19:58 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "When is the next Formula 1 race after the Spanish Grand Prix? - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 13 Sep 2026 15:08:38 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "Norris to test McLaren\u2019s Hypercar at Portim\u00e3o before Azerbaijan GP - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 14 Sep 2026 09:27:00 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "Williams tipped for \"huge step\" forward at Azerbaijan GP with major upgrade - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 14 Sep 2026 13:49:09 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "F1 Azerbaijan GP is on a Saturday in 2026, here's why - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 14 Sep 2026 16:46:02 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "F1 drivers, team bosses hopeful over Madring track changes for overtaking after new venue's first Spanish GP - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 14 Sep 2026 10:19:58 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "When is the next Formula 1 race after the Spanish Grand Prix? - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 13 Sep 2026 15:08:38 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "Norris to test McLaren\u2019s Hypercar at Portim\u00e3o before Azerbaijan GP - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 14 Sep 2026 09:27:00 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "Williams tipped for \"huge step\" forward at Azerbaijan GP with major upgrade - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 14 Sep 2026 13:49:09 GMT"
     }
   ]
 }
