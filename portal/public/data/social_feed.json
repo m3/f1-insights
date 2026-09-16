@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 64,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#AzerbaijanGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "motorsport.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Azerbaijan GP is on a Saturday in 2026, here's why - motorsport.com",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 15 Sep 2026 09:54:18 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix weekend set for another major schedule change - racingnews365.com",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 14 Sep 2026 09:19:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "crash.net",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc set for Baku F1 grid penalty despite positive Ferrari engine news - crash.net",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 15 Sep 2026 15:05:35 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 - full timetable | Formula 1\u00ae - Formula 1",
+      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 15 Sep 2026 05:52:05 GMT"
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 drivers, team bosses hopeful over Madring track changes for overtaking after new venue's first Spanish GP - Sky Sports",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 14 Sep 2026 10:19:58 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "motorsport.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Azerbaijan GP is on a Saturday in 2026, here's why - motorsport.com",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 15 Sep 2026 09:54:18 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix weekend set for another major schedule change - racingnews365.com",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 14 Sep 2026 09:19:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "crash.net",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc set for Baku F1 grid penalty despite positive Ferrari engine news - crash.net",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 15 Sep 2026 15:05:35 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026 - full timetable | Formula 1\u00ae - Formula 1",
+      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 15 Sep 2026 05:52:05 GMT"
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 drivers, team bosses hopeful over Madring track changes for overtaking after new venue's first Spanish GP - Sky Sports",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 14 Sep 2026 10:19:58 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
