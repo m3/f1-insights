@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 69,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 56,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#AzerbaijanGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 79,
-      "sentiment": "Positive",
+      "score": 66,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 75,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 71,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 67,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 63,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 59,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -126,50 +126,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix 2026: Race start time in Baku, how to watch, full schedule, predictions - ESPN",
+      "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 16:32:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why is F1 racing at the Azerbaijan Grand Prix on a Saturday? - Crash.net",
+      "text": "LIVE: Reaction as Norris ends Ferrari domination ahead of Hungary qualifying - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 19 Sep 2026 08:00:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "cnet.com",
+      "author": "The Guardian",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix: How to Watch the F1 Race Today - cnet.com",
+      "text": "\u2018Pretty bad\u2019: Lewis Hamilton hits out at Ferrari after dropping points in F1 title race - The Guardian",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 22:00:03 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc braced for potential FIA penalty with final Ferrari decision imminent - PlanetF1",
+      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 19 Sep 2026 05:13:29 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton responds to reports he has asked for Ferrari personnel changes ahead of Azerbaijan Grand Prix - Sky Sports",
+      "text": "'Everything went wrong' \u2013 Vasseur critical of Ferrari's Hungarian Grand Prix performance - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 17 Sep 2026 16:21:19 GMT"
+      "time": "Mon, 27 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,50 +178,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix 2026: Race start time in Baku, how to watch, full schedule, predictions - ESPN",
+      "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 16:32:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "racingnews365.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why is F1 racing at the Azerbaijan Grand Prix on a Saturday? - Crash.net",
+      "text": "LIVE: Reaction as Norris ends Ferrari domination ahead of Hungary qualifying - racingnews365.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 19 Sep 2026 08:00:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "cnet.com",
+      "author": "The Guardian",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix: How to Watch the F1 Race Today - cnet.com",
+      "text": "\u2018Pretty bad\u2019: Lewis Hamilton hits out at Ferrari after dropping points in F1 title race - The Guardian",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 22:00:03 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Charles Leclerc braced for potential FIA penalty with final Ferrari decision imminent - PlanetF1",
+      "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 19 Sep 2026 05:13:29 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton responds to reports he has asked for Ferrari personnel changes ahead of Azerbaijan Grand Prix - Sky Sports",
+      "text": "'Everything went wrong' \u2013 Vasseur critical of Ferrari's Hungarian Grand Prix performance - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 17 Sep 2026 16:21:19 GMT"
+      "time": "Mon, 27 Jul 2026 07:00:00 GMT"
     }
   ]
 }
