@@ -1,9 +1,9 @@
 {
   "sectorMatrix": [],
   "circuitSpecs": {
-    "circuitName": "Grand Prix Circuit",
-    "circuitId": "",
-    "lat": null,
-    "lng": null
+    "circuitName": "Baku City Circuit",
+    "circuitId": "baku",
+    "lat": "40.3725",
+    "lng": "49.8533"
   }
 }

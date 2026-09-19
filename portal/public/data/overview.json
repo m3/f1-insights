@@ -1,40 +1,885 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-09-19T10:54:20.661154Z",
+  "updatedAt": "2026-09-19T11:48:38.684694Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-09-19T06:32:22.855879Z"
+    "lastUpdatedUtc": "2026-09-19T11:48:38.203648Z",
+    "nextSession": {
+      "name": "FP1",
+      "timeUtc": "2026-09-24T08:30:00Z"
+    }
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
   },
-  "currentRace": {},
-  "circuitWeather": {
-    "circuit": "Circuit",
-    "ambientTemp": "16\u00b0C",
-    "trackTemp": "21\u00b0C",
-    "rainRisk": "0%",
-    "wind": "8 km/h NE",
-    "humidity": "65%"
+  "currentRace": {
+    "season": "2026",
+    "round": "15",
+    "url": "https://en.wikipedia.org/wiki/2026_Azerbaijan_Grand_Prix",
+    "raceName": "Azerbaijan Grand Prix",
+    "Circuit": {
+      "circuitId": "baku",
+      "url": "https://en.wikipedia.org/wiki/Baku_City_Circuit",
+      "circuitName": "Baku City Circuit",
+      "Location": {
+        "lat": "40.3725",
+        "long": "49.8533",
+        "locality": "Baku",
+        "country": "Azerbaijan"
+      }
+    },
+    "date": "2026-09-26",
+    "time": "11:00:00Z",
+    "FirstPractice": {
+      "date": "2026-09-24",
+      "time": "08:30:00Z"
+    },
+    "SecondPractice": {
+      "date": "2026-09-24",
+      "time": "12:00:00Z"
+    },
+    "ThirdPractice": {
+      "date": "2026-09-25",
+      "time": "08:30:00Z"
+    },
+    "Qualifying": {
+      "date": "2026-09-25",
+      "time": "12:00:00Z"
+    }
   },
-  "schedule": [],
+  "circuitWeather": {
+    "circuit": "Baku City Circuit",
+    "ambientTemp": "26\u00b0C",
+    "trackTemp": "31\u00b0C",
+    "rainRisk": "0%",
+    "wind": "28 km/h NE",
+    "humidity": "78%"
+  },
+  "schedule": [
+    {
+      "season": "2026",
+      "round": "1",
+      "url": "https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix",
+      "raceName": "Australian Grand Prix",
+      "Circuit": {
+        "circuitId": "albert_park",
+        "url": "https://en.wikipedia.org/wiki/Albert_Park_Circuit",
+        "circuitName": "Albert Park Grand Prix Circuit",
+        "Location": {
+          "lat": "-37.8497",
+          "long": "144.968",
+          "locality": "Melbourne",
+          "country": "Australia"
+        }
+      },
+      "date": "2026-03-08",
+      "time": "04:00:00Z",
+      "FirstPractice": {
+        "date": "2026-03-06",
+        "time": "01:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-03-06",
+        "time": "05:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-03-07",
+        "time": "01:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-03-07",
+        "time": "05:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "2",
+      "url": "https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix",
+      "raceName": "Chinese Grand Prix",
+      "Circuit": {
+        "circuitId": "shanghai",
+        "url": "https://en.wikipedia.org/wiki/Shanghai_International_Circuit",
+        "circuitName": "Shanghai International Circuit",
+        "Location": {
+          "lat": "31.3389",
+          "long": "121.22",
+          "locality": "Shanghai",
+          "country": "China"
+        }
+      },
+      "date": "2026-03-15",
+      "time": "07:00:00Z",
+      "FirstPractice": {
+        "date": "2026-03-13",
+        "time": "03:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-03-14",
+        "time": "07:00:00Z"
+      },
+      "Sprint": {
+        "date": "2026-03-14",
+        "time": "03:00:00Z"
+      },
+      "SprintQualifying": {
+        "date": "2026-03-13",
+        "time": "07:30:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "3",
+      "url": "https://en.wikipedia.org/wiki/2026_Japanese_Grand_Prix",
+      "raceName": "Japanese Grand Prix",
+      "Circuit": {
+        "circuitId": "suzuka",
+        "url": "https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course",
+        "circuitName": "Suzuka Circuit",
+        "Location": {
+          "lat": "34.8431",
+          "long": "136.541",
+          "locality": "Suzuka",
+          "country": "Japan"
+        }
+      },
+      "date": "2026-03-29",
+      "time": "05:00:00Z",
+      "FirstPractice": {
+        "date": "2026-03-27",
+        "time": "02:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-03-27",
+        "time": "06:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-03-28",
+        "time": "02:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-03-28",
+        "time": "06:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "4",
+      "url": "https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix",
+      "raceName": "Miami Grand Prix",
+      "Circuit": {
+        "circuitId": "miami",
+        "url": "https://en.wikipedia.org/wiki/Miami_International_Autodrome",
+        "circuitName": "Miami International Autodrome",
+        "Location": {
+          "lat": "25.9581",
+          "long": "-80.2389",
+          "locality": "Miami",
+          "country": "USA"
+        }
+      },
+      "date": "2026-05-03",
+      "time": "20:00:00Z",
+      "FirstPractice": {
+        "date": "2026-05-01",
+        "time": "16:00:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-05-02",
+        "time": "20:00:00Z"
+      },
+      "Sprint": {
+        "date": "2026-05-02",
+        "time": "16:00:00Z"
+      },
+      "SprintQualifying": {
+        "date": "2026-05-01",
+        "time": "20:30:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "5",
+      "url": "https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix",
+      "raceName": "Canadian Grand Prix",
+      "Circuit": {
+        "circuitId": "villeneuve",
+        "url": "https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve",
+        "circuitName": "Circuit Gilles Villeneuve",
+        "Location": {
+          "lat": "45.5",
+          "long": "-73.5228",
+          "locality": "Montreal",
+          "country": "Canada"
+        }
+      },
+      "date": "2026-05-24",
+      "time": "20:00:00Z",
+      "FirstPractice": {
+        "date": "2026-05-22",
+        "time": "16:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-05-23",
+        "time": "20:00:00Z"
+      },
+      "Sprint": {
+        "date": "2026-05-23",
+        "time": "16:00:00Z"
+      },
+      "SprintQualifying": {
+        "date": "2026-05-22",
+        "time": "20:30:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "6",
+      "url": "https://en.wikipedia.org/wiki/2026_Monaco_Grand_Prix",
+      "raceName": "Monaco Grand Prix",
+      "Circuit": {
+        "circuitId": "monaco",
+        "url": "https://en.wikipedia.org/wiki/Circuit_de_Monaco",
+        "circuitName": "Circuit de Monaco",
+        "Location": {
+          "lat": "43.7347",
+          "long": "7.42056",
+          "locality": "Monte Carlo",
+          "country": "Monaco"
+        }
+      },
+      "date": "2026-06-07",
+      "time": "13:00:00Z",
+      "FirstPractice": {
+        "date": "2026-06-05",
+        "time": "11:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-06-05",
+        "time": "15:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-06-06",
+        "time": "10:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-06-06",
+        "time": "14:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "7",
+      "url": "https://en.wikipedia.org/wiki/2026_Barcelona-Catalunya",
+      "raceName": "Barcelona Grand Prix",
+      "Circuit": {
+        "circuitId": "catalunya",
+        "url": "https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya",
+        "circuitName": "Circuit de Barcelona-Catalunya",
+        "Location": {
+          "lat": "41.57",
+          "long": "2.26111",
+          "locality": "Barcelona",
+          "country": "Spain"
+        }
+      },
+      "date": "2026-06-14",
+      "time": "13:00:00Z",
+      "FirstPractice": {
+        "date": "2026-06-12",
+        "time": "11:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-06-12",
+        "time": "15:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-06-13",
+        "time": "10:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-06-13",
+        "time": "14:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "8",
+      "url": "https://en.wikipedia.org/wiki/2026_Austrian_Grand_Prix",
+      "raceName": "Austrian Grand Prix",
+      "Circuit": {
+        "circuitId": "red_bull_ring",
+        "url": "https://en.wikipedia.org/wiki/Red_Bull_Ring",
+        "circuitName": "Red Bull Ring",
+        "Location": {
+          "lat": "47.2197",
+          "long": "14.7647",
+          "locality": "Spielberg",
+          "country": "Austria"
+        }
+      },
+      "date": "2026-06-28",
+      "time": "13:00:00Z",
+      "FirstPractice": {
+        "date": "2026-06-26",
+        "time": "11:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-06-26",
+        "time": "15:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-06-27",
+        "time": "10:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-06-27",
+        "time": "14:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "9",
+      "url": "https://en.wikipedia.org/wiki/2026_British_Grand_Prix",
+      "raceName": "British Grand Prix",
+      "Circuit": {
+        "circuitId": "silverstone",
+        "url": "https://en.wikipedia.org/wiki/Silverstone_Circuit",
+        "circuitName": "Silverstone Circuit",
+        "Location": {
+          "lat": "52.0786",
+          "long": "-1.01694",
+          "locality": "Silverstone",
+          "country": "UK"
+        }
+      },
+      "date": "2026-07-05",
+      "time": "14:00:00Z",
+      "FirstPractice": {
+        "date": "2026-07-03",
+        "time": "11:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-07-04",
+        "time": "15:00:00Z"
+      },
+      "Sprint": {
+        "date": "2026-07-04",
+        "time": "11:00:00Z"
+      },
+      "SprintQualifying": {
+        "date": "2026-07-03",
+        "time": "15:30:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "10",
+      "url": "https://en.wikipedia.org/wiki/2026_Belgian_Grand_Prix",
+      "raceName": "Belgian Grand Prix",
+      "Circuit": {
+        "circuitId": "spa",
+        "url": "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+        "circuitName": "Circuit de Spa-Francorchamps",
+        "Location": {
+          "lat": "50.4372",
+          "long": "5.97139",
+          "locality": "Spa",
+          "country": "Belgium"
+        }
+      },
+      "date": "2026-07-19",
+      "time": "13:00:00Z",
+      "FirstPractice": {
+        "date": "2026-07-17",
+        "time": "11:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-07-17",
+        "time": "15:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-07-18",
+        "time": "10:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-07-18",
+        "time": "14:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "11",
+      "url": "https://en.wikipedia.org/wiki/2026_Hungarian_Grand_Prix",
+      "raceName": "Hungarian Grand Prix",
+      "Circuit": {
+        "circuitId": "hungaroring",
+        "url": "https://en.wikipedia.org/wiki/Hungaroring",
+        "circuitName": "Hungaroring",
+        "Location": {
+          "lat": "47.5789",
+          "long": "19.2486",
+          "locality": "Budapest",
+          "country": "Hungary"
+        }
+      },
+      "date": "2026-07-26",
+      "time": "13:00:00Z",
+      "FirstPractice": {
+        "date": "2026-07-24",
+        "time": "11:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-07-24",
+        "time": "15:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-07-25",
+        "time": "10:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-07-25",
+        "time": "14:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "12",
+      "url": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix",
+      "raceName": "Dutch Grand Prix",
+      "Circuit": {
+        "circuitId": "zandvoort",
+        "url": "https://en.wikipedia.org/wiki/Circuit_Zandvoort",
+        "circuitName": "Circuit Park Zandvoort",
+        "Location": {
+          "lat": "52.3888",
+          "long": "4.54092",
+          "locality": "Zandvoort",
+          "country": "Netherlands"
+        }
+      },
+      "date": "2026-08-23",
+      "time": "13:00:00Z",
+      "FirstPractice": {
+        "date": "2026-08-21",
+        "time": "10:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-08-22",
+        "time": "14:00:00Z"
+      },
+      "Sprint": {
+        "date": "2026-08-22",
+        "time": "10:00:00Z"
+      },
+      "SprintQualifying": {
+        "date": "2026-08-21",
+        "time": "14:30:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "13",
+      "url": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix",
+      "raceName": "Italian Grand Prix",
+      "Circuit": {
+        "circuitId": "monza",
+        "url": "https://en.wikipedia.org/wiki/Monza_Circuit",
+        "circuitName": "Autodromo Nazionale di Monza",
+        "Location": {
+          "lat": "45.6156",
+          "long": "9.28111",
+          "locality": "Monza",
+          "country": "Italy"
+        }
+      },
+      "date": "2026-09-06",
+      "time": "13:00:00Z",
+      "FirstPractice": {
+        "date": "2026-09-04",
+        "time": "10:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-09-04",
+        "time": "14:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-09-05",
+        "time": "10:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-09-05",
+        "time": "14:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "14",
+      "url": "https://en.wikipedia.org/wiki/2026_Spanish_Grand_Prix",
+      "raceName": "Spanish Grand Prix",
+      "Circuit": {
+        "circuitId": "madring",
+        "url": "https://en.wikipedia.org/wiki/Madring",
+        "circuitName": "Madring",
+        "Location": {
+          "lat": "40.46528",
+          "long": "-3.61528",
+          "locality": "Madrid",
+          "country": "Spain"
+        }
+      },
+      "date": "2026-09-13",
+      "time": "13:00:00Z",
+      "FirstPractice": {
+        "date": "2026-09-11",
+        "time": "11:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-09-11",
+        "time": "15:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-09-12",
+        "time": "10:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-09-12",
+        "time": "14:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "15",
+      "url": "https://en.wikipedia.org/wiki/2026_Azerbaijan_Grand_Prix",
+      "raceName": "Azerbaijan Grand Prix",
+      "Circuit": {
+        "circuitId": "baku",
+        "url": "https://en.wikipedia.org/wiki/Baku_City_Circuit",
+        "circuitName": "Baku City Circuit",
+        "Location": {
+          "lat": "40.3725",
+          "long": "49.8533",
+          "locality": "Baku",
+          "country": "Azerbaijan"
+        }
+      },
+      "date": "2026-09-26",
+      "time": "11:00:00Z",
+      "FirstPractice": {
+        "date": "2026-09-24",
+        "time": "08:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-09-24",
+        "time": "12:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-09-25",
+        "time": "08:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-09-25",
+        "time": "12:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "16",
+      "url": "https://en.wikipedia.org/wiki/2026_Bahrain_Grand_Prix",
+      "raceName": "Bahrain Grand Prix in Malaysia",
+      "Circuit": {
+        "circuitId": "sepang",
+        "url": "https://en.wikipedia.org/wiki/Sepang_International_Circuit",
+        "circuitName": "Sepang International Circuit",
+        "Location": {
+          "lat": "2.76083",
+          "long": "101.738",
+          "locality": "Kuala Lumpur",
+          "country": "Malaysia"
+        }
+      },
+      "date": "2026-10-04",
+      "time": "07:00:00Z",
+      "FirstPractice": {
+        "date": "2026-10-02",
+        "time": "04:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-10-02",
+        "time": "08:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-10-03",
+        "time": "04:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-10-03",
+        "time": "08:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "17",
+      "url": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix",
+      "raceName": "Singapore Grand Prix",
+      "Circuit": {
+        "circuitId": "marina_bay",
+        "url": "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+        "circuitName": "Marina Bay Street Circuit",
+        "Location": {
+          "lat": "1.2914",
+          "long": "103.864",
+          "locality": "Marina Bay",
+          "country": "Singapore"
+        }
+      },
+      "date": "2026-10-11",
+      "time": "12:00:00Z",
+      "FirstPractice": {
+        "date": "2026-10-09",
+        "time": "08:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-10-10",
+        "time": "13:00:00Z"
+      },
+      "Sprint": {
+        "date": "2026-10-10",
+        "time": "09:00:00Z"
+      },
+      "SprintQualifying": {
+        "date": "2026-10-09",
+        "time": "12:30:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "18",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix",
+      "raceName": "United States Grand Prix",
+      "Circuit": {
+        "circuitId": "americas",
+        "url": "https://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+        "circuitName": "Circuit of the Americas",
+        "Location": {
+          "lat": "30.1328",
+          "long": "-97.6411",
+          "locality": "Austin",
+          "country": "USA"
+        }
+      },
+      "date": "2026-10-25",
+      "time": "20:00:00Z",
+      "FirstPractice": {
+        "date": "2026-10-23",
+        "time": "17:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-10-23",
+        "time": "21:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-10-24",
+        "time": "17:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-10-24",
+        "time": "21:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "19",
+      "url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
+      "raceName": "Mexico City Grand Prix",
+      "Circuit": {
+        "circuitId": "rodriguez",
+        "url": "https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez",
+        "circuitName": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
+        "Location": {
+          "lat": "19.4042",
+          "long": "-99.0907",
+          "locality": "Mexico City",
+          "country": "Mexico"
+        }
+      },
+      "date": "2026-11-01",
+      "time": "20:00:00Z",
+      "FirstPractice": {
+        "date": "2026-10-30",
+        "time": "18:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-10-30",
+        "time": "22:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-10-31",
+        "time": "17:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-10-31",
+        "time": "21:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "20",
+      "url": "https://en.wikipedia.org/wiki/2026_Brazilian_Grand_Prix",
+      "raceName": "Brazilian Grand Prix",
+      "Circuit": {
+        "circuitId": "interlagos",
+        "url": "https://en.wikipedia.org/wiki/Interlagos_Circuit",
+        "circuitName": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
+        "Location": {
+          "lat": "-23.7036",
+          "long": "-46.6997",
+          "locality": "S\u00e3o Paulo",
+          "country": "Brazil"
+        }
+      },
+      "date": "2026-11-08",
+      "time": "17:00:00Z",
+      "FirstPractice": {
+        "date": "2026-11-06",
+        "time": "15:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-11-06",
+        "time": "19:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-11-07",
+        "time": "14:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-11-07",
+        "time": "18:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "21",
+      "url": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix",
+      "raceName": "Las Vegas Grand Prix",
+      "Circuit": {
+        "circuitId": "vegas",
+        "url": "https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit",
+        "circuitName": "Las Vegas Strip Street Circuit",
+        "Location": {
+          "lat": "36.1147",
+          "long": "-115.173",
+          "locality": "Las Vegas",
+          "country": "USA"
+        }
+      },
+      "date": "2026-11-22",
+      "time": "04:00:00Z",
+      "FirstPractice": {
+        "date": "2026-11-20",
+        "time": "00:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-11-20",
+        "time": "04:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-11-21",
+        "time": "00:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-11-21",
+        "time": "04:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "22",
+      "url": "https://en.wikipedia.org/wiki/2026_Qatar_Grand_Prix",
+      "raceName": "Qatar Grand Prix",
+      "Circuit": {
+        "circuitId": "losail",
+        "url": "https://en.wikipedia.org/wiki/Lusail_International_Circuit",
+        "circuitName": "Lusail International Circuit",
+        "Location": {
+          "lat": "25.49",
+          "long": "51.4542",
+          "locality": "Lusail",
+          "country": "Qatar"
+        }
+      },
+      "date": "2026-11-29",
+      "time": "16:00:00Z",
+      "FirstPractice": {
+        "date": "2026-11-27",
+        "time": "13:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-11-27",
+        "time": "17:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-11-28",
+        "time": "14:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-11-28",
+        "time": "18:00:00Z"
+      }
+    },
+    {
+      "season": "2026",
+      "round": "23",
+      "url": "https://en.wikipedia.org/wiki/2026_Abu_Dhabi_Grand_Prix",
+      "raceName": "Abu Dhabi Grand Prix",
+      "Circuit": {
+        "circuitId": "yas_marina",
+        "url": "https://en.wikipedia.org/wiki/Yas_Marina_Circuit",
+        "circuitName": "Yas Marina Circuit",
+        "Location": {
+          "lat": "24.4672",
+          "long": "54.6031",
+          "locality": "Abu Dhabi",
+          "country": "UAE"
+        }
+      },
+      "date": "2026-12-06",
+      "time": "13:00:00Z",
+      "FirstPractice": {
+        "date": "2026-12-04",
+        "time": "09:30:00Z"
+      },
+      "SecondPractice": {
+        "date": "2026-12-04",
+        "time": "13:00:00Z"
+      },
+      "ThirdPractice": {
+        "date": "2026-12-05",
+        "time": "10:30:00Z"
+      },
+      "Qualifying": {
+        "date": "2026-12-05",
+        "time": "14:00:00Z"
+      }
+    }
+  ],
   "driverStandings": [
     {
       "position": "1",
       "positionText": "1",
-      "points": "219",
-      "wins": "6",
+      "points": "292",
+      "wins": "8",
       "Driver": {
         "driverId": "antonelli",
         "permanentNumber": "12",
@@ -57,31 +902,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "169",
-      "wins": "1",
-      "Driver": {
-        "driverId": "hamilton",
-        "permanentNumber": "44",
-        "code": "HAM",
-        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
-        "givenName": "Lewis",
-        "familyName": "Hamilton",
-        "dateOfBirth": "1985-01-07",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "ferrari",
-          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-          "name": "Ferrari",
-          "nationality": "Italian"
-        }
-      ]
-    },
-    {
-      "position": "3",
-      "positionText": "3",
-      "points": "160",
+      "points": "211",
       "wins": "2",
       "Driver": {
         "driverId": "russell",
@@ -103,9 +924,57 @@
       ]
     },
     {
+      "position": "3",
+      "positionText": "3",
+      "points": "191",
+      "wins": "1",
+      "Driver": {
+        "driverId": "hamilton",
+        "permanentNumber": "44",
+        "code": "HAM",
+        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "dateOfBirth": "1985-01-07",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "ferrari",
+          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "name": "Ferrari",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
       "position": "4",
       "positionText": "4",
-      "points": "138",
+      "points": "186",
+      "wins": "2",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "167",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -127,33 +996,9 @@
       ]
     },
     {
-      "position": "5",
-      "positionText": "5",
-      "points": "128",
-      "wins": "1",
-      "Driver": {
-        "driverId": "norris",
-        "permanentNumber": "1",
-        "code": "NOR",
-        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "dateOfBirth": "1999-11-13",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mclaren",
-          "url": "https://en.wikipedia.org/wiki/McLaren",
-          "name": "McLaren",
-          "nationality": "British"
-        }
-      ]
-    },
-    {
       "position": "6",
       "positionText": "6",
-      "points": "109",
+      "points": "145",
       "wins": "0",
       "Driver": {
         "driverId": "max_verstappen",
@@ -177,7 +1022,7 @@
     {
       "position": "7",
       "positionText": "7",
-      "points": "92",
+      "points": "120",
       "wins": "0",
       "Driver": {
         "driverId": "piastri",
@@ -201,7 +1046,7 @@
     {
       "position": "8",
       "positionText": "8",
-      "points": "68",
+      "points": "71",
       "wins": "0",
       "Driver": {
         "driverId": "hadjar",
@@ -225,7 +1070,7 @@
     {
       "position": "9",
       "positionText": "9",
-      "points": "43",
+      "points": "59",
       "wins": "0",
       "Driver": {
         "driverId": "lawson",
@@ -243,13 +1088,19 @@
           "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
           "name": "RB F1 Team",
           "nationality": "Italian"
+        },
+        {
+          "constructorId": "red_bull",
+          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+          "name": "Red Bull",
+          "nationality": "Austrian"
         }
       ]
     },
     {
       "position": "10",
       "positionText": "10",
-      "points": "42",
+      "points": "41",
       "wins": "0",
       "Driver": {
         "driverId": "gasly",
@@ -273,7 +1124,7 @@
     {
       "position": "11",
       "positionText": "11",
-      "points": "23",
+      "points": "31",
       "wins": "0",
       "Driver": {
         "driverId": "arvid_lindblad",
@@ -297,7 +1148,7 @@
     {
       "position": "12",
       "positionText": "12",
-      "points": "19",
+      "points": "27",
       "wins": "0",
       "Driver": {
         "driverId": "colapinto",
@@ -369,6 +1220,30 @@
     {
       "position": "15",
       "positionText": "15",
+      "points": "7",
+      "wins": "0",
+      "Driver": {
+        "driverId": "hulkenberg",
+        "permanentNumber": "27",
+        "code": "HUL",
+        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
+        "givenName": "Nico",
+        "familyName": "H\u00fclkenberg",
+        "dateOfBirth": "1987-08-19",
+        "nationality": "German"
+      },
+      "Constructors": [
+        {
+          "constructorId": "audi",
+          "url": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
+          "name": "Audi",
+          "nationality": "German"
+        }
+      ]
+    },
+    {
+      "position": "16",
+      "positionText": "16",
       "points": "6",
       "wins": "0",
       "Driver": {
@@ -391,8 +1266,8 @@
       ]
     },
     {
-      "position": "16",
-      "positionText": "16",
+      "position": "17",
+      "positionText": "17",
       "points": "5",
       "wins": "0",
       "Driver": {
@@ -415,8 +1290,8 @@
       ]
     },
     {
-      "position": "17",
-      "positionText": "17",
+      "position": "18",
+      "positionText": "18",
       "points": "3",
       "wins": "0",
       "Driver": {
@@ -439,33 +1314,9 @@
       ]
     },
     {
-      "position": "18",
-      "positionText": "18",
-      "points": "2",
-      "wins": "0",
-      "Driver": {
-        "driverId": "hulkenberg",
-        "permanentNumber": "27",
-        "code": "HUL",
-        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
-        "givenName": "Nico",
-        "familyName": "H\u00fclkenberg",
-        "dateOfBirth": "1987-08-19",
-        "nationality": "German"
-      },
-      "Constructors": [
-        {
-          "constructorId": "audi",
-          "url": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
-          "name": "Audi",
-          "nationality": "German"
-        }
-      ]
-    },
-    {
       "position": "19",
       "positionText": "19",
-      "points": "1",
+      "points": "3",
       "wins": "0",
       "Driver": {
         "driverId": "alonso",
@@ -489,6 +1340,30 @@
     {
       "position": "20",
       "positionText": "20",
+      "points": "1",
+      "wins": "0",
+      "Driver": {
+        "driverId": "tsunoda",
+        "permanentNumber": "22",
+        "code": "TSU",
+        "url": "http://en.wikipedia.org/wiki/Yuki_Tsunoda",
+        "givenName": "Yuki",
+        "familyName": "Tsunoda",
+        "dateOfBirth": "2000-05-11",
+        "nationality": "Japanese"
+      },
+      "Constructors": [
+        {
+          "constructorId": "rb",
+          "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
+          "name": "RB F1 Team",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
+      "position": "21",
+      "positionText": "21",
       "points": "0",
       "wins": "0",
       "Driver": {
@@ -511,8 +1386,8 @@
       ]
     },
     {
-      "position": "21",
-      "positionText": "21",
+      "position": "22",
+      "positionText": "22",
       "points": "0",
       "wins": "0",
       "Driver": {
@@ -535,8 +1410,8 @@
       ]
     },
     {
-      "position": "22",
-      "positionText": "22",
+      "position": "23",
+      "positionText": "23",
       "points": "0",
       "wins": "0",
       "Driver": {
@@ -559,20 +1434,153 @@
       ]
     }
   ],
-  "constructorStandings": [],
+  "constructorStandings": [
+    {
+      "position": "1",
+      "positionText": "1",
+      "points": "503",
+      "wins": "10",
+      "Constructor": {
+        "constructorId": "mercedes",
+        "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+        "name": "Mercedes",
+        "nationality": "German"
+      }
+    },
+    {
+      "position": "2",
+      "positionText": "2",
+      "points": "358",
+      "wins": "2",
+      "Constructor": {
+        "constructorId": "ferrari",
+        "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+        "name": "Ferrari",
+        "nationality": "Italian"
+      }
+    },
+    {
+      "position": "3",
+      "positionText": "3",
+      "points": "306",
+      "wins": "2",
+      "Constructor": {
+        "constructorId": "mclaren",
+        "url": "https://en.wikipedia.org/wiki/McLaren",
+        "name": "McLaren",
+        "nationality": "British"
+      }
+    },
+    {
+      "position": "4",
+      "positionText": "4",
+      "points": "230",
+      "wins": "0",
+      "Constructor": {
+        "constructorId": "red_bull",
+        "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+        "name": "Red Bull",
+        "nationality": "Austrian"
+      }
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "77",
+      "wins": "0",
+      "Constructor": {
+        "constructorId": "rb",
+        "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
+        "name": "RB F1 Team",
+        "nationality": "Italian"
+      }
+    },
+    {
+      "position": "6",
+      "positionText": "6",
+      "points": "68",
+      "wins": "0",
+      "Constructor": {
+        "constructorId": "alpine",
+        "url": "https://en.wikipedia.org/wiki/Alpine_F1_Team",
+        "name": "Alpine F1 Team",
+        "nationality": "French"
+      }
+    },
+    {
+      "position": "7",
+      "positionText": "7",
+      "points": "21",
+      "wins": "0",
+      "Constructor": {
+        "constructorId": "haas",
+        "url": "https://en.wikipedia.org/wiki/Haas_F1_Team",
+        "name": "Haas F1 Team",
+        "nationality": "American"
+      }
+    },
+    {
+      "position": "8",
+      "positionText": "8",
+      "points": "17",
+      "wins": "0",
+      "Constructor": {
+        "constructorId": "audi",
+        "url": "https://en.wikipedia.org/wiki/Audi_in_Formula_One",
+        "name": "Audi",
+        "nationality": "German"
+      }
+    },
+    {
+      "position": "9",
+      "positionText": "9",
+      "points": "11",
+      "wins": "0",
+      "Constructor": {
+        "constructorId": "williams",
+        "url": "https://en.wikipedia.org/wiki/Williams_Racing",
+        "name": "Williams",
+        "nationality": "British"
+      }
+    },
+    {
+      "position": "10",
+      "positionText": "10",
+      "points": "3",
+      "wins": "0",
+      "Constructor": {
+        "constructorId": "aston_martin",
+        "url": "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
+        "name": "Aston Martin",
+        "nationality": "British"
+      }
+    },
+    {
+      "position": "11",
+      "positionText": "11",
+      "points": "0",
+      "wins": "0",
+      "Constructor": {
+        "constructorId": "cadillac",
+        "url": "https://en.wikipedia.org/wiki/Cadillac_in_Formula_One",
+        "name": "Cadillac F1 Team",
+        "nationality": "American"
+      }
+    }
+  ],
   "latestPreBrief": {
     "type": "PRE_RACE",
-    "title": "Pre-Race Preview: Grand Prix",
-    "raceName": "Grand Prix",
-    "circuitName": "Circuit",
-    "date": "Upcoming Weekend",
-    "generatedAt": "2026-09-19T06:32:22.854973",
+    "title": "Pre-Race Preview: Azerbaijan Grand Prix",
+    "raceName": "Azerbaijan Grand Prix",
+    "circuitName": "Baku City Circuit",
+    "date": "2026-09-26",
+    "generatedAt": "2026-09-19T11:48:38.202568",
     "facts": [
       {
         "topic": "Championship Stakes",
         "badge": "Title Race",
-        "detail": "Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Grand Prix.",
-        "stat": "50 Pts Gap",
+        "detail": "Antonelli leads Russell by 81 points in the World Drivers' Championship heading into Azerbaijan Grand Prix.",
+        "stat": "81 Pts Gap",
         "source": "JolpicaErgast"
       }
     ],
@@ -585,8 +1593,8 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "219",
-        "wins": "6",
+        "points": "292",
+        "wins": "8",
         "Driver": {
           "driverId": "antonelli",
           "permanentNumber": "12",
@@ -609,31 +1617,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "169",
-        "wins": "1",
-        "Driver": {
-          "driverId": "hamilton",
-          "permanentNumber": "44",
-          "code": "HAM",
-          "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
-          "givenName": "Lewis",
-          "familyName": "Hamilton",
-          "dateOfBirth": "1985-01-07",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "ferrari",
-            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-            "name": "Ferrari",
-            "nationality": "Italian"
-          }
-        ]
-      },
-      {
-        "position": "3",
-        "positionText": "3",
-        "points": "160",
+        "points": "211",
         "wins": "2",
         "Driver": {
           "driverId": "russell",
@@ -655,9 +1639,57 @@
         ]
       },
       {
+        "position": "3",
+        "positionText": "3",
+        "points": "191",
+        "wins": "1",
+        "Driver": {
+          "driverId": "hamilton",
+          "permanentNumber": "44",
+          "code": "HAM",
+          "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+          "givenName": "Lewis",
+          "familyName": "Hamilton",
+          "dateOfBirth": "1985-01-07",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "ferrari",
+            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+            "name": "Ferrari",
+            "nationality": "Italian"
+          }
+        ]
+      },
+      {
         "position": "4",
         "positionText": "4",
-        "points": "138",
+        "points": "186",
+        "wins": "2",
+        "Driver": {
+          "driverId": "norris",
+          "permanentNumber": "1",
+          "code": "NOR",
+          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+          "givenName": "Lando",
+          "familyName": "Norris",
+          "dateOfBirth": "1999-11-13",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "mclaren",
+            "url": "https://en.wikipedia.org/wiki/McLaren",
+            "name": "McLaren",
+            "nationality": "British"
+          }
+        ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "167",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -677,49 +1709,47 @@
             "nationality": "Italian"
           }
         ]
-      },
-      {
-        "position": "5",
-        "positionText": "5",
-        "points": "128",
-        "wins": "1",
-        "Driver": {
-          "driverId": "norris",
-          "permanentNumber": "1",
-          "code": "NOR",
-          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-          "givenName": "Lando",
-          "familyName": "Norris",
-          "dateOfBirth": "1999-11-13",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "mclaren",
-            "url": "https://en.wikipedia.org/wiki/McLaren",
-            "name": "McLaren",
-            "nationality": "British"
-          }
-        ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: GRAND PRIX\n**Location**: Circuit | **Date**: Upcoming Weekend\n\n> *Deterministic Data Brief for the Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: AZERBAIJAN GRAND PRIX\n**Location**: Baku City Circuit | **Date**: 2026-09-26\n\n> *Deterministic Data Brief for the Azerbaijan Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*81 Pts Gap*)\n  Antonelli leads Russell by 81 points in the World Drivers' Championship heading into Azerbaijan Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 292 Pts (8 Wins)\n2. **George Russell** (Mercedes) - 211 Pts (2 Wins)\n3. **Lewis Hamilton** (Ferrari) - 191 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 186 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 167 Pts (1 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
-    "title": "Post-Race Debrief: Grand Prix",
-    "raceName": "Grand Prix",
-    "circuitName": "Circuit",
-    "date": "Recent Weekend",
-    "generatedAt": "2026-09-19T06:32:22.855344",
+    "title": "Post-Race Debrief: Azerbaijan Grand Prix",
+    "raceName": "Azerbaijan Grand Prix",
+    "circuitName": "Baku City Circuit",
+    "date": "2026-09-26",
+    "generatedAt": "2026-09-19T11:48:38.202872",
     "facts": [],
-    "teammateBattles": [],
+    "teammateBattles": [
+      {
+        "team": "Ferrari",
+        "drivers": "HAM vs LEC",
+        "quali": "2 - 3",
+        "race": "3 - 2",
+        "leader": "HAM Ahead"
+      },
+      {
+        "team": "Red Bull",
+        "drivers": "VER vs HAD",
+        "quali": "3 - 2",
+        "race": "4 - 1",
+        "leader": "VER Ahead"
+      },
+      {
+        "team": "Alpine F1 Team",
+        "drivers": "COL vs GAS",
+        "quali": "2 - 3",
+        "race": "2 - 3",
+        "leader": "GAS Ahead"
+      }
+    ],
     "topStandings": [
       {
         "position": "1",
         "positionText": "1",
-        "points": "219",
-        "wins": "6",
+        "points": "292",
+        "wins": "8",
         "Driver": {
           "driverId": "antonelli",
           "permanentNumber": "12",
@@ -742,31 +1772,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "169",
-        "wins": "1",
-        "Driver": {
-          "driverId": "hamilton",
-          "permanentNumber": "44",
-          "code": "HAM",
-          "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
-          "givenName": "Lewis",
-          "familyName": "Hamilton",
-          "dateOfBirth": "1985-01-07",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "ferrari",
-            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-            "name": "Ferrari",
-            "nationality": "Italian"
-          }
-        ]
-      },
-      {
-        "position": "3",
-        "positionText": "3",
-        "points": "160",
+        "points": "211",
         "wins": "2",
         "Driver": {
           "driverId": "russell",
@@ -788,9 +1794,57 @@
         ]
       },
       {
+        "position": "3",
+        "positionText": "3",
+        "points": "191",
+        "wins": "1",
+        "Driver": {
+          "driverId": "hamilton",
+          "permanentNumber": "44",
+          "code": "HAM",
+          "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+          "givenName": "Lewis",
+          "familyName": "Hamilton",
+          "dateOfBirth": "1985-01-07",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "ferrari",
+            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+            "name": "Ferrari",
+            "nationality": "Italian"
+          }
+        ]
+      },
+      {
         "position": "4",
         "positionText": "4",
-        "points": "138",
+        "points": "186",
+        "wins": "2",
+        "Driver": {
+          "driverId": "norris",
+          "permanentNumber": "1",
+          "code": "NOR",
+          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+          "givenName": "Lando",
+          "familyName": "Norris",
+          "dateOfBirth": "1999-11-13",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "mclaren",
+            "url": "https://en.wikipedia.org/wiki/McLaren",
+            "name": "McLaren",
+            "nationality": "British"
+          }
+        ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "167",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -810,262 +1864,33 @@
             "nationality": "Italian"
           }
         ]
-      },
-      {
-        "position": "5",
-        "positionText": "5",
-        "points": "128",
-        "wins": "1",
-        "Driver": {
-          "driverId": "norris",
-          "permanentNumber": "1",
-          "code": "NOR",
-          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-          "givenName": "Lando",
-          "familyName": "Norris",
-          "dateOfBirth": "1999-11-13",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "mclaren",
-            "url": "https://en.wikipedia.org/wiki/McLaren",
-            "name": "McLaren",
-            "nationality": "British"
-          }
-        ]
       }
     ],
-    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: GRAND PRIX\n**Location**: Circuit | **Date**: Recent Weekend\n\n> *Deterministic Data Brief for the Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n"
+    "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: AZERBAIJAN GRAND PRIX\n**Location**: Baku City Circuit | **Date**: 2026-09-26\n\n> *Deterministic Data Brief for the Azerbaijan Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
   },
-  "teammateBattles": [],
-  "sprintResults": [],
-  "qualifyingResults": [],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 56,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
+  "teammateBattles": [
+    {
+      "team": "Ferrari",
+      "drivers": "HAM vs LEC",
+      "quali": "2 - 3",
+      "race": "3 - 2",
+      "leader": "HAM Ahead"
     },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 66,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 62,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 58,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 54,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 50,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 46,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "racingnews365.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "LIVE: Reaction as Norris ends Ferrari domination ahead of Hungary qualifying - racingnews365.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The Guardian",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "\u2018Pretty bad\u2019: Lewis Hamilton hits out at Ferrari after dropping points in F1 title race - The Guardian",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "BBC",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "'Everything went wrong' \u2013 Vasseur critical of Ferrari's Hungarian Grand Prix performance - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 27 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Lando Norris takes first victory of the season in upgraded McLaren at Hungarian Grand Prix - as it happened - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "racingnews365.com",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "LIVE: Reaction as Norris ends Ferrari domination ahead of Hungary qualifying - racingnews365.com",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The Guardian",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "\u2018Pretty bad\u2019: Lewis Hamilton hits out at Ferrari after dropping points in F1 title race - The Guardian",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "BBC",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 LIVE: Lando Norris wins Hungarian Grand Prix - full result, standings & reaction from the Hungaroring - BBC",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "'Everything went wrong' \u2013 Vasseur critical of Ferrari's Hungarian Grand Prix performance - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Mon, 27 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+    {
+      "team": "Red Bull",
+      "drivers": "VER vs HAD",
+      "quali": "3 - 2",
+      "race": "4 - 1",
+      "leader": "VER Ahead"
+    },
+    {
+      "team": "Alpine F1 Team",
+      "drivers": "COL vs GAS",
+      "quali": "2 - 3",
+      "race": "2 - 3",
+      "leader": "GAS Ahead"
+    }
+  ],
+  "sprintResults": [],
+  "qualifyingResults": []
 }

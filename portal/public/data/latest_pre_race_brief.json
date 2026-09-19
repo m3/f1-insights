@@ -1,16 +1,16 @@
 {
   "type": "PRE_RACE",
-  "title": "Pre-Race Preview: Grand Prix",
-  "raceName": "Grand Prix",
-  "circuitName": "Circuit",
-  "date": "Upcoming Weekend",
-  "generatedAt": "2026-09-19T06:32:22.854973",
+  "title": "Pre-Race Preview: Azerbaijan Grand Prix",
+  "raceName": "Azerbaijan Grand Prix",
+  "circuitName": "Baku City Circuit",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-19T11:48:38.202568",
   "facts": [
     {
       "topic": "Championship Stakes",
       "badge": "Title Race",
-      "detail": "Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Grand Prix.",
-      "stat": "50 Pts Gap",
+      "detail": "Antonelli leads Russell by 81 points in the World Drivers' Championship heading into Azerbaijan Grand Prix.",
+      "stat": "81 Pts Gap",
       "source": "JolpicaErgast"
     }
   ],
@@ -23,8 +23,8 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "219",
-      "wins": "6",
+      "points": "292",
+      "wins": "8",
       "Driver": {
         "driverId": "antonelli",
         "permanentNumber": "12",
@@ -47,31 +47,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "169",
-      "wins": "1",
-      "Driver": {
-        "driverId": "hamilton",
-        "permanentNumber": "44",
-        "code": "HAM",
-        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
-        "givenName": "Lewis",
-        "familyName": "Hamilton",
-        "dateOfBirth": "1985-01-07",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "ferrari",
-          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-          "name": "Ferrari",
-          "nationality": "Italian"
-        }
-      ]
-    },
-    {
-      "position": "3",
-      "positionText": "3",
-      "points": "160",
+      "points": "211",
       "wins": "2",
       "Driver": {
         "driverId": "russell",
@@ -93,9 +69,57 @@
       ]
     },
     {
+      "position": "3",
+      "positionText": "3",
+      "points": "191",
+      "wins": "1",
+      "Driver": {
+        "driverId": "hamilton",
+        "permanentNumber": "44",
+        "code": "HAM",
+        "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+        "givenName": "Lewis",
+        "familyName": "Hamilton",
+        "dateOfBirth": "1985-01-07",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "ferrari",
+          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "name": "Ferrari",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
       "position": "4",
       "positionText": "4",
-      "points": "138",
+      "points": "186",
+      "wins": "2",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "167",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -115,31 +139,7 @@
           "nationality": "Italian"
         }
       ]
-    },
-    {
-      "position": "5",
-      "positionText": "5",
-      "points": "128",
-      "wins": "1",
-      "Driver": {
-        "driverId": "norris",
-        "permanentNumber": "1",
-        "code": "NOR",
-        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "dateOfBirth": "1999-11-13",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mclaren",
-          "url": "https://en.wikipedia.org/wiki/McLaren",
-          "name": "McLaren",
-          "nationality": "British"
-        }
-      ]
     }
   ],
-  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: GRAND PRIX\n**Location**: Circuit | **Date**: Upcoming Weekend\n\n> *Deterministic Data Brief for the Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
+  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: AZERBAIJAN GRAND PRIX\n**Location**: Baku City Circuit | **Date**: 2026-09-26\n\n> *Deterministic Data Brief for the Azerbaijan Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*81 Pts Gap*)\n  Antonelli leads Russell by 81 points in the World Drivers' Championship heading into Azerbaijan Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 292 Pts (8 Wins)\n2. **George Russell** (Mercedes) - 211 Pts (2 Wins)\n3. **Lewis Hamilton** (Ferrari) - 191 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 186 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 167 Pts (1 Wins)\n"
 }
