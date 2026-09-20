@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#AzerbaijanGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "Crash.net",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why is F1 racing at the Azerbaijan Grand Prix on a Saturday? - Crash.net",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 19 Sep 2026 08:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "espn.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix 2026: Race start time in Baku, how to watch, full schedule, predictions - espn.com",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 16:32:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "TheJudge13",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The 2026 Azerbaijan Grand Prix won\u2019t be taking place on Sunday - TheJudge13",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 15:22:28 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "CNET",
+      "author": "mclaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix: How to Watch the F1 Race Today - CNET",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - mclaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 22:00:03 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "forbes.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan GP dates, UK start time and Sky Sports F1's live schedule - Sky Sports",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - forbes.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 05:05:09 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Crash.net",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why is F1 racing at the Azerbaijan Grand Prix on a Saturday? - Crash.net",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 19 Sep 2026 08:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "espn.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix 2026: Race start time in Baku, how to watch, full schedule, predictions - espn.com",
+      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 16:32:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "TheJudge13",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The 2026 Azerbaijan Grand Prix won\u2019t be taking place on Sunday - TheJudge13",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 15:22:28 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "CNET",
+      "author": "mclaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan Grand Prix: How to Watch the F1 Race Today - CNET",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - mclaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 22:00:03 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "forbes.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Azerbaijan GP dates, UK start time and Sky Sports F1's live schedule - Sky Sports",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - forbes.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 05:05:09 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ]
 }
