@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "sentimentScore": 52,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#AzerbaijanGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 42,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "sports.yahoo.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Colton Herta makes F2 decision after difficult season amid F1 ambitions - sports.yahoo.com",
+      "text": "What time is the 2026 Azerbaijan GP and how can I watch it? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 21 Sep 2026 05:55:00 GMT"
+      "time": "Mon, 21 Sep 2026 10:49:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "F1 Grand Prix distances set to be reduced for 2027 season along with introduction of 'hard stop' time on race days - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 21 Sep 2026 16:51:03 GMT"
+    },
+    {
+      "author": "gpblog.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Red Bull to make last minute Isack Hadjar call at Azerbaijan Grand Prix - gpblog.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 21 Sep 2026 15:15:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "The wildest moments from 10 years of F1 racing in Baku - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 21 Sep 2026 16:05:00 GMT"
     },
     {
-      "author": "MotorBiscuit",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 2027 Key Dates: How Many Double & Triple Headers, Which Races are Sprints? - MotorBiscuit",
+      "text": "Guenther Steiner predicts Max Verstappen will go winless in 2026 F1 season - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 21 Sep 2026 13:02:17 GMT"
-    },
-    {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 21 Sep 2026 14:00:02 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "sports.yahoo.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Colton Herta makes F2 decision after difficult season amid F1 ambitions - sports.yahoo.com",
+      "text": "What time is the 2026 Azerbaijan GP and how can I watch it? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 21 Sep 2026 05:55:00 GMT"
+      "time": "Mon, 21 Sep 2026 10:49:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "F1 Grand Prix distances set to be reduced for 2027 season along with introduction of 'hard stop' time on race days - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 21 Sep 2026 16:51:03 GMT"
+    },
+    {
+      "author": "gpblog.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Red Bull to make last minute Isack Hadjar call at Azerbaijan Grand Prix - gpblog.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 21 Sep 2026 15:15:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "The wildest moments from 10 years of F1 racing in Baku - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 21 Sep 2026 16:05:00 GMT"
     },
     {
-      "author": "MotorBiscuit",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 2027 Key Dates: How Many Double & Triple Headers, Which Races are Sprints? - MotorBiscuit",
+      "text": "Guenther Steiner predicts Max Verstappen will go winless in 2026 F1 season - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 21 Sep 2026 13:02:17 GMT"
-    },
-    {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 21 Sep 2026 14:00:02 GMT"
     }
   ]
 }
