@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 65,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 60,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#AzerbaijanGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 75,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 71,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 67,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 63,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 59,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 55,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "F1 title race: Why Azerbaijan-Malaysia-Singapore triple header will shape what rest of 2026 championship chase will look like - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Azerbaijan GP schedule: Race start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 18:40:43 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Isack Hadjar returns for F1 Azerbaijan Grand Prix - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 10:45:32 GMT"
+      "time": "Tue, 22 Sep 2026 05:01:19 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Why is the Azerbaijan Grand Prix on a Saturday, not a Sunday? Baku schedule shift explained - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 22 Sep 2026 08:02:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "What does the future hold for Lawson after Red Bull stint? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 22 Sep 2026 16:21:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula 1: Isack Hadjar to return from wrist injury at Azerbaijan Grand Prix - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 22 Sep 2026 08:46:54 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar returns to Red Bull for Azerbaijan GP after injury layoff - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 22 Sep 2026 08:42:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
+      "text": "F1 title race: Why Azerbaijan-Malaysia-Singapore triple header will shape what rest of 2026 championship chase will look like - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Azerbaijan GP schedule: Race start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 18:40:43 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Isack Hadjar returns for F1 Azerbaijan Grand Prix - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 10:45:32 GMT"
+      "time": "Tue, 22 Sep 2026 05:01:19 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Why is the Azerbaijan Grand Prix on a Saturday, not a Sunday? Baku schedule shift explained - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 22 Sep 2026 08:02:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Race Highlights: 2026 Hungarian Grand Prix - Formula 1",
+      "text": "What does the future hold for Lawson after Red Bull stint? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 22 Sep 2026 16:21:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula 1: Isack Hadjar to return from wrist injury at Azerbaijan Grand Prix - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 22 Sep 2026 08:46:54 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar returns to Red Bull for Azerbaijan GP after injury layoff - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 22 Sep 2026 08:42:00 GMT"
     }
   ]
 }
