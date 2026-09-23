@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "sentimentScore": 55,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#AzerbaijanGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Azerbaijan GP schedule: Race start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 00:40:43 GMT"
-    },
-    {
-      "author": "SB Nation",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Isack Hadjar returns for F1 Azerbaijan Grand Prix - SB Nation",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 10:45:32 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
-    },
-    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Why is the Azerbaijan Grand Prix on a Saturday, not a Sunday? Baku schedule shift explained - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 22 Sep 2026 08:02:00 GMT"
+    },
+    {
+      "author": "skysports.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Ferrari boss Frederic Vasseur sets goal for Azerbaijan GP as Nico Rosberg pinpoints team's 'Achilles' heel' - skysports.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 23 Sep 2026 05:02:00 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Six F1 tech talking points at the Azerbaijan GP - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 23 Sep 2026 05:05:05 GMT"
+    },
+    {
+      "author": "planetf1.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Azerbaijan GP predictions: Leclerc no Antonelli, Russell desperation bites, rookie breakthrough - planetf1.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 23 Sep 2026 04:56:52 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What does the future hold for Lawson after Red Bull stint? - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 22 Sep 2026 16:21:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
-    },
-    {
-      "author": "The Independent",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Azerbaijan GP schedule: Race start time and TV coverage - The Independent",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 00:40:43 GMT"
-    },
-    {
-      "author": "SB Nation",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Isack Hadjar returns for F1 Azerbaijan Grand Prix - SB Nation",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 10:45:32 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
-    },
-    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Why is the Azerbaijan Grand Prix on a Saturday, not a Sunday? Baku schedule shift explained - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 22 Sep 2026 08:02:00 GMT"
+    },
+    {
+      "author": "skysports.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Ferrari boss Frederic Vasseur sets goal for Azerbaijan GP as Nico Rosberg pinpoints team's 'Achilles' heel' - skysports.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 23 Sep 2026 05:02:00 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Six F1 tech talking points at the Azerbaijan GP - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 23 Sep 2026 05:05:05 GMT"
+    },
+    {
+      "author": "planetf1.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Azerbaijan GP predictions: Leclerc no Antonelli, Russell desperation bites, rookie breakthrough - planetf1.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 23 Sep 2026 04:56:52 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What does the future hold for Lawson after Red Bull stint? - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 22 Sep 2026 16:21:00 GMT"
     }
   ]
 }
