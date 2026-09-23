@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#AzerbaijanGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "espn.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why is the Azerbaijan Grand Prix on a Saturday, not a Sunday? Baku schedule shift explained - espn.com",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 08:02:00 GMT"
+      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What does the future hold for Lawson after Red Bull stint? - Formula 1",
+      "text": "F1 Azerbaijan GP schedule: Race start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 16:21:00 GMT"
+      "time": "Wed, 23 Sep 2026 00:40:43 GMT"
+    },
+    {
+      "author": "SB Nation",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar returns for F1 Azerbaijan Grand Prix - SB Nation",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 22 Sep 2026 10:45:32 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Isack Hadjar to make Red Bull return at F1 Azerbaijan GP - Motorsport.com",
+      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 08:31:32 GMT"
+      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
     },
     {
-      "author": "BBC",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1: Isack Hadjar to return from wrist injury at Azerbaijan Grand Prix - BBC",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 08:46:54 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull sends message to Liam Lawson after Azerbaijan GP decision - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 18:03:55 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "espn.com",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why is the Azerbaijan Grand Prix on a Saturday, not a Sunday? Baku schedule shift explained - espn.com",
+      "text": "Winners and losers from F1's heated Hungarian Grand Prix - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 08:02:00 GMT"
+      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What does the future hold for Lawson after Red Bull stint? - Formula 1",
+      "text": "F1 Azerbaijan GP schedule: Race start time and TV coverage - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 16:21:00 GMT"
+      "time": "Wed, 23 Sep 2026 00:40:43 GMT"
+    },
+    {
+      "author": "SB Nation",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Isack Hadjar returns for F1 Azerbaijan Grand Prix - SB Nation",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 22 Sep 2026 10:45:32 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Isack Hadjar to make Red Bull return at F1 Azerbaijan GP - Motorsport.com",
+      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 08:31:32 GMT"
+      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
     },
     {
-      "author": "BBC",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula 1: Isack Hadjar to return from wrist injury at Azerbaijan Grand Prix - BBC",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 08:46:54 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Red Bull sends message to Liam Lawson after Azerbaijan GP decision - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 18:03:55 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
