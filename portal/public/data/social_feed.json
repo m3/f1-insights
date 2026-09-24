@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 62,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 59,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#AzerbaijanGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 72,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 68,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 64,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 60,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 56,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 52,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Azerbaijan GP - Formula 1",
+      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 07:47:00 GMT"
+      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
+    },
+    {
+      "author": "Reuters",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Ocon declares himself a 'free agent' amid speculation over F1 future - Reuters",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 23 Sep 2026 17:23:55 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why is the Azerbaijan Grand Prix on a Saturday? F1 Baku 2026 schedule explained - The New York Times",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 15:32:28 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Russell's theory on his big hope for F1 2027 \u2013 and Antonelli's reply - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 15:06:46 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "PADDOCK INSIDER: All the stories that got the Baku paddock talking ahead of the 2026 Azerbaijan Grand Prix - Formula 1",
+      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 16:48:58 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Today | Wolff to miss Baku as Domenicali\u2019s monster earnings come to light - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 19:01:00 GMT"
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Azerbaijan GP - Formula 1",
+      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 07:47:00 GMT"
+      "time": "Fri, 18 Sep 2026 08:43:23 GMT"
+    },
+    {
+      "author": "Reuters",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Ocon declares himself a 'free agent' amid speculation over F1 future - Reuters",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 23 Sep 2026 17:23:55 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why is the Azerbaijan Grand Prix on a Saturday? F1 Baku 2026 schedule explained - The New York Times",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 15:32:28 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Russell's theory on his big hope for F1 2027 \u2013 and Antonelli's reply - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 15:06:46 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "PADDOCK INSIDER: All the stories that got the Baku paddock talking ahead of the 2026 Azerbaijan Grand Prix - Formula 1",
+      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 23 Sep 2026 16:48:58 GMT"
-    },
-    {
-      "author": "GPblog",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Today | Wolff to miss Baku as Domenicali\u2019s monster earnings come to light - GPblog",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 22 Sep 2026 19:01:00 GMT"
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     }
   ]
 }
