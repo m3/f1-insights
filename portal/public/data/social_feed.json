@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 64,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 51,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#AzerbaijanGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 74,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 70,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 66,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 62,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 58,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 54,
+      "score": 41,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "The Independent",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Azerbaijan GP schedule: Practice start time and TV coverage - The Independent",
+      "text": "Russell leads Antonelli and Verstappen during FP2 in Baku - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 25 Sep 2026 06:06:54 GMT"
+      "time": "Thu, 24 Sep 2026 13:05:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula One: Why is the Azerbaijan Grand Prix taking place on a Saturday? - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 24 Sep 2026 14:53:07 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018Better than when I left it!\u2019 \u2013 Hadjar encouraged by first day back in his upgraded Red Bull at Azerbaijan Grand Prix - Formula 1",
+      "text": "LIVE COVERAGE: Third practice for the Azerbaijan GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 24 Sep 2026 15:33:00 GMT"
+      "time": "Fri, 25 Sep 2026 08:15:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "The early verdict on Williams\u2019 big Azerbaijan Grand Prix F1 upgrade package - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 25 Sep 2026 07:53:51 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "'Dangerous' Lewis Hamilton under threat as FIA launches Azerbaijan GP investigation - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 24 Sep 2026 13:39:59 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "The Independent",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Azerbaijan GP schedule: Practice start time and TV coverage - The Independent",
+      "text": "Russell leads Antonelli and Verstappen during FP2 in Baku - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 25 Sep 2026 06:06:54 GMT"
+      "time": "Thu, 24 Sep 2026 13:05:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula One: Why is the Azerbaijan Grand Prix taking place on a Saturday? - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 24 Sep 2026 14:53:07 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018Better than when I left it!\u2019 \u2013 Hadjar encouraged by first day back in his upgraded Red Bull at Azerbaijan Grand Prix - Formula 1",
+      "text": "LIVE COVERAGE: Third practice for the Azerbaijan GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 24 Sep 2026 15:33:00 GMT"
+      "time": "Fri, 25 Sep 2026 08:15:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "The early verdict on Williams\u2019 big Azerbaijan Grand Prix F1 upgrade package - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 25 Sep 2026 07:53:51 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "'Dangerous' Lewis Hamilton under threat as FIA launches Azerbaijan GP investigation - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 24 Sep 2026 13:39:59 GMT"
     }
   ]
 }
