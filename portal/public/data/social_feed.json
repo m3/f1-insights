@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "sentimentScore": 47,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#AzerbaijanGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 41,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 37,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "independent.co.uk",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Azerbaijan GP schedule: Practice start time and TV coverage - independent.co.uk",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 25 Sep 2026 01:36:54 GMT"
-    },
-    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018Better than when I left it!\u2019 \u2013 Hadjar encouraged by first day back in his upgraded Red Bull at Azerbaijan Grand Prix - Formula 1",
+      "text": "Russell leads Antonelli and Verstappen during FP2 in Baku - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 24 Sep 2026 15:33:00 GMT"
+      "time": "Thu, 24 Sep 2026 13:05:00 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from Baku F1 practice - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 24 Sep 2026 15:07:17 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Lewis Hamilton on F1 races becoming shorter in 2027: 'Makes no sense' - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 23 Sep 2026 15:59:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "'Others just took another step' in Baku practice \u2013 Hamilton - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 24 Sep 2026 16:07:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Team principal: Audi F1 retain H\u00fclkenberg and Bortoleto for 2027 - Yahoo Sports",
+      "text": "The Baku problem exposed by scary Hamilton and Lawson near-miss - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 24 Sep 2026 17:03:53 GMT"
+      "time": "Thu, 24 Sep 2026 18:02:17 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "independent.co.uk",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Azerbaijan GP schedule: Practice start time and TV coverage - independent.co.uk",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Fri, 25 Sep 2026 01:36:54 GMT"
-    },
-    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "\u2018Better than when I left it!\u2019 \u2013 Hadjar encouraged by first day back in his upgraded Red Bull at Azerbaijan Grand Prix - Formula 1",
+      "text": "Russell leads Antonelli and Verstappen during FP2 in Baku - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 24 Sep 2026 15:33:00 GMT"
+      "time": "Thu, 24 Sep 2026 13:05:00 GMT"
+    },
+    {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Winners and losers from Baku F1 practice - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 24 Sep 2026 15:07:17 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Lewis Hamilton on F1 races becoming shorter in 2027: 'Makes no sense' - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 23 Sep 2026 15:59:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "'Others just took another step' in Baku practice \u2013 Hamilton - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 24 Sep 2026 16:07:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Team principal: Audi F1 retain H\u00fclkenberg and Bortoleto for 2027 - Yahoo Sports",
+      "text": "The Baku problem exposed by scary Hamilton and Lawson near-miss - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 24 Sep 2026 17:03:53 GMT"
+      "time": "Thu, 24 Sep 2026 18:02:17 GMT"
     }
   ]
 }
