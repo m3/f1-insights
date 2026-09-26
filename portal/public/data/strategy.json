@@ -1,7 +1,83 @@
 {
   "gridPenalties": {
     "startingGridImpacts": [],
-    "inRaceTimePenalties": []
+    "inRaceTimePenalties": [
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 6 (HAD) WILL BE INVESTIGATED AFTER THE RACE - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS \u2013 PRACTICE START INFRINGEMENT (14:20:31)",
+        "lap": 1,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 55 (SAI) WILL BE INVESTIGATED AFTER THE RACE - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS \u2013 PRACTICE START INFRINGEMENT (14:22:31)",
+        "lap": 1,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "CAR 1 (NOR) LAP DELETED - TRACK LIMITS AT TURN 1 LAP 30 15:56:33 (PIT)",
+        "lap": 31,
+        "category": "Track Limits"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 41 (LIN) AND 30 (LAW) UNDER INVESTIGATION (16:11:33)",
+        "lap": 41,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 1 (NOR), 10 (GAS) AND 43 (COL) UNDER INVESTIGATION - CAUSING A COLLISION (16:11:31)",
+        "lap": 42,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "CAR 30 (LAW) LAP DELETED - TRACK LIMITS AT TURN 1 LAP 36 16:11:35 (PIT)",
+        "lap": 42,
+        "category": "Track Limits"
+      },
+      {
+        "message": "CAR 43 (COL) LAP DELETED - TRACK LIMITS AT TURN 15 LAP 36 16:14:30 (PIT)",
+        "lap": 42,
+        "category": "Track Limits"
+      },
+      {
+        "message": "CAR 5 (BOR) LAP DELETED - TRACK LIMITS AT TURN 1 LAP 36 16:11:35 (PIT)",
+        "lap": 42,
+        "category": "Track Limits"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 41 (LIN) AND 30 (LAW) NO FURTHER ACTION",
+        "lap": 44,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 7 INCIDENT INVOLVING CAR 5 (BOR) UNDER INVESTIGATION - YELLOW FLAG INFRINGEMENT (16:12:10)",
+        "lap": 48,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 3 (VER) REVIEWED NO FURTHER INVESTIGATION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS (16:18:20)",
+        "lap": 49,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 7 INCIDENT INVOLVING CAR 5 (BOR) WILL BE INVESTIGATED AFTER THE RACE - YELLOW FLAG INFRINGEMENT (16:12:10)",
+        "lap": 51,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 43 (COL) - CAUSING A COLLISION (16:11:31)",
+        "lap": 51,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 43 (COL) - CAUSING A COLLISION (16:11:31)",
+        "lap": 51,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 15 INCIDENT INVOLVING CAR 77 (BOT) WILL BE INVESTIGATED AFTER THE RACE (16:42:31)",
+        "lap": 51,
+        "category": "Steward Decision"
+      }
+    ]
   },
   "penaltyWatch": {
     "high_risk_drivers": [],

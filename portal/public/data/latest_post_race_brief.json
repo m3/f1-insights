@@ -4,7 +4,7 @@
   "raceName": "Azerbaijan Grand Prix",
   "circuitName": "Baku City Circuit",
   "date": "2026-09-26",
-  "generatedAt": "2026-09-26T11:42:12.244194",
+  "generatedAt": "2026-09-26T15:53:51.506648",
   "facts": [],
   "teammateBattles": [
     {
@@ -33,7 +33,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "292",
+      "points": "302",
       "wins": "8",
       "Driver": {
         "driverId": "antonelli",
@@ -57,8 +57,8 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "211",
-      "wins": "2",
+      "points": "236",
+      "wins": "3",
       "Driver": {
         "driverId": "russell",
         "permanentNumber": "63",
@@ -81,7 +81,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "191",
+      "points": "199",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -129,7 +129,7 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "167",
+      "points": "179",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
