@@ -1,15 +1,15 @@
 {
   "type": "PRE_RACE",
-  "title": "Pre-Race Preview: Azerbaijan Grand Prix",
-  "raceName": "Azerbaijan Grand Prix",
-  "circuitName": "Baku City Circuit",
-  "date": "2026-09-26",
-  "generatedAt": "2026-09-26T22:05:51.612062",
+  "title": "Pre-Race Preview: Bahrain Grand Prix in Malaysia",
+  "raceName": "Bahrain Grand Prix in Malaysia",
+  "circuitName": "Sepang International Circuit",
+  "date": "2026-10-04",
+  "generatedAt": "2026-09-27T00:47:09.195125",
   "facts": [
     {
       "topic": "Championship Stakes",
       "badge": "Title Race",
-      "detail": "Antonelli leads Russell by 66 points in the World Drivers' Championship heading into Azerbaijan Grand Prix.",
+      "detail": "Antonelli leads Russell by 66 points in the World Drivers' Championship heading into Bahrain Grand Prix in Malaysia.",
       "stat": "66 Pts Gap",
       "source": "JolpicaErgast"
     }
@@ -141,5 +141,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: AZERBAIJAN GRAND PRIX\n**Location**: Baku City Circuit | **Date**: 2026-09-26\n\n> *Deterministic Data Brief for the Azerbaijan Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*66 Pts Gap*)\n  Antonelli leads Russell by 66 points in the World Drivers' Championship heading into Azerbaijan Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 302 Pts (8 Wins)\n2. **George Russell** (Mercedes) - 236 Pts (3 Wins)\n3. **Lewis Hamilton** (Ferrari) - 199 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 186 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 179 Pts (1 Wins)\n"
+  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: BAHRAIN GRAND PRIX IN MALAYSIA\n**Location**: Sepang International Circuit | **Date**: 2026-10-04\n\n> *Deterministic Data Brief for the Bahrain Grand Prix in Malaysia*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*66 Pts Gap*)\n  Antonelli leads Russell by 66 points in the World Drivers' Championship heading into Bahrain Grand Prix in Malaysia.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 302 Pts (8 Wins)\n2. **George Russell** (Mercedes) - 236 Pts (3 Wins)\n3. **Lewis Hamilton** (Ferrari) - 199 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 186 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 179 Pts (1 Wins)\n"
 }
