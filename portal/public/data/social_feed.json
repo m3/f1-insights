@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 65,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 58,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#BahrainGrandPrixinMalaysia",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 75,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 71,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 67,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 63,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 59,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 55,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -126,50 +126,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Bahrain Grand Prix in Malaysia 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 13:05:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "2026 Bahrain GP in Malaysia: Why F1 is racing at Sepang - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 09:32:41 GMT"
     },
     {
-      "author": "Forbes",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "text": "Why the F1 Bahrain Grand Prix is being held in Malaysia - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 11:01:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "skysports.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
+      "text": "Bahrain GP in Malaysia dates, UK start time and Sky Sports F1's live schedule - skysports.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 06:04:38 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "Grande Pr\u00eamio",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Is there an F1 race today? Why there\u2019s no Grand Prix on Sunday, September 27 - Grande Pr\u00eamio",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 15:30:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,50 +178,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Bahrain Grand Prix in Malaysia 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 13:05:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "2026 Bahrain GP in Malaysia: Why F1 is racing at Sepang - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 09:32:41 GMT"
     },
     {
-      "author": "Forbes",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "text": "Why the F1 Bahrain Grand Prix is being held in Malaysia - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 11:01:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "skysports.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
+      "text": "Bahrain GP in Malaysia dates, UK start time and Sky Sports F1's live schedule - skysports.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 06:04:38 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "Grande Pr\u00eamio",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Is there an F1 race today? Why there\u2019s no Grand Prix on Sunday, September 27 - Grande Pr\u00eamio",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 27 Sep 2026 15:30:00 GMT"
     }
   ]
 }
