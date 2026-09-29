@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#BahrainGrandPrixinMalaysia",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is F1's 2026 Bahrain GP in Malaysia? Full weekend schedule - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 12:47:54 GMT"
-    },
-    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Bahrain Grand Prix in Malaysia 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 06:55:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 Bahrain GP in Malaysia: Why F1 is racing at Sepang - Motorsport.com",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 27 Sep 2026 09:32:41 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 F1 Bahrain Grand Prix in Malaysia - Early time schedule - racingnews365.com",
+      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 04:00:00 GMT"
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "mclaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the 2026 F1 Bahrain Grand Prix is being held in Malaysia - racingnews365.com",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - mclaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 04:30:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Forbes",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is F1's 2026 Bahrain GP in Malaysia? Full weekend schedule - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 12:47:54 GMT"
-    },
-    {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Bahrain Grand Prix in Malaysia 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 06:55:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 Bahrain GP in Malaysia: Why F1 is racing at Sepang - Motorsport.com",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 27 Sep 2026 09:32:41 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 F1 Bahrain Grand Prix in Malaysia - Early time schedule - racingnews365.com",
+      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 04:00:00 GMT"
+      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "racingnews365.com",
+      "author": "mclaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the 2026 F1 Bahrain Grand Prix is being held in Malaysia - racingnews365.com",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - mclaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 04:30:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Forbes",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ]
 }
