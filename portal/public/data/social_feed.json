@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 64,
+  "sentimentScore": 61,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#BahrainGrandPrixinMalaysia",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 74,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 70,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 66,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 62,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 58,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 54,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 12:03:05 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 16:30:02 GMT"
-    },
-    {
-      "author": "The Sun",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Book your ultimate Hungarian Grand Prix trip with official F1 tickets and Budapest hotel from only \u00a3729pp - The Sun",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 01 Oct 2026 17:01:47 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Why is F1\u2019s Bahrain Grand Prix actually in Malaysia? Sepang\u2019s unusual return explained - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 01 Oct 2026 08:00:47 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Bahrain GP in Malaysia LIVE: Friday Practice updates, results, stream, highlights from Formula 1 race weekend in Sepang - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 01 Oct 2026 11:36:09 GMT"
+    },
+    {
+      "author": "Mercedes-AMG PETRONAS F1 Team",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What Is the Weather Forecast for the 2026 Bahrain GP in Malaysia? - Mercedes-AMG PETRONAS F1 Team",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 01 Oct 2026 08:49:20 GMT"
+    },
+    {
+      "author": "Federation Internationale de l'Automobile",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 - 2026 Bahrain Grand Prix in Malaysia Preview - Federation Internationale de l'Automobile",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 01 Oct 2026 03:25:00 GMT"
+    },
+    {
+      "author": "malaymail.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Sepang sets record with nearly 100,000 tickets sold as Malaysia gears up for Bahrain Grand Prix - malaymail.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 01 Oct 2026 01:31:47 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 12:03:05 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 16:30:02 GMT"
-    },
-    {
-      "author": "The Sun",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Book your ultimate Hungarian Grand Prix trip with official F1 tickets and Budapest hotel from only \u00a3729pp - The Sun",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 01 Oct 2026 17:01:47 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Why is F1\u2019s Bahrain Grand Prix actually in Malaysia? Sepang\u2019s unusual return explained - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 01 Oct 2026 08:00:47 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Bahrain GP in Malaysia LIVE: Friday Practice updates, results, stream, highlights from Formula 1 race weekend in Sepang - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 01 Oct 2026 11:36:09 GMT"
+    },
+    {
+      "author": "Mercedes-AMG PETRONAS F1 Team",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What Is the Weather Forecast for the 2026 Bahrain GP in Malaysia? - Mercedes-AMG PETRONAS F1 Team",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 01 Oct 2026 08:49:20 GMT"
+    },
+    {
+      "author": "Federation Internationale de l'Automobile",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 - 2026 Bahrain Grand Prix in Malaysia Preview - Federation Internationale de l'Automobile",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 01 Oct 2026 03:25:00 GMT"
+    },
+    {
+      "author": "malaymail.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Sepang sets record with nearly 100,000 tickets sold as Malaysia gears up for Bahrain Grand Prix - malaymail.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 01 Oct 2026 01:31:47 GMT"
     }
   ]
 }
