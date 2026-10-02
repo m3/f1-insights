@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 64,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 58,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#BahrainGrandPrixinMalaysia",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 74,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 70,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 66,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 62,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 58,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 54,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Leclerc tops FP2 from Hadjar at Bahrain GP in Malaysia - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 12:03:05 GMT"
+      "time": "Fri, 02 Oct 2026 09:20:00 GMT"
     },
     {
-      "author": "The Sun",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Book the ultimate Hungarian Grand Prix trip with official F1 tickets and Budapest hotel from only \u00a3729pp - The Sun",
+      "text": "Weekend Warm-Up - 2026 Bahrain Grand Prix in Malaysia - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 14:55:45 GMT"
+      "time": "Thu, 01 Oct 2026 10:23:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "bbc.co.uk",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "Bahrain GP in Malaysia 2026: Russell says Red Bull strongest - bbc.co.uk",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 16:30:02 GMT"
+      "time": "Fri, 02 Oct 2026 05:41:24 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Mercedes-AMG PETRONAS F1 Team",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "2026 Bahrain Grand Prix in Malaysia: Intriguing First Day in Malaysia - Mercedes-AMG PETRONAS F1 Team",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 01 Oct 2026 07:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Last-minute fix made to F1's Sepang starting grid - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 01 Oct 2026 12:43:53 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Charles Leclerc tops FP1 as Lance Stroll brings out red flags - Motorsport.com",
+      "text": "Leclerc tops FP2 from Hadjar at Bahrain GP in Malaysia - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 12:03:05 GMT"
+      "time": "Fri, 02 Oct 2026 09:20:00 GMT"
     },
     {
-      "author": "The Sun",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Book the ultimate Hungarian Grand Prix trip with official F1 tickets and Budapest hotel from only \u00a3729pp - The Sun",
+      "text": "Weekend Warm-Up - 2026 Bahrain Grand Prix in Malaysia - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 14:55:45 GMT"
+      "time": "Thu, 01 Oct 2026 10:23:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "bbc.co.uk",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "Bahrain GP in Malaysia 2026: Russell says Red Bull strongest - bbc.co.uk",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 16:30:02 GMT"
+      "time": "Fri, 02 Oct 2026 05:41:24 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Mercedes-AMG PETRONAS F1 Team",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "2026 Bahrain Grand Prix in Malaysia: Intriguing First Day in Malaysia - Mercedes-AMG PETRONAS F1 Team",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 01 Oct 2026 07:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Last-minute fix made to F1's Sepang starting grid - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 01 Oct 2026 12:43:53 GMT"
     }
   ]
 }
