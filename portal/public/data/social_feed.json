@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 69,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 55,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#BahrainGrandPrixinMalaysia",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 79,
-      "sentiment": "Positive",
+      "score": 65,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 75,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 71,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 67,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 63,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 59,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "Verstappen leads FP1 at Bahrain GP in Malaysia - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 16:30:02 GMT"
+      "time": "Fri, 02 Oct 2026 05:50:00 GMT"
     },
     {
-      "author": "The Sun",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Book the ultimate Hungarian Grand Prix trip with official F1 tickets and Budapest hotel from only \u00a3729pp - The Sun",
+      "text": "F1 Bahrain GP: Mercedes Upgrades Its Aesthetics and Performance in Malaysia - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 01:25:45 GMT"
+      "time": "Sat, 03 Oct 2026 04:15:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "RACER - Racing News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Why is it still the Bahrain Grand Prix, in Malaysia? - RACER - Racing News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 02 Oct 2026 15:29:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "FIA confirms double Lewis Hamilton, Ferrari punishment after Bahrain GP investigation - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 02 Oct 2026 12:32:38 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Bahrain GP in Malaysia: Mystery object brings out red flag and stops final practice! - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 03 Oct 2026 05:25:37 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "Verstappen leads FP1 at Bahrain GP in Malaysia - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 28 Sep 2026 16:30:02 GMT"
+      "time": "Fri, 02 Oct 2026 05:50:00 GMT"
     },
     {
-      "author": "The Sun",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Book the ultimate Hungarian Grand Prix trip with official F1 tickets and Budapest hotel from only \u00a3729pp - The Sun",
+      "text": "F1 Bahrain GP: Mercedes Upgrades Its Aesthetics and Performance in Malaysia - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 01:25:45 GMT"
+      "time": "Sat, 03 Oct 2026 04:15:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "RACER - Racing News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Why is it still the Bahrain Grand Prix, in Malaysia? - RACER - Racing News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 02 Oct 2026 15:29:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "FIA confirms double Lewis Hamilton, Ferrari punishment after Bahrain GP investigation - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 02 Oct 2026 12:32:38 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Bahrain GP in Malaysia: Mystery object brings out red flag and stops final practice! - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 03 Oct 2026 05:25:37 GMT"
     }
   ]
 }
