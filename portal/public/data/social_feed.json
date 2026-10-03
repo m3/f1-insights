@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 62,
+  "sentimentScore": 67,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#BahrainGrandPrixinMalaysia",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 72,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 68,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 64,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 60,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 56,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 52,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "thesun.co.uk",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen seizes first pole of the season for Bahrain GP - Formula 1",
+      "text": "Book the ultimate Hungarian Grand Prix trip with official F1 tickets and Budapest hotel from only \u00a3729pp - thesun.co.uk",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 09:15:00 GMT"
+      "time": "Sat, 03 Oct 2026 10:31:15 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "espn.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Bahrain transplanted its F1 paddock onto Malaysia - Autosport",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - espn.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 11:01:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FIA launches Lance Stroll investigation at Bahrain Grand Prix - PlanetF1",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 10:00:18 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Bahrain GP in Malaysia starting grid after penalties - The Race",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 09:37:38 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Guardian",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula One 2026: Max Verstappen takes pole for Bahrain Grand Prix in Malaysia \u2013 as it happened - The Guardian",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 07:00:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "thesun.co.uk",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen seizes first pole of the season for Bahrain GP - Formula 1",
+      "text": "Book the ultimate Hungarian Grand Prix trip with official F1 tickets and Budapest hotel from only \u00a3729pp - thesun.co.uk",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 09:15:00 GMT"
+      "time": "Sat, 03 Oct 2026 10:31:15 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "espn.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Bahrain transplanted its F1 paddock onto Malaysia - Autosport",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - espn.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 11:01:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FIA launches Lance Stroll investigation at Bahrain Grand Prix - PlanetF1",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 10:00:18 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Bahrain GP in Malaysia starting grid after penalties - The Race",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 09:37:38 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Guardian",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Formula One 2026: Max Verstappen takes pole for Bahrain Grand Prix in Malaysia \u2013 as it happened - The Guardian",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 03 Oct 2026 07:00:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ]
 }
