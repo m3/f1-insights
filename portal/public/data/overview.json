@@ -1,21 +1,22 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-10-04T18:15:20.544857Z",
+  "updatedAt": "2026-10-04T20:21:12.584992Z",
   "timeline": {
     "format": "standard",
     "macroState": "POST_SESSION",
     "sessionType": "MainRace",
     "dataStatus": "PROCESSING",
-    "lastUpdatedUtc": "2026-10-04T17:19:03.783624Z",
+    "lastUpdatedUtc": "2026-10-04T20:21:12.000137Z",
     "nextSession": null
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -57,10 +58,10 @@
   },
   "circuitWeather": {
     "circuit": "Sepang International Circuit",
-    "ambientTemp": "25\u00b0C",
-    "trackTemp": "30\u00b0C",
+    "ambientTemp": "24\u00b0C",
+    "trackTemp": "29\u00b0C",
     "rainRisk": "53%",
-    "wind": "3 km/h NE",
+    "wind": "4 km/h NE",
     "humidity": "96%"
   },
   "schedule": [
@@ -874,7 +875,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "302",
+      "points": "320",
       "wins": "8",
       "Driver": {
         "driverId": "antonelli",
@@ -922,7 +923,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "199",
+      "points": "214",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -946,31 +947,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "186",
-      "wins": "2",
-      "Driver": {
-        "driverId": "norris",
-        "permanentNumber": "1",
-        "code": "NOR",
-        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "dateOfBirth": "1999-11-13",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mclaren",
-          "url": "https://en.wikipedia.org/wiki/McLaren",
-          "name": "McLaren",
-          "nationality": "British"
-        }
-      ]
-    },
-    {
-      "position": "5",
-      "positionText": "5",
-      "points": "179",
+      "points": "191",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -992,10 +969,34 @@
       ]
     },
     {
+      "position": "5",
+      "positionText": "5",
+      "points": "188",
+      "wins": "2",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
+        }
+      ]
+    },
+    {
       "position": "6",
       "positionText": "6",
-      "points": "163",
-      "wins": "0",
+      "points": "188",
+      "wins": "1",
       "Driver": {
         "driverId": "max_verstappen",
         "permanentNumber": "3",
@@ -1018,7 +1019,7 @@
     {
       "position": "7",
       "positionText": "7",
-      "points": "120",
+      "points": "128",
       "wins": "0",
       "Driver": {
         "driverId": "piastri",
@@ -1042,7 +1043,7 @@
     {
       "position": "8",
       "positionText": "8",
-      "points": "86",
+      "points": "96",
       "wins": "0",
       "Driver": {
         "driverId": "hadjar",
@@ -1066,7 +1067,7 @@
     {
       "position": "9",
       "positionText": "9",
-      "points": "59",
+      "points": "65",
       "wins": "0",
       "Driver": {
         "driverId": "lawson",
@@ -1120,7 +1121,7 @@
     {
       "position": "11",
       "positionText": "11",
-      "points": "37",
+      "points": "38",
       "wins": "0",
       "Driver": {
         "driverId": "arvid_lindblad",
@@ -1267,6 +1268,30 @@
       "points": "7",
       "wins": "0",
       "Driver": {
+        "driverId": "alonso",
+        "permanentNumber": "14",
+        "code": "ALO",
+        "url": "http://en.wikipedia.org/wiki/Fernando_Alonso",
+        "givenName": "Fernando",
+        "familyName": "Alonso",
+        "dateOfBirth": "1981-07-29",
+        "nationality": "Spanish"
+      },
+      "Constructors": [
+        {
+          "constructorId": "aston_martin",
+          "url": "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
+          "name": "Aston Martin",
+          "nationality": "British"
+        }
+      ]
+    },
+    {
+      "position": "18",
+      "positionText": "18",
+      "points": "7",
+      "wins": "0",
+      "Driver": {
         "driverId": "sainz",
         "permanentNumber": "55",
         "code": "SAI",
@@ -1286,8 +1311,8 @@
       ]
     },
     {
-      "position": "18",
-      "positionText": "18",
+      "position": "19",
+      "positionText": "19",
       "points": "5",
       "wins": "0",
       "Driver": {
@@ -1305,30 +1330,6 @@
           "constructorId": "williams",
           "url": "https://en.wikipedia.org/wiki/Williams_Racing",
           "name": "Williams",
-          "nationality": "British"
-        }
-      ]
-    },
-    {
-      "position": "19",
-      "positionText": "19",
-      "points": "3",
-      "wins": "0",
-      "Driver": {
-        "driverId": "alonso",
-        "permanentNumber": "14",
-        "code": "ALO",
-        "url": "http://en.wikipedia.org/wiki/Fernando_Alonso",
-        "givenName": "Fernando",
-        "familyName": "Alonso",
-        "dateOfBirth": "1981-07-29",
-        "nationality": "Spanish"
-      },
-      "Constructors": [
-        {
-          "constructorId": "aston_martin",
-          "url": "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
-          "name": "Aston Martin",
           "nationality": "British"
         }
       ]
@@ -1434,7 +1435,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "538",
+      "points": "556",
       "wins": "11",
       "Constructor": {
         "constructorId": "mercedes",
@@ -1446,7 +1447,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "378",
+      "points": "405",
       "wins": "2",
       "Constructor": {
         "constructorId": "ferrari",
@@ -1458,7 +1459,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "306",
+      "points": "316",
       "wins": "2",
       "Constructor": {
         "constructorId": "mclaren",
@@ -1470,8 +1471,8 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "263",
-      "wins": "0",
+      "points": "298",
+      "wins": "1",
       "Constructor": {
         "constructorId": "red_bull",
         "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
@@ -1482,7 +1483,7 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "83",
+      "points": "90",
       "wins": "0",
       "Constructor": {
         "constructorId": "rb",
@@ -1542,7 +1543,7 @@
     {
       "position": "10",
       "positionText": "10",
-      "points": "3",
+      "points": "7",
       "wins": "0",
       "Constructor": {
         "constructorId": "aston_martin",
@@ -1570,13 +1571,13 @@
     "raceName": "Bahrain Grand Prix in Malaysia",
     "circuitName": "Sepang International Circuit",
     "date": "2026-10-04",
-    "generatedAt": "2026-10-04T17:19:03.782585",
+    "generatedAt": "2026-10-04T20:21:11.999446",
     "facts": [
       {
         "topic": "Championship Stakes",
         "badge": "Title Race",
-        "detail": "Antonelli leads Russell by 66 points in the World Drivers' Championship heading into Bahrain Grand Prix in Malaysia.",
-        "stat": "66 Pts Gap",
+        "detail": "Antonelli leads Russell by 84 points in the World Drivers' Championship heading into Bahrain Grand Prix in Malaysia.",
+        "stat": "84 Pts Gap",
         "source": "JolpicaErgast"
       }
     ],
@@ -1589,7 +1590,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "302",
+        "points": "320",
         "wins": "8",
         "Driver": {
           "driverId": "antonelli",
@@ -1637,7 +1638,7 @@
       {
         "position": "3",
         "positionText": "3",
-        "points": "199",
+        "points": "214",
         "wins": "1",
         "Driver": {
           "driverId": "hamilton",
@@ -1661,31 +1662,7 @@
       {
         "position": "4",
         "positionText": "4",
-        "points": "186",
-        "wins": "2",
-        "Driver": {
-          "driverId": "norris",
-          "permanentNumber": "1",
-          "code": "NOR",
-          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-          "givenName": "Lando",
-          "familyName": "Norris",
-          "dateOfBirth": "1999-11-13",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "mclaren",
-            "url": "https://en.wikipedia.org/wiki/McLaren",
-            "name": "McLaren",
-            "nationality": "British"
-          }
-        ]
-      },
-      {
-        "position": "5",
-        "positionText": "5",
-        "points": "179",
+        "points": "191",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -1705,9 +1682,33 @@
             "nationality": "Italian"
           }
         ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "188",
+        "wins": "2",
+        "Driver": {
+          "driverId": "norris",
+          "permanentNumber": "1",
+          "code": "NOR",
+          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+          "givenName": "Lando",
+          "familyName": "Norris",
+          "dateOfBirth": "1999-11-13",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "mclaren",
+            "url": "https://en.wikipedia.org/wiki/McLaren",
+            "name": "McLaren",
+            "nationality": "British"
+          }
+        ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: BAHRAIN GRAND PRIX IN MALAYSIA\n**Location**: Sepang International Circuit | **Date**: 2026-10-04\n\n> *Deterministic Data Brief for the Bahrain Grand Prix in Malaysia*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*66 Pts Gap*)\n  Antonelli leads Russell by 66 points in the World Drivers' Championship heading into Bahrain Grand Prix in Malaysia.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 302 Pts (8 Wins)\n2. **George Russell** (Mercedes) - 236 Pts (3 Wins)\n3. **Lewis Hamilton** (Ferrari) - 199 Pts (1 Wins)\n4. **Lando Norris** (McLaren) - 186 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 179 Pts (1 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: BAHRAIN GRAND PRIX IN MALAYSIA\n**Location**: Sepang International Circuit | **Date**: 2026-10-04\n\n> *Deterministic Data Brief for the Bahrain Grand Prix in Malaysia*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*84 Pts Gap*)\n  Antonelli leads Russell by 84 points in the World Drivers' Championship heading into Bahrain Grand Prix in Malaysia.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 320 Pts (8 Wins)\n2. **George Russell** (Mercedes) - 236 Pts (3 Wins)\n3. **Lewis Hamilton** (Ferrari) - 214 Pts (1 Wins)\n4. **Charles Leclerc** (Ferrari) - 191 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 188 Pts (2 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
@@ -1715,7 +1716,7 @@
     "raceName": "Bahrain Grand Prix in Malaysia",
     "circuitName": "Sepang International Circuit",
     "date": "2026-10-04",
-    "generatedAt": "2026-10-04T17:19:03.782971",
+    "generatedAt": "2026-10-04T20:21:11.999704",
     "facts": [],
     "teammateBattles": [
       {
@@ -1744,7 +1745,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "302",
+        "points": "320",
         "wins": "8",
         "Driver": {
           "driverId": "antonelli",
@@ -1792,7 +1793,7 @@
       {
         "position": "3",
         "positionText": "3",
-        "points": "199",
+        "points": "214",
         "wins": "1",
         "Driver": {
           "driverId": "hamilton",
@@ -1816,31 +1817,7 @@
       {
         "position": "4",
         "positionText": "4",
-        "points": "186",
-        "wins": "2",
-        "Driver": {
-          "driverId": "norris",
-          "permanentNumber": "1",
-          "code": "NOR",
-          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-          "givenName": "Lando",
-          "familyName": "Norris",
-          "dateOfBirth": "1999-11-13",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "mclaren",
-            "url": "https://en.wikipedia.org/wiki/McLaren",
-            "name": "McLaren",
-            "nationality": "British"
-          }
-        ]
-      },
-      {
-        "position": "5",
-        "positionText": "5",
-        "points": "179",
+        "points": "191",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -1858,6 +1835,30 @@
             "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
             "name": "Ferrari",
             "nationality": "Italian"
+          }
+        ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "188",
+        "wins": "2",
+        "Driver": {
+          "driverId": "norris",
+          "permanentNumber": "1",
+          "code": "NOR",
+          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+          "givenName": "Lando",
+          "familyName": "Norris",
+          "dateOfBirth": "1999-11-13",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "mclaren",
+            "url": "https://en.wikipedia.org/wiki/McLaren",
+            "name": "McLaren",
+            "nationality": "British"
           }
         ]
       }
@@ -2377,232 +2378,5 @@
       },
       "Q1": "1:38.933"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 67,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 77,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 73,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 69,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 65,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 61,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 57,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 02 Oct 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Yahoo Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hamilton 'massively' fired up to spoil Verstappen's Bahrain GP victory bid - Yahoo Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 04 Oct 2026 05:41:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "McLaren",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 02 Oct 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Yahoo Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hamilton 'massively' fired up to spoil Verstappen's Bahrain GP victory bid - Yahoo Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 04 Oct 2026 05:41:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "McLaren",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+  ]
 }

@@ -4,7 +4,7 @@
   "raceName": "Bahrain Grand Prix in Malaysia",
   "circuitName": "Sepang International Circuit",
   "date": "2026-10-04",
-  "generatedAt": "2026-10-04T17:19:03.782971",
+  "generatedAt": "2026-10-04T20:21:11.999704",
   "facts": [],
   "teammateBattles": [
     {
@@ -33,7 +33,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "302",
+      "points": "320",
       "wins": "8",
       "Driver": {
         "driverId": "antonelli",
@@ -81,7 +81,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "199",
+      "points": "214",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -105,31 +105,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "186",
-      "wins": "2",
-      "Driver": {
-        "driverId": "norris",
-        "permanentNumber": "1",
-        "code": "NOR",
-        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "dateOfBirth": "1999-11-13",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mclaren",
-          "url": "https://en.wikipedia.org/wiki/McLaren",
-          "name": "McLaren",
-          "nationality": "British"
-        }
-      ]
-    },
-    {
-      "position": "5",
-      "positionText": "5",
-      "points": "179",
+      "points": "191",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -147,6 +123,30 @@
           "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
           "name": "Ferrari",
           "nationality": "Italian"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "188",
+      "wins": "2",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
         }
       ]
     }
