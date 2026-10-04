@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 67,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 51,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#BahrainGrandPrixinMalaysia",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 77,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 73,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 69,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 65,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 61,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 57,
+      "score": 41,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Sky Sports",
+      "author": "The Guardian",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Max Verstappen wins his first race of season at Bahrain GP after rain delay causes chaos \u2013 as it happened - The Guardian",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hamilton 'massively' fired up to spoil Verstappen's Bahrain GP victory bid - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 04 Oct 2026 05:41:00 GMT"
+      "time": "Sun, 04 Oct 2026 06:30:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "'Totally unacceptable:' F1 drivers slam delayed start to Bahrain Grand Prix in Malaysia - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 04 Oct 2026 13:42:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Was it 'unfair' not to penalise stricken F1 cars in Malaysia? - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 04 Oct 2026 19:57:06 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Liam Lawson reacts to unexpected Max Verstappen fight at Bahrain GP - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 04 Oct 2026 22:07:30 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Bahrain GP in Malaysia: Lewis Hamilton bemused after F1 'Lego race' - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 04 Oct 2026 16:58:56 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Sky Sports",
+      "author": "The Guardian",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Max Verstappen wins his first race of season at Bahrain GP after rain delay causes chaos \u2013 as it happened - The Guardian",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hamilton 'massively' fired up to spoil Verstappen's Bahrain GP victory bid - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 04 Oct 2026 05:41:00 GMT"
+      "time": "Sun, 04 Oct 2026 06:30:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "'Totally unacceptable:' F1 drivers slam delayed start to Bahrain Grand Prix in Malaysia - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 04 Oct 2026 13:42:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Was it 'unfair' not to penalise stricken F1 cars in Malaysia? - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 04 Oct 2026 19:57:06 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Liam Lawson reacts to unexpected Max Verstappen fight at Bahrain GP - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 04 Oct 2026 22:07:30 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Bahrain GP in Malaysia: Lewis Hamilton bemused after F1 'Lego race' - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 04 Oct 2026 16:58:56 GMT"
     }
   ]
 }
