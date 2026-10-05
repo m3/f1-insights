@@ -1,9 +1,9 @@
 {
   "sectorMatrix": [],
   "circuitSpecs": {
-    "circuitName": "Sepang International Circuit",
-    "circuitId": "sepang",
-    "lat": "2.76083",
-    "lng": "101.738"
+    "circuitName": "Marina Bay Street Circuit",
+    "circuitId": "marina_bay",
+    "lat": "1.2914",
+    "lng": "103.864"
   }
 }

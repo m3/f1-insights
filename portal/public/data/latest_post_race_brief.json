@@ -1,10 +1,10 @@
 {
   "type": "POST_RACE",
-  "title": "Post-Race Debrief: Bahrain Grand Prix in Malaysia",
-  "raceName": "Bahrain Grand Prix in Malaysia",
-  "circuitName": "Sepang International Circuit",
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T23:29:11.062426",
+  "title": "Post-Race Debrief: Singapore Grand Prix",
+  "raceName": "Singapore Grand Prix",
+  "circuitName": "Marina Bay Street Circuit",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-05T02:19:59.184187",
   "facts": [],
   "teammateBattles": [
     {
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: BAHRAIN GRAND PRIX IN MALAYSIA\n**Location**: Sepang International Circuit | **Date**: 2026-10-04\n\n> *Deterministic Data Brief for the Bahrain Grand Prix in Malaysia*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
+  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: SINGAPORE GRAND PRIX\n**Location**: Marina Bay Street Circuit | **Date**: 2026-10-11\n\n> *Deterministic Data Brief for the Singapore Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
 }
