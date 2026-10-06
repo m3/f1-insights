@@ -122,24 +122,14 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "BBC",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Singapore Grand Prix 2026 race time, sprint, UK times, plus weather forecast - BBC",
+      "text": "Singapore Grand Prix 2026 race time, sprint, UK times, plus weather forecast - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 04 Oct 2026 14:44:28 GMT"
-    },
-    {
-      "author": "Outside Magazine",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Formula 1 Superstar Valtteri Bottas Is Cycling From Malaysia to Singapore for His Next Grand Prix - Outside Magazine",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 05 Oct 2026 16:12:51 GMT"
     },
     {
       "author": "Formula 1",
@@ -150,6 +140,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Mon, 05 Oct 2026 13:02:00 GMT"
+    },
+    {
+      "author": "Outside Magazine",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula 1 Superstar Valtteri Bottas Is Cycling From Malaysia to Singapore for His Next Grand Prix - Outside Magazine",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 05 Oct 2026 20:18:37 GMT"
     },
     {
       "author": "Prestige Online - Singapore",
@@ -174,24 +174,14 @@
   ],
   "xTracksideFeed": [
     {
-      "author": "BBC",
+      "author": "bbc.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Singapore Grand Prix 2026 race time, sprint, UK times, plus weather forecast - BBC",
+      "text": "Singapore Grand Prix 2026 race time, sprint, UK times, plus weather forecast - bbc.com",
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Sun, 04 Oct 2026 14:44:28 GMT"
-    },
-    {
-      "author": "Outside Magazine",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Formula 1 Superstar Valtteri Bottas Is Cycling From Malaysia to Singapore for His Next Grand Prix - Outside Magazine",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Mon, 05 Oct 2026 16:12:51 GMT"
     },
     {
       "author": "Formula 1",
@@ -202,6 +192,16 @@
       "likes": "N/A",
       "retweets": "N/A",
       "time": "Mon, 05 Oct 2026 13:02:00 GMT"
+    },
+    {
+      "author": "Outside Magazine",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula 1 Superstar Valtteri Bottas Is Cycling From Malaysia to Singapore for His Next Grand Prix - Outside Magazine",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 05 Oct 2026 20:18:37 GMT"
     },
     {
       "author": "Prestige Online - Singapore",

@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-10-05T18:47:13.407112Z",
+  "updatedAt": "2026-10-06T00:37:07.420738Z",
   "timeline": {
     "format": "sprint",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-10-05T18:47:12.342615Z",
+    "lastUpdatedUtc": "2026-10-06T00:37:06.739934Z",
     "nextSession": {
       "name": "FP1",
       "timeUtc": "2026-10-09T08:30:00Z"
@@ -61,10 +61,10 @@
   },
   "circuitWeather": {
     "circuit": "Marina Bay Street Circuit",
-    "ambientTemp": "28\u00b0C",
-    "trackTemp": "33\u00b0C",
-    "rainRisk": "6%",
-    "wind": "10 km/h NE",
+    "ambientTemp": "29\u00b0C",
+    "trackTemp": "34\u00b0C",
+    "rainRisk": "0%",
+    "wind": "12 km/h NE",
     "humidity": "79%"
   },
   "schedule": [
@@ -1574,7 +1574,7 @@
     "raceName": "Singapore Grand Prix",
     "circuitName": "Marina Bay Street Circuit",
     "date": "2026-10-11",
-    "generatedAt": "2026-10-05T18:47:12.341300",
+    "generatedAt": "2026-10-06T00:37:06.738127",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1719,7 +1719,7 @@
     "raceName": "Singapore Grand Prix",
     "circuitName": "Marina Bay Street Circuit",
     "date": "2026-10-11",
-    "generatedAt": "2026-10-05T18:47:12.341747",
+    "generatedAt": "2026-10-06T00:37:06.739042",
     "facts": [],
     "teammateBattles": [
       {
