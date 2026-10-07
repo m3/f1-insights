@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 70,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 48,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SingaporeGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 80,
-      "sentiment": "Positive",
+      "score": 58,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 76,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 72,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 68,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 64,
+      "score": 42,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 60,
+      "score": 38,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Ferrari F1 reveals visual overhaul ahead of the Singapore GP - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 06 Oct 2026 14:43:27 GMT"
+    },
+    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "George Russell: Mercedes driver set to start Singapore GP from back of grid due to penalty caused by Bahrain GP engine failure - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Tue, 06 Oct 2026 14:46:46 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Verstappen revival to be put to the test in steamy Singapore - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 07 Oct 2026 03:54:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Guardian",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "F1 drivers face \u2018unhealthy\u2019 Singapore air as \u2018super\u2019 El Ni\u00f1o fuels wildfire haze - The Guardian",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 06 Oct 2026 21:15:00 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Valtteri Bottas: Cadillac driver to cycle to Singapore from Kuala Lumpur - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Forbes",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 05 Oct 2026 19:00:23 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Ferrari F1 reveals visual overhaul ahead of the Singapore GP - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 06 Oct 2026 14:43:27 GMT"
+    },
+    {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "George Russell: Mercedes driver set to start Singapore GP from back of grid due to penalty caused by Bahrain GP engine failure - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Tue, 06 Oct 2026 14:46:46 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Verstappen revival to be put to the test in steamy Singapore - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 07 Oct 2026 03:54:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Guardian",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "F1 drivers face \u2018unhealthy\u2019 Singapore air as \u2018super\u2019 El Ni\u00f1o fuels wildfire haze - The Guardian",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 06 Oct 2026 21:15:00 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Valtteri Bottas: Cadillac driver to cycle to Singapore from Kuala Lumpur - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Forbes",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 05 Oct 2026 19:00:23 GMT"
     }
   ]
 }
