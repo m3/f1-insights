@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 62,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 51,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SingaporeGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 72,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 68,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 64,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 60,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 56,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 52,
+      "score": 41,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Lewis Hamilton tops FP2 as Franco Colapinto brings out red flags - Motorsport.com",
+      "text": "Everything we learned from day one at F1's Singapore GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 05 Oct 2026 14:54:10 GMT"
+      "time": "Thu, 08 Oct 2026 14:55:05 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Singapore Grand Prix: Heat hazard declared for fourth time this season - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 08 Oct 2026 06:50:11 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
+      "text": "F1 Singapore GP: Friday schedule, weather forecast and how to watch - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 05 Oct 2026 14:54:10 GMT"
+      "time": "Thu, 08 Oct 2026 19:21:54 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "RacingNews365",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Ferrari issue hilarious 'statement' as George Russell confirms bad news \u2013 RacingNews365 Review - RacingNews365",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 20:00:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Naomi Schiff questions Mercedes' George Russell F1 engine penalty decision - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 20:57:20 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Lewis Hamilton tops FP2 as Franco Colapinto brings out red flags - Motorsport.com",
+      "text": "Everything we learned from day one at F1's Singapore GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 05 Oct 2026 14:54:10 GMT"
+      "time": "Thu, 08 Oct 2026 14:55:05 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Singapore Grand Prix: Heat hazard declared for fourth time this season - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 08 Oct 2026 06:50:11 GMT"
     },
     {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
+      "text": "F1 Singapore GP: Friday schedule, weather forecast and how to watch - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 05 Oct 2026 14:54:10 GMT"
+      "time": "Thu, 08 Oct 2026 19:21:54 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "RacingNews365",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Ferrari issue hilarious 'statement' as George Russell confirms bad news \u2013 RacingNews365 Review - RacingNews365",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 20:00:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Naomi Schiff questions Mercedes' George Russell F1 engine penalty decision - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "The New York Times",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 20:57:20 GMT"
     }
   ]
 }
