@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 67,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 57,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SingaporeGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 77,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 73,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 69,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 65,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 61,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 57,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
+      "text": "F1 heat hazard declared for fourth time this season - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 05 Oct 2026 14:54:10 GMT"
+      "time": "Thu, 08 Oct 2026 06:50:11 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Mercedes confirm George Russell is set for grid penalty at Singapore Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Wed, 07 Oct 2026 08:49:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "Everything we learned from day one at F1's Singapore GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 04 Oct 2026 06:27:25 GMT"
+      "time": "Thu, 08 Oct 2026 14:55:05 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "George Russell and Kimi Antonelli to run different Mercedes packages at Singapore Grand Prix - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 14:14:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Why \"crazy\" power unit success is so meaningful for Red Bull - and for F1 - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 15:30:46 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian GP: Lando Norris edges Lewis Hamilton in final Hungaroring practice - Motorsport.com",
+      "text": "F1 heat hazard declared for fourth time this season - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 05 Oct 2026 14:54:10 GMT"
+      "time": "Thu, 08 Oct 2026 06:50:11 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Mercedes confirm George Russell is set for grid penalty at Singapore Grand Prix - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Wed, 07 Oct 2026 08:49:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "Everything we learned from day one at F1's Singapore GP - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 04 Oct 2026 06:27:25 GMT"
+      "time": "Thu, 08 Oct 2026 14:55:05 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "George Russell and Kimi Antonelli to run different Mercedes packages at Singapore Grand Prix - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 14:14:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Autosport",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Why \"crazy\" power unit success is so meaningful for Red Bull - and for F1 - Autosport",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 15:30:46 GMT"
     }
   ]
 }
