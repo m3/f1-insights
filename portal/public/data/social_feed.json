@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 72,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#SingaporeGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
-      "sentiment": "Mixed",
+      "score": 82,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 78,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Singapore Grand Prix: Heat hazard declared for fourth time this season - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 06:50:11 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Everything we learned from day one at F1's Singapore GP - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 14:55:05 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Will Buxton raises alarm over Mercedes F1 upgrades ahead of Singapore GP - Motorsport.com",
+      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 23:25:08 GMT"
+      "time": "Sun, 04 Oct 2026 06:27:25 GMT"
     },
     {
-      "author": "Reuters",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Singapore Grand Prix entertainment may be curbed if haze worsens, FIA says - Reuters",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 06:02:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "All the stories that got the Singapore paddock talking - Formula 1",
+      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 16:59:08 GMT"
+      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Singapore Grand Prix: Heat hazard declared for fourth time this season - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 06:50:11 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Everything we learned from day one at F1's Singapore GP - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 14:55:05 GMT"
-    },
-    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Will Buxton raises alarm over Mercedes F1 upgrades ahead of Singapore GP - Motorsport.com",
+      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 23:25:08 GMT"
+      "time": "Sun, 04 Oct 2026 06:27:25 GMT"
     },
     {
-      "author": "Reuters",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Singapore Grand Prix entertainment may be curbed if haze worsens, FIA says - Reuters",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 06:02:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "All the stories that got the Singapore paddock talking - Formula 1",
+      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 08 Oct 2026 16:59:08 GMT"
+      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
