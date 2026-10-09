@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 72,
+  "sentimentScore": 62,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SingaporeGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 82,
-      "sentiment": "Positive",
+      "score": 72,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 78,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 74,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 70,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 66,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 62,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What happened in sole Singapore GP F1 practice session - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 09 Oct 2026 09:53:04 GMT"
+    },
+    {
+      "author": "Reuters",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Singapore Grand Prix entertainment may be curbed if haze worsens, FIA says - Reuters",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 08 Oct 2026 06:02:00 GMT"
+    },
+    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "Oscar Piastri: Red Bull has become \u201cthe class of the field\u201d in F1 2026 - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 04 Oct 2026 06:27:25 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 20:05:02 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Lewis Hamilton: Ferrari driver says team held 'huge discussions' over strategy following Bahrain GP tyre-choice blunder - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 14:08:17 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Valtteri Bottas cycles impressive 400km from Malaysia to Singapore Grand Prix: 'Snakes were pretty chill' - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 09:03:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What happened in sole Singapore GP F1 practice session - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 09 Oct 2026 09:53:04 GMT"
+    },
+    {
+      "author": "Reuters",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Singapore Grand Prix entertainment may be curbed if haze worsens, FIA says - Reuters",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 08 Oct 2026 06:02:00 GMT"
+    },
+    {
       "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix: Hungaroring track repaired overnight after driver complaints - Motorsport.com",
+      "text": "Oscar Piastri: Red Bull has become \u201cthe class of the field\u201d in F1 2026 - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 04 Oct 2026 06:27:25 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 20:05:02 GMT"
     },
     {
       "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Lewis Hamilton: Ferrari driver says team held 'huge discussions' over strategy following Bahrain GP tyre-choice blunder - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 14:08:17 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Valtteri Bottas cycles impressive 400km from Malaysia to Singapore Grand Prix: 'Snakes were pretty chill' - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 08 Oct 2026 09:03:00 GMT"
     }
   ]
 }
