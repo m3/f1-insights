@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 53,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 75,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#SingaporeGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 63,
-      "sentiment": "Mixed",
+      "score": 85,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 59,
-      "sentiment": "Mixed",
+      "score": 81,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 55,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 51,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 47,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,11 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 43,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen beats Leclerc to pole position for the Singapore GP - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 14:46:00 GMT"
-    },
-    {
-      "author": "Us Weekly",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kim Kardashian Goes Glam in Pink for F1 Singapore Grand Prix Qualifiers Amid Lewis Hamilton Romance - Us Weekly",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 14:59:48 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kim Kardashian's private jet makes 6,700-mile journey for Lewis Hamilton's Singapore GP - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 15:37:46 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Singapore Grand Prix: George Russell crashes out of sprint after taking early lead - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 09:42:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from F1's wet Singapore GP sprint race - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 12:12:43 GMT"
-    }
-  ],
-  "xTracksideFeed": [
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Verstappen beats Leclerc to pole position for the Singapore GP - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 14:46:00 GMT"
-    },
-    {
-      "author": "Us Weekly",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kim Kardashian Goes Glam in Pink for F1 Singapore Grand Prix Qualifiers Amid Lewis Hamilton Romance - Us Weekly",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 14:59:48 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kim Kardashian's private jet makes 6,700-mile journey for Lewis Hamilton's Singapore GP - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 15:37:46 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Singapore Grand Prix: George Russell crashes out of sprint after taking early lead - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 09:42:00 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from F1's wet Singapore GP sprint race - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 12:12:43 GMT"
-    }
-  ]
+  "breakingNewsTweets": [],
+  "xTracksideFeed": []
 }
