@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-10-10T14:46:11.881124Z",
+  "updatedAt": "2026-10-10T19:04:40.825296Z",
   "timeline": {
     "format": "sprint",
     "macroState": "POST_SESSION",
@@ -2016,6 +2016,16 @@
     ],
     "breakingNewsTweets": [
       {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "The F1 drivers Verstappen joins with 50 poles or more - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 10 Oct 2026 17:05:00 GMT"
+      },
+      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2036,14 +2046,14 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "Sky Sports",
+        "author": "Forbes",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       },
       {
         "author": "McLaren",
@@ -2054,20 +2064,20 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Forbes",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
       {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "The F1 drivers Verstappen joins with 50 poles or more - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 10 Oct 2026 17:05:00 GMT"
+      },
+      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2088,14 +2098,14 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "Sky Sports",
+        "author": "Forbes",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       },
       {
         "author": "McLaren",
@@ -2106,16 +2116,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Forbes",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       }
     ]
   }
