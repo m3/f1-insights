@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 65,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 56,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SingaporeGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 75,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 71,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 67,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 63,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 59,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 55,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "GPblog",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Drivers and Constructors\u2019 standings after Singapore GP - GPblog",
+      "text": "Verstappen seals commanding Singapore victory - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 15:26:57 GMT"
+      "time": "Sun, 11 Oct 2026 14:17:22 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Fox News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Kim Kardashian finally gives Martin Brundle a Formula 1 interview after snubbing him at the Monaco Grand Prix - Fox News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 18:00:07 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Hamilton apologises to Ferrari as Antonelli moves to brink of title - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 18:32:19 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Winners and losers from F1's 2026 Singapore Grand Prix - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 16:48:12 GMT"
     },
     {
-      "author": "Forbes",
+      "author": "RacingNews365",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "text": "Adjusted Singapore Grand Prix grid after multiple pit lane starts confirmed - RacingNews365",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 09:11:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "GPblog",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Drivers and Constructors\u2019 standings after Singapore GP - GPblog",
+      "text": "Verstappen seals commanding Singapore victory - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 15:26:57 GMT"
+      "time": "Sun, 11 Oct 2026 14:17:22 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Fox News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Kim Kardashian finally gives Martin Brundle a Formula 1 interview after snubbing him at the Monaco Grand Prix - Fox News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 18:00:07 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Hamilton apologises to Ferrari as Antonelli moves to brink of title - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 18:32:19 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Winners and losers from F1's 2026 Singapore Grand Prix - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 16:48:12 GMT"
     },
     {
-      "author": "Forbes",
+      "author": "RacingNews365",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "text": "Adjusted Singapore Grand Prix grid after multiple pit lane starts confirmed - RacingNews365",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 09:11:00 GMT"
     }
   ]
 }

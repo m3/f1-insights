@@ -1,21 +1,22 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-10-11T18:42:17.274501Z",
+  "updatedAt": "2026-10-11T19:39:00.656392Z",
   "timeline": {
     "format": "sprint",
     "macroState": "POST_SESSION",
     "sessionType": "MainRace",
     "dataStatus": "PROCESSING",
-    "lastUpdatedUtc": "2026-10-11T15:00:55.706114Z",
+    "lastUpdatedUtc": "2026-10-11T19:38:59.620757Z",
     "nextSession": null
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -874,7 +875,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "325",
+      "points": "340",
       "wins": "8",
       "Driver": {
         "driverId": "antonelli",
@@ -898,7 +899,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "236",
+      "points": "238",
       "wins": "3",
       "Driver": {
         "driverId": "russell",
@@ -922,7 +923,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "221",
+      "points": "229",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -946,7 +947,31 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "197",
+      "points": "221",
+      "wins": "2",
+      "Driver": {
+        "driverId": "max_verstappen",
+        "permanentNumber": "3",
+        "code": "VER",
+        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+        "givenName": "Max",
+        "familyName": "Verstappen",
+        "dateOfBirth": "1997-09-30",
+        "nationality": "Dutch"
+      },
+      "Constructors": [
+        {
+          "constructorId": "red_bull",
+          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+          "name": "Red Bull",
+          "nationality": "Austrian"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "215",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -968,33 +993,9 @@
       ]
     },
     {
-      "position": "5",
-      "positionText": "5",
-      "points": "196",
-      "wins": "1",
-      "Driver": {
-        "driverId": "max_verstappen",
-        "permanentNumber": "3",
-        "code": "VER",
-        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
-        "givenName": "Max",
-        "familyName": "Verstappen",
-        "dateOfBirth": "1997-09-30",
-        "nationality": "Dutch"
-      },
-      "Constructors": [
-        {
-          "constructorId": "red_bull",
-          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
-          "name": "Red Bull",
-          "nationality": "Austrian"
-        }
-      ]
-    },
-    {
       "position": "6",
       "positionText": "6",
-      "points": "189",
+      "points": "201",
       "wins": "2",
       "Driver": {
         "driverId": "norris",
@@ -1018,7 +1019,7 @@
     {
       "position": "7",
       "positionText": "7",
-      "points": "128",
+      "points": "138",
       "wins": "0",
       "Driver": {
         "driverId": "piastri",
@@ -1042,7 +1043,7 @@
     {
       "position": "8",
       "positionText": "8",
-      "points": "96",
+      "points": "97",
       "wins": "0",
       "Driver": {
         "driverId": "hadjar",
@@ -1066,7 +1067,7 @@
     {
       "position": "9",
       "positionText": "9",
-      "points": "69",
+      "points": "75",
       "wins": "0",
       "Driver": {
         "driverId": "lawson",
@@ -1192,17 +1193,17 @@
     {
       "position": "14",
       "positionText": "14",
-      "points": "10",
+      "points": "13",
       "wins": "0",
       "Driver": {
-        "driverId": "bortoleto",
-        "permanentNumber": "5",
-        "code": "BOR",
-        "url": "https://en.wikipedia.org/wiki/Gabriel_Bortoleto",
-        "givenName": "Gabriel",
-        "familyName": "Bortoleto",
-        "dateOfBirth": "2004-10-14",
-        "nationality": "Brazilian"
+        "driverId": "hulkenberg",
+        "permanentNumber": "27",
+        "code": "HUL",
+        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
+        "givenName": "Nico",
+        "familyName": "H\u00fclkenberg",
+        "dateOfBirth": "1987-08-19",
+        "nationality": "German"
       },
       "Constructors": [
         {
@@ -1216,17 +1217,17 @@
     {
       "position": "15",
       "positionText": "15",
-      "points": "9",
+      "points": "10",
       "wins": "0",
       "Driver": {
-        "driverId": "hulkenberg",
-        "permanentNumber": "27",
-        "code": "HUL",
-        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
-        "givenName": "Nico",
-        "familyName": "H\u00fclkenberg",
-        "dateOfBirth": "1987-08-19",
-        "nationality": "German"
+        "driverId": "bortoleto",
+        "permanentNumber": "5",
+        "code": "BOR",
+        "url": "https://en.wikipedia.org/wiki/Gabriel_Bortoleto",
+        "givenName": "Gabriel",
+        "familyName": "Bortoleto",
+        "dateOfBirth": "2004-10-14",
+        "nationality": "Brazilian"
       },
       "Constructors": [
         {
@@ -1434,7 +1435,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "561",
+      "points": "578",
       "wins": "11",
       "Constructor": {
         "constructorId": "mercedes",
@@ -1446,7 +1447,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "418",
+      "points": "444",
       "wins": "2",
       "Constructor": {
         "constructorId": "ferrari",
@@ -1458,7 +1459,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "317",
+      "points": "339",
       "wins": "2",
       "Constructor": {
         "constructorId": "mclaren",
@@ -1470,8 +1471,8 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "306",
-      "wins": "1",
+      "points": "332",
+      "wins": "2",
       "Constructor": {
         "constructorId": "red_bull",
         "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
@@ -1482,7 +1483,7 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "94",
+      "points": "100",
       "wins": "0",
       "Constructor": {
         "constructorId": "rb",
@@ -1518,7 +1519,7 @@
     {
       "position": "8",
       "positionText": "8",
-      "points": "19",
+      "points": "23",
       "wins": "0",
       "Constructor": {
         "constructorId": "audi",
@@ -1570,13 +1571,13 @@
     "raceName": "Singapore Grand Prix",
     "circuitName": "Marina Bay Street Circuit",
     "date": "2026-10-11",
-    "generatedAt": "2026-10-11T15:00:55.704821",
+    "generatedAt": "2026-10-11T19:38:59.619099",
     "facts": [
       {
         "topic": "Championship Stakes",
         "badge": "Title Race",
-        "detail": "Antonelli leads Russell by 89 points in the World Drivers' Championship heading into Singapore Grand Prix.",
-        "stat": "89 Pts Gap",
+        "detail": "Antonelli leads Russell by 102 points in the World Drivers' Championship heading into Singapore Grand Prix.",
+        "stat": "102 Pts Gap",
         "source": "JolpicaErgast"
       }
     ],
@@ -1589,7 +1590,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "325",
+        "points": "340",
         "wins": "8",
         "Driver": {
           "driverId": "antonelli",
@@ -1613,7 +1614,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "236",
+        "points": "238",
         "wins": "3",
         "Driver": {
           "driverId": "russell",
@@ -1637,7 +1638,7 @@
       {
         "position": "3",
         "positionText": "3",
-        "points": "221",
+        "points": "229",
         "wins": "1",
         "Driver": {
           "driverId": "hamilton",
@@ -1661,7 +1662,31 @@
       {
         "position": "4",
         "positionText": "4",
-        "points": "197",
+        "points": "221",
+        "wins": "2",
+        "Driver": {
+          "driverId": "max_verstappen",
+          "permanentNumber": "3",
+          "code": "VER",
+          "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+          "givenName": "Max",
+          "familyName": "Verstappen",
+          "dateOfBirth": "1997-09-30",
+          "nationality": "Dutch"
+        },
+        "Constructors": [
+          {
+            "constructorId": "red_bull",
+            "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+            "name": "Red Bull",
+            "nationality": "Austrian"
+          }
+        ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "215",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -1681,33 +1706,9 @@
             "nationality": "Italian"
           }
         ]
-      },
-      {
-        "position": "5",
-        "positionText": "5",
-        "points": "196",
-        "wins": "1",
-        "Driver": {
-          "driverId": "max_verstappen",
-          "permanentNumber": "3",
-          "code": "VER",
-          "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
-          "givenName": "Max",
-          "familyName": "Verstappen",
-          "dateOfBirth": "1997-09-30",
-          "nationality": "Dutch"
-        },
-        "Constructors": [
-          {
-            "constructorId": "red_bull",
-            "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
-            "name": "Red Bull",
-            "nationality": "Austrian"
-          }
-        ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: SINGAPORE GRAND PRIX\n**Location**: Marina Bay Street Circuit | **Date**: 2026-10-11\n\n> *Deterministic Data Brief for the Singapore Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*89 Pts Gap*)\n  Antonelli leads Russell by 89 points in the World Drivers' Championship heading into Singapore Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 325 Pts (8 Wins)\n2. **George Russell** (Mercedes) - 236 Pts (3 Wins)\n3. **Lewis Hamilton** (Ferrari) - 221 Pts (1 Wins)\n4. **Charles Leclerc** (Ferrari) - 197 Pts (1 Wins)\n5. **Max Verstappen** (Red Bull) - 196 Pts (1 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: SINGAPORE GRAND PRIX\n**Location**: Marina Bay Street Circuit | **Date**: 2026-10-11\n\n> *Deterministic Data Brief for the Singapore Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*102 Pts Gap*)\n  Antonelli leads Russell by 102 points in the World Drivers' Championship heading into Singapore Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 340 Pts (8 Wins)\n2. **George Russell** (Mercedes) - 238 Pts (3 Wins)\n3. **Lewis Hamilton** (Ferrari) - 229 Pts (1 Wins)\n4. **Max Verstappen** (Red Bull) - 221 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 215 Pts (1 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
@@ -1715,7 +1716,7 @@
     "raceName": "Singapore Grand Prix",
     "circuitName": "Marina Bay Street Circuit",
     "date": "2026-10-11",
-    "generatedAt": "2026-10-11T15:00:55.705242",
+    "generatedAt": "2026-10-11T19:38:59.619796",
     "facts": [],
     "teammateBattles": [
       {
@@ -1744,7 +1745,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "325",
+        "points": "340",
         "wins": "8",
         "Driver": {
           "driverId": "antonelli",
@@ -1768,7 +1769,7 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "236",
+        "points": "238",
         "wins": "3",
         "Driver": {
           "driverId": "russell",
@@ -1792,7 +1793,7 @@
       {
         "position": "3",
         "positionText": "3",
-        "points": "221",
+        "points": "229",
         "wins": "1",
         "Driver": {
           "driverId": "hamilton",
@@ -1816,7 +1817,31 @@
       {
         "position": "4",
         "positionText": "4",
-        "points": "197",
+        "points": "221",
+        "wins": "2",
+        "Driver": {
+          "driverId": "max_verstappen",
+          "permanentNumber": "3",
+          "code": "VER",
+          "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+          "givenName": "Max",
+          "familyName": "Verstappen",
+          "dateOfBirth": "1997-09-30",
+          "nationality": "Dutch"
+        },
+        "Constructors": [
+          {
+            "constructorId": "red_bull",
+            "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+            "name": "Red Bull",
+            "nationality": "Austrian"
+          }
+        ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "215",
         "wins": "1",
         "Driver": {
           "driverId": "leclerc",
@@ -1834,30 +1859,6 @@
             "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
             "name": "Ferrari",
             "nationality": "Italian"
-          }
-        ]
-      },
-      {
-        "position": "5",
-        "positionText": "5",
-        "points": "196",
-        "wins": "1",
-        "Driver": {
-          "driverId": "max_verstappen",
-          "permanentNumber": "3",
-          "code": "VER",
-          "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
-          "givenName": "Max",
-          "familyName": "Verstappen",
-          "dateOfBirth": "1997-09-30",
-          "nationality": "Dutch"
-        },
-        "Constructors": [
-          {
-            "constructorId": "red_bull",
-            "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
-            "name": "Red Bull",
-            "nationality": "Austrian"
           }
         ]
       }
@@ -3089,232 +3090,5 @@
       },
       "Q1": ""
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 65,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 75,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 71,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 67,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 63,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 59,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 55,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "GPblog",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Drivers and Constructors\u2019 standings after Singapore GP - GPblog",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 11 Oct 2026 15:26:57 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 02 Oct 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Forbes",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "GPblog",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 Drivers and Constructors\u2019 standings after Singapore GP - GPblog",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 11 Oct 2026 15:26:57 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Sky Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Fri, 02 Oct 2026 07:00:00 GMT"
-      },
-      {
-        "author": "The New York Times",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Forbes",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+  ]
 }

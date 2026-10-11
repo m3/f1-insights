@@ -4,7 +4,7 @@
   "raceName": "Singapore Grand Prix",
   "circuitName": "Marina Bay Street Circuit",
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T15:00:55.705242",
+  "generatedAt": "2026-10-11T19:38:59.619796",
   "facts": [],
   "teammateBattles": [
     {
@@ -33,7 +33,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "325",
+      "points": "340",
       "wins": "8",
       "Driver": {
         "driverId": "antonelli",
@@ -57,7 +57,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "236",
+      "points": "238",
       "wins": "3",
       "Driver": {
         "driverId": "russell",
@@ -81,7 +81,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "221",
+      "points": "229",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -105,7 +105,31 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "197",
+      "points": "221",
+      "wins": "2",
+      "Driver": {
+        "driverId": "max_verstappen",
+        "permanentNumber": "3",
+        "code": "VER",
+        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+        "givenName": "Max",
+        "familyName": "Verstappen",
+        "dateOfBirth": "1997-09-30",
+        "nationality": "Dutch"
+      },
+      "Constructors": [
+        {
+          "constructorId": "red_bull",
+          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+          "name": "Red Bull",
+          "nationality": "Austrian"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "215",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -123,30 +147,6 @@
           "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
           "name": "Ferrari",
           "nationality": "Italian"
-        }
-      ]
-    },
-    {
-      "position": "5",
-      "positionText": "5",
-      "points": "196",
-      "wins": "1",
-      "Driver": {
-        "driverId": "max_verstappen",
-        "permanentNumber": "3",
-        "code": "VER",
-        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
-        "givenName": "Max",
-        "familyName": "Verstappen",
-        "dateOfBirth": "1997-09-30",
-        "nationality": "Dutch"
-      },
-      "Constructors": [
-        {
-          "constructorId": "red_bull",
-          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
-          "name": "Red Bull",
-          "nationality": "Austrian"
         }
       ]
     }
