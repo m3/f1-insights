@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 51,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 67,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#SingaporeGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 61,
+      "score": 77,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 57,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 53,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 49,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 45,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 41,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Drivers and Constructors\u2019 standings after Singapore GP - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 11 Oct 2026 13:55:00 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen beats Leclerc to pole position for the Singapore GP - Formula 1",
+      "text": "The F1 drivers Verstappen joins with 50 poles or more - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 14:46:00 GMT"
+      "time": "Sat, 10 Oct 2026 17:05:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Singapore GP: Sunday schedule, weather forecast and how to watch - Motorsport.com",
+      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 19:19:12 GMT"
+      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
     },
     {
-      "author": "HELLO! Magazine",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Kim Kardashian, 45, stuns in sheer pink dress as she supports Lewis Hamilton at Singapore Grand Prix - HELLO! Magazine",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 04:10:35 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "FIA admits fairness was compromised in Singapore F1 sprint qualifying \u201cmess\u201d - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 06:59:00 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from the 2026 Singapore Grand Prix Qualifying - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 05:13:09 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Drivers and Constructors\u2019 standings after Singapore GP - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 11 Oct 2026 13:55:00 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Verstappen beats Leclerc to pole position for the Singapore GP - Formula 1",
+      "text": "The F1 drivers Verstappen joins with 50 poles or more - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 14:46:00 GMT"
+      "time": "Sat, 10 Oct 2026 17:05:00 GMT"
     },
     {
-      "author": "Motorsport.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Singapore GP: Sunday schedule, weather forecast and how to watch - Motorsport.com",
+      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 19:19:12 GMT"
+      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
     },
     {
-      "author": "HELLO! Magazine",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Kim Kardashian, 45, stuns in sheer pink dress as she supports Lewis Hamilton at Singapore Grand Prix - HELLO! Magazine",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 04:10:35 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "FIA admits fairness was compromised in Singapore F1 sprint qualifying \u201cmess\u201d - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 06:59:00 GMT"
-    },
-    {
-      "author": "PlanetF1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Winners and losers from the 2026 Singapore Grand Prix Qualifying - PlanetF1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 05:13:09 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
