@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 67,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 53,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#SingaporeGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 77,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 73,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 69,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 65,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 61,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 57,
+      "score": 43,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "GPblog",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Drivers and Constructors\u2019 standings after Singapore GP - GPblog",
+      "text": "Kim Kardashian finally breaks silence with Martin Brundle after awkward F1 snub - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 13:55:00 GMT"
+      "time": "Sun, 11 Oct 2026 13:09:01 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Lewis Hamilton apologizes to Ferrari after his strategy call cost him a podium place - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 14:31:18 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The F1 drivers Verstappen joins with 50 poles or more - Formula 1",
+      "text": "F1 2026 Singapore GP starting grid with multiple penalties and pitlane starts - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 17:05:00 GMT"
+      "time": "Sun, 11 Oct 2026 09:55:56 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Red Bull's Verstappen wins Singapore Grand Prix - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 14:12:20 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Road & Track",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Max Verstappen Completes Sweep and Wins Singapore Grand Prix - Road & Track",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 14:45:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "GPblog",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Drivers and Constructors\u2019 standings after Singapore GP - GPblog",
+      "text": "Kim Kardashian finally breaks silence with Martin Brundle after awkward F1 snub - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 11 Oct 2026 13:55:00 GMT"
+      "time": "Sun, 11 Oct 2026 13:09:01 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Lewis Hamilton apologizes to Ferrari after his strategy call cost him a podium place - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 14:31:18 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "The F1 drivers Verstappen joins with 50 poles or more - Formula 1",
+      "text": "F1 2026 Singapore GP starting grid with multiple penalties and pitlane starts - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 10 Oct 2026 17:05:00 GMT"
+      "time": "Sun, 11 Oct 2026 09:55:56 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix | Race Highlights | F1 News - Sky Sports",
+      "text": "Red Bull's Verstappen wins Singapore Grand Prix - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 02 Oct 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 14:12:20 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Road & Track",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Max Verstappen Completes Sweep and Wins Singapore Grand Prix - Road & Track",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 11 Oct 2026 14:45:00 GMT"
     }
   ]
 }
