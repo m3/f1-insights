@@ -1,43 +1,7 @@
 {
   "gridPenalties": {
     "startingGridImpacts": [],
-    "inRaceTimePenalties": [
-      {
-        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 18 (STR) WILL BE INVESTIGATED AFTER THE RACE - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS \u2013 PRACTICE START INFRINGEMENT (19:23:23)",
-        "lap": 1,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: TURN 16 INCIDENT INVOLVING CAR 87 (BEA) REVIEWED NO FURTHER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (20:07:00)",
-        "lap": 5,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CAR 55 (SAI) REVIEWED NO FURTHER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (20:03:47)",
-        "lap": 12,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "CAR 6 (HAD) LAP DELETED - TRACK LIMITS AT TURN 2 LAP 33 20:57:43 (PIT)",
-        "lap": 34,
-        "category": "Track Limits"
-      },
-      {
-        "message": "CAR 23 (ALB) LAP DELETED - TRACK LIMITS AT TURN 2 LAP 37 21:04:50 (PIT)",
-        "lap": 39,
-        "category": "Track Limits"
-      },
-      {
-        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CAR 44 (HAM) UNDER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (21:31:36)",
-        "lap": 55,
-        "category": "Steward Decision"
-      },
-      {
-        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CAR 44 (HAM) NO FURTHER ACTION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (21:31:36)",
-        "lap": 57,
-        "category": "Steward Decision"
-      }
-    ]
+    "inRaceTimePenalties": []
   },
   "penaltyWatch": {
     "high_risk_drivers": [],
