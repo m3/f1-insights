@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 75,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 55,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#UnitedStatesGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 85,
-      "sentiment": "Positive",
+      "score": 65,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 81,
-      "sentiment": "Positive",
+      "score": 61,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 77,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 73,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 69,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,11 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 65,
+      "score": 45,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
-  "breakingNewsTweets": [],
-  "xTracksideFeed": []
+  "breakingNewsTweets": [
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes' George Russell is set to take another grid penalty in November's Las Vegas Grand Prix. - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 14 Oct 2026 05:01:49 GMT"
+    },
+    {
+      "author": "Athlon Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Reportedly Announces Bad News for Red Bull Ahead of US GP - Athlon Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 14 Oct 2026 10:01:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "COTA\u2019s latest addition ahead of F1\u2019s return? The world\u2019s largest cowboy hat - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 12 Oct 2026 18:21:51 GMT"
+    },
+    {
+      "author": "Daily Express",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 news: Lewis Hamilton releases statement as Max Verstappen's new plan becomes clear - Daily Express",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 13 Oct 2026 18:16:00 GMT"
+    },
+    {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Max Verstappen\u2019s replacement for Gianpiero Lambiase set for Austin F1 debut - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 13 Oct 2026 13:11:21 GMT"
+    }
+  ],
+  "xTracksideFeed": [
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mercedes' George Russell is set to take another grid penalty in November's Las Vegas Grand Prix. - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 14 Oct 2026 05:01:49 GMT"
+    },
+    {
+      "author": "Athlon Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Reportedly Announces Bad News for Red Bull Ahead of US GP - Athlon Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Wed, 14 Oct 2026 10:01:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "COTA\u2019s latest addition ahead of F1\u2019s return? The world\u2019s largest cowboy hat - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 12 Oct 2026 18:21:51 GMT"
+    },
+    {
+      "author": "Daily Express",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 news: Lewis Hamilton releases statement as Max Verstappen's new plan becomes clear - Daily Express",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 13 Oct 2026 18:16:00 GMT"
+    },
+    {
+      "author": "Crash.net",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Max Verstappen\u2019s replacement for Gianpiero Lambiase set for Austin F1 debut - Crash.net",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Tue, 13 Oct 2026 13:11:21 GMT"
+    }
+  ]
 }
