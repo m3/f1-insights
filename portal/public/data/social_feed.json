@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 65,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 57,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#UnitedStatesGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 75,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 71,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 67,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 63,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 59,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 55,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "ESPN",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "What Ferrari's changing with its biggest F1 upgrade of 2026 - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 18 Oct 2026 09:32:11 GMT"
     },
     {
-      "author": "Forbes",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "text": "The United States Grand Prix is getting a bizarre new attraction - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 16 Oct 2026 12:33:56 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "United States GP dates, UK start time and Sky Sports F1's live schedule - practice, qualifying and race - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 16 Oct 2026 23:32:12 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
+      "text": "Liam Lawson to perform live music set ahead of F1 United States GP in Austin - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 16 Oct 2026 19:52:31 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Liam Lawson at centre of new announcement ahead of United States GP - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 16 Oct 2026 18:51:16 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "ESPN",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "What Ferrari's changing with its biggest F1 upgrade of 2026 - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 18 Oct 2026 09:32:11 GMT"
     },
     {
-      "author": "Forbes",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "text": "The United States Grand Prix is getting a bizarre new attraction - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 16 Oct 2026 12:33:56 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "United States GP dates, UK start time and Sky Sports F1's live schedule - practice, qualifying and race - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 16 Oct 2026 23:32:12 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
+      "text": "Liam Lawson to perform live music set ahead of F1 United States GP in Austin - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 16 Oct 2026 19:52:31 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Liam Lawson at centre of new announcement ahead of United States GP - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Fri, 16 Oct 2026 18:51:16 GMT"
     }
   ]
 }
