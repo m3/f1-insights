@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 78,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 60,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#UnitedStatesGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 88,
-      "sentiment": "Positive",
+      "score": 70,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,8 +79,8 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 84,
-      "sentiment": "Positive",
+      "score": 66,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
     {
@@ -88,8 +88,8 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 80,
-      "sentiment": "Positive",
+      "score": 62,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
     {
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 76,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 72,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 68,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -126,50 +126,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas reveal striking Godzilla-themed livery for Austin - Formula 1",
+      "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 13:39:00 GMT"
+      "time": "Sun, 18 Oct 2026 09:52:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas reveal monstrous special F1 livery for home US Grand Prix - RacingNews365",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 13:27:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas reveals striking Godzilla COTA F1 livery - Crash.net",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 14:13:05 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 in the United States: The best images from 11 locations to stage grands prix - BBC",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 06:17:28 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is F1's 2026 US Grand Prix? Full weekend schedule - The Race",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 14:07:56 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,50 +178,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas reveal striking Godzilla-themed livery for Austin - Formula 1",
+      "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 13:39:00 GMT"
+      "time": "Sun, 18 Oct 2026 09:52:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas reveal monstrous special F1 livery for home US Grand Prix - RacingNews365",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 13:27:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas reveals striking Godzilla COTA F1 livery - Crash.net",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 14:13:05 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 in the United States: The best images from 11 locations to stage grands prix - BBC",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 06:17:28 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Race",
+      "author": "The New York Times",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is F1's 2026 US Grand Prix? Full weekend schedule - The Race",
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 14:07:56 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
