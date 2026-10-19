@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 61,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 57,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#UnitedStatesGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 71,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 67,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 63,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 59,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 55,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 51,
+      "score": 47,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
+      "text": "Max Verstappen raises concerns over COTA conditions with bizarre 'new spine' joke - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 18 Oct 2026 09:52:00 GMT"
+      "time": "Sat, 17 Oct 2026 10:00:00 GMT"
     },
     {
-      "author": "The Sun",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Join the party at the Hungarian Grand Prix with flights and 5-night Budapest hotel stay from just \u00a3799pp - The Sun",
+      "text": "The United States Grand Prix is getting a bizarre new attraction - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 00:14:00 GMT"
+      "time": "Fri, 16 Oct 2026 12:33:56 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "United States GP dates, UK start time and Sky Sports F1's live schedule - practice, qualifying and race - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 18 Oct 2026 23:59:56 GMT"
     },
     {
-      "author": "Forbes",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "text": "Ferrari expected to introduce major upgrade package at United States GP - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 17 Oct 2026 10:27:45 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "What Ferrari's changing with its biggest F1 upgrade of 2026 - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 18 Oct 2026 09:32:11 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "Crash.net",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
+      "text": "Max Verstappen raises concerns over COTA conditions with bizarre 'new spine' joke - Crash.net",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 18 Oct 2026 09:52:00 GMT"
+      "time": "Sat, 17 Oct 2026 10:00:00 GMT"
     },
     {
-      "author": "The Sun",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Join the party at the Hungarian Grand Prix with flights and 5-night Budapest hotel stay from just \u00a3799pp - The Sun",
+      "text": "The United States Grand Prix is getting a bizarre new attraction - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 00:14:00 GMT"
+      "time": "Fri, 16 Oct 2026 12:33:56 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "Sky Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "United States GP dates, UK start time and Sky Sports F1's live schedule - practice, qualifying and race - Sky Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 18 Oct 2026 23:59:56 GMT"
     },
     {
-      "author": "Forbes",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "text": "Ferrari expected to introduce major upgrade package at United States GP - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 17 Oct 2026 10:27:45 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "The Race",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "What Ferrari's changing with its biggest F1 upgrade of 2026 - The Race",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 18 Oct 2026 09:32:11 GMT"
     }
   ]
 }
