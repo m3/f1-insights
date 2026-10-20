@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 68,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 59,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#UnitedStatesGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 78,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 74,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 70,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 66,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 62,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 58,
+      "score": 49,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "The Sun",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "MotoGP to stage demo at F1 United States Grand Prix - Motorsport.com",
+      "text": "Join the party at the Hungarian Grand Prix with flights and 5-night Budapest hotel reduced to just \u00a3669pp - The Sun",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 13:56:07 GMT"
+      "time": "Tue, 20 Oct 2026 21:53:51 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "Grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "MotoGP bikes set for demonstration run at F1 United States GP - Crash.net",
+      "text": "McLaren sends F1 reserve Fornaroli to 2027 Hypercar program - Grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 13:56:41 GMT"
-    },
-    {
-      "author": "motogp.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "MotoGP set for high-speed showcase at the Formula 1 United States Grand Prix 2026 - motogp.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 13:02:39 GMT"
+      "time": "Tue, 20 Oct 2026 12:13:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas reveal striking Godzilla-themed livery for Austin - Formula 1",
+      "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 13:39:00 GMT"
+      "time": "Sun, 18 Oct 2026 09:52:00 GMT"
     },
     {
-      "author": "RaceFans",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Cadillac and Haas reveal special liveries for home race in Austin - RaceFans",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 11:53:19 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "The Sun",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "MotoGP to stage demo at F1 United States Grand Prix - Motorsport.com",
+      "text": "Join the party at the Hungarian Grand Prix with flights and 5-night Budapest hotel reduced to just \u00a3669pp - The Sun",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 13:56:07 GMT"
+      "time": "Tue, 20 Oct 2026 21:53:51 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "Grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "MotoGP bikes set for demonstration run at F1 United States GP - Crash.net",
+      "text": "McLaren sends F1 reserve Fornaroli to 2027 Hypercar program - Grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 13:56:41 GMT"
-    },
-    {
-      "author": "motogp.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "MotoGP set for high-speed showcase at the Formula 1 United States Grand Prix 2026 - motogp.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 13:02:39 GMT"
+      "time": "Tue, 20 Oct 2026 12:13:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas reveal striking Godzilla-themed livery for Austin - Formula 1",
+      "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 19 Oct 2026 13:39:00 GMT"
+      "time": "Sun, 18 Oct 2026 09:52:00 GMT"
     },
     {
-      "author": "RaceFans",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Cadillac and Haas reveal special liveries for home race in Austin - RaceFans",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 11:53:19 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
