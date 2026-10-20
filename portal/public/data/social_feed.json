@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "sentimentScore": 58,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#UnitedStatesGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 48,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "The Sun",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Join the party at the Hungarian Grand Prix with flights and 5-night Budapest hotel reduced to just \u00a3669pp - The Sun",
+      "text": "A legal battle is brewing behind the scenes in F1 ahead of the US Grand Prix - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 15:53:51 GMT"
-    },
-    {
-      "author": "Grandprix.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren sends F1 reserve Fornaroli to 2027 Hypercar program - Grandprix.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 12:13:00 GMT"
+      "time": "Tue, 20 Oct 2026 07:48:39 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
+      "text": "Haas reveal striking Godzilla-themed livery for Austin - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 18 Oct 2026 09:52:00 GMT"
+      "time": "Mon, 19 Oct 2026 13:39:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "RaceFans",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Cadillac and Haas reveal special liveries for home race in Austin - RaceFans",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 20 Oct 2026 11:53:19 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "https://www.autohebdof1.com/",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Haas unveils a Gozilla Minus Zero livery for Austin - https://www.autohebdof1.com/",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 19 Oct 2026 15:37:14 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1: Toto Wolff says Max Verstappen, Red Bull resurgence adds to expectation of 'full-on fight' into 2027 season - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 19 Oct 2026 15:24:13 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "The Sun",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Join the party at the Hungarian Grand Prix with flights and 5-night Budapest hotel reduced to just \u00a3669pp - The Sun",
+      "text": "A legal battle is brewing behind the scenes in F1 ahead of the US Grand Prix - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 15:53:51 GMT"
-    },
-    {
-      "author": "Grandprix.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren sends F1 reserve Fornaroli to 2027 Hypercar program - Grandprix.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 20 Oct 2026 12:13:00 GMT"
+      "time": "Tue, 20 Oct 2026 07:48:39 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
+      "text": "Haas reveal striking Godzilla-themed livery for Austin - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 18 Oct 2026 09:52:00 GMT"
+      "time": "Mon, 19 Oct 2026 13:39:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "RaceFans",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Cadillac and Haas reveal special liveries for home race in Austin - RaceFans",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 20 Oct 2026 11:53:19 GMT"
     },
     {
-      "author": "McLaren",
+      "author": "https://www.autohebdof1.com/",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "Haas unveils a Gozilla Minus Zero livery for Austin - https://www.autohebdof1.com/",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 19 Oct 2026 15:37:14 GMT"
+    },
+    {
+      "author": "Sky Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1: Toto Wolff says Max Verstappen, Red Bull resurgence adds to expectation of 'full-on fight' into 2027 season - Sky Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 19 Oct 2026 15:24:13 GMT"
     }
   ]
 }
