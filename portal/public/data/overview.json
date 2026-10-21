@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-10-21T17:40:23.474276Z",
+  "updatedAt": "2026-10-21T20:53:51.026506Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
@@ -1894,8 +1894,8 @@
   "qualifyingResults": [],
   "socialSentiment": {
     "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 56,
+    "overallSentiment": "POSITIVE",
+    "sentimentScore": 61,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1964,7 +1964,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 66,
+        "score": 71,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1973,7 +1973,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 62,
+        "score": 67,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1982,7 +1982,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 58,
+        "score": 63,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1991,7 +1991,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 54,
+        "score": 59,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -2000,7 +2000,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 50,
+        "score": 55,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -2009,23 +2009,13 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 46,
+        "score": 51,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
-        "author": "MotorBiscuit",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Piero Ferrari Says Kimi Antonelli Could One Day Race for Ferrari - MotorBiscuit",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 21 Oct 2026 16:13:33 GMT"
-      },
-      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2056,28 +2046,28 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
+        "author": "MotorBiscuit",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Piero Ferrari Says Kimi Antonelli Could One Day Race for Ferrari - MotorBiscuit",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 21 Oct 2026 16:13:33 GMT"
+      },
+      {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 18 Oct 2026 09:52:00 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
       {
-        "author": "MotorBiscuit",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Piero Ferrari Says Kimi Antonelli Could One Day Race for Ferrari - MotorBiscuit",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 21 Oct 2026 16:13:33 GMT"
-      },
-      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2108,14 +2098,24 @@
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
+        "author": "MotorBiscuit",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Piero Ferrari Says Kimi Antonelli Could One Day Race for Ferrari - MotorBiscuit",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 21 Oct 2026 16:13:33 GMT"
+      },
+      {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "From hand signals to \u2018flying blind\u2019 \u2013 6 times drivers improvised after losing radio during a race - Formula 1",
+        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Sun, 18 Oct 2026 09:52:00 GMT"
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       }
     ]
   }
