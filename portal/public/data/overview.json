@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-10-21T12:36:32.375759Z",
+  "updatedAt": "2026-10-21T17:40:23.474276Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
@@ -1894,8 +1894,8 @@
   "qualifyingResults": [],
   "socialSentiment": {
     "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 61,
+    "overallSentiment": "NEUTRAL",
+    "sentimentScore": 56,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -1964,7 +1964,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 71,
+        "score": 66,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -1973,7 +1973,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 67,
+        "score": 62,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -1982,7 +1982,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 63,
+        "score": 58,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -1991,7 +1991,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 59,
+        "score": 54,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -2000,7 +2000,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 55,
+        "score": 50,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -2009,13 +2009,23 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 51,
+        "score": 46,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
     ],
     "breakingNewsTweets": [
       {
+        "author": "MotorBiscuit",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Piero Ferrari Says Kimi Antonelli Could One Day Race for Ferrari - MotorBiscuit",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 21 Oct 2026 16:13:33 GMT"
+      },
+      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2054,20 +2064,20 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 18 Oct 2026 09:52:00 GMT"
-      },
-      {
-        "author": "The Sun",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Join the party at the Hungarian Grand Prix with flights and 5-night Budapest hotel reduced to just \u00a3669pp - The Sun",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 21 Oct 2026 02:23:51 GMT"
       }
     ],
     "xTracksideFeed": [
       {
+        "author": "MotorBiscuit",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Piero Ferrari Says Kimi Antonelli Could One Day Race for Ferrari - MotorBiscuit",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Wed, 21 Oct 2026 16:13:33 GMT"
+      },
+      {
         "author": "ESPN",
         "handle": "NewsRadar",
         "type": "Media Outlet",
@@ -2106,16 +2116,6 @@
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 18 Oct 2026 09:52:00 GMT"
-      },
-      {
-        "author": "The Sun",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Join the party at the Hungarian Grand Prix with flights and 5-night Budapest hotel reduced to just \u00a3669pp - The Sun",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 21 Oct 2026 02:23:51 GMT"
       }
     ]
   }
