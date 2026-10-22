@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 55,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 66,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#UnitedStatesGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 65,
+      "score": 76,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 61,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 57,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 53,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 49,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 45,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren held fresh talks after Singapore GP clash as Lando Norris promises to \"make better decisions\" - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 21 Oct 2026 07:12:23 GMT"
-    },
-    {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "United States GP: McLaren with upgrades for Austin race as reigning F1 champions bid to ward off Red Bull threat - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 22 Oct 2026 05:01:49 GMT"
-    },
-    {
-      "author": "Fox Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Norris\u2019 selfish act exposed shift at McLaren ... and Piastri could finally be the big winner - Fox Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 22 Oct 2026 00:38:57 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Mercedes F1 unveils dramatic new look for United States Grand Prix - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 21 Oct 2026 16:48:18 GMT"
-    },
-    {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FIA makes key decision for United States Grand Prix - PlanetF1",
+      "text": "McLaren target key MCL40 issues with new upgrades arriving at COTA - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 22 Oct 2026 07:38:48 GMT"
+      "time": "Thu, 22 Oct 2026 11:43:48 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Forbes",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "McLaren held fresh talks after Singapore GP clash as Lando Norris promises to \"make better decisions\" - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 21 Oct 2026 07:12:23 GMT"
-    },
-    {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "United States GP: McLaren with upgrades for Austin race as reigning F1 champions bid to ward off Red Bull threat - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 22 Oct 2026 05:01:49 GMT"
-    },
-    {
-      "author": "Fox Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Norris\u2019 selfish act exposed shift at McLaren ... and Piastri could finally be the big winner - Fox Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 22 Oct 2026 00:38:57 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Mercedes F1 unveils dramatic new look for United States Grand Prix - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 21 Oct 2026 16:48:18 GMT"
-    },
-    {
       "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FIA makes key decision for United States Grand Prix - PlanetF1",
+      "text": "McLaren target key MCL40 issues with new upgrades arriving at COTA - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 22 Oct 2026 07:38:48 GMT"
+      "time": "Thu, 22 Oct 2026 11:43:48 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "Forbes",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
