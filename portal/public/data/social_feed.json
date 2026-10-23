@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#UnitedStatesGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "Reuters",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Forbes",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "AS IT HAPPENED: Follow all the build-up ahead of the United States Grand Prix weekend - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 22 Oct 2026 18:00:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "United States Grand Prix: Kimi Antonelli intends to 'have fun' as he stands on brink of title - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 22 Oct 2026 20:55:40 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli ready to \"finish the job\" as first F1 title chance beckons at US GP - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 22 Oct 2026 21:15:16 GMT"
+    },
+    {
+      "author": "NBC News",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli can make F1 history in Texas as the youngest-ever champion. Here\u2019s how. - NBC News",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 23 Oct 2026 11:06:00 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Oscar Piastri addresses McLaren response to Norris Singapore clash - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 22 Oct 2026 20:14:05 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Reuters",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Forbes",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "AS IT HAPPENED: Follow all the build-up ahead of the United States Grand Prix weekend - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 22 Oct 2026 18:00:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "United States Grand Prix: Kimi Antonelli intends to 'have fun' as he stands on brink of title - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 22 Oct 2026 20:55:40 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli ready to \"finish the job\" as first F1 title chance beckons at US GP - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 22 Oct 2026 21:15:16 GMT"
+    },
+    {
+      "author": "NBC News",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Kimi Antonelli can make F1 history in Texas as the youngest-ever champion. Here\u2019s how. - NBC News",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Fri, 23 Oct 2026 11:06:00 GMT"
+    },
+    {
+      "author": "PlanetF1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Oscar Piastri addresses McLaren response to Norris Singapore clash - PlanetF1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 22 Oct 2026 20:14:05 GMT"
     }
   ]
 }
