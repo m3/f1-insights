@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 66,
+  "sentimentScore": 63,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#UnitedStatesGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 76,
+      "score": 73,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 72,
+      "score": 69,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 68,
+      "score": 65,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 64,
+      "score": 61,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 60,
+      "score": 57,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 56,
+      "score": 53,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "The Sun",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 United States GP: Charles Leclerc pips Max Verstappen to top FP1 - Motorsport.com",
+      "text": "Book your ultimate Hungarian Grand Prix trip from only \u00a3729pp - The Sun",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 18:45:50 GMT"
+      "time": "Fri, 23 Oct 2026 19:06:57 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "United States GP: Charles Leclerc fastest in upgraded Ferrari in first practice in Austin as Mercedes rivals introduce updates - Sky Sports",
+      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 19:30:00 GMT"
+      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Leclerc fastest in first practice for the United States GP - Formula 1",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 18:51:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE: 2026 F1 United States Grand Prix - Austin Free Practice 1 - RacingNews365",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 18:33:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Three F1 drivers face major grid penalties at the United States Grand Prix - PlanetF1",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 01:38:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "The Sun",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 United States GP: Charles Leclerc pips Max Verstappen to top FP1 - Motorsport.com",
+      "text": "Book your ultimate Hungarian Grand Prix trip from only \u00a3729pp - The Sun",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 18:45:50 GMT"
+      "time": "Fri, 23 Oct 2026 19:06:57 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "United States GP: Charles Leclerc fastest in upgraded Ferrari in first practice in Austin as Mercedes rivals introduce updates - Sky Sports",
+      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 19:30:00 GMT"
+      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Leclerc fastest in first practice for the United States GP - Formula 1",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 18:51:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE: 2026 F1 United States Grand Prix - Austin Free Practice 1 - RacingNews365",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 18:33:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Three F1 drivers face major grid penalties at the United States Grand Prix - PlanetF1",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 23 Oct 2026 01:38:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
