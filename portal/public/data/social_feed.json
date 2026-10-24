@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 61,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#UnitedStatesGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hamilton goes fastest in final practice for the US GP - Formula 1",
+      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 18:53:00 GMT"
+      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "COTA boss addresses driver concerns ahead of United States GP: 'Turn 1 not acceptable in my mind' - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 00:22:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 qualifying LIVE: US Grand Prix 2026 times, results & commentary from Austin - BBC",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 20:37:53 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Guardian",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "United States Grand Prix: Formula One qualifying \u2013 live - The Guardian",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 20:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "GPFans",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 United States GP live commentary and updates - Hamilton leads FP3 | Live text - Autosport",
+      "text": "Adrian Newey admits Honda is 'behind' but hails 'huge' Aston Martin F1 progress - GPFans",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 18:45:51 GMT"
+      "time": "Sat, 24 Oct 2026 20:40:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hamilton goes fastest in final practice for the US GP - Formula 1",
+      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 18:53:00 GMT"
+      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "COTA boss addresses driver concerns ahead of United States GP: 'Turn 1 not acceptable in my mind' - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 00:22:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 qualifying LIVE: US Grand Prix 2026 times, results & commentary from Austin - BBC",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 20:37:53 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Guardian",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "United States Grand Prix: Formula One qualifying \u2013 live - The Guardian",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 20:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "GPFans",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 United States GP live commentary and updates - Hamilton leads FP3 | Live text - Autosport",
+      "text": "Adrian Newey admits Honda is 'behind' but hails 'huge' Aston Martin F1 progress - GPFans",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 24 Oct 2026 18:45:51 GMT"
+      "time": "Sat, 24 Oct 2026 20:40:00 GMT"
     }
   ]
 }
