@@ -1,24 +1,22 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-10-25T21:44:09.540073Z",
+  "updatedAt": "2026-10-25T22:19:33.778843Z",
   "timeline": {
     "format": "standard",
-    "macroState": "POST_SESSION",
-    "sessionType": "MainQuali",
-    "dataStatus": "PROCESSING",
-    "lastUpdatedUtc": "2026-10-25T19:52:33.088262Z",
-    "nextSession": {
-      "name": "MainRace",
-      "timeUtc": "2026-10-25T20:00:00Z"
-    }
+    "macroState": "SESSION_IN_PROGRESS",
+    "sessionType": "MainRace",
+    "dataStatus": "LIVE",
+    "lastUpdatedUtc": "2026-10-25T22:19:33.261279Z",
+    "nextSession": null
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -59,12 +57,12 @@
     }
   },
   "circuitWeather": {
-    "circuit": "Circuit of the Americas",
-    "ambientTemp": "28\u00b0C",
-    "trackTemp": "33\u00b0C",
-    "rainRisk": "0%",
-    "wind": "9 km/h NE",
-    "humidity": "48%"
+    "ambientTemp": "27\u00b0C",
+    "trackTemp": "36\u00b0C",
+    "wind": "2.1 km/h",
+    "humidity": "42%",
+    "rainDuringSession": false,
+    "samples": 159
   },
   "schedule": [
     {
@@ -1573,7 +1571,7 @@
     "raceName": "United States Grand Prix",
     "circuitName": "Circuit of the Americas",
     "date": "2026-10-25",
-    "generatedAt": "2026-10-25T19:52:33.086727",
+    "generatedAt": "2026-10-25T22:19:33.260029",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1718,7 +1716,7 @@
     "raceName": "United States Grand Prix",
     "circuitName": "Circuit of the Americas",
     "date": "2026-10-25",
-    "generatedAt": "2026-10-25T19:52:33.087302",
+    "generatedAt": "2026-10-25T22:19:33.260582",
     "facts": [],
     "teammateBattles": [
       {
@@ -2380,232 +2378,5 @@
       },
       "Q1": "1:37.523"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 56,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 66,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 62,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 58,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 54,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 50,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 46,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Oracle Red Bull Racing",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race Report - Oracle Red Bull Racing",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 22 Oct 2026 23:00:00 GMT"
-      },
-      {
-        "author": "FC\u6771\u4eac\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30db\u30fc\u30e0\u30da\u30fc\u30b8",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "How to watch F1 2026 Live online - Hungarian GP - FC\u6771\u4eac\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30db\u30fc\u30e0\u30da\u30fc\u30b8",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 25 Oct 2026 19:41:29 GMT"
-      },
-      {
-        "author": "Reuters",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 22 Oct 2026 15:47:44 GMT"
-      },
-      {
-        "author": "GPFans",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 champion Lando Norris slams McLaren with brutal dig after US Grand Prix thrashing - GPFans",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 25 Oct 2026 19:28:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Oracle Red Bull Racing",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race Report - Oracle Red Bull Racing",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 22 Oct 2026 23:00:00 GMT"
-      },
-      {
-        "author": "FC\u6771\u4eac\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30db\u30fc\u30e0\u30da\u30fc\u30b8",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "How to watch F1 2026 Live online - Hungarian GP - FC\u6771\u4eac\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30db\u30fc\u30e0\u30da\u30fc\u30b8",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 25 Oct 2026 19:41:29 GMT"
-      },
-      {
-        "author": "Reuters",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 22 Oct 2026 15:47:44 GMT"
-      },
-      {
-        "author": "GPFans",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "F1 champion Lando Norris slams McLaren with brutal dig after US Grand Prix thrashing - GPFans",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 25 Oct 2026 19:28:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+  ]
 }

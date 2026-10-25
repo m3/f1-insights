@@ -1,7 +1,88 @@
 {
   "gridPenalties": {
     "startingGridImpacts": [],
-    "inRaceTimePenalties": []
+    "inRaceTimePenalties": [
+      {
+        "message": "FIA STEWARDS: TURN 13 INCIDENT INVOLVING CAR 63 (RUS) UNDER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:59)",
+        "lap": 5,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 63 (RUS) - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:59)",
+        "lap": 9,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 63 (RUS) - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:59)",
+        "lap": 9,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 11 INCIDENT INVOLVING CAR 5 (BOR) UNDER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:06:39)",
+        "lap": 11,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 11 INCIDENT INVOLVING CAR 5 (BOR) NO FURTHER ACTION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:06:39)",
+        "lap": 13,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CARS 41 (LIN) AND 55 (SAI) REVIEWED NO FURTHER INVESTIGATION (15:03:49)",
+        "lap": 15,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "CAR 44 (HAM) LAP DELETED - TRACK LIMITS AT TURN 9 LAP 14 15:26:32 (PIT)",
+        "lap": 15,
+        "category": "Track Limits"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 13 INCIDENT INVOLVING CARS 87 (BEA) AND 10 (GAS) UNDER INVESTIGATION - CAUSING A COLLISION (15:06:57)",
+        "lap": 17,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 87 (BEA) - CAUSING A COLLISION (15:06:57)",
+        "lap": 19,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 87 (BEA) - CAUSING A COLLISION (15:06:57)",
+        "lap": 19,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 5 SECOND TIME PENALTY FOR CAR 63 (RUS) - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:59)",
+        "lap": 24,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 5 SECOND TIME PENALTY FOR CAR 63 (RUS) - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:59)",
+        "lap": 24,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 10 SECOND TIME PENALTY FOR CAR 87 (BEA) - CAUSING A COLLISION (15:06:57)",
+        "lap": 25,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 10 SECOND TIME PENALTY FOR CAR 87 (BEA) - CAUSING A COLLISION (15:06:57)",
+        "lap": 25,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 43 (COL) AND 41 (LIN) REVIEWED NO FURTHER INVESTIGATION (15:45:42)",
+        "lap": 30,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "CAR 43 (COL) LAP DELETED - TRACK LIMITS AT TURN 11 LAP 30 15:55:10 (PIT)",
+        "lap": 32,
+        "category": "Track Limits"
+      }
+    ]
   },
   "penaltyWatch": {
     "high_risk_drivers": [],
