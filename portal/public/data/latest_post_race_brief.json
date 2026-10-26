@@ -1,10 +1,10 @@
 {
   "type": "POST_RACE",
-  "title": "Post-Race Debrief: United States Grand Prix",
-  "raceName": "United States Grand Prix",
-  "circuitName": "Circuit of the Americas",
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T22:19:33.260582",
+  "title": "Post-Race Debrief: Mexico City Grand Prix",
+  "raceName": "Mexico City Grand Prix",
+  "circuitName": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
+  "date": "2026-11-01",
+  "generatedAt": "2026-10-26T00:34:11.154162",
   "facts": [],
   "teammateBattles": [
     {
@@ -33,8 +33,8 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "340",
-      "wins": "8",
+      "points": "365",
+      "wins": "9",
       "Driver": {
         "driverId": "antonelli",
         "permanentNumber": "12",
@@ -57,7 +57,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "238",
+      "points": "242",
       "wins": "3",
       "Driver": {
         "driverId": "russell",
@@ -81,7 +81,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "229",
+      "points": "241",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -105,7 +105,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "221",
+      "points": "236",
       "wins": "2",
       "Driver": {
         "driverId": "max_verstappen",
@@ -129,7 +129,7 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "215",
+      "points": "233",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: UNITED STATES GRAND PRIX\n**Location**: Circuit of the Americas | **Date**: 2026-10-25\n\n> *Deterministic Data Brief for the United States Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
+  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: MEXICO CITY GRAND PRIX\n**Location**: Aut\u00f3dromo Hermanos Rodr\u00edguez | **Date**: 2026-11-01\n\n> *Deterministic Data Brief for the Mexico City Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
 }
