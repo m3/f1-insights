@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 64,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 60,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#MexicoCityGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 74,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 70,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 66,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 62,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 58,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 54,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Oracle Red Bull Racing",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 United States GP: Kimi Antonelli takes dominant victory - but no title - Motorsport.com",
+      "text": "Hungarian Grand Prix 2026: Race Report - Oracle Red Bull Racing",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 21:48:01 GMT"
+      "time": "Thu, 22 Oct 2026 23:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "FC\u6771\u4eac\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30db\u30fc\u30e0\u30da\u30fc\u30b8",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Kimi Antonelli can become F1 world champion at the Mexico City Grand Prix - Crash.net",
+      "text": "How to watch F1 2026 Live online - Hungarian GP - FC\u6771\u4eac\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30db\u30fc\u30e0\u30da\u30fc\u30b8",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 22:34:00 GMT"
+      "time": "Sun, 25 Oct 2026 19:41:29 GMT"
+    },
+    {
+      "author": "Reuters",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "United States Grand Prix results: Kimi Antonelli on brink of world title after win in Austin - as it happened - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 22:33:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes\u2019 Kimi Antonelli wins U.S. Grand Prix, closes in on Formula 1 title: Live updates and reaction - The Athletic - The New York Times",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 23:10:00 GMT"
-    },
-    {
-      "author": "Autosport",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "A strategic masterclass: How Antonelli put himself on the cusp of F1 title at the US GP - Autosport",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 23:40:23 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Oracle Red Bull Racing",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 United States GP: Kimi Antonelli takes dominant victory - but no title - Motorsport.com",
+      "text": "Hungarian Grand Prix 2026: Race Report - Oracle Red Bull Racing",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 21:48:01 GMT"
+      "time": "Thu, 22 Oct 2026 23:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "FC\u6771\u4eac\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30db\u30fc\u30e0\u30da\u30fc\u30b8",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Kimi Antonelli can become F1 world champion at the Mexico City Grand Prix - Crash.net",
+      "text": "How to watch F1 2026 Live online - Hungarian GP - FC\u6771\u4eac\u30aa\u30d5\u30a3\u30b7\u30e3\u30eb\u30db\u30fc\u30e0\u30da\u30fc\u30b8",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 22:34:00 GMT"
+      "time": "Sun, 25 Oct 2026 19:41:29 GMT"
+    },
+    {
+      "author": "Reuters",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "United States Grand Prix results: Kimi Antonelli on brink of world title after win in Austin - as it happened - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 22:33:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mercedes\u2019 Kimi Antonelli wins U.S. Grand Prix, closes in on Formula 1 title: Live updates and reaction - The Athletic - The New York Times",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 23:10:00 GMT"
-    },
-    {
-      "author": "Autosport",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "A strategic masterclass: How Antonelli put himself on the cusp of F1 title at the US GP - Autosport",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 23:40:23 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ]
 }
