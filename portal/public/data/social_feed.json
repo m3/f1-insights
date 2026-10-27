@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 67,
+  "sentimentScore": 61,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#MexicoCityGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 77,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 73,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 69,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 65,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 61,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 57,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "BBC",
+      "author": "Oracle Red Bull Racing",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "US Grand Prix: Kimi Antonelli delivers 'the race of a champion who isn't the champion yet' - BBC",
+      "text": "Hungarian Grand Prix 2026: Race Report - Oracle Red Bull Racing",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 01:24:51 GMT"
+      "time": "Thu, 22 Oct 2026 23:00:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 F1 Mexican Grand Prix - Mexico City Time Schedule - RacingNews365",
+      "text": "This river cruise combines a Danube holiday with the Hungarian Grand Prix - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 05:00:00 GMT"
+      "time": "Tue, 27 Oct 2026 10:34:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Antonelli can win the 2026 F1 title at the Mexico City GP - Sky Sports",
+      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 06:23:07 GMT"
+      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Mercedes\u2019 Kimi Antonelli won 2026 U.S. Grand Prix to close in on historic Formula 1 title - The Athletic - The New York Times",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 23:10:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "When is the next F1 race? Mexico GP dates and schedule - Crash.net",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 10:16:28 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "BBC",
+      "author": "Oracle Red Bull Racing",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "US Grand Prix: Kimi Antonelli delivers 'the race of a champion who isn't the champion yet' - BBC",
+      "text": "Hungarian Grand Prix 2026: Race Report - Oracle Red Bull Racing",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 01:24:51 GMT"
+      "time": "Thu, 22 Oct 2026 23:00:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 F1 Mexican Grand Prix - Mexico City Time Schedule - RacingNews365",
+      "text": "This river cruise combines a Danube holiday with the Hungarian Grand Prix - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 05:00:00 GMT"
+      "time": "Tue, 27 Oct 2026 10:34:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Antonelli can win the 2026 F1 title at the Mexico City GP - Sky Sports",
+      "text": "British teenager Slater to make F1 practice debut with Audi - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 06:23:07 GMT"
+      "time": "Thu, 22 Oct 2026 15:47:44 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Mercedes\u2019 Kimi Antonelli won 2026 U.S. Grand Prix to close in on historic Formula 1 title - The Athletic - The New York Times",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 23:10:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "When is the next F1 race? Mexico GP dates and schedule - Crash.net",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 10:16:28 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     }
   ]
 }
