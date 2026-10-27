@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 62,
+  "sentimentScore": 64,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#MexicoCityGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 72,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 68,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 64,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 60,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 56,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 52,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "BBC",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mexico City Grand Prix practice, qualifying and race times, UK times, plus weather forecast - BBC",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 02:19:19 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "George Russell to miss crucial Mexico GP session in mandatory F1 absence - RacingNews365",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 27 Oct 2026 12:07:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton reveals he's 'lost out' in recent F1 races with set-up of his Ferrari car compared to Charles Leclerc - Sky Sports",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 27 Oct 2026 06:02:01 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: US Grand Prix 2026 reaction & result as Antonelli wins to be on brink of title - BBC",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 21:06:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Kimi Antonelli can win the F1 title in Mexican Grand Prix - RacingNews365",
+      "text": "This river cruise combines a Danube holiday with the Hungarian Grand Prix - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 21:45:00 GMT"
+      "time": "Tue, 27 Oct 2026 10:34:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "BBC",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Mexico City Grand Prix practice, qualifying and race times, UK times, plus weather forecast - BBC",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 26 Oct 2026 02:19:19 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "George Russell to miss crucial Mexico GP session in mandatory F1 absence - RacingNews365",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 27 Oct 2026 12:07:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Lewis Hamilton reveals he's 'lost out' in recent F1 races with set-up of his Ferrari car compared to Charles Leclerc - Sky Sports",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 27 Oct 2026 06:02:01 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "BBC",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 LIVE: US Grand Prix 2026 reaction & result as Antonelli wins to be on brink of title - BBC",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 21:06:17 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "RacingNews365",
+      "author": "The Independent",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Kimi Antonelli can win the F1 title in Mexican Grand Prix - RacingNews365",
+      "text": "This river cruise combines a Danube holiday with the Hungarian Grand Prix - The Independent",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 25 Oct 2026 21:45:00 GMT"
+      "time": "Tue, 27 Oct 2026 10:34:00 GMT"
     }
   ]
 }
