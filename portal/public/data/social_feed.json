@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#MexicoCityGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Forbes",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "McLaren Mastercard Formula 1 Team to race fan-inspired livery enhancement at the Mexico City Grand Prix - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 28 Oct 2026 12:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "LIVE COVERAGE: Follow all the build-up ahead of the Mexico City Grand Prix weekend - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 29 Oct 2026 19:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Mexico City Grand Prix: Kimi Antonelli to miss media day with viral illness - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 29 Oct 2026 18:24:00 GMT"
+    },
+    {
+      "author": "RacingNews365",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Second F1 driver ruled out of Mexico media day as illness confirmed - RacingNews365",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 29 Oct 2026 16:48:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Perez reflects on his F1 career in photos ahead of 300th GP - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 29 Oct 2026 09:42:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Forbes",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
       "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "text": "McLaren Mastercard Formula 1 Team to race fan-inspired livery enhancement at the Mexico City Grand Prix - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 28 Oct 2026 12:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "LIVE COVERAGE: Follow all the build-up ahead of the Mexico City Grand Prix weekend - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 29 Oct 2026 19:00:00 GMT"
     },
     {
-      "author": "The New York Times",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "text": "Mexico City Grand Prix: Kimi Antonelli to miss media day with viral illness - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 29 Oct 2026 18:24:00 GMT"
+    },
+    {
+      "author": "RacingNews365",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Second F1 driver ruled out of Mexico media day as illness confirmed - RacingNews365",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 29 Oct 2026 16:48:00 GMT"
+    },
+    {
+      "author": "Formula 1",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Perez reflects on his F1 career in photos ahead of 300th GP - Formula 1",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 29 Oct 2026 09:42:00 GMT"
     }
   ]
 }
