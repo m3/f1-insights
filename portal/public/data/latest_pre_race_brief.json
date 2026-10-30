@@ -1,16 +1,16 @@
 {
   "type": "PRE_RACE",
-  "title": "Pre-Race Preview: Grand Prix",
-  "raceName": "Grand Prix",
-  "circuitName": "Circuit",
-  "date": "Upcoming Weekend",
-  "generatedAt": "2026-10-30T18:45:14.420069",
+  "title": "Pre-Race Preview: Mexico City Grand Prix",
+  "raceName": "Mexico City Grand Prix",
+  "circuitName": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
+  "date": "2026-11-01",
+  "generatedAt": "2026-10-30T22:48:19.751505",
   "facts": [
     {
       "topic": "Championship Stakes",
       "badge": "Title Race",
-      "detail": "Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Grand Prix.",
-      "stat": "50 Pts Gap",
+      "detail": "Antonelli leads Russell by 123 points in the World Drivers' Championship heading into Mexico City Grand Prix.",
+      "stat": "123 Pts Gap",
       "source": "JolpicaErgast"
     }
   ],
@@ -23,8 +23,8 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "219",
-      "wins": "6",
+      "points": "365",
+      "wins": "9",
       "Driver": {
         "driverId": "antonelli",
         "permanentNumber": "12",
@@ -47,7 +47,31 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "169",
+      "points": "242",
+      "wins": "3",
+      "Driver": {
+        "driverId": "russell",
+        "permanentNumber": "63",
+        "code": "RUS",
+        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+        "givenName": "George",
+        "familyName": "Russell",
+        "dateOfBirth": "1998-02-15",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
+        }
+      ]
+    },
+    {
+      "position": "3",
+      "positionText": "3",
+      "points": "241",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -69,33 +93,33 @@
       ]
     },
     {
-      "position": "3",
-      "positionText": "3",
-      "points": "160",
+      "position": "4",
+      "positionText": "4",
+      "points": "236",
       "wins": "2",
       "Driver": {
-        "driverId": "russell",
-        "permanentNumber": "63",
-        "code": "RUS",
-        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
-        "givenName": "George",
-        "familyName": "Russell",
-        "dateOfBirth": "1998-02-15",
-        "nationality": "British"
+        "driverId": "max_verstappen",
+        "permanentNumber": "3",
+        "code": "VER",
+        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+        "givenName": "Max",
+        "familyName": "Verstappen",
+        "dateOfBirth": "1997-09-30",
+        "nationality": "Dutch"
       },
       "Constructors": [
         {
-          "constructorId": "mercedes",
-          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
-          "name": "Mercedes",
-          "nationality": "German"
+          "constructorId": "red_bull",
+          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+          "name": "Red Bull",
+          "nationality": "Austrian"
         }
       ]
     },
     {
-      "position": "4",
-      "positionText": "4",
-      "points": "138",
+      "position": "5",
+      "positionText": "5",
+      "points": "233",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -115,31 +139,7 @@
           "nationality": "Italian"
         }
       ]
-    },
-    {
-      "position": "5",
-      "positionText": "5",
-      "points": "128",
-      "wins": "1",
-      "Driver": {
-        "driverId": "norris",
-        "permanentNumber": "1",
-        "code": "NOR",
-        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
-        "givenName": "Lando",
-        "familyName": "Norris",
-        "dateOfBirth": "1999-11-13",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mclaren",
-          "url": "https://en.wikipedia.org/wiki/McLaren",
-          "name": "McLaren",
-          "nationality": "British"
-        }
-      ]
     }
   ],
-  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: GRAND PRIX\n**Location**: Circuit | **Date**: Upcoming Weekend\n\n> *Deterministic Data Brief for the Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*50 Pts Gap*)\n  Antonelli leads Hamilton by 50 points in the World Drivers' Championship heading into Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 219 Pts (6 Wins)\n2. **Lewis Hamilton** (Ferrari) - 169 Pts (1 Wins)\n3. **George Russell** (Mercedes) - 160 Pts (2 Wins)\n4. **Charles Leclerc** (Ferrari) - 138 Pts (1 Wins)\n5. **Lando Norris** (McLaren) - 128 Pts (1 Wins)\n"
+  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: MEXICO CITY GRAND PRIX\n**Location**: Aut\u00f3dromo Hermanos Rodr\u00edguez | **Date**: 2026-11-01\n\n> *Deterministic Data Brief for the Mexico City Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*123 Pts Gap*)\n  Antonelli leads Russell by 123 points in the World Drivers' Championship heading into Mexico City Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 365 Pts (9 Wins)\n2. **George Russell** (Mercedes) - 242 Pts (3 Wins)\n3. **Lewis Hamilton** (Ferrari) - 241 Pts (1 Wins)\n4. **Max Verstappen** (Red Bull) - 236 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 233 Pts (1 Wins)\n"
 }
