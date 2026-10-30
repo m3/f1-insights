@@ -1,9 +1,9 @@
 {
   "sectorMatrix": [],
   "circuitSpecs": {
-    "circuitName": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
-    "circuitId": "rodriguez",
-    "lat": "19.4042",
-    "lng": "-99.0907"
+    "circuitName": "Grand Prix Circuit",
+    "circuitId": "",
+    "lat": null,
+    "lng": null
   }
 }

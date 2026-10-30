@@ -1,40 +1,18 @@
 {
   "type": "POST_RACE",
-  "title": "Post-Race Debrief: Mexico City Grand Prix",
-  "raceName": "Mexico City Grand Prix",
-  "circuitName": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
-  "date": "2026-11-01",
-  "generatedAt": "2026-10-30T13:19:52.845841",
+  "title": "Post-Race Debrief: Grand Prix",
+  "raceName": "Grand Prix",
+  "circuitName": "Circuit",
+  "date": "Recent Weekend",
+  "generatedAt": "2026-10-30T18:45:14.420545",
   "facts": [],
-  "teammateBattles": [
-    {
-      "team": "Ferrari",
-      "drivers": "HAM vs LEC",
-      "quali": "2 - 3",
-      "race": "3 - 2",
-      "leader": "HAM Ahead"
-    },
-    {
-      "team": "Red Bull",
-      "drivers": "VER vs HAD",
-      "quali": "3 - 2",
-      "race": "4 - 1",
-      "leader": "VER Ahead"
-    },
-    {
-      "team": "Alpine F1 Team",
-      "drivers": "COL vs GAS",
-      "quali": "2 - 3",
-      "race": "2 - 3",
-      "leader": "GAS Ahead"
-    }
-  ],
+  "teammateBattles": [],
   "topStandings": [
     {
       "position": "1",
       "positionText": "1",
-      "points": "365",
-      "wins": "9",
+      "points": "219",
+      "wins": "6",
       "Driver": {
         "driverId": "antonelli",
         "permanentNumber": "12",
@@ -57,31 +35,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "242",
-      "wins": "3",
-      "Driver": {
-        "driverId": "russell",
-        "permanentNumber": "63",
-        "code": "RUS",
-        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
-        "givenName": "George",
-        "familyName": "Russell",
-        "dateOfBirth": "1998-02-15",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mercedes",
-          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
-          "name": "Mercedes",
-          "nationality": "German"
-        }
-      ]
-    },
-    {
-      "position": "3",
-      "positionText": "3",
-      "points": "241",
+      "points": "169",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -103,33 +57,33 @@
       ]
     },
     {
-      "position": "4",
-      "positionText": "4",
-      "points": "236",
+      "position": "3",
+      "positionText": "3",
+      "points": "160",
       "wins": "2",
       "Driver": {
-        "driverId": "max_verstappen",
-        "permanentNumber": "3",
-        "code": "VER",
-        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
-        "givenName": "Max",
-        "familyName": "Verstappen",
-        "dateOfBirth": "1997-09-30",
-        "nationality": "Dutch"
+        "driverId": "russell",
+        "permanentNumber": "63",
+        "code": "RUS",
+        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+        "givenName": "George",
+        "familyName": "Russell",
+        "dateOfBirth": "1998-02-15",
+        "nationality": "British"
       },
       "Constructors": [
         {
-          "constructorId": "red_bull",
-          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
-          "name": "Red Bull",
-          "nationality": "Austrian"
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
         }
       ]
     },
     {
-      "position": "5",
-      "positionText": "5",
-      "points": "233",
+      "position": "4",
+      "positionText": "4",
+      "points": "138",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -149,7 +103,31 @@
           "nationality": "Italian"
         }
       ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "128",
+      "wins": "1",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
+        }
+      ]
     }
   ],
-  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: MEXICO CITY GRAND PRIX\n**Location**: Aut\u00f3dromo Hermanos Rodr\u00edguez | **Date**: 2026-11-01\n\n> *Deterministic Data Brief for the Mexico City Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
+  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: GRAND PRIX\n**Location**: Circuit | **Date**: Recent Weekend\n\n> *Deterministic Data Brief for the Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n"
 }
