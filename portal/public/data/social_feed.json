@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 59,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 68,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#MexicoCityGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 69,
+      "score": 78,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 65,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 61,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 57,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 53,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 49,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "ESPN",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Esteban Ocon out for Mexico City Grand Prix without Haas explanation - ESPN",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 15:58:00 GMT"
-    },
-    {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Esteban Ocon: Haas replace French driver with Ryo Hirakawa for remainder of Mexico City GP weekend without providing reason - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 17:39:57 GMT"
+      "time": "Fri, 30 Oct 2026 02:32:15 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas team boss breaks silence on Esteban Ocon's shock exit in Mexico - Yahoo Sports",
+      "text": "Hamilton claims first pole since 2023, Antonelli fourth on the grid - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 20:41:00 GMT"
+      "time": "Sat, 31 Oct 2026 23:03:42 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "Grande Pr\u00eamio",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE: F1 Mexico GP updates - Hamilton takes pole from Russell | Live text - Autosport",
+      "text": "Hamilton makes F1 history at 41 with first Ferrari pole after more than three years - Grande Pr\u00eamio",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 18:48:34 GMT"
+      "time": "Sat, 31 Oct 2026 22:30:34 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Mexico Grand Prix LIVE: Qualifying updates - Crash.net",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 20:55:37 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "ESPN",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Esteban Ocon out for Mexico City Grand Prix without Haas explanation - ESPN",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 15:58:00 GMT"
-    },
-    {
-      "author": "Sky Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Esteban Ocon: Haas replace French driver with Ryo Hirakawa for remainder of Mexico City GP weekend without providing reason - Sky Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 17:39:57 GMT"
+      "time": "Fri, 30 Oct 2026 02:32:15 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Haas team boss breaks silence on Esteban Ocon's shock exit in Mexico - Yahoo Sports",
+      "text": "Hamilton claims first pole since 2023, Antonelli fourth on the grid - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 20:41:00 GMT"
+      "time": "Sat, 31 Oct 2026 23:03:42 GMT"
     },
     {
-      "author": "Autosport",
+      "author": "Grande Pr\u00eamio",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "LIVE: F1 Mexico GP updates - Hamilton takes pole from Russell | Live text - Autosport",
+      "text": "Hamilton makes F1 history at 41 with first Ferrari pole after more than three years - Grande Pr\u00eamio",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 18:48:34 GMT"
+      "time": "Sat, 31 Oct 2026 22:30:34 GMT"
     },
     {
-      "author": "Crash.net",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Mexico Grand Prix LIVE: Qualifying updates - Crash.net",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 20:55:37 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
