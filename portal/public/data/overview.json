@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-11-01T01:53:32.875645Z",
+  "updatedAt": "2026-11-01T06:51:24.787501Z",
   "timeline": {
     "format": "standard",
     "macroState": "POST_SESSION",
@@ -15,11 +15,10 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "TracingInsights",
-      "OpenMeteo"
+      "FastF1",
+      "OpenMeteo",
+      "SocialMediaRadar"
     ],
-    "tracingInsightsCommit": null,
-    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -2395,5 +2394,232 @@
       },
       "Q1": "1:19.852"
     }
-  ]
+  ],
+  "socialSentiment": {
+    "version": "2026.3",
+    "overallSentiment": "POSITIVE",
+    "sentimentScore": 66,
+    "monitoredAccountsCount": 11,
+    "youtubeSourcesCount": 5,
+    "trendingHashtags": [
+      "#HungarianGrandPrix",
+      "#F1",
+      "#F12026",
+      "#Formula1",
+      "#TechF1"
+    ],
+    "keywords": {
+      "technical": [
+        "telemetry",
+        "floor upgrade",
+        "sidepod undercut",
+        "tyre degradation",
+        "MGU-K",
+        "active aerodynamics",
+        "driving technique",
+        "corner entry speed"
+      ],
+      "regulatory": [
+        "stewards decision",
+        "track limits",
+        "penalty points",
+        "cost cap",
+        "FIA summons"
+      ],
+      "live_coverage": [
+        "watchalong",
+        "live timing",
+        "FP1 commentary",
+        "quali reaction",
+        "race commentary"
+      ]
+    },
+    "youtubeSources": [
+      {
+        "channel_name": "F1 Gamer",
+        "handle": "@F1Gamer",
+        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
+      },
+      {
+        "channel_name": "Peter Windsor",
+        "handle": "@peterwindsor",
+        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
+      },
+      {
+        "channel_name": "Donut - Up to Speed",
+        "handle": "@donut",
+        "focus": "Automotive & Motorsport History/Deep Dives"
+      },
+      {
+        "channel_name": "Brrrake F1",
+        "handle": "@brrrake",
+        "focus": "Telemetry & Engineer Reaction"
+      },
+      {
+        "channel_name": "Autosport",
+        "handle": "@autosport",
+        "focus": "Technical Upgrades & Paddock Debriefs"
+      }
+    ],
+    "driverSentimentRanking": [
+      {
+        "driver": "Lando Norris",
+        "code": "NOR",
+        "handle": "LandoNorris",
+        "team": "McLaren",
+        "score": 76,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LandoNorris"
+      },
+      {
+        "driver": "Oscar Piastri",
+        "code": "PIA",
+        "handle": "OscarPiastri",
+        "team": "McLaren",
+        "score": 72,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @OscarPiastri"
+      },
+      {
+        "driver": "Charles Leclerc",
+        "code": "LEC",
+        "handle": "Charles_Leclerc",
+        "team": "Ferrari",
+        "score": 68,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Charles_Leclerc"
+      },
+      {
+        "driver": "Lewis Hamilton",
+        "code": "HAM",
+        "handle": "LewisHamilton",
+        "team": "Ferrari",
+        "score": 64,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LewisHamilton"
+      },
+      {
+        "driver": "Max Verstappen",
+        "code": "VER",
+        "handle": "Max33Verstappen",
+        "team": "Red Bull",
+        "score": 60,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @Max33Verstappen"
+      },
+      {
+        "driver": "Liam Lawson",
+        "code": "LAW",
+        "handle": "LiamLawson30",
+        "team": "Red Bull",
+        "score": 56,
+        "sentiment": "Mixed",
+        "buzz": "Monitored engagement around @LiamLawson30"
+      }
+    ],
+    "breakingNewsTweets": [
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Why the Hungarian Grand Prix is special - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 30 Oct 2026 02:32:15 GMT"
+      },
+      {
+        "author": "BBC",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Lewis Hamilton enjoys Mexico City Grand Prix pole as Kimi Antonelli aims to clinch title - BBC",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 01 Nov 2026 00:35:28 GMT"
+      },
+      {
+        "author": "https://www.autohebdof1.com/",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mexican GP \u2013 Qualifying: Lewis Hamilton gives Ferrari their first pole position of the season - https://www.autohebdof1.com/",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 01 Nov 2026 02:14:27 GMT"
+      },
+      {
+        "author": "ESPN",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Yahoo Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hamilton claims first pole since 2023, Antonelli fourth on the grid - Yahoo Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 31 Oct 2026 23:03:42 GMT"
+      }
+    ],
+    "xTracksideFeed": [
+      {
+        "author": "Formula 1",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Why the Hungarian Grand Prix is special - Formula 1",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Fri, 30 Oct 2026 02:32:15 GMT"
+      },
+      {
+        "author": "BBC",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Lewis Hamilton enjoys Mexico City Grand Prix pole as Kimi Antonelli aims to clinch title - BBC",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 01 Nov 2026 00:35:28 GMT"
+      },
+      {
+        "author": "https://www.autohebdof1.com/",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Mexican GP \u2013 Qualifying: Lewis Hamilton gives Ferrari their first pole position of the season - https://www.autohebdof1.com/",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 01 Nov 2026 02:14:27 GMT"
+      },
+      {
+        "author": "ESPN",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Yahoo Sports",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Hamilton claims first pole since 2023, Antonelli fourth on the grid - Yahoo Sports",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 31 Oct 2026 23:03:42 GMT"
+      }
+    ]
+  }
 }
