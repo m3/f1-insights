@@ -1,7 +1,163 @@
 {
   "gridPenalties": {
     "startingGridImpacts": [],
-    "inRaceTimePenalties": []
+    "inRaceTimePenalties": [
+      {
+        "message": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CARS 44 (HAM) AND 16 (LEC) UNDER INVESTIGATION (14:03:57)",
+        "lap": 3,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 6 INCIDENT INVOLVING CAR 63 (RUS) UNDER INVESTIGATION - CAUSING A COLLISION (14:04:08)",
+        "lap": 11,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 16 (LEC) - LEAVING THE TRACK AND GAINING AN ADVANTAGE (14:03:57)",
+        "lap": 12,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 16 (LEC) - LEAVING THE TRACK AND GAINING AN ADVANTAGE (14:03:57)",
+        "lap": 12,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 63 (RUS) - CAUSING A COLLISION (14:04:08)",
+        "lap": 13,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 63 (RUS) - CAUSING A COLLISION (14:04:08)",
+        "lap": 13,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 5 SECOND TIME PENALTY FOR CAR 16 (LEC) (14:03:57)",
+        "lap": 30,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 5 SECOND TIME PENALTY FOR CAR 16 (LEC) (14:03:57)",
+        "lap": 30,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 10 SECOND TIME PENALTY FOR CAR 63 (RUS) - CAUSING A COLLISION (14:04:08)",
+        "lap": 37,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 10 SECOND TIME PENALTY FOR CAR 63 (RUS) - CAUSING A COLLISION (14:04:08)",
+        "lap": 37,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 10 (GAS) REVIEWED NO FURTHER INVESTIGATION - LEAVING PIT EXIT ON RED LIGHT (15:06:01)",
+        "lap": 46,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 11 (PER) UNDER INVESTIGATION - SPEEDING IN THE PIT LANE (15:04:43)",
+        "lap": 46,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 11 (PER) - SPEEDING IN THE PIT LANE (15:04:43)",
+        "lap": 46,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 11 (PER) - SPEEDING IN THE PIT LANE (15:04:43)",
+        "lap": 46,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 44 (HAM) AND 3 (VER) REVIEWED NO FURTHER INVESTIGATION (15:48:29)",
+        "lap": 49,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CAR 27 (HUL) UNDER INVESTIGATION - CAUSING A COLLISION (15:48:50)",
+        "lap": 50,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 27 (HUL) - CAUSING A COLLISION (15:48:50)",
+        "lap": 51,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 27 (HUL) - CAUSING A COLLISION (15:48:50)",
+        "lap": 51,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 3 (VER) REVIEWED NO FURTHER INVESTIGATION - FALSE START - OUT OF POSITION (15:47:45)",
+        "lap": 51,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: INCIDENT INVOLVING CAR 55 (SAI) REVIEWED NO FURTHER INVESTIGATION - FALSE START - MOVING BEFORE SIGNAL (15:48:04)",
+        "lap": 57,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 11 (PER) AND 27 (HUL) REVIEWED NO FURTHER INVESTIGATION - FORCING ANOTHER DRIVER OFF THE TRACK (15:59:33)",
+        "lap": 60,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 2 INCIDENT INVOLVING CARS 81 (PIA) AND 41 (LIN) UNDER INVESTIGATION (16:05:04)",
+        "lap": 65,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 2 INCIDENT INVOLVING CARS 81 (PIA) AND 41 (LIN) WILL BE INVESTIGATED AFTER THE RACE (16:05:04)",
+        "lap": 66,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CARS 10 (GAS) AND 30 (LAW) UNDER INVESTIGATION (16:12:33)",
+        "lap": 68,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 5 SECOND TIME PENALTY FOR CAR 11 (PER) - SPEEDING IN THE PIT LANE (15:04:43)",
+        "lap": 70,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 5 SECOND TIME PENALTY FOR CAR 11 (PER) - SPEEDING IN THE PIT LANE (15:04:43)",
+        "lap": 70,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 10 SECOND TIME PENALTY FOR CAR 27 (HUL) - CAUSING A COLLISION (15:48:50)",
+        "lap": 70,
+        "category": "Other"
+      },
+      {
+        "message": "FIA STEWARDS: PENALTY SERVED - 10 SECOND TIME PENALTY FOR CAR 27 (HUL) - CAUSING A COLLISION (15:48:50)",
+        "lap": 70,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 4 INCIDENT INVOLVING CARS 10 (GAS) AND 30 (LAW) NO FURTHER ACTION (16:12:33)",
+        "lap": 71,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 2 INCIDENT INVOLVING CAR 10 (GAS) WILL BE INVESTIGATED AFTER THE RACE - YELLOW FLAG INFRINGEMENT (16:04:51)",
+        "lap": 71,
+        "category": "Steward Decision"
+      },
+      {
+        "message": "FIA STEWARDS: TURN 2 INCIDENT INVOLVING CAR 43 (COL) WILL BE INVESTIGATED AFTER THE RACE - YELLOW FLAG INFRINGEMENT (16:04:53)",
+        "lap": 71,
+        "category": "Steward Decision"
+      }
+    ]
   },
   "penaltyWatch": {
     "high_risk_drivers": [],
