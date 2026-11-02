@@ -1,16 +1,16 @@
 {
   "type": "PRE_RACE",
-  "title": "Pre-Race Preview: Mexico City Grand Prix",
-  "raceName": "Mexico City Grand Prix",
-  "circuitName": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
-  "date": "2026-11-01",
-  "generatedAt": "2026-11-01T23:46:47.758488",
+  "title": "Pre-Race Preview: Brazilian Grand Prix",
+  "raceName": "Brazilian Grand Prix",
+  "circuitName": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-02T04:40:53.116108",
   "facts": [
     {
       "topic": "Championship Stakes",
       "badge": "Title Race",
-      "detail": "Antonelli leads Russell by 123 points in the World Drivers' Championship heading into Mexico City Grand Prix.",
-      "stat": "123 Pts Gap",
+      "detail": "Antonelli leads Verstappen by 119 points in the World Drivers' Championship heading into Brazilian Grand Prix.",
+      "stat": "119 Pts Gap",
       "source": "JolpicaErgast"
     }
   ],
@@ -23,7 +23,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "365",
+      "points": "380",
       "wins": "9",
       "Driver": {
         "driverId": "antonelli",
@@ -47,31 +47,31 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "242",
+      "points": "261",
       "wins": "3",
       "Driver": {
-        "driverId": "russell",
-        "permanentNumber": "63",
-        "code": "RUS",
-        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
-        "givenName": "George",
-        "familyName": "Russell",
-        "dateOfBirth": "1998-02-15",
-        "nationality": "British"
+        "driverId": "max_verstappen",
+        "permanentNumber": "3",
+        "code": "VER",
+        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+        "givenName": "Max",
+        "familyName": "Verstappen",
+        "dateOfBirth": "1997-09-30",
+        "nationality": "Dutch"
       },
       "Constructors": [
         {
-          "constructorId": "mercedes",
-          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
-          "name": "Mercedes",
-          "nationality": "German"
+          "constructorId": "red_bull",
+          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+          "name": "Red Bull",
+          "nationality": "Austrian"
         }
       ]
     },
     {
       "position": "3",
       "positionText": "3",
-      "points": "241",
+      "points": "259",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -95,31 +95,31 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "236",
-      "wins": "2",
+      "points": "250",
+      "wins": "3",
       "Driver": {
-        "driverId": "max_verstappen",
-        "permanentNumber": "3",
-        "code": "VER",
-        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
-        "givenName": "Max",
-        "familyName": "Verstappen",
-        "dateOfBirth": "1997-09-30",
-        "nationality": "Dutch"
+        "driverId": "russell",
+        "permanentNumber": "63",
+        "code": "RUS",
+        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+        "givenName": "George",
+        "familyName": "Russell",
+        "dateOfBirth": "1998-02-15",
+        "nationality": "British"
       },
       "Constructors": [
         {
-          "constructorId": "red_bull",
-          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
-          "name": "Red Bull",
-          "nationality": "Austrian"
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
         }
       ]
     },
     {
       "position": "5",
       "positionText": "5",
-      "points": "233",
+      "points": "245",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -141,5 +141,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: MEXICO CITY GRAND PRIX\n**Location**: Aut\u00f3dromo Hermanos Rodr\u00edguez | **Date**: 2026-11-01\n\n> *Deterministic Data Brief for the Mexico City Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*123 Pts Gap*)\n  Antonelli leads Russell by 123 points in the World Drivers' Championship heading into Mexico City Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 365 Pts (9 Wins)\n2. **George Russell** (Mercedes) - 242 Pts (3 Wins)\n3. **Lewis Hamilton** (Ferrari) - 241 Pts (1 Wins)\n4. **Max Verstappen** (Red Bull) - 236 Pts (2 Wins)\n5. **Charles Leclerc** (Ferrari) - 233 Pts (1 Wins)\n"
+  "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: BRAZILIAN GRAND PRIX\n**Location**: Aut\u00f3dromo Jos\u00e9 Carlos Pace | **Date**: 2026-11-08\n\n> *Deterministic Data Brief for the Brazilian Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*119 Pts Gap*)\n  Antonelli leads Verstappen by 119 points in the World Drivers' Championship heading into Brazilian Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 380 Pts (9 Wins)\n2. **Max Verstappen** (Red Bull) - 261 Pts (3 Wins)\n3. **Lewis Hamilton** (Ferrari) - 259 Pts (1 Wins)\n4. **George Russell** (Mercedes) - 250 Pts (3 Wins)\n5. **Charles Leclerc** (Ferrari) - 245 Pts (1 Wins)\n"
 }

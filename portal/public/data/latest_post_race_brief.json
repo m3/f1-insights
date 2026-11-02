@@ -1,10 +1,10 @@
 {
   "type": "POST_RACE",
-  "title": "Post-Race Debrief: Mexico City Grand Prix",
-  "raceName": "Mexico City Grand Prix",
-  "circuitName": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
-  "date": "2026-11-01",
-  "generatedAt": "2026-11-01T23:46:47.758978",
+  "title": "Post-Race Debrief: Brazilian Grand Prix",
+  "raceName": "Brazilian Grand Prix",
+  "circuitName": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-02T04:40:53.116737",
   "facts": [],
   "teammateBattles": [
     {
@@ -33,7 +33,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "365",
+      "points": "380",
       "wins": "9",
       "Driver": {
         "driverId": "antonelli",
@@ -57,31 +57,31 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "242",
+      "points": "261",
       "wins": "3",
       "Driver": {
-        "driverId": "russell",
-        "permanentNumber": "63",
-        "code": "RUS",
-        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
-        "givenName": "George",
-        "familyName": "Russell",
-        "dateOfBirth": "1998-02-15",
-        "nationality": "British"
+        "driverId": "max_verstappen",
+        "permanentNumber": "3",
+        "code": "VER",
+        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+        "givenName": "Max",
+        "familyName": "Verstappen",
+        "dateOfBirth": "1997-09-30",
+        "nationality": "Dutch"
       },
       "Constructors": [
         {
-          "constructorId": "mercedes",
-          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
-          "name": "Mercedes",
-          "nationality": "German"
+          "constructorId": "red_bull",
+          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+          "name": "Red Bull",
+          "nationality": "Austrian"
         }
       ]
     },
     {
       "position": "3",
       "positionText": "3",
-      "points": "241",
+      "points": "259",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -105,31 +105,31 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "236",
-      "wins": "2",
+      "points": "250",
+      "wins": "3",
       "Driver": {
-        "driverId": "max_verstappen",
-        "permanentNumber": "3",
-        "code": "VER",
-        "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
-        "givenName": "Max",
-        "familyName": "Verstappen",
-        "dateOfBirth": "1997-09-30",
-        "nationality": "Dutch"
+        "driverId": "russell",
+        "permanentNumber": "63",
+        "code": "RUS",
+        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+        "givenName": "George",
+        "familyName": "Russell",
+        "dateOfBirth": "1998-02-15",
+        "nationality": "British"
       },
       "Constructors": [
         {
-          "constructorId": "red_bull",
-          "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
-          "name": "Red Bull",
-          "nationality": "Austrian"
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
         }
       ]
     },
     {
       "position": "5",
       "positionText": "5",
-      "points": "233",
+      "points": "245",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: MEXICO CITY GRAND PRIX\n**Location**: Aut\u00f3dromo Hermanos Rodr\u00edguez | **Date**: 2026-11-01\n\n> *Deterministic Data Brief for the Mexico City Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
+  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: BRAZILIAN GRAND PRIX\n**Location**: Aut\u00f3dromo Jos\u00e9 Carlos Pace | **Date**: 2026-11-08\n\n> *Deterministic Data Brief for the Brazilian Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
 }
