@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 52,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 66,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#BrazilianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 62,
+      "score": 76,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 58,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 54,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 50,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 46,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,7 +115,7 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 42,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
@@ -126,50 +126,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "5 late-notice F1 debutants and how they fared as Ryo Hirakawa replaces Esteban Ocon in Mexico City - Formula 1",
+      "text": "OFFICIAL GRID: Who starts where for the Mexico City GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 10:27:00 GMT"
-    },
-    {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kimi Antonelli heads list of F1's youngest champions from Vettel, Hamilton, Alonso, Verstappen and Fittipaldi - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 22:28:28 GMT"
+      "time": "Sun, 01 Nov 2026 19:04:00 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Who Is Rafael Camara, the Haas Driver Tipped To Replace Esteban Ocon for Remaining 2026 F1 Races? - Yahoo Sports",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 00:01:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPFans",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Results Today: Kimi Antonelli makes F1 history after chaotic Mexican Grand Prix - GPFans",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 22:37:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Camara, Doohan or Hirakawa? Haas weighs three options for Ocon's seat in Brazil - GPblog",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 17:30:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mexico City Grand Prix qualifying result: Lewis Hamilton takes pole position - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 31 Oct 2026 22:15:37 GMT"
     }
   ],
   "xTracksideFeed": [
@@ -178,50 +178,50 @@
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "5 late-notice F1 debutants and how they fared as Ryo Hirakawa replaces Esteban Ocon in Mexico City - Formula 1",
+      "text": "OFFICIAL GRID: Who starts where for the Mexico City GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 10:27:00 GMT"
-    },
-    {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Kimi Antonelli heads list of F1's youngest champions from Vettel, Hamilton, Alonso, Verstappen and Fittipaldi - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 22:28:28 GMT"
+      "time": "Sun, 01 Nov 2026 19:04:00 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Who Is Rafael Camara, the Haas Driver Tipped To Replace Esteban Ocon for Remaining 2026 F1 Races? - Yahoo Sports",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 00:01:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPFans",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Results Today: Kimi Antonelli makes F1 history after chaotic Mexican Grand Prix - GPFans",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 22:37:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Camara, Doohan or Hirakawa? Haas weighs three options for Ocon's seat in Brazil - GPblog",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 17:30:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Mexico City Grand Prix qualifying result: Lewis Hamilton takes pole position - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 31 Oct 2026 22:15:37 GMT"
     }
   ]
 }
