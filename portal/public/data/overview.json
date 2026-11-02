@@ -1,12 +1,12 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-11-02T18:38:45.338582Z",
+  "updatedAt": "2026-11-02T22:25:19.962276Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
     "sessionType": null,
     "dataStatus": "STALE",
-    "lastUpdatedUtc": "2026-11-02T13:08:26.832999Z",
+    "lastUpdatedUtc": "2026-11-02T22:25:19.446531Z",
     "nextSession": {
       "name": "FP1",
       "timeUtc": "2026-11-06T15:30:00Z"
@@ -15,10 +15,11 @@
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -60,10 +61,10 @@
   },
   "circuitWeather": {
     "circuit": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
-    "ambientTemp": "23\u00b0C",
-    "trackTemp": "28\u00b0C",
+    "ambientTemp": "20\u00b0C",
+    "trackTemp": "24\u00b0C",
     "rainRisk": "2%",
-    "wind": "10 km/h NE",
+    "wind": "11 km/h NE",
     "humidity": "88%"
   },
   "schedule": [
@@ -1021,7 +1022,7 @@
     {
       "position": "7",
       "positionText": "7",
-      "points": "150",
+      "points": "144",
       "wins": "0",
       "Driver": {
         "driverId": "piastri",
@@ -1045,7 +1046,7 @@
     {
       "position": "8",
       "positionText": "8",
-      "points": "105",
+      "points": "107",
       "wins": "0",
       "Driver": {
         "driverId": "hadjar",
@@ -1069,7 +1070,7 @@
     {
       "position": "9",
       "positionText": "9",
-      "points": "79",
+      "points": "83",
       "wins": "0",
       "Driver": {
         "driverId": "lawson",
@@ -1099,7 +1100,7 @@
     {
       "position": "10",
       "positionText": "10",
-      "points": "43",
+      "points": "42",
       "wins": "0",
       "Driver": {
         "driverId": "gasly",
@@ -1147,7 +1148,7 @@
     {
       "position": "12",
       "positionText": "12",
-      "points": "31",
+      "points": "27",
       "wins": "0",
       "Driver": {
         "driverId": "colapinto",
@@ -1195,17 +1196,17 @@
     {
       "position": "14",
       "positionText": "14",
-      "points": "13",
+      "points": "14",
       "wins": "0",
       "Driver": {
-        "driverId": "hulkenberg",
-        "permanentNumber": "27",
-        "code": "HUL",
-        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
-        "givenName": "Nico",
-        "familyName": "H\u00fclkenberg",
-        "dateOfBirth": "1987-08-19",
-        "nationality": "German"
+        "driverId": "bortoleto",
+        "permanentNumber": "5",
+        "code": "BOR",
+        "url": "https://en.wikipedia.org/wiki/Gabriel_Bortoleto",
+        "givenName": "Gabriel",
+        "familyName": "Bortoleto",
+        "dateOfBirth": "2004-10-14",
+        "nationality": "Brazilian"
       },
       "Constructors": [
         {
@@ -1219,17 +1220,17 @@
     {
       "position": "15",
       "positionText": "15",
-      "points": "10",
+      "points": "13",
       "wins": "0",
       "Driver": {
-        "driverId": "bortoleto",
-        "permanentNumber": "5",
-        "code": "BOR",
-        "url": "https://en.wikipedia.org/wiki/Gabriel_Bortoleto",
-        "givenName": "Gabriel",
-        "familyName": "Bortoleto",
-        "dateOfBirth": "2004-10-14",
-        "nationality": "Brazilian"
+        "driverId": "hulkenberg",
+        "permanentNumber": "27",
+        "code": "HUL",
+        "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
+        "givenName": "Nico",
+        "familyName": "H\u00fclkenberg",
+        "dateOfBirth": "1987-08-19",
+        "nationality": "German"
       },
       "Constructors": [
         {
@@ -1363,6 +1364,30 @@
     {
       "position": "21",
       "positionText": "21",
+      "points": "1",
+      "wins": "0",
+      "Driver": {
+        "driverId": "ryo_hirakawa",
+        "permanentNumber": "50",
+        "code": "HIR",
+        "url": "https://en.wikipedia.org/wiki/Ryo_Hirakawa",
+        "givenName": "Ryo",
+        "familyName": "Hirakawa",
+        "dateOfBirth": "1994-03-07",
+        "nationality": "Japanese"
+      },
+      "Constructors": [
+        {
+          "constructorId": "haas",
+          "url": "https://en.wikipedia.org/wiki/Haas_F1_Team",
+          "name": "Haas F1 Team",
+          "nationality": "American"
+        }
+      ]
+    },
+    {
+      "position": "22",
+      "positionText": "22",
       "points": "0",
       "wins": "0",
       "Driver": {
@@ -1385,8 +1410,8 @@
       ]
     },
     {
-      "position": "22",
-      "positionText": "22",
+      "position": "23",
+      "positionText": "23",
       "points": "0",
       "wins": "0",
       "Driver": {
@@ -1404,30 +1429,6 @@
           "constructorId": "cadillac",
           "url": "https://en.wikipedia.org/wiki/Cadillac_in_Formula_One",
           "name": "Cadillac F1 Team",
-          "nationality": "American"
-        }
-      ]
-    },
-    {
-      "position": "23",
-      "positionText": "23",
-      "points": "0",
-      "wins": "0",
-      "Driver": {
-        "driverId": "ryo_hirakawa",
-        "permanentNumber": "50",
-        "code": "HIR",
-        "url": "https://en.wikipedia.org/wiki/Ryo_Hirakawa",
-        "givenName": "Ryo",
-        "familyName": "Hirakawa",
-        "dateOfBirth": "1994-03-07",
-        "nationality": "Japanese"
-      },
-      "Constructors": [
-        {
-          "constructorId": "haas",
-          "url": "https://en.wikipedia.org/wiki/Haas_F1_Team",
-          "name": "Haas F1 Team",
           "nationality": "American"
         }
       ]
@@ -1485,7 +1486,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "380",
+      "points": "382",
       "wins": "3",
       "Constructor": {
         "constructorId": "red_bull",
@@ -1497,7 +1498,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "371",
+      "points": "365",
       "wins": "2",
       "Constructor": {
         "constructorId": "mclaren",
@@ -1509,7 +1510,7 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "104",
+      "points": "108",
       "wins": "0",
       "Constructor": {
         "constructorId": "rb",
@@ -1521,7 +1522,7 @@
     {
       "position": "6",
       "positionText": "6",
-      "points": "74",
+      "points": "69",
       "wins": "0",
       "Constructor": {
         "constructorId": "alpine",
@@ -1533,7 +1534,7 @@
     {
       "position": "7",
       "positionText": "7",
-      "points": "30",
+      "points": "31",
       "wins": "0",
       "Constructor": {
         "constructorId": "haas",
@@ -1545,7 +1546,7 @@
     {
       "position": "8",
       "positionText": "8",
-      "points": "23",
+      "points": "27",
       "wins": "0",
       "Constructor": {
         "constructorId": "audi",
@@ -1597,7 +1598,7 @@
     "raceName": "Brazilian Grand Prix",
     "circuitName": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
     "date": "2026-11-08",
-    "generatedAt": "2026-11-02T13:08:26.831043",
+    "generatedAt": "2026-11-02T22:25:19.445157",
     "facts": [
       {
         "topic": "Championship Stakes",
@@ -1742,7 +1743,7 @@
     "raceName": "Brazilian Grand Prix",
     "circuitName": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
     "date": "2026-11-08",
-    "generatedAt": "2026-11-02T13:08:26.831934",
+    "generatedAt": "2026-11-02T22:25:19.445608",
     "facts": [],
     "teammateBattles": [
       {
@@ -1915,232 +1916,5 @@
     }
   ],
   "sprintResults": [],
-  "qualifyingResults": [],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "POSITIVE",
-    "sentimentScore": 66,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 76,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 72,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 68,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 64,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 60,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 56,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Yahoo Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "McLaren",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "BBC",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mexico City Grand Prix qualifying result: Lewis Hamilton takes pole position - BBC",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 31 Oct 2026 22:15:37 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Yahoo Sports",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "ESPN",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "McLaren",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "BBC",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Mexico City Grand Prix qualifying result: Lewis Hamilton takes pole position - BBC",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sat, 31 Oct 2026 22:15:37 GMT"
-      }
-    ]
-  }
+  "qualifyingResults": []
 }
