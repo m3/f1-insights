@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "POSITIVE",
-  "sentimentScore": 66,
+  "overallSentiment": "NEUTRAL",
+  "sentimentScore": 56,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#BrazilianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 76,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 72,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 68,
+      "score": 58,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 64,
+      "score": 54,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 60,
+      "score": 50,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 56,
+      "score": 46,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "RacingNews365",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "OFFICIAL GRID: Who starts where for the Mexico City GP - Formula 1",
+      "text": "2026 F1 Sao Paulo Grand Prix - Brazil Time Schedule - RacingNews365",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 19:04:00 GMT"
+      "time": "Mon, 02 Nov 2026 05:00:00 GMT"
+    },
+    {
+      "author": "Grande Pr\u00eamio",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "New F1 champion Antonelli prepares emotional Senna tribute for first race since Mexico title - Grande Pr\u00eamio",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 02 Nov 2026 12:00:00 GMT"
+    },
+    {
+      "author": "grandprix247",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "On This Day in Formula 1: Hamilton's Last-Lap Miracle Breaks Massa's Heart in Brazil - grandprix247",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 02 Nov 2026 06:30:00 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
+      "text": "Who Is Rafael Camara, the Haas Driver Tipped To Replace Esteban Ocon for Remaining 2026 F1 Races? - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 01 Nov 2026 00:01:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Camara, Doohan or Hirakawa? Haas weighs three options for Ocon's seat in Brazil - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Mexico City Grand Prix qualifying result: Lewis Hamilton takes pole position - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 22:15:37 GMT"
+      "time": "Sun, 01 Nov 2026 17:30:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "RacingNews365",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "OFFICIAL GRID: Who starts where for the Mexico City GP - Formula 1",
+      "text": "2026 F1 Sao Paulo Grand Prix - Brazil Time Schedule - RacingNews365",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 01 Nov 2026 19:04:00 GMT"
+      "time": "Mon, 02 Nov 2026 05:00:00 GMT"
+    },
+    {
+      "author": "Grande Pr\u00eamio",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "New F1 champion Antonelli prepares emotional Senna tribute for first race since Mexico title - Grande Pr\u00eamio",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 02 Nov 2026 12:00:00 GMT"
+    },
+    {
+      "author": "grandprix247",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "On This Day in Formula 1: Hamilton's Last-Lap Miracle Breaks Massa's Heart in Brazil - grandprix247",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Mon, 02 Nov 2026 06:30:00 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
+      "text": "Who Is Rafael Camara, the Haas Driver Tipped To Replace Esteban Ocon for Remaining 2026 F1 Races? - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 01 Nov 2026 00:01:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Camara, Doohan or Hirakawa? Haas weighs three options for Ocon's seat in Brazil - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "BBC",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Mexico City Grand Prix qualifying result: Lewis Hamilton takes pole position - BBC",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 31 Oct 2026 22:15:37 GMT"
+      "time": "Sun, 01 Nov 2026 17:30:00 GMT"
     }
   ]
 }
