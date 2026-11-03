@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 66,
+  "sentimentScore": 65,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#BrazilianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 76,
+      "score": 75,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 72,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 68,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 64,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 60,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 56,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Mercedes can win the 2026 F1 constructors' championship at the Brazilian GP - Motorsport.com",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 03 Nov 2026 16:02:10 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is F1's 2026 Brazilian Grand Prix? Full weekend schedule - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 03 Nov 2026 09:02:25 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is the 2026 Sao Paulo GP and how can I watch it? - Formula 1",
+      "text": "OFFICIAL GRID: Who starts where for the Mexico City GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 03 Nov 2026 17:04:00 GMT"
+      "time": "Sun, 01 Nov 2026 19:04:00 GMT"
     },
     {
-      "author": "Grande Pr\u00eamio",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 returns to Brazil: S\u00e3o Paulo GP schedule as Antonelli begins reign as world champion - Grande Pr\u00eamio",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 03 Nov 2026 12:30:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "S\u00e3o Paulo Grand Prix 2026: Race in Brazil start time, how to watch, full schedule, predictions - ESPN",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 02 Nov 2026 18:48:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How Mercedes can win the 2026 F1 constructors' championship at the Brazilian GP - Motorsport.com",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 03 Nov 2026 16:02:10 GMT"
-    },
-    {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is F1's 2026 Brazilian Grand Prix? Full weekend schedule - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Tue, 03 Nov 2026 09:02:25 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What time is the 2026 Sao Paulo GP and how can I watch it? - Formula 1",
+      "text": "OFFICIAL GRID: Who starts where for the Mexico City GP - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 03 Nov 2026 17:04:00 GMT"
+      "time": "Sun, 01 Nov 2026 19:04:00 GMT"
     },
     {
-      "author": "Grande Pr\u00eamio",
+      "author": "Forbes",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 returns to Brazil: S\u00e3o Paulo GP schedule as Antonelli begins reign as world champion - Grande Pr\u00eamio",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 03 Nov 2026 12:30:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "S\u00e3o Paulo Grand Prix 2026: Race in Brazil start time, how to watch, full schedule, predictions - ESPN",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 02 Nov 2026 18:48:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Hungarian Grand Prix briefing: Norris wins, more pain and penalties for Russell and Hamilton - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
