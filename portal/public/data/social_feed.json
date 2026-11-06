@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 71,
+  "sentimentScore": 62,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#BrazilianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 81,
-      "sentiment": "Positive",
+      "score": 72,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 77,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 73,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 69,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 65,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 61,
+      "score": 52,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What we learned from day one of F1's Brazilian Grand Prix - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 05 Nov 2026 21:34:31 GMT"
+    },
+    {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "More details emerge on Verstappen\u2019s potential grid penalty at the Brazilian GP - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 05 Nov 2026 14:35:41 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Brazil GP: Friday schedule, weather forecast and how to watch - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 05 Nov 2026 20:24:53 GMT"
+    },
+    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Hungarian Grand Prix is special - Formula 1",
+      "text": "What time is the 2026 Sao Paulo GP and how can I watch it? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 05 Nov 2026 15:19:00 GMT"
+      "time": "Tue, 03 Nov 2026 17:04:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
+      "text": "Lewis Hamilton statement, Russell Q1 horror and more Brazilian GP predictions - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 05 Nov 2026 06:09:42 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "The Race",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "What we learned from day one of F1's Brazilian Grand Prix - The Race",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 05 Nov 2026 21:34:31 GMT"
+    },
+    {
+      "author": "GPblog",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "More details emerge on Verstappen\u2019s potential grid penalty at the Brazilian GP - GPblog",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 05 Nov 2026 14:35:41 GMT"
+    },
+    {
+      "author": "Motorsport.com",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 Brazil GP: Friday schedule, weather forecast and how to watch - Motorsport.com",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Thu, 05 Nov 2026 20:24:53 GMT"
+    },
+    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Hungarian Grand Prix is special - Formula 1",
+      "text": "What time is the 2026 Sao Paulo GP and how can I watch it? - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 05 Nov 2026 15:19:00 GMT"
+      "time": "Tue, 03 Nov 2026 17:04:00 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
+      "text": "Lewis Hamilton statement, Russell Q1 horror and more Brazilian GP predictions - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "ESPN",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Yahoo Sports",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 Hungarian Grand Prix Prediction, Picks & Odds: Hungaroring 2026 - Yahoo Sports",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Thu, 05 Nov 2026 06:09:42 GMT"
     }
   ]
 }
