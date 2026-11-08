@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 60,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 66,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#BrazilianGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 70,
+      "score": 76,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 66,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 62,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 58,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 54,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 50,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 2026 Brazilian Grand Prix starting grid with five penalties - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 21:06:10 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 F1 Brazilian Grand Prix starting grid - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 21:02:54 GMT"
-    },
-    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hamilton, Leclerc and Verstappen take Brazil grid drops - Formula 1",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 14:56:00 GMT"
+      "time": "Sat, 07 Nov 2026 05:02:23 GMT"
     },
     {
-      "author": "The Race",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 2026 Brazilian GP qualifying results - The Race",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 20:31:10 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FIA confirms 30-place Max Verstappen penalty at Brazilian Grand Prix - PlanetF1",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 16:09:02 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The Straits Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Former youngest champion Fittipaldi hails Antonelli's rise - The Straits Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 07 Nov 2026 20:43:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "The Race",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "F1 2026 Brazilian Grand Prix starting grid with five penalties - The Race",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 21:06:10 GMT"
-    },
-    {
-      "author": "Motorsport.com",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 F1 Brazilian Grand Prix starting grid - Motorsport.com",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 21:02:54 GMT"
-    },
-    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hamilton, Leclerc and Verstappen take Brazil grid drops - Formula 1",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 14:56:00 GMT"
+      "time": "Sat, 07 Nov 2026 05:02:23 GMT"
     },
     {
-      "author": "The Race",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 2026 Brazilian GP qualifying results - The Race",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 20:31:10 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "PlanetF1",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "FIA confirms 30-place Max Verstappen penalty at Brazilian Grand Prix - PlanetF1",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 07 Nov 2026 16:09:02 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "author": "The Straits Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Former youngest champion Fittipaldi hails Antonelli's rise - The Straits Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 07 Nov 2026 20:43:00 GMT"
     }
   ]
 }
