@@ -1,9 +1,9 @@
 {
   "sectorMatrix": [],
   "circuitSpecs": {
-    "circuitName": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
-    "circuitId": "interlagos",
-    "lat": "-23.7036",
-    "lng": "-46.6997"
+    "circuitName": "Las Vegas Strip Street Circuit",
+    "circuitId": "vegas",
+    "lat": "36.1147",
+    "lng": "-115.173"
   }
 }

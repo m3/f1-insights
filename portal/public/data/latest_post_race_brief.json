@@ -1,10 +1,10 @@
 {
   "type": "POST_RACE",
-  "title": "Post-Race Debrief: Brazilian Grand Prix",
-  "raceName": "Brazilian Grand Prix",
-  "circuitName": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
-  "date": "2026-11-08",
-  "generatedAt": "2026-11-08T22:43:48.889757",
+  "title": "Post-Race Debrief: Las Vegas Grand Prix",
+  "raceName": "Las Vegas Grand Prix",
+  "circuitName": "Las Vegas Strip Street Circuit",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-09T02:24:07.180228",
   "facts": [],
   "teammateBattles": [
     {
@@ -129,7 +129,7 @@
     {
       "position": "5",
       "positionText": "5",
-      "points": "251",
+      "points": "249",
       "wins": "1",
       "Driver": {
         "driverId": "leclerc",
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: BRAZILIAN GRAND PRIX\n**Location**: Aut\u00f3dromo Jos\u00e9 Carlos Pace | **Date**: 2026-11-08\n\n> *Deterministic Data Brief for the Brazilian Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
+  "markdown": "# \ud83c\udfc1 F1 POST-RACE DEBRIEF: LAS VEGAS GRAND PRIX\n**Location**: Las Vegas Strip Street Circuit | **Date**: 2026-11-22\n\n> *Deterministic Data Brief for the Las Vegas Grand Prix*\n\n---\n\n### \ud83d\udcca TELEMETRY & STRATEGY RECAP\n### \u2694\ufe0f TEAMMATE HEAD-TO-HEAD BATTLES\n- **Ferrari** (HAM vs LEC): Quali `2 - 3` | Race `3 - 2` -> Leader: **HAM Ahead**\n- **Red Bull** (VER vs HAD): Quali `3 - 2` | Race `4 - 1` -> Leader: **VER Ahead**\n- **Alpine F1 Team** (COL vs GAS): Quali `2 - 3` | Race `2 - 3` -> Leader: **GAS Ahead**\n"
 }
