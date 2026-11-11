@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#LasVegasGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Las Vegas Grand Prix announces pre-race music line-up - Motorsport.com",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 23:57:29 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "RACER - Racing News",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas GP to be free to watch on Apple TV - RACER - Racing News",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 19:58:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Las Vegas Review-Journal",
+      "author": "McLaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas Grand Prix circuit prep heading down final stretch before race week - Las Vegas Review-Journal",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 19:54:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari shares new look for Hamilton and Leclerc ahead of Las Vegas GP - GPblog",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 10 Nov 2026 13:49:14 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "AppleInsider",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How to watch the Las Vegas F1 Grand Prix for free on Apple TV - AppleInsider",
+      "text": "Formula One statistics for the Hungarian Grand Prix - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 18:47:00 GMT"
+      "time": "Wed, 22 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Las Vegas Grand Prix announces pre-race music line-up - Motorsport.com",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 23:57:29 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "RACER - Racing News",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas GP to be free to watch on Apple TV - RACER - Racing News",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 19:58:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Las Vegas Review-Journal",
+      "author": "McLaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas Grand Prix circuit prep heading down final stretch before race week - Las Vegas Review-Journal",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 19:54:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari shares new look for Hamilton and Leclerc ahead of Las Vegas GP - GPblog",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 10 Nov 2026 13:49:14 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "AppleInsider",
+      "author": "Reuters",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "How to watch the Las Vegas F1 Grand Prix for free on Apple TV - AppleInsider",
+      "text": "Formula One statistics for the Hungarian Grand Prix - Reuters",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 18:47:00 GMT"
+      "time": "Wed, 22 Jul 2026 07:00:00 GMT"
     }
   ]
 }
