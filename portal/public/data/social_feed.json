@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 68,
+  "sentimentScore": 72,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#LasVegasGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 78,
-      "sentiment": "Mixed",
+      "score": 82,
+      "sentiment": "Positive",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 74,
+      "score": 78,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 70,
+      "score": 74,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 66,
+      "score": 70,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 62,
+      "score": 66,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 58,
+      "score": 62,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Las Vegas Grand Prix announces pre-race music line-up - Motorsport.com",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 23:57:29 GMT"
+      "time": "Mon, 09 Nov 2026 22:01:47 GMT"
     },
     {
-      "author": "RACER - Racing News",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas GP to be free to watch on Apple TV - RACER - Racing News",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 19:58:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Drive",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Season Will Finish in the Middle East After All - The Drive",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 10 Nov 2026 15:02:39 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "McLaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari shares new look for Hamilton and Leclerc ahead of Las Vegas GP - GPblog",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 10 Nov 2026 13:49:14 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "williamsf1",
+      "author": "The Tennessean",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Win a Las Vegas garage tour - williamsf1",
+      "text": "Emerson Fittipaldi, legendary F1 champion with two Indy 500 wins retired - The Tennessean",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 17:07:23 GMT"
+      "time": "Tue, 10 Nov 2026 11:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Las Vegas Grand Prix announces pre-race music line-up - Motorsport.com",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 23:57:29 GMT"
+      "time": "Mon, 09 Nov 2026 22:01:47 GMT"
     },
     {
-      "author": "RACER - Racing News",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas GP to be free to watch on Apple TV - RACER - Racing News",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 19:58:00 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Drive",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 Season Will Finish in the Middle East After All - The Drive",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 10 Nov 2026 15:02:39 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "GPblog",
+      "author": "McLaren.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Ferrari shares new look for Hamilton and Leclerc ahead of Las Vegas GP - GPblog",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 10 Nov 2026 13:49:14 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "williamsf1",
+      "author": "The Tennessean",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Win a Las Vegas garage tour - williamsf1",
+      "text": "Emerson Fittipaldi, legendary F1 champion with two Indy 500 wins retired - The Tennessean",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 17:07:23 GMT"
+      "time": "Tue, 10 Nov 2026 11:00:00 GMT"
     }
   ]
 }
