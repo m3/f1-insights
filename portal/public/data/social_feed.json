@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 72,
+  "sentimentScore": 61,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#LasVegasGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,8 +70,8 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 82,
-      "sentiment": "Positive",
+      "score": 71,
+      "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
     {
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 78,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 74,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 70,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 66,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 62,
+      "score": 51,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Hungarian Grand Prix is special - Formula 1",
+      "text": "F1 Las Vegas Grand Prix announces pre-race music line-up - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 22:01:47 GMT"
+      "time": "Mon, 09 Nov 2026 23:57:29 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "RACER - Racing News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
+      "text": "Las Vegas GP to be free to watch on Apple TV - RACER - Racing News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 09 Nov 2026 19:58:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "The Drive",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "F1 Season Will Finish in the Middle East After All - The Drive",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 10 Nov 2026 15:02:39 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "Rafael Camara reveals \u2018discussions\u2019 to see out F1 season with Haas - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 11 Nov 2026 01:10:43 GMT"
     },
     {
-      "author": "The Tennessean",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Emerson Fittipaldi, legendary F1 champion with two Indy 500 wins retired - The Tennessean",
+      "text": "Formula 1 makes final decision on hosting a Grand Prix in Imola - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 10 Nov 2026 11:00:00 GMT"
+      "time": "Tue, 10 Nov 2026 10:39:12 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "Motorsport.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Why the Hungarian Grand Prix is special - Formula 1",
+      "text": "F1 Las Vegas Grand Prix announces pre-race music line-up - Motorsport.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 09 Nov 2026 22:01:47 GMT"
+      "time": "Mon, 09 Nov 2026 23:57:29 GMT"
     },
     {
-      "author": "Yahoo Sports",
+      "author": "RACER - Racing News",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
+      "text": "Las Vegas GP to be free to watch on Apple TV - RACER - Racing News",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
+      "time": "Mon, 09 Nov 2026 19:58:00 GMT"
     },
     {
-      "author": "ESPN",
+      "author": "The Drive",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "F1 Season Will Finish in the Middle East After All - The Drive",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Tue, 10 Nov 2026 15:02:39 GMT"
     },
     {
-      "author": "McLaren.com",
+      "author": "PlanetF1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren.com",
+      "text": "Rafael Camara reveals \u2018discussions\u2019 to see out F1 season with Haas - PlanetF1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Wed, 11 Nov 2026 01:10:43 GMT"
     },
     {
-      "author": "The Tennessean",
+      "author": "GPblog",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Emerson Fittipaldi, legendary F1 champion with two Indy 500 wins retired - The Tennessean",
+      "text": "Formula 1 makes final decision on hosting a Grand Prix in Imola - GPblog",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Tue, 10 Nov 2026 11:00:00 GMT"
+      "time": "Tue, 10 Nov 2026 10:39:12 GMT"
     }
   ]
 }
