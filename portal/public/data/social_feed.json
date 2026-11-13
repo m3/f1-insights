@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 62,
+  "sentimentScore": 66,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#LasVegasGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 72,
+      "score": 76,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 68,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 64,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 60,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 56,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 52,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Fox News",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Former F1 grid girl wants Sydney Sweeney to bring the models back to the track ahead of Las Vegas Grand Prix - Fox News",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 13 Nov 2026 00:37:38 GMT"
+      "time": "Thu, 12 Nov 2026 02:36:01 GMT"
     },
     {
-      "author": "Racer",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren keeps development push going for Las Vegas GP - Racer",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 11 Nov 2026 17:24:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "KSNV",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Officials detail security and traffic plans ahead of Formula 1 Las Vegas Grand Prix - KSNV",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 13 Nov 2026 05:06:29 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas GP dates, UK start time and Sky Sports F1's live schedule - practice, qualifying and race - Sky Sports",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 13 Nov 2026 06:02:32 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Detroit News",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Sport Beach Unveils Full Slate of Programming for Formula 1 Heineken Las Vegas Grand Prix 2026 Race Week - The Detroit News",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 12 Nov 2026 16:14:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Fox News",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Former F1 grid girl wants Sydney Sweeney to bring the models back to the track ahead of Las Vegas Grand Prix - Fox News",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 13 Nov 2026 00:37:38 GMT"
+      "time": "Thu, 12 Nov 2026 02:36:01 GMT"
     },
     {
-      "author": "Racer",
+      "author": "McLaren",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "McLaren keeps development push going for Las Vegas GP - Racer",
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 11 Nov 2026 17:24:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "KSNV",
+      "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Officials detail security and traffic plans ahead of Formula 1 Las Vegas Grand Prix - KSNV",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 13 Nov 2026 05:06:29 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas GP dates, UK start time and Sky Sports F1's live schedule - practice, qualifying and race - Sky Sports",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 13 Nov 2026 06:02:32 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "The Detroit News",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Sport Beach Unveils Full Slate of Programming for Formula 1 Heineken Las Vegas Grand Prix 2026 Race Week - The Detroit News",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 12 Nov 2026 16:14:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
