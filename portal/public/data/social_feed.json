@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
   "overallSentiment": "POSITIVE",
-  "sentimentScore": 63,
+  "sentimentScore": 66,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#LasVegasGrandPrix",
+    "#HungarianGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 73,
+      "score": 76,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 69,
+      "score": 72,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 65,
+      "score": 68,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 61,
+      "score": 64,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 57,
+      "score": 60,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 53,
+      "score": 56,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas GP reveals neon sign-inspired trophy design - Motorsport.com",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 13 Nov 2026 16:09:45 GMT"
+      "time": "Sun, 15 Nov 2026 16:59:21 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 15 Nov 2026 13:20:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas Grand Prix Week: What Fans Need To Know As F1 Hits the Strip - Yahoo Sports",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 16 Nov 2026 06:17:37 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "'2027 season has started now' - Wolff says next season won't be easy for Mercedes - Sky Sports",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 16 Nov 2026 06:03:08 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is the next F1 race? Las Vegas GP dates and full schedule - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 15 Nov 2026 12:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Motorsport.com",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas GP reveals neon sign-inspired trophy design - Motorsport.com",
+      "text": "Why the Hungarian Grand Prix is special - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 13 Nov 2026 16:09:45 GMT"
+      "time": "Sun, 15 Nov 2026 16:59:21 GMT"
+    },
+    {
+      "author": "McLaren",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "ESPN",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "text": "Hungarian Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 15 Nov 2026 13:20:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Las Vegas Grand Prix Week: What Fans Need To Know As F1 Hits the Strip - Yahoo Sports",
+      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 16 Nov 2026 06:17:37 GMT"
+      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
     },
     {
-      "author": "Sky Sports",
+      "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "'2027 season has started now' - Wolff says next season won't be easy for Mercedes - Sky Sports",
+      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Mon, 16 Nov 2026 06:03:08 GMT"
-    },
-    {
-      "author": "Crash.net",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is the next F1 race? Las Vegas GP dates and full schedule - Crash.net",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 15 Nov 2026 12:00:00 GMT"
+      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
     }
   ]
 }
