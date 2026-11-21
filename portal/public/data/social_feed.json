@@ -1,11 +1,11 @@
 {
   "version": "2026.3",
-  "overallSentiment": "NEUTRAL",
-  "sentimentScore": 57,
+  "overallSentiment": "POSITIVE",
+  "sentimentScore": 65,
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#LasVegasGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -70,7 +70,7 @@
       "code": "NOR",
       "handle": "LandoNorris",
       "team": "McLaren",
-      "score": 67,
+      "score": 75,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LandoNorris"
     },
@@ -79,7 +79,7 @@
       "code": "PIA",
       "handle": "OscarPiastri",
       "team": "McLaren",
-      "score": 63,
+      "score": 71,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @OscarPiastri"
     },
@@ -88,7 +88,7 @@
       "code": "LEC",
       "handle": "Charles_Leclerc",
       "team": "Ferrari",
-      "score": 59,
+      "score": 67,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Charles_Leclerc"
     },
@@ -97,7 +97,7 @@
       "code": "HAM",
       "handle": "LewisHamilton",
       "team": "Ferrari",
-      "score": 55,
+      "score": 63,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LewisHamilton"
     },
@@ -106,7 +106,7 @@
       "code": "VER",
       "handle": "Max33Verstappen",
       "team": "Red Bull",
-      "score": 51,
+      "score": 59,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @Max33Verstappen"
     },
@@ -115,113 +115,113 @@
       "code": "LAW",
       "handle": "LiamLawson30",
       "team": "Red Bull",
-      "score": 47,
+      "score": 55,
       "sentiment": "Mixed",
       "buzz": "Monitored engagement around @LiamLawson30"
     }
   ],
   "breakingNewsTweets": [
     {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "'Somebody has to stand up to that guy' - Verstappen-Russell rivalry blows up again - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 08:13:58 GMT"
+    },
+    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "Max Verstappen reacts to inheriting Las Vegas pole position as he explains earlier practice struggles - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 21 Nov 2026 06:25:00 GMT"
+    },
+    {
+      "author": "CBS Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 Las Vegas Grand Prix picks, odds, grid, time: Formula One predictions, best bets from advanced model - CBS Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 15:06:14 GMT"
+    },
+    {
+      "author": "USA Today",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula 1 returns to Las Vegas: How to watch F1 Las Vegas Grand Prix - USA Today",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 15:01:00 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 bosses agree V8 engines deal from 2030 - Yahoo Sports",
+      "text": "Poll: Who Wins F1\u2019s Las Vegas Grand Prix? - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 20 Nov 2026 22:02:05 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Forbes",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 21 Nov 2026 13:00:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
+      "author": "BBC",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "'Somebody has to stand up to that guy' - Verstappen-Russell rivalry blows up again - BBC",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 08:13:58 GMT"
+    },
+    {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "Max Verstappen reacts to inheriting Las Vegas pole position as he explains earlier practice struggles - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 21 Nov 2026 06:25:00 GMT"
+    },
+    {
+      "author": "CBS Sports",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "2026 Las Vegas Grand Prix picks, odds, grid, time: Formula One predictions, best bets from advanced model - CBS Sports",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 15:06:14 GMT"
+    },
+    {
+      "author": "USA Today",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Formula 1 returns to Las Vegas: How to watch F1 Las Vegas Grand Prix - USA Today",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 15:01:00 GMT"
     },
     {
       "author": "Yahoo Sports",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "F1 bosses agree V8 engines deal from 2030 - Yahoo Sports",
+      "text": "Poll: Who Wins F1\u2019s Las Vegas Grand Prix? - Yahoo Sports",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Fri, 20 Nov 2026 22:02:05 GMT"
-    },
-    {
-      "author": "McLaren",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Forbes",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Sat, 25 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 21 Nov 2026 13:00:00 GMT"
     }
   ]
 }
