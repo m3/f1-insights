@@ -4,7 +4,7 @@
   "raceName": "Las Vegas Grand Prix",
   "circuitName": "Las Vegas Strip Street Circuit",
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T10:11:20.141903",
+  "generatedAt": "2026-11-22T17:58:54.141119",
   "facts": [],
   "teammateBattles": [
     {
@@ -33,7 +33,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "390",
+      "points": "402",
       "wins": "9",
       "Driver": {
         "driverId": "antonelli",
@@ -57,8 +57,8 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "279",
-      "wins": "3",
+      "points": "304",
+      "wins": "4",
       "Driver": {
         "driverId": "max_verstappen",
         "permanentNumber": "3",
@@ -81,31 +81,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "262",
-      "wins": "3",
-      "Driver": {
-        "driverId": "russell",
-        "permanentNumber": "63",
-        "code": "RUS",
-        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
-        "givenName": "George",
-        "familyName": "Russell",
-        "dateOfBirth": "1998-02-15",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mercedes",
-          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
-          "name": "Mercedes",
-          "nationality": "German"
-        }
-      ]
-    },
-    {
-      "position": "4",
-      "positionText": "4",
-      "points": "261",
+      "points": "267",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -127,26 +103,50 @@
       ]
     },
     {
-      "position": "5",
-      "positionText": "5",
-      "points": "249",
-      "wins": "1",
+      "position": "4",
+      "positionText": "4",
+      "points": "264",
+      "wins": "3",
       "Driver": {
-        "driverId": "leclerc",
-        "permanentNumber": "16",
-        "code": "LEC",
-        "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
-        "givenName": "Charles",
-        "familyName": "Leclerc",
-        "dateOfBirth": "1997-10-16",
-        "nationality": "Monegasque"
+        "driverId": "russell",
+        "permanentNumber": "63",
+        "code": "RUS",
+        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+        "givenName": "George",
+        "familyName": "Russell",
+        "dateOfBirth": "1998-02-15",
+        "nationality": "British"
       },
       "Constructors": [
         {
-          "constructorId": "ferrari",
-          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-          "name": "Ferrari",
-          "nationality": "Italian"
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "positionText": "5",
+      "points": "264",
+      "wins": "3",
+      "Driver": {
+        "driverId": "norris",
+        "permanentNumber": "1",
+        "code": "NOR",
+        "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+        "givenName": "Lando",
+        "familyName": "Norris",
+        "dateOfBirth": "1999-11-13",
+        "nationality": "British"
+      },
+      "Constructors": [
+        {
+          "constructorId": "mclaren",
+          "url": "https://en.wikipedia.org/wiki/McLaren",
+          "name": "McLaren",
+          "nationality": "British"
         }
       ]
     }

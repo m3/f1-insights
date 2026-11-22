@@ -1,21 +1,22 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-11-22T11:49:41.061065Z",
+  "updatedAt": "2026-11-22T17:58:54.695418Z",
   "timeline": {
     "format": "standard",
     "macroState": "POST_SESSION",
     "sessionType": "MainRace",
     "dataStatus": "PROCESSING",
-    "lastUpdatedUtc": "2026-11-22T10:11:20.142767Z",
+    "lastUpdatedUtc": "2026-11-22T17:58:54.142410Z",
     "nextSession": null
   },
   "provenance": {
     "sources": [
       "JolpicaErgast",
-      "FastF1",
-      "OpenMeteo",
-      "SocialMediaRadar"
+      "TracingInsights",
+      "OpenMeteo"
     ],
+    "tracingInsightsCommit": null,
+    "tracingInsightsSessions": [],
     "confidence": 1.0,
     "status": "available",
     "is_synthetic": false
@@ -874,7 +875,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "390",
+      "points": "402",
       "wins": "9",
       "Driver": {
         "driverId": "antonelli",
@@ -898,8 +899,8 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "279",
-      "wins": "3",
+      "points": "304",
+      "wins": "4",
       "Driver": {
         "driverId": "max_verstappen",
         "permanentNumber": "3",
@@ -922,31 +923,7 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "262",
-      "wins": "3",
-      "Driver": {
-        "driverId": "russell",
-        "permanentNumber": "63",
-        "code": "RUS",
-        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
-        "givenName": "George",
-        "familyName": "Russell",
-        "dateOfBirth": "1998-02-15",
-        "nationality": "British"
-      },
-      "Constructors": [
-        {
-          "constructorId": "mercedes",
-          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
-          "name": "Mercedes",
-          "nationality": "German"
-        }
-      ]
-    },
-    {
-      "position": "4",
-      "positionText": "4",
-      "points": "261",
+      "points": "267",
       "wins": "1",
       "Driver": {
         "driverId": "hamilton",
@@ -968,33 +945,33 @@
       ]
     },
     {
-      "position": "5",
-      "positionText": "5",
-      "points": "249",
-      "wins": "1",
+      "position": "4",
+      "positionText": "4",
+      "points": "264",
+      "wins": "3",
       "Driver": {
-        "driverId": "leclerc",
-        "permanentNumber": "16",
-        "code": "LEC",
-        "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
-        "givenName": "Charles",
-        "familyName": "Leclerc",
-        "dateOfBirth": "1997-10-16",
-        "nationality": "Monegasque"
+        "driverId": "russell",
+        "permanentNumber": "63",
+        "code": "RUS",
+        "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+        "givenName": "George",
+        "familyName": "Russell",
+        "dateOfBirth": "1998-02-15",
+        "nationality": "British"
       },
       "Constructors": [
         {
-          "constructorId": "ferrari",
-          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-          "name": "Ferrari",
-          "nationality": "Italian"
+          "constructorId": "mercedes",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+          "name": "Mercedes",
+          "nationality": "German"
         }
       ]
     },
     {
-      "position": "6",
-      "positionText": "6",
-      "points": "246",
+      "position": "5",
+      "positionText": "5",
+      "points": "264",
       "wins": "3",
       "Driver": {
         "driverId": "norris",
@@ -1016,9 +993,33 @@
       ]
     },
     {
+      "position": "6",
+      "positionText": "6",
+      "points": "250",
+      "wins": "1",
+      "Driver": {
+        "driverId": "leclerc",
+        "permanentNumber": "16",
+        "code": "LEC",
+        "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
+        "givenName": "Charles",
+        "familyName": "Leclerc",
+        "dateOfBirth": "1997-10-16",
+        "nationality": "Monegasque"
+      },
+      "Constructors": [
+        {
+          "constructorId": "ferrari",
+          "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+          "name": "Ferrari",
+          "nationality": "Italian"
+        }
+      ]
+    },
+    {
       "position": "7",
       "positionText": "7",
-      "points": "152",
+      "points": "167",
       "wins": "0",
       "Driver": {
         "driverId": "piastri",
@@ -1096,7 +1097,7 @@
     {
       "position": "10",
       "positionText": "10",
-      "points": "42",
+      "points": "52",
       "wins": "0",
       "Driver": {
         "driverId": "gasly",
@@ -1144,7 +1145,7 @@
     {
       "position": "12",
       "positionText": "12",
-      "points": "27",
+      "points": "35",
       "wins": "0",
       "Driver": {
         "driverId": "colapinto",
@@ -1240,6 +1241,30 @@
     {
       "position": "16",
       "positionText": "16",
+      "points": "11",
+      "wins": "0",
+      "Driver": {
+        "driverId": "sainz",
+        "permanentNumber": "55",
+        "code": "SAI",
+        "url": "http://en.wikipedia.org/wiki/Carlos_Sainz_Jr.",
+        "givenName": "Carlos",
+        "familyName": "Sainz",
+        "dateOfBirth": "1994-09-01",
+        "nationality": "Spanish"
+      },
+      "Constructors": [
+        {
+          "constructorId": "williams",
+          "url": "https://en.wikipedia.org/wiki/Williams_Racing",
+          "name": "Williams",
+          "nationality": "British"
+        }
+      ]
+    },
+    {
+      "position": "17",
+      "positionText": "17",
       "points": "7",
       "wins": "0",
       "Driver": {
@@ -1262,8 +1287,8 @@
       ]
     },
     {
-      "position": "17",
-      "positionText": "17",
+      "position": "18",
+      "positionText": "18",
       "points": "7",
       "wins": "0",
       "Driver": {
@@ -1281,30 +1306,6 @@
           "constructorId": "aston_martin",
           "url": "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
           "name": "Aston Martin",
-          "nationality": "British"
-        }
-      ]
-    },
-    {
-      "position": "18",
-      "positionText": "18",
-      "points": "7",
-      "wins": "0",
-      "Driver": {
-        "driverId": "sainz",
-        "permanentNumber": "55",
-        "code": "SAI",
-        "url": "http://en.wikipedia.org/wiki/Carlos_Sainz_Jr.",
-        "givenName": "Carlos",
-        "familyName": "Sainz",
-        "dateOfBirth": "1994-09-01",
-        "nationality": "Spanish"
-      },
-      "Constructors": [
-        {
-          "constructorId": "williams",
-          "url": "https://en.wikipedia.org/wiki/Williams_Racing",
-          "name": "Williams",
           "nationality": "British"
         }
       ]
@@ -1482,7 +1483,7 @@
     {
       "position": "1",
       "positionText": "1",
-      "points": "652",
+      "points": "666",
       "wins": "12",
       "Constructor": {
         "constructorId": "mercedes",
@@ -1494,7 +1495,7 @@
     {
       "position": "2",
       "positionText": "2",
-      "points": "510",
+      "points": "517",
       "wins": "2",
       "Constructor": {
         "constructorId": "ferrari",
@@ -1506,8 +1507,8 @@
     {
       "position": "3",
       "positionText": "3",
-      "points": "415",
-      "wins": "3",
+      "points": "440",
+      "wins": "4",
       "Constructor": {
         "constructorId": "red_bull",
         "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
@@ -1518,7 +1519,7 @@
     {
       "position": "4",
       "positionText": "4",
-      "points": "398",
+      "points": "431",
       "wins": "3",
       "Constructor": {
         "constructorId": "mclaren",
@@ -1542,7 +1543,7 @@
     {
       "position": "6",
       "positionText": "6",
-      "points": "69",
+      "points": "87",
       "wins": "0",
       "Constructor": {
         "constructorId": "alpine",
@@ -1578,7 +1579,7 @@
     {
       "position": "9",
       "positionText": "9",
-      "points": "12",
+      "points": "16",
       "wins": "0",
       "Constructor": {
         "constructorId": "williams",
@@ -1618,13 +1619,13 @@
     "raceName": "Las Vegas Grand Prix",
     "circuitName": "Las Vegas Strip Street Circuit",
     "date": "2026-11-22",
-    "generatedAt": "2026-11-22T10:11:20.141428",
+    "generatedAt": "2026-11-22T17:58:54.140081",
     "facts": [
       {
         "topic": "Championship Stakes",
         "badge": "Title Race",
-        "detail": "Antonelli leads Verstappen by 111 points in the World Drivers' Championship heading into Las Vegas Grand Prix.",
-        "stat": "111 Pts Gap",
+        "detail": "Antonelli leads Verstappen by 98 points in the World Drivers' Championship heading into Las Vegas Grand Prix.",
+        "stat": "98 Pts Gap",
         "source": "JolpicaErgast"
       }
     ],
@@ -1637,7 +1638,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "390",
+        "points": "402",
         "wins": "9",
         "Driver": {
           "driverId": "antonelli",
@@ -1661,8 +1662,8 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "279",
-        "wins": "3",
+        "points": "304",
+        "wins": "4",
         "Driver": {
           "driverId": "max_verstappen",
           "permanentNumber": "3",
@@ -1685,31 +1686,7 @@
       {
         "position": "3",
         "positionText": "3",
-        "points": "262",
-        "wins": "3",
-        "Driver": {
-          "driverId": "russell",
-          "permanentNumber": "63",
-          "code": "RUS",
-          "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
-          "givenName": "George",
-          "familyName": "Russell",
-          "dateOfBirth": "1998-02-15",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "mercedes",
-            "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
-            "name": "Mercedes",
-            "nationality": "German"
-          }
-        ]
-      },
-      {
-        "position": "4",
-        "positionText": "4",
-        "points": "261",
+        "points": "267",
         "wins": "1",
         "Driver": {
           "driverId": "hamilton",
@@ -1731,31 +1708,55 @@
         ]
       },
       {
-        "position": "5",
-        "positionText": "5",
-        "points": "249",
-        "wins": "1",
+        "position": "4",
+        "positionText": "4",
+        "points": "264",
+        "wins": "3",
         "Driver": {
-          "driverId": "leclerc",
-          "permanentNumber": "16",
-          "code": "LEC",
-          "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
-          "givenName": "Charles",
-          "familyName": "Leclerc",
-          "dateOfBirth": "1997-10-16",
-          "nationality": "Monegasque"
+          "driverId": "russell",
+          "permanentNumber": "63",
+          "code": "RUS",
+          "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+          "givenName": "George",
+          "familyName": "Russell",
+          "dateOfBirth": "1998-02-15",
+          "nationality": "British"
         },
         "Constructors": [
           {
-            "constructorId": "ferrari",
-            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-            "name": "Ferrari",
-            "nationality": "Italian"
+            "constructorId": "mercedes",
+            "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+            "name": "Mercedes",
+            "nationality": "German"
+          }
+        ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "264",
+        "wins": "3",
+        "Driver": {
+          "driverId": "norris",
+          "permanentNumber": "1",
+          "code": "NOR",
+          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+          "givenName": "Lando",
+          "familyName": "Norris",
+          "dateOfBirth": "1999-11-13",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "mclaren",
+            "url": "https://en.wikipedia.org/wiki/McLaren",
+            "name": "McLaren",
+            "nationality": "British"
           }
         ]
       }
     ],
-    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: LAS VEGAS GRAND PRIX\n**Location**: Las Vegas Strip Street Circuit | **Date**: 2026-11-22\n\n> *Deterministic Data Brief for the Las Vegas Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*111 Pts Gap*)\n  Antonelli leads Verstappen by 111 points in the World Drivers' Championship heading into Las Vegas Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 390 Pts (9 Wins)\n2. **Max Verstappen** (Red Bull) - 279 Pts (3 Wins)\n3. **George Russell** (Mercedes) - 262 Pts (3 Wins)\n4. **Lewis Hamilton** (Ferrari) - 261 Pts (1 Wins)\n5. **Charles Leclerc** (Ferrari) - 249 Pts (1 Wins)\n"
+    "markdown": "# \ud83c\udfce\ufe0f F1 PRE-RACE BRIEFING: LAS VEGAS GRAND PRIX\n**Location**: Las Vegas Strip Street Circuit | **Date**: 2026-11-22\n\n> *Deterministic Data Brief for the Las Vegas Grand Prix*\n\n---\n\n### \ud83d\udccc KEY WEEKEND HIGHLIGHTS & STRATEGY FORECAST\n- **[Title Race] Championship Stakes** (*98 Pts Gap*)\n  Antonelli leads Verstappen by 98 points in the World Drivers' Championship heading into Las Vegas Grand Prix.\n\n### \u26a0\ufe0f DRIVER PENALTY & LICENSE WATCH\nPenalty points data unavailable.\n\n### \ud83c\udfc6 CURRENT CHAMPIONSHIP TOP 5\n1. **Andrea Kimi Antonelli** (Mercedes) - 402 Pts (9 Wins)\n2. **Max Verstappen** (Red Bull) - 304 Pts (4 Wins)\n3. **Lewis Hamilton** (Ferrari) - 267 Pts (1 Wins)\n4. **George Russell** (Mercedes) - 264 Pts (3 Wins)\n5. **Lando Norris** (McLaren) - 264 Pts (3 Wins)\n"
   },
   "latestPostBrief": {
     "type": "POST_RACE",
@@ -1763,7 +1764,7 @@
     "raceName": "Las Vegas Grand Prix",
     "circuitName": "Las Vegas Strip Street Circuit",
     "date": "2026-11-22",
-    "generatedAt": "2026-11-22T10:11:20.141903",
+    "generatedAt": "2026-11-22T17:58:54.141119",
     "facts": [],
     "teammateBattles": [
       {
@@ -1792,7 +1793,7 @@
       {
         "position": "1",
         "positionText": "1",
-        "points": "390",
+        "points": "402",
         "wins": "9",
         "Driver": {
           "driverId": "antonelli",
@@ -1816,8 +1817,8 @@
       {
         "position": "2",
         "positionText": "2",
-        "points": "279",
-        "wins": "3",
+        "points": "304",
+        "wins": "4",
         "Driver": {
           "driverId": "max_verstappen",
           "permanentNumber": "3",
@@ -1840,31 +1841,7 @@
       {
         "position": "3",
         "positionText": "3",
-        "points": "262",
-        "wins": "3",
-        "Driver": {
-          "driverId": "russell",
-          "permanentNumber": "63",
-          "code": "RUS",
-          "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
-          "givenName": "George",
-          "familyName": "Russell",
-          "dateOfBirth": "1998-02-15",
-          "nationality": "British"
-        },
-        "Constructors": [
-          {
-            "constructorId": "mercedes",
-            "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
-            "name": "Mercedes",
-            "nationality": "German"
-          }
-        ]
-      },
-      {
-        "position": "4",
-        "positionText": "4",
-        "points": "261",
+        "points": "267",
         "wins": "1",
         "Driver": {
           "driverId": "hamilton",
@@ -1886,26 +1863,50 @@
         ]
       },
       {
-        "position": "5",
-        "positionText": "5",
-        "points": "249",
-        "wins": "1",
+        "position": "4",
+        "positionText": "4",
+        "points": "264",
+        "wins": "3",
         "Driver": {
-          "driverId": "leclerc",
-          "permanentNumber": "16",
-          "code": "LEC",
-          "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
-          "givenName": "Charles",
-          "familyName": "Leclerc",
-          "dateOfBirth": "1997-10-16",
-          "nationality": "Monegasque"
+          "driverId": "russell",
+          "permanentNumber": "63",
+          "code": "RUS",
+          "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+          "givenName": "George",
+          "familyName": "Russell",
+          "dateOfBirth": "1998-02-15",
+          "nationality": "British"
         },
         "Constructors": [
           {
-            "constructorId": "ferrari",
-            "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
-            "name": "Ferrari",
-            "nationality": "Italian"
+            "constructorId": "mercedes",
+            "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+            "name": "Mercedes",
+            "nationality": "German"
+          }
+        ]
+      },
+      {
+        "position": "5",
+        "positionText": "5",
+        "points": "264",
+        "wins": "3",
+        "Driver": {
+          "driverId": "norris",
+          "permanentNumber": "1",
+          "code": "NOR",
+          "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+          "givenName": "Lando",
+          "familyName": "Norris",
+          "dateOfBirth": "1999-11-13",
+          "nationality": "British"
+        },
+        "Constructors": [
+          {
+            "constructorId": "mclaren",
+            "url": "https://en.wikipedia.org/wiki/McLaren",
+            "name": "McLaren",
+            "nationality": "British"
           }
         ]
       }
@@ -2425,232 +2426,5 @@
       },
       "Q1": "1:48.005"
     }
-  ],
-  "socialSentiment": {
-    "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 55,
-    "monitoredAccountsCount": 11,
-    "youtubeSourcesCount": 5,
-    "trendingHashtags": [
-      "#HungarianGrandPrix",
-      "#F1",
-      "#F12026",
-      "#Formula1",
-      "#TechF1"
-    ],
-    "keywords": {
-      "technical": [
-        "telemetry",
-        "floor upgrade",
-        "sidepod undercut",
-        "tyre degradation",
-        "MGU-K",
-        "active aerodynamics",
-        "driving technique",
-        "corner entry speed"
-      ],
-      "regulatory": [
-        "stewards decision",
-        "track limits",
-        "penalty points",
-        "cost cap",
-        "FIA summons"
-      ],
-      "live_coverage": [
-        "watchalong",
-        "live timing",
-        "FP1 commentary",
-        "quali reaction",
-        "race commentary"
-      ]
-    },
-    "youtubeSources": [
-      {
-        "channel_name": "F1 Gamer",
-        "handle": "@F1Gamer",
-        "focus": "Live Race/Qualifying Commentary & Real-Time Data Watchalongs"
-      },
-      {
-        "channel_name": "Peter Windsor",
-        "handle": "@peterwindsor",
-        "focus": "Grand Prix Debriefs & Driver Technique Analysis"
-      },
-      {
-        "channel_name": "Donut - Up to Speed",
-        "handle": "@donut",
-        "focus": "Automotive & Motorsport History/Deep Dives"
-      },
-      {
-        "channel_name": "Brrrake F1",
-        "handle": "@brrrake",
-        "focus": "Telemetry & Engineer Reaction"
-      },
-      {
-        "channel_name": "Autosport",
-        "handle": "@autosport",
-        "focus": "Technical Upgrades & Paddock Debriefs"
-      }
-    ],
-    "driverSentimentRanking": [
-      {
-        "driver": "Lando Norris",
-        "code": "NOR",
-        "handle": "LandoNorris",
-        "team": "McLaren",
-        "score": 65,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LandoNorris"
-      },
-      {
-        "driver": "Oscar Piastri",
-        "code": "PIA",
-        "handle": "OscarPiastri",
-        "team": "McLaren",
-        "score": 61,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @OscarPiastri"
-      },
-      {
-        "driver": "Charles Leclerc",
-        "code": "LEC",
-        "handle": "Charles_Leclerc",
-        "team": "Ferrari",
-        "score": 57,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Charles_Leclerc"
-      },
-      {
-        "driver": "Lewis Hamilton",
-        "code": "HAM",
-        "handle": "LewisHamilton",
-        "team": "Ferrari",
-        "score": 53,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LewisHamilton"
-      },
-      {
-        "driver": "Max Verstappen",
-        "code": "VER",
-        "handle": "Max33Verstappen",
-        "team": "Red Bull",
-        "score": 49,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @Max33Verstappen"
-      },
-      {
-        "driver": "Liam Lawson",
-        "code": "LAW",
-        "handle": "LiamLawson30",
-        "team": "Red Bull",
-        "score": 45,
-        "sentiment": "Mixed",
-        "buzz": "Monitored engagement around @LiamLawson30"
-      }
-    ],
-    "breakingNewsTweets": [
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "What is the weather forecast for the 2026 Hungarian Grand Prix? - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 22 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "What time is the 2026 Hungarian GP and how can I watch it? - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 22 Jul 2026 07:00:00 GMT"
-      }
-    ],
-    "xTracksideFeed": [
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "What is the weather forecast for the 2026 Hungarian Grand Prix? - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 22 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "What time is the 2026 Hungarian GP and how can I watch it? - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 22 Jul 2026 07:00:00 GMT"
-      }
-    ]
-  }
+  ]
 }
