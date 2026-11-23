@@ -5,7 +5,7 @@
   "monitoredAccountsCount": 11,
   "youtubeSourcesCount": 5,
   "trendingHashtags": [
-    "#HungarianGrandPrix",
+    "#QatarGrandPrix",
     "#F1",
     "#F12026",
     "#Formula1",
@@ -122,106 +122,106 @@
   ],
   "breakingNewsTweets": [
     {
-      "author": "Formula 1",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "Qatar Grand Prix 2026: Drivers to be limited to 27 laps for each set of tyres - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 21 Nov 2026 01:16:54 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Drivers limited to 27-lap tyre stint as rule reintroduced for Qatar Grand Prix - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 08:36:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 teams face 27-lap tire limit at Qatar Grand Prix, forcing at least 2 pit stops - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 01:16:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
+      "text": "Perez hit with five-place penalty in Qatar for Camara clash - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 22 Nov 2026 09:35:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What is the weather forecast for the 2026 Hungarian Grand Prix? - Formula 1",
+      "text": "Verstappen says he would rather stay home than race in Qatar - Grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 22 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is the 2026 Hungarian GP and how can I watch it? - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 22 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 22 Nov 2026 16:48:00 GMT"
     }
   ],
   "xTracksideFeed": [
     {
-      "author": "Formula 1",
+      "author": "BBC",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
+      "text": "Qatar Grand Prix 2026: Drivers to be limited to 27 laps for each set of tyres - BBC",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      "time": "Sat, 21 Nov 2026 01:16:54 GMT"
+    },
+    {
+      "author": "ESPN",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "Drivers limited to 27-lap tyre stint as rule reintroduced for Qatar Grand Prix - ESPN",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 08:36:00 GMT"
+    },
+    {
+      "author": "The New York Times",
+      "handle": "NewsRadar",
+      "type": "Media Outlet",
+      "weight": 0.8,
+      "text": "F1 teams face 27-lap tire limit at Qatar Grand Prix, forcing at least 2 pit stops - The New York Times",
+      "likes": "N/A",
+      "retweets": "N/A",
+      "time": "Sat, 21 Nov 2026 01:16:00 GMT"
     },
     {
       "author": "Formula 1",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
+      "text": "Perez hit with five-place penalty in Qatar for Camara clash - Formula 1",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 22 Nov 2026 09:35:00 GMT"
     },
     {
-      "author": "Formula 1",
+      "author": "Grandprix.com",
       "handle": "NewsRadar",
       "type": "Media Outlet",
       "weight": 0.8,
-      "text": "What is the weather forecast for the 2026 Hungarian Grand Prix? - Formula 1",
+      "text": "Verstappen says he would rather stay home than race in Qatar - Grandprix.com",
       "likes": "N/A",
       "retweets": "N/A",
-      "time": "Wed, 22 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "author": "Formula 1",
-      "handle": "NewsRadar",
-      "type": "Media Outlet",
-      "weight": 0.8,
-      "text": "What time is the 2026 Hungarian GP and how can I watch it? - Formula 1",
-      "likes": "N/A",
-      "retweets": "N/A",
-      "time": "Wed, 22 Jul 2026 07:00:00 GMT"
+      "time": "Sun, 22 Nov 2026 16:48:00 GMT"
     }
   ]
 }
