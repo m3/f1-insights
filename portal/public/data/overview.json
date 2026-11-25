@@ -1,6 +1,6 @@
 {
   "schema_version": "5.0",
-  "updatedAt": "2026-11-24T23:10:10.342027Z",
+  "updatedAt": "2026-11-25T05:25:35.763724Z",
   "timeline": {
     "format": "standard",
     "macroState": "PRE_WEEKEND",
@@ -1942,8 +1942,8 @@
   "qualifyingResults": [],
   "socialSentiment": {
     "version": "2026.3",
-    "overallSentiment": "NEUTRAL",
-    "sentimentScore": 55,
+    "overallSentiment": "POSITIVE",
+    "sentimentScore": 62,
     "monitoredAccountsCount": 11,
     "youtubeSourcesCount": 5,
     "trendingHashtags": [
@@ -2012,7 +2012,7 @@
         "code": "NOR",
         "handle": "LandoNorris",
         "team": "McLaren",
-        "score": 65,
+        "score": 72,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LandoNorris"
       },
@@ -2021,7 +2021,7 @@
         "code": "PIA",
         "handle": "OscarPiastri",
         "team": "McLaren",
-        "score": 61,
+        "score": 68,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @OscarPiastri"
       },
@@ -2030,7 +2030,7 @@
         "code": "LEC",
         "handle": "Charles_Leclerc",
         "team": "Ferrari",
-        "score": 57,
+        "score": 64,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Charles_Leclerc"
       },
@@ -2039,7 +2039,7 @@
         "code": "HAM",
         "handle": "LewisHamilton",
         "team": "Ferrari",
-        "score": 53,
+        "score": 60,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LewisHamilton"
       },
@@ -2048,7 +2048,7 @@
         "code": "VER",
         "handle": "Max33Verstappen",
         "team": "Red Bull",
-        "score": 49,
+        "score": 56,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @Max33Verstappen"
       },
@@ -2057,7 +2057,7 @@
         "code": "LAW",
         "handle": "LiamLawson30",
         "team": "Red Bull",
-        "score": 45,
+        "score": 52,
         "sentiment": "Mixed",
         "buzz": "Monitored engagement around @LiamLawson30"
       }
@@ -2068,50 +2068,50 @@
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
         "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "Formula 1",
+        "author": "Audi Revolut F1 Team",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "What is the weather forecast for the 2026 Hungarian Grand Prix? - Formula 1",
+        "text": "Formula 1 2026 Grand Prix Schedule - Audi Revolut F1 Team",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Wed, 22 Jul 2026 07:00:00 GMT"
+        "time": "Tue, 24 Nov 2026 16:28:31 GMT"
+      },
+      {
+        "author": "McLaren",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Forbes",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       },
       {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
+        "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "What time is the 2026 Hungarian GP and how can I watch it? - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 22 Jul 2026 07:00:00 GMT"
       }
     ],
     "xTracksideFeed": [
@@ -2120,50 +2120,50 @@
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
         "text": "Norris beats Verstappen and Antonelli to victory in Hungary - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Sun, 26 Jul 2026 07:00:00 GMT"
       },
       {
-        "author": "Formula 1",
+        "author": "Audi Revolut F1 Team",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "What is the weather forecast for the 2026 Hungarian Grand Prix? - Formula 1",
+        "text": "Formula 1 2026 Grand Prix Schedule - Audi Revolut F1 Team",
         "likes": "N/A",
         "retweets": "N/A",
-        "time": "Wed, 22 Jul 2026 07:00:00 GMT"
+        "time": "Tue, 24 Nov 2026 16:28:31 GMT"
+      },
+      {
+        "author": "McLaren",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "2026 HUNGARIAN GRAND PRIX \u2013 RACE REPORT - McLaren",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sun, 26 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "author": "Forbes",
+        "handle": "NewsRadar",
+        "type": "Media Outlet",
+        "weight": 0.8,
+        "text": "Starting Grid For The 2026 F1 Hungarian Grand Prix After Penalties - Forbes",
+        "likes": "N/A",
+        "retweets": "N/A",
+        "time": "Sat, 25 Jul 2026 07:00:00 GMT"
       },
       {
         "author": "Formula 1",
         "handle": "NewsRadar",
         "type": "Media Outlet",
         "weight": 0.8,
-        "text": "CIRCUIT GUIDE: Everything you need to know about the Hungaroring - Formula 1",
+        "text": "Facts, stats and trivia ahead of the 2026 Hungarian GP - Formula 1",
         "likes": "N/A",
         "retweets": "N/A",
         "time": "Thu, 23 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "author": "Formula 1",
-        "handle": "NewsRadar",
-        "type": "Media Outlet",
-        "weight": 0.8,
-        "text": "What time is the 2026 Hungarian GP and how can I watch it? - Formula 1",
-        "likes": "N/A",
-        "retweets": "N/A",
-        "time": "Wed, 22 Jul 2026 07:00:00 GMT"
       }
     ]
   }
